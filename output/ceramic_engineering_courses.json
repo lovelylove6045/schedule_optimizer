@@ -1,0 +1,322 @@
+[
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 2002  Cooperative Training (IND 1.0-3.0)",
+        "description": "On-the-job experience gained through cooperative education with industry, with credit arranged through departmental cooperative advisor. Grade received depends on quality of reports submitted at work supervisor's evaluation."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 2010  Seminar (RSD 0.50)",
+        "description": "An introduction to the study of ceramic engineering at Missouri S&T. Students will become acquainted with faculty, facilities, student and professional organizations, and available resources for personal and professional development."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 2110  Atomic Structure Of Crystalline Ceramics (LEC 3.0)",
+        "description": "The crystal-chemical principles used to design and manufacture materials with specified properties are developed and applied to oxides, clays, silicates and other nonmetallic compounds."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 2120  Introduction To Glass Science And Technology (LEC 3.0)",
+        "description": "A study of the atomic-level structure of oxide glasses and the relationships between composition, properties and structure of glass-forming systems. Simple rate processes will be introduced to explain temperature-dependent properties. Prerequisite: \"C\" or better grade in Cer Eng 2110."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 2210  Ceramics In The Modern World (LEC 2.0)",
+        "description": "An introduction to traditional and modern applications of ceramics providing a broad overview of all aspects of current ceramic technology."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 2315  Ceramic Materials Laboratory I-Characterization Of Materials (LAB 2.0)",
+        "description": "Laboratory experience in collection, beneficiation, and characterization of ceramic raw materials; granulation, compaction, and sintering of particulate materials; and characterization at an introductory level. Standard laboratory practice including safety, report writing, and error analysis are also emphasized. Prerequisite: Sophomore standing."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 2325  Ceramic Materials Laboratory II Glass And Ceramic Processing (LAB 2.0)",
+        "description": "Laboratory experience in design, processing, and characterization of glasses and ceramics. Glasses are formulated, melted and characterized to correlate composition and properties. Clay-based ceramics are formulated to meet performance specifications, prepared by slip casting/extrusion, and fired. Prerequisite: \"C\" or better grade in Cer Eng 2315."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 3001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable Title."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 3010  Seminar (RSD 0.50)",
+        "description": "A professional development seminar for junior-level ceramic engineering students. Prerequisites: Cer Eng 2010 or consent of instructor."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 3110  Introduction to Biomedical Engineering (LEC 3.0)",
+        "description": "This course will provide an introduction to the interdisciplinary field of biomedical engineering. The molecular, cellular, physiological and engineering principles that govern the field will be covered. Applications will include biomaterials, tissue engineering, biomechanics, bioimaging, bioinstrumentation, bio-nanotechnology and artificial organs. Prerequisite: Junior standing or above. (Co-listed with Bio Sci 3110 and Chem Eng 3210)."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 3210  Thermal Processes In Ceramics (LEC 3.0)",
+        "description": "Considerations in rate controlled processes in the fabrication of ceramics, packing of powders, comminution and calcination, drying and firing of ceramic ware, polymorphic transformations, sintering, grain growth and hot pressing, relationships of fabrication techniques to physical properties."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 3220  Phase Equilibria (LEC 3.0)",
+        "description": "The study of unary, binary and ternary inorganic, phase equilibrium systems with examples for solving practical engineering problems. Prerequisite: A grade of \"C\" or better in Cer Eng 3230."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 3230  Thermodynamics of Materials (LEC 3.0)",
+        "description": "Basic thermodynamic concepts are applied to materials. Calculations involving enthalpy, entropy, and Gibbs' free energy are studied. Inter-relationships among properties are emphasized. Fundamental concepts of phase equilibria are presented. Prerequisite: A grade of \"C\" or better in either Met Eng 1210 or Chem 1320. (Co-listed with Met Eng 3230 and Semi Eng 3230)."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 3240  Applied Glass Forming (LAB 1.0 and LEC 1.0)",
+        "description": "Examines the properties and behavior of molten glass along with basic forming techniques, including off-hand shaping, molding and casting. Prerequisites: A grade of \"C\" or better in Cer Eng 2210."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 3315  Ceramic Processing Lab I (LAB 2.0)",
+        "description": "The first half of a two-semester sequence that gives students practical knowledge of the methods and techniques used in the fabrication of ceramics. Prerequisite: \"C\" or better grade in Cer Eng 2325."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 3325  Ceramic Processing Lab II (LAB 2.0)",
+        "description": "The second half of a two-semester sequence that gives students practical knowledge of the methods and techniques used in the fabrication of ceramics. Prerequisite: A grade of \"C\" or better in Cer Eng 2325."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 3410  Characterization Of Inorganic Solids (LEC 3.0)",
+        "description": "X-ray diffraction analysis is emphasized including lattice parameter determination, qualitative and quantitative analysis methods, and sources of error. In addition, the basic principles of other common characterization techniques including electron microscopy, thermal analysis, and energy dispersive spectroscopy are discussed. Prerequisite: A grade of \"C\" or better in Cer Eng 2110, Met Eng 2110, Semi Eng 2100 or a similar introductory course on structure of solids. (Co-listed with Semi Eng 3410)."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 3425  Ceramic Properties Laboratory (LAB 1.0 and LEC 1.0)",
+        "description": "Laboratory measurement and analysis of fundamental ceramic properties through use of standard test methods. Prerequisites: A grade of \"C\" or better in Cer Eng 3315."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 4001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 4096  Materials Senior Design I (LEC 3.0)",
+        "description": "Overview of the methods, approaches, and techniques required to execute materials related capstone senior design projects. Formation of teams, assignment of projects, review of department curriculum concepts and topics, and comprehensive project management skills needed to complete projects will be used as means to learn the design process. Prerequisites: A grade of \"C\" or better in Met Eng 3125 and Met Eng 2125, or Cer Eng 3315 or Semi Eng 3101. (Co-listed with Met Eng 4096 and Semi Eng 4096)."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 4097  Materials Senior Design II (LAB 3.0)",
+        "description": "A continuation of the Materials Senior Design I. Students working in groups will complete a capstone design project including process and product simulation and/or fabrication, safety aspects, environmental impact and capital and operating economics. Prerequisite: A grade of \"C\" or better in either Cer Eng 4096 or Met Eng 4096 or Semi Eng 4096. (Co-listed with Met Eng 4097 and Semi Eng 4097)."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six (6) credit hours allowed for graduation credit. Subject and credit to be arranged with the instructor."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 4220  Mechanical Properties Of Ceramics (LEC 3.0)",
+        "description": "This course will treat the theory and testing practice related to design based on the mechanical properties of ceramics. Prerequisite: A grade of \"C\" or better in Civ Eng 2210."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 4230  Introduction to Composite Materials (LEC 3.0)",
+        "description": "The objective of this course is to provide students a foundational understanding of process-structure-property relationships in composite materials. Topics will include composite architecture, constituents, and interfaces, fabrication techniques, introduction to macromechanical analytical treatments such as classical lamination theory, and design criteria. Prerequisites: Senior standing and a grade of \"C\" or better in Civ Eng 2210 or equivalent."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 4240  Electrical Properties Of Ceramics (LEC 3.0)",
+        "description": "The application of ceramic chemistry and physics to the development and evaluation of electronic, dielectric, magnetic, and optical properties. Emphasis is placed on the relationships between properties and crystal structure, defects, grain boundary nature, and microstructure. Prerequisite: \"C\" or better in Physics 2305."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 4250  Thermal Properties Of Ceramics (LEC 3.0)",
+        "description": "This course will teach the crystal physics underlying heat capacity, internal energy, phonon and photon conduction, and thermal expansion. These properties will be used to rationalize the behavior of a wide variety of ceramic materials in severe thermal environments. Prerequisite: A grade of \"C\" or better in Cer Eng 3220."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 4310  Ceramic Processing (LEC 3.0)",
+        "description": "Rudimentary theory and practice of powder production, ceramic suspension rheology, forming methods, drying, sintering and grain growth. Relation of processing steps to densification and microstructure development. Prerequisite: Cer Eng 3210 and Junior standing."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 4410  Introduction to Integrated Computational Materials Engineering (LAB 1.0 and LEC 2.0)",
+        "description": "This course will provide an introduction to different computational tools for studying materials at different length scales. Several atomistic, microscale, and continuum models will be introduced and bridging between different modeling scales will be discussed. This course has a computational laboratory to build models and run simulations. Prerequisites: A grade of \"C\" or better in both Cer Eng 3230 and Math 3304, and in either Cer Eng 2110 or Met Eng 2110."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 5001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 5002  Cooperative Training (IND 1.0-3.0)",
+        "description": "On-the-job experience gained through cooperative education with industry, with credit arranged through departmental cooperative advisor. Grade received depends on quality of reports submitted at work supervisor's evaluation."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 5040  Oral Examination (IND 0.0)",
+        "description": "After completion of all other program requirements, oral examinations for on-campus M.S./Ph.D. students may be processed during intersession. Off-campus M.S. students must be enrolled in oral examination and must have paid an oral examination fee at the time of the defense/comprehensive examination (oral/ written). All other students must enroll for credit commensurate with uses made of facilities and/or faculties. In no case shall this be for less than three (3) semester hours for resident students."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 5099  Research (IND 0.0-15)",
+        "description": "Investigations of an advanced nature leading to the preparation of a thesis or dissertation. Consent of instructor required."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 5115  X-Ray Diffraction Analysis (LAB 1.0 and LEC 2.0)",
+        "description": "Theory and practical aspects of x-ray diffraction analysis are covered including diffraction theory, qualitative and quantitative analysis techniques, electronic databases, and operation of modern powder diffractometers. Prerequisite: Preceded or accompanied by Cer Eng 3410."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 5230  Glass Science And Engineering (LEC 3.0)",
+        "description": "The development, manufacturing methods, applications, and properties of flat, fiber, container, chemical, and special purpose glasses. Composition/property relationships for glasses and nucleation-crystallization processes for glass-ceramics are also covered. Prerequisite: Senior or graduate standing."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 5250  Refractories (LEC 3.0)",
+        "description": "The manufacture, properties, uses, performance, and testing of basic, neutral and acid refractories. Prerequisite: Cer Eng 3230."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 5310  Advanced Ceramic Processing (LEC 3.0)",
+        "description": "Materials, processing and design of microelectronic ceramics are covered. Introduction to devices, triaxial ceramics, high aluminas, tape fabrication, metallizations, thick film processing and glass-to-metal seals. Prerequisites: Cer Eng 3210 and Cer Eng 3325."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 5420  Optical Properties Of Materials (LEC 3.0)",
+        "description": "The objective of this course is to give the student a fundamental understanding of the structure-optical property relationships exhibited by isotropic and anisotropic materials. Topics will include the wave/particle nature of light, how light interacts with materials, color, and applications such as lasers, fiber optic communication systems, electro-optics, and integrated optics. Prerequisites: Physics 2135 or Physics 2111 and Math 2222."
+    },
+    {
+        "subject_id": 38,
+        "department_id": 16,
+        "subject_code": "CER ENG",
+        "subject_name": "Ceramic Engineering",
+        "course": "CER ENG 5810  Principles Of Engineering Materials (LEC 3.0)",
+        "description": "Examination of engineering materials with emphasis on selection and application of materials in industry. Particular attention is given to properties and applications of materials in extreme temperature and chemical environments. A discipline specific design project is required. (Not a technical elective for undergraduate metallurgy or ceramic majors) (Co-listed with Aero Eng 3877, Chem Eng 5300, Physics 4523, Met Eng 5810)."
+    }
+]

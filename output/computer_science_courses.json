@@ -1,0 +1,730 @@
+[
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 1000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 1001  Special Topics (LAB 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 1010  Introduction To Computer Science (LEC 1.0)",
+        "description": "This course is devoted to an introduction of programming development tools such as version control systems, integrated development environments, debuggers, profilers, and event-based programming environments."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 1200  Discrete Mathematics for Computer Science (LEC 3.0)",
+        "description": "This course provides a rigorous treatment of topics from discrete mathematics which are essential to computer science. Principal topics include: formal logic (propositional & predicate), set theory, proof techniques, mathematical induction, program correctness, combinatorics, discrete probability, relations, functions, matrices, and graph theory. Prerequisite: A grade of \"C\" or better in either Comp Sci 1500 or Comp Sci 1570 and in one of Math 1120, Math 1140, Math 1210, Math 1211, or Math 1214."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 1500  Computational Problem Solving (LAB 1.0 and LEC 2.0)",
+        "description": "This course provides a rigorous introduction to computational problem solving, thinking, and debugging, for those with little-to-no experience in computer science. Language-agnostic foundations focus on pseudo-code, flowcharts, and software-based code tracing, then build to programming in a high-level interpreted language, with a focus on data and modeling."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 1570  Introduction To C++ Programming (LEC 3.0)",
+        "description": "Object-Oriented Programming design and development in C++. Emphasis placed on good programming practices. Topics include syntax/semantics, operators, control flow/decision branching, memory management, functions, file I/O, C-strings, arrays, pointers, classes, templates, inheritance, polymorphism, and exception handling. This course is programming intensive. Prerequisites: A grade of \"C\" or better in Comp Sci 1500 or in both of Comp Sci 1971 and Comp Sci 1981, or in both of Comp Sci 1973 and Comp Sci 1983. Corequisites: Comp Sci 1580."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 1575  Data Structures (LEC 3.0)",
+        "description": "A continuation of Object-Oriented Programming, with emphasis on the efficient organization of data through Abstract Data Types and Data Structures. Topics include Linked Lists, Vectors, Stacks, Queues, Trees, Hash Tables, Graphs and their use in a variety of algorithms. Recursive programming techniques are also covered. This course is programming intensive. Prerequisite: Grade of \"C\" or better in Comp Sci 1570."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 1580  Introduction To Programming Laboratory (LAB 1.0)",
+        "description": "Practical applications of concepts learned in Computer Science 1570. Hands-on instruction in C++ developing, debugging, and testing programming projects. Corequisite: Comp Sci 1570."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 1585  Data Structures Laboratory (LAB 1.0)",
+        "description": "This laboratory course provides hands-on activities that complement the concepts taught in Comp Sci 1575. Specifically, students will implement elementary data structures (e.g. lists, stacks, queues, trees, hash tables, disjoint sets, graphs) covered in Comp Sci 1575 using an object-oriented programming language. Furthermore, students will also practice the application of these data structures in new problems that are not originally covered in Comp Sci 1575. Prerequisite: Accompanied by Comp Sci 1575."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 1911  Computer Science Concepts (LEC 3.0)",
+        "description": "Introduces students to foundational concepts of computer science and challenges them to explore how computing and technology can impact the world. Learn the principles that underlie the science of computing and develop the thinking skills that computer scientists use. This course can be used as a free elective, but not as a CompSci elective."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 1970  Basic Scientific Programming (LEC 2.0)",
+        "description": "Introduction to the structure of programs and programming techniques in Fortran to solve science and engineering problems. Topics include data representation, basic solutions of numerical problems and the debugging and verification of programs. Prerequisite: Entrance requirements."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 1971  Introduction To Programming Methodology (LEC 2.0)",
+        "description": "Basic structured programming and problem solving techniques using C++. Development, debugging, and testing of programs, data representation. Topics to include syntax/semantics, operators, loops, decision branching, arrays, file I/O. This course is a terminal course for non-majors and is not sufficient for entry into Computer Science 1575."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 1972  Introduction to MATLAB Programming (LEC 2.0)",
+        "description": "Programming design and development using MATLAB for non-CS majors. Strong emphasis placed on algorithmic problem solving methods using good programming practices. Introduction to built-in functions including plotting, as well as logical/relational/arithmetic operators, decision branching, loops, functions, file I/O, datastructures, and output formatting. Prerequisite: Accompanied by Comp Sci 1982 and a grade of \"C\" or better in one of Math 1211 or Math 1214."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 1973  Introduction to Python Programming (LEC 2.0)",
+        "description": "Programming design and development using Python for non-CS majors. Strong emphasis placed on algorithmic problem solving and applications in diverse fields. Covers foundational concepts - variables, logical/relational/arithmetic operators, decision branching, loops, functions, file I/O, data structures, output formatting and plotting, alongside good programming practices. No prior programming experience required. Prerequisites: A grade of \"C\" or better in one of Math 1211 or Math 1214. Corequisites: Comp Sci 1983."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 1980  Computer Programming Laboratory (LAB 1.0)",
+        "description": "A laboratory to accompany Comp Sci 1970 which emphasizes the designing, writing and debugging of programs in Fortran. Prerequisite: Accompanied by Comp Sci 1970."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 1981  Programming Methodology Laboratory (LAB 1.0)",
+        "description": "A hands-on introduction to structured programming in C++. Development, coding, debugging, and execution of programming concepts discussed in Computer Science 1971. Prerequisite: Accompanied by Computer Science 1971."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 1982  MATLAB Programming Laboratory (LAB 1.0)",
+        "description": "Practical application of concepts learned in Comp Sci 1972. Hands-on instruction in MATLAB developing, debugging and testing programming projects. Prerequisite: Accompanied by Comp Sci 1972."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 1983  Python Programming Laboratory (LAB 1.0)",
+        "description": "Practical application of concepts learned in Comp Sci 1973. Hands-on instruction in Python developing, debugging and testing programming projects. Prerequisites: A grade of \"C\" or better in one of Math 1211 or Math 1214. Corequisites: Comp Sci 1973."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 2000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 2001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 2002  Cooperative Work Training (IND 1.0-5.0)",
+        "description": "On-the-job experience gained through cooperative education with industry, with credit arranged through departmental cooperative advisor. Grade received depends on quality of reports submitted and work supervisors evaluation. Not more than 9 hours may be applied to the B.S. degree."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 2200  Theory of Computer Science (LEC 3.0)",
+        "description": "This course will cover the theoretical underpinnings of computer science. In particular, this course will cover the following topics: basic computability and formal language concepts, regular languages, context free languages, recursively-enumerable languages, and classes P, NP, and NP-completeness. Prerequisite: A grade of \"C\" or better in both Comp Sci 1200 and Comp Sci 1575."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 2300  File Structures and Introduction to Database Systems (LEC 3.0)",
+        "description": "Course covers major topics in file structures and database systems including techniques for disk access and organization, record and file structures, index structures, sequential file, dense/sparse and secondary indexes, B-trees, range queries, insertion/deletion, hash tables, fundamentals of database systems, the ER model, relational model, algebra and SQL. Prerequisite: A grade of \"C\" or better in Comp Sci 1575."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 2500  Algorithms (LEC 3.0)",
+        "description": "Students will solve recurrence relations, analyze algorithms for correctness and time/space complexity, apply these analysis techniques to fundamental dynamic programming, greedy, shortest-path, minimal spanning trees, and maximum flow algorithms and validate these analyses through programming. Prerequisite: A grade of \"C\" or better in both Comp Sci 1200 and Comp Sci 1575; preceded or accompanied by a grade of \"C\" or better in either Math 1211 or Math 1214."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 2501  Java and Object Oriented Design (LEC 3.0)",
+        "description": "This course will cover Basic Java, Applets, Application, Classes, interfaces, Strings, Arrays, Generics, inheritance, Polymorphism, Algorithm and Object Oriented Design, Software Testing, Exception Handling, File I/O. The use of Graphical User Interfaces in program design and introduction to Software Life Cycle. Project included. Prerequisite: A \"C\" or better grade in Comp Sci 1570."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 2580  Algorithms Laboratory (LAB 1.0)",
+        "description": "This laboratory course focuses on the application of concepts learned in Comp Sci 2500. Specifically, students will implement algorithms covered in the class and measure the runtimes of various algorithms on varying inputs to empirically analyze their scalability with input size in terms of memory and runtime. In addition, students will also design and analyze new algorithms for relevant problems that are not covered in Comp Sci 2500. Corequisites: Comp Sci 2500."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 3001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 3010  Seminar (IND 0.0-6.0)",
+        "description": "Discussion of current topics."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 3100  Software Engineering I (LEC 3.0)",
+        "description": "This course introduces the fundamental principles within a classical software engineering life cycle, including software process, analysis and design. Topics include requirement specifications, design, implementation, management and testing phases. Prerequisite: A grade of \"C\" or better in Comp Sci 2500 and at least Junior standing."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 3200  Introduction To Numerical Methods (LEC 3.0)",
+        "description": "Finite difference interpolation, numerical differentiation and integration, linear systems of equations, solution of nonlinear equations, numerical solution of ordinary differential equations, computational techniques and the programming of a large number of problems on digital computers. Prerequisites: Program competency and a grade of \"C\" or better in Math 1215."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 3402  Introduction to Data Science (LEC 3.0)",
+        "description": "This course provides an entry into data science. It covers concepts involved in obtaining and processing data, and deriving insight from data. The course includes standard tools and techniques (UNIX, Python and MySQL), data analytics (predictive), problem solving with data (collection, analysis, evaluation), machine learning, and applications. Prerequisite: A grade of \"C\" or better in Comp Sci 1500, Comp Sci 2300, and one of Stat 3113, Stat 3115, Stat 3117, or Stat 5643."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 3500  Programming Languages And Translators (LEC 3.0)",
+        "description": "Covers basic design of programming languages, compilers and interpreters. The concepts of syntax, variables, expressions, types, scope, functions, procedures, statements, I/O, exception handling and concurrency are introduced. The manner in which various programming languages handle these concepts is discussed. Prerequisite: A \"C\" or better grade in Comp Sci 2200."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 3601  Digital Forensics (LEC 3.0)",
+        "description": "Planning/managing incidents and response related to digital forensics; identifying, collecting, and preserving digital evidence; live/dead approaches covering systems as a whole emphasizing file system forensics; analysis and interpretation of artifacts culminating in a final project consisting of a collection, analysis, and report; legal and ethical issues. Prerequisites: A grade of \"C\" or better in Comp Sci 3800."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 3610  Introduction to Computer Networks (LEC 3.0)",
+        "description": "This course covers general principles of computer networking, focusing primarily on internet protocols. It covers the TCP/IP stack, with the application layer first, moving down through link and physical layers. Topics include network virtualization, security, wireless, and mobile networks, with extensive live protocol analysis. Coursework is project based. Prerequisites: A grade of \"C\" or better in Comp Sci 3800."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 3800  Introduction to Operating Systems (LEC 3.0)",
+        "description": "This course teaches the concepts, structure, and mechanisms of Operating Systems. Topics include process management, concurrency, synchronization, deadlock, multithreading, memory management, scheduling, and internetworking. Special emphasis is given to Unix and its modern-day derivatives. Prerequisites: A grade of \"C\" or better in both Comp Sci 1575 and Comp Eng 2210."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 3803  Computer Organization and Design (LEC 3.0)",
+        "description": "Introduction to basic concepts of computer organization and design: metrics for computer performance, computer arithmetic, Von Neumann architecture, instruction implementation, control unit, pipelining, memory systems hierarchy, cache memories and basic I/O controllers. Prerequisites: Comp Eng 2210. (Co-listed with Comp Eng 3110)."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 4001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 4010  Seminar (RSD 1.0)",
+        "description": "Discussion of current topics. Prerequisite: Junior standing."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 4090  Software Engineering Capstone I (LEC 3.0)",
+        "description": "This is the first course in the Software Engineering Capstone sequence covering the Software Life Cycle. Students will learn about software engineering, and work in teams to spec, design, prototype, implement, test, document, deploy, and maintain a software system. This course is programming intensive, writing emphasized and addresses ethical considerations. Prerequisites: A grade of \"C\" or better in all of Comp Sci 2300, Comp Sci 2500, and Comp Sci 3610."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 4091  Software Engineering Capstone II (LEC 3.0)",
+        "description": "This is the second course in the Software Engineering Capstone sequence covering the Software Life Cycle. Students will learn about software engineering, and work in teams to spec, design, prototype, implement, test, document, deploy and maintain a software system. This course is programming intensive, writing emphasized and addresses ethical considerations. Prerequisites: A grade of \"C\" or better in both Comp Sci 4090 and Comp Sci 4610, and proceeded or accompanied by one of Philos 3225, Philos 3235, Philos 4340 or Philos 4368."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 4095  Software Systems Planning and Ethics (LEC 1.0)",
+        "description": "This is the first course in the software systems sequence where students will work in small teams to plan and document the design and development of a complete software system, which will then be prototyped, deployed and maintained in Comp Sci 4096. In addition, computer ethics will also be discussed in several lectures. Prerequisites: A grade of \"C\" or better in both Comp Sci 2300 and Comp Sci 3100."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 4096  Software Systems Development I (LEC 3.0)",
+        "description": "This is the second course in the software systems sequence where students will work in small teams to prototype, deploy and maintain the software system they planned in Comp Sci 4095. Prerequisites: 100 credit hours completed and a grade of \"C\" or better in both Comp Sci 3610 and Comp Sci 4095."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 4097  Software Systems Development II (LEC 3.0)",
+        "description": "This course is an optional continuation of Comp Sci 4096. Those interested in project management should take this course since participants become officers or group leaders in the class \"corporation.\" This course is especially important for those going straight into industry upon graduation. Students with coop experience may find this course redundant. Prerequisite: A grade of \"C\" or better in Comp Sci 4096 or Comp Sci 4091."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Does not lead to the preparation of a thesis. Not more than six (6) credit hours allowed for graduation credit. Subject and credit to be arranged with the faculty supervisor."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 4601  Computer Network Concepts And Technology (LEC 3.0)",
+        "description": "This course will introduce computer network concepts and will survey the current and evolving technology for the construction, operation, and management of those networks. Both hardware and software issues will be addressed with a focus on local area networks. Prerequisite: A \"C\" or better grade in Comp Sci 3800."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 4610  Computer Security (LEC 3.0)",
+        "description": "This course covers principles of threat-modeling, trust, and security policies. Topics include cryptography, reverse engineering, software security, malware analysis, authentication, access controls, operating systems hardening, virtualization, database security, and network security. This class is programming intensive and project based, with case-analyses. Prerequisites: A grade of \"C\" or better in Comp Sci 3610."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 4700  Intellectual Property For Computer Scientists (LEC 3.0)",
+        "description": "A presentation of the relationship between the law of intellectual property and computer science. Topics include the application of copyright principles to computer programs, protection of computer programs through patents and trade secret law, and the effect of various agreements which are frequently encountered by the computer scientist. Prerequisite: Senior or graduate standing."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5040  Oral Examination (IND 0.0)",
+        "description": "After completion of all other program requirements, oral examinations for on-campus M.S./Ph.D. students may be processed during intersession. Off-campus M.S. students must be enrolled in oral examination and must have paid an oral examination fee at the time of the defense/comprehensive examination (oral/ written). All other students must enroll for credit commensurate with uses made of facilities and/or faculties. In no case shall this be for less than three (3) semester hours for resident students."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5099  Research (IND 0.0-16)",
+        "description": "Investigations of an advanced nature leading to the preparation of a thesis or dissertation. Consent of instructor required."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5100  Agile Software Development (LEC 3.0)",
+        "description": "Understand principles of agile software development and contrast them with prescriptive processes. Specifically: Eliciting, organizing, and prioritizing requirements; Design processes; Understand how a particular process promotes quality; Estimate costs and measure project progress and productivity. Prerequisite: A \"C\" or better grade in Comp Sci 3100."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5101  Software Testing And Quality Assurance (LEC 3.0)",
+        "description": "It covers unit testing, subsystem testing, system testing, object-oriented testing, testing specification, test case management, software quality factors and criteria, software quality requirement analysis and specification, software process improvement, and software total quality management. Prerequisite: A \"C\" or better grade in Comp Sci 2500."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5102  Object-Oriented Analysis And Design (LEC 3.0)",
+        "description": "This course will explore principles, mechanisms, and methodologies in object-oriented analysis and design. An object-oriented programming language will be used as the vehicle for the exploration. Prerequisite: A \"C\" or better grade in Comp Sci 2500."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5111  Bridge to Advanced Computing (LEC 3.0)",
+        "description": "This course prepares science and engineering students, or those with insufficient computing background, for a pathway to a Master of Science in Applied Artificial Intelligence at Missouri S&T. Topics covered include Problem Solving with Computing, Discrete Mathematics, Data Structures, Programming Tools, and involves hands on practice in multiple programming languages. This course is not intended for undergraduate or Grad Track Pathway students."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5200  Analysis Of Algorithms (LEC 3.0)",
+        "description": "The purpose of this course is to teach the techniques needed to analyze algorithms. The focus of the presentation is on the practical application of these techniques to such as sorting, backtracking, and graph algorithms. Prerequisite: A \"C\" or better grade in Comp Sci 2500."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5201  Object-Oriented Numerical Modeling I (LEC 3.0)",
+        "description": "A study of object-oriented modeling of the scientific domain. Techniques and methodologies will be developed enabling the student to build a class library of reusable software appropriate for scientific application. Applications will be drawn from mechanics, finance, and engineering. Prerequisites: A grade of \"C\" or better in both Comp Sci 3200 and Comp Sci 1575; a grade of \"C\" or better in one of Math 3108, 3103, 3329."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5203  Mathematical Logic I (LEC 3.0)",
+        "description": "A mathematical introduction to logic with some applications. Functional and relational languages, satisfaction, soundness and completeness theorems, compactness theorems. Examples from Mathematics, Philosophy, Computer Science, and/or Computer Engineering. Prerequisite: Philos 3254 or Math 5105 or Comp Sci 2500 or Comp Eng 2210.  (Co-listed with Math 5154, Philos 4354 and Comp Eng 5803.)."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5204  Regression Analysis (LEC 3.0)",
+        "description": "Simple linear regression, multiple regression, regression diagnostics, multicollinearity, measures of influence and leverage, model selection techniques, polynomial models, regression with autocorrelated errors, introduction to non-linear regression. Prerequisites: Math 2222 and one of Stat 3113, Stat 3115, Stat 3117, or Stat 5643. (Co-listed with Stat 5346)."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5205  Real-Time Systems (LEC 3.0)",
+        "description": "Introduction to real-time (R-T) systems and R-T kernels, also known as R-T operating systems, with an emphasis on scheduling algorithms. The course also includes specification, analysis, design and validation techniques for R-T systems. Course includes a team project to design an appropriate R-T operating system. Prerequisites: COMP ENG 3150 or COMP SCI 3800. (Co-listed with Comp Eng 5170.)."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5206  Probability and Its Applications in Computing (LEC 3.0)",
+        "description": "This course covers fundamentals of probability and random processes with applications to computing and data analysis. Topics include probability fundamentals, concentration of measure, stochastic convergence, markov chains, and martingales. Prerequisites: A grade of \"C\" or better in Comp Sci 2500 and in one of Stat 3113, Stat 3115, Stat 3117, or Stat 5643."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5300  Database Systems (LEC 3.0)",
+        "description": "This course introduces the advanced database concepts of normalization and functional dependencies, transaction models, concurrency and locking, timestamping, serializability, recovery techniques, and query planning and optimization. Students will participate in programming projects. Prerequisite: A \"C\" or better grade in both Comp Sci 1200 and Comp Sci 2300."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5400  Introduction To Artificial Intelligence (LEC 3.0)",
+        "description": "A modern introduction to AI, covering important topics of current interest such as search algorithms, heuristics, game trees, knowledge representation, reasoning, computational intelligence, and machine learning. Students will implement course concepts covering selected AI topics. Prerequisite: A \"C\" or better grade in Comp Sci 2500."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5401  Evolutionary Computing (LEC 3.0)",
+        "description": "Introduces evolutionary algorithms, a class of stochastic, population-based algorithms inspired by natural evolution theory (e.g., genetic algorithms), capable of solving complex problems for which other techniques fail. Students will implement course concepts, tackling science, engineering and/or business problems. Prerequisite: A \"C\" or better grade in both Comp Sci 2500 and in a Statistics course."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5402  Introduction to Data Mining (LEC 3.0)",
+        "description": "The key objectives of this course are two-fold: (1) to teach the fundamental concepts of data mining and (2) to provide extensive hands-on experience in applying the concepts to real-world applications. The core topics to be covered in this course include classification, clustering, association analysis, data preprocessing, and outlier/novelty detection. Prerequisites: A grade of  \"C\" or better in Comp Sci 2300, and in one of Stat 3113, Stat 3115, Stat 3117 or Stat 5643."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5403  Introduction to Robotics (LEC 3.0)",
+        "description": "This course provides an introduction to robotics, covering robot hardware, fundamental kinematics, trajectories, differential motion, robotic decision making, and an overview of current topics in robotics. Prerequisite: A grade of \"C\" or better in both Math 3108 and Comp Sci 1575. (Co-listed with Comp Eng 5880 and Elec Eng 5880)."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5404  Introduction to Computer Vision (LEC 3.0)",
+        "description": "This course introduces foundational theories and analysis methods in computer vision. Topics will include camera model and geometry, description of visual features, shape analysis, stereo reconstruction, motion and video processing, and visual object recognition. Prerequisite: A \"C\" or better grade in both Math 3108 and Comp Sci 2500."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5405  Java Gui & Visualization (LEC 3.0)",
+        "description": "Fundamentals of Java Swing Foundation Classes, Java System Language Specifics, Graphical User Interfaces, Images, Audio, Animation, Networking, and Threading. Visualization of Algorithms. GUI Elements include Event Driven Programming, Interaction with Mouse and KeyBoard, Window Managers, Frames, Panels, Dialog Boxes, Borders. Prerequisite: A \"C\" or better grade in Comp Sci 2500 or equivalent."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5406  Interactive Computer Graphics (LEC 3.0)",
+        "description": "Applications and functional capabilities of current computer graphics systems. Interactive graphics programming including windowing, clipping, segmentation, mathematical modeling, two and three dimensional transformations, data structures, perspective views, antialiasing and software design. Prerequisite: A \"C\" or better grade in both Comp Sci 3200 and Comp Sci 2500."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5407  Introduction to Virtual Reality (LEC 3.0)",
+        "description": "Fundamentals: creative and digital skills. Houdini interface (Scene View, Network, Parameter panes), design facets (networks of nodes, navigation of networks interactive 3D modeling and visualization, digital assets, animation, lights, cameras, rendering), and simple applications of particles, dynamics, and fluids (Shattering, Destruction, Smoke, Fire). Prerequisites: A grade of \"C\" or better in both Comp Sci 2500 and Math 3108."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5408  Game Theory for Computing (LEC 3.0)",
+        "description": "This course introduces the mathematical and computational foundations of game theory, and its applications to computer science (e.g., cybersecurity, robotics and networking). Topics include decision rationality, game representations, equilibrium concepts (e.g., Nash equilibrium), Bayesian games, dynamic games, cooperative game theory, and mechanism design. Prerequisites: A grade of \"C\" or better in both Comp Sci 2500 and Math 3108, and in one of Stat 3113, Stat 3115, Stat 3117, or Stat 5643. (Co-listed with Comp Eng 5320)."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5409  Applied Social Network Analysis (LEC 3.0)",
+        "description": "In this course students will learn how to use networks to model and analyze relationships between people, artifacts, and ideas. Analyses will include identification of both communities and key individuals, and the modeling of diffusion processes such as the transmission of diseases. Methods will be practiced in programming assignments using Python. Prerequisites: A grade of \"C\" or better in Comp Sci 2500."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5411  Natural Language Processing (LEC 3.0)",
+        "description": "Natural Language Processing (NLP) is a dynamic field that focuses on the interaction between computers and human language. This course provides a deep exploration of NLP concepts, tools, and methodologies from foundational concepts such as part-of-speech tagging, syntactic structure and dependency parsing, language modeling to state-of-the-art advancements in machine translation and language generation, transformers and pre-trained large language models. Prerequisites: A grade of \"C\" or better in Comp Sci 2500, Math 3108, and in one of Stat 3113, Stat 3117, or Stat 5643."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5420  Introduction to Machine Learning (LEC 3.0)",
+        "description": "This course introduces foundational theories and techniques in machine learning. Topics will include basics of machine learning, learning theory, various regression and classification models, as well as unsupervised learning methods. Students will implement course concepts in intensive programming assignments and mini-projects. Prerequisite: A grade of \"C\" or better in Comp Sci 2500, Math 3108, and one of Stat 3113, Stat 3115, Stat 3117, or Stat 5643."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5421  Reinforcement Learning (LEC 3.0)",
+        "description": "This course introduces the fundamentals of reinforcement learning (RL) and its applications in robotics, games and biology. Topics covered include markov decision processes, planning (value iteration, policy iteration, and their analyses), monte-carlo methods, temporal difference learning (e.g. Q-learning), policy gradient methods, and partial observability. Prerequisites: A grade of \"C\" or better in both Comp Sci 1575 and Math 3108, and in one of Stat 3113, Stat 3117, or Stat 5643."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5480  Deep Learning (LEC 3.0)",
+        "description": "This course aims to offer a comprehensive exploration of the foundational concepts, core principles and algorithms underpinning deep learning. Topics would cover neural networks, loss functions, gradients and initialization, regularization, convolutional neural networks, residual networks, transformers, and so on. Students will also gain hands-on experience. Prerequisites: A grade of \"C\" or higher in Comp Sci 2500, Math 3108, and in one of Stat 3113, Stat 3115, Stat 3117, or Stat 5643."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5500  The Structure of a Compiler (LEC 3.0)",
+        "description": "Review of Backus normal form language descriptors and basic parsing concepts. Polish and matrix notation as intermediate forms, and target code representation. Introduction to the basic building blocks of a compiler: syntax scanning, expression translation, symbol table manipulation, code generation, local optimization, and storage allocation. Prerequisite: A \"C\" or better grade in both Comp Sci 3500 and Comp Sci 2500."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5600  Advanced Computer Networks (LEC 3.0)",
+        "description": "This course focuses on the principles of computer networking. It covers the TCP/IP model from the application layer to the physical layer. It is targeted toward entry-level graduate students. It also exposes students to wireless and mobile networks. It involves network performance modeling and analysis, and implementing communication protocols. Prerequisites: A grade of \"C\" or better in Comp Sci 3610."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5601  Security Operations & Program Management (LEC 3.0)",
+        "description": "An overview of information security operations, access control, risk management, systems and application life cycle management, physical security, business continuity planning, telecommunications security, disaster recovery, software piracy, investigations, ethics and more. There will be extensive reporting, planning and policy writing. Prerequisite: A \"C\" or better grade in all of: operating systems, computer networking, and a writing emphasized course."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5602  Introduction to Cryptography (LEC 3.0)",
+        "description": "Introduces fundamentals of modern cryptography. Topics include basic number theory, public & private key encryption schemes, cryptographic hash functions, message authentication codes, elliptic curve cryptography, Diffie-Hellman key agreements, digital signatures, PUFs, quantum cryptography, and generation of prime numbers and pseudo-random sequences. Prerequisites: A grade of \"C\" or better in COMP SCI 4610, or a grade of \"C\" or better in Math 3109. (Co-listed with MATH 5102)."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5603  Internet Security (LEC 3.0)",
+        "description": "This course provides an in-depth study of both theoretical and practical foundations in various aspects of internet security, with particular emphasis on network defense. Topics covered include cryptographic algorithms, authentication and access control in networked environments, along with key security standards including Kerberos, PKI, IPsec, and TLS/SSL. The course also explores real-world applications like web security. Prerequisites: A grade of \"C\" or better in Comp Sci 4610."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5604  Ethical Hacking (LEC 3.0)",
+        "description": "Introduction to hacking techniques and exploits for ethical purpose. Topics include pen test planning and scoping, rules of engagement, reconnaissance, port scanning, OS finger printing and version scanning, vulnerability scans, exploitation, post-exploitation strategies and pivoting, and password attacks. Prerequisites: A grade of \"C\" or better in Comp Sci 4610."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5605  AI Security (LEC 3.0)",
+        "description": "This course explores the emerging field of the vulnerabilities of Artificial Intelligence (AI) systems and how they can be defended against various threats. Topics include threat models such as white-box and black-box attacks, backdoor insertion, data poisoning techniques, as well as defense strategies such as adversarial training, input sanitization, and model watermarking. Prerequisites: A grade of \"C\" or better in Comp Sci 5400."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5700  Bioinformatics (LEC 3.0)",
+        "description": "The course will familiarize students with the application of computational methods to biology, as viewed from both perspectives. It will introduce problems in molecular, structural, morphological, and biodiversity informatics, and will discuss principles, algorithms, and software to address them. Prerequisites: A grade of \"C\" or better in both one of Bio Sci 1113 or Bio Sci 1213 and one of Comp Sci 1570 and Comp Sci 1580 or Comp Sci 1971 and Comp Sci 1981. (Co-listed with Bio Sci 5323)."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5701  Experiential Entrepreneurship for Computer Scientists (LEC 3.0)",
+        "description": "Students will work in teams mentored by experienced entrepreneurs to generate innovative ideas and transform them into business models for economically viable knowledge tech companies. Experiential learning will be used in live customer discovery, prototyping and market validation. The prototyping phase will contain a significant computer science component. Prerequisites: A grade of \"C\" or better in Comp Sci 3100 or Comp Sci 4090."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5800  Distributed Computing (LEC 3.0)",
+        "description": "This is an introduction to the fundamentals of distributed computing. Topics include a review of communication between distributed processes, causality, distributed state maintenance, failure detection, reconfiguration and recovery, distributed mutual exclusion, clock synchronization, and leader election. Students will implement select course concepts. Prerequisites: A grade of \"C\" or better in both Comp Sci 3800 and Comp Sci 2500."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5801  The Structure Of Operating Systems (LEC 3.0)",
+        "description": "The hardware and software requirements for operating systems for uniprogramming, multiprogramming, multiprocessing, time sharing, real time and virtual systems. The concepts of supervisors, interrupt handlers, input/output control systems, and memory mapping are discussed in detail. Prerequisite: A \"C\" or better grade in Comp Sci 3800."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5802  Introduction to Parallel Programming and Algorithms (LEC 3.0)",
+        "description": "Parallel and pipelined algorithms, architectures, network topologies, message passing, process scheduling and synchronization. Parallel programming on clusters. Cost, speedup and efficiency analysis. Prerequisite: A \"C\" or better grade in both Comp Sci 3800 and Comp Sci 2500."
+    },
+    {
+        "subject_id": 28,
+        "department_id": 13,
+        "subject_code": "COMP SCI",
+        "subject_name": "Computer Science",
+        "course": "COMP SCI 5803  Principles of Computer Architecture (LEC 3.0)",
+        "description": "Principles of performance measurement and instruction set design; advanced issues in pipelining; instruction level parallelism (dynamic scheduling, branch prediction, multi-issue processors); memory hierarchies for superscalar processors; multiprocessors; multi-threading; storage systems; and interconnection networks. Prerequisite: Comp Eng 3110. (Co-listed with Comp Eng 5110)."
+    }
+]

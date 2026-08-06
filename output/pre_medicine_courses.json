@@ -1,0 +1,18 @@
+[
+    {
+        "subject_id": 53,
+        "department_id": 24,
+        "subject_code": "PREMED",
+        "subject_name": "Pre-Medicine",
+        "course": "PREMED 1211  Introduction To Health Careers (LEC 1.0)",
+        "description": "This course is for Pre-Medicine students or other interested in careers in the health care industry. Students will be introduced to different career options through invited speakers and independent research. Prerequisite: Admission Requirements."
+    },
+    {
+        "subject_id": 53,
+        "department_id": 24,
+        "subject_code": "PREMED",
+        "subject_name": "Pre-Medicine",
+        "course": "PREMED 3010  Communication Workshop for the Pre-Health Student (RSD 1.0)",
+        "description": "This course is for Pre-Medicine students or others interested in careers in the health care industry or graduate studies. Students in this course will learn and develop writing and speaking skills necessary for success in health and science careers. Prerequisite: Junior Standing."
+    }
+]

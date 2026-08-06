@@ -1,0 +1,178 @@
+[
+    {
+        "subject_id": 14,
+        "department_id": 5,
+        "subject_code": "SP&M S",
+        "subject_name": "Speech & Media Studies",
+        "course": "SP&M S 1185  Principles Of Speech (LEC 3.0)",
+        "description": "A study of the arts of expression, oral communication, and listening (theory and practice); effective interaction of speech, speaker, listener, and occasion. Prerequisite: Entrance requirements. SP&M S 1185 - MOTR COMM 110: Fundamentals of Public Speaking"
+    },
+    {
+        "subject_id": 14,
+        "department_id": 5,
+        "subject_code": "SP&M S",
+        "subject_name": "Speech & Media Studies",
+        "course": "SP&M S 2000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 14,
+        "department_id": 5,
+        "subject_code": "SP&M S",
+        "subject_name": "Speech & Media Studies",
+        "course": "SP&M S 2001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 14,
+        "department_id": 5,
+        "subject_code": "SP&M S",
+        "subject_name": "Speech & Media Studies",
+        "course": "SP&M S 2181  Communication Theory (LEC 3.0)",
+        "description": "Deals with the concerns addressed by communication theory: language, cybernetics, visual arts, general semantics, information theory, and electronic communications. The university's fairly extensive media and communications resources are made use of, both for their content and for a study of the impact of their forms upon the transfer of information."
+    },
+    {
+        "subject_id": 14,
+        "department_id": 5,
+        "subject_code": "SP&M S",
+        "subject_name": "Speech & Media Studies",
+        "course": "SP&M S 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 14,
+        "department_id": 5,
+        "subject_code": "SP&M S",
+        "subject_name": "Speech & Media Studies",
+        "course": "SP&M S 3001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 14,
+        "department_id": 5,
+        "subject_code": "SP&M S",
+        "subject_name": "Speech & Media Studies",
+        "course": "SP&M S 3010  Seminar (IND 0.0-6.0)",
+        "description": "Discussion of current topics."
+    },
+    {
+        "subject_id": 14,
+        "department_id": 5,
+        "subject_code": "SP&M S",
+        "subject_name": "Speech & Media Studies",
+        "course": "SP&M S 3221  Fundamentals in Photography (LEC 3.0)",
+        "description": "In this course the student will learn the basics of photographic composition and the use of the digital camera. A brief history of photography will provide context for the student's own development. Prerequisite: Sp&M S 1185 or 2181 (required for Speech minor credit); Art 1180 or Art 1185 (required for Art minor credit). (Co-listed with Art 3221)."
+    },
+    {
+        "subject_id": 14,
+        "department_id": 5,
+        "subject_code": "SP&M S",
+        "subject_name": "Speech & Media Studies",
+        "course": "SP&M S 3235  Intercultural Communication (LEC 3.0)",
+        "description": "Examines the range of human differences as variables in the communication process; emphasis on broadening individual perspectives regarding the range of human experience. Particularly useful for students who will work and live in environments unlike those previously encountered. Prerequisite: Sp&M S 1185 or English 1120 or History 1200."
+    },
+    {
+        "subject_id": 14,
+        "department_id": 5,
+        "subject_code": "SP&M S",
+        "subject_name": "Speech & Media Studies",
+        "course": "SP&M S 3245  Voice, Diction and Interpretation (LEC 3.0)",
+        "description": "Training the speaking voice; study of vocal mechanism, breathing, projection, articulation, enunciation; practical application of speaking principles in oral interpretation reading; mastering clarity and variation of speech through vocal exercises. Students will attend one on-campus play to review the speech of one of the actors (Co-listed with Theatre 3245)."
+    },
+    {
+        "subject_id": 14,
+        "department_id": 5,
+        "subject_code": "SP&M S",
+        "subject_name": "Speech & Media Studies",
+        "course": "SP&M S 3250  Interpersonal Communication (LEC 3.0)",
+        "description": "Explores the theoretical and practical dimensions of human communication in significant one-on-one relationships. Emphasis on theoretical approaches to identify and achieve particular outcomes desired in professional and personal interactions."
+    },
+    {
+        "subject_id": 14,
+        "department_id": 5,
+        "subject_code": "SP&M S",
+        "subject_name": "Speech & Media Studies",
+        "course": "SP&M S 3255  Discussion And Conference Methods (LEC 3.0)",
+        "description": "Explores the theoretical and practical dimensions of human communication in task-oriented small groups with emphasis on producing desired outcomes. Particularly useful for students who wish to improve their ability to work in small group environments. Prerequisite: English 1120 or Sp&M S 1185."
+    },
+    {
+        "subject_id": 14,
+        "department_id": 5,
+        "subject_code": "SP&M S",
+        "subject_name": "Speech & Media Studies",
+        "course": "SP&M S 3265  Leadership Communication (LEC 3.0)",
+        "description": "This course explores various approaches to leadership with emphasis on the communication theories and behaviors associated with leadership in modern corporate and public contexts. Prerequisites: Sp&M S 2181, 3250."
+    },
+    {
+        "subject_id": 14,
+        "department_id": 5,
+        "subject_code": "SP&M S",
+        "subject_name": "Speech & Media Studies",
+        "course": "SP&M S 3270  Leadership Practices (LEC 3.0)",
+        "description": "This course provides opportunities for students to do qualitative and quantitative research in leadership, small group, and organizational communication. Prerequisites: SP&M S 5265."
+    },
+    {
+        "subject_id": 14,
+        "department_id": 5,
+        "subject_code": "SP&M S",
+        "subject_name": "Speech & Media Studies",
+        "course": "SP&M S 3275  Foundations of Media Communication (LEC 3.0)",
+        "description": "The course explores the historical, social, and psychological impact of media through study and practice of academic and non-academic theories of effective media communication. The course supplies an integrated critical framework for application in student's day-to-day consumption of media. Prerequisite: Sp&M S 1185. (Co-listed with  Art 3275)."
+    },
+    {
+        "subject_id": 14,
+        "department_id": 5,
+        "subject_code": "SP&M S",
+        "subject_name": "Speech & Media Studies",
+        "course": "SP&M S 3283  Business And Professional Communication (LEC 3.0)",
+        "description": "Examines culture and communication in the workplace from theoretical and practical perspectives. Topics include: group communication, interviewing, networking, planning and presenting material to technical and general audiences interpersonal communication and leadership in the workplace context. Prerequisites: Sp&M S 1999, 2181 or permission of instructor."
+    },
+    {
+        "subject_id": 14,
+        "department_id": 5,
+        "subject_code": "SP&M S",
+        "subject_name": "Speech & Media Studies",
+        "course": "SP&M S 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects of projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 14,
+        "department_id": 5,
+        "subject_code": "SP&M S",
+        "subject_name": "Speech & Media Studies",
+        "course": "SP&M S 4001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 14,
+        "department_id": 5,
+        "subject_code": "SP&M S",
+        "subject_name": "Speech & Media Studies",
+        "course": "SP&M S 4010  Seminar (IND 0.0-6.0)",
+        "description": "Discussion of current topics. Prerequisite: Senior standing."
+    },
+    {
+        "subject_id": 14,
+        "department_id": 5,
+        "subject_code": "SP&M S",
+        "subject_name": "Speech & Media Studies",
+        "course": "SP&M S 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Graduate level problems or readings on specific subjects of projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 14,
+        "department_id": 5,
+        "subject_code": "SP&M S",
+        "subject_name": "Speech & Media Studies",
+        "course": "SP&M S 5001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course with senior/graduate level emphasis. Variable title."
+    },
+    {
+        "subject_id": 14,
+        "department_id": 5,
+        "subject_code": "SP&M S",
+        "subject_name": "Speech & Media Studies",
+        "course": "SP&M S 5010  Seminar (IND 0.0-6.0)",
+        "description": "Advanced discussion of current topics."
+    }
+]

@@ -1,0 +1,162 @@
+[
+    {
+        "subject_id": 1,
+        "department_id": 1,
+        "subject_code": "THEATRE",
+        "subject_name": "Theatre",
+        "course": "THEATRE 1001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable titles."
+    },
+    {
+        "subject_id": 1,
+        "department_id": 1,
+        "subject_code": "THEATRE",
+        "subject_name": "Theatre",
+        "course": "THEATRE 1142  Stage Productions, Performers (LAB 1.0)",
+        "description": "Performers: The student must request permission from the theatre professor prior to taking this course. A skills course, not a humanities elective. Prerequisite: Participants selected by audition."
+    },
+    {
+        "subject_id": 1,
+        "department_id": 1,
+        "subject_code": "THEATRE",
+        "subject_name": "Theatre",
+        "course": "THEATRE 1143  Stage Productions, Technicians (LAB 1.0)",
+        "description": "Technicians and production assistants; participants selected by interview. A skills course, not a humanities elective."
+    },
+    {
+        "subject_id": 1,
+        "department_id": 1,
+        "subject_code": "THEATRE",
+        "subject_name": "Theatre",
+        "course": "THEATRE 1150  Theatre for Social Change (LEC 3.0)",
+        "description": "A survey of theatrical productions in their historical contexts. We will also explore ways in which theatre engages perceptions, behaviors, and social conditions in audiences and practitioners. No previous theatre experience is required."
+    },
+    {
+        "subject_id": 1,
+        "department_id": 1,
+        "subject_code": "THEATRE",
+        "subject_name": "Theatre",
+        "course": "THEATRE 1190  Theatre via Video (LEC 3.0)",
+        "description": "Provides knowledge and internal understanding of theatre. After watching plays on video through online resources on the student's own time and live productions, students will meet as a class weekly to discuss. Online journaling and field trip required. Approximately $12 cost for online resources. $5 for live performances. THEATRE 1190 - MOTR THEA 100A: Theatre Appreciation"
+    },
+    {
+        "subject_id": 1,
+        "department_id": 1,
+        "subject_code": "THEATRE",
+        "subject_name": "Theatre",
+        "course": "THEATRE 2000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 1,
+        "department_id": 1,
+        "subject_code": "THEATRE",
+        "subject_name": "Theatre",
+        "course": "THEATRE 2001  Special Topics (LAB 1.0 and LEC 2.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 1,
+        "department_id": 1,
+        "subject_code": "THEATRE",
+        "subject_name": "Theatre",
+        "course": "THEATRE 2141  Acting I (LEC 3.0)",
+        "description": "Covers basic techniques for comprehension of theory and practice of acting. Explores inner/outer techniques to create a role. Follows working steps to create performance of a fully realized characterization. Designed as an introductory course."
+    },
+    {
+        "subject_id": 1,
+        "department_id": 1,
+        "subject_code": "THEATRE",
+        "subject_name": "Theatre",
+        "course": "THEATRE 2143  Stagecraft (LAB 2.0 and LEC 1.0)",
+        "description": "Students will learn the fundamentals of theatrical construction, production, and organization."
+    },
+    {
+        "subject_id": 1,
+        "department_id": 1,
+        "subject_code": "THEATRE",
+        "subject_name": "Theatre",
+        "course": "THEATRE 2200  History of Entertainment Design (LEC 3.0)",
+        "description": "Study of the evolution of entertainment from the 19th century to the present as an art form and as a science. From theater to theme parks to virtual reality, students will examine the work of designers past and present as well as entertainment venues through the last century. Prerequisites: Entrance requirements."
+    },
+    {
+        "subject_id": 1,
+        "department_id": 1,
+        "subject_code": "THEATRE",
+        "subject_name": "Theatre",
+        "course": "THEATRE 2425  Principles of Stage Management (LEC 3.0)",
+        "description": "Stage Management will focus on the skills and mechanics necessary to contribute to a production process with a focus on organization, leadership, and communication. This course will also cover venue management and stage control automation trends. Students become familiar with industry standard safety procedures for various venues types, arts contract lifecycle and its applications. Prerequisites: Entrance requirements."
+    },
+    {
+        "subject_id": 1,
+        "department_id": 1,
+        "subject_code": "THEATRE",
+        "subject_name": "Theatre",
+        "course": "THEATRE 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 1,
+        "department_id": 1,
+        "subject_code": "THEATRE",
+        "subject_name": "Theatre",
+        "course": "THEATRE 3001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 1,
+        "department_id": 1,
+        "subject_code": "THEATRE",
+        "subject_name": "Theatre",
+        "course": "THEATRE 3241  Acting II (LAB 1.0 and LEC 2.0)",
+        "description": "Continuation of Acting I, covering acting styles, more complicated, nuanced roles, and more detailed character analysis and performance-special emphasis on British and Classical performance. Prerequisite: Theatre 2141."
+    },
+    {
+        "subject_id": 1,
+        "department_id": 1,
+        "subject_code": "THEATRE",
+        "subject_name": "Theatre",
+        "course": "THEATRE 3243  Entertainment Design (LAB 2.0 and LEC 1.0)",
+        "description": "Students will learn the fundamentals of design for live theatre, film, theme parks, clubs, concerts, and dance events."
+    },
+    {
+        "subject_id": 1,
+        "department_id": 1,
+        "subject_code": "THEATRE",
+        "subject_name": "Theatre",
+        "course": "THEATRE 3245  Voice, Diction and Interpretation (LEC 3.0)",
+        "description": "Training the speaking voice; study of vocal mechanism, breathing, projection, articulation, enunciation; practical application of speaking principles in oral interpretation reading; mastering clarity and variation of speech through vocal exercises. (Co-listed with SP&M S 3245)."
+    },
+    {
+        "subject_id": 1,
+        "department_id": 1,
+        "subject_code": "THEATRE",
+        "subject_name": "Theatre",
+        "course": "THEATRE 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 1,
+        "department_id": 1,
+        "subject_code": "THEATRE",
+        "subject_name": "Theatre",
+        "course": "THEATRE 4001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 1,
+        "department_id": 1,
+        "subject_code": "THEATRE",
+        "subject_name": "Theatre",
+        "course": "THEATRE 4243  Entertainment Design II (LEC 3.0)",
+        "description": "A continuation of live entertainment design. Students will be introduced to projection design technologies and learn the craft of projection mapping. They will learn advanced lighting science and best techniques to allow for projection design integration into live entertainment scenarios. Prerequisites: Theatre 3243."
+    },
+    {
+        "subject_id": 1,
+        "department_id": 1,
+        "subject_code": "THEATRE",
+        "subject_name": "Theatre",
+        "course": "THEATRE 4341  Directing (LEC 3.0)",
+        "description": "This course studies the theories, technique, and approaches of directing for the stage, culminating in the preparation, rehearsal, and presentation of directing scenes. Prerequisite: Theatre 2141."
+    }
+]

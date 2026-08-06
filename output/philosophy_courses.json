@@ -1,0 +1,282 @@
+[
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 1001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable titles."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 1105  Self and World: Introduction To Philosophy (LEC 3.0)",
+        "description": "What is real? What is human being? How can we know any of these things? This course is a survey of the major approaches to philosophical problems, especially those of the nature of reality, human nature, and conduct. Students will both be introduced to the study of philosophy and develop skills in creative inquiry and critical reasoning. Prerequisites: Entrance requirements. PHILOS 1105 - MOTR PHIL 100: Introduction to Philosophy"
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 1110  Practical Reasoning (LEC 3.0)",
+        "description": "An introduction to the study of non-formal reasoning. The course examines the subtle ways that the form in which information is presented can color the way that information is understood. Prerequisite: Entrance requirements."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 1115  Logic and Reasoning: An Introduction (LEC 3.0)",
+        "description": "Beliefs should be supported by reasons. But are these reasons good enough? How could one know? In this course, students will learn the basic rules of both formal and symbolic logic, including types of argumentation, methods of reasoning, valid reasoning, inductive and deductive reasoning as used in the sciences and in communication in general. Prerequisite: Entrance requirements. PHILOS 1115 - MOTR PHIL 101: Introduction to Logic"
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 1130  How Should I Live? An Introduction to Ethics (LEC 3.0)",
+        "description": "What should we do? How should I live? We confront these sorts of questions all the time. In this course we will get a grasp on the moral theories that seek to answer them, by exploring a complex and rich tradition in philosophical thought, from the Ancient Greeks through contemporary thought. No previous exposure to philosophy necessary. PHILOS 1130 - MOTR PHIL 102: Introduction to Ethics"
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 1175  Religion and the Idea of God: Diverse Perspectives (LEC 3.0)",
+        "description": "A comparison of the philosophic ideas and foundations of the major Eastern and Western religions. Prerequisite: Entrance requirements. PHILOS 1175 - MOTR RELG 100: World Religion"
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 2000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 2001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 3001  Special Topics (LAB 1.0 and LEC 3.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 3204  Wisdom and Virtue: An Introduction to Ancient Philosophy (LEC 3.0)",
+        "description": "A study of central themes in ancient philosophy, including the nature of knowledge and reality, and the path to virtue and the importance of wisdom, through selected philosophical works from the pre-Socratics to William of Occam. Prerequisites: An introductory (below 2000) level Philosophy course."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 3205  Science, Souls, and Skepticism: Early Modern Philosophy (LEC 3.0)",
+        "description": "This course explores how radical shifts in worldview of the early modern period impacted the themes and methods of philosophy, such as empiricism, rationalism, and skepticism, and what we can learn from them today. Figures studied may range from Hobbes, Bacon, and Descartes to Hume. Prerequisites: A previous class in philosophy is recommended."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 3223  Bioethics (LEC 3.0)",
+        "description": "This course covers several areas of ethical interest in biotechnology, medicine, and medical care. Topics may include stem-cell research, cloning, genetic engineering, reproductive issues, pharmaceutical ethics, privacy, physician-assisted suicide, patient rights, human and animal experimentation, and resource allocation. Prerequisite: Sophomore standing or above."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 3225  Engineering Ethics (LEC 3.0)",
+        "description": "Engineering ethics, examines major ethical issues facing engineers in the practice of their profession: the problem of professionalism and a code of ethics; the process of ethical decision-making in different working environments; the rights, duties, and conflicting responsibilities of engineers. Prerequisite: Sophomore standing or above."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 3235  Business Ethics (LEC 3.0)",
+        "description": "Develop ethical concepts relevant to deciding the moral issues that arise in business. Topics include: Economic systems, government regulations, relations to external groups and environment, advertising, product safety and liability, worker safety and rights, rights and responsibilities of business professionals. Prerequisite: Sophomore standing or above."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 3254  Symbolic Logic in Argumentation (LEC 3.0)",
+        "description": "An introduction to sentential and predicate logic. Focuses on various techniques used to examine logical relationships within an artificial symbolic language, such as truth tables, derivations, and models. Includes metatheoretic discussions of syntax and semantics, and soundness and completeness. Prerequisites: Comp Eng 2210, or Comp Sci 1200, or any 1000-level or higher Philosophy course. Philosophy 1115 is recommended."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 3276  Thematics Studies in Film and Philosophy (LEC 3.0)",
+        "description": "A study of special topics at the intersection of film and philosophy. Topics vary but may include films on the nature of reality, films on the problem of evil, films on concepts of consciousness and the self, and more. Prerequisites: Art 1185 or one philosophy course, or junior standing. (Co-listed with Art 3276)."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 3277  Wilderness and Its Critics (LEC 3.0)",
+        "description": "Wilderness is one of the most contested areas of environmental work today. This course examines wilderness as both idea and policy, from ethical, aesthetic, social scientific, and comparative perspectives. Students will learn the history of national parks and federally designated wilderness in the U.S. and consider contemporary debates concerning its future, with special focus on critical responses by ecofeminist and decolonial thinkers. Prerequisites: Sophomore standing or above."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects of projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 4001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 4320  Minds And Machines (LEC 3.0)",
+        "description": "The course will be centered on the topic of artificial intelligence and the problems raised by contemporary attempts to simulate human thinking and perception in machines. Special emphasis will be placed on recent developments in psychology, physiology, cybernetics and computer technology. Prerequisite: Any philosophy course."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 4325  Who Knows What? Knowledge, Truth, and Justification (LEC 3.0)",
+        "description": "What is knowledge? Do we have it? Can we know that we have it? How do we get it? Are there different kinds of knowledge? An introduction to epistemology, the study of the scope, limits, sources, and nature of knowledge and justified belief. Possible topics include knowledge and justification, skepticism, scientific knowledge, and naturalism. Prerequisites: Any 1000 or higher level philosophy course. Philosophy 1105 recommended."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 4340  From Activism to Zoos: Issues in Social Ethics (LEC 3.0)",
+        "description": "This Communication Emphasized course discusses ethical issues confronting society and the arguments offered for alternative laws and public policies. Topics might include: freedom of speech/action, government regulation, welfare, capital punishment, euthanasia, abortion, the environment, affirmative action, just wars, foreign aid, world hunger. Prerequisite: Any philosophy course."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 4345  Philosophy Of Science (LEC 3.0)",
+        "description": "An examination of the fundamental methods and assumptions of the sciences, with emphasis on scientific reasoning and theories. Prerequisite: Any philosophy course."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 4350  Environmental Ethics and Justice (LEC 3.0)",
+        "description": "This Communication Emphasized course studies complex moral issues concerning our relationship to the environment and the ethical foundations of our environmental responsibilities. Discussion topics may include: conservation, resource development, pollution, toxic substances, future generations, the built environment, endangered species, and the unequal distribution of environmental harms and protections. Prerequisite: Any philosophy course."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 4354  Mathematical Logic I (LEC 3.0)",
+        "description": "A mathematical introduction to logic with some applications. Functional and relational languages, satisfaction, soundness and completeness theorems, compactness theorems. Examples from Mathematics, Philosophy, Computer Science, and/or Computer Engineering. Prerequisite: Philos 3254 or Math 5105 or Comp Sci 2500 or Comp Eng 2210. (Co-listed with Comp Eng 5803, Comp Sci 5203 and Math 5154)."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 4360  Who Should Rule and Why? Debates in Political Philosophy (LEC 3.0)",
+        "description": "This course is designed as a survey of the philosophical foundations of major political systems. For example, liberalism, communitarianism, communism, fascism, democracy. Materials will be drawn from relevant historical and/or contemporary sources. Prerequisite: Any philosophy course."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 4368  Law and Ethics in E-Commerce (LEC 3.0)",
+        "description": "Provides the ethical framework to analyze the ethical, legal, and social issues that arise for citizens and computer professionals regarding the computerization of society. Topics include: free speech, privacy, intellectual property, product liability, and professional responsibility."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 4399  Topics in Philosophy (LEC 3.0)",
+        "description": "This communication intensive course is designed for students with a special interest in philosophy. The content of the course may vary and the course may be repeated for additional credit. Prerequisite: Any Philosophy course."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 4554  Technology, Energy, and Ethics (LEC 3.0)",
+        "description": "Students will learn the conceptual tools & skills for reflection on the ethical, social, and philosophical dimensions of life in a technological society. Topics covered might include: energy technologies and policy, innovation and well-being, philosophy of engineering, artificial intelligence, information ethics, cybernetics, technological unemployment, human enhancement and biotechnology, posthumanism, and others. Prerequisites: Sophomore standing or above."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 4580  Issues in Science, Technology and Society (LEC 3.0)",
+        "description": "Interdisciplinary course introducing students to the main themes of Science and Technology Studies (STS). Using historical and current examples, they will critically analyze the influence of social groups on the development of science and technology and the effects of science and technology on society. (Co-listed with HISTORY 4580)."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 4665  Creating Future Cities (LEC 3.0)",
+        "description": "Through texts in the history of philosophy, along with contemporary readings, this class examines how humankind's thinking about urban environments has progressed. It uses philosophical analysis to understand topics such as the ethical, political, aesthetic, and metaphysical dimensions of the city as such, zoning, housing, transportation, & infrastructure. Prerequisites: Sophomore standing or above."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 4884  Rationality (LEC 3.0)",
+        "description": "This course will discuss the various ways our natural thinking style can lead us to make reasoning errors and how we can try to do better. Our focus will be on using results from Cognitive Psychology to improve our everyday lives, doing various hands-on projects throughout the semester. (Co-listed with Psych 4995)."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 5000  Special Problems (IND 1.0-3.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 4,
+        "department_id": 1,
+        "subject_code": "PHILOS",
+        "subject_name": "Philosophy",
+        "course": "PHILOS 5001  Special Topics (IND 1.0-3.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    }
+]

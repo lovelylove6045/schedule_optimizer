@@ -1,0 +1,82 @@
+[
+    {
+        "subject_id": 50,
+        "department_id": 22,
+        "subject_code": "SYS ENG",
+        "subject_name": "Systems Engineering",
+        "course": "SYS ENG 5000  Special Problems (IND 1.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 50,
+        "department_id": 22,
+        "subject_code": "SYS ENG",
+        "subject_name": "Systems Engineering",
+        "course": "SYS ENG 5001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 50,
+        "department_id": 22,
+        "subject_code": "SYS ENG",
+        "subject_name": "Systems Engineering",
+        "course": "SYS ENG 5040  Oral Examination (IND 0.0)",
+        "description": "After completion of all other program requirements, oral examination for on-campus MS/PhD students may be processed during intersession. Off-campus MS students must be enrolled in oral examination and must have paid an oral examination fee at the time of the defense/comprehensive exam (oral/written). All other students must enroll for credit commensurate with uses made of facilities and/or faculties. In no case shall this be for less than three (3) semester hours for resident students."
+    },
+    {
+        "subject_id": 50,
+        "department_id": 22,
+        "subject_code": "SYS ENG",
+        "subject_name": "Systems Engineering",
+        "course": "SYS ENG 5099  Research (IND 1.0-15)",
+        "description": "Investigations of an advanced nature leading to the preparation of a thesis or dissertation. Consent of instructor required. Prerequisite: Graduate standing."
+    },
+    {
+        "subject_id": 50,
+        "department_id": 22,
+        "subject_code": "SYS ENG",
+        "subject_name": "Systems Engineering",
+        "course": "SYS ENG 5101  System Engineering and Analysis (LEC 3.0)",
+        "description": "The concepts of Systems Engineering are introduced through a project. Students work in virtual teams. The topics covered are architecture development, basic system architectural design techniques, functional decomposition, design and technical review objectives, and initial specifications. Prerequisite: Graduate Standing."
+    },
+    {
+        "subject_id": 50,
+        "department_id": 22,
+        "subject_code": "SYS ENG",
+        "subject_name": "Systems Engineering",
+        "course": "SYS ENG 5105  Project Management (LEC 3.0)",
+        "description": "Organization structure and staffing; motivation, authority and influence; conflict management; project planning; network systems; pricing, estimating, and cost control; proposal preparation; project information systems; international project management. Prerequisites: Graduate standing. (Co-listed with Eng Mgt 5320)."
+    },
+    {
+        "subject_id": 50,
+        "department_id": 22,
+        "subject_code": "SYS ENG",
+        "subject_name": "Systems Engineering",
+        "course": "SYS ENG 5211  Computational Intelligence (LEC 3.0)",
+        "description": "Introduction to Computational Intelligence (CI), Biological and Artificial Neuron, Neural Networks, Evolutionary Computing, Swarm Intelligence, Artificial Immune Systems, Fuzzy Systems, and Hybrid Systems. CI application case studies covered include digital systems, control, power systems, forecasting, and time-series predictions. Prerequisite: Graduate Standing. (Co-listed with Elec Eng 5810 and Comp Eng 5310)."
+    },
+    {
+        "subject_id": 50,
+        "department_id": 22,
+        "subject_code": "SYS ENG",
+        "subject_name": "Systems Engineering",
+        "course": "SYS ENG 5212  Introduction to Neural Networks and Applications (LEC 3.0)",
+        "description": "The course provides an introduction to basic neural network architectures and their applications. Students learn to construct neural networks and train them to solve engineering problems, specifically pattern recognition and function approximation. Mathematical analysis of network architectures, training algorithms and practical applications of neural nets. Prerequisites: Graduate Standing. (Co-listed with Elec Eng 5820)."
+    },
+    {
+        "subject_id": 50,
+        "department_id": 22,
+        "subject_code": "SYS ENG",
+        "subject_name": "Systems Engineering",
+        "course": "SYS ENG 5281  Introduction to Probabilistic Risk Assessment (LEC 3.0)",
+        "description": "An introduction to advanced techniques for assessing reliability, safety and risk in complex systems. Classification of initiating events, fault tree analysis, consequences, figures of merit, and use of probabilistic risk analysis in regulation are discussed using examples and applied through a simple case study. (Co-listed with Nuc Eng 5281)."
+    },
+    {
+        "subject_id": 50,
+        "department_id": 22,
+        "subject_code": "SYS ENG",
+        "subject_name": "Systems Engineering",
+        "course": "SYS ENG 5323  Wireless Networks (LAB 1.0 and LEC 2.0)",
+        "description": "Introduction to wireless communications and networking. Topics include transmission fundamentals, wireless channel, coding techniques and error control, satellite and cellular networks, cordless systems, mobile IP and management, multiple access techniques and wireless protocols, wireless LAN, IEEE 802.11, and adhoc and sensor networks.  Prerequisites: Comp Eng 3150. (Co-listed with Comp Eng 5430 and Elec Eng 5430)."
+    }
+]

@@ -1,0 +1,426 @@
+[
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 1210  Chemistry Of Materials (LEC 3.0)",
+        "description": "Basic Inorganic Chemistry of Materials. Topics will include chemical properties, structure and bonding of solids, energy, enthalpy, entropy, thermochemistry, kinetics and rate processes. Application of chemistry principles to materials engineering through flowsheeting, reactor design, materials/metals processing and the environment. Prerequisite: \"C\" or better grade in Chem 1310."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 2001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 2110  Metallurgy For Engineers (LEC 3.0)",
+        "description": "Introduction to the structure and properties of metals and alloys and to processes used to modify the structure and properties of metallic materials, including alloying, deformation and heat treating. Prerequisite: Chem 1305 or Chem 1310."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 2125  Microstructural Development Laboratory (LAB 1.0 and LEC 1.0)",
+        "description": "Investigation of the relationships between microstructures, and processing for various materials. Prerequisite: Accompanied or preceded by Met Eng 3130."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 2410  Applied Metal Forming (LAB 1.0 and LEC 1.0)",
+        "description": "Introduction to the art and science of blacksmithing. Students to use forges to heat steel for shaping it. Techniques for shaping, cutting, chiseling, twisting, etc. Knowledge of hand and power tools and their use. Safety in the shop will be emphasized. History of blacksmithing will also be covered. Includes a lab portion which will work on projects. Prerequisite: Chem 1100."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 3001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 3002  Cooperative Training (IND 1.0-2.0)",
+        "description": "On-the-job experience gained through cooperative education in the field of metallurgical engineering with credit arranged through department cooperative advisor. A pass/fail grade will be given based on the quality of reports submitted and work supervisor's evaluation."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 3120  Fundamentals Of Materials Behavior (LEC 3.0)",
+        "description": "An introduction to crystal defects and deformation; mechanical testing; creep; fracture mechanics and fatigue. Prerequisite: \"C\" or better grade in both Met Eng 2110 and Civ Eng 2210."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 3125  Mechanical Testing of Materials (LAB 1.0 and LEC 1.0)",
+        "description": "Deformation of materials and mechanical testing of materials; tensile testing, creep; impact testing; fracture mechanics and fatigue. Prerequisite: \"C\" or better in Met Eng 2110 and preceded or accompanied by Met Eng 3120."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 3130  Metals Microstructural Development (LEC 3.0)",
+        "description": "Fundamentals of microstructural developments as relating to solid solutions, solidification and transformations; phase diagrams; case studies. Prerequisites: \"C\" or better grade in MET ENG 2110; accompanied or preceded by CER ENG 3230."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 3220  Introduction To Extractive Metallurgy (LEC 3.0)",
+        "description": "Production and refining of metals by pyrometallurgy, hydrometallurgy, and electrometallurgy. Emphasis on heat and mass balance calculations for the unit processes of metals extraction. Introduction to the principles of combustion, heat utilization and recovery. Prerequisites: A grade of \"C\" or better in either Chem 1320 or Met Eng 1210."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 3225  Extractive Metallurgy Laboratory (LAB 1.0)",
+        "description": "A series of laboratory experiments designed to illustrate the principles of pyrometallurgy, hydrometallurgy, and electrometallurgy. Prerequisite: Preceded or accompanied by Met Eng 3220."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 3230  Thermodynamics of Materials (LEC 3.0)",
+        "description": "Basic thermodynamic concepts are applied to materials. Calculations involving enthalpy, entropy, and Gibbs' free energy are studied. Inter-relationships among properties are emphasized. Fundamental concepts of phase equilibria are presented. Prerequisite: A grade of \"C\" or better in either Met Eng 1210 or Chem 1320. (Co-listed with Cer Eng 3230 and Semi Eng 3230)."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 3320  Transport Phenomena In Metallurgy (LEC 3.0)",
+        "description": "The application of the principles of fluid flow and heat transfer to the solution of practical problems in metallurgical engineering. Prerequisite: \"C\" or better grade in Civ Eng 2200."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 3420  Principles Of Materials Processing (LEC 3.0)",
+        "description": "An introduction to various methods of processing of metals and influences of processing on design. Includes: casting, welding, shaping, inspection and testing. Prerequisite: \"C\" or better grade in Met Eng 2110."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 3425  Metals Processing (LAB 1.0)",
+        "description": "Laboratory study of the methods of processing of metals. Prerequisite: Accompanied or preceded by Met Eng 3420."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 4001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 4002  Cooperative Training (IND 1.0-2.0)",
+        "description": "On-the-job experience gained through cooperative education in the field of metallurgical engineering with credit arranged through department cooperative advisor. A pass/fail grade will be given based on the quality of reports submitted and work supervisor's evaluation."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 4010  Seminar (IND 0.0-3.0)",
+        "description": "Discussion of current topics."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 4096  Materials Senior Design I (LEC 3.0)",
+        "description": "Overview of the methods, approaches, and techniques required to execute materials related capstone senior design projects. Formation of teams, assignment of projects, review of department curriculum concepts and topics, and comprehensive project management skills needed to complete projects will be used as means to learn the design process. Prerequisites:  A grade of \"C\" or better in Met Eng 3125 and Met Eng 2125, or Cer Eng 3315 or Semi Eng 3101. (Co-listed with Cer Eng 4096 and Semi Eng 4096)."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 4097  Materials Senior Design II (LAB 3.0)",
+        "description": "A continuation of the Materials Senior Design I. Students working in groups will complete a capstone design project including process and product simulation and/or fabrication, safety aspects, environmental impact and capital and operating economics. Prerequisite: A grade of \"C\" or better in either Cer Eng 4096 or Met Eng 4096 or Semi Eng 4096. (Co-listed with Cer Eng 4097 and Semi Eng 4097)."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six credit hours allowed for graduation credit. Subject and credit to be arranged with the instructor."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 4320  Steels And Their Treatment (LEC 3.0)",
+        "description": "Industrially important ferrous alloys are described and classified. The selection of proper heat treatments to facilitate fabrication and to yield required service properties in steels suitable for various applications is considered. Prerequisite: \"C\" or better grade in both Met Eng 3130 and Met Eng 2125."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 4325  Ferrous Microstructures (LAB 1.0 and LEC 1.0)",
+        "description": "Course provides an in-depth explanation of microstructural development during solidification, thermo-mechanical processing, and heat treatment of steel. Topics included: optical microscopy, quantitative metallography, the Fe-C phase diagram, solidification and banding, homogenization, grain size control, formation of microstructures upon heating/cooling. Prerequisite: A grade of \"C\" or better in Met Eng 2110."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 4350  Process Metallurgy Applications (LEC 3.0)",
+        "description": "Application of thermodynamics to process metallurgy. Equilibrium calculations with stoichiometry and heat balance restrictions, phase transformations, and solution thermodynamics. Use of thermodynamic software to solve complex equilibria in metallurgical applications. Prerequisite: \"C\" or better grade in Cer Eng 3230."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 4420  Metals Casting (LEC 3.0)",
+        "description": "An advanced course in the materials and methods used in modern metals casting processes. Application of metallurgical principles to the casting of metals. Design of castings and metals casting mold features using commercial casting process simulation software. Prerequisite: \"C\" or better grade in either Met Eng 3420 or Mech Eng 2653."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 4425  Metals Casting Lab (LAB 1.0)",
+        "description": "A laboratory study of mold materials, metal flow, and cast metals. Emphasis is given to design of gating, risering, and ladle treatment techniques required for economical, high quality castings. Prerequisites: Accompanied or preceded by MET ENG 4420."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 4450  Steelmaking (LEC 3.0)",
+        "description": "Introduction to the fundamentals and unit processes used to turn impure iron and scrap into steel. Includes desulfurization, BOF and electric furnace operations, ladle metallurgy, casting, and stainless steel manufacture. Prerequisite: Grade of \"C\" or better in Cer Eng 3230 or Met Eng 3330."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 4637  Material Selection, Fabrication, And Failure (LEC 3.0)",
+        "description": "Factors governing the selection of materials for specific needs, fabrication, heat treatment, surface treatment, and other aspects in the production of a satisfactory component. Failure analysis and remedies. Lecture plus assigned problems. Prerequisite: \"C\" or better grade in all of Met Eng 3130, Met Eng 2125, and Met Eng 3420."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 5001  Graduate Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 5040  Oral Examination (IND 0.0)",
+        "description": "After completion of all other program requirements, oral examinations for on-campus M.S./Ph.D. students may be processed during intersession. Off-campus M.S. students must be enrolled in oral examination and must have paid an oral examination fee at the time of the defense/comprehensive examination (oral/ written). All other students must enroll for credit commensurate with uses made of facilities and/or faculties. In no case shall this be for less than three (3) semester hours for resident students."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 5099  Research (IND 0.0-15)",
+        "description": "Investigations of an advanced nature leading to the preparation of a thesis or dissertation. Consent of instructor required."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 5150  Introduction to Metal Additive Manufacturing (LEC 3.0)",
+        "description": "Metal and alloys associated with Additive Manufacturing (AM). Issues with powders and wires as starting materials, safety, solidification mechanisms and development of microstructure and defects, AM part performance, and mechanical properties. Current alloys being utilized and future materials being developed. Prerequisite: Met Eng 2110."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 5170  Nuclear Materials I (LEC 3.0)",
+        "description": "Fundamentals of materials selection for components in nuclear applications; design and fabrication of UO2 fuel; reactor fuel element performance; mechanical properties of UO2; radiation damage and effects, including computer modeling; corrosion of materials in nuclear reactor systems. Prerequisites: Civ Eng 2210, Nuc Eng 3205, Nuc Eng 3223, Met Eng 2110, or graduate standing. (Co-listed with Nuc Eng 5241)."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 5270  Mineral Processing II Mechanics And Design (LAB 1.0 and LEC 2.0)",
+        "description": "Mineral particle mechanics of comminution, sizing, classification, concentration, filtering and thickening. Mill and equipment selection and design including flowsheet, development and plant assessment. Prerequisite: Min Eng 2412. (Co-listed with Min Eng 5424)."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 5310  Corrosion and Its Prevention (LEC 3.0)",
+        "description": "A study of the theories of corrosion and its application to corrosion and its prevention. Prerequisite: A grade of \"C\" or better in either Chem Eng 3120 or Cer Eng 3230. (Co-listed with Chem Eng 5315)."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 5330  Nonferrous Alloys (LEC 3.0)",
+        "description": "Structure and properties of nonferrous alloys (Al, Ti, Mg, Ni and Cu) are described. The role of processing and microstructure in the development of mechanical properties is emphasized. Prerequisite: Met Eng 3130 or Met Eng 5810."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 5420  Advanced Metals Casting (LEC 3.0)",
+        "description": "An advanced course in the materials and methods used in modern metals casting processes. Application of metallurgical principles to the casting of metals. Design of castings and metals casting mold features using commercial casting process simulation software. Prerequisite: Met Eng 3420 or Mech Eng 2653."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 5425  Metals Casting Laboratory (LAB 1.0)",
+        "description": "An advanced laboratory study of mold materials, metal flow, and cast metals. Emphasis is given to design of gating, risering, and ladle treatment techniques required for economical, highquality castings. Prerequisite: Accompanied or preceded by Met Eng 4420."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 5430  Metals Joining (LEC 2.0)",
+        "description": "Metals joining processes such as welding and brazing. Effects of welding on materials. Treatment and properties of welded joints. Welding defects and quality control. Prerequisite: Met Eng 2110 or 3420."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 5440  Metal Deformation Processes (LEC 3.0)",
+        "description": "An introduction to metal deformation concepts followed by a study of various forming processes from both the analytical and applied viewpoints. Processes to include: forging, wire drawing, extrusion, rolling, sheet metal forming, and others. Prerequisite: Met Eng 3120 and Met Eng 3420 both with \"C\" or better grade."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 5450  Advanced Steelmaking (LEC 3.0)",
+        "description": "This course is designed to provide students with an enhanced understanding of the chemistry and physics of ironmaking, steelmaking and casting, to apply these concepts to a wide range of problems in modern steelmaking and casting operations, and to perform advanced design and operational calculations associated with refining and continuous casting processes. Prerequisite: Grade of \"C\" or better in Cer Eng 3230 or Met Eng 3330."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 5470  Ferrous Metals Casting (LEC 3.0)",
+        "description": "An advanced study of the metallurgy of cast irons and net shape cast steel alloys. Includes theories of nucleation and growth in gray, nodular, compacted graphite and malleable irons. The effects of deoxidation practice and inclusion shape control for cast steels are also included. The effects of alloying elements, processing variables and heat treatment. Prerequisite: Met Eng 4420 or Met Eng 5420 or graduate standing with permission of instructor."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 5480  Refining Of Metals (LEC 3.0)",
+        "description": "Principles and applications of metal production by electrochemical methods. The course will address basic copper and zinc electrometallurgy. This includes discussion of anodes and anodic processes, cathode deposit control and contamination mechanisms, Faraday's Law and current efficiency, and current state of practice. Prerequisites: Cer Eng 3230, Met Eng 3220, or graduate standing, or instructor approval."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 5510  Nondestructive Testing (LEC 3.0)",
+        "description": "Principles and applications of various means of non-destructive testing of metallic materials. Radiological inspection methods, ultrasonic testing, magnetic methods, electrical and eddy current methods and others. Prerequisite: Physics 2135 or 2111. (Co-listed with Elec Eng 5670)."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 5520  Electron Microscopy (LEC 3.0)",
+        "description": "A course in the theory and application of both scanning and transmission electron microscopy and x-ray microanalysis. Topics considered are electron optics, image formation and analysis; x-ray generation, detection and analysis; and characterization of fracture surfaces. Prerequisites: Met Eng 3130 and Met Eng 2125, or a course in optical microscopy."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 5525  Scanning Electron Microscopy Lab (LAB 1.0)",
+        "description": "A course in the practical use and operation of scanning electron beam instruments and their associated techniques. Prerequisite: Preceded or accompanied by Met Eng 5520."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 5620  Materials Behavior (LEC 3.0)",
+        "description": "A course in crystal defects and deformation; mechanical testing; creep; fracture mechanics and fatigue. Prerequisites: Grade of \"C\" or better in both Met Eng 2110 and Met Eng 3120."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 5630  Environmental Aspects Of Metals Manufacturing (LEC 3.0)",
+        "description": "Introduction to environmental aspects of metal extraction, melting, casting, forming, and finishing. Subjects include history of environmental movement and regulations permitting, risk analysis, disposal and recycling of metal manufacturing residues, environmental ethics, environmental technologies and case studies. Prerequisite: Junior/Senior standing."
+    },
+    {
+        "subject_id": 36,
+        "department_id": 16,
+        "subject_code": "MET ENG",
+        "subject_name": "Metallurgical Engineering",
+        "course": "MET ENG 5810  Principles Of Engineering Materials (LEC 3.0)",
+        "description": "Examination of engineering materials with emphasis on selection and application of materials in industry. Particular attention is given to properties and applications of materials in extreme temperature and chemical environments. A discipline specific design project is required. (Not a technical elective for undergraduate metallurgy or ceramic majors) (Co-listed with Aero Eng 3877, Chem Eng 5300, Physics 4523, Cer Eng 5810)."
+    }
+]

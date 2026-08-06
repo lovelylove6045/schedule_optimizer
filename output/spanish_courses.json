@@ -1,0 +1,154 @@
+[
+    {
+        "subject_id": 2,
+        "department_id": 1,
+        "subject_code": "SPANISH",
+        "subject_name": "Spanish",
+        "course": "SPANISH 1001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable titles."
+    },
+    {
+        "subject_id": 2,
+        "department_id": 1,
+        "subject_code": "SPANISH",
+        "subject_name": "Spanish",
+        "course": "SPANISH 1101  Elementary Spanish I (LEC 4.0)",
+        "description": "This course is for students who have had little to no previous experience with Spanish. It focuses on developing basic communication skills for daily life, including reading, writing, speaking, and listening. The course's cultural content introduces students to the diversity of the Spanish-speaking world. Prerequisites: Entrance requirements. SPANISH 1101 - MOTR LANG 103: Spanish I"
+    },
+    {
+        "subject_id": 2,
+        "department_id": 1,
+        "subject_code": "SPANISH",
+        "subject_name": "Spanish",
+        "course": "SPANISH 1102  Elementary Spanish II (LEC 4.0)",
+        "description": "This course focuses on continued development of students' basic Spanish-language communication skills in reading, writing, speaking, listening, and cultural competency, including an emphasis on the diversity of the Spanish-speaking world. For students who have completed Spanish 1101 or the equivalent. Prerequisite: Spanish 1101. SPANISH 1102 - MOTR LANG 104: Spanish II"
+    },
+    {
+        "subject_id": 2,
+        "department_id": 1,
+        "subject_code": "SPANISH",
+        "subject_name": "Spanish",
+        "course": "SPANISH 1180  Intermediate Spanish (LEC 4.0)",
+        "description": "Focus on developing students' intermediate-level proficiency by strengthening their understanding of basic linguistic features of Spanish and introducing more advanced concepts. The course also integrates diverse cultural content from the Spanish-speaking world. For students who have completed Spanish 1102 or the equivalent. Prerequisite: Spanish 1102."
+    },
+    {
+        "subject_id": 2,
+        "department_id": 1,
+        "subject_code": "SPANISH",
+        "subject_name": "Spanish",
+        "course": "SPANISH 2000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 2,
+        "department_id": 1,
+        "subject_code": "SPANISH",
+        "subject_name": "Spanish",
+        "course": "SPANISH 2001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new coures. Variable title."
+    },
+    {
+        "subject_id": 2,
+        "department_id": 1,
+        "subject_code": "SPANISH",
+        "subject_name": "Spanish",
+        "course": "SPANISH 2110  Basic Spanish Conversation (LEC 3.0)",
+        "description": "Spanish conversation and oral practice. Prerequisites: Spanish 1180."
+    },
+    {
+        "subject_id": 2,
+        "department_id": 1,
+        "subject_code": "SPANISH",
+        "subject_name": "Spanish",
+        "course": "SPANISH 2160  Hispanic Culture (LEC 3.0)",
+        "description": "An interdisciplinary course that examines the culture of the Hispanic world (with an emphasis on Latin America). The presentation is in Spanish, and social science concepts and methods are stressed. Topics include: bilingualism, multiculturalism, economic development, and political stability. Prerequisite: Spanish 1180."
+    },
+    {
+        "subject_id": 2,
+        "department_id": 1,
+        "subject_code": "SPANISH",
+        "subject_name": "Spanish",
+        "course": "SPANISH 2170  Masterpieces Of Hispanic Literature (LEC 3.0)",
+        "description": "A study of the major works in Spanish and Spanish American literature. Prerequisite: Spanish 1180."
+    },
+    {
+        "subject_id": 2,
+        "department_id": 1,
+        "subject_code": "SPANISH",
+        "subject_name": "Spanish",
+        "course": "SPANISH 2180  Intermediate Spanish Composition (LEC 3.0)",
+        "description": "Practice in writing Spanish: compositions and written translations. Prerequisite: Spanish 1180."
+    },
+    {
+        "subject_id": 2,
+        "department_id": 1,
+        "subject_code": "SPANISH",
+        "subject_name": "Spanish",
+        "course": "SPANISH 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 2,
+        "department_id": 1,
+        "subject_code": "SPANISH",
+        "subject_name": "Spanish",
+        "course": "SPANISH 3001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 2,
+        "department_id": 1,
+        "subject_code": "SPANISH",
+        "subject_name": "Spanish",
+        "course": "SPANISH 3100  Spanish Translation for Technical Applications (LEC 3.0)",
+        "description": "This course will introduce students to the art and skills of translation. It will provide students practical experience translating technical and scientific documents from Spanish to English and from English to Spanish. Prerequisites: Spanish 1180."
+    },
+    {
+        "subject_id": 2,
+        "department_id": 1,
+        "subject_code": "SPANISH",
+        "subject_name": "Spanish",
+        "course": "SPANISH 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects of projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 2,
+        "department_id": 1,
+        "subject_code": "SPANISH",
+        "subject_name": "Spanish",
+        "course": "SPANISH 4001  Special Topics (LAB 1.0 and LEC 2.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 2,
+        "department_id": 1,
+        "subject_code": "SPANISH",
+        "subject_name": "Spanish",
+        "course": "SPANISH 4010  Seminar (IND 1.0-3.0)",
+        "description": "Discussion of current topics."
+    },
+    {
+        "subject_id": 2,
+        "department_id": 1,
+        "subject_code": "SPANISH",
+        "subject_name": "Spanish",
+        "course": "SPANISH 4302  Phonetics and Phonology of Spanish (LEC 3.0)",
+        "description": "Theoretical and practical approach to the phonetics and phonology of Spanish from the dual perspective of the mental representation of the sound system and pronunciation within syllables, words and phrases. Practice in listening comprehension, and sound discrimination with transcription exercises. Prerequisites: Any Spanish course at the 2000 or 3000 level."
+    },
+    {
+        "subject_id": 2,
+        "department_id": 1,
+        "subject_code": "SPANISH",
+        "subject_name": "Spanish",
+        "course": "SPANISH 4311  Advanced Spanish Conversation (LEC 3.0)",
+        "description": "Advanced Spanish conversation and oral practice. Prerequisites: Any Spanish course at the 2000 or 3000 level."
+    },
+    {
+        "subject_id": 2,
+        "department_id": 1,
+        "subject_code": "SPANISH",
+        "subject_name": "Spanish",
+        "course": "SPANISH 4350  Spanish Literature, Science, and Technology (LEC 3.0)",
+        "description": "Discussion of unique texts, representations, and collections from distinct Spanish-speaking societies. Consideration of the social and cultural functions of science and technology through the lens of literature. Inquiry about how different societies have equated advancement and progress with challenges, solutions, and controversy. Prerequisites: Any Spanish 2000 or 3000-level course or equivalent."
+    }
+]

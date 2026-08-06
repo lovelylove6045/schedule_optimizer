@@ -1,0 +1,530 @@
+[
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 1001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 1110  Physical and Environmental Geology (LAB 1.0 and LEC 2.0)",
+        "description": "Materials, structure, and surface features of the Earth and planets are studied in the context of the processes that continuously transform the Earth and affect management of Earth resources, hazards, engineering problems, and environmental challenges. Prerequisite: Entrance requirements. (Co-listed with Geo Eng 1150). GEOLOGY 1110 - MOTR GEOL 100: Geology"
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 1120  Evolution Of The Earth (LEC 3.0)",
+        "description": "A survey of the Earth history from the coalescence of the solar system to the present and the events that have profoundly transformed the planet in the context of the dynamic feedback between physical and biological systems. A one day field trip is required. Prerequisites: Recommend Geo Eng 1150 or Geology 1110 or Bio Sci 1113 but not required."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 1129  Evolution of the Earth Laboratory (LAB 1.0)",
+        "description": "Geology 1129 is designed to accompany Geology 1120 and consists of laboratory explorations of fundamental concepts in geology and the diversity of the fossil record. Prerequisite: Preceded or accompanied by Geology 1120."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 1141  Physical Oceanography (LEC 3.0)",
+        "description": "An introduction to the study of the physical and geological processes in the world's oceans including the importance of the oceans to the environment and to life on Earth. Prerequisites: Entrance requirements."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 2001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 2096  Field Geology (LEC 3.0)",
+        "description": "Theory and practice in the qualitative and quantitative description of spatial relationships of major rock types, contacts, and structures through construction of geologic maps. Emphasis on developing fundamental field skills, including logistical planning, navigation, data collection and documentation, and professional protocol during site visits. Students will be charged a fee to cover the cost of field trip expenses. Prerequisites: Geology 1110, Geology 1120, and Geology 1129."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 2610  Mineralogy And Crystallography (LAB 1.0 and LEC 3.0)",
+        "description": "An introduction to the study of minerals, including their systematic classification, crystallography, morphology, chemistry, societal use, geologic occurrence, environmental application and impact, and identification by means of their physical and chemical properties. Prerequisites: Chem 1310."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 2611  Physical Mineralogy And Petrology (LAB 1.0 and LEC 2.0)",
+        "description": "An introduction to the study of physical mineralogy and petrology, overviewing systematic determination of minerals and rocks by means of their physical properties. Includes the recognition of crystal forms and field relationships of rocks. Course designed for non-geology majors, credit will not count towards a geology-geophysics degree. Prerequisites: Chem 1310 and Chem 1319 or Chem 1351; Geo Eng 1150 or Geology 1110."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 2620  Igneous And Metamorphic Petrology (LAB 1.0 and LEC 3.0)",
+        "description": "A comprehensive study of megascopic and microscopic characteristics of igneous and metamorphic rocks. Fundamental theories for their origin are presented. The class includes a trip to examine these rock types in the field. Prerequisite: Geology 2610."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 2731  Introduction to Planetary Science (LEC 3.0)",
+        "description": "Basic principles of astronomy, the origin and evolution of the universe, stellar evolution, and the origin, composition, and processes operating on the planetary bodies in the solar system."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 2917  Climate Change and Society (LEC 3.0)",
+        "description": "A study of the fundamentals of Earth’s climate, the major components of Earth’s climate systems, and the factors that drive climate change. Students will describe historical and future climate changes and understand and analyze climate history data to assess their validity. Students will also analyze the impact of climate change on global society and judge the anomalous character of recent climate change and discuss solutions to the current climate crisis."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 3001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 3310  Structural Geology (LEC 3.0)",
+        "description": "Students will develop of an appreciation for the geometrical beauty of geologic structures through an understanding of crustal deformation at scales from mineral lattices to tectonic plates. Field trip fee required. Prerequisites: Geology 1110 or Geo Eng 1150."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 3319  Structural Geology Lab (LAB 1.0)",
+        "description": "This course reinforces the principles of Structural Geology through detailed analysis of rock deformation. Techniques will include using a geologic compass, preparing rock descriptions, stereographic analysis, interpretation of geologic maps, construction of cross-sections, and orthographic projections to solve scientific and engineering problems. Prerequisites: Preceded or accompanied by GEOLOGY 3310."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 3410  Introduction To Geochemistry (LEC 3.0)",
+        "description": "Application of basic chemical principals towards investigations of element distributions in geologic systems. Emphasis on origin of elements in our Solar System, element distribution during planetary formation, phase equilibria, rock-water interactions, thermodynamic principles, environmental and isotope geochemistry. Prerequisite: Chem 1310."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 3511  Introduction to Mineral Deposits (LEC 3.0)",
+        "description": "Basic processes involved in the formation of metallic and industrial mineral deposits illustrated by typical examples of deposits from throughout the world. Exploration and economic factors in mineral exploration and development are reviewed. Prerequisites: Geology 1110 and Geology 2611."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 3620  Stratigraphy And Sedimentation (LEC 3.0)",
+        "description": "Principles of physical stratigraphy, bio-stratigraphy and introductory sedimentation. Introduction to depositional systems, facies, unconformaties, stratigraphic nomenclature and correlation. One field trip at student expense is required. Prerequisite: Geology 2620 or Geology 2611."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 3629  Stratigraphy Lab (LAB 1.0)",
+        "description": "This course re-enforces the principles of stratigraphy and sedimentation through the use of \"hands-on\" laboratory procedures such as seive and pipette analyses, correlation problems, fence diagrams and stratigraphic maps. One field trip at student expense is required. Prerequisite: Concurrent with Geology 3620."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 3811  Fundamentals Of Geographic Information Systems (LAB 1.0 and LEC 2.0)",
+        "description": "Introduction to the fundamental concepts and components of Geographic Information Systems. Techniques for acquiring, manipulating and analyzing digital terrain data for geological and geotechnical applications. (Co-listed with Geo Eng 3148)."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 4001  Special Topics (LAB 1.0 and LEC 2.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 4010  Seminar (LEC 0.50)",
+        "description": "Discussion of current topics. Required for two semesters during senior year. (Course cannot be used for graduate credit).  Prerequisite: Senior standing."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 4085  Internship (IND 3.0)",
+        "description": "Students will select, with the advice of their advisor, appropriate problems for investigation through practical application of fundamental geoscience principles. The problems selected must provide higher level experiential learning. Assessment is based upon the quality of written and oral presentations and supervisor's evaluation. Prerequisite: Advisor's approval."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 4097  Advanced Field Geology (LEC 3.0)",
+        "description": "Advanced instruction in theory and practice of qualitative and quantitative description of spatial relationships of rock types in areas exhibiting complex deformation. Emphasis on experiential learning where students plan, implement, and reflect on outcomes for several scientific field campaigns in a manner consistent with professional scientific practices. Students will be charged a fee to cover the cost of field trip expenses. Prerequisites: Geology 2611, Geology 3310, Geology 3620, Geology 3629, and Geology 2096."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six (6) credit hours allowed for graduation credit. Subject and credit to be arranged with the instructor."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 4211  Electrical Methods In Geophysics (LEC 3.0)",
+        "description": "The theory and instrumentation for measurements of the electrical properties of the earth. Includes passive and active techniques, the advantages and disadvantages of the various techniques, and geologic interpretations of electrical soundings. Several weekends are spent making a variety of electrical surveys of local features. Prerequisites: Math 5325 and Geophys 3221."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 4310  Remote Sensing Technology (LAB 1.0 and LEC 2.0)",
+        "description": "Principles of digital image processing including image enhancement and multispectral classification.  Emphasis upon design and implementation of remote sensing systems and analysis of remotely sensed data for geotechnical and environmental investigations. Prerequisite: Geology 1110. (Co-listed with Geo Eng 5144)."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 4321  Drone Mapping and Photogrammetry (LAB 1.0 and LEC 2.0)",
+        "description": "The course will start with an overview of the basic knowledge required for passing the FAA Part 107 Remote Pilots Knowledge Test for small UAS operators, including UAS mapping technology and its rules and regulations, airspace classification, and reading aeronautical charts. The principles of UAS data collection are explained along with hands-on practice in flight planning and execution, as well as processing collected imagery. Prerequisites: Basic computer knowledge. Either Civ Eng 2401 or Geo Eng 3148 or equivalent. (Co-listed with Civ Eng 4321, Geo Eng 4321, Geophys 4321, Min Eng 4321)."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 4411  Hydrogeology (LAB 1.0 and LEC 2.0)",
+        "description": "This course discusses geologic aspects of major surface and subsurface hydrologic systems of North America. Chemical and physical relationships between groundwater and fractures, faults, karst, subsurface pressures, mineral deposits plus both contaminant and hydrocarbon migration are discussed. Prerequisites: Geo Eng 1150 or Geology 1110, Geology 3620 recommended."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 4431  Methods Of Karst Hydrogeology (LEC 3.0)",
+        "description": "Familiarize geoscientists with the origin and identification of karst features, discuss groundwater movement, engineering problems, water quality and supply in karst areas, and teach investigative techniques including fluorescent dye tracing. Several field trips at student expense will be required. Prerequisite: Geology 1110 or Geo Eng 1150; Geology 3620."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 4441  Applied Geochemistry (LAB 1.0 and LEC 2.0)",
+        "description": "Application of the principles of geochemistry and techniques of geochemical analysis in a student research project investigating geochemical processes (mineral deposits, environmental geochemistry, trace element migration, or water-rock interaction). Field trip fee required. Prerequisites: Geology 2611 and Geology 3410."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 4451  Aqueous Geochemistry (LEC 3.0)",
+        "description": "Studies of the interaction of water with minerals and organic materials at low temperatures; including processes affecting the migration of elements (alteration, precipitation, and adsorption), the influence of geochemical processes on water composition, weathering, soil formation, and pollution. Field trip fee required. Prerequisite: Geology 3410."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 4461  Isotope Geochemistry (LAB 1.0 and LEC 2.0)",
+        "description": "Introduction to the fundamentals of radiogenic and stable isotopes as used to understand geologic processes. The use of selected isotopic systems in petrology, ore petrogenesis, paleontology, and the global climate systems will be discussed. Prerequisites: Geology 2611, Geology 3620, and Geology 3410."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 4521  Ore Microscopy (LAB 2.0 and LEC 1.0)",
+        "description": "A study of polished sections of minerals and ores under reflected light. Includes the preparation of polished sections, the identification of ore minerals, and the study of the textures, associations, and alterations of ore minerals. Prerequisite: Geology 2611 and Geology 3511."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 4630  Systematic Paleontology (LAB 1.0 and LEC 2.0)",
+        "description": "Provide understanding of paleontological principles, morphological concepts, evolution of life, and applications/uses of fossils. Chronicles evolution and classification of microfossils, invertebrates, plants and palynomorphs. Emphasis on communication skills and team work. A compulsory field trip to The Field Museum (Chicago) may be at student expense.\nPrerequisite: Geology 1110 or Geology 1120 or Bio Sci 1113."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 4631  Advanced Igneous and Metamorphic Petrology (LAB 1.0 and LEC 3.0)",
+        "description": "Processes governing the formation of igneous and metamorphic rocks as constrained by geochemical, isotopic, and thermodynamic data, with particular reference to the relationship between rock suites and tectonic setting. The laboratory will emphasize the description of rock suites in hand sample and thin section. A field trip at the student's expense is required.  Prerequisite: Geology 2611."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 4711  Paleoclimatology and Paleoecology (LEC 3.0)",
+        "description": "This course will introduce students to the elements of climate, evidence of climate changes, proxy measurements and paleoclimate models. There is a review of Holocene climates and Archean to Pleistocene paleoclimates. Prerequisite: Geology 1110 or Geology 1120 or Geo Eng 1150."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 4721  Meteorology and Climatology (LEC 3.0)",
+        "description": "An introduction to the atmospheric and climatic systems of the Earth including weather, paleoclimatology, and global climate change. Prerequisites: GEOLOGY 1110 or GEOLOGY 1120 or equivalent."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 4821  Applications Of Geographic Information Systems (LAB 1.0 and LEC 2.0)",
+        "description": "Applications of Geographical Information Systems and remote sensing to environmental monitoring, mineral resource exploration, and geotechnical site evaluation. Prerequisite: Geo Eng 3175 or consent of instructor. (Co-listed with Geo Eng 5146)."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 4831  Computational Geology (LAB 1.0 and LEC 2.0)",
+        "description": "This course introduces the technology used for both surface and subsurface geologic mapping. It utilizes common systems and programs such as UNIX, Windows and industry-standard mapping applications. The goal of the course is to fully prepare students for their first professional assignment. Prerequisites: Geology 1110 or Geology 1120 or Geo Eng 1150."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 4841  Geological Field Studies (LEC 3.0)",
+        "description": "Intensive review of the scientific literature corresponding to a selected geographical region of geologic interest; followed by a 7 to 10 day long field trip to be held over spring break or after the end of the semester. Students will be expected to bear a portion of the field trip expenses. Repeatable for credit. Prerequisites:  Geology 1110 or Geo Eng 1150."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5010  Seminar (LEC 0.50)",
+        "description": "Discussion of current topics."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5040  Oral Examination (IND 0.0)",
+        "description": "After completion of all other program requirements, oral examinations for on-campus M.S./Ph.D. students may be processed during intersession. Off-campus M.S. students must be enrolled in oral examination and must have paid an oral examination fee at the time of the defense/comprehensive examination (oral/ written). All other students must enroll for credit commensurate with uses made of facilities and/or faculties. In no case shall this be for less than three (3) semester hours for resident students."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5085  Internship (IND 3.0)",
+        "description": "Students will select, with their committee's advice, problems for investigation and preparation of a graduate research proposal. Problems must provide higher level experiential learning consistent with a graduate degree in geology. Assessment is based upon the quality of written and oral presentations and supervisor's evaluation. Repeatable for credit. Prerequisite: Graduate Standing."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5099  Research (IND 0.0-15)",
+        "description": "Investigations of an advanced nature leading to the preparation of a thesis or dissertation."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5100  Professional Geoscience Skills (LEC 3.0)",
+        "description": "Development and communication of complex topics in the geosciences is required for successful post-MS career advancement. Best practices for developing these skills in the geosciences will be critiqued weekly, culminating with poster and oral presentations. Assessment by peer-review and self-evaluation. Topics selected from geosciences careers. Prerequisites: Graduate Standing."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5111  Advanced Physical Geology (LEC 3.0)",
+        "description": "Examination of topics concerned with the physical properties of earth materials, processes affecting change of the surface and interior of the earth, and the driving forces causing these changes. Weekly critical assessment of literature, and an oral presentation and term paper required. Prerequisite: Consent of instructor."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5121  Advanced Historical Geology (LAB 1.0 and LEC 2.0)",
+        "description": "Study of the physical and biological history of the Earth beginning with the origin of the solar system up to the present. Emphasis will be placed on processes that shaped the Earth and its ecosystems. Prerequisite: Entrance requirements for the MST program in Earth Science."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5311  Depositional Systems (LEC 3.0)",
+        "description": "Development of three dimensional depositional models using Walther's Law, Walther's Warning and seismic stratigraphy. Emphasis on overall geometries and internal porosity and permeability characteristics of aquifers and hydrocarbon reservoirs. Includes 3-D models for clastic, carbonate and evaporate sequences. Prerequisites: Geology 1110 or Geo Eng 1150; accompanied or preceded by both Geology 3310 and Geology 3620."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5432  Potential Field Theory (LEC 3.0)",
+        "description": "The mathematics and physics of gravitational, magnetic, and electrical fields of the earth as derived from potential functions, with applications to practical problems. The theorems of Laplace, Poisson, Gauss, and Green and their applications to geophysics are presented. Prerequisites: Math 5325 (also may be taken as a co-requisite). (Co-listed with Geophys 5432 and Geo Eng 5432)."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5510  Organic Geochemistry (LEC 3.0)",
+        "description": "This course explores the carbon cycle, the history and inventory of organic matter on Earth, the transport of organic matter in aqueous systems, the burial of organic matter, the maturation of organic matter to become petroleum, and organic contaminants in the environment. Prerequisites: Graduate standing or consent of instructor."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5511  Applied Petroleum Geology (LAB 2.0 and LEC 1.0)",
+        "description": "The principles of petroleum geology are applied in solving hydrocarbon exploration and developmental problems. Geological and economical techniques for evaluating hydrocarbonbearing reservoirs are presented, with methods for decisionmaking under conditions of extreme uncertainty. Prerequisite: Consent of instructor."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5513  Petroleum Geology (LAB 1.0 and LEC 2.0)",
+        "description": "Principles of origin, migration, and accumulation of oil and gas. The laboratory introduces the procedures used for exploration, and development of hydrocarbon resources. Prerequisites: Geology 1110 or Geo Eng 1150; accompanied or preceded by both Geology 3310 and Geology 3620. Petroleum Engineering majors have an exception for the pre-requisite of Geology 3620."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5521  Coal Petrology (LEC 3.0)",
+        "description": "Formation, composition, and properties of coals. Discussion of the geology of selected coal deposits, the analysis of coal, and the optical identification of coal minerals. Prerequisite: Permission of instructor."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5611  Granites And Rhyolites (LAB 1.0 and LEC 3.0)",
+        "description": "Processes governing the generation and crystallization of felsic magma will be covered, with specific reference to: 1) crust vs mantle sources, 2) melt migration and emplacement, 3) magma chamber dynamics, 4) the volcanic-plutonic connection, and 5) the relationship to tectonic setting. A field trip at the student's expense is required. Prerequisite: Geology 2620."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5631  Carbonate Petrology (LAB 1.0 and LEC 2.0)",
+        "description": "Petrology, chemistry and sedimentology of carbonates and other associated chemical sedimentary rocks. Prerequisites: Geology 2611, Geology 3620 and Chem 1320 or equivalent; Geology 3410 recommended."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5641  Advanced Igneous Petrology (LAB 1.0 and LEC 2.0)",
+        "description": "The genesis of eruptive rocks as evidenced by the physico-chemical conditions of formation of their constituent minerals. A critical examination of various magmatic processes. Use of advanced petrographic techniques. Prerequisites: GEOLOGY 4631."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5661  Advanced Stratigraphy and Basin Evolution (LEC 3.0)",
+        "description": "Advanced topics in sedimentary geology including: tectonic controls on sedimentary basin development, global sequence stratigraphy, regional facies and diagenetic patterns, basin hydrogeology, thermal evolution of basins and distribution of economic resources. This course should be preceeded or accompanied by Geology 3410.  Prerequisites: Geology 3620 and Geology 3310."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5671  Clay Mineralogy (LAB 1.0 and LEC 2.0)",
+        "description": "Mineral structure, geochemical properties, occurrence, environment, and uses of clays. Determination of physical properties, optics, x-ray diffraction, and thermal features of clays. Field trip fee required. Prerequisites: Geology 2611 and Geology 3410, or Chem 2310, or Civ Eng 5715, or Geo Eng 5172."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5679  Field and Laboratory Studies in Earth Science (LAB 3.0)",
+        "description": "Hands-on laboratory and field experiences in the Earth Sciences. This course is designed to be taught in an intensive three week session during the summer on the S&T campus. Prerequisites: GEOLOGY 2096 or 5121 or equivalents."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5681  Lidar Principles and Application (LEC 3.0)",
+        "description": "Provides a comprehensive understanding of light detection and ranging (lidar) technology as it has been developed for commercial use; various methods of deploying technology for collection of data for mapping, engineering and science, and application of the data using specialized software for editing and processing point cloud data. Assumes GIS experience. Prerequisite: Senior or graduate standing."
+    },
+    {
+        "subject_id": 33,
+        "department_id": 15,
+        "subject_code": "GEOLOGY",
+        "subject_name": "Geology",
+        "course": "GEOLOGY 5741  Micropaleontology (LAB 1.0 and LEC 2.0)",
+        "description": "This course studies the fossil and soft-body characteristics of bacteria, protists, microinvertebrates and organic-walled microfossils (palynomorphs). Focused discussions on systematics, evolutionary histories, paleoecology, and geologic applications of the microfossil groups. Extraction of foraminifera and palynomorphs from rocks in lab. Prerequisite: Geology 4630."
+    }
+]

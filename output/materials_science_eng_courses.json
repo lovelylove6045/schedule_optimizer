@@ -1,0 +1,154 @@
+[
+    {
+        "subject_id": 37,
+        "department_id": 16,
+        "subject_code": "MS&E",
+        "subject_name": "Materials Science & Eng",
+        "course": "MS&E 4001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 37,
+        "department_id": 16,
+        "subject_code": "MS&E",
+        "subject_name": "Materials Science & Eng",
+        "course": "MS&E 4810  Chemistry And Inherent Properties Of Polymers (LEC 3.0)",
+        "description": "A basic study of the organic chemistry of natural and synthetic high polymers, their inherent properties and their uses in plastic, fiber, rubber, resin, food, paper and soap industries. Prerequisite: Chem 1320 or Met Eng 1210. (Co-listed with Chem 4810)."
+    },
+    {
+        "subject_id": 37,
+        "department_id": 16,
+        "subject_code": "MS&E",
+        "subject_name": "Materials Science & Eng",
+        "course": "MS&E 4819  Polymer Science Laboratory (LAB 1.0)",
+        "description": "Lectures and laboratory experiments dealing with polymerization reactions, solution properties and bulk or solid properties will be presented. Each student will prepare polymers and carry out characterization experiments on actual samples. Prerequisite: Chem 4810 or MS&E 4810 and preceded or accompanied by Chem 1100. (Co-listed with Chem 4819)."
+    },
+    {
+        "subject_id": 37,
+        "department_id": 16,
+        "subject_code": "MS&E",
+        "subject_name": "Materials Science & Eng",
+        "course": "MS&E 4850  Fundamentals Of Protective Coating I (LEC 3.0)",
+        "description": "Study of the basic principles of protective coatings with particular reference to the paint and varnish industry. Classifications, manufacture, properties and uses of protective coatings. Prerequisite: Chem 1320. (Co-listed with Chem 4850)."
+    },
+    {
+        "subject_id": 37,
+        "department_id": 16,
+        "subject_code": "MS&E",
+        "subject_name": "Materials Science & Eng",
+        "course": "MS&E 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 37,
+        "department_id": 16,
+        "subject_code": "MS&E",
+        "subject_name": "Materials Science & Eng",
+        "course": "MS&E 5001  Special Topics (LEC 0.0 and RSD 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 37,
+        "department_id": 16,
+        "subject_code": "MS&E",
+        "subject_name": "Materials Science & Eng",
+        "course": "MS&E 5010  Seminar (RSD 0.0-6.0)",
+        "description": "(Variable) Discussion of current topics."
+    },
+    {
+        "subject_id": 37,
+        "department_id": 16,
+        "subject_code": "MS&E",
+        "subject_name": "Materials Science & Eng",
+        "course": "MS&E 5040  Oral Examination (IND 0.0)",
+        "description": "(Variable) After completion of all other program requirements, oral examinations for on-campus M.S./Ph.D students may be processed during intersession. Off-campus M.S. students must be enrolled in an oral examination and must have paid an oral examination fee at the time of the defense/comprehensive examination (oral/written). All other students must enroll for credit commensurate with uses made of facilities and/or faculties. In no case shall this be for less than three (3) semester hours for resident students."
+    },
+    {
+        "subject_id": 37,
+        "department_id": 16,
+        "subject_code": "MS&E",
+        "subject_name": "Materials Science & Eng",
+        "course": "MS&E 5060  Chemistry of Construction Materials (LEC 3.0)",
+        "description": "The objective of the course is to utilize fundamental concepts of materials science and chemistry to understand, analyze, and describe the chemistry of construction materials. Special focus is given to describe composition-reactivity-microstructure-property relations in various cementitious materials. \nPrerequisites: At least Senior standing."
+    },
+    {
+        "subject_id": 37,
+        "department_id": 16,
+        "subject_code": "MS&E",
+        "subject_name": "Materials Science & Eng",
+        "course": "MS&E 5099  Research (IND 0.0-15)",
+        "description": "(Variable) Investigations of an advanced nature leading to the preparation of a thesis or dissertation. Consent of instructor required."
+    },
+    {
+        "subject_id": 37,
+        "department_id": 16,
+        "subject_code": "MS&E",
+        "subject_name": "Materials Science & Eng",
+        "course": "MS&E 5210  Tissue Engineering (LEC 3.0)",
+        "description": "The course will use problem-based case studies to introduce junior and senior undergraduate students to the principles and clinical applications of tissue engineering. Topics include the use of biomaterials, scaffolds, cells, and external factors to develop implantable parts for the restoration, maintenance, or replacement of tissues and organs. Prerequisite: Junior or Senior standing. (Co-listed with Bio Sci 5240)."
+    },
+    {
+        "subject_id": 37,
+        "department_id": 16,
+        "subject_code": "MS&E",
+        "subject_name": "Materials Science & Eng",
+        "course": "MS&E 5220  Advanced Phase Equilibria (LEC 3.0)",
+        "description": "Advanced aspects of unary, binary and ternary organic, phase equilibria. Includes practical examples of the applications of phase diagrams to solve engineering problems. Prerequisite: Graduate standing."
+    },
+    {
+        "subject_id": 37,
+        "department_id": 16,
+        "subject_code": "MS&E",
+        "subject_name": "Materials Science & Eng",
+        "course": "MS&E 5230  Energy Materials (LEC 3.0)",
+        "description": "The objectives of the course are to understand how the rational design and improvement of chemical and physical properties of materials can lead to energy alternatives that can compete with existing technologies. Discussions on the present and future energy needs from a view point of multidisciplinary scientific and technological approaches. Prerequisite: Senior standing."
+    },
+    {
+        "subject_id": 37,
+        "department_id": 16,
+        "subject_code": "MS&E",
+        "subject_name": "Materials Science & Eng",
+        "course": "MS&E 5310  Biomaterials I (LEC 3.0)",
+        "description": "This course will introduce senior undergraduate students to a broad array of topics in biomaterials, including ceramic, metallic, and polymeric biomaterials for in vivo use, basic concepts related to cells and tissues, host reactions to biomaterials, biomaterials-tissue compatibility, and degradation of biomaterials. Prerequisites: Senior undergraduate standing. (Co-listed with BIO SCI 5210, CHEM ENG 5200)."
+    },
+    {
+        "subject_id": 37,
+        "department_id": 16,
+        "subject_code": "MS&E",
+        "subject_name": "Materials Science & Eng",
+        "course": "MS&E 5330  Composite Materials Science and Engineering (LEC 3.0)",
+        "description": "Introduces fundamental principles governing the processing, structure, and properties of composites. Examines how constituent selection, interfaces, and architecture determine performance across diverse domains. Highlights how constituent interactions yield tailored property combinations for technological applications. Prerequisites: A grade of \"C\" or better in Civ Eng 2210 or graduate standing."
+    },
+    {
+        "subject_id": 37,
+        "department_id": 16,
+        "subject_code": "MS&E",
+        "subject_name": "Materials Science & Eng",
+        "course": "MS&E 5460  Molecular Engineering of Materials (LEC 3.0)",
+        "description": "This course focuses on the fundamentals of molecular engineering with an emphasis on their applications including renewable/clean energy solutions, energy storage, air/water cleaning, and optoelectronics. Topics include principles of modern physics, carbon chemistry, macromolecules, metal(covalent)-organic frameworks sol-gel processing and crystal growth. Prerequisites: Senior Standing or consent of instructor. (Co-listed with Chem 5460)."
+    },
+    {
+        "subject_id": 37,
+        "department_id": 16,
+        "subject_code": "MS&E",
+        "subject_name": "Materials Science & Eng",
+        "course": "MS&E 5810  Introduction to Polymeric Materials (LEC 3.0)",
+        "description": "A basic study of the organic chemistry of natural and synthetic high polymers, their inherent properties and their uses in plastic, fiber, rubber, resin, food, paper and soap industries. Credit may not be given for both Chem 5810 and Chem 4810. Prerequisite: Chem 1320. (Co-listed with Chem 5810 and Chem Eng 5810)."
+    },
+    {
+        "subject_id": 37,
+        "department_id": 16,
+        "subject_code": "MS&E",
+        "subject_name": "Materials Science & Eng",
+        "course": "MS&E 5819  Polymer Synthesis and Characterization Lab (LAB 1.0)",
+        "description": "Laboratory experiments dealing with polymerization syntheses and solution, bulk and solid properties will be presented. Each student will prepare polymers and carry out all characterization experiments on actual samples. Credit may not be given for both Chem 5819 and Chem 4819.  Prerequisite: Chem 4810 or MS&E 4810 or Chem 5810 or MS&E 5810 or Chem Eng 5310, preceded or accompanied by Chem 1100 or Chem 5100 or an equivalent training program approved by S&T. (Co-listed with Chem 5819)."
+    },
+    {
+        "subject_id": 37,
+        "department_id": 16,
+        "subject_code": "MS&E",
+        "subject_name": "Materials Science & Eng",
+        "course": "MS&E 5850  Introduction to Coating Chemistry (LEC 3.0)",
+        "description": "Study of the basic principles of protective coatings with particular reference to the paint and varnish industry. Classifications, manufacture, properties and uses of protective coatings. Credit may not be given for both Chem 5850 and Chem 4850.  Prerequisite: Chem 1320 or Met Eng 1210. (Co-listed with Chem 5850)."
+    }
+]

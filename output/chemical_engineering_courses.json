@@ -1,0 +1,546 @@
+[
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 2001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 2100  Chemical Engineering Material & Energy Balances (LEC 4.0)",
+        "description": "The application of mathematics, physics and chemistry to industrial chemical processes. The use of equations of state, chemical reaction stoichiometry, and the conservation of mass and energy to solve chemical engineering problems. Prerequisites: A grade of \"C\" or better in Chem 1320 or Geology 3410 and in Math 1215; preceded or accompanied by Physics 1135."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 2110  Chemical Engineering Thermodynamics I (LEC 3.0)",
+        "description": "Development and application of the laws and fundamental relationships of thermodynamics to industrial chemical processes. Emphasis is placed on the estimation of thermophysical property values for applications in chemical process engineering. Prerequisites: Preceded by Physics 1135 and preceded or accompanied by Math 2222 and Math 3304."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 3001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 3002  Cooperative Engineering Training (IND 0.0-6.0)",
+        "description": "On-the-job experience gained through cooperative education with industry, with credit arranged through departmental cooperative advisor. Grade received depends on quality of reports submitted and work supervisor's evaluation."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 3101  Fundamentals of Transport in Chemical and Biochemical Engineering (LEC 4.0)",
+        "description": "This course covers the fundamentals of momentum, energy, and mass transport. Phenomenological mechanisms of molecular transport, fluid static, analysis of a fluid in motion laminar and turbulent flow are covered. The general differential equations for momentum, energy and mass transfer are presented and solved for a variety of chemical engineering problems. Prerequisites: A grade of \"C\" or better in Math 2222, Math 3304, Chem Eng 2100, and Chem Eng 2110."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 3111  Numerical Computing in Chemical and Biochemical Engineering (LEC 3.0)",
+        "description": "Students will add to their programming skills by exploring numerical computational techniques for solving and analyzing algebraic and calculus-based equations and systems of equations that describe chemical engineering processes. Prerequisites: A grade of \"C\" or better in Math 2222 and Math 3304. Comp Sci 1500, or both Comp Sci 1570 and Comp Sci 1580, or both Comp Sci 1971 and Comp Sci 1981, or both Comp Sci 1972 and Comp Sci 1982; preceded or accompanied by Chem Eng 2100."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 3120  Chemical Engineering Thermodynamics II (LEC 3.0)",
+        "description": "Physical, chemical and reaction equilibrium. Study of the thermophysical relationships of multicomponent, multiphase equilibrium. Application of equilibrium relationships to the design and operation of chemical mixers, separators and reactors. Prerequisites: A grade of \"C\" or better in Chem Eng 2100 and Chem Eng 2110."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 3131  Separations in Chemical and Biochemical Engineering (LEC 3.0)",
+        "description": "Flash and column distillation. McCabe-Thiele method, plate efficiencies. Azeotropes. Batch distillation. Absorption and stripping. Washing and leaching. Prerequisites: Chem Eng 3101, Chem Eng 3111, and Chem Eng 3120."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 3141  Process Operations in Chemical and Biochemical Engineering (LEC 3.0)",
+        "description": "Design and selection of pipe systems, pumps, fans, compressors, valves, and ejectors. Design and selection of reactors and distillation equipment. Design of pressure vessels to ASME design standard. Design of agitation and mixing equipment, filtration, and crystallization units. Introduction to biochemical unit operations (liquid chromatography, lyophilization, and diafiltration) and control equipment. Prerequisites: Chem Eng 3101 and Chem Eng 3120."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 3150  Chemical Engineering Reactor Design (LEC 3.0)",
+        "description": "The study of chemical reaction kinetics and their application to the design and operation of chemical and catalytic reactors. Prerequisites: Preceded or accompanied by Chem Eng 3120."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 3200  Biochemical Separations (LEC 3.0)",
+        "description": "The fundamentals of mass transfer are introduced and applied to various unit operations employed in the separation of chemical and biochemical compounds. Prerequisites: Chem Eng 3120. Chem Eng majors only."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 3210  Introduction to Biomedical Engineering (LEC 3.0)",
+        "description": "This course will provide an introduction to the interdisciplinary field of biomedical engineering. The molecular, cellular, physiological and engineering principles that govern the field will be covered. Applications will include biomaterials, tissue engineering, biomechanics, bioimaging, bioinstrumentation, bio-nanotechnology and artificial organs. Prerequisite: Junior standing or above. (Co-listed with Cer Eng 3110 and Bio Sci 3110)."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 4001  Special Topics (LEC 3.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 4091  Chemical Process Design I (LEC 3.0)",
+        "description": "Economic analysis of a chemical process including capital requirements, operating costs, earnings, and profits. The economic balance is applied to chemical engineering operations and processes. Optimization and scheduling techniques are applied to process evaluation. Preliminary process design and use of simulation software. Design of heat exchangers, condensers, and reboilers. Prerequisites: Chem Eng 3131 and Chem Eng 3141; preceded or accompanied by Chem Eng 3150; preceded or accompanied by either English 3560 or English 1160."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 4097  Chemical Process Design II (LEC 3.0)",
+        "description": "Engineering principles involved in the design and layout of chemical process equipment. Material and energy balances, equipment selection and design, and preconstruction cost estimation are performed for a capstone design project. Communication emphasized course. Prerequisites: Chem Eng 3150 and Chem Eng 4091; preceded or accompanied by Chem Eng 4110."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six hours allowed for graduation credit. Subject and credit to be arranged with the instructor."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 4101  Chemical Engineering Laboratory I (LAB 2.0 and LEC 1.0)",
+        "description": "Experiments associated with unit operations involving fluid flow and heat transfer. Principles of data and uncertainty analysis are introduced with emphasis on model building. Communication skills are stressed. This is a communication emphasized course. Prerequisites:  Chem Eng 3141, and either Stat 3113 or Stat 3115; preceded or accompanied by Chem Eng 4110."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 4110  Chemical Engineering Process Dynamics And Control (LEC 3.0)",
+        "description": "Study of the dynamics of chemical processes and the instruments and software used to measure and control temperature, pressure, liquid level, flow, and composition. Prerequisites: Chem Eng 3150, Chem Eng 3131 and Chem Eng 3141."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 4130  Chemical Engineering Laboratory II (LAB 2.0 and LEC 1.0)",
+        "description": "Experiments illustrating the unit operations of continuous and staged separation. Experimental design methods are extended to include the principles of regression and model building. Communication skills are stressed. This is a communication emphasized course. Prerequisites: Chem Eng 3141 and Chem Eng 3131 and either Stat 3113 or Stat 3115; preceded or accompanied by Chem Eng 3150 and English 3560."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 4140  Chemical Process Safety (LEC 3.0)",
+        "description": "The identification and quantification of risks involved in the processing of hazardous and/or toxic materials are studied. Prerequisite: Preceded or accompanied by Chem Eng 3150."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 4150  Chemical Process Flowsheeting (LAB 1.0 and LEC 2.0)",
+        "description": "The development, implementation, and evaluation of methods for determining the mathematical model of a chemical process, ordering the equations in the mathematical model, and solving the model. Prerequisite: Math 3304 or graduate standing."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 4200  Biochemical Separations Laboratory (LAB 2.0)",
+        "description": "Introduction to the unit operations employed in the separation of chemicals and biochemicals. The experiments illustrate the staged and continuous separation systems that are involved. This is a communications emphasized course. Prerequisite: Chem Eng 3200."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 4201  Biochemical Separations and Control Laboratory (LAB 2.0 and LEC 1.0)",
+        "description": "Introduction to the unit operations employed in the separation of chemicals and biochemicals. The experiments illustrate the staged and continuous separation systems that are involved. Application of concepts of industrial process dynamics and control. Communications emphasized. Generally offered in fall. Prerequisites: Stat 3113 or Stat 3115 or Stat 3425; Preceded or accompanied by Chem Eng 5250."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 4210  Biochemical Reactors (LEC 3.0)",
+        "description": "Application of chemical engineering principles to biochemical reactors. Emphasis on enzyme catalyzed reactors, cells as reactors, bioreactor types and designs, and disposable technology. Generally offered in spring. Prerequisite: Chem Eng 3150 or graduate standing."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 4220  Biochemical Reactor Laboratory (LAB 2.0 and LEC 1.0)",
+        "description": "Introduction to the unit operations involved with the production of biochemicals. The experiments emphasize the isolation of proteins and enzymes from tissue and bacteria cells. This is a communications emphasized course. Generally offered in spring. Prerequisites: Stat 3113 or Stat 3115 or Stat 3425; Preceded or accompanied by Chem Eng 4210."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 4241  Process Safety in the Chemical and Biochemical Industries (LEC 3.0)",
+        "description": "This course covers risk assessment, hazardous and/or toxic materials containment, environmental impact, safety regulations, and other safety issues relevant to chemical and biochemical industries. Prerequisites: Preceded or accompanied by Chem Eng 3150."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 4301  Chemical Process Materials (LEC 1.0)",
+        "description": "Seminar to highlight the classification, properties, selection, and processing of engineering materials that may include polymers, electronic materials, biomaterials, and nanomaterials. Students will research related topics for presentation and discussion. Prerequisites: Physics 1135."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 4311  Professional Practice and Ethics (LEC 1.0)",
+        "description": "Preparation for post-graduate activities including resume writing and job searching. Professional attitudes, practice, licensure, and ethics in the chemical engineering profession. Discussion of professional development including professional and graduate programs. Generally offered in spring. Prerequisite: Senior standing."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required. Prerequisite: Consent of Instructor Required."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5010  Seminar (RSD 0.0-6.0)",
+        "description": "Discussion of current topics."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5040  Oral Examination (IND 0.0)",
+        "description": "After completion of all other program requirements, oral examinations for on-campus M.S./Ph.D. students may be processed during intersession. Off-campus M.S. students must be enrolled in oral examination and must have paid an oral examination fee at the time of the defense/comprehensive examination (oral/ written). All other students must enroll for credit commensurate with uses made of facilities and/or faculties. In no case shall this be for less than three (3) semester hours for resident students."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5100  Intermediate Transport Phenomena (LEC 3.0)",
+        "description": "The similarities of flow of momentum, heat and mass transfer and the applications of these underlying principles are stressed. Course is primarily for seniors and beginning graduate students. Prerequisite: Chem Eng 3101 or graduate standing."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5110  Intermediate Chemical Reactor Design (LEC 3.0)",
+        "description": "A study of homogeneous and heterogeneous catalyzed and noncatalyzed reaction kinetics for flow and batch chemical reactors. Application to reactor design is stressed. Prerequisite: Chem Eng 3150 or graduate standing."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5120  Interfacial Phenomena In Chemical Engineering (LEC 3.0)",
+        "description": "The course deals with the effects of surfaces on transport phenomena and on the role of surface-active agents by applying the fundamentals of thermodynamics, momentum, heat and mass transfer at interfaces and of surfactants. Some applications are included. Prerequisite: Chem Eng 3131 or graduate standing. (Co-listed with Min Eng 5420)."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5130  Risk Assessment and Reduction (LEC 3.0)",
+        "description": "Safe, secure manufacturing facilities protect the health of employees and the public, preserve the environment, and increase profitability. Methods for systematically identifying hazards and estimating risk improve the safety performance and security of manufacturing facilities. Prerequisite: Senior or Graduate Standing. (Co-listed with Eng Mgt 4312)."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5150  Intermediate Process Computing (LAB 1.0 and LEC 2.0)",
+        "description": "Analysis of chemical processes from model development to solution using numerical computational techniques and tools to solve ordinary and partial differential equations. Prerequisite: Senior or Graduate standing."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5161  Intermediate Molecular Engineering (LEC 3.0)",
+        "description": "Molecular aspects of chemical thermodynamics, transport processes, reaction dynamics, and statistical and quantum mechanics, and their treatments in molecular-based modeling and simulation approaches. Prerequisites: Chem Eng 3120 or graduate standing."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5170  Physical Property Estimation (LEC 3.0)",
+        "description": "Study of techniques for estimating and correlating thermodynamic and transport properties of gases and liquids. Prerequisite: Chem Eng 3131 or graduate standing."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5190  Plantwide Process Control (LEC 3.0)",
+        "description": "Synthesis of control schemes for continuous and batch chemical plants from concept to implementation. Multiloop control, RGA, SVD, constraint control, multivariable model predictive control, control sequence descriptions. Design project involving a moderately complicated multivariable control problem. Prerequisites: Chem Eng 4110 or Elec Eng 3320 or Elec Eng 3340 or graduate standing. (Co-listed with Elec Eng 5350)."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5200  Biomaterials I (LEC 3.0)",
+        "description": "This course will introduce senior undergraduate students to a broad array of topics in biomaterials, including ceramic, metallic, and polymeric biomaterials for in vivo use, basic concepts related to cells and tissues, host reactions to biomaterials, biomaterials-tissue compatibility, and degradation of biomaterials. Prerequisite: Senior undergraduate standing. (Co-listed with Bio Sci 5210, MS&E 5310)."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5210  Intermediate Biochemical Reactors (LEC 3.0)",
+        "description": "Application of chemical engineering principles to biochemical reactors. Emphasis on cells as chemical reactors, enzyme catalysis and production of monoclonal antibodies. Projects on special topics and presentations related to the course materials will be included. Prerequisite: Preceded or accompanied by Chem Eng 3150 or graduate standing."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5211  Intermediate Bioreactor Laboratory (LAB 2.0 and LEC 1.0)",
+        "description": "The application of bioengineering principles and bioreactor design to the production of biochemicals. The experiments emphasize cell culture, fermentation, and extraction and isolation of proteins and enzymes from tissue and bacteria cells. Prerequisites: Preceded or accompanied by Chem Eng 5210 or graduate standing."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5220  Intermediate Engineering Thermodynamics (LEC 3.0)",
+        "description": "Review thermodynamic principles for pure fluids and mixtures. Emphasis on applications for the chemical industry and use of fundamental relations and equations of state. Prerequisite: Chem Eng 3120 or graduate standing."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5242  Intermediate Chemical Process Safety (LEC 3.0)",
+        "description": "The identification and quantification of risks involved in the processing of hazardous and/or toxic materials are studied. Methods to design safety systems or alter the chemical process to reduce or eliminate the risks are covered. Includes safety regulations and issues related to chemical and biochemical industries. Prerequisites: Graduate Standing and Permission of Instructor."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5250  Isolation and Purification of Biologicals (LEC 3.0)",
+        "description": "Isolation and purification of biologicals with emphasis on biopharmaceuticals. Principles and applications of chromatography, lyophilization, and product formulation. Use of ultrafiltration and diafiltration in the processing of protein products. Disposable technology. Generally offered in fall. Prerequisites: Preceded or accompanied by Chem Eng 3131, and Chem Eng 3141 or BME 3100."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5251  Intermediate Bioseparations Laboratory (LAB 2.0 and LEC 1.0)",
+        "description": "Staged and continuous separation systems that are involved in bioengineering research, biotechnology, and pharmaceutical industry. The experiments cover chromatography, phase extraction, electrophoresis, dialysis, affinity techniques, and cell separation. Prerequisites: Preceded or accompanied by Chem Eng 5250 or graduate standing."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5260  Drug and Gene Delivery Systems (LEC 3.0)",
+        "description": "Overview of drug and gene delivery systems, rational design for their applications with an emphasis on structure-property-function relationships. Three major parts: polymers and nanoparticles as drug and gene carriers; strategies to deliver drugs and genes; in vitro and in vivo techniques of assessment and validation. Prerequisites: Chem 2210 and Bio Sci 2213. (Co-listed with BME 5100)."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5270  Materials as Hard Tissue Devices (LEC 3.0)",
+        "description": "This course considers the structure-property relationships of materials employed as medical devices, as well as the bone and dentition that they are designed to replace. The course will also consider the behavior of materials in the physiological environment, the tailoring of that behavior as a response to both bulk and surface properties, and the future of hard tissue medical devices. Prerequisites: BME 4100 or MS&E 5210. (Co-listed with BME 5200)."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5280  Vaccine Manufacturing (LEC 3.0)",
+        "description": "The development, manufacturing, and approval process of vaccines are covered. Vaccines that use attenuated or inactivated viruses, viral components and mRNA as the active ingredient are discussed. The manufacturing process includes the making of the active ingredient, vaccine formulation and delivery. The class includes three remote lab experiments. Prerequisites: Senior standing in an engineering discipline, physics, chemistry, or biology. (Co-listed with BME 5300)."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5300  Principles Of Engineering Materials (LEC 3.0)",
+        "description": "Examination of engineering materials with emphasis on selection and application of materials in industry. Particular attention is given to properties and applications of materials in extreme temperature and chemical environments. A discipline specific design project is required. (Not a technical elective for undergraduate metallurgy or ceramic majors) (Co-listed with Aero Eng 3877, Physics 4523, Met Eng 5810, Cer Eng 5810)."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5305  Hazardous Materials Management (LEC 3.0)",
+        "description": "Major themes: hazard identification and characterization; safety, health and environmental management; and the protection of safety, health and environment. Students will have an understanding of work place and environmental hazards in order to be able to facilitate their management and control. The course will include intensive hands-on workshops over one or more weekends. Prerequisite: Chem Eng 3131 or graduate standing."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5310  Structure and Properties of Polymers (LEC 3.0)",
+        "description": "A study of the parameters affecting structure and properties of polymers. Syntheses, mechanisms, and kinetic factors are emphasized from the standpoint of structural properties. Prerequisite: Chem Eng 3131 or graduate standing."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5315  Corrosion and Its Prevention (LEC 3.0)",
+        "description": "A study of the theories of corrosion and its application to corrosion and its prevention. Prerequisite: A grade of \"C\" or better in either Chem Eng 3120 or Cer Eng 3230. (Co-listed with Met Eng 5310)."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5320  Introduction to Nanomaterials (LEC 3.0)",
+        "description": "Introduction to the fundamentals of nanomaterials and recent developments on nanomaterials. Topics include physical and chemical properties, synthesis, processing, and applications of nanomaterials. Example nanomaterials include nanoparticles, nanotubes, and nanowires. Prerequisite: Chem Eng 2300, or Met Eng 1210 or Chem 1320."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5325  Carbon Capture Process Engineering (LEC 3.0)",
+        "description": "An introduction to the process technologies and material design associated with capturing carbon in industrial operations to reduce carbon emission, reutilizing captured carbon in oil and chemical process industries, and extracting carbon from the atmosphere to mitigate green-house effect and climate change. Prerequisites: Chem Eng 3150 or graduate standing."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5335  Introduction to Process Intensification (LEC 3.0)",
+        "description": "This course builds on basic knowledge of staged separations and reactor design to develop novel apparatus, techniques, and methods to increase process efficiency, lower energy/material costs, enhance safety, and increase sustainability. These topics are part of process intensification aimed at continuous process improvement. Prerequisites: Senior or Graduate standing."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5338  Innovation and Value Generation (LEC 3.0)",
+        "description": "This course introduces a structured framework for understanding and executing the innovation process, from ideation to implementation. It emphasizes a systematic approach to identifying real-world needs, crafting solutions, and transforming them into impactful outcomes, providing strategies for identifying customer needs and determining innovative solutions. (Co-listed with Econ 5338, Min Eng 5338, and Nuc Eng 5338)."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5350  Environmental Chemodynamics (LEC 3.0)",
+        "description": "Interphase transport of chemicals and energy in the environment. Application of the process-oriented aspects of chemical engineering and science to situations found in the environment. Prerequisite: Chem Eng 3131 or graduate standing."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5355  Process Control System Safety, Security and Alarms (LEC 3.0)",
+        "description": "Lifecycle approach for industrial automation in the context of IEC 61511 (safety) and IEC 62443 (IACS cybersecurity) standards. Functional safety and cybersecurity fundamentals for risk analysis, safety/cybersecurity requirements, inherently safer/secure design techniques, SIL/SL verification, operations, real-world cybersecurity attacks, alarm management. Prerequisites: Elec Eng 3320, Elec Eng 3340, or Chem Eng 4110. (Co-listed with Elec Eng 5355)."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5390  Energy Engineering (LEC 3.0)",
+        "description": "An assessment of issues related to worldwide energy demand and the key engineering, environmental, industrial, governmental, and market concepts that drive decision making. Discussions of the life-cycle analysis of traditional and renewable energy sources such as fossil fuels, nuclear power, biomass, wind, solar, and geothermal. Prerequisites: Senior or graduate standing."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5543  Innovation Economics and Finance (LEC 3.0)",
+        "description": "This course teaches rapid project development and financing, from an idea to a revenue-generating asset. It covers process ideation, technology/vendor selection, financial modeling, contract structuring, non-recourse financing, and project execution, such as engineering, procurement, construction, and start-up, resulting in a cash-flowing, tradeable annuity. (Co-listed with Econ 5543, Min Eng 5543, and Nuc Eng 5543)."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5648  Innovation to Market (LEC 3.0)",
+        "description": "This course provides the tools needed to transform innovative solutions into market-ready products and services, focusing on business model development, value generation, and product management. Students will learn to identify product-market fit, maximize value to customers and users, and launch successful innovations. Prerequisites: Econ 5338 and Econ 5543. (Co-listed with Econ 5648, Min Eng 5648, and Nuc Eng 5648)."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5658  Building Sustainability and Environmental, Social and Governance (ESG) (LEC 3.0)",
+        "description": "Across the globe, businesses are increasingly recognizing the importance of sustainability and ESG principles. This course equips students with the knowledge, tool set, and skills needed to understand, implement, and integrate sustainability and ESG practices in various organizational contexts. Prerequisites: Junior or above standing. (Co-listed with Econ 5658, Min Eng 5658, and Nuc Eng 5658)."
+    },
+    {
+        "subject_id": 23,
+        "department_id": 11,
+        "subject_code": "CHEM ENG",
+        "subject_name": "Chemical Engineering",
+        "course": "CHEM ENG 5810  Introduction to Polymeric Materials (LEC 3.0)",
+        "description": "A basic study of the organic chemistry of natural and synthetic high polymers, their inherent properties and their uses in plastic, fiber, rubber, resin, food, paper and soap industries. Credit may not be given for both Chem 5810 and Chem 4810. Prerequisites: Chem 1320. (Co-listed with Chem 5810 and MS&E 5810)."
+    }
+]

@@ -1,0 +1,170 @@
+[
+    {
+        "subject_id": 7,
+        "department_id": 1,
+        "subject_code": "FRENCH",
+        "subject_name": "French",
+        "course": "FRENCH 1001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable titles."
+    },
+    {
+        "subject_id": 7,
+        "department_id": 1,
+        "subject_code": "FRENCH",
+        "subject_name": "French",
+        "course": "FRENCH 1101  Elementary French I (LEC 4.0)",
+        "description": "This course is for students who have had little to no previous experience with French. It focuses on developing basic communication skills for daily life, including reading, writing, speaking, and listening. The course's cultural content introduces students to the diversity of the French-speaking world. Prerequisites: Entrance requirements. FRENCH 1101 - MOTR LANG 101: French I"
+    },
+    {
+        "subject_id": 7,
+        "department_id": 1,
+        "subject_code": "FRENCH",
+        "subject_name": "French",
+        "course": "FRENCH 1102  Elementary French II (LEC 4.0)",
+        "description": "This course focuses on continued development of students' basic French-language communication skills in reading, writing, speaking, listening, and cultural competency, including an emphasis on the diversity of the French-speaking world. For students who have completed French 1101 or the equivalent. Prerequisite: French 1101. FRENCH 1102 - MOTR LANG 102: French II"
+    },
+    {
+        "subject_id": 7,
+        "department_id": 1,
+        "subject_code": "FRENCH",
+        "subject_name": "French",
+        "course": "FRENCH 1180  Intermediate French (LEC 4.0)",
+        "description": "Focus on developing students' intermediate-level proficiency by strengthening their understanding of basic linguistic features of French and introducing more advanced concepts. The course also integrates diverse cultural content from the French-speaking world. For students who have completed French 1102 or the equivalent. Prerequisite: French 1102."
+    },
+    {
+        "subject_id": 7,
+        "department_id": 1,
+        "subject_code": "FRENCH",
+        "subject_name": "French",
+        "course": "FRENCH 2000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 7,
+        "department_id": 1,
+        "subject_code": "FRENCH",
+        "subject_name": "French",
+        "course": "FRENCH 2001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 7,
+        "department_id": 1,
+        "subject_code": "FRENCH",
+        "subject_name": "French",
+        "course": "FRENCH 2110  Basic French Conversation (LEC 3.0)",
+        "description": "French conversation and oral practice. Prerequisite: French 1180."
+    },
+    {
+        "subject_id": 7,
+        "department_id": 1,
+        "subject_code": "FRENCH",
+        "subject_name": "French",
+        "course": "FRENCH 2170  Masterpieces Of French Literature (LEC 3.0)",
+        "description": "Selected major works and movements in French literature. Prerequisite: French 1180."
+    },
+    {
+        "subject_id": 7,
+        "department_id": 1,
+        "subject_code": "FRENCH",
+        "subject_name": "French",
+        "course": "FRENCH 2180  Basic French Composition (LEC 3.0)",
+        "description": "Composition and translations from English. Prerequisite: French 1180."
+    },
+    {
+        "subject_id": 7,
+        "department_id": 1,
+        "subject_code": "FRENCH",
+        "subject_name": "French",
+        "course": "FRENCH 2330  Introduction to Professional French (LEC 3.0)",
+        "description": "This course introduces students to the linguistic and intercultural skills necessary to succeed in professional settings in which the principal language of communication is French. Course materials and discussions are in French. Prerequisites: French 1180."
+    },
+    {
+        "subject_id": 7,
+        "department_id": 1,
+        "subject_code": "FRENCH",
+        "subject_name": "French",
+        "course": "FRENCH 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 7,
+        "department_id": 1,
+        "subject_code": "FRENCH",
+        "subject_name": "French",
+        "course": "FRENCH 3001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 7,
+        "department_id": 1,
+        "subject_code": "FRENCH",
+        "subject_name": "French",
+        "course": "FRENCH 3010  The Francophone World (LEC 3.0)",
+        "description": "This course explores history and culture of the French-speaking world. Students will broaden and deepen their understanding of its richness and diversity. Specific topics and regions covered may vary. The course is taught in French. Prerequisites: Any 2000-level French course."
+    },
+    {
+        "subject_id": 7,
+        "department_id": 1,
+        "subject_code": "FRENCH",
+        "subject_name": "French",
+        "course": "FRENCH 3375  Survey Of French Literature II (Modern Period) (LEC 3.0)",
+        "description": "Survey of 19th and 20th century French-language literature. Course materials, assignments, and discussions are in French. Prerequisite: Any 2000-level French course."
+    },
+    {
+        "subject_id": 7,
+        "department_id": 1,
+        "subject_code": "FRENCH",
+        "subject_name": "French",
+        "course": "FRENCH 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 7,
+        "department_id": 1,
+        "subject_code": "FRENCH",
+        "subject_name": "French",
+        "course": "FRENCH 4001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 7,
+        "department_id": 1,
+        "subject_code": "FRENCH",
+        "subject_name": "French",
+        "course": "FRENCH 4010  Seminar (IND 0.0-6.0)",
+        "description": "Discussion of current topics. Prerequisite: Senior standing."
+    },
+    {
+        "subject_id": 7,
+        "department_id": 1,
+        "subject_code": "FRENCH",
+        "subject_name": "French",
+        "course": "FRENCH 4311  Advanced French Conversation (LEC 3.0)",
+        "description": "Advanced conversation and oral practice. Prerequisite: Any 2000-level French course or above."
+    },
+    {
+        "subject_id": 7,
+        "department_id": 1,
+        "subject_code": "FRENCH",
+        "subject_name": "French",
+        "course": "FRENCH 4320  French and Francophone Cinema (LEC 3.0)",
+        "description": "A survey of French and Francophone cinema. Prerequisites: Any 2000-level French course or above. (Co-listed with ART 4320)."
+    },
+    {
+        "subject_id": 7,
+        "department_id": 1,
+        "subject_code": "FRENCH",
+        "subject_name": "French",
+        "course": "FRENCH 4330  Professional French (LEC 3.0)",
+        "description": "Through practical examples and exercises, this course helps you develop linguistic proficiency, intercultural competence, and knowledge of the French-language professional world. Focus on applications in a variety of professional milieux, depending on students' specializations and areas of interest. Readings, lectures, and discussions in French. Prerequisites: Any French course at the 2000 level or above."
+    },
+    {
+        "subject_id": 7,
+        "department_id": 1,
+        "subject_code": "FRENCH",
+        "subject_name": "French",
+        "course": "FRENCH 4340  French for Engineering (LEC 3.0)",
+        "description": "This course focuses on developing the linguistic and intercultural skills students need to effectively communicate about engineering-related topics in French. May also cover other STEM topics. Taught in French. Prerequisites: Any 2000-level French course or above."
+    }
+]

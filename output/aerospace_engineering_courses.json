@@ -1,0 +1,474 @@
+[
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 2001  Special Topics (LAB 1.0 and LEC 1.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 2360  Dynamics (LEC 3.0)",
+        "description": "The principles of mechanics are used to model engineering systems. Kinematics of particle motion, kinematics of plane- and three-dimensional motions of rigid bodies. Kinetics of particles and of rigid bodies. Energy and momentum methods. Prerequisite: Grade of \"C\" or better in each of Civ Eng 2200, Math 2222. (Co-listed with Mech Eng 2360)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 2780  Introduction to Aerospace Design (LAB 1.0 and LEC 1.0)",
+        "description": "Introduction to methodology of aerospace vehicle design and principles of layout to meet a given specification, mission objective, component sizing, design iteration and building & performance testing of models. Prerequisite: A grade of \"C\" or better in Aero Eng 2861."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 2790  Introduction to Spacecraft Design (LAB 1.0 and LEC 1.0)",
+        "description": "Intro. to basics of spacecraft design, including design requirements, subsystem definition, and vehicle design synthesis. Lab work includes design and fabrication of a small spacecraft payload that is flight tested on a high altitude balloon to 100,000 feet. Post-flight data reduction and analysis. Field trip will be required for balloon launch/retrieval. Prerequisite: A grade \"C\" or better in Aero Eng 2861."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 2861  Aerospace Vehicle Performance (LEC 3.0)",
+        "description": "Nature and theory of lift, drag, performance, and stability and control of aerospace vehicles. Prerequisite:  A grade of \"C\" or better in each of the following: Math 1215; Physics 1135 or Physics 1111."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 3001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 3002  Cooperative Engineering Training (IND 0.0-6.0)",
+        "description": "On-the-job experience gained through cooperative education with industry with credit arranged through departmental co-op adviser. Grade received depends on quality of reports submitted and work supervisor's evaluation."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 3010  Seminar in Aerospace Engineering (RSD 1.0)",
+        "description": "Discussion of current topics."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 3131  Aerodynamics I (LEC 3.0)",
+        "description": "A study of the fundamental concepts of fluid mechanics as applied to aerodynamic applications with both differential and control volume analysis. Theory and application of viscous and inviscid incompressible flow including boundary layer theory and two dimensional airfoil theory. Prerequisites: A grade of \"C\" or better in each of the following: Aero Eng 2861; Math 1214 or Math 1211; Math 1215; Math 2222; Physics 1135 or Physics 1111."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 3171  Aerodynamics II (LEC 3.0)",
+        "description": "Three dimensional incompressible wing theory. Compressible one dimensional flow with normal and oblique shock waves, heat addition, and friction. Compressible transonic, and supersonic linearized flow theory. Supersonic wings and wing/fuselage configurations. Prerequisite: \"C\" or better in Aero Eng 3131 and Mech Eng 2519."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 3251  Aerospace Structures I (LEC 3.0)",
+        "description": "An introduction to various loads on aerospace vehicles. Basic theory and analysis of typical aerospace and related vehicle structures subjected to steady loading. Bending, shear, and torsion of open and closed section beams. Design of thin walled structures. Prerequisites: A grade of \"C\" or better in each of the following: Math 1214 (or 1211); Math 1215; Math 2222; Physics 1135 or Physics 1111; Civ Eng 2210."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 3361  Flight Dynamics and Control (LEC 3.0)",
+        "description": "Static stability and control of conventional aircraft and implications in aircraft design. Six degrees of freedom time dependent equations of motion and their linearized solutions. Consideration of stability vs maneuverability, and the dynamic modes of motion of the aircraft. Prerequisites: Aero Eng 3613, Aero Eng 3131, and accompanied or preceded by Aero Eng 2780."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 3613  Aerospace Mechanics I (LEC 3.0)",
+        "description": "Introduction to celestial mechanics and an analytical study of space flight. Emphasis is placed on satellite orbits and general theory of gyrodynamics. Prerequisites: Math 3304; a grade of \"C\" or better in each of the following: Aero Eng 2360 or Mech Eng 2360; Math 1214 (or 1211); Math 1215; Math 2222; Physics 1135 or Physics 1111."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 3877  Principles of Engineering Materials (LEC 3.0)",
+        "description": "Examination of engineering materials with emphasis on selection and application of materials in industry. Particular attention is given to properties and applications of materials in extreme temperature and chemical environments. A discipline specific design project is required. (Not a technical elective for undergraduate metallurgy or ceramic majors) (Co-listed with Chem Eng 5300, Physics 4523, Met Eng 5810, Cer Eng 5810)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 4001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six (6) credit hours allowed for graduation credit. Subject and credit to be arranged with the instructor."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 4253  Aerospace Structures II (LEC 3.0)",
+        "description": "Aircraft and spacecraft structure loads and regulations. Advanced methods in structural analysis using virtual work, energy methods, matrix methods, and finite element analysis. Thin plate theory and structural instability. Dynamic analysis of structures and fatigue analysis. Introduction to aeroelasticity. Prerequisite: Aero Eng 3251."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 4535  Aircraft and Space Vehicle Propulsion (LEC 3.0)",
+        "description": "Analysis of aircraft and missile propulsion systems; fundamentals of jet propulsion including air breathing and rocket engines. Introduction to advanced propulsion systems for space flights such as nuclear, thermonuclear, and plasma jets. Prerequisite: Mech Eng 3131, or Aero Eng 3171."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 4780  Aerospace Systems Design I (LEC 3.0)",
+        "description": "Consideration of the creative design process with emphasis on aeronautical-aerospace systems. Short design problems to illustrate the process. Selection of design projects for Aero Eng 4781. Information gathering for the design projects which will be completed in Aerospace Systems Design II. Fall semester. Prerequisites: Aero Eng 3251 and Aero Eng 3361 and Aero Eng 3171."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 4781  Aerospace Systems Design II (LAB 3.0)",
+        "description": "Preliminary design of aerospace systems. Project to integrate the knowledge of different aerospace engineering areas through synthesis and analysis. The creative design will include a consideration of such factors as performance reliability, cost, human factors, energy and ecology. Spring semester. Prerequisite: Aero Eng 4780."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 4790  Spacecraft Design I (LEC 3.0)",
+        "description": "Fundamentals of spacecraft design. Systems engineering, subsystem analysis and design. Gantt charts, organizational charts. Oral presentations and technical documentation. Term project to involve design and development of actual flight hardware, continuing into Spacecraft Design II. Prerequisites: Aero Eng 3251, 3361, and 3171 for Aero Eng majors; consent of instructor for non-Aero Eng majors."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 4791  Spacecraft Design II (LAB 3.0)",
+        "description": "As a continuation of Aero Eng 4790, detailed spacecraft design is performed, leading to procurement of components. As schedules permit, spacecraft fabrication and test commence. Development of labs to facilitate spacecraft test, operation, and data analysis continues. Prerequisites: Aero Eng 4790 for Aero Eng majors; consent of instructor for non-Aero Eng majors."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 4882  Experimental Methods in Aerospace Engineering I (LAB 2.0)",
+        "description": "Introduction to experimental methods in low-speed aerodynamics, flight simulation, and aircraft structures. Measurements of drag, boundary layer flows, and aerodynamic forces and moments. Flight simulations, and structural testing of aircraft components. Statistical methods and probability distributions in data analysis and interpretation. Prerequisites: Aero Eng 3131 and Elec Eng 2800."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 4883  Experimental Methods in Aerospace Engineering II (LAB 2.0)",
+        "description": "Laboratory investigations related to aerospace engineering. Investigations include high-speed aerodynamics, flow visualization measurements in turbulent flow, aircraft vibration and flutter, propeller acoustics, flight simulation, propulsion systems, flame measurements, and control experiments. Statistical error analysis. Prerequisites: Aero Eng 3251, 3361, 3171, & 4882."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 4885  Assessment (LEC 1.0)",
+        "description": "This course is an overview and assessment of the required aerospace engineering courses that the students took. Prerequisites: Aero Eng 3171, Aero Eng 3361, Aero Eng 4253; preceded or accompanied by Aero Eng 4535."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title. (Co-listed with Mech Eng 5001)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5131  Intermediate Thermofluid Mechanics (LEC 3.0)",
+        "description": "Derivation of Navier-Stokes equations, analytical solutions of viscous flows; flow in pipes, flow networks; intermediate treatment of boundary layer theory; micro-fluidics and MEMS; introduction to numerical methods for solving fluid flows; and, preliminary treatise on turbulence. Prerequisite: Mech Eng 3131 or Aero Eng 3131. (Co-listed with Mech Eng 5131)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5139  Computational Fluid Dynamics (LEC 3.0)",
+        "description": "Introduction to the numerical solution of the Navier-Stokes equations, by finite difference methods, in both stream function-vorticity and primitive variable formulations. Course format emphasizes student development of complete computer programs utilizing a variety of solution methods.  Prerequisites: Comp Sci 1570 or Comp Sci 1970 or Comp Sci 1971 or Comp Sci 1972; one course in fluid mechanics. (Co-listed with Mech Eng 5139)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5169  Introduction to Hypersonic Flow (LEC 3.0)",
+        "description": "A study of the basic principles of hypersonic flow. Invisvid and viscous hypersonic flow. Application of numerical methods. High temperature flow. Consideration of real gas and rarefied flow. Applications in aero-dynamic heating and atmospheric entry. Prerequisites: Aero Eng 3171."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5171  V/Stol Aerodynamics (LEC 3.0)",
+        "description": "Basic concepts of V/STOL flight. Take-off transition and landing performance, thrust vectoring. Propeller and helicopter aerodynamics. Unblown and blown flaps. Boundary layer control. Lift fans and ducted propellers. Wing-propeller interaction and thrust augmentation. Prerequisite: Aero Eng 3171."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5212  Introduction to Finite Element Analysis (LEC 3.0)",
+        "description": "Variational formulation of the governing equations. Finite element model, interpolation functions, numerical integration, assembly of elements and solution procedures. Applications to solid mechanics, fluid mechanics and heat transfer problems. Two-dimensional problems. Computer implementation and use of commercial finite element codes. Prerequisites: Math 3304; senior or graduate standing. (Co-listed with Mech Eng 5212)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5229  Smart Materials and Sensors (LAB 1.0 and LEC 2.0)",
+        "description": "Smart structures with fiber reinforced polymer (FRP) composites and advanced sensors. Multi-disciplinary topics include characterization, performance, and fabrication of composite structures; fiber optic, resistance, and piezoelectric systems for strain sensing; and applications of smart composite structures. Laboratory and team activities involve manufacturing, measurement systems, instrumented structures, and performance tests on a large-scale smart composite bridge. Prerequisites: Senior standing and Math 3304. (Co-listed with Mech Eng 5229, Elec Eng 5270 and Civ Eng 5118)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5234  Stability of Engineering Structures (LEC 3.0)",
+        "description": "Solution of stability problems with applications to columns, plates and shell structures. Torsional and lateral buckling of columns. Buckling under high temperatures. Effect of imperfections introduced by a technological process on stability. Design issues related to stability requirements. Prerequisites: Civ Eng 2210; Math 3304; and Mech Eng 2350 or Mech Eng 2360 or Aero Eng 2360. (Co-listed with Mech Eng 5234)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5236  Fracture Mechanics (LEC 3.0)",
+        "description": "Linear elastic and plastic mathematical models for stresses around cracks; concept of stress intensity; strain energy release rates; correlation of models with experiment; determination of plane stress and plane strain parameters; application to design. Prerequisite: Civ Eng 2210. (Co-listed with Mech Eng 5236)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5238  Fatigue Analysis (LEC 3.0)",
+        "description": "The mechanism of fatigue, fatigue strength of metals, fracture mechanics, influence of stress conditions on fatigue strength, stress concentrations, surface treatment effects, corrosion fatigue and fretting corrosion, fatigue of joints components and structures, design to prevent fatigue. Prerequisite: Civ Eng 2210. (Co-listed with Mech Eng 5238)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5282  Introduction to Composite Materials & Structures (LEC 3.0)",
+        "description": "Introduction to fiber-reinforced composite materials and structures with emphasis on analysis and design. Composite micromechanics, lamination theory and failure criteria. Design procedures for structures made of composite materials. An overview of fabrication and experimental characterization. Prerequisite: Civ Eng 2210. (Co-listed with Mech Eng 5282)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5307  Vibrations I (LEC 3.0)",
+        "description": "Equations of motion, free and forced vibration of single degree of freedom systems. Natural frequencies, resonance, modes of vibration and energy dissipation are studied. The vibration of continuous systems is introduced. Prerequisites: Mech Eng 3411 and 3313, or Aero Eng 3613 and Math 3304. (Co-listed with Mech Eng 5307)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5309  Engineering Acoustics I (LEC 3.0)",
+        "description": "Introduction to acoustical theory and measurement with emphasis on mechanical and aerospace engineering applications. Plane and spherical wave propagation, resonators and filters, absorption, room acoustics, human response to noise, noise legislation, noise control. Use of common instrumentation in several projects. Prerequisites: Mech Eng 3411 & 3313, or Aero Eng 3613 & Math 3304. (Co-listed with Mech Eng 5309)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5313  Intermediate Dynamics of Mechanical and Aerospace Systems (LEC 3.0)",
+        "description": "Principles of dynamics are applied to problems in the design of mechanical and aerospace systems; basic concepts in kinematics and dynamics; dynamics of systems of particles; dynamics of rigid bodies, three-dimensional effects in machine elements; dynamic stability, theory and applications; methods of analytical dynamics. Prerequisite: Mech Eng 3313 or Aero Eng 3613. (Co-listed with Mech Eng 5313)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5353  Aeroelasticity (LEC 3.0)",
+        "description": "Study of phenomena involving interactions among inertial, aerodynamic, and elastic forces and the influence of these interactions on aircraft and space vehicle design. Some aeroelastic phenomena are: divergence, control effectiveness, control reversal, flutter, buffeting, dynamic response to rapidly applied loads, aeroelastic effects on load distribution, and static and dynamic stability. Prerequisites: Aero Eng 3251 and 3171."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5361  Flight Dynamics-Stability And Control (LEC 3.0)",
+        "description": "Review of static stability, dynamic equations of motion, linearized solutions, classical control design and analysis techniques, introduction to modern control. Prerequisite: Aero Eng 3361."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5449  Robotic Manipulators and Mechanisms (LAB 1.0 and LEC 2.0)",
+        "description": "Overview of industrial applications, manipulator systems and geometry. Manipulator kinematics; hand location, velocity and acceleration. Basic formulation of manipulator dynamics and control. Introduction to machine vision. Projects include robot programming, vision-aided inspection and guidance, and system integration. Prerequisites: Mech Eng 3313; Comp Sci 1970 or Comp Sci 1971 or Comp Sci 1972 or Comp Sci 1570. (Co-listed with Mech Eng 5449)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5478  Mechatronics (LAB 1.0 and LEC 2.0)",
+        "description": "This course will introduce students to the basics of mechatronics (i.e., the integration of mechanical, electrical, computer, and control systems). Students will learn the fundamentals of sensors and actuators for mechanical systems, computer interfacing, microcontrollers, real-time software, and control. Prerequisite: Mech Eng 4479 or equivalent. (Co-listed with Mech Eng 5478, Elec Eng 5870 and Comp Eng 5820)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5479  Machine Learning for Manufacturing Automation (LEC 3.0)",
+        "description": "Principles of machine learning, machine learning techniques (support vector machines, regression analysis, recurrent and convolution neural networks, autoencoders, deep reinforcement learning), applications (anomaly detection, computer vision, robotics). Prerequisites: Mech Eng 4479 or Mech Eng 5313 or Aero Eng 3361 or Aero Eng 5313; and Comp Sci 1972. (Co-listed with Mech Eng 5479)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5481  Mechanical and Aerospace Control Systems (LEC 3.0)",
+        "description": "Synthesis of mechanical and aerospace systems to perform specific control functions. Response and stability are studied. Singular value analysis for stability margins is introduced. Prerequisite: Mech Eng 4479 or Aero Eng 3361. (Co-listed with Mech Eng 5481)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5519  Advanced Thermodynamics (LEC 3.0)",
+        "description": "After a short review of classical thermodynamics, the elements of chemical reactions, chemical equilibrium, statistical thermodynamics, and the basic concepts of kinetic theory are presented. Prerequisite: Mech Eng 2519. (Co-listed with Mech Eng 5519)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5525  Intermediate Heat Transfer (LEC 3.0)",
+        "description": "Analytical study of conduction; theory of thermal radiation and applications; energy and momentum equations in convective heat transfer and review of empirical relations. Current topics are included. Prerequisite: Mech Eng 3525. (Co-listed with Mech Eng 5525)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5527  Combustion Processes (LEC 3.0)",
+        "description": "Application of chemical, thermodynamic, and gas dynamic principles to the combustion of solid, liquid, and gaseous fuels. Includes stoichiometry, thermochemistry, reaction mechanism, reaction velocity, temperature levels, and combustion waves. Prerequisite: Mech Eng 3521. (Co-listed with Mech Eng 5527)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5535  Aerospace Propulsion Systems (LEC 3.0)",
+        "description": "Study of atmospheric and space propulsion systems with emphasis on topics of particular current interest. Mission analysis in space as it affects the propulsion system. Power generation in space including direct and indirect energy conversion schemes. Prerequisite: Aero Eng 4535."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5539  Modeling Across Scales in Computational Mechanics (LEC 3.0)",
+        "description": "Basic principles of computational mechanics, focusing on modeling and simulation on various length scales. The goal is to mathematically represent mechanical and material behavior, and to effectively solve those equations. Fundamental principles of continuum and sub-continuum (atomic) models will be learned through lectures and hands-on Matlab coding. Prerequisites: Civ Eng 2210, Mech Eng 2519, or consent of instructor for majors that do not require either of these courses; or graduate standing. (Co-listed with Mech Eng 5539)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5570  Plasma Physics I (LEC 3.0)",
+        "description": "Single particle orbits in electric and magnetic fields, moments of Boltzmann equation and introduction to fluid theory. Diffusion of plasma in electric and magnetic fields. Analysis of laboratory plasmas and magnetic confinement devices. Introduction to plasma kinetic theory. Prerequisite: Aero Eng 3131 or Mech Eng 3131 or Physics 3211 or Nuc Eng 3221 or Elec Eng 3600. (Co-listed with Mech Eng 5570, Nuc Eng 4370, Physics 4543)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5614  Spaceflight Mechanics (LEC 3.0)",
+        "description": "Further topics in orbital mechanics. Time equations, Lambert's problem, patched-conic method, orbital maneuvers, orbit determination, orbit design, re-entry problem. Prerequisite: Aero Eng 3613."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5715  Concurrent Engineering (LEC 3.0)",
+        "description": "Students will be introduced to the concurrent engineering approach to product development. They will learn to set up quantitative requirements and then use a quantitative rating process to identify the critical requirements relating to the desired product. The interaction between design, manufacturing, assembly, cost, and supportability will be covered. The students will form teams and practice the concurrent engineering process for simple products. Prerequisites: Mech Eng 3313 or Aero Eng 3131 and Civ Eng 2210 (Co-listed with Mech Eng 5715)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5760  Probabilistic Engineering Design (LEC 3.0)",
+        "description": "The course deals with uncertainties in engineering analysis and design at three levels - uncertainty modeling, uncertainty analysis, and design under uncertainty. It covers physics-based reliability analysis and reliability-based design, robustness assessment and robust design, their integration with design simulations, and their engineering applications. Prerequisite: Mech Eng 3708 or Aero Eng 3361. (Co-listed with Mech Eng 5760)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5810  Fundamentals of Space Resources (LEC 3.0)",
+        "description": "Introduction to the science of the mineral resources of space and to the engineering of extracting them for human use. (Co-listed with Geo Eng 5810)."
+    },
+    {
+        "subject_id": 40,
+        "department_id": 17,
+        "subject_code": "AERO ENG",
+        "subject_name": "Aerospace Engineering",
+        "course": "AERO ENG 5830  Applied Computational Methods (LEC 3.0)",
+        "description": "Detailed study of computational methods for efficient solution of selected fluids, structures, thermodynamics, and controls problems in aerospace and mechanical engineering. Besides basic numerical techniques, topics covered include gradient-based optimization and uncertainty quantification. Prerequisite: Comp Sci 1570 or 1970 or 1981; Math 3304. (Co-listed with Mech Eng 5830)."
+    }
+]

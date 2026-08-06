@@ -1,0 +1,106 @@
+[
+    {
+        "subject_id": 6,
+        "department_id": 1,
+        "subject_code": "GERMAN",
+        "subject_name": "German",
+        "course": "GERMAN 1001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable titles."
+    },
+    {
+        "subject_id": 6,
+        "department_id": 1,
+        "subject_code": "GERMAN",
+        "subject_name": "German",
+        "course": "GERMAN 1101  Elementary German I (LEC 4.0)",
+        "description": "Introduction to grammar, reading, and conversation. Prerequisites: Entrance requirements."
+    },
+    {
+        "subject_id": 6,
+        "department_id": 1,
+        "subject_code": "GERMAN",
+        "subject_name": "German",
+        "course": "GERMAN 1102  Elementary German II (LEC 4.0)",
+        "description": "A continuation of German 1101. Prerequisite: German 1101."
+    },
+    {
+        "subject_id": 6,
+        "department_id": 1,
+        "subject_code": "GERMAN",
+        "subject_name": "German",
+        "course": "GERMAN 1180  Classical And Modern German Readings (LEC 4.0)",
+        "description": "Readings in German narrative literature. Prerequisite: German 1102."
+    },
+    {
+        "subject_id": 6,
+        "department_id": 1,
+        "subject_code": "GERMAN",
+        "subject_name": "German",
+        "course": "GERMAN 2000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 6,
+        "department_id": 1,
+        "subject_code": "GERMAN",
+        "subject_name": "German",
+        "course": "GERMAN 2001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 6,
+        "department_id": 1,
+        "subject_code": "GERMAN",
+        "subject_name": "German",
+        "course": "GERMAN 2110  Basic German Conversation (LEC 2.0)",
+        "description": "Conversation and oral practice. Prerequisite: German 1102."
+    },
+    {
+        "subject_id": 6,
+        "department_id": 1,
+        "subject_code": "GERMAN",
+        "subject_name": "German",
+        "course": "GERMAN 2170  Masterpieces Of German Literature (LEC 3.0)",
+        "description": "A study of selected major works and movements in German literature. Prerequisite: German 1180."
+    },
+    {
+        "subject_id": 6,
+        "department_id": 1,
+        "subject_code": "GERMAN",
+        "subject_name": "German",
+        "course": "GERMAN 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 6,
+        "department_id": 1,
+        "subject_code": "GERMAN",
+        "subject_name": "German",
+        "course": "GERMAN 3001  Special Topics (IND 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 6,
+        "department_id": 1,
+        "subject_code": "GERMAN",
+        "subject_name": "German",
+        "course": "GERMAN 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 6,
+        "department_id": 1,
+        "subject_code": "GERMAN",
+        "subject_name": "German",
+        "course": "GERMAN 4001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 6,
+        "department_id": 1,
+        "subject_code": "GERMAN",
+        "subject_name": "German",
+        "course": "GERMAN 4010  Seminar (RSD 0.0-6.0)",
+        "description": "Discussion of current topics. Prerequisite: Senior standing."
+    }
+]

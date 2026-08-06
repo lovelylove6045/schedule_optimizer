@@ -1,0 +1,682 @@
+[
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 1001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 1103  Microbes And Man -- Introductory Microbiology (LEC 3.0)",
+        "description": "An introduction to the study of microorganisms in nature, especially as they affect humans. Consideration of the involvement of microorganisms in disease, decomposition, nutrition, agriculture, food processing and preservation, industrial applications and waste treatment."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 1113  General Biology (LEC 3.0)",
+        "description": "A comprehensive study of the general principles of the biology of plants, animals, and protists including population biology and regulation mechanisms. Prerequisite: Entrance requirements. BIO SCI 1113 - MOTR BIOL 100: Essentials in Biology BIO SCI 1113 - MOTR BIOL 100L: Essentials in Biology with Lab"
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 1163  Biotechnology in Film (LEC 3.0)",
+        "description": "Popular films that use biology-based plots influence society by disseminating facts and providing misinformation. Popular movies serve as the basis for discussing the biotechnology behind popular movie plots and examining the relationship between public perceptions and biotechnology."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 1173  Introduction to Environmental Sciences (LEC 3.0)",
+        "description": "An introduction to environmental science, with an emphasis on biological aspects of current environmental problems. Topics range from chemical toxicity to global climate change. Environmental challenges facing local species and ecosystems will be emphasized. (Co-listed with Env Sci 1173). BIO SCI 1173 - MOTR BIOL 100: Essentials in Biology"
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 1201  Biological Sciences First Year Seminar (RSD 1.0)",
+        "description": "An introduction to the department of Biological Sciences and student resources at Missouri S&T. Students will consider personal and professional opportunities within the various areas of biology and become acquainted with Biological Sciences faculty and departmental and campus facilities. Required of first year Biological Sciences majors. Prerequisite: Biological Sciences majors only."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 1212  Orientation to Medical Laboratory Science (RSD 1.0)",
+        "description": "The class is designed to give prospective Medical Laboratory Science students clinical experience in the field of Clinical/Medical Laboratory Science. Prerequisites: Enrollment in Biological Sciences BS with Emphasis area in Medical Laboratory Scientist."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 1213  Principles of Biology (LEC 3.0)",
+        "description": "This course will investigate biological concepts including the chemical basis for life, the structure and function of molecules and cells, cellular metabolism and enzyme activity, bioenergetics, cellular reproduction and communication, genetics, evolution and the scientific process. Cannot also receive credit for Bio Sci 1113. Prerequisite: Biological Science majors only. BIO SCI 1213 - MOTR BIOL 150: Biology BIO SCI 1213 - MOTR BIOL 150L: Biology with Lab"
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 1219  General Biology Lab (LAB 1.0)",
+        "description": "The laboratory work accompanying general biology consists of experiments designed to supplement and extend lectures in General Biology and Principles of Biology. Prerequisite: Preceded or accompanied by either Bio Sci 1113 or Bio Sci 1213. BIO SCI 1219 - MOTR BIOL 100L: Essentials in Biology with Lab BIO SCI 1219 - MOTR BIOL 150L: Biology with Lab"
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 1223  Biodiversity (LEC 3.0)",
+        "description": "This course provides a survey of all life, but emphasizes diversity of eukaryotes including protists, fungi, plants, and animals. Emphasis is on form, function, ecology, and evolution of plants and animals and other organisms."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 1229  Biodiversity Lab (LAB 1.0)",
+        "description": "This lab course is designed to accompany instruction in the Biodiversity class. Lab and field explorations of the varieties of life, with an emphasis is on form, function, ecology, and evolution of plants and animals and other organisms. Prerequisite: Preceded or accompanied by Biodiversity (Bio Sci 1223)."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 2001  Special Topics (LAB 2.0 and LEC 1.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 2213  Cell Biology (LEC 3.0)",
+        "description": "The structure and function of eukaryotic and prokaryotic cells. Emphasis on macromolecules, organelles, metabolic pathways, bioenergetics, cell signaling, the cell cycle, and gene expression. Prerequisites: Preceded or accompanied by CHEM 1320."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 2219  Cell Biology Laboratory (LAB 1.0)",
+        "description": "Laboratory course to accompany Cell Biology (Bio Sci 2213). Laboratory work includes microscopy, biochemical assays, enzymology, and genetic analysis (PCR, mapping, electrophoresis, transfection, sequencing). Prerequisite: Preceded or accompanied by Bio Sci 2213."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 2223  General Genetics (LEC 3.0)",
+        "description": "The study of the principles of heredity and reasons for variation in living organisms. Includes Mendelian principles,molecular, population, and evolutionary genetics with examples from a diverse array of species. Prerequisite: Bio Sci 1113, Bio Sci 1173, or Bio Sci 1213."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 2242  Cave Biology (LAB 1.0 and LEC 1.0)",
+        "description": "In Cave Biology, we will study cave organisms and cave ecosystems. We will cover such topics as growth of speleothems, caves as a natural laboratory, behavior of cave animals, and regressive characteristics of cave species. We will investigate the relationship between Karst topography (caves, springs, sinkholes) and underground water contamination. Prerequisites: Any Geology, Environmental Engineering, or Biological Sciences class except Bio Sci 1201."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 2243  Sleep: Function and Dysfunction (LEC 3.0)",
+        "description": "Students will learn the genes, proteins, and anatomy that govern sleep regulation. The course will also cover how sleep deprivation changes the body and degrades health and performance as well as sleep disorders that may disrupt sleep. Prerequisite: Bio Sci 1113 or Bio Sci 1213."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 2252  Vegetation of the Ozarks (LAB 1.0 and LEC 1.0)",
+        "description": "The Vegetation of the Ozarks class is an intense, outdoor educational experience focusing on the plants and plant communities of the Missouri Ozarks. The five day long course teaches participants to identify much of the flora of the region and provides practice and instruction in the use of dichotomous keys for plant identification. Prerequisites: Bio Sci 1213 or Bio Sci 1113 or Bio Sci 1173."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 2263  Ecology (LEC 3.0)",
+        "description": "Relationships between organisms and the environment. Topics include the influence of environmental factors on individual organisms, population dynamics, interspecific associations, and entire ecosystems. Prerequisite: Bio Sci 1113 or Bio Sci 1213 or Bio Sci 1223."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 2264  Field Ecology (LAB 1.0 and LEC 1.0)",
+        "description": "Field-based class designed to teach students applications of ecological research.  Students will study distribution and abundance of organisms in aquatic and terrestrial systems in the Ozarks. Class includes lectures and field sampling in the Rolla area. Prerequisite: Any Bio Sci course."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 2333  Nutrition (LEC 3.0)",
+        "description": "This introductory course provides an overview of the principles of nutritional science. Topics include the description and functions of nutrients, how nutrients are digested and absorbed, effects of nutrient imbalances, food sources, nutrient interactions, dietary guidelines, and the role of nutrition in weight management, health and disease.  Prerequisites: Bio Sci 1113 or Bio Sci 1213 or Bio Sci 1173."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 2372  Issues in Public Health (LEC 3.0)",
+        "description": "Issues in Public Health investigates chronic and infectious diseases and the impact of globalization on such diseases, environmental toxins, and controversies in public health. Students will develop an awareness of current public health issues and trends in order to make informed arguments and personal choices. Prerequisite: Bio Sci 1113 or Bio Sci 1213 or Bio Sci 1173."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 2383  Plant Biology (LEC 3.0)",
+        "description": "An intermediate class covering plant form and function. Topics include the cellular structures unique to plants, their life cycles, and the mechanisms they use to survive, reproduce, and convert solar energy into a form usable by all other organisms. Prerequisite: Bio Sci 1113 or Bio Sci 1213 or Bio Sci 1223."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 3001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 3110  Introduction to Biomedical Engineering (LEC 3.0)",
+        "description": "This course will provide an introduction to the interdisciplinary field of biomedical engineering. The molecular, cellular, physiological and engineering principles that govern the field will be covered. Applications will include biomaterials, tissue engineering, biomechanics, bioimaging, bioinstrumentation, bio-nanotechnology and artificial organs. Prerequisite: Junior standing or above. (Co-listed with Cer Eng 3110 and Chem Eng 3210)."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 3213  One Health Basics (LEC 3.0)",
+        "description": "One Health is based on the knowledge that the health of people is interlinked with the health of animals and the environment. In this course, we will explore these interconnections and common One Health issues such as illness spillover events, the growing problem of antibiotic resistance, and the impacts that contaminated water have on animals and people. Prerequisites: Bio Sci 1223. (Co-listed with Env Sci 3213)."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 3233  Evolution (LEC 3.0)",
+        "description": "A survey of the genetic and environmental mechanisms associated with organic evolution. Prerequisites: Bio Sci 2223."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 3313  Microbiology (LEC 3.0)",
+        "description": "General introduction to the culture and study of microorganisms, their physiology, structure, and contribution to biology. Prerequisite: Bio Sci 2213."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 3319  Microbiology Lab (LAB 2.0)",
+        "description": "General introduction to the techniques used for the culture and identification of microorganisms, their physiology, structure, and contribution to biology. Prerequisite: Preceded or accompanied by Bio Sci 3313."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 3333  Human Anatomy and Physiology I (LEC 3.0)",
+        "description": "First semester of a two-semester sequence dealing with the structure and function of human organ systems. Includes the study of cells, tissues, and the integumentary, skeletal, muscular and nervous systems. Prerequisites: BIO SCI 1113 or BIO SCI 1213; BIO SCI 2213."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 3343  Human Anatomy and Physiology II (LEC 3.0)",
+        "description": "Second semester of a two-semester sequence of the study of the structure and function of human organ systems, including the endocrine, cardiovascular, lymphatic, respiratory, digestive, urinary and reproductive systems. Prerequisites: BIO SCI 1113 or BIO SCI 1213; BIO SCI 2213."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 3353  Comparative Vertebrate Anatomy (LAB 2.0 and LEC 2.0)",
+        "description": "An integrated, comparative study of vertebrate structures and systems, with emphasis on evolution, development and function. Includes examination of gross anatomy and histology of selected forms. Prerequisites: Bio Sci 1223, Bio Sci 1229."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 3359  Physiology Lab (LAB 1.0)",
+        "description": "Laboratory activities and demonstrations of basic physiology of animals, including humans, ranging from cell to organ systems. Prerequisites: Preceded or accompanied by either Bio Sci 3333 or Bio Sci 3343."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 3363  Ecophysiology (LEC 3.0)",
+        "description": "Study of physiological adaptations that improve species' fitness. We will focus on animals and discuss how selection has shaped the basic physiology of species in different niches. Although some molecular and cellular mechanisms will be addressed, the major themes of the course will be comparative, ecological, evolutionary, integrative, and organismal. Prerequisites: Bio Sci 1223."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 3383  Plant Physiology (LEC 3.0)",
+        "description": "This course will cover structures and functions of plants from the cellular to the whole plant levels. Topics covered include absorption and transport of water and mineral nutrients, photosysnthesis, metabolism of starch and lipids, secondary metabolism, plant stress physiology, and plant hormones. Prerequisites: Bio Sci 2383."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 3393  Introductory Immunology for Medical Laboratory Science (LEC 3.0)",
+        "description": "This course offers an in-depth exploration of immunology tailored for students pursuing degrees in Medical Laboratory Science and other health-related professions. It covers essential principles, including innate and adaptive immunity, antigen recognition by T and B cells, lymphocyte development, antibody functions, and cell-mediated immune responses. The course also addresses immunological disorders such as autoimmunity and allergies, vaccination principles, and emerging immunotherapy approaches for cancer and autoimmune diseases. Designed to meet the specific needs of students preparing for careers in medical laboratory science, this course equips learners with a robust understanding of immunological concepts crucial for advanced studies and clinical practice. Prerequisites: Enrollment in Biological Sciences BS with Emphasis area in Medical Laboratory Scientist and Bio Sci 1113 or Bio Sci 1213 or Bio Sci 2213."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 3483  Biomedical Problems (LEC 3.0)",
+        "description": "This course will use a problem-based learning approach to examine biological aspects of various medical conditions. Students will work in groups and individually to answer problems related to diagnostic testing and evaluation of diseases and other medical conditions. Prerequisites: Bio Sci 2213 or Bio Sci 2223."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 3783  Biological Design and Innovation I (LAB 3.0)",
+        "description": "Students identify significant problems in biological/biomedical sciences, and then design and implement innovative solutions using advanced techniques. Students present and defend proposals and results. Prerequisite: At least two 2000 level or higher Biology courses."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4010  Seminar (RSD 1.0)",
+        "description": "Students will work in groups to propose, research, develop, complete, and present service-learning projects that are related to the biological sciences. Prerequisites: Senior standing."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4020  Senior Service Project (RSD 1.0)",
+        "description": "Students will work in groups to propose, research, develop, and complete service learning projects that are related to the biological sciences. Students will present the results of their community service projects with written reports and oral presentations. Students will reflect on their project, their role in the project, and the impact of their actions."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4099  Undergraduate Research (IND 1.0-3.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six credit hours for graduation credit. Subject and credit to be arranged with the instructor. Prerequisite: Consent of instructor."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4313  Introduction to Environmental Microbiology (LEC 3.0)",
+        "description": "Environmental Microbiology is an interdisciplinary study of how microorganisms can impact humans and applied to solve problems such as water treatment and environmental cleanup of contaminants. This course differs from Bio Sci 6313 as no NSF-style report or presentation is required. Prerequisite: Bio Sci 3313 or Env Eng 2601."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4316  Introduction to Geomicrobiology (LEC 3.0)",
+        "description": "Microorganisms have profound effects on the environment around them and have influenced biochemical and mineralogical processes throughout time. This course will explore the impact microorganisms have on geological processes. Prerequisites: Bio Sci 3313 or Env Eng 2601."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4323  Molecular Biology (LEC 3.0)",
+        "description": "A study of the properties and functions of DNA and RNA that make these macromolecules fundamental to life. Examples of replication, transcription, translation, repair, and regulation will be examined in viruses, prokaryotes, and eukaryotes, along with applications such as molecular diagnostics, gene expression analysis, sequencing, transgenes, and gene editing. Prerequisites: Bio Sci 2223 and Bio Sci 2213."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4329  Molecular Genetics Laboratory (LAB 2.0)",
+        "description": "This course provides experience in the use of a variety of DNA manipulation techniques that are common to molecular studies. These include DNA extraction, restriction mapping, recombinant plasmid construction, DNA sequencing and analysis, and polymerase chain reaction. Students will design and conduct experiments using CRISPR technology. Prerequisite: Preceded or accompanied by Bio Sci 4323."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4353  Cancer Cell Biology (LEC 3.0)",
+        "description": "Advanced biology course examining cellular processes that go awry during tumorigenesis. We will discuss cell cycle controls, signal transduction pathways, DNA repair, telomerase, apoptosis, cell migration and adhesion that are altered in cancer cells. Prerequisite: Bio Sci 2213."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4363  Freshwater Ecology (LEC 3.0)",
+        "description": "The ecology of streams, lakes, and wetlands. The course will cover the physical and chemical characteristics of freshwater environments, the diversity of life in freshwaters, biogeochemical processes, and threats to freshwater systems. Prerequisite: Bio Sci 2263."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4369  Freshwater Ecology Laboratory (LAB 1.0)",
+        "description": "This lab course will include fieldtrips and lab work to collect and process samples related to the ecology of lakes and rivers. Samples of water and life will be collected from several aquatic ecosystems in Missouri, and analyzed in the lab for water quality, biological communities, and ecosystem processes. Prerequisites: Preceded or accompanied by Bio Sci 4363."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4373  Stem Cell Biology (LEC 3.0)",
+        "description": "This course will cover the fast-moving field of stem cell biology. Topics include: development and organogenesis, regeneration and repair, stem cell types and sources, pluripotency and reprogramming, stem cells and cancer, therapeutics, and ethics. Prerequisites: Bio Sci 2213."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4383  Toxicology (LEC 3.0)",
+        "description": "A study of natural and man-made toxicants, various possible routes of exposure, absorption, distribution, biotransformation, specific target sites, and mechanisms involved in elicitation of toxic effects, as well as detoxification and excretion. Prerequisites: Bio Sci 2213, at least Junior standing."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4423  Introduction to Astrobiology (LEC 3.0)",
+        "description": "An overview of the origins of life on early earth and the possibility of life on extraterrestrial bodies will be examined in this course through lectures and journal articles. The techniques that astrobiologists use to investigate the possibility of life beyond earth will be explored. Assessment will be based on exam performance and participation in class. Prerequisites: Bio Sci 2213 or Bio Sci 3313 or Env Eng 2601."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4433  Genomics (LEC 3.0)",
+        "description": "This course offers a general overview of the field of genomics. Topics covered include genome sequencing and annotation, transcriptomics, proteomics, metabolomics, genomic variation, and an overview of human, and several animal, plant, and microbial genome projects.  Prerequisite: Bio Sci 4323."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4533  Neurobiology (LEC 3.0)",
+        "description": "An intermediate course in cellular neurobiology. Emphasis will be placed on the unique properties of neurons and other excitable cells. Topics covered include the structure and biophysical properties of neurons, synaptic transmission, neurochemistry, signal transduction, neuropharmacology and neurodevelopment. Prerequisite: Bio Sci 2213."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4563  Global Ecology (LEC 3.0)",
+        "description": "This class covers ecological topics at large scales, emphasizing global scales. Topics include global energy balance, biogeochemical cycles of water, carbon, nitrogen, and other biologically important elements, and global biodiversity. Students will focus on primary literature related to global ecology. Prerequisite: Bio Sci 2263."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4663  Animal Behavior (LAB 1.0 and LEC 2.0)",
+        "description": "An introduction to key concepts in Animal Behavior. Topics include communication, foraging, spatial behavior, parental care, social behaviors, the effects of environment on behavior, phenotypic plasticity, behavioral ecology, and anthropomorphism. The course will consist of lectures and laboratory exercises.\nPrerequisites: Bio Sci 1113 or Bio Sci 1213 or Bio Sci 1173."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4666  Nanobiotechnology (LEC 3.0)",
+        "description": "Nanotechnology has emerged to change human economy and society in many aspects. Applications of nanotechnology in life science is termed nanobiotechnology. This course describes recent development of nanobiotechnology in basic biological research as well as biomedical applications. Prerequisite: Bio Sci 2213 or Bio Sci 2223."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4900  Clinical Chemistry (LAB 5.0-10)",
+        "description": "Identification and quantification of specific chemical substances in blood and body fluids by analytical techniques; clinical correlation and disease states; principles of instrumentation; data processing; toxicology; quality control; and quality improvement. Course will be taken at an affiliated accredited school of medical technology. Prerequisite: Acceptance into an affiliated accredited school of medical technology."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4901  Clinical Microscopy (LAB 1.0-3.0)",
+        "description": "Microscopic examination of urine, analysis of fecal specimens, spinal fluids and other body fluids. To be taken at an affiliated accredited school of medical technology. Prerequisites: Acceptance to an affiliated accredited school of medical technology."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4902  Hematology and Coagulation (LAB 5.0-8.0)",
+        "description": "Theory of blood cell formation; disease states; hemostasis; microscopic examination of blood/bone marrow films; practical experience with instruments and techniques that determine major hematologic and coagulation parameters; quality control; and quality improvement. To be taken at an affiliated accredited school of medical technology. Prerequisites: Acceptance into an affiliated accredited school of medical technology."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4903  Serology Immunology (LAB 2.0-4.0)",
+        "description": "Antigen/antibody structure, function and interaction; basic principles and procedures of humoral and cellular immunology; performance and clinical correlation of serologic testing; basic flow cytometry; quality control; and quality improvement. To be taken at an affiliated accredited school of medical technology. Prerequisites: Acceptance at an affiliated accredited school of medical technology."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4904  Clinical Microbiology (LAB 5.0-9.0)",
+        "description": "Theory and techniques of cultivation, isolation and identification of bacteria, fungi, parasites and viruses; determination of sensitivity to antimicrobial agents; molecular diagnostics testing; clinical correlation to disease states. To be taken at an affiliated accredited school of medical technology. Prerequisites: Acceptance to an affiliated accredited school of medical technology."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4905  Blood Bank Immunohematology (LAB 2.0-4.0)",
+        "description": "Major blood group systems; principles and procedures for antigen/antibody detection, identification, donor blood collection, preservation and processing; component therapy; transfusion reaction evaluation; Rh immune globulin evaluation; quality control; and quality improvement. To be taken at an affiliated accredited school of medical technology. Prerequisites: Acceptance to an affiliated accredited school of medical technology."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 4906  Topics in Medical Technology (LAB 1.0-8.0)",
+        "description": "Techniques of blood collection; computer applications; application of education and management theories and methodology in the field of laboratory medicine; ethical and legal aspects of the profession, and method evaluation. To be taken at an affiliated accredited school of medical technology. Prerequisites: Acceptance into an affiliated accredited school of medical technology."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Graduate problems or readings on specific subjects or projects in the department. Prerequisite: Consent of the instructor."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 5001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course.  Variable title."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 5010  Graduate Seminar (RSD 1.0)",
+        "description": "Presentation and discussion of current topics in Biology."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 5020  Data Analysis and Presentation (LEC 1.0)",
+        "description": "This class will evaluate effective oral communication methodologies by introducing students to ways to communicate visual and auditory information. Student will lead an audience through a series of scientific findings. Moreover, students will use primary literature to evaluate conclusions. The class will assist in developing professional networks."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 5040  Oral Examination (IND 0.0)",
+        "description": "(Variable) After completion of all other program requirements, oral examinations for on-campus M.S./PH.D students may be processed during intersession. Off-campus M.S. students must be enrolled in oral examination and must have paid an oral examination fee at the time of the defense/comprehensive examination (oral/written). All other students must enroll for credit commensurate with uses made of facilities and/or faculties. In no case shall this be for less than three (3) semester hours for resident students."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 5099  Graduate Research (IND 0.0-15)",
+        "description": "Investigation of an advanced nature leading to the preparation of a thesis or dissertation."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 5210  Biomaterials I (LEC 3.0)",
+        "description": "This course will introduce senior undergraduate students to a broad array of topics in biomaterials, including ceramic, metallic, and polymeric biomaterials for in vivo use, basic concepts related to cells and tissues, host reactions to biomaterials, biomaterials-tissue compatibility, and degradation of biomaterials. Prerequisite: Senior undergraduate standing. (Co-listed with Chem Eng 5200, MS&E 5310)."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 5240  Tissue Engineering (LEC 3.0)",
+        "description": "The course will use problem-based case studies to introduce junior and senior undergraduate students to the principles and clinical applications of tissue engineering. Topics include the use of biomaterials, scaffolds, cells, and external factors to develop implantable parts for the restoration, maintenance, or replacement of tissues and organs. Prerequisite: Junior or Senior standing. (Co-listed with MS&E 5210)."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 5313  Pathogenic Microbiology (LEC 3.0)",
+        "description": "A study of medically important microorganisms. Students will learn about the properties that enable organisms to cause disease as well as the disease process within the host. Special emphasis will be placed on recent advances in the molecular genetics of host pathogen interaction. Prerequisite: Bio Sci 3313 or Civ Eng 2601."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 5323  Bioinformatics (LEC 3.0)",
+        "description": "The course will familiarize students with the application of computational methods to biology, as viewed from both perspectives. It will introduce problems in molecular, structural, morphological, and biodiversity informatics, and will discuss principles, algorithms, and software to address them. Prerequisites: A grade of \"C\" or better in both one of Bio Sci 1113 or Bio Sci 1213 and one of Comp Sci 1570 and Comp Sci 1580 or Comp Sci 1971 and Comp Sci 1981. (Co-listed with COMP SCI 5700)."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 5343  Biology of Aging (LEC 3.0)",
+        "description": "We will discuss the proximate and ultimate mechanisms of aging, and review a few leading theories of aging with the emphases on oxidative stress and life history tradeoffs. We will take the comparative approach to study aging across species, and the interventions that extend animals' lifespan, and explore why they may or may not work on humans. Prerequisites: Bio Sci 2213."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 5353  Developmental Biology (LEC 3.0)",
+        "description": "Study of the patterns of development of the vertebrate embryo, the molecular mechanisms of tissue induction, and interactions among developing tissues. Prerequisite: Bio Sci 2213."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 5393  Immunology (LEC 3.0)",
+        "description": "Introduction to the immune system, and the role of immunology in diseases and treatments. Major topics include the development of the immune system, including T cell and B cell development, innate and adaptive immunity, autoimmunity and tumor immunology. Prerequisites: Bio Sci 2213 and Bio Sci 2223; Bio Sci 3313 is recommended."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 5423  Advanced Biodiversity (LEC 3.0)",
+        "description": "This course focuses on the enhancement and reduction of biodiversity and modern techniques of measuring and monitoring it. Topics include biogeography, community structure, competition, predation, food webs, geology-biology relationships, environmental change, and human impact. Additional costs and a week-long field trip are required. Prerequisite: Bio Sci 1223."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 5425  Environmental Conservation (LEC 3.0)",
+        "description": "The course explores the ecological knowledge needed for wildlife conservation, including how species behavior and ecology ultimately shape wildlife populations. Traditional wildlife management topics will be included, along with an added emphasis on ethological implications that affect biological diversity. In addition, human behavior and its impact on wildlife populations and diversity will be studied through hands-on experience, field observation, case studies, scientific literature, and assigned readings. This course is taught as part of a 3 week faculty-led South Africa study abroad program. (co-listed with Env Sci 5425)."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 5443  Population and Conservation Genetics (LEC 3.0)",
+        "description": "An overview of population genetics theory with a focus on evolutionary processes (mutation, natural selection, genetic drift, inbreeding, recombination and gene flow), and a review of molecular data collection and analysis methods. Emphasis will be placed on application to conservation genetics with a review of examples from current literature. Prerequisites: Bio Sci 2223 and Bio Sci 3233."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 5453  Forest Insect Diversity & Ecology (LAB 2.0)",
+        "description": "In this course, you will learn key insect characteristics, common forest insects, insect life history and ecology, and entomological collection techniques. This course will be taught at the Ozark Research Field Station and will consist of several field trips to collecting sites and laboratory identification of insects. Prerequisites: Bio Sci 1223."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 5493  General Virology (LEC 3.0)",
+        "description": "An overview of the field of virology, including plant, animal, and bacterial viruses. Discussions will include morphology, classification, virus-host interactions, genetics, clinical and industrial aspects of viruses, and viruses as model systems for basic biological studies. Prerequisites: Bio Sci 1113 or Bio Sci 1213; Bio Sci 2213 or Bio Sci 3313, Chem 1310, Chem 1320, Chem 2210."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 5523  Ichthyology (LAB 1.0 and LEC 3.0)",
+        "description": "An introduction to evolutionary relationships, ecology, morphology, physiology and behavior of fishes. Includes a lab that focuses on anatomy, taxonomy, and identification with an emphasis on regional fauna. The lab includes some required field trips. Prerequisites: Bio Sci 1223 and Bio Sci 1229."
+    },
+    {
+        "subject_id": 10,
+        "department_id": 2,
+        "subject_code": "BIO SCI",
+        "subject_name": "Biological Sciences",
+        "course": "BIO SCI 5533  Pharmacology (LEC 3.0)",
+        "description": "The basic principles of drug action, pharmacokinetics, pharmacodynamics and toxicity. We will emphasize the actions of drugs used to treat cardiovascular and nervous system disorders. Students will review the primary literature to prepare both written and oral reports on drug actions. Prerequisite: Bio Sci 2213."
+    }
+]

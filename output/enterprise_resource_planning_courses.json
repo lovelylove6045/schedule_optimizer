@@ -1,0 +1,122 @@
+[
+    {
+        "subject_id": 47,
+        "department_id": 20,
+        "subject_code": "ERP",
+        "subject_name": "Enterprise Resource Planning",
+        "course": "ERP 2110  Introduction to Enterprise Resource Planning (LEC 3.0)",
+        "description": "Fundamentals of enterprise resource planning (ERP) systems concepts, and the importance of integrated information systems in an organization. The focus of this course is on illustrating procurement, production, and sales business processes using ERP software. Use of SAP as an example ERP system. Prerequisite: IS&T 1750."
+    },
+    {
+        "subject_id": 47,
+        "department_id": 20,
+        "subject_code": "ERP",
+        "subject_name": "Enterprise Resource Planning",
+        "course": "ERP 3001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 47,
+        "department_id": 20,
+        "subject_code": "ERP",
+        "subject_name": "Enterprise Resource Planning",
+        "course": "ERP 4001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 47,
+        "department_id": 20,
+        "subject_code": "ERP",
+        "subject_name": "Enterprise Resource Planning",
+        "course": "ERP 4120  Introduction to Enterprise Resource Planning (ERP) Software Development (LEC 3.0)",
+        "description": "The course provides knowledge and skills in design and program business processes to implement an Enterprise Resource Planning (ERP) software system. The software system will integrate financial accounting, logistics, production, and management accounting information systems with a mobile-enabled user interface. SAP S/4HANA or similar ERP systems are used. Prerequisite: ERP 2110."
+    },
+    {
+        "subject_id": 47,
+        "department_id": 20,
+        "subject_code": "ERP",
+        "subject_name": "Enterprise Resource Planning",
+        "course": "ERP 4220  Introduction to Enterprise Decision Dashboard Prototyping (LEC 3.0)",
+        "description": "Study design and implementation principles for enterprise decision dashboards utilizing data warehouse and databases to support visual analytics. SAP HANA & BW, Business Objects Dashboards, IBM Watson Analytics, SAS Visual Analytics, or similar tools are used for practical assignments. Prerequisite: A grade of \"C\" or better in IS&T 1750."
+    },
+    {
+        "subject_id": 47,
+        "department_id": 20,
+        "subject_code": "ERP",
+        "subject_name": "Enterprise Resource Planning",
+        "course": "ERP 4610  Customer Relationship Management in ERP Environment (LEC 3.0)",
+        "description": "The course emphasizes identification (targeting), acquisition, retention, and development (expansion) of (profitable) customers, as well as effective and efficient management of customers, using information technology. SAP CRM, SAS BI tools, and mobile application development are used to illustrate concepts in the class. Prerequisite: ERP 2110 or preceded or accompanied by ERP 5110."
+    },
+    {
+        "subject_id": 47,
+        "department_id": 20,
+        "subject_code": "ERP",
+        "subject_name": "Enterprise Resource Planning",
+        "course": "ERP 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 47,
+        "department_id": 20,
+        "subject_code": "ERP",
+        "subject_name": "Enterprise Resource Planning",
+        "course": "ERP 5001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 47,
+        "department_id": 20,
+        "subject_code": "ERP",
+        "subject_name": "Enterprise Resource Planning",
+        "course": "ERP 5110  Enterprise Resource Planning Systems Design and Implementation (LEC 3.0)",
+        "description": "This course provides a technical overview of Enterprise Resource Planning Systems and their impact on organizations. SAP is introduced to illustrate the concepts, fundamentals, framework, general information technology context, technological infrastructure, and integration of business enterprise-wide applications. Prerequisites: Preceded or accompanied by ERP 2110; or Graduate Standing and computer programming knowledge."
+    },
+    {
+        "subject_id": 47,
+        "department_id": 20,
+        "subject_code": "ERP",
+        "subject_name": "Enterprise Resource Planning",
+        "course": "ERP 5130  ERP in Small & Mid-Size Enterprises (LEC 3.0)",
+        "description": "Provides an overview of enterprise applications for small and midsize companies. A leading platform such as Microsoft Dynamics AX or SAP Business One is introduced to illustrate theories and practical enterprise-wide applications for entrepreneurs, who manage business functions across sales, operation, and financials, all in a single integrated system. Prerequisites: ERP 5110 or ERP 2110."
+    },
+    {
+        "subject_id": 47,
+        "department_id": 20,
+        "subject_code": "ERP",
+        "subject_name": "Enterprise Resource Planning",
+        "course": "ERP 5210  Performance Dashboard, Scorecard and Data Visualization (LEC 3.0)",
+        "description": "This course studies performance visualization management systems including dashboards, Balanced Scorecard, and strategy maps in an organization. SAP's HANA Platform, Predictive Analytics, Tableau, and Power BI are used to develop the dashboard applications. Prerequisite: ERP 2110 or preceded or accompanied by ERP 5110."
+    },
+    {
+        "subject_id": 47,
+        "department_id": 20,
+        "subject_code": "ERP",
+        "subject_name": "Enterprise Resource Planning",
+        "course": "ERP 5240  Enterprise Application Development and Software Security (LEC 3.0)",
+        "description": "This course provides a conceptual foundation and hands on experience in web and mobile based (HTML5) applications development deployed through an enterprise platform. Enterprise development tools, such as SAP HANA Cloud Platform, will be used to build these apps. The course also covers software cybersecurity from a web and mobile perspective. Prerequisites: Programming knowledge and either ERP 2110 or preceded or accompanied by ERP 5110."
+    },
+    {
+        "subject_id": 47,
+        "department_id": 20,
+        "subject_code": "ERP",
+        "subject_name": "Enterprise Resource Planning",
+        "course": "ERP 5310  Supply Chain Management Systems in an ERP Environment (LEC 3.0)",
+        "description": "The course studies the need for supply chain integration and the challenges of managing complex interfaces using the systems approach for the planning, analysis, design, development, and evaluation of supply chain. SAP's ERP ECC, SCM, BW, and Sybase Unwired Platform are used to deploy SCM apps. Prerequisite: ERP 2110 or preceded or accompanied by ERP 5110."
+    },
+    {
+        "subject_id": 47,
+        "department_id": 20,
+        "subject_code": "ERP",
+        "subject_name": "Enterprise Resource Planning",
+        "course": "ERP 5410  Use of Business Intelligence (LEC 3.0)",
+        "description": "This course introduces data-oriented techniques for business intelligence. Topics include Business Intelligence architecture, Business Analytics, and Enterprise Reporting. SAP Business Information Warehouse, Business Objects, or similar tools will be used to access and present data, generate reports, and perform analysis. Prerequisites: IS&T 1750 or equivalent."
+    },
+    {
+        "subject_id": 47,
+        "department_id": 20,
+        "subject_code": "ERP",
+        "subject_name": "Enterprise Resource Planning",
+        "course": "ERP 5510  ERP System Administration (LEC 3.0)",
+        "description": "System administration and performance monitoring practices for an Enterprise Resource Planning (ERP) system will be studied. Students will install an instance of an ERP system and establish user management attributes and system security. Prerequisite: ERP 5110."
+    }
+]

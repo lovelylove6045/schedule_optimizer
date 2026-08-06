@@ -1,0 +1,50 @@
+[
+    {
+        "subject_id": 54,
+        "department_id": 1,
+        "subject_code": "ALP",
+        "subject_name": "Arts, Languages & Philosophy",
+        "course": "ALP 1001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 54,
+        "department_id": 1,
+        "subject_code": "ALP",
+        "subject_name": "Arts, Languages & Philosophy",
+        "course": "ALP 2001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 54,
+        "department_id": 1,
+        "subject_code": "ALP",
+        "subject_name": "Arts, Languages & Philosophy",
+        "course": "ALP 3001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 54,
+        "department_id": 1,
+        "subject_code": "ALP",
+        "subject_name": "Arts, Languages & Philosophy",
+        "course": "ALP 4001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable titles. Prerequisites: Any 1XXX, 2XXX or 3XXX level course."
+    },
+    {
+        "subject_id": 54,
+        "department_id": 1,
+        "subject_code": "ALP",
+        "subject_name": "Arts, Languages & Philosophy",
+        "course": "ALP 4397  Multidisciplinary Studies Capstone (LEC 3.0)",
+        "description": "Individually designed by the student and advisor with the approval of the advisory committee, this course is to reflect the student's ability to synthesize methods and knowledge from each focus area in his/her program into an academically coherent product. Prerequisite: Senior status."
+    },
+    {
+        "subject_id": 54,
+        "department_id": 1,
+        "subject_code": "ALP",
+        "subject_name": "Arts, Languages & Philosophy",
+        "course": "ALP 5001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable titles. Prerequisites: Any 1XXX, 2XXX, 3XXX, or 4XXX level course."
+    }
+]

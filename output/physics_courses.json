@@ -1,0 +1,346 @@
+[
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 1001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 1101  Introduction To Physics (LEC 1.0)",
+        "description": "An introduction to the study of physics and its intellectual and professional opportunities. The student will be acquainted with the various areas of physics and with departmental and campus facilities useful to their future studies. Required of all freshman majors."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 1135  Engineering Physics I (LAB 1.0 and LEC 1.5 and RSD 1.5)",
+        "description": "An introduction to mechanics, with an emphasis on topics needed by engineering students, including kinematics, dynamics, statics, and energetics. Prerequisite: A grade of \"C\" or better in Math 1211 or Math 1214. PHYSICS 1135 - MOTR PHYS 200L: Advanced Physics I with Lab"
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 1145  College Physics I (LAB 1.0 and LEC 3.0)",
+        "description": "An introduction to the ideas of physics, including mechanics, heat, and sound. Prerequisites: A grade of \"C\" or better in Math 1120, Math 1140, Math 1208, Math 1210, Math 1211, Math 1212, or Math 1214; or by placement exam. PHYSICS 1145 - MOTR PHYS 150: Physics I PHYSICS 1145 - MOTR PHYS 150L: Physics I with Lab"
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 1505  Introductory Astronomy (LEC 3.0)",
+        "description": "An introductory course in basic astronomy designed primarily for students other than those in science and engineering. Topics include history, the sky, the solar system, stars, stellar evolution, galaxies and the origin and evolution of the universe. Credit will not be given for both Physics 1505 and Physics 1515. PHYSICS 1505 - MOTR ASTR 100: Astronomy PHYSICS 1505 - MOTR ASTR 100L: Astronomy with Lab"
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 1509  Astronomy Laboratory (LAB 1.0)",
+        "description": "A science laboratory course in which the student analyzes and interprets astronomical data and makes observations with a telescope. Prerequisite: Preceded or accompanied by Physics 1505 or 1515. PHYSICS 1509 - MOTR ASTR 100L: Astronomy with Lab"
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 2001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 2129  Intermediate Physics Laboratory (LAB 2.0 and LEC 1.0)",
+        "description": "A laboratory study of the principles of instrumentation used in all modern branches of physics. Analog and digital methods of data gathering are surveyed. Laboratory practice evolves from elementary operations to the design and assembly of a simple instrument."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 2135  Engineering Physics II (LAB 1.0 and LEC 1.5 and RSD 1.5)",
+        "description": "An introduction to electricity, magnetism, and light, with emphasis on topics needed by engineering students. Prerequisites: Physics 1135 or Physics 1111, Math 1215."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 2145  College Physics II (LAB 1.0 and LEC 3.0)",
+        "description": "An introduction to the ideas of physics, including electricity, magnetism, and light. Prerequisites: Physics 1135 or Physics 1145."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 2305  Introduction To Modern Physics (LEC 3.0)",
+        "description": "An elementary survey of the modern concepts in physics and their applications; relativity, quantum mechanics, atomic physics, solid state physics, nuclear and particle physics. Prerequisites: Math 2222 and Physics 2135 or 2111."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 2401  Introduction To Theoretical Physics (LEC 3.0)",
+        "description": "Fundamental physical concepts are elaborated in mathematical terms emphasizing the coherence and economy of Physics. Topics include elementary vector analysis, introduction to physical mechanics (motion of a point mass, conservation laws, relativity), Fourier series, and introduction to partial differential equations. Prerequisites: Math 3304 co-requisite; Physics 2135 or 2111."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 3001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 3119  Advanced Physics Laboratory I (LAB 3.0)",
+        "description": "A laboratory study of the principles of basic experiments in all major branches of physics. The experiments stress design of apparatus, and procedures and analysis in projects involving electronic, optical, mechanical, and vacuum techniques. Prerequisite: Physics 2129."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 3129  Advanced Physics Laboratory II (LAB 3.0)",
+        "description": "A senior laboratory involving experimental design. The student must specify his objectives, assemble apparatus, take measurements, analyze the results, form conclusions, write a report, and deliver an oral presentation of the results. Prerequisite: Physics 2129."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 3201  Physical Mechanics (LEC 3.0)",
+        "description": "This course covers topics of rigid body motion in three dimensions, moving coordinate frames, two body collisions, conservation laws, small oscillations, generalized coordinates, and LaGrange's and Hamilton's equations. Prerequisite: Physics 2401."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 3211  Electricity And Magnetism I (LEC 3.0)",
+        "description": "A study of electric and magnetic fields, leading to Maxwell's equations. Topics covered include the electrostatic field, the electric potential, and the electrostatic field in matter. Prerequisite: Physics 2401."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 4001  Special Topics (LEC 3.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "This course is designed for the undergraduate student who wishes to engage in research. It is not to be used for graduate credit nor for more than six credit hours of undergraduate credit. The subject and credit are to be arranged with the instructor."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 4203  Introduction To General Relativity (LEC 3.0)",
+        "description": "An introduction to the theory of general relativity. Topics covered include the formalism of general relativity, Einstein's gravitational field equations, the Schwarzschild solution, black holes, and cosmological models of the universe. Prerequisite: Physics 2401."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 4211  Electricity And Magnetism II (LEC 3.0)",
+        "description": "A continuation of Physics 3211. Topics covered include the magnetostatic field, the magnetic vector potential, the magnetostatic field in matter, electrodynamics, and electromagnetic waves. Prerequisite: Physics 3211."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 4301  Introduction To Quantum Mechanics (LEC 3.0)",
+        "description": "The fundamental concepts, postulates and methods of quantum mechanics and their applications to physical systems. Topics include solutions of the Schrodinger equation for simple systems and operator methods. Prerequisites: Physics 2305 or 2311, 2401."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 4311  Thermal Physics (LEC 3.0)",
+        "description": "A study of the equilibrium states of matter as governed by the first and second laws of thermodynamics. Emphasis is placed on the microscopic approach with an introduction to statistical mechanics. Topics include the kinetic theory of (uniform) gases, phase equilibria in pure systems, and an introduction to quantum statistics. Prerequisite: Physics 2305 or 2311."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 4323  Elementary Solid State Physics (LEC 3.0)",
+        "description": "An introductory study of the structure and physical Properties of crystalline solids. Included are topics in crystal structure, x-ray diffraction, crystal binding, thermal properties of solids, free electron theory and elementary energy band theory. Prerequisites: Math 3304 and Physics 2305 or 2311."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 4333  Nuclear and Particle Physics (LEC 3.0)",
+        "description": "An introduction to nuclear and particle physics. Topics include nuclear models, decays, and reactions, and elementary particles and fundamental forces. Prerequisites: Physics 2305 and Math 3304."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 4343  Atomic Physics (LEC 3.0)",
+        "description": "An introduction into the structure and dynamics of atomic and molecular systems and their interaction with light. Topics include basic theories, fine and hyperfine interaction, QED corrections, energy shifts in external fields, electron correlation effects, and spectroscopic methods (e.g., laser spectroscopy, electron spectroscopy, atomic clocks). Prerequisites: Physics 2305."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 4503  Classical Optics (LEC 3.0)",
+        "description": "Physical optics and advanced topics in geometrical optics. Topics include ray propagation, electromagnetic propagation, mirrors, lenses, interference, diffraction, polarization, imaging systems, and guided waves. Prerequisites: Math 2222 and Physics 2135 or 2111. (Co-listed with Elec Eng 5200)."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 4513  Laser Physics (LEC 3.0)",
+        "description": "The generation of coherent radiation by lasers and the interaction of laser radiation with matter. Topics include stimulated emission, population inversion, optical cavities, optical gain, properties of laser media and other applications. Prerequisite: Physics 2305 or 2311."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 4523  Principles Of Engineering Materials (LEC 3.0)",
+        "description": "Examination of engineering materials with emphasis on selection and application of materials in industry. Particular attention is given to properties and applications of materials in extreme temperature and chemical environments. A discipline specific design project is required. (Not a technical elective for undergraduate metallurgy or ceramic majors) (Co-listed with Aero Eng 3877, Chem Eng 5300, Met Eng 5810, Cer Eng 5810)."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 4533  Transport in Nanostructures: An Introduction (LEC 3.0)",
+        "description": "The course overviews how wave interference, energy quantization and tunneling phenomena influence the wave (electron and light) transport in modern nanostructured materials and devices such as quantum dots, quantum wells, quantum wires, and photonic  crystals. Prerequisite: Physics 2305 or 2311."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 4543  Plasma Physics I (LEC 3.0)",
+        "description": "Single particle orbits in electric and magnetic fields, moments of Boltzmann equation and introduction to fluid theory. Diffusion of plasma in electric and magnetic fields. Analysis of laboratory plasmas and magnetic confinement devices. Introduction to plasma kinetic theory. Prerequisite: Aero Eng 3131 or Mech Eng 3131 or Physics 3211 or Nuc Eng 3221 or Elec Eng 3600. (Co-listed with Aero Eng 5570, Mech Eng 5570, Nuc Eng 4370)."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 4553  Astrophysics (LEC 3.0)",
+        "description": "The structure, physical characteristics and evolution of stars, binary systems, nebulae and galaxies. Prerequisite: Physics 2305."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 4605  Physics For Elementary School Teachers (LAB 1.0 and LEC 2.0)",
+        "description": "A nonmathematical review of the fundamental ideas of physics, including mechanics, matter, energy, sound, electricity, magnetism, astronomy, and light. Emphasis is placed on the development of hands-on activities. (For elementary school teachers or Master of Science for Teachers candidates only.)."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 4625  Science Education and Quantitative Literacy for Middle School Teachers (LEC 3.0)",
+        "description": "An integrated science-mathematics course for middle school teachers. Course covers selected science/mathematics topics/skills specified in Missouri standards for grades 5-7. Inquiry based methods of teaching these topics in an integrated manner will be emphasized. Prerequisite: Current enrollment in a Teacher Education Program or a full or part-time teacher in a K-12 school. (Co-listed with Stat 5904)."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 5001  Special Topics (IND 0.0 and LAB 0.0 and LEC 0.0 and RSD 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 5333  Subatomic Physics (LEC 3.0)",
+        "description": "An introduction to elementary particles. Topics include particle properties, nuclear forces, particle interactions, the Standard Model for quarks and leptons, fundamental forces in gauge field theory models, and the role of elementary particle interactions in cosmology. Prerequisite: Physics 3311."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 5403  Computational Physics (LAB 1.0 and LEC 3.0)",
+        "description": "An introduction to modern computer simulations for solving physics problems. The course will be project-oriented with examples including planetary motion, chaotic dynamics, quantum scattering, structure of atoms and clusters, molecular dynamics, and Monte-Carlo simulations. Prerequisites: Physics 2305 or Physics 2311; Math 3304; programming experience."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 5409  Computational Physics Laboratory (LAB 3.0)",
+        "description": "Computational project-based studies in the areas of fundamental, applied, and data-driven physics and astronomy with connections to chemistry and materials science. Topics include atomistic and ab-initio computer simulations for quantum materials, semiconductors, extreme-environment ceramics, alloys, etc. The course covers algorithms, interpolations, experimental or theoretical data processing, analysis and visualization as well as an introduction to Linux, bash-scripting and parallel computing at an HPC cluster. Prerequisites: Physics 2305."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 5413  Chaos, Fractals, and Nonlinear Dynamics (LEC 3.0)",
+        "description": "An introduction into nonlinear dynamics, deterministic chaos, and fractals. Topics covered include phase plane analysis, iterated maps, routes to chaos, Lyapunov exponents, strange attractors and pattern formation with applications to chaotic vibrations, population dynamics, chemical oscillations and lasers. Prerequisites: Math 3304; Physics 2135 or Physics 2111."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 5503  Fourier Optics (LEC 3.0)",
+        "description": "Applications of Fourier analysis and linear systems theory to optics. Topics include scalar diffraction theory, Fourier transforming properties of lenses, optical information processing, and imaging systems. Prerequisites: Both Elec Eng 3430 and Elec Eng 3600 or Physics 4211. (Co-listed with ELEC ENG 5210)."
+    },
+    {
+        "subject_id": 21,
+        "department_id": 9,
+        "subject_code": "PHYSICS",
+        "subject_name": "Physics",
+        "course": "PHYSICS 5513  Fiber And Integrated Optics (LEC 3.0)",
+        "description": "Introduction to optical waveguides and their applications to communication and sensing. Topics include dielectric waveguide theory, optical fiber characteristics, integrated optic circuits, coupled-mode theory, optical communication systems, and photonic sensors. Prerequisite: Elec Eng 3600 or Physics 4211. (Co-listed with Elec Eng 5220)."
+    }
+]

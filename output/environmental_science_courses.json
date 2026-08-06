@@ -1,0 +1,114 @@
+[
+    {
+        "subject_id": 16,
+        "department_id": 6,
+        "subject_code": "ENV SCI",
+        "subject_name": "Environmental Science",
+        "course": "ENV SCI 1001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course."
+    },
+    {
+        "subject_id": 16,
+        "department_id": 6,
+        "subject_code": "ENV SCI",
+        "subject_name": "Environmental Science",
+        "course": "ENV SCI 1110  Environmental Science Freshman Seminar (RSD 1.0)",
+        "description": "An introduction to the study of environmental science at Missouri S&T. Students will become acquainted with faculty, facilities, and resources associated with the environmental science program at S&T. Students will also consider opportunities for personal and professional development in environmental sciences. Prerequisites: Environmental Science majors only."
+    },
+    {
+        "subject_id": 16,
+        "department_id": 6,
+        "subject_code": "ENV SCI",
+        "subject_name": "Environmental Science",
+        "course": "ENV SCI 1173  Introduction to Environmental Sciences (LEC 3.0)",
+        "description": "An introduction to environmental science, with an emphasis on biological aspects of current environmental problems. Topics range from chemical toxicity to global climate change. Environmental challenges facing local species and ecosystems will be emphasized. (Co-listed with Bio Sci 1173). ENV SCI 1173 - MOTR BIOL 100: Essentials in Biology"
+    },
+    {
+        "subject_id": 16,
+        "department_id": 6,
+        "subject_code": "ENV SCI",
+        "subject_name": "Environmental Science",
+        "course": "ENV SCI 2001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course."
+    },
+    {
+        "subject_id": 16,
+        "department_id": 6,
+        "subject_code": "ENV SCI",
+        "subject_name": "Environmental Science",
+        "course": "ENV SCI 3001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course."
+    },
+    {
+        "subject_id": 16,
+        "department_id": 6,
+        "subject_code": "ENV SCI",
+        "subject_name": "Environmental Science",
+        "course": "ENV SCI 3213  One Health Basics (LEC 3.0)",
+        "description": "One Health is based on the knowledge that the health of people is interlinked with the health of animals and the environment. In this course, we will explore these interconnections and common One Health issues such as illness spillover events, the growing problem of antibiotic resistance, and the impacts that contaminated water have on animals and people. Prerequisites: Bio Sci 1223. (Co-listed with Bio Sci 3213)."
+    },
+    {
+        "subject_id": 16,
+        "department_id": 6,
+        "subject_code": "ENV SCI",
+        "subject_name": "Environmental Science",
+        "course": "ENV SCI 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the program. Consent of instructor required."
+    },
+    {
+        "subject_id": 16,
+        "department_id": 6,
+        "subject_code": "ENV SCI",
+        "subject_name": "Environmental Science",
+        "course": "ENV SCI 4001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course."
+    },
+    {
+        "subject_id": 16,
+        "department_id": 6,
+        "subject_code": "ENV SCI",
+        "subject_name": "Environmental Science",
+        "course": "ENV SCI 4002  Cooperative Environmental Scientist Training (IND 0.0-6.0)",
+        "description": "On-the-job experience gained through cooperative education with industry, with credit arranged through departmental cooperative advisor. Grade received depends on quality of reports submitted and work supervisor's evaluation."
+    },
+    {
+        "subject_id": 16,
+        "department_id": 6,
+        "subject_code": "ENV SCI",
+        "subject_name": "Environmental Science",
+        "course": "ENV SCI 4010  Seminar (RSD 1.0)",
+        "description": "Students will work in groups to propose, research, develop, complete, and present service-learning projects that are related to the environmental sciences. Prerequisites: Senior Standing."
+    },
+    {
+        "subject_id": 16,
+        "department_id": 6,
+        "subject_code": "ENV SCI",
+        "subject_name": "Environmental Science",
+        "course": "ENV SCI 4028  Environmental Science Senior Capstone (LAB 1.0 and LEC 2.0)",
+        "description": "This course challenges students to solve real-world environmental problems in a hands-on capacity. Students will learn environmental monitoring techniques and environmental reporting, and engage in professional development. This course fulfills experiential learning requirements through an industry-engaged project. Prerequisites: Senior standing. Environmental Science majors only."
+    },
+    {
+        "subject_id": 16,
+        "department_id": 6,
+        "subject_code": "ENV SCI",
+        "subject_name": "Environmental Science",
+        "course": "ENV SCI 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six credit hours for graduation credit. Subject and credit to be arranged with the instructor. Prerequisite: Consent of instructor."
+    },
+    {
+        "subject_id": 16,
+        "department_id": 6,
+        "subject_code": "ENV SCI",
+        "subject_name": "Environmental Science",
+        "course": "ENV SCI 5001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course."
+    },
+    {
+        "subject_id": 16,
+        "department_id": 6,
+        "subject_code": "ENV SCI",
+        "subject_name": "Environmental Science",
+        "course": "ENV SCI 5425  Environmental Conservation (LEC 3.0)",
+        "description": "The course explores the ecological knowledge needed for wildlife conservation, including how species behavior and ecology ultimately shape wildlife populations. Traditional wildlife management topics will be included, along with an added emphasis on ethological implications that affect biological diversity. In addition, human behavior and its impact on wildlife populations and diversity will be studied through hands-on experience, field observation, case studies, scientific literature, and assigned readings. This course is taught as part of a 3 week faculty-led South Africa study abroad program. (co-listed with Bio Sci 5425)."
+    }
+]

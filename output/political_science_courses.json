@@ -1,0 +1,202 @@
+[
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 1100  Introduction to Political Science (LEC 3.0)",
+        "description": "This course will introduce the student to the fundamental concepts and phenomena of political life and to the variety of political organizations characteristic of the modern age."
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 1200  American Government (LEC 3.0)",
+        "description": "National, state and local government in the United States with special emphasis on political behavior and the institutions that determine and execute public policy. Topics include basic structure of American government, (i.e., democracy, the Constitution, the branches of government), as well as citizenship, parties, pressure groups and American economic policy. The course views government in its relation to its people, its services and protection. POL SCI 1200 - MOTR POSC 101: American Government"
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 2000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 2001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable credit."
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 2400  Comparative Politics (LEC 3.0)",
+        "description": "A comparative study of states, institutional structures, ideologies, political culture, political parties, interest groups and forms of government. How these social forces are organized to articulate national or parochial interests within the framework of participatory or centralized political systems will be studied. Prerequisite: Pol Sci 1200 or History 1300 or History 1310. POL SCI 2400 - MOTR POSC 202: Introduction to Comparative Politic"
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 2500  International Relations (LEC 3.0)",
+        "description": "A general introduction to the theoretical framework, pattern and personalities of international relations with special emphasis upon American foreign policy making. Problems of international economic development, resources, and armaments will also be examined. Prerequisite: Pol Sci 1200 or History 1300 or 1310. POL SCI 2500 - MOTR POSC 201: International Relations"
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 3001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 3010  Seminar (IND 0.0-6.0)",
+        "description": "Discussion of current topics."
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 3210  Constitutional Law: Government Powers and Civil Liberties (LEC 3.0)",
+        "description": "This course will examine constitutional powers of American governmental institutions and leading Supreme Court decisions dealing with civil liberties including speech, religion, equal protection and the rights of the accused. The course will include study of current political issues and problems relating to these foundational civil liberties. Prerequisites: Pol Sci 1200, History 1200, 1300, or 1310."
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 3211  American Political Parties (LEC 3.0)",
+        "description": "The origin and development of political parties in the United States, the two-party system, the functions, organizations and operation of parties. Prerequisite: Pol Sci 1200 or History 1300 or History 1310."
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 3300  Principles Of Public Policy (LEC 3.0)",
+        "description": "This course presents a study of public policy in the United States. Students analyze the policy process, the resulting policy choices and the impact of the choices on the American people. Prerequisite: Pol Sci 1200."
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 3310  Public Policy Analysis (LEC 3.0)",
+        "description": "An advanced study of major U.S. national policies. A wide range of public policies, including education, economics, and health and welfare will be studied. Students will be introduced to the methods of policy analysis. Emphasis will be placed on the use of tools used by policy analysts to determine program effectiveness and impact. Prerequisite: Pol Sci 1200."
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 3760  The American Presidency (LEC 3.0)",
+        "description": "Historical development of the presidency; emphasis on the constitutional powers and limits of the office and the political contextual variables which influence presidential behavior. Prerequisite: Pol Sci 1200 or History 1300 or History 1310. (Co-listed with History 3760)."
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 3762  American Foreign Policy Since 1945 (LEC 3.0)",
+        "description": "Addresses the major issues in American foreign policy from WWII to the present with primary focus on problems during the Cold War and the post-Cold War era, including the emergence of the national security state. Prerequisite: History 1310 or Pol Sci 1200. (Co-listed with History 3762)."
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 3763  Contemporary Political Thought (LEC 3.0)",
+        "description": "This course will explore the impact of ideas on American politics and history, including the relationship between technological change and public policy; this will be pursued through the study of American political history, social institutions, and intellectual history. Prerequisite: History 1300 or History 1310 or Pol Sci 1200. (Co-listed with History 3763)."
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 4000  Special Problems And Readings (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 4001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 4010  Seminar (RSD 0.0-6.0)",
+        "description": "Discussion of current topics Prerequisite: Senior standing."
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 4085  Political Science Internship (IND 0.0-6.0)",
+        "description": "Internship will involve students applying critical thinking skills and discipline specific knowledge in a work setting based on a project designed by the advisor and employee. Activities will vary depending on the student's background and the setting. Prerequisite: Pol Sci 1200 or Pol Sci 1100."
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 4097  Senior Project (LEC 3.0)",
+        "description": "History majors (or Political Science minors) interested in graduate school or professional school, such as law school, should complete an extended research project, or thesis, under the supervision of a department faculty member.\nPrerequisites: History 2791 and senior standing. (Co-listed with HISTORY 4097)."
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 4320  The Politics of Innovation (LEC 3.0)",
+        "description": "Do Google, Airbus, and Samsung owe their success to the wisdom and foresight of government actors? This course explores whether and how public policy can foster the advancement of science, technology, and innovation. The course analyzes and compares how national innovation systems have evolved and function in the United States, Europe, and Asia. Prerequisites: Pol Sci 1200 or History 1100 or History 1200 or History 1300 or History 1310."
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 4500  Geopolitics and International Security (LEC 3.0)",
+        "description": "This course surveys seminal scholarship in the field of international security and explores its relevance to contemporary geopolitical issues. Specific topics addressed may include space security, nuclear security, and technological change in military affairs. Prerequisites: Pol Sci 1200 or History 1100 or History 1200 or History 1300 or History 1310."
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 4510  The Politics of the Global South (LEC 3.0)",
+        "description": "This course explores the processes and politics of the nations of the Global South, defined as most of Asia, Africa, and Latin America. It examines the internal political processes of these nations and regions, as well as their position in international affairs. Prerequisite: Pol Sci 1200 or History 1200 or History 1300 or History 1310."
+    },
+    {
+        "subject_id": 17,
+        "department_id": 7,
+        "subject_code": "POL SCI",
+        "subject_name": "Political Science",
+        "course": "POL SCI 4760  China's Rise to Superpower (LEC 3.0)",
+        "description": "This course examines China's tumultuous rise since 1900 from a crumbling agrarian empire to a global leader in twenty-first century technology. Adopting a political economy perspective, the course addresses the intertwining of politics and technology in historical context and traces the country's pursuit of prosperity and security through profound transformations. The course examines China's transitions from empire to republic to people's republic, from a command economy to a form of state capitalism, and from traditional authoritarianism to digital authoritarianism. Diverse sources and materials, spanning video, texts, and images, set China's domestic transformations in regional and global context. Prerequisites: History 1100 or History 1200 or History 1300 or History 1310 or Pol Sci 1200. (Co-listed with History 4760)."
+    }
+]

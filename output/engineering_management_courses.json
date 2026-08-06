@@ -1,0 +1,434 @@
+[
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 1001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 1100  Practical Concepts for Technical Managers (LEC 1.0)",
+        "description": "This course introduces topics relevant to the technical manager in the 21st Century. Topics covered include management practices, leadership, communications, project management, working in the global environment, risk management, systems engineering, product development, and quality management."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 1210  Economic Analysis of Engineering Projects (LEC 2.0)",
+        "description": "Engineering project analysis from an engineering economics perspective. Topics include: interest, equivalent worth, comparing alternatives, rate of return methods, depreciation and taxes, inflation and price changes, benefit-cost analysis and risk analysis."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 2001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 2002  Cooperative Engineering Training (IND 0.0-6.0)",
+        "description": "On-the-job experience gained through cooperative education with industry, with credit arranged through departmental cooperative advisor. Grade received depends on quality of reports submitted and work supervisors evaluation."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 2011  Competition Team Leadership (LEC 1.0)",
+        "description": "Students will participate in open lecture on team based management and leadership as it pertains to ongoing project activities. Project activity reports will be generated using real project data and assessed at the end of the semester through a project master plan and oral presentation. Prerequisite: Sophomore (or greater) standing and leadership role in an experiential learning design team or nomination by an experiential learning team advisor."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 2012  Competition Team Communication (LAB 0.50 and LEC 0.50)",
+        "description": "Communication skills, both technical and promotional, will be covered. Students will practice both communication skills in written, oral and media-based modes. Specific activities will include writing a proposal for funding, developing a promotional media piece and speaking to external groups about a SDELC team. Assessment will be made on each of the deliverables. Prerequisite: Sophomore (or greater) standing and membership in an experiential learning design team."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 2013  Competition Team Design (LAB 1.0)",
+        "description": "Students will participate in a significant design activity as part of one of the experiential learning design team projects. Design activity will be reported and assessed at the end of the semester through a design report and oral presentation. Prerequisite: Sophomore (or greater) standing and membership in an experiential learning design team."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 2110  Managing Engineering And Technology (LEC 3.0)",
+        "description": "Introduces the management functions of planning, organizing, motivating, and controlling. Analyzes the application of these functions in research, design, production, technical marketing, and project management. Studies evolution of the engineering career and the transition to engineering management. Prerequisite: A grade of \"C\" or better is required in this course to meet Engineering Management degree requirements."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 2211  Engineering Accounting and Finance (LEC 3.0)",
+        "description": "This course is designed to introduce the fundamentals of accounting and finance and provide the student with tools used in making financial decisions within a technically based enterprise. Prerequisite: Eng Mgt 1210, or understanding of engineering economic principles."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 2310  Introduction to System Engineering (LEC 3.0)",
+        "description": "Provide an understanding of systems engineering and tools to manage system design, construction, and operation. Topics include systems thinking, modeling and simulation of systems, uncertainty in engineering, risk, and decision making in certain and uncertain environments. Prerequisites: Math 1214 or Math 1211."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 3001  Special Topics (IND 0.0 and LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 3310  Operations and Production Management (LEC 3.0)",
+        "description": "Concepts of operations and production management are presented at an introductory level. Qualitative and quantitative tools and techniques used for the optimization of the operations component of the total enterprise are explored in the context of improved productivity and strategic competitiveness. Prerequisites: Eng Mgt 2110."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 3320  Introduction to Project Management (LEC 3.0)",
+        "description": "This course covers the fundamentals of project management including project definition, project selection, project planning, estimating, scheduling, resource allocation and project control. Prerequisites: Junior or above standing."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 3510  Marketing Management (LEC 3.0)",
+        "description": "Study of basic functions of marketing in the technological enterprise, including product selection and development, market research, market development, selection of distribution channels and advertising, marketing strategy. Prerequisites: Preceded or accompanied by Eng Mgt 2110."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 4001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six (6) credit hours allowed for graduation credit. Subject and credit to be arranged with the instructor. Consent of instructor required."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 4110  General Management-Design and Integration (LEC 3.0)",
+        "description": "Integrating and executing marketing, production, finance, and engineering policies and strategies for the benefit of an enterprise. Analysis, forcasting, and design methods using case studies and management simulation. Prerequisites: Eng Mgt 2110, 2211; preceded or accompanied by Eng Mgt  3310, 3320, 4710, and senior standing."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 4281  Probabilistic Risk Assessment (LEC 3.0)",
+        "description": "A discussion of the techniques for assessment of reliability, safety and risk associated with complex systems such as those encountered in nuclear power. Classification of accidents, fault tree analysis, consequences, figures of merit, and use of probabilistic risk analysis in regulation are discussed. (Co-listed with Nuc Eng 4281)."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 4310  Materials Handling and Plant Layout (LAB 1.0 and LEC 2.0)",
+        "description": "The design and objectives of materials handling equipment including diversity of application in industry from the viewpoint of efficient movement of materials and products from the receiving areas to the shipping areas. The layout of a plant to include materials handling equipment is considered throughout. Cost comparison of various systems will be made. Prerequisites: Junior standing."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 4312  Risk Assessment and Reduction (LEC 3.0)",
+        "description": "Safe, secure manufacturing facilities protect the health of employees and the public, preserve the environment, and increase profitability. Methods for systematically identifying hazards and estimating risk improve the safety performance and security of manufacturing facilities. Prerequisite: Senior or Graduate Standing. (Co-listed with Chem Eng 5130)."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 4330  Human Factors (LEC 3.0)",
+        "description": "An examination of human-machine systems and the characteristics of people that affect system performance. Topics include applied research methods, systems analysis, and the perceptual, cognitive, physical and social strengths and limitations of human beings. The focus is on user-centered design technology, particularly in manufacturing environments. Prerequisite: Psych 1101. (Co-listed with Psych 4710)."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 4710  Quality (LEC 3.0)",
+        "description": "This course will provide an overview of quality tools and methodologies and how they apply to engineering management. Quality management methodologies will be explored as well as current and relevant tools and techniques used in the successful application of quality into various environments. Prerequisites: Stat 3113 or Stat 3115 or Stat 3117."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 4907  Engineering Management Senior Design (LEC 3.0)",
+        "description": "Open-ended design projects will be addressed with small teams. The emphasis will be on solving industry-based projects that are broad in nature and which will require the students to incorporate the knowledge and skills acquired in earlier course work in the solution of the problems. Prerequisites: Preceded or accompanied by Eng Mgt 4110."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5070  Teaching Engineering (LEC 3.0)",
+        "description": "Introduction to teaching objectives and techniques. Topics include: using course objectives to design a course; communication using traditional and cutting-edge media; textbook selection; assessment of student learning; grading; student learning styles; cooperative/active learning; and student discipline. Prerequisite: Graduate standing. (Co-listed with Env Eng 5070, Comp Eng 5070, Elec Eng 5070, Civ Eng 5070)."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5099  Research (IND 0.0-15)",
+        "description": "Investigations of an advanced nature leading to the preparation of a thesis or dissertation. Consent of instructor required."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5110  Managerial Decision Making (LEC 3.0)",
+        "description": "Individual and group decision making processes and principles for engineers and technical managers with emphasis on the limitations of human rationality and the roles of social influence and organizational contexts; principles and skills of negotiation. Prerequisite: Senior or graduate standing."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5111  Management for Engineers and Scientists (LEC 3.0)",
+        "description": "The transition of the engineer or scientist to manager; study of management roles and theory, organizational systems and behavior, managing and motivating technical personnel, leadership, communication, processes, and customer focus. Prerequisite: Graduate standing."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5210  Economic Decision Analysis (LEC 3.0)",
+        "description": "Comprehensive treatment of engineering economy including effects of taxation and inflation; sensitivity analysis; decisions with risk and uncertainty; decision trees and expected value, normally includes solutions on personal computer and student problem report. Prerequisite: Graduate students without previous course in engineering economy because of partial overlap."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5212  Intelligent Investing (LEC 3.0)",
+        "description": "An overview of the essential elements of intelligent investing. Coverage includes stocks, bonds, exchange traded funds, mutual funds, stock screening, fundamental and technical analysis, valuation, market and industry analysis, macroeconomic indicators, investing strategies, and portfolio construction. Prerequisites: Senior or Graduate Standing."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5312  Advanced Risk Assessment and Reduction (LEC 3.0)",
+        "description": "Safe, secure manufacturing facilities protect the health of employees and the public, preserve the environment, and increase profitability. Methods for systematically identifying hazards and estimating risk improve the safety performance and security of manufacturing facilities. Prerequisite: Senior or Graduate Standing."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5313  Packaging Management (LEC 3.0)",
+        "description": "Provides a comprehensive background in the field of packaging and its place in productive systems. Emphasizes the design or economics of the system. Analyzes the management of the packaging function and interrelationship with other functions of an enterprise."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5316  Safety Engineering Management (LEC 3.0)",
+        "description": "This course is an introduction to the principles of safety engineering applied to industrial situations. Job safety analysis, reduction of accident rates, protective equipment, safety rules and regulations, environmental hazards, health hazards, and ergonomic hazards are covered. Prerequisite: Senior or graduate standing."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5320  Project Management (LEC 3.0)",
+        "description": "Organization structure and staffing; motivation, authority and influence; conflict management; project planning; network systems; pricing, estimating, and cost control; proposal preparation; project information systems; international project management. Prerequisite: Graduate standing. (Co-listed Sys Eng 5105)."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5330  Advanced Human Factors (LEC 3.0)",
+        "description": "An in-depth review of the foundations of human factors, focusing on the interaction of people with various forms of technology in a variety of environments. Topics include research and evaluation methods, displays (e.g., visual, auditory), attention and information processing, decision making, motor skills, anthropometry, and biomechanics. (Co-listed with PSYCH 5710)."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5410  Industrial System Simulation (LEC 3.0)",
+        "description": "Simulation modeling of manufacturing and service operations through the use of computer software for operational analysis and decision making. Prerequisite: Stat 3113 or Stat 3115 or Stat 3117."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5411  Engineering Design Optimization (LEC 3.0)",
+        "description": "This course is an introduction to the theory and practice of optimal design as an element of the engineering design process. The use of optimization as a tool in the various stages of product realization and management of engineering and manufacturing activities is stressed. The course stresses the application of nonlinear programming methods. Prerequisite: Math 3304 or 3329."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5412  Operations Management Science (LEC 3.0)",
+        "description": "Application of management science with an emphasis on supporting managerial decision-making. Design and operations of systems are modeled and analyzed using quantitative and qualitative techniques implemented using modern technology. Specific approaches include mathematical modeling and optimization, probabilistic/statistical analysis, and simulation. Prerequisites: Graduate standing."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5414  Introduction To Operations Research (LEC 3.0)",
+        "description": "Mathematical methods for modeling and analyzing industrial systems, topics including linear programming, transportation models, and network models. Prerequisite: Stat 3113 or Stat 3115 or Stat 3117. Senior or graduate standing."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5510  Industrial Marketing Systems Analysis (LEC 3.0)",
+        "description": "An analysis of the factors of engineered products, customers, communication, promotion, personal selling, persuasion and management within a dynamic industrial sales environment. Prerequisites: Senior or graduate standing."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5511  Technical Entrepreneurship (LEC 3.0)",
+        "description": "Student teams develop a complete business plan for a company to develop, manufacture and distribute real technical/product service. Lectures & business fundamentals, patents, market/ technical forecasting, legal and tax aspects, venture capital, etc., by instructor and successful technical entrepreneurs. Prerequisite: Senior or graduate standing."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5512  Legal Environment (LEC 3.0)",
+        "description": "Study of the effect of the legal environment on the decisions which the engineering manager must make. The course investigates the social forces that produced this environment and the responsibilities incumbent upon the engineer. Prerequisites: Senior or graduate standing."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5513  Energy and Sustainability Management Engineering (LEC 3.0)",
+        "description": "This course explores strategic processes and partnership required for the management of sustainable energy infrastructures and innovation in energy systems. Topics relate to renewable energy, energy efficiencies, energy conversion, energy technology, and economic efficiency of energy sources. Prerequisite: Senior or Graduate Standing."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5514  Patent Law (LEC 3.0)",
+        "description": "A presentation of the relationship between patent law and technology for students involved with developing and protecting new technology or pursuing a career in patent law. Course includes an intense study of patentability and preparation and prosecution of patent applications. Prerequisite: Senior or graduate standing."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5515  Integrated Product And Process Design (LEC 3.0)",
+        "description": "Emphasize design policies of concurrent engineering and teamwork, and documenting of design process knowledge. Integration of product realization activities covering important aspects of a product life cycle such as \"customer\" needs analysis, concept generation, concept selection, product modeling, process development, and end of product life options. Prerequisites: Junior or above standing. (Co-listed with MECH ENG 5757)."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5610  Advanced Facilities Planning & Design (LAB 1.0 and LEC 2.0)",
+        "description": "An integrated approach to the planning and design of facilities; examination of advanced techniques and tools for facility location, space allocation, facility layout materials handling system design, work place design; e.g. mathematical programming and simulation modeling. Prerequisites: Graduate standing."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5613  Value Analysis (LEC 3.0)",
+        "description": "An organized effort at analyzing the function of goods or services for the purpose of achieving the basic functions at the lowest overall cost, consistent with achieving the essential characteristics. Covers the basic philosophy, function analysis, FAST diagramming, creativity techniques, evaluation of alternatives, criteria analysis, and value stream mapping. Prerequisite: Senior or graduate standing."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5614  Supply Chain Management Systems (LEC 3.0)",
+        "description": "This course focuses on the development of logistics management skills related to global supply chains. Particular attention will be given to supply chain systems management as part of the firm's strategic positioning, cultural interactions and transportation sourcing decisions. Prerequisite: Stat 3113 or Stat 3115 or Stat 3117."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5615  Production Planning And Scheduling (LEC 3.0)",
+        "description": "Introduction to basic techniques of scheduling, manufacturing planning and control, just-in-time systems, capacity management, master production scheduling, single machine processing, constructive Algorithms for flow-shops, scheduling heuristics, intelligent scheduling systems are the topics covered. Prerequisite: Eng Mgt 3310."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5710  Six Sigma (LEC 3.0)",
+        "description": "This course is an introduction to the principles of implementing the Six Sigma philosophy and methodology. Topics include tools and methods including process flow diagrams, cause and effect diagrams, failure mode and effects analysis, gage R&R, capability studies, design of experiments and strategy for organizing six sigma techniques in industry. Prerequisite: Graduate standing."
+    },
+    {
+        "subject_id": 51,
+        "department_id": 22,
+        "subject_code": "ENG MGT",
+        "subject_name": "Engineering Management",
+        "course": "ENG MGT 5711  Total Quality Management (LEC 3.0)",
+        "description": "Examination of various quality assurance concepts and their integration into a comprehensive quality management system: statistical techniques, FMEA's, design reviews, reliability, vendor qualification, quality audits, customer relations, information systems, organizational relationships, motivation. Prerequisite: Senior or graduate standing."
+    }
+]

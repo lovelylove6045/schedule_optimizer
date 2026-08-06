@@ -1,0 +1,226 @@
+[
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 2211  Geophysical Imaging (LAB 1.0 and LEC 2.0)",
+        "description": "A study of the major geophysical methods applicable to shallow engineering and environmental geoscience. Topics include the background theory and practical application of gravity, magnetics, radiometrics, resistivity, induced polarization, spontaneous potential, reflection and refraction seismics, ground penetrating radar, electromagentics, and borehole logging methods. Prerequisites: Physics 2135; Geo Eng 1150 or Geology 1110."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 3001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 3210  Introduction to Geophysics (LEC 3.0)",
+        "description": "An introduction to a broad area of solid earth geophysics and exploration geophysics. Topics include plate tectonics, earthquake study, structure and dynamics of the Earth's deep interior, gravity, magnetism, heat flow, and geophysical exploration for natural resources. Prerequisites: Geology 1110."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 3211  Introduction To Geophysical Data Analysis (LEC 3.0)",
+        "description": "The application of time series and spatial series analysis techniques to geophysical data. Topics covered include digitization and aliasing of geophysical signals, frequency and wavenumber spectra, digital filtering and linear systems theory. Prerequisites: Math 2222 and Comp Sci 1570, 1970 & 1980, or 1971 & 1981."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 3221  Potential Field Theory (LEC 3.0)",
+        "description": "The mathematics and physics of gravitational, magnetic, and electrical fields of the earth as derived from potential functions, with applications to practical problems. The theorems of Laplace, Poisson, Gauss, and Green and their applications to geophysics are presented. Prerequisite: Accompanied or preceded by Math 5325."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 4001  Special Topics (LAB 1.0 and LEC 2.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six credit hours allowed for graduation credit. Subject and credit to be arranged with the instructor."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 4231  Seismic Interpretation (LAB 1.0 and LEC 2.0)",
+        "description": "An introduction to 2-D/3-D seismic structural interpretation, stratigraphic interpretation, reservoir identification and evaluation, and horizon and formation attributes. The students are expected to master interactive 2-D/3-D seismic interpretation software packages that are routinely used in the petroleum industry. Prerequisites: Math 1211 or Math 1214; Geology 1110 or Geo Eng 1150."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 4241  Electrical Methods In Geophysics (LAB 1.0 and LEC 2.0)",
+        "description": "The theory and instrumentation for measurements of the electrical properties of the earth. Includes passive and active techniques, the advantages and disadvantages of the various techniques, and geologic interpretations of electrical soundings. Several weekends are spent making a variety of electrical surveys of local features. Prerequisites: Math 5325 and Geophys 2211 or Geophys 3251."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 4261  Geophysical Instrumentation (LAB 1.0)",
+        "description": "Field and laboratory practice in the use of geophysical instrumentation. Techniques of geophysical data reduction and interpretation are also covered. May be taken more than once for credit with Geophys 4241 and Geophys 384. Prerequisite: Concurrent registration in Geophys 3251, 283 or 384."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 4321  Drone Mapping and Photogrammetry (LAB 1.0 and LEC 2.0)",
+        "description": "The course will start with an overview of the basic knowledge required for passing the FAA Part 107 Remote Pilots Knowledge Test for small UAS operators, including UAS mapping technology and its rules and regulations, airspace classification, and reading aeronautical charts. The principles of UAS data collection are explained along with hands-on practice in flight planning and execution, as well as processing collected imagery. Prerequisites: Basic computer knowledge. Either Civ Eng 2401 or Geo Eng 3148 or equivalent. (Co-listed with Civ Eng 4321, Geology 4321, Geo Eng 4321, Min Eng 4321)."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 5001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 5010  Seminar (LEC 0.50)",
+        "description": "Discussion of current topics."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 5040  Oral Examination (IND 0.0)",
+        "description": "After completion of all other program requirements, oral examinations for on-campus M.S./Ph.D. students may be processed during intersession. Off-campus M.S. students must be enrolled in oral examination and must have paid an oral examination fee at the time of the defense/comprehensive examination (oral/ written). All other students must enroll for credit commensurate with uses made of facilities and/or faculties. In no case shall this be for less than three (3) semester hours for resident students."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 5096  Global Tectonics (LEC 3.0)",
+        "description": "An integrated view of the Earth's structure and dynamics with an emphasis on information gained through geophysical methods. Topics include seismology, heat flow, gravity, rheological and compositional structure, plate motions and intermotions, and mantle driving mechanisms for plate tectonics. Prerequisite: Geology 3310."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 5099  Research (IND 0.0-15)",
+        "description": "Investigations of an advanced nature leading to the preparation of a thesis or dissertation. Consent of instructor required."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 5202  Exploration and Development Seismology (LAB 1.0 and LEC 2.0)",
+        "description": "Principles of reflection seismology as applied to the delineation of geologic structures and the determination of stratigraphy and lithology. Emphasis on both the capabilities and limitations of the seismic method. The laboratory utilizes both modeled and actual seismic data. Prerequisites: Math 1211 or Math 1214; Geology 1110 or Geo Eng 1150."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 5211  Seismic Stratigraphy (LAB 1.0 and LEC 2.0)",
+        "description": "A study of the seismic expression of depositional models. Reflection patterns and reflection amplitudes are interpreted to determine bed thicknesses, fluid content, depositional environment, and lithology. Special data acquisition and processing techniques are examined. Prerequisites: Geophys 4521, Geology 3310, 3620."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 5221  Wave Propagation (LEC 3.0)",
+        "description": "A study of Hamilton's principle and energy theorems, fundamentals of plane wave theory, waves in stratified fluids, elastic waves in solids, electromagnetic and hydromagnetic radiation, and Allen's functions and point sources. Prerequisites: Geophys 281, 3221."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 5231  Seismic Data Processing (LAB 1.0 and LEC 2.0)",
+        "description": "Introduction to seismic data processing. Topics to be covered include statics corrections, filtering, velocity analysis, deconvolution, stacking and migration. The course has a field component to record seismic data. If this is offered in the summer, an off-campus trip may be needed. Extra fee may be charged to cover the field expenses. Prerequisites: Geophys 3210 or Geophys 5202."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 5241  Advanced Electrical And Electromagnetic Methds In Geophysical Exp (LAB 1.0 and LEC 2.0)",
+        "description": "Theory of the electrical geophysical methods as applied to subsurface investigations addressing geologic, engineering, groundwater and contaminant transport problems. Course content includes both passive and active methods and recent advances in the application of these methods. Course will include a field component illustrating application of techniques to local problems. Prerequisites: Geophys 3251, Math 2222."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 5261  Computational Geophysics (LAB 2.0 and LEC 1.0)",
+        "description": "Scientific programming in a UNIX/Linux environment, with emphasis on solving geophysical problems such as linear and nonlinear inversion, spectral analysis, seismicity, seismic wave attenuation, shear-wave splitting, and seismic tomography. Prerequisite: Geophys 3210."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 5432  Potential Field Theory (LEC 3.0)",
+        "description": "The mathematics and physics of gravitational, magnetic, and electrical fields of the earth as derived from potential functions, with applications to practical problems. The theorems of Laplace, Poisson, Gauss, and Green and their applications to geophysics are presented. Prerequisites: Math 5325 (also may be taken as a co-requisite). (Co-listed with Geo Eng 5432 and Geology 5432)."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 5736  Geophysical Field Methods (LAB 1.0 and LEC 2.0)",
+        "description": "Imaging of selected subsurface features and engineering structures using various geophysical tools. Special emphasis is placed on ground penetrating radar and surface wave techniques. One field trip at student expense required. Prerequisite: Junior level standing or higher. (Co-listed with Geo Eng 5736)."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 5761  Transportation Applications of Geophysics (LAB 1.0 and LEC 2.0)",
+        "description": "Overview of geophysical and non-destructive test methods that are commonly used to investigate transportation structures and their foundations. Emphasis is placed on bridge system substructure, bridge system superstructure, pavement, roadway subsidence, subsurface characterization and vibration measurements. Prerequisite: Junior level standing or higher. (Co-listed with Geo Eng 5761 and Civ Eng 5750)."
+    },
+    {
+        "subject_id": 32,
+        "department_id": 15,
+        "subject_code": "GEOPHYS",
+        "subject_name": "Geophysics",
+        "course": "GEOPHYS 5782  Environmental and Engineering Geophysics (LAB 1.0 and LEC 2.0)",
+        "description": "An introduction to the theory and application of the gravity, magnetic, resistivity, self-potential, induced polarization and electromagnetic methods as applied to the solution of engineering and environmental problems. Prerequisite: Math 2222. (Co-listed with Geo Eng 5782)."
+    }
+]

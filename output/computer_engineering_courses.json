@@ -1,0 +1,378 @@
+[
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 1200  Introduction to Digital Electronics (LEC 3.0)",
+        "description": "Introduction to electronics and digital circuit design including combinational logic and sequential circuits using circuit design tools, logic gates, integrated circuits and field programmable gate arrays. This course provides S&T equivalent credit for the Project Lead The Way Digital Electronics course."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 2001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 2010  Sophomore Seminar (RSD 1.0)",
+        "description": "Discussion of current topics."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 2210  Introduction to Digital Logic (LEC 3.0)",
+        "description": "Examines the core components from which digital systems are designed, constructed, and analyzed. Topics include binary numbers, truth tables, Boolean algebra, Karnaugh maps, combinational logic, digital components, CMOS, programmable logic devices, and sequential circuits. Prerequisites: Accompanied by Comp Eng 2211 for Computer Engineering and Electrical Engineering majors."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 2211  Computer Engineering Laboratory (LAB 1.0)",
+        "description": "Introduction to digital design techniques, logic gates, Medium Scale Integration (MSI) parts and flipflops, Timing analysis, Programming and use of Programmable Logic Devices (PLD). Prerequisite: Preceded or accompanied by Comp Eng 2210."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 3000  Special Problems (IND 1.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 3001  Special Topics (LEC 1.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 3002  Cooperative Engineering Training (IND 1.0)",
+        "description": "On-the-job experience gained through cooperative education with industry, with credit arranged through departmental cooperative advisor. Grade received depends on quality of reports submitted and work supervisor's evaluation. Pass-fail grading option only. Prerequisite: Consent of the Electrical and Computer Engineering Department required."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 3110  Computer Organization and Design (LEC 3.0)",
+        "description": "Introduction to basic concepts of computer organization and design: metrics for computer performance, computer arithmetic, Von Neumann architecture, instruction implementation, control unit, pipelining, memory systems hierarchy, cache memories and basic I/O controllers. Prerequisites: Comp Eng 2210. (Co-listed with Comp Sci 3803)."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 3150  Introduction to Microcontrollers and Embedded System Design (LAB 1.0 and LEC 2.0)",
+        "description": "Microcontroller-based digital system design methodology and techniques. Topics include basic machine organization, interface design, and C and assembly language programming for real-time embedded systems. Prerequisites: Comp Eng 2210 and Comp Sci 1500 (or instructor approved programming course) each with grade of \"C\" or better."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 3210  Semiconductor Materials Processing (LEC 3.0)",
+        "description": "Examination of semiconductor processing stages, including cleaning, oxidation, ion implantation, diffusion and thermal processing, deposition and epitaxy, etching, metallization, and lithography. Prerequisites: A grade of \"C\" or better in Semi Eng 2100 or with instructor permission. (Co-listed with Semi Eng 3100 and Elec Eng 3210)."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 3211  Semiconductor Materials Processing Laboratory (LAB 2.0 and LEC 1.0)",
+        "description": "Front-end unit semiconductor process operations and testing, including cleaning, oxidation, ion implantation, diffusion and thermal processing, deposition and epitaxy, etching, metallization, and lithography. Prerequisites: A grade of \"C\" or better in Semi Eng 3019 and Elec Eng 2101; preceded or accompanied by Semi Eng 3100 or with instructor permission. (Co-listed with Semi Eng 3101 and Elec Eng 3211)."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 4000  Special Problems (IND 1.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 4001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 4096  Computer Engineering Senior Project I (LAB 0.50 and RSD 0.50)",
+        "description": "A complete design cycle. Working in small teams, students will design, document, analyze, implement, and test a product. Topics include: Iteration in design, prototyping, group dynamics, design reviews, making effective presentations, concurrent design, designing for test, ethics and standards, testing and evaluation. Prerequisites: Comp Eng 3150, Comp Eng 3110. Preceded or accompanied by either English 3560 or English 1160, Elec Eng 2200, and Comp Sci 1575."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 4097  Computer Engineering Senior Project II (LAB 3.0)",
+        "description": "A continuation of Comp Eng 4096. Prerequisites: Comp Eng 4096 with a grade of \"C\" or better, Stat 3113, Stat 3115, Stat 3117 or Stat 5643, and Sp&M S 1185."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 4099  Undergraduate Research (IND 1.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six (6) credit hours allowed for graduation credit. Subject and credit to be arranged with the instructor."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 4210  Semiconductor Device Simulation (LAB 1.0 and LEC 2.0)",
+        "description": "Semiconductor device simulation concepts: conventional and advanced MOS devices, bipolar transistors, heterostructures. Modern simulation tools such as SPICE and TCAD will be employed. Prerequisites: Preceded or accompanied by Elec Eng 3250 or Semi Eng 4101. (Co-listed with Semi Eng 4100 and Elec Eng 4210)."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 4211  Semiconductor Device Fabrication and Testing Laboratory (LAB 2.0 and LEC 1.0)",
+        "description": "Unit process operations, including back-end operations, inspection, and metrology for process control, are integrated into complete manufacturing sequences for fabrication and testing of semiconductor devices. Prerequisites: A grade of \"C\" or better in Semi Eng 3101 and preceded by Elec Eng 2200 or Elec Eng 3250. (Co-listed with Semi Eng 4101 and Elec Eng 4211)."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5000  Special Problems (IND 1.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5001  Special Topics (LEC 1.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5040  Oral Examination (IND 0.0)",
+        "description": "After completion of all other program requirements, oral examinations for on-campus M.S./Ph.D. students may be processed during intersession. Off-campus M.S. students must be enrolled in oral examination and must have paid an oral examination fee at the time of the defense/comprehensive examination (oral/ written). All other students must enroll for credit commensurate with uses made of facilities and/or faculties. In no case shall this be for less than three (3) semester hours for resident students."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5070  Teaching Engineering (LEC 3.0)",
+        "description": "Introduction to teaching objectives and techniques. Topics include: using course objectives to design a course; communication using traditional and cutting-edge media; textbook selection; assessment of student learning; grading; student learning styles; cooperative/active learning; and student discipline. Prerequisite: Graduate standing. (Co-listed with Eng Mgt 5070, Env Eng 5070, Elec Eng 5070, Civ Eng 5070)."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5085  Internship (IND 1.0-15)",
+        "description": "Students working toward a master degree may select, with the advice of their committees, an appropriate internship opportunity as an integral part of the degree program. The internship plan must conform to the purpose of providing a high level engineering experience consistent with the intent of the master degree. This course will explore how well the current graduate curriculum prepares students for tackling the practical problems that they will encounter in the workplace. Assessment may be based upon the Satisfactory/Unsatisfactory grading option depending on the quality of reports and/or presentations summarizing the outcomes of internship activity to the student's academic advisor."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5099  Special Research And Thesis (IND 1.0-15)",
+        "description": "Investigations of an advanced nature leading to the preparation of a thesis or dissertation. Prerequisite: Consent of the instructor required."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5110  Principles of Computer Architecture (LEC 3.0)",
+        "description": "Principles of performance measurement and instruction set design; advanced issues in pipelining; instruction level parallelism (dynamic scheduling, branch prediction, multi-issue processors); memory hierarchies for superscalar processors; multiprocessors; multi-threading; storage systems; and interconnection networks. Prerequisite: Comp Eng 3110. (Co-listed with Comp Sci 5803)."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5120  Digital Computer Design (LEC 3.0)",
+        "description": "Organization of modern digital computers; design of processors, memory systems and I/O units, hardware-software tradeoffs in different levels of computer system design. Prerequisites: Comp Eng 3150."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5130  Advanced Microcomputer System Design (LEC 3.0)",
+        "description": "The design of digital systems based on advanced microprocessors. Introduction to microcomputer logic development systems. I/0 interfaces. Assembly and high level language tradeoffs. Hardware and software laboratory projects required. Prerequisites: COMP ENG 5110."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5151  Digital Systems Design Laboratory (LAB 1.0 and LEC 2.0)",
+        "description": "Design of 32-bit microcontroller based systems. Topics include the instruction set architecture of a 32-bit microcontroller, assembly language and C programming, using microcontroller peripherals for communication, measurement and control. Student designs, programs and tests microcontroller based projects. Prerequisites: Comp Eng 3150 or Comp Eng 5110."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5160  Embedded Processor System Design (LEC 3.0)",
+        "description": "Development of hardware and software for embedded systems, including real-time operating systems, advanced programming, communication schemes, hardware peripherals and sensors, control methodologies, printed-circuit board design, interrupts, microcontrollers, and hardware-software co-design. One or more team design projects. Prerequisites: COMP ENG 3150 or equivalent or 80x51 processor experience."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5170  Real-Time Systems (LEC 3.0)",
+        "description": "Introduction to real-time (R-T) systems and R-T kernels, also known as R-T operating systems, with an emphasis on scheduling algorithms. The course also includes specification, analysis, design and validation techniques for R-T systems. Course includes a team project to design an appropriate R-T operating system. Prerequisites: COMP ENG 3150 or COMP SCI 3800. (Co-listed with Comp Sci 5205)."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5210  Introduction To VLSI Design (LEC 3.0)",
+        "description": "An introduction to the design and analysis of digital integrated circuits (ICs). Topics include basic manufacturing techniques, transistor-level design and analysis of logic and memory circuits, logic timing, and parasitics. Computer aided design tools are used to develop circuits in the lab. Prerequisites: Elec Eng 2200 and Comp Eng 2210."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5220  Digital System Modeling (LEC 3.0)",
+        "description": "Digital system modeling for simulation, synthesis, and rapid system prototyping. Structural and behavioral models, concurrent and sequential language elements, resolved signals, generics, configuration, test benches, processes and case studies. Prerequisite: Comp Eng 2210 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5230  Quantum Computing (LEC 3.0)",
+        "description": "Introduction to the principles, subsystems, and architectures of quantum computing. Topics include architectural and general considerations of quantum systems which are suitable for parallel computing applications using a rule-based approach. Prerequisite: Comp Eng 2210. (Co-listed with Elec Eng 5250)."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5310  Computational Intelligence (LEC 3.0)",
+        "description": "Introduction to Computational Intelligence (CI), Biological and Artificial Neuron, Neural Networks, Evolutionary Computing, Swarm Intelligence, Artificial Immune Systems, Fuzzy Systems, and Hybrid Systems. CI application case studies covered include digital systems, control, power systems, forecasting, and time-series predictions. Prerequisite: Graduate Standing. (Co-listed with Elec Eng 5810 and Sys Eng 5211)."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5320  Game Theory for Computing (LEC 3.0)",
+        "description": "This course introduces the mathematical and computational foundations of game theory, and its applications to computer science (e.g., cybersecurity, robotics and networking). Topics include decision rationality, game representations, equilibrium concepts (e.g., Nash equilibrium), Bayesian games, dynamic games, cooperative game theory, and mechanism design. Prerequisites: A grade of \"C\" or better in both Comp Sci 2500 and Math 3108, and in one of Stat 3113, Stat 3115, Stat 3117, or Stat 5643. (Co-listed with Comp Sci 5408)."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5410  Introduction to Computer Communication Networks (LEC 3.0)",
+        "description": "The objective of this course is to introduce the concepts, terminology, theoretical foundations, and methods used for data communication in computer networks. Emphasis will be on network architecture, services and protocols, interoperability, and performance considerations. Prerequisites: Comp Eng 3150 or computer hardware competency and Stat 3117 or Stat 3115 or Stat 5643 or equivalent."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5420  Introduction to Network Security (LEC 3.0)",
+        "description": "This course examines basic issues in cryptography and network security. Topics include encryption, key management, authentication, data integrity, intrusion detection, malicious attack, and insider threats, among others. Prerequisite: Comp Eng 5410 or Comp Sci 5600."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5430  Wireless Networks (LAB 1.0 and LEC 2.0)",
+        "description": "Introduction to wireless communications and networking. Topics include transmission fundamentals, wireless channel, coding techniques and error control, satellite and cellular networks, cordless systems, mobile IP and management, multiple access techniques and wireless protocols, wireless LAN, IEEE 802.11, and adhoc and sensor networks.  Prerequisites: Comp Eng 3150. (Co-listed with Elec Eng 5430 and Sys Eng 5323.)."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5450  Digital Image Processing (LEC 3.0)",
+        "description": "Fundamentals of human perception, sampling and quantization, image transforms, enhancement, restoration, channel and source coding. Prerequisites: Elec Eng 3430. (Co-listed with Elec Eng 5450)."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5460  Machine Vision (LEC 3.0)",
+        "description": "Image information, image filtering, template matching, histogram transformations, edge detection, boundary detection, region growing and pattern recognition. Complementary laboratory exercises are required. Prerequisites: Elec Eng 3430. (Co-listed with Elec Eng 5460)."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5510  Fault-Tolerant Digital Systems (LEC 3.0)",
+        "description": "Design and analysis of fault-tolerant digital systems. Fault models, hardware redundancy, information redundancy, evaluation techniques, system design procedures. Prerequisites: Comp Eng 2210 and Comp Eng 2211."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5610  Real-Time Digital Signal Processing (LAB 1.0 and LEC 2.0)",
+        "description": "Introduction to the use of programmable DSP chips. Includes real-time data acquisition, signal generation, interrupt-driven programs, high-level language, and assembly level routines. Applications to real-time systems are also presented. Prerequisite: Elec Eng 3400 or Elec Eng 3410."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5620  Signal Integrity in High-Speed Digital & Mixed Signal Design (LEC 3.0)",
+        "description": "Signal integrity ensures signals transmitted over a propagation path maintain sufficient fidelity for proper receiver operation. Compromised signal integrity is often associated with parasitics (e.g. unintentional inductance, capacitance). Theory and CAD tools used for signal integrity analysis of functioning designs. Prerequisites: Elec Eng 3600 or Comp Eng 3150, and senior standing."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5803  Mathematical Logic I (LEC 3.0)",
+        "description": "A mathematical introduction to logic with some applications. Functional and relational languages, satisfaction, soundness and completeness theorems, compactness theorems. Examples from Mathematics, Philosophy, Computer Science, and/or Computer Engineering. Prerequisite: Philos 3254 or Math 5105 or Comp Sci 2500 or Comp Eng 2210. (Co-listed with Comp Sci 5203, Philos 4354 and Math 5154)."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5820  Mechatronics (LAB 1.0 and LEC 2.0)",
+        "description": "This course will introduce students to the basics of mechatronics (i.e., the integration of mechanical, electrical, computer, and control systems). Students will learn the fundamentals of sensors and actuators for mechanical systems, computer interfacing, microcontrollers, real-time software, and control. Prerequisite: Mech Eng 4479 or equivalent. (Co-listed with Mech Eng 5478, Aero Eng 5478 and Elec Eng 5870)."
+    },
+    {
+        "subject_id": 30,
+        "department_id": 14,
+        "subject_code": "COMP ENG",
+        "subject_name": "Computer Engineering",
+        "course": "COMP ENG 5880  Introduction to Robotics (LEC 3.0)",
+        "description": "This course provides an introduction to robotics, covering robot hardware, fundamental kinematics, trajectories, differential motion, robotic decision making, and an overview of current topics in robotics. Prerequisite: A grade of \"C\" or better in both Math 3108 and Comp Sci 1575. (Co-listed with Comp Sci 5403 and Elec Eng 5880)."
+    }
+]

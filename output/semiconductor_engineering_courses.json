@@ -1,0 +1,114 @@
+[
+    {
+        "subject_id": 35,
+        "department_id": 16,
+        "subject_code": "SEMI ENG",
+        "subject_name": "Semiconductor Engineering",
+        "course": "SEMI ENG 1100  Engineering in the Silicon Age (RSD 1.0)",
+        "description": "An introductory seminar detailing the rise and impact of the Silicon Age on the modern world. Discussions will include: historical perspectives on the development and application of semiconductor materials; current and future major scientific, technological, and societal challenges; and career opportunities."
+    },
+    {
+        "subject_id": 35,
+        "department_id": 16,
+        "subject_code": "SEMI ENG",
+        "subject_name": "Semiconductor Engineering",
+        "course": "SEMI ENG 2100  Fundamentals of Semiconductor Materials (LEC 3.0)",
+        "description": "A broad overview of elemental, compound, and wide-bandgap semiconductor materials covering chemical bonding, crystal structures, defects, interfaces, heterostructures, and structure-property relationships. Prerequisites: A grade of \"C\" or better in Chem 1320 and Physics 2135."
+    },
+    {
+        "subject_id": 35,
+        "department_id": 16,
+        "subject_code": "SEMI ENG",
+        "subject_name": "Semiconductor Engineering",
+        "course": "SEMI ENG 3019  Cleanroom Facilities and Practices Laboratory (LAB 1.0)",
+        "description": "Introduction to cleanroom practices, cleanroom layout and systems, operations and hazards, microcontamination management, environmental control strategies, testing and inspection methods, and electronic cleaning procedures. Prerequisites: A grade of \"C\" or better in Chem 1319."
+    },
+    {
+        "subject_id": 35,
+        "department_id": 16,
+        "subject_code": "SEMI ENG",
+        "subject_name": "Semiconductor Engineering",
+        "course": "SEMI ENG 3100  Semiconductor Materials Processing (LEC 3.0)",
+        "description": "Examination of semiconductor processing stages, including cleaning, oxidation, ion implantation, diffusion and thermal processing, deposition and epitaxy, etching, metallization, and lithography. Prerequisites: A grade of \"C\" or better in Semi Eng 2100 or with instructor permission. (Co-listed with Comp Eng 3210 and Elec Eng 3210)."
+    },
+    {
+        "subject_id": 35,
+        "department_id": 16,
+        "subject_code": "SEMI ENG",
+        "subject_name": "Semiconductor Engineering",
+        "course": "SEMI ENG 3101  Semiconductor Materials Processing Laboratory (LAB 2.0 and LEC 1.0)",
+        "description": "Front-end unit semiconductor process operations and testing, including cleaning, oxidation, ion implantation, diffusion and thermal processing, deposition and epitaxy, etching, metallization, and lithography. Prerequisites: A grade of \"C\" or better in Semi Eng 3019 and Elec Eng 2101; preceded or accompanied by Semi Eng 3100 or with instructor permission. (Co-listed with Comp Eng 3211 and Elec Eng 3211)."
+    },
+    {
+        "subject_id": 35,
+        "department_id": 16,
+        "subject_code": "SEMI ENG",
+        "subject_name": "Semiconductor Engineering",
+        "course": "SEMI ENG 3230  Thermodynamics of Materials (LEC 3.0)",
+        "description": "Basic thermodynamic concepts are applied to materials. Calculations involving enthalpy, entropy, and Gibbs' free energy are studied. Inter-relationships among properties are emphasized. Fundamental concepts of phase equilibria are presented. Prerequisite: A grade of \"C\" or better in either Met Eng 1210 or Chem 1320. (Co-listed with Cer Eng 3230 and Met Eng 3230)."
+    },
+    {
+        "subject_id": 35,
+        "department_id": 16,
+        "subject_code": "SEMI ENG",
+        "subject_name": "Semiconductor Engineering",
+        "course": "SEMI ENG 3410  Characterization Of Inorganic Solids (LEC 3.0)",
+        "description": "X-ray diffraction analysis is emphasized including lattice parameter determination, qualitative and quantitative analysis methods, and sources of error. In addition, the basic principles of other common characterization techniques including electron microscopy, thermal analysis, and energy dispersive spectroscopy are discussed. Prerequisite: A grade of \"C\" or better in Cer Eng 2110, Met Eng 2110, Semi Eng 2100 or a similar introductory course on structure of solids. (Co-listed with Cer Eng 3410)."
+    },
+    {
+        "subject_id": 35,
+        "department_id": 16,
+        "subject_code": "SEMI ENG",
+        "subject_name": "Semiconductor Engineering",
+        "course": "SEMI ENG 4096  Materials Senior Design I (LEC 3.0)",
+        "description": "Overview of the methods, approaches, and techniques required to execute materials related capstone senior design projects. Formation of teams, assignment of projects, review of department curriculum concepts and topics, and comprehensive project management skills needed to complete projects will be used as means to learn the design process. Prerequisites:  A grade of \"C\" or better in Met Eng 3125 and Met Eng 2125, or Cer Eng 3315 or Semi Eng 3101. (Co-listed with Cer Eng 4096 and Met Eng 4096)."
+    },
+    {
+        "subject_id": 35,
+        "department_id": 16,
+        "subject_code": "SEMI ENG",
+        "subject_name": "Semiconductor Engineering",
+        "course": "SEMI ENG 4097  Materials Senior Design II (LAB 3.0)",
+        "description": "A continuation of the Materials Senior Design I. Students working in groups will complete a capstone design project including process and product simulation and/or fabrication, safety aspects, environmental impact and capital and operating economics. Prerequisite: A grade of \"C\" or better in either Cer Eng 4096 or Met Eng 4096 or Semi Eng 4096. (Co-listed with Cer Eng 4097 and Met Eng 4097)."
+    },
+    {
+        "subject_id": 35,
+        "department_id": 16,
+        "subject_code": "SEMI ENG",
+        "subject_name": "Semiconductor Engineering",
+        "course": "SEMI ENG 4100  Semiconductor Device Simulation (LAB 1.0 and LEC 2.0)",
+        "description": "Semiconductor device simulation concepts: conventional and advanced MOS devices, bipolar transistors, heterostructures. Modern simulation tools such as SPICE and TCAD will be employed. Prerequisites: Preceded or accompanied by Elec Eng 3250 or Semi Eng 4101. (Co-listed with Comp Eng 4210 and Elec Eng 4210)."
+    },
+    {
+        "subject_id": 35,
+        "department_id": 16,
+        "subject_code": "SEMI ENG",
+        "subject_name": "Semiconductor Engineering",
+        "course": "SEMI ENG 4101  Semiconductor Device Fabrication and Testing Laboratory (LAB 2.0 and LEC 1.0)",
+        "description": "Unit process operations, including back-end operations, inspection, and metrology for process control, are integrated into complete manufacturing sequences for fabrication and testing of semiconductor devices. Prerequisites: A grade of \"C\" or better in Semi Eng 3101 and preceded by Elec Eng 2200 or Elec Eng 3250. (Co-listed with Comp Eng 4211 and Elec Eng 4211)."
+    },
+    {
+        "subject_id": 35,
+        "department_id": 16,
+        "subject_code": "SEMI ENG",
+        "subject_name": "Semiconductor Engineering",
+        "course": "SEMI ENG 4200  Semiconductor Process Simulation (LAB 1.0 and LEC 2.0)",
+        "description": "Semiconductor process simulation using modern simulation tools. Concepts include ion implantation, diffusion, oxidation, deposition and epitaxy, etching, and photolithography. Prerequisites: A grade of \"C\" or better in Semi Eng 3100."
+    },
+    {
+        "subject_id": 35,
+        "department_id": 16,
+        "subject_code": "SEMI ENG",
+        "subject_name": "Semiconductor Engineering",
+        "course": "SEMI ENG 4300  Polymers for Semiconductor Devices and Processes (LEC 3.0)",
+        "description": "Fundamentals of polymers for semiconductor device and process engineering. Roles in advanced semiconductor technology, optoelectronics, and organic electronics. Prerequisites: Semi Eng 3100."
+    },
+    {
+        "subject_id": 35,
+        "department_id": 16,
+        "subject_code": "SEMI ENG",
+        "subject_name": "Semiconductor Engineering",
+        "course": "SEMI ENG 4400  Microelectronics Packaging and Integration (LEC 3.0)",
+        "description": "Materials selection, thermal management principles, manufacturing concepts, testing and reliability models for packaging and heterogeneous integration of semiconductor devices. Prerequisites: Semi Eng 4101 and Semi Eng 4300."
+    }
+]

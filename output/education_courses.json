@@ -1,0 +1,434 @@
+[
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 1000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 1001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 1055  Introduction to Early Childhood Education (LEC 3.0)",
+        "description": "This course will introduce students to the standards for early childhood programs, emphasizing family partnerships and community resources. Students will survey research on play-based learning, emerging literacy, and family engagement and apply research concepts to design developmentally appropriate activities and spaces."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 1074  Foundations of Education in a Diverse Society (LEC 3.0)",
+        "description": "In this introduction course, students enrolled in an education degree program will examine educational practice from diverse historical, philosophical, sociological, economic, and legal perspectives. The course will address issues of education equity, sociocultural influences on teaching and learning, social justice, and democratic citizenship in the American public school, the relationship between school and a diverse society, the organization of school curricula, and characteristics of effective schools and instruction in grades P-12. Students will develop their teaching philosophy, begin creating a professional portfolio, and come up with a plan to set up a classroom and develop appropriate daily routines and procedures. Prerequisites: Education major, emphasis, or certificate declared."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 1104  Teacher Field Experience I (LAB 1.0)",
+        "description": "Students will spend 30 clock hours in classrooms, including experiences in diverse settings. Students will attend seminar sessions and complete assignments related to the field experiences. A background check is required for enrollment in this course. Prerequisite: Educ 1074."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 1111  Substitute Teacher Training (LEC 1.0)",
+        "description": "This course prepares students to be in charge of a K-12 classroom as a substitute teacher. Classroom management, ethical conduct, support for students with special needs, and instructional strategies will be discussed. Students will teach a demonstration lesson to their peers."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 1164  Teacher Field Experience II (LAB 2.0)",
+        "description": "Students will spend 60 clock hours in classrooms, including experiences in diverse settings. Students will teach lessons, work with learners, and otherwise assist in the classroom to which they are assigned.  A background check is required for enrollment in this course.  Prerequisites: Educ 1074, Educ 1104, and Educ 3216."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 1221  Health, Nutrition, and Safety in Early Childhood Education (LEC 3.0)",
+        "description": "Students will examine research regarding safe and healthy learning environments for young children. Early childhood education regulations, policies, and risk management will be reviewed, and inequities related to health, safety, and nutrition will be critically examined. Students will create learning experiences for young children from course content. Prerequisites: Education emphasis declared."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 1820  Early Childhood Program Management (LEC 3.0)",
+        "description": "This course is an examination of the regulatory requirements of early childhood programs. Students will discuss ethical issues and advocacy strategies. Students will practice administration skills such as budget management for early childhood programs. Personnel management to promote a positive school culture will be discussed. Prerequisites: Educ 1221."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 2000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 2001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 2102  Educational Psychology (LEC 3.0)",
+        "description": "Principles of psychology relevant to the field of education. Course covers theoretical and applied information on such topics as human growth and development, and cognitive and behavioral views of learning and intelligence. The course also covers motivation, creation of learning environments, measurement and evaluation of learning. Prerequisite: Either Psych 1101 (psychology majors) or Educ 1074 (teacher education program). (Co-listed with Psych 2300)."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 2251  Historical Foundation Of American Education (LEC 3.0)",
+        "description": "Development of American educational institutions and ideas, and of social forces that have influenced them. Prerequisites: Educ 1074 and History 1300 or 1310."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 2310  Education Of The Exceptional Child (LEC 3.0)",
+        "description": "Study of the psychology of children with emotional, behavioral, cognitive or other differences. The course presents the fundamentals of providing services as well as understanding children classified as exceptional. Implications of personal, family and classroom issues will be discussed as well as assessment procedures for identification."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 2401  School, Family, and Community Partnerships (LEC 3.0)",
+        "description": "Students will examine available community resources and their impact on children and families.  Students will practice strategies to support family  engagement.  Effective communication and collaboration with diverse families will be emphasized. Prerequisites: Educ 1074 or Educ 1055."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 2440  Observation and Assessment of Young Children (LAB 1.0 and LEC 2.0)",
+        "description": "Students will discuss the purpose, benefits, and uses of informal and formal assessments of children. Students will practice interpreting and communicating assessment results while maintaining confidentiality. Assessment results will be used to plan developmentally appropriate curriculum. Students will administer an observation assessment in the field. Prerequisites: Educ 1074 or Educ 1055."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 3001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 3170  Teaching Reading and Writing in Middle/High School (LEC 3.0)",
+        "description": "Students will learn research-based literacy and writing strategies for their intended content area. Students will focus on the five pillars of reading instruction, especially vocabulary. Instructional interventions for students with reading deficits will be discussed. Effective instruction for English Language Learners will also be addressed. Prerequisites: Educ 3216."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 3203  Introduction to STEM Education (LEC 3.0)",
+        "description": "Students will discuss and apply research on STEM education at the early childhood and elementary levels. Inquiry-based learning and critical thinking are emphasized. Students are introduced to a variety of instructional programs including Project Lead the Way. Students will observe STEM in an authentic environment and then implement instruction. Prerequisites: Educ 3216."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 3211  Child Development (LEC 3.0)",
+        "description": "This course explores characteristics of children from birth to age eight, including language acquisition, creative expression, and physical, cognitive, and social-emotional development. The impact of trauma on development will be emphasized. The connection of cultural differences to development will also be discussed. Prerequisites: Educ 1040 or Educ 1055 or Psych 1101."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 3215  Teaching Reading in Elementary and Early Childhood Settings (LEC 3.0)",
+        "description": "This course introduces emergent literacy concepts and language acquisition. Students will apply research on phonological and phonemic awareness, fluency, comprehension, vocabulary, and text selection to their future classrooms. After observing the teaching of reading in an authentic setting, students will design and implement instruction. Prerequisite: Educ 1074."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 3216  Instructional Literacy in the Content Area (LEC 3.0)",
+        "description": "Vocabulary, comprehension, the writing process and other literacy skills will be reinforced. Classroom content texts will be evaluated. Students will create meaningful learning experiences and resources for a diverse student population. Differentiated instruction will be introduced, with specific focus on English Language Learners and struggling reader. Prerequisites: Educ 1074."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 3217  Analysis and Correction of Reading Difficulties (LEC 3.0)",
+        "description": "This course reviews procedures for identifying reading problems and supporting learners at the elementary and early childhood levels. Students will be introduced to commercially prepared informal diagnostic instruments, attitude and interest inventories, prescriptive measures, anecdotal records and strategies for corrective reading instruction. Prerequisite: Educ 3215."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 3218  Language Arts for Elementary and Early Childhood Teachers (LEC 3.0)",
+        "description": "Students will apply research in emergent writing at the early childhood level and the writing process at the elementary level. Providing effective feedback to learners on their oral and written communication will be addressed. Students will integrate art, music, drama, and play-based learning into language arts instruction. Prerequisite: Educ 1074."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 3220  Teaching Science in the Elementary and Early Childhood Classroom (LEC 3.0)",
+        "description": "Students will learn to introduce children to scientific inquiry.  Students will model higher order thinking skills and effective questioning techniques to guide learners' critical thinking by incorporating the engineering design process. Students will identify uses of technology for teaching science and develop informal and formal science assessments. Prerequisites: Educ 1074."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 3221  Methods of Teaching Math (LEC 3.0)",
+        "description": "The course presents an overview of how children learn mathematics, various techniques in teaching mathematics, and examples of applying these techniques to specific mathematical concepts (such as geometry, measurement, basic operations, statistics and probability, etc.). Prerequisite: Math 1120 or Math 1140; Educ 1074. (Co-listed with Math 3921)."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 3222  Geometric Concepts for Elementary Teachers (LEC 3.0)",
+        "description": "The course covers methods of teaching the study of points, lines, polygons, similarity, congruence, constructions, and proof in Euclidean Plane Geometry. Transformational geometry and trigonometry are introduced to elementary teachers. Prerequisites: Math 1120 or Math 1140. (Co-listed with Math 3922)."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 3280  Instructional Strategies in the Content Area (LEC 3.0)",
+        "description": "Students will design authentic, technology rich, data-driven instruction and assessment for diverse learners in middle and secondary schools. The student will demonstrate competency in planning and implementing differentiated instruction. Critical thinking and problem solving strategies will be emphasized. Prerequisites: Educ 3216, English 3170, Educ 3340."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 3290  Coordination of Cooperative Education (LEC 3.0)",
+        "description": "Explore the coordination and delivery of work-based learning experiences for student learners, including legal aspects, methods, materials, selecting work sites, placement, evaluation of expectations and student follow-up. Develop an implementation plan for cooperative education. Prerequisites: Educ 1074 and Educ 1104."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 3298  Teacher Field Experience III (LAB 1.0)",
+        "description": "Students enrolled in this course will be planning and implementing activities and assessments with children or adolescents in structured learning environments. Students must be supervised by experienced, credentialed educators and request placement through the department. At least 30 hours of contact time is required per credit hour. Prerequisites: EDUC 1104 and 1164."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 3335  Curriculum And Instruction Of The Middle School (LEC 3.0)",
+        "description": "This course provides an overview of the structure and philosophy of middle schools, including interdisciplinary and collaborative teams. The unique needs of the early adolescent will be aligned with evidence-based practices. Students will complete a field experience in a middle school. A cleared background check is required for this course.  Prerequisite: Educ 1074."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 3340  Assessment of Student Learning (LEC 3.0)",
+        "description": "Students will learn to evaluate assessments for validity and reliability. Students will develop formative and summative assessments aligned with learning outcomes. Writing quality rubrics and universal design will be introduced. Students will analyze data to make instructional decisions and learn to evaluate vendor assessments. Prerequisites: Educ 1074. (Co-listed with Psych 4340)."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 3350  Social Studies In The Elementary School (LEC 3.0)",
+        "description": "Problems in preparation, teaching of social studies units with suitable materials, techniques for elementary teachers. Prerequisite: Instructor's approval."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 3430  Diverse Literature for Children (LEC 3.0)",
+        "description": "In this course, students will critically examine children's fiction and nonfiction texts for use in early childhood and elementary classrooms and libraries. The use of children's books in interdisciplinary instruction will be emphasized, including integration of STEM, art, drama, music, and movement.  Prerequisites: Educ 1074."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 3530  Teaching Integrated Social Studies and Humanities (LEC 3.0)",
+        "description": "The course will focus on the methodology and materials needed to facilitate children's development in social studies, particularly citizenship and Missouri history/geography. This course will integrate the curriculum and teaching strategies in social studies with music, physical education, and art.  Prerequisites: Educ 1074."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 4298  Student Teaching Seminar (LEC 1.0)",
+        "description": "Weekly seminars will be required for all students enrolled in student teaching. Contemporary educational topics, trends, reflective decision making and other pertinent topics will be covered. Reflection of topics and experiences will be exhibited in papers, portfolios and journal writings. Prerequisites: Meet all requirements for student teaching and concurrently be enrolled in student teaching."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 4299  Student Teaching (LAB 12)",
+        "description": "This course is the culminating experience to qualify students for Missouri initial teacher certification. Students will be placed in a school with a credentialed mentor teacher in the intended area of certification. Students will be observed and evaluated by university faculty and the mentor teacher. Prerequisites: Professional standing and student teaching application approved previous semester."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 4320  Assessment and Evaluation in Special Education (LEC 3.0)",
+        "description": "The purpose of this course is to teach the procedures and instruments used in the assessment of individual with disabilities, including standardized and non-standardized measures of intellectual ability, academic achievement, oral language, social/emotional behaviors, career/vocational needs. Prerequisites: Educ 2310."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 4325  Language Development for Exceptional Learners (LEC 3.0)",
+        "description": "This course provides educators with the information needed to identify, understand, and teach students with language and communication difficulties, including students who speak a home language other than English or who speak non-standard English."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 4330  Collaborative Consultation in Special Education (LEC 3.0)",
+        "description": "This course is designed to help students acquire the knowledgebase needed to foster partnerships that are meaningful, cooperative, and productive. The course is organized around problems of practice including understanding the importance of collaborative consultation and the process for creating empowering partnerships with families and other professionals."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 4375  Cross Categorical Special Education (LEC 3.0)",
+        "description": "Study of characteristics of students with cross categorical disabilities and other pertinent issues including inclusion, assessment, and evaluation practices. Prerequisites: EDUC 3216."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 4380  Methods in Cross-Categorical Special Ed (LEC 3.0)",
+        "description": "This course is designed to provide students with research-based instructional and behavior management methods for use with student with cross-categorical disabilities. Prerequisites: EDUC 3216."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 4410  Behavior Management in Special Education (LEC 3.0)",
+        "description": "Students will learn the foundations of behavior management and positive behavioral supports. Students will learn to create a proactive learning environment through supports, interventions, and behavioral monitoring."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 4600  Learning Problems in Math (LEC 3.0)",
+        "description": "This course will focus on the study of diagnostic and remedial instructional techniques for the teaching of mathematics. In this course, students will study the characteristics of students who struggle in mathematics. Students will develop a knowledge base of effective practices for assessment and teaching strategies in mathematics. Prerequisites: Educ 1074."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 5100  PLTW Training (LEC 0.0-8.0)",
+        "description": "This graduate-level Project Lead the Way course prepares K-12 educators to become more effective teachers of STEM-focused material."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 5150  Teacher Leadership within Educational System (LEC 3.0)",
+        "description": "Students will examine their educational context and research educational systems at various levels. Developing a collaborative culture of collective responsibility will be discussed, including equity, accountability, and continuous improvement processes. Teacher leaders will understand how educational policy is crafted and create an advocacy plan."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 5220  Instructional Coaching and Mentoring (LEC 3.0)",
+        "description": "The differences between coaching and mentoring will be discussed, as well as research-support practices in each. Teacher leaders will research adult learning principles and apply them to instructional coaching. They will learn approaches to observing and providing constructive feedback, then practice them with peers."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 5225  Curriculum Development and Assessment (LEC 3.0)",
+        "description": "Curriculum will be analyzed using research-based processes. Teacher leaders will model collaborative and reflective practice based on student data and practice leading teams to do the same. Instructional strategies and assessments that address issues of diversity and equity will be the focus."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 5330  Community-Based Participatory Action Research (LEC 3.0)",
+        "description": "This course will focus on methods for engaging school and community members in research. Students will collaboratively identify research questions, practice data collection techniques, analyze, and report the results."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 5370  Effective Instructional Strategies (LEC 3.0)",
+        "description": "Participants will develop an understanding of research-based instruction and the ability to implement the instructional strategies in their classrooms. The course will focus on leadership, empowerment, and collaboration. Prerequisite: Graduate standing."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 5500  Evidence-Based Practices For Literacy Instruction (LEC 3.0)",
+        "description": "This course will address in depth the foundational concepts of literacy instruction: phonological awareness, phonics, fluency, vocabulary, comprehension, and written language. Learners will examine the research supporting effective literacy instruction. Prerequisites: Education certificate or degree declared."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC 5565  Comprehensive Literacy Program Development (LEC 3.0)",
+        "description": "In this course, participants will critically evaluate literacy programs, focusing on effective differentiation strategies and other essential components. They will learn systematic approaches for integrating evidence-based literacy practices into daily instruction. Additionally, learners will develop comprehensive plans for building partnerships with families and communities to enhance the overall impact of literacy programs. Prerequisites: Education degree or graduate certificate declared."
+    },
+    {
+        "subject_id": 12,
+        "department_id": 4,
+        "subject_code": "EDUC",
+        "subject_name": "Education",
+        "course": "EDUC COOP  Cooperative Work Program (IND 0.0)",
+        "description": ""
+    }
+]

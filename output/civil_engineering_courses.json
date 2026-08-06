@@ -1,0 +1,722 @@
+[
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 2001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 2002  Cooperative Engineering Training (IND 1.0-3.0)",
+        "description": "On-the-job experience gained through cooperative education with industry, with credit arranged through departmental cooperative advisor. Grade received depends on quality of reports submitted and work supervisors evaluation."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 2003  Engineering Communications and Computations (LAB 1.0 and LEC 2.0)",
+        "description": "Programming and software tools (including computer aided design and drafting, computer-based mathematics, word processing, spreadsheet, and presentation software) with application to and emphasis on written, graphical, and oral communication in professional civil and architectural engineering practice. (Co-listed with Arch Eng 2003)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 2200  Statics (LEC 3.0)",
+        "description": "Application of the principles of mechanics to engineering problems of equilibrium. Topics include resultants, equilibrium, friction, trusses, center of gravity and moment of inertia. Prerequisites: Physics 1135 or Physics 1111 with a grade of \"C\" or better; Math 1215 with a grade of \"C\" or better; preceded or accompanied by Math 2222."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 2210  Mechanics Of Materials (LEC 3.0)",
+        "description": "Application of the principles of mechanics to engineering problems of strength and stiffness. Topics include stress, strain, thin cylinders, torsion, beams, and combined stresses at a point. Prerequisite: Civ Eng 2200 with grade of \"C\" or better."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 2211  Materials Testing (LAB 1.0)",
+        "description": "Designed to assist in the teaching of mechanics of materials. Topics include strain measurement, testing machines and properties of materials. Prerequisite: Preceded or accompanied by Civ Eng 2210."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 2401  Fundamentals Of Surveying (LAB 1.0 and LEC 2.0)",
+        "description": "Surveying fundamentals: leveling, directions, angles, distances, errors, traverse calculations and basic adjustments. Fundamentals of horizontal curves. Lab exercises include leveling, traversing, horizontal circular curve layout and building layout. Prerequisite: Math 1211 or preceded or accompanied by Math 1214 or 1208."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 2451  Engineering Drawings and Tools (LEC 3.0)",
+        "description": "Introduction to the basics of reading and developing engineering drawings including mapping and coordinating the different trades through the use of Autodesk's AutoCAD and Revit software as well as ESRI's ArcGIS package."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 2601  Fundamentals of Environmental Engineering and Science (LAB 1.0 and LEC 2.0)",
+        "description": "Course discusses fundamental chemical, physical, and biological principles in environmental engineering and science. Topics include environmental phenomena, aquatic pollution and control, solid waste management, air pollution and control, water and wastewater treatment systems, sustainability and life cycle analyses. Prerequisites: Chem 1301, Chem 1305, or Chem 1310; Math 1211 or Math 1214. (Co-listed with Env Eng 2601)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 2602  Biological Fundamentals Of Environmental Engineering (LEC 3.0)",
+        "description": "Introduction to the function of organisms related to environmental engineering. The course focuses on both the application of organisms to removing contaminants and the effects of contaminants on organisms. Prerequisites: Bio Sci 1113 and preceded or accompanied by Civ/Env Eng 2601. (Co-listed with Env Eng 2602)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 3001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 3116  Construction Materials, Properties And Testing (LAB 1.0 and LEC 2.0)",
+        "description": "A study of the origin, production, uses and general properties of construction materials accompanied by selected laboratory tests and demonstrations. Prerequisites: Math 1215, Physics 1135, Civ Eng 2211 or Min Eng 3812; Civ Eng 2210 or both Geo Eng 1150 and Min Eng 3412."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 3201  Structural Analysis I (LAB 1.0 and LEC 2.0)",
+        "description": "Loads on Structures. Analysis of statically determinate and indeterminate beams, frames and trusses. Influence lines and moving loads. Computation of deflections. Development and use of theorems of displacement methods including slope-deflection and moment distribution to analyze statically indeterminate structures. Computer solutions. Prerequisites: Civ Eng 2200, 2210 each with a grade of \"C\" or better. (Co-listed with Arch Eng 3201)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 3210  Structural Design in Metals (LAB 1.0 and LEC 2.0)",
+        "description": "The analysis and design of structural elements and connections for buildings, bridges and specialized structures utilizing structural metals. Both elastic and plastic designs are considered. Prerequisite: Civ Eng 3201  with a grade of \"C\" or better. (Co-listed with Arch Eng 3210)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 3220  Reinforced Concrete Design (LAB 1.0 and LEC 2.0)",
+        "description": "The analysis and design of reinforced concrete beams, slabs, columns, retaining walls and footings by the elastic and ultimate strength methods, including an introduction to the design of prestressed concrete. Introduction to use of computers as a design aid tool. Prerequisite: Civ Eng 3201 with grade of \"C\" or better. (Co-listed with Arch Eng 3220)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 3330  Engineering Fluid Mechanics (LEC 3.0)",
+        "description": "Study of fluids at rest and in motion. Topics include fluid properties, statics of fluids, and the control volume approach to conservation of mass, momentum and energy. Applications include flow in pipes, pipe systems, external flow, and fluid flow measurements. Prerequisites: A grade of \"C\" or better in Math 3304 and in one of Mech Eng 2340, Mech Eng 2350 or Mech 2360."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 3334  Water Resources Engineering (LAB 1.0 and LEC 3.0)",
+        "description": "An introduction to the engineering of water resources; flow in closed conduits, pumps, flow in open channels, surface water hydrology, rainfall analysis, hydrograph analysis, flow routing; and ground-water hydrology. Prerequisites: A grade of \"C\" or better in Civ Eng 3330 and in one of Stat 3113 or Stat 3117."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 3500  Transportation Engineering (LAB 1.0 and LEC 2.0)",
+        "description": "A study of operating characteristics of transportation modes including highways, railways, inland waterways, airways, and pipelines. Consideration of traffic control devices, safety, system capacity, design of routes, planning of urban transportation systems, and economic evaluation of transportation alternatives. Prerequisites: Civ Eng 2401 and Civ Eng 2003."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 3615  Water And Wastewater Engineering (LEC 3.0)",
+        "description": "A study of the engineering design principles dealing with the quantity, quality and treatment of water, and the quantity, characteristics, treatment and disposal of wastewater. Prerequisites: Civ Eng 2601 and at least junior standing. (Co-listed with Env Eng 3615)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 3715  Fundamentals of Geotechnical Engineering (LAB 1.0 and LEC 2.0)",
+        "description": "Analysis of geotechnical systems including soil classification, index properties, permeability, compressibility and shear strength. Basic geotechnical engineering design principles as they apply to civil constructed facilities, such as analysis of foundations and earth structures. Laboratory determination of the basic properties of soils. Prerequisite: Math 1215, Physics 1135, Geo Eng 1150 or Geology 1110; Civ Eng 2210; and preceded or accompanied by Civ Eng 3330."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 3842  Fundamentals of Building Systems (LEC 3.0)",
+        "description": "An examination of building life support systems and technology of interest to civil engineers in the planning, operation, and maintenance of buildings. Topics include human comfort, electrical, mechanical, water and waste, transportation, lighting, and other systems necessary for building utilization. Prerequisites: Physics 2135, Math 2222, and Junior Standing."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 4001  Special Topics (LAB 1.0 and LEC 2.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 4010  Senior Seminar: Engineering In A Global Society (RSD 1.0)",
+        "description": "Discussion of contemporary issues: public safety, health, and welfare; the principles of sustainable development; lifelong learning; impact of engineering solutions in a global and societal and political context; relationships with owners, contractors, and the public; public service; the Code of Ethics; and the Missouri licensing Statutes and Board Rules. Prerequisite: Senior standing. (Co-listed with Arch Eng and Env Eng 4010)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 4097  Senior Design Project (LEC 3.0)",
+        "description": "Open-ended design projects involving one or more areas of  engineering. Planning design projects, philosophy of design, and application of  engineering principles to design problems. Prerequisite: Civ Eng 4448 or Arch Eng 4448; Senior standing."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six (6) credit hours allowed for graduation credit. Subject and credit to be arranged with the instructor."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 4321  Drone Mapping and Photogrammetry (LAB 1.0 and LEC 2.0)",
+        "description": "The course will start with an overview of the basic knowledge required for passing the FAA Part 107 Remote Pilots Knowledge Test for small UAS operators, including UAS mapping technology and its rules and regulations, airspace classification, and reading aeronautical charts. The principles of UAS data collection are explained along with hands-on practice in flight planning and execution, as well as processing collected imagery. Prerequisites: Basic computer knowledge. Either Civ Eng 2401 or Geo Eng 3148 or equivalent. (Co-listed with Geo Eng 4321, Geology 4321, Geophys 4321, Min Eng 4321)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 4448  Fundamentals Of Construction Engineering & Management (LEC 3.0)",
+        "description": "A study of the concepts and techniques used in large construction projects for the preparation of engineer service contracts, detailed and conceptual cost estimating, and construction scheduling analysis. Prerequisite: Junior Standing, Math 1215, and Physics 1135. (Co-listed with Arch Eng 4448)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 4729  Foundation Engineering (LEC 3.0)",
+        "description": "The effect of subsoil conditions on the behavior and choice of foundations. Topics include geotechnical explorations and the design of foundations, which includes the selection of foundation types, the analysis of bearing capacity and settlement of shallow/deep foundations, and retaining walls.  Prerequisite: Civ Eng 3715."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5010  Seminar (LEC 1.0)",
+        "description": "Discussion of current topics. Prerequisite: Senior standing."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5070  Teaching Engineering (LEC 3.0)",
+        "description": "Introduction to teaching objectives and techniques. Topics include: using course objectives to design a course; communication using traditional and cutting-edge media; textbook selection; assessment of student learning; grading; student learning styles; cooperative/active learning; and student discipline. Prerequisite: Graduate standing. (Co-listed with Eng Mgt 5070, Env Eng 5070, Comp Eng 5070, Elec Eng 5070)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5112  Bituminous Materials (LAB 1.0 and LEC 2.0)",
+        "description": "Properties, types, and grades of bituminous materials are presented. Emphasis is placed on usage, distress, surface treatment design, and asphalt concrete mix properties, behavior, design manufacture, and construction. Prerequisite: Preceded or accompanied by Civ Eng 3116."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5113  Composition And Properties Of Concrete (LEC 3.0)",
+        "description": "Properties of plastic and hardened concrete and the influence of cements, aggregates, water and admixtures upon these properties. The microstructure of cement gel and other factors are related to the behavior of hardened concrete under various types of loading and environments, drying shrinkage, creep and relaxation, fatigue, fracture, and durability. Introduction to statistical quality control of concrete production. Prerequisite: Civ Eng 3116 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5117  Asphalt Pavement Design (LEC 3.0)",
+        "description": "Structural design of flexible pavements including loading characteristics, properties of pavement components, stress distribution, and the effects of climatic variables on design criteria. Prerequisite: Civ Eng 3116 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5118  Smart Materials and Sensors (LAB 1.0 and LEC 2.0)",
+        "description": "Smart structures with fiber reinforced polymer (FRP) composites and advanced sensors. Multi-disciplinary topics include characterization, performance, and fabrication of composite structures; fiber optic, resistance, and piezoelectric systems for strain sensing; and applications of smart composite structures. Laboratory and team activities involve manufacturing, measurement systems, instrumented structures, and performance tests on a large-scale smart composite bridge. Prerequisites: Senior standing and Math 3304. (Co-listed with Aero Eng 5229, Mech Eng 5229 and Elec Eng 5270)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5156  Pavement Design (LEC 3.0)",
+        "description": "Principles of flexible and rigid pavement design including stress analysis, load and environmental effects and material characteristics; Introduction to AASHTO, PCA, AI, FAA, MEPDG, and other design methods; design of overlays and drainage system; pavement performance evaluation and rehabilitation techniques. Prerequisite: Civ Eng 3116 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5181  Building Materials Physics (LEC 3.0)",
+        "description": "Examines the effects of heat, air and moisture on the building envelop through engineering methods with examples and exercises. Prerequisite: Civ Eng 3330 or Mech Eng 2527. (Co-listed with Arch Eng 5181)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5203  Applied Mechanics In Structural Engineering (LEC 3.0)",
+        "description": "A study of the basic relationships involved in the mechanics of structures. Topics include basic elasticity, failure criteria, fundamental theories of bending and buckling of plates and cylindrical shells for practical application in analysis and design of bridge, building floors, and shell roofs. Prerequisite: Civ Eng 3201 with grade of \"C\" or better. (Co-listed with Arch Eng 5203)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5205  Structural Analysis II (LEC 3.0)",
+        "description": "Classical displacement and force methods applied to structures of advanced design. Analysis of indeterminate structures such as continuous beams, arches, cables, and two and three dimensional frames, and trusses. Analysis of indeterminate structures involving temperature and support settlements effects. Prerequisites: Civ Eng 3201 or Arch Eng 3201. (Co-listed with Arch Eng 5205)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5206  Low-Rise Building Analysis and Design (LEC 3.0)",
+        "description": "Characterization of various design loads, load combinations, general methodology of structural designs against lateral loads, code-oriented design procedures, distribution of lateral loads in structural systems, application of the International Building Code in design of loadbearing wall systems, building frame system and moment-resisting frame systems.  Prerequisite: Preceded and/or accompanied by Civ -Arch Eng 3210 or Civ-Arch Eng 3220. (Co-listed with Arch Eng 5206)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5207  Computer Methods of Structural Analysis (LEC 3.0)",
+        "description": "Force and displacement matrix methods and computer methods applied to structural analysis. Analysis of indeterminate structures such as continuous beams, and two and three dimensional frames and trusses. Analysis of indeterminate structures involving temperature and support settlements effects using computer methods formulation.  Prerequisite: Civ Eng 3201 with grade of \"C\" or better. (Co-listed with Arch Eng 5207)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5208  Structural Dynamics (LEC 3.0)",
+        "description": "This course deals with fundamental concepts and structural responses under dynamic loads. Hand calculations and computer methods are developed. Specific topics include resonance, beating phenomenon, equation of motion, dynamic properties, frequencies and mode shapes, and modal and Ritz analyses. Prerequisites: Mech Eng 2350 or equivalent; Civ/Arch Eng 3201 or equivalent. (Co-listed with Arch Eng 5208)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5209  Wind Engineering (LEC 3.0)",
+        "description": "Introduction of wind engineering to advanced undergraduate and entry-level graduate students through structural engineering and atmospheric science fundamentals. Co-listed with Arch Eng 5001. Prerequisites: A grade of \"C\" or better in Civ Eng 3201."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5210  Advanced Steel Structures Design (LEC 3.0)",
+        "description": "The design of structural steel systems into a final integrated structure. Plate girders, composite systems, stability, connections, rigid frames, single and multistory buildings, and similar type problems of interest to the student. Use of the computer as a tool to aid in the design will be emphasized. Prerequisite: Civ Eng 3210 with a grade of \"C\" or better. (Co-listed with Arch Eng 5210)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5220  Advanced Concrete Structures Design (LEC 3.0)",
+        "description": "The design of structural concrete systems into a final integrated structure. Two-way slabs, long columns, connections, and discontinuity regions, deflections and cracking of beams and slabs, ACI design criteria, and similar type problems of interest to the student. Use of the computer as a tool to aid in the design will be emphasized. Prerequisite: Civ Eng 3220 with a grade of \"C\" or better. (Co-listed with Arch Eng 5220)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5222  Prestressed Concrete Design (LEC 3.0)",
+        "description": "Behavior of steel and concrete under sustained load. Analysis and design of pre-tensioned and post-tensioned reinforced concrete members and the combining of such members into an integral structure. Prerequisite: Civ Eng 3220 with a grade of \"C\" or better. (Co-listed with Arch Eng 5222)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5231  Infrastructure Strengthening with Composites (LEC 3.0)",
+        "description": "The course presents composite materials and includes principles of reinforcing and strengthening for flexure, shear, and ductility enhancement in buildings and bridges. It covers the design of existing members strengthened with externally bonded laminates and  near surface mounted composites. Case studies are discussed. Prerequisites: Civ Eng / Arch Eng 3201, Civ Eng / Arch Eng 3220. (Co-listed with Arch Eng 5231)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5250  Air Transportation (LAB 1.0 and LEC 2.0)",
+        "description": "Runway configuration, airfield capacity, geometrics and terminal layout and design.  Aircraft perfomance; navigation and air traffic control; airport planning and design; airline operations; aviation systems planning. Prerequisite: Civ Eng 3500 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5260  Analysis And Design Of Wood Structures (LEC 3.0)",
+        "description": "A critical review of theory and practice in design of modern wood structures. Effect of plant origin and physical structure of wood on its mechanical strength; fasteners and their significance in design; development of design criteria and their application to plane and three dimensional structures. Prerequisite: Civ Eng 3201 with grade of \"C\" or better. (Co-listed with Arch Eng 5260)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5270  Structural Masonry Design (LEC 3.0)",
+        "description": "Review of the theory and practice of analyzing low-rise masonry structures, materials and assembly types, constructability considerations, structural masonry components, repair and strengthening, and model code requirements to ensure adequate load resisting buildings. Prerequisites: Arch Eng 3201 or Civ Eng 3201. (Co-listed with Arch Eng 5270)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5330  Unsteady Flow Hydraulics (LEC 3.0)",
+        "description": "The study of unsteady flow and its effect on closed water systems and in open channels. Prerequisites: Civ Eng 3330 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5331  Hydraulics Of Open Channels (LEC 3.0)",
+        "description": "The phenomena accompanying the flow of water in open channels, such as uniform and varied flow, critical conditions, backwater curves, hydraulic jump, hydraulic drop and applications are studied in detail. Prerequisite: Civ Eng 3330 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5332  Transport Processes in Environmental Flows (LEC 3.0)",
+        "description": "Dynamics, mixing and contaminant transport in surface water bodies, including rivers and lakes. Buoyancy modifications to the mixing and dynamics of pollutant discharges and surface water bodies. Transport of sediments. Exchange processes at the air/water and sediment/water interfaces. Prerequisite: At least a \"C\" in Civ Eng 3330."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5333  Intermediate Hydraulic Engineering (LEC 3.0)",
+        "description": "Application of fluid mechanics principles to the design. Kinematics of fluid motion, conservation of mass, linear and angular momentum, and energy. Requirements for similarity of fluid flow. Introduction to dynamics of fluid flows and viscous incompressible flows. Prerequisite: Civ Eng 3330 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5335  Water Infrastructure Engineering (LAB 1.0 and LEC 2.0)",
+        "description": "Fundamental principles underlying comprehensive water infrastructure development; sanitary sewers, sanitary treatment facilities, stormwater sewers, stormwater detention, water power development, and hydraulic structures. The student is responsible for the planning and design of a water infrastructure development project. Prerequisite: Civ Eng 3330 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5337  River Mechanics And Sediment Transport (LEC 3.0)",
+        "description": "Formation of rivers and the laws governing river regulation and improvements, including navigation and flood protection. Principles governing sediment transport. Prerequisite: Civ Eng 3330 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5338  Hydrologic Engineering (LEC 3.0)",
+        "description": "A study of current up-to-date hydrologic techniques involving design of hydrologic input for bridges, culverts, reservoirs. Techniques involve extreme value statistics, model hydrographs, routing, etc. Prerequisite: Civ Eng 3334 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5360  Water Resources And Wastewater Engineering (LEC 3.0)",
+        "description": "Application of engineering principles to the planning and design of multipurpose projects involving water resources development and wastewater collection/treatment/disposal/systems. Latest concepts in engineering analysis are applied to evaluation of alternative solutions. Prerequisites: Civ Eng 3333, 3335, 3615. (Co-listed with Env Eng 5360)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5442  Construction Planning and Scheduling Strategies (LEC 3.0)",
+        "description": "The goal of this course is to assist participants in gaining an understanding of schedule control techniques and the application of tools such as Primavera Software. Content areas to be addressed include: development of baseline schedules, progress monitoring and updating, recovery schedules, resource application and leveling. Prerequisite: Civ Eng or Arch Eng 4448. (Co-listed with Arch Eng 5442)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5445  Construction Methods (LEC 3.0)",
+        "description": "Introduction to construction planning, selection of equipment and familiarization with standard methods for horizontal and vertical construction. Application of network analysis and schedules to project control. Prerequisite: Civ Eng 4448 with a grade of \"C\" or better. (Co-listed with Arch Eng 5445)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5446  Management Of Construction Costs (LEC 3.0)",
+        "description": "Management of construction projects from inception to completion: estimates, role of network preplanning, project monitoring and control. Prerequisites: Civ Eng 4448 with a grade of \"C\" or better. (Co-listed with Arch Eng 5446)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5448  Green Engineering: Analysis of Constructed Facilities (LEC 3.0)",
+        "description": "Environmentally sound design and construction practices. Includes design issues, material selection and site issues that can reduce the impact on the environment caused by the construction process. LEED certification covered in depth. Prerequisites: Civ Eng 4448 or Arch Eng 4448; and Junior Standing. (Co-listed with Arch Eng 5448)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5449  Engineering and Construction Contract Specifications (LEC 3.0)",
+        "description": "Legal and business aspects of contracts and contracting procedure in the construction industry. Topics include formulation of contracts in common law, engineering services contracts, and construction project contract documents and contract administration issues. Prerequisite: Civ Eng 4448 with a grade of \"C\" or better. (Co-listed with Arch Eng 5449)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5451  Information Technology Applications in the Construction Industry (LEC 3.0)",
+        "description": "Study of IT in construction industry including building information modeling and mobile sensing. Topics will include: collaborative design, clash detection, level of development, BIM contracts, automated code checking, and finally, information systems specific functions such as estimating, scheduling and cost control, lean, and integrated project delivery. Prerequisites: Civ Eng 2451 or Civ Eng 4448."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5452  Pre-Project Planning and Feasibility Studies (LEC 3.0)",
+        "description": "Overview of the studies and tools needed to make go-ahead decisions for construction projects including assimilation of client needs, surveys of project area and infrastructure conditions, scope validation, team development, project planning and cost estimation, and financial feasibility. Prerequisites: Civ Eng 4448 or both Eng Mgt 3320 and Eng Mgt 1210."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5453  Logistics for Construction Industry (LEC 3.0)",
+        "description": "Overview of construction site layout, team organization, information flow, and complexities as related to: productivity improvement approaches, data gathering for analysis of construction operations, process innovation, and safety practices. Prerequisites: Civ Eng 4448 or Eng Mgt 3320."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5454  Construction Technology for High-Rise Buildings (LEC 3.0)",
+        "description": "Overview of latest construction practices and processes for high-rise buildings from foundation to roof including advanced methods, materials, equipment and systems used for the construction of high-rise buildings, as well as the associated principles of sustainable construction. Prerequisites: Civ Eng 4448 or Eng Mgt 3320."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5455  Construction Industry Best Practices (LEC 3.0)",
+        "description": "Overview of the best practices developed by the Construction Industry Institute (CII), and how they are implemented  by the leading owners and contractors in the construction industry. Guest lecturers include CII staff and visiting industry subject matter experts. Prerequisites: Civ Eng 4448 or Eng Mgt 3320."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5510  Geometric Design Of Highways (LAB 1.0 and LEC 2.0)",
+        "description": "Development and applications of concepts of geometric design for rural and urban highways. Design controls and criteria; elements of design, including sight distance, horizontal and vertical alignment; cross-section elements; highway types; intersection design elements; types of interchanges and interchange design elements; grade separations and clearance; development of visual elements. Prerequisite: Civ Eng 3500 with grade of \"C\" or better."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5513  Traffic Engineering (LEC 3.0)",
+        "description": "Introduction to multimodal transportation systems and the factors that influence the planning, design, control, operation and safety of the systems will be made. This course will also include the discussion of Intelligence Transportation Systems and how emerging technologies are changing transportation systems. Prerequisite: Civ Eng 3500 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5515  Advanced Traffic Operations and Capacity Analysis (LEC 3.0)",
+        "description": "This course will introduce students to advanced traffic operation and capacity analysis as applied to an urban highway network.  It will focus on the operations and management of freeway and arterials where a signalized intersection is one of the key elements affecting traffic flow operation and determining highway capacity. Prerequisite: Civ Eng 3500 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5605  Environmental Systems Modeling (LEC 3.0)",
+        "description": "Introductory course in modeling environmental systems. Course will focus on contaminant fate and transport in the environment. Models will be developed that will include physical, chemical and biological reactions and processes that impact this fate. Prerequisites: Env Eng/Civ Eng 2601, Env Eng/Civ Eng 2602 and Env Eng/ Civ Eng 3603; or Graduate standing. (Co-listed with Env Eng 5605)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5619  Environmental Engineering Design (LAB 1.0 and LEC 2.0)",
+        "description": "Functional design of water and wastewater facilities and other environmental cleanup systems. Prerequisite: Civ Eng 3615 or Env Eng 3615. (Co-listed with Env Eng 5619)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5630  Remediation of Contaminated Groundwater and Soil (LAB 1.0 and LEC 2.0)",
+        "description": "Course covers current in-situ and ex-situ remediation technologies. Current literature and case studies are utilized to provide the focus for class discussions and projects. Prerequisites: Civ Eng 3615, Geo Eng 5237 or Graduate Standing. (Co-listed with Env Eng 5630)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5635  Phytoremediation and Natural Treatment Systems: Science and Design (LEC 3.0)",
+        "description": "Students learn the scientific basics of chemical transport in soil and groundwater and learn fundamental plant physiology and processes. Students then learn how these processes are utilized in design of phytoremediation and natural treatment systems, including the most up to date literature and design guidance available. Prerequisites: Civ Eng 3615 or Env Eng 3615.(Co-listed with Env Eng 5635)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5640  Environmental Law And Regulations (LEC 3.0)",
+        "description": "This course provides comprehensive coverage of environmental laws and regulations dealing with air, water, wastewater, and other media. The primary focus is permitting, reporting, and compliance protocols. The course topics include U.S. and international legal systems and judicial processes, liability, enforcement, Clean Air Act, Clean Water Act (NPDES) permitting), Safe Drinking Water Act, OSGA, TSCA, RCRA, AND CERCLA. Case studies will be emphasized. (Co-listed with Env Eng 5640)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5642  Sustainability, Population, Energy, Water, and Materials (LEC 3.0)",
+        "description": "This course will examine the concepts regarding the continued advancement of humankind while maintaining our ecological niche on earth. Key topics include: population growth, poverty, and impacts of development; energy consumption, sources, storage, conservation and policy; water quality and quantity; materials and building; and policy implications. Prerequisite: Senior or graduate standing. (Co-listed with Env Eng 5642 and Arch Eng 5642)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5650  Public Health Engineering (LEC 3.0)",
+        "description": "A comprehensive course dealing with the environmental aspects of public health. Prerequisite: Civ Eng 2601 with a grade of \"C\" or better. (Co-listed with Env Eng 5650)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5660  Introduction To Air Pollution (LEC 3.0)",
+        "description": "Introduction to the field of air pollution dealing with sources, effects, federal legislation, transport and dispersion and principles of engineering control. Prerequisite: Civ Eng 3330; or graduate standing. (Co-listed with Env Eng 5660)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5662  Air Pollution Control Methods (LEC 3.0)",
+        "description": "Study of the design principles and application of the state-ofthe-art control techniques to gaseous and particulate emissions from fossil fuel combustion, industrial and transportation sources. Prerequisite: Civ Eng 3330; or graduate standing. (Co-listed with Env Eng 5662)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5665  Indoor Air Pollution (LEC 3.0)",
+        "description": "By developing a practical understanding of indoor air pollution sources, physics, chemistry and consequences, students will learn how radon, cigarette smoke, VOCs from furnishings, and so forth affect indoor air quality and apply engineering analyses to specify ventilation rates, choose furnishings and minimize occupant exposure to pollutants. Prerequisite: Civ Eng 2601 or Mech Eng 5571 or Graduate Status. (Co-listed with Env Eng 5665 and Arch Eng 5665)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5670  Solid Waste Management (LEC 3.0)",
+        "description": "A systematic study of the sources, amounts and characteristics of solid wastes and methods used for their collection, reclamation, and ultimate disposal. Prerequisite: Civ Eng 2601 with grade of \"C\" or better; or graduate standing. (Co-listed with Env Eng 5670)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5702  Geomatics (LEC 3.0)",
+        "description": "Horizontal and vertical geodetic datums and networks. Theory, calculations and applications of State Plane Coordinate Systems. Introduction to Geographic and Land Information Systems: hardware and software issues; data quality and accuracy; resource, environmental, cadastral and governmental applications; databases; GIS/LIS trends. Introduction to Global Positioning Systems (GPS): Project planning, data collection, data processing and network adjustment applications, Kinematic and RealTime GPS applications, hardware and software options and costs. Prerequisite: Civ Eng 2401 with grade of \"C\" or better."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5715  Intermediate Soil Mechanics (LEC 3.0)",
+        "description": "General principles of soil mechanics and their applications, including mineralogy, soil structure, flow through porous media, shear strength, slope stability and consolidation. Prerequisites: Civ Eng 3715 with grade of \"C\" or better."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5716  Geotechnical Earthquake Engineering (LEC 3.0)",
+        "description": "Geotechnical earthquake hazards and mitigations, damage to structures, plate tectonics, seismicity, wave propagation, characterization of ground motions, theory of vibrations (1-DOF), effect of local soil conditions on ground response, development of design ground motions, liquefaction, dynamic lateral earth pressures and slope stability/deformation. Prerequisites: Civ Eng 3715 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5729  Foundation Engineering II (LEC 3.0)",
+        "description": "Classical earth pressure theories. Analysis of shallow and deep foundations to include bearing capacity and settlement of footings, rafts, piles, and drilled piers. Analysis of stability and design of retaining walls and anchored bulkheads. Prerequisites: Civ Eng 4729 with a grade of \"C\" or better. (Co-listed with Arch Eng 5729)."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5744  Geosynthetics in Engineering (LEC 3.0)",
+        "description": "Geotechnical principles are applied to design of geosynthetic systems for foundation support, earth retention, drainage, and disposal of hazardous conventional wastes. Geosynthetic testing and identification. Emphasis is on design of geosynthetic earth reinforcement, roadway stabilization, filters, and waste containment systems. Prerequisite: Civ Eng 3715 with grade of \"C\" or better."
+    },
+    {
+        "subject_id": 26,
+        "department_id": 12,
+        "subject_code": "CIV ENG",
+        "subject_name": "Civil Engineering",
+        "course": "CIV ENG 5750  Transportation Applications of Geophysics (LAB 1.0 and LEC 2.0)",
+        "description": "Overview of geophysical and non-destructive test methods that are commonly used to investigate transportation structures and their foundations. Emphasis is placed on bridge system substructure, bridge system superstructure, pavement, roadway subsidence, subsurface characterization and vibration measurements. Prerequisite: Junior level standing or higher. (Co-listed with Geo Eng 5761 and Geophys 5761)."
+    }
+]

@@ -1,0 +1,338 @@
+[
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 2001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 2002  Cooperative Engineering Training (IND 1.0)",
+        "description": "On-the-job experience gained through cooperative education with industry, with credit arranged through departmental cooperative advisor. Grade received depends on quality of reports submitted and work supervisor's evaluation."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 2003  Engineering Communications and Computations (LAB 1.0 and LEC 2.0)",
+        "description": "Programming and software tools (including computer aided design and drafting, computer-based mathematics, word processing, spreadsheet, and presentation software) with application to and emphasis on written, graphical, and oral communication in professional civil and architectural engineering practice. (Co-listed with Civ Eng 2003)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 2103  Architectural Materials And Methods Of Construction (LAB 1.0 and LEC 2.0)",
+        "description": "A study of the origin and properties of construction materials, methods of construction, and installation. Materials include mineral based, wood, steel, concrete, masonry, asphalt, and gypsum as components of architectural engineering. Prerequisites: Chem 1310, Chem 1319 and Sophomore standing."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 3000  Special Problems (IND 1.0-6.0)",
+        "description": "(Variable) Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 3001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 3201  Structural Analysis I (LAB 1.0 and LEC 2.0)",
+        "description": "Loads on Structures. Analysis of statically determinate and indeterminate beams, frames and trusses. Influence lines and moving loads. Computation of deflections. Development and use of theorems of displacement methods including slope-deflection and moment distribution to analyze statically indeterminate structures. Computer solutions. Prerequisites: Civ Eng 2200, Civ Eng 2210 each with a grade of \"C\" or better. (Co-listed with Civ Eng 3201)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 3210  Structural Design in Metals (LAB 1.0 and LEC 2.0)",
+        "description": "The analysis and design of structural elements and connections for buildings, bridges and specialized structures utilizing structural metals. Both elastic and plastic designs are considered. Prerequisite: Arch Eng 3201 with grade of \"C\" or better. (Co-listed with Cv Eng 3210)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 3220  Reinforced Concrete Design (LAB 1.0 and LEC 2.0)",
+        "description": "The analysis and design of reinforced concrete beams, slabs, columns, retaining walls and footings by the elastic and ultimate strength methods including and introduction to the design of prestressed concrete. Introduction to use of computers as a design aid tool. Prerequisite: Arch Eng 3201 with grade of \"C\" or better. (Co-listed with Civ Eng 3220)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 3804  Architectural Design II (LAB 2.0 and LEC 1.0)",
+        "description": "A continuation of Architectural Engineering Design I with an increased focus on problems and models associated with detail development, principles of acoustic design and building construction as a form determinant. Prerequisite: Art 3203."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 4010  Senior Seminar: Engineering In A Global Society (RSD 1.0)",
+        "description": "Discussion of contemporary issues: public safety, health, and welfare; the principles of sustainable development; lifelong learning; impact of engineering solutions in a global and societal and political context; relationships with owners, contractors, and the public; public service; the Code of Ethics; and the Missouri licensing Statutes and Board Rules. Prerequisite: Senior standing. (Co-listed with Civ Eng and Env Eng 4010)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 4097  Senior Design Project (LEC 3.0)",
+        "description": "Open-ended building design project involving one or more areas of  engineering. Planning design projects, philosophy of design, and the application of engineering principles to design problems. Prerequisite: Arch Eng 4448 or Civ Eng 4448."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six (6) credit hours allowed for graduation credit. Subject and credit to be arranged by instructor."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 4448  Fundamentals Of Construction Engineering & Management (LEC 3.0)",
+        "description": "A study of the concepts and techniques used in large construction projects for the preparation of engineer service contracts, detailed and conceptual cost estimating, and construction scheduling analysis. Prerequisite: Junior Standing, Math 1215, and Physics 1135. (Co-listed with Civ Eng 4448)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 4800  Principles of HVAC I (LEC 3.0)",
+        "description": "Heating, ventilating, and air conditioning principles related to the heat loss and heat gain calculations for commercial buildings. Calculations will be performed manually and using current computer software. Analysis and specification of the building envelope components, with an emphasis on improving energy efficiency by reducing heating and cooling loads Prerequisites: Mech Eng 2527 and preceded or accompanied by Civ Eng 3330."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 4850  Building Electrical Systems (LEC 3.0)",
+        "description": "The design of interior and exterior building electrical systems, including power loads, branch circuits and switching. Work includes study of applicable NFPA 70 (NEC) and related building codes. Prerequisites: Math 3304 and Physics 2135."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5001  Special Topics (LAB 1.0 and LEC 2.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5181  Building Materials Physics (LEC 3.0)",
+        "description": "Examines the effects of heat, air and moisture on the building envelop through engineering methods with examples and exercises. Prerequisite: Civ Eng 3330 or Mech Eng 2527. (Co-listed with Civ Eng 5181)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5203  Applied Mechanics In Structural Engineering (LEC 3.0)",
+        "description": "A study of basic relationships involved in the mechanics of structures. Topic include basic elasticity, failure criteria, fundamental theories of bending and buckling of plates and cylindrical shells for practical application in analysis and design of bridge building floors and shell roofs. Prerequisite: Civ Eng 3201 with grade of \"C\" or better. (Co-listed with Civ Eng 5203)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5205  Structural Analysis II (LEC 3.0)",
+        "description": "Classical displacement and force methods applied to structures of advanced design. Analysis of indeterminate structures such as continuous beams, arches, cables, and two and three dimensional frames, and trusses. Analysis of indeterminate structures involving temperature and support settlements effects. Prerequisites: Civ Eng 3201 or Arch Eng 3201. (Co-listed with Civ Eng 5205)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5206  Low-Rise Building Analysis and Design (LEC 3.0)",
+        "description": "Characterization of various design loads, load combinations, general methodology of structural designs against lateral loads, code-oriented design procedures, distribution of lateral loads in structural systems, application of the International Building Code in design of loadbearing wall systems, building frame system and moment-resisting frame systems.  Prerequisite: Preceded and/or accompanied by Civ -Arch Eng 3210 or Civ-Arch Eng 3220. (Co-listed with Civ Eng 5206)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5207  Computer Methods of Structural Analysis (LEC 3.0)",
+        "description": "Force and displacement matrix methods and computer methods applied to structural analysis. Analysis of indeterminate structures such as continuous beams, and two and three dimensional frames and trusses. Analysis of indeterminate structures involving temperature and support settlements effects using computer methods formulation.  Prerequisite: Civ Eng 3201 with grade of \"C\" or better. (Co-listed with Civ Eng 5207)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5208  Structural Dynamics (LEC 3.0)",
+        "description": "This course deals with fundamental concepts and structural responses under dynamic loads. Hand calculations and computer methods are developed. Specific topics include resonance, beating phenomenon, equation of motion, dynamic properties, frequencies and mode shapes, and modal and Ritz analyses. Prerequisites: Mech Eng 2350 or equivalent; Civ/Arch Eng 3201 or equivalent. (Co-listed with Civ Eng 5208)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5210  Advanced Steel Structures Design (LEC 3.0)",
+        "description": "The design of structural steel systems into a final integrated structure. Plate girders, composite systems, stability, connections, rigid frames, single and multistory buildings, and similar type problems of interest to the student. Use of the computer as a tool aid in the design will be emphasized. Prerequisite: Arch Eng 3210 with a grade of \"C\" or better. (Co-listed with Civ Eng 5210)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5220  Advanced Concrete Structures Design (LEC 3.0)",
+        "description": "The design of structural concrete systems into a final integrated structure. Two-way slabs, long columns, connections, and discontinuity regions, deflections and cracking of beams and slabs, ACI design criteria, and similar type problems of interest to the student. Use of the computer as a tool to aid in the design will be emphasized. Prerequisite: Arch Eng 3220 with a grade of \"C\" or better. (Co-listed with Civ Eng 5220)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5222  Prestressed Concrete Design (LEC 3.0)",
+        "description": "Behavior of steel and concrete under sustained load. Analysis and design of pre-tensioned and post-tensioned reinforced concrete members and the combining of such members into an integral structure. Prerequisite: Arch Eng 3220 with a grade of \"C\" or better. (Co-listed with Civ Eng 5222)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5231  Infrastructure Strengthening with Composites (LEC 3.0)",
+        "description": "The course presents composite materials and includes principles of reinforcing and strengthening for flexure, shear, and ductility enhancement in buildings and bridges. It covers the design of existing members strengthened with externally bonded laminates and  near surface mounted composites. Case studies are discussed. Prerequisites: Arch Eng / Civ Eng 3201, Arch Eng / Civ Eng 3220. (Co-listed with Civ Eng 5231)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5260  Analysis And Design Of Wood Structures (LEC 3.0)",
+        "description": "A critical review of theory and practice in design of modern wood structures. Effect of plant origin and physical structure of wood on its mechanical strength; fasteners and their significance in design; development of design criteria and their application to plane and three dimensional structures. Prerequisite: Arch Eng 3201 with a grade of \"C\" or better. (Co-listed with Civ Eng 5260)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5270  Structural Masonry Design (LEC 3.0)",
+        "description": "Review of the theory and practice of analyzing low-rise masonry structures, materials and assembly types, constructability considerations, structural masonry components, repair and strengthening, and model code requirements to ensure adequate load resisting buildings. Prerequisites: Arch Eng 3201 or Civ Eng 3201. (Co-listed with Civ Eng 5270)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5442  Construction Planning and Scheduling Strategies (LEC 3.0)",
+        "description": "The goal of this course is to assist participants in gaining an understanding of schedule control techniques and the application of tools such as Primavera Software. Content areas to be addressed include: development of baseline schedules, progress monitoring and updating, recovery schedules, resource application and leveling. Prerequisite: Civ Eng or Arch Eng 4448. (Co-listed with Civ Eng 5442)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5445  Construction Methods (LEC 3.0)",
+        "description": "Introduction to construction planning selection of equipment and familiarization with standard methods for horizontal and vertical construction. Application of network analysis and schedules to project control. Prerequisite: Arch Eng 4448 with a grade of \"C\" or better. (Co-listed with Civ Eng 5445)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5446  Management Of Construction Costs (LEC 3.0)",
+        "description": "Management of construction projects from inception to completion: estimates, role of network preplanning, project monitoring and control. Prerequisite: Arch Eng 4448 with a grade of \"C\" or better. (Co-listed with Civ Eng 5446)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5448  Green Engineering: Analysis of Constructed Facilities (LEC 3.0)",
+        "description": "Environmentally sound design and construction practices. Includes design issues, material selection and site issues that can reduce the impact on the environment caused by the construction process. LEED certification covered in depth. Prerequisites: Civ Eng 4448 or Arch Eng 4448; and Junior Standing. (Co-listed with Civ Eng 5448)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5449  Engineering and Construction Contract Specifications (LEC 3.0)",
+        "description": "Legal and business aspects of contracts and contracting procedure in the construction industry. Topics include formulation of contracts in common law, engineering services contracts, and construction project contract documents and contract administration issues.  Prerequisite: Arch Eng 4448 with a grade of \"C\" or better. (Co-listed with Civ Eng 5449)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5642  Sustainability, Population, Energy, Water, and Materials (LEC 3.0)",
+        "description": "This course will examine the concepts regarding the continued advancement of humankind while maintaining our ecological niche on earth. Key topics include: population growth, poverty, and impacts of development; energy consumption, sources, storage, conservation and policy; water quality and quantity; materials and building; and policy implications. Prerequisite: Senior or graduate standing. (Co-listed with Env Eng 5642 and Civ Eng 5642)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5665  Indoor Air Pollution (LEC 3.0)",
+        "description": "By developing a practical understanding of indoor air pollution sources, physics, chemistry and consequences, students will learn how radon, cigarette smoke, VOCs from furnishings, and so forth affect indoor air quality and apply engineering analyses to specify ventilation rates, choose furnishings and minimize occupant exposure to pollutants. Prerequisite: Civ Eng 2601 or Mech Eng 5571 or Graduate Status. (Co-listed with Civ Eng 5665 and Env Eng 5665)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5729  Foundation Engineering II (LEC 3.0)",
+        "description": "Classical earth pressure theories. Analysis of shallow and deep foundations to include bearing capacity and settlement of footings, rafts, piles, and drilled piers. Analysis of stability and design of retaining walls and anchored bulkheads. Prerequisites: Civ Eng 4729 with a grade of \"C\" or better. (Co-listed with Civ Eng 5729)."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5820  Building Lighting Systems (LEC 3.0)",
+        "description": "Design and specifications for interior and exterior building illumination systems. Work includes study of applicable NFPA 70 (NEC) and related building codes.  Prerequisites: Senior standing and Physics 2135."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5850  Renewable Energy -PV Fundamentals (LEC 3.0)",
+        "description": "Applying the fundamentals of photovoltaic will be covered, including identifying key components and functions, comparing various types incentives, selecting and sizing various photovoltaic systems and performing a cost benefits analysis. Prerequisites: Mech Eng 2527."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5851  Renewable Energy Storage Systems for Buildings (LEC 3.0)",
+        "description": "This course covers the fundamentals of energy storage, including identifying key components and functions, comparing various incentives, selecting and sizing various photovoltaic systems, and performing a cost-benefit analysis. Prerequisites: Mech Eng 2527 or Equivalent to Thermal Analysis."
+    },
+    {
+        "subject_id": 27,
+        "department_id": 12,
+        "subject_code": "ARCH ENG",
+        "subject_name": "Architectural Engineering",
+        "course": "ARCH ENG 5860  Passive Solar Engineering (LEC 3.0)",
+        "description": "This course will introduce topics in passive solar analysis and design. It will deal with various types of passive space heating and cooling systems. Both instantaneous and long-term performance will be analyzed. Economics and construction topics will be discussed. Prerequisites: Mech Eng 2527."
+    }
+]

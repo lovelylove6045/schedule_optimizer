@@ -1,0 +1,434 @@
+[
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 1000  Special Problems (IND 1.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Prerequisite: Consent of instructor required."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 1001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 1100  Principles Of Microeconomics (LEC 3.0)",
+        "description": "An examination of how resources and products are priced and how income is distributed within various types of market structures. ECON 1100 - MOTR ECON 102: Introduction to Microeconomics"
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 1200  Principles Of Macroeconomics (LEC 3.0)",
+        "description": "A study of alternative strategies for managing the U.S. economy within a global environment, to attain the goals of full employment, stability and growth. ECON 1200 - MOTR ECON 101: Introduction to Macroeconomics"
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 1300  Business And Economic Statistics I (LEC 3.0)",
+        "description": "This is an introductory course in business and economic statistics. Our main objective is to familiarize the student with elementary statistical concepts within the context of numerous applications in Business and Economics. We will highlight the primary use of statistics, that is, to glean information from an available sample regarding the underlying population. Prerequisite: Math 1120 or Math 1140 with a grade of \"C\" or better.  (Co-listed with Stat 1111)."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 2000  Special Problems (IND 1.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Prerequisite: Consent of instructor required."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 2001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 2100  Intermediate Microeconomic Theory (LEC 3.0)",
+        "description": "Analysis of demand and supply in various market environments using the theories of production, resource pricing, and distribution of income. Emphasis on efficiency attainment and the rationale for market intervention. Prerequisites: Econ 1100 and 1200."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 2114  Managerial Economics (LEC 3.0)",
+        "description": "Focuses on micro- and macroeconomic contributions to managerial decision-making, business analysis and strategy. The roles of information, economic incentives, efficient markets, profits and decision-making under risk and uncertainty will be explored in both domestic and global settings. Prerequisites: Econ 1100 & 1200."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 2200  Intermediate Macroeconomic Theory (LEC 3.0)",
+        "description": "Examines the theoretical framework of national income and product generation, and the use of this theory to construct approaches such as, monetary and fiscal policy to attain economic, political and social goals. Prerequisites: Econ 1100 and 1200."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 3001  Special Topics (IND 0.0 and LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 3300  Introduction to Econometrics (LEC 3.0)",
+        "description": "This course covers applied perspectives on basic concepts of econometrics using regression methods, including simple regression, multiple regression, and generalized least squares. In addition, the course introduces students to the practice of econometric analysis on real-world applications using the programming languages R and STATA. Prerequisite: Econ 1100 and Econ 1200, and one of the following: Stat 3111, Stat 3113, Stat 3115, Stat 3117, or Stat 5346."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 3333  Computational Economics (LEC 3.0)",
+        "description": "This course introduces concepts of computational economics using machine learning and artificial intelligence and the practice of analysis using applications related to microeconomics, macroeconomics, and econometrics. The course teaches data and text mining, deep learning, and causal machine learning using Python programming to extract economic insights. Prerequisite: Econ 1100 and Econ 1200, and one of the following: Stat 3111, Stat 3113, Stat 3115, Stat 3117, or Stat 5346, or instructor approval."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 3512  Mining Industry Economics (LEC 3.0)",
+        "description": "Importance of the mineral industry to national economy, uses, distribution, and trade of economic minerals, time value of money, mineral taxation, economic evaluation utilizing depreciation, depletion, and discounted cashflow concepts, social and economical significance of mineral resources. Prerequisite: Econ 1100 or 1200. (Co-listed with Min Eng 3512)."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 3810  Law And Economics (LEC 3.0)",
+        "description": "Study of application of economics analysis to legal concepts, issues and reasoning. Emphasizes the use of microeconomic theory to examine questions of efficacy and efficiency of decisions emanating from three major areas of common law -property rights, contracts and torts. Prerequisite: Econ 1100 or equivalent."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 3880  Introduction to Sports Economics (LEC 3.0)",
+        "description": "The course uses economics to analyze the business of sports. The course is designed for students with both an introductory or broader economics background, but who have not studied the economics of sports. Topics include labor relations, stadium financing, league structure, competitive balance, amateurism, sports gambling and in-game strategy. Prerequisite: Econ 1100 or Econ 1200."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 4001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 4010  Seminar (RSD 0.0-6.0)",
+        "description": "Discussion of current topics."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 4085  Internship (IND 0.0-6.0)",
+        "description": "Internship will involve students applying critical thinking skills and discipline-specific knowledge in a work setting based on a project designed by the advisor and employee. Activities will vary depending on the student's background and the setting. Prerequisite: Senior status; must have completed 24 hours in major."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 4130  Network Economy (LEC 3.0)",
+        "description": "Emerging Network/Internet economy, using traditional economic tools. Topics: production and reproduction cost of information, information as an \"experience good, \" versions of products, switching cost, lock-in effects, market adoption dynamics, first-mover advantage, intellectual property rights. Prerequisite: Econ 1100 or Econ 1200."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 4300  Research Methods and Applications in Economics and Business (LAB 1.0 and LEC 2.0)",
+        "description": "Introduction of basic econometric and statistical techniques with empirical illustrations that reference real economic and business issues. Students will be introduced to modern statistical software packages (STATA, R), but also work with productivity software (Excel, PowerPoint) to perform quantitative analysis and present their results. Prerequisites: Econ 1100 or Econ 1200; Math 1140 or higher; Stat 1115 or Stat 3111 or Stat 3113 or Stat 3115 or Stat 3117 or Stat 5643."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 4310  Mathematical Economics (LEC 3.0)",
+        "description": "Marginal analysis, calculus, and linear algebraic systems are applied in selected advanced topics in economics such as price theory, general equilibrium theory, input-output analysis, activity analysis, and game theory. Prerequisite: Econ 2100 and 2200."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 4350  Statistical Models in Actuarial Science (LEC 3.0)",
+        "description": "This course covers the statistical foundation of actuarial models and their applications. Topics include survival and severity models, Kaplan-Meier and Nelson-Aalen estimators, aggregate and credibility models for insurance losses, discrete time Markov chains, ruin theory, and simulation. Prerequisite: Stat 5643 and either Stat 5644 or a 3000-level Stat course. (Co-listed with Stat 5755)."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 4383  Financial Economics (LEC 3.0)",
+        "description": "The course introduces the construction of financial modeling. The first part of the course develops the theoretical economic foundation of financial models including security valuation, interest-rate, and exchange-rate models, while the second part covers applications using these models to derive corporate financial strategies to solve business problems. Prerequisite: Econ 1100 and Econ 1200."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 4410  Public Finance (LEC 3.0)",
+        "description": "Study of government expenditures and sources of revenue. Particular emphasis is given to governmental decision making--how these decisions affect the economy and the behavior of individuals, firms, and families within the economy; and how these decisions may be evaluated. Prerequisite: Econ 2100."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 4430  Cost-Benefit Analysis (LEC 3.0)",
+        "description": "Investigates the rationale for cost-benefit analysis within a free enterprise setting. Discussion of market efficiency and failure; determination of social costs and benefits; applications of cost-benefit analysis; and, problems remaining in theory and practice. Prerequisite: Econ 1100."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 4440  Environmental And Natural Resource Economics (LEC 3.0)",
+        "description": "Optimum use of replenishable and non-replenishable resources, public goods and common resources, externalities, private vs. public costs, and quality of the environment; emphasis on public policy related to environmental and natural resource economics. Prerequisite: Econ 1100. (Co-listed with Min Eng 4523)."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 4512  Mine Management (LEC 3.0)",
+        "description": "Theory and practice of mine management, including basic managerial functions, management theories, communication skills, motivation, leadership, organization, maintenance management, managerial decision making, cost control, labor relations, government relations, ethics and risks management with emphasis in presentation skills. Prerequisite: Completion of 50 credits toward Mining Engineering degree. (Co-listed with MIN ENG 4512)."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 4538  Advanced Econometrics (LEC 3.0)",
+        "description": "This course covers advanced topics in econometrics, including causal inference (such as instrument variable estimation, two-stage least squares, difference-in-difference, and regression discontinuity design), discrete choice models, and time series models. The statistical programming language of R is used, while STATA is introduced as a complementary tool. Prerequisite: Econ 1100 and Econ 1200 and Econ 3300 and Stat 3111."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 4540  Energy Economics (LEC 3.0)",
+        "description": "For students interested in both economic and engineering issues of energy policy. Provides an assessment of economics and technology issues related to traditional and renewable energy resources. Presented in a framework that allows for analysis of the economic trade-offs between energy sources and the technologies associated with their use and extraction. Prerequisite: Econ 1100 or Econ 1200. (Co-listed with Min Eng 4524)."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 4641  Foundations of Sustainability (LEC 3.0)",
+        "description": "This interdisciplinary course is designed as an introduction to sustainability in commerce. It examines the concept of environmental, social, and economic issues in an organizational context. Principles, processes, and practices of sustainability will be explored."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 4642  Introduction to Global Eco- and Social-preneurship and Innovation (LEC 3.0)",
+        "description": "This interdisciplinary course applies an entrepreneurial mindset to the environmental and social opportunities and challenges facing the global community. Topics are examined from multiple perspectives: nonprofit, hybrid, and for-profit organizations."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 4643  Ethical Problems in a Global Environment (LEC 3.0)",
+        "description": "Focuses on the international dimension of ethics including corporate responsibility from economic, social, and environmental perspectives. It addresses the ethical challenges of decision making, stakeholder engagement, and governance at micro- (personal), meso- (org), and macro- (system) levels."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 4710  International Trade (LEC 3.0)",
+        "description": "Analysis of gains from trade; the effects of factor mobility; effects of trade restrictions on trade flow and income distribution; arguments for restricting trade; and effects of trade on economic development, employment and human capital development. Prerequisite: Econ 2100."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 4720  International Finance (LEC 3.0)",
+        "description": "Examination of the international monetary system, the Balance of Payments, the foreign exchange market, futures and options markets; foreign exchange and other risk management for firms, financing from a global perspective and direct foreign investment. Prerequisite: Econ 2200."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 4820  Labor Economics (LEC 3.0)",
+        "description": "Labor as a factor of production, collective bargaining, trade unionism, labor legislation, from the viewpoint of public policy. Prerequisite: Econ 2100 or Econ 2200."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 5001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 5010  Seminar (RSD 0.0-6.0)",
+        "description": "Discussion of current topics."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 5310  Advanced Mathematical Economics (LEC 3.0)",
+        "description": "Marginal analysis, calculus, and linear algebraic systems are applied in selected advanced topics in economics such as price theory, general equilibrium theory, input-output analysis, activity analysis, and game theory. This course is an advanced version of Econ 4310, and will include additional research and project assignments. Credit cannot be obtained for both Econ 4310 and Econ 5310. Prerequisites: Econ 2100, 2200 and Math 1208, Math 3103."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 5337  Financial Mathematics (LEC 3.0)",
+        "description": "The course objective is to provide an understanding of the fundamental concepts of financial mathematics. Topics include pricing, assets-liability management, capital budgeting, valuing cash flow, bonds, futures, swaps, options. Preparation for the financial mathematics actuarial exam will be provided. Prerequisites: Math 1215, Econ 1100 or Econ 1200, and one of the following: Stat 3111, Stat 3113, Stat 3115, Stat 3117 or Stat 5643. (Co-listed with Math 5737)."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 5338  Innovation and Value Generation (LEC 3.0)",
+        "description": "This course introduces a structured framework for understanding and executing the innovation process, from ideation to implementation. It emphasizes a systematic approach to identifying real-world needs, crafting solutions, and transforming them into impactful outcomes, providing strategies for identifying customer needs and determining innovative solutions. (Co-listed with Chem Eng 5338, Min Eng 5338, and Nuc Eng 5338)."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 5360  Data Driven Strategic Insights (LEC 3.0)",
+        "description": "This course designates a corporate executive to teach identifying the appropriate data analytics for corporate decision-making using modeling frameworks such as regression analysis, forecasting, Monte Carlo simulation, and optimization. The course utilizes Python and cloud-based software platforms to work with large databases in financial contexts. Prerequisites: Econ 1100, Econ 1200, and Econ 3300, or instructor approval. (Co-listed with Nuc Eng 5360)."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 5380  Data Intelligence using Case Studies (LEC 3.0)",
+        "description": "This course designates a corporate executive to teach students the processes of data collecting, analyzing, visualization, and statistical tests with case studies from various industries. Students will have the opportunity to do group projects showcasing their ability to apply data intelligence in real-world scenarios using Python programming. Prerequisite: Econ 1100 and Econ 1200, and one of the following: Stat 3111, Stat 3113, Stat 3115, Stat 3117, or Stat 5346, with programming knowledge, or instructor approval."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 5430  Advanced Cost-Benefit Analysis (LEC 3.0)",
+        "description": "Investigates the rationale for cost-benefit analysis within a free enterprise setting. Discussion of market efficiency and failure; determination of social costs and benefits; applications of cost-benefit analysis; and, problems remaining in theory and practice. This course is an advanced version of Econ 4430, and will include additional research and project assignments. Credit cannot be obtained for both Econ 4430 and Econ 5430. Prerequisite: Econ 2100."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 5532  Advanced Mining Economics (LEC 3.0)",
+        "description": "Mining industry & national economics. Social & economics significance of mined commodities. Marketing of mined commodities. Innovation approaches to mine financing, project loans, and leasing. Mining feasibility studies, government influence & policy, mining industry foreign investment, investment strategies, mining taxation, cost predictions. Case Studies. (Co-listed with MIN ENG 5532)."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 5543  Innovation Economics and Finance (LEC 3.0)",
+        "description": "This course teaches rapid project development and financing, from an idea to a revenue-generating asset. It covers process ideation, technology/vendor selection, financial modeling, contract structuring, non-recourse financing, and project execution, such as engineering, procurement, construction, and start-up, resulting in a cash-flowing, tradeable annuity. (Co-listed with Chem Eng 5543, Min Eng 5543, and Nuc Eng 5543)."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 5644  Creativity, Innovation, and Sustainability (LEC 3.0)",
+        "description": "This interdisciplinary course examines the use of innovation as a competitive technological strategy with a sustainability perspective. It explores ways in which individuals, groups, and organizations can become more creative and how leadership and a culture of change can be implemented."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 5648  Innovation to Market (LEC 3.0)",
+        "description": "This course provides the tools needed to transform innovative solutions into market-ready products and services, focusing on business model development, value generation, and product management. Students will learn to identify product-market fit, maximize value to customers and users, and launch successful innovations. Prerequisites: Econ 5338 and Econ 5543. (Co-listed with Chem Eng 5648, Min Eng 5648, and Nuc Eng 5648)."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 5658  Building Sustainability and Environmental, Social and Governance (ESG) (LEC 3.0)",
+        "description": "Across the globe, businesses are increasingly recognizing the importance of sustainability and ESG principles. This course equips students with the knowledge, tool set, and skills needed to understand, implement, and integrate sustainability and ESG practices in various organizational contexts. Prerequisites: Junior or above standing. (Co-listed with Chem Eng 5658, Min Eng 5658, and Nuc Eng 5658)."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 5710  Advanced International Trade (LEC 3.0)",
+        "description": "Analysis of gains from trade; the effects of factor mobility; effects of trade restrictions on trade flow and income distribution; arguments for restricting trade; and effects of trade on economic development, employment and human capital development. This course is an advanced version of Econ 4710+D1194, and will include additional research and project assignments. Credit cannot be obtained for both Econ 4710 and Econ 5710. Prerequisite: Econ 2100."
+    },
+    {
+        "subject_id": 49,
+        "department_id": 21,
+        "subject_code": "ECON",
+        "subject_name": "Economics",
+        "course": "ECON 5720  Advanced International Finance (LEC 3.0)",
+        "description": "Examination of the international monetary system, the Balance of Payments, the foreign exchange market, futures and options markets; foreign exchange and other risk management for firms, financing from a global perspective and direct foreign investment. This course is an advanced version of Econ 4720, and will include additional research and project assignments. Credit cannot be obtained for both Econ 4720 and Econ 5720. Prerequisite: Econ 2200."
+    }
+]

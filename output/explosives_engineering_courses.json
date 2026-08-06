@@ -1,0 +1,122 @@
+[
+    {
+        "subject_id": 42,
+        "department_id": 18,
+        "subject_code": "EXP ENG",
+        "subject_name": "Explosives Engineering",
+        "course": "EXP ENG 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six credit hours allowed for graduation credit. Subject and credit to be arranged with the instructor."
+    },
+    {
+        "subject_id": 42,
+        "department_id": 18,
+        "subject_code": "EXP ENG",
+        "subject_name": "Explosives Engineering",
+        "course": "EXP ENG 5000  Special Problems (IND 1.0-3.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 42,
+        "department_id": 18,
+        "subject_code": "EXP ENG",
+        "subject_name": "Explosives Engineering",
+        "course": "EXP ENG 5001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 42,
+        "department_id": 18,
+        "subject_code": "EXP ENG",
+        "subject_name": "Explosives Engineering",
+        "course": "EXP ENG 5112  Explosives Handling and Safety (LEC 3.0)",
+        "description": "Basic handling & safety for explosives, explosive devices and ordnance related to laboratory handling, testing, manufacturing & storage, for both civil and defense applications. Classroom instruction only. Prerequisite: Junior Standing or above."
+    },
+    {
+        "subject_id": 42,
+        "department_id": 18,
+        "subject_code": "EXP ENG",
+        "subject_name": "Explosives Engineering",
+        "course": "EXP ENG 5512  Commercial Pyrotechnics Operations (LAB 1.0 and LEC 2.0)",
+        "description": "Provide participants with training preparing for Missouri Licensed Display Operator (Outdoor) License and advanced lead pyrotechnic operator training. Class work will be complemented by practical training in laboratory sessions, culminating in a full pyrotechnic show, from start to finish. Prerequisites: Both Chem 1310 and Chem 1319 or their equivalent; US Citizen or permanent resident, Successful background check, resident enrollment at Missouri S&T."
+    },
+    {
+        "subject_id": 42,
+        "department_id": 18,
+        "subject_code": "EXP ENG",
+        "subject_name": "Explosives Engineering",
+        "course": "EXP ENG 5513  Stage Pyrotechnics and Special Effects (LAB 2.0 and LEC 1.0)",
+        "description": "Use of energetic materials in close proximity to audiences. Provide participants with training preparing for Missouri Pyrotechnics Display Operators License. Covers: close proximity indoor and outdoor pyrotechnics and special effects. Working with stage crews and talent, safety and permitting. Prerequisites: Both Chem 1310 and Chem 1319 or their equivalent; US Citizen or permanent resident, Successful background check, resident enrollment at Missouri S&T."
+    },
+    {
+        "subject_id": 42,
+        "department_id": 18,
+        "subject_code": "EXP ENG",
+        "subject_name": "Explosives Engineering",
+        "course": "EXP ENG 5514  Display Fireworks Manufacturing (LAB 2.0 and LEC 1.0)",
+        "description": "Theory and practice of manufacturing display fireworks. Focusing on safety, chemical interaction, color development, basic theory, state and federal law. The lab will include hands on building of ball and canister shells and other pyrotechnic effects. Prerequisites: Chem 1310, Chem 1319, Chem 1100; one of Econ 1100, Econ 1200, Eng Mgt 1210; Successful background check."
+    },
+    {
+        "subject_id": 42,
+        "department_id": 18,
+        "subject_code": "EXP ENG",
+        "subject_name": "Explosives Engineering",
+        "course": "EXP ENG 5555  Computer Fired Pyrotechnic Show Design and Firing System Operation (LAB 2.0 and LEC 1.0)",
+        "description": "Students will learn to use music editing, electronic firing system operation and Fire One pyrotechnic choreography and simulation software to design their own pyromusical show programs. Creation of a musical sound track, selecting the fireworks and choreographing to the musical score. Create, setup, diagnose and fire a pyrotechnic show. Prerequisites: Exp Eng 5512 or Exp Eng 5513 and successful background check."
+    },
+    {
+        "subject_id": 42,
+        "department_id": 18,
+        "subject_code": "EXP ENG",
+        "subject_name": "Explosives Engineering",
+        "course": "EXP ENG 5612  Principles of Explosives Engineering (LAB 1.0 and LEC 2.0)",
+        "description": "Theory and application of explosives in the mining industry; explosives, initiating systems, characteristics of explosive reactions and rock breakage, fundamentals of blast design, drilling and blasting, regulatory and safety considerations. Prerequisites: Min Eng 1912; successful background check. (Co-listed with Min Eng 5612)."
+    },
+    {
+        "subject_id": 42,
+        "department_id": 18,
+        "subject_code": "EXP ENG",
+        "subject_name": "Explosives Engineering",
+        "course": "EXP ENG 5622  Blasting Design And Technology (LAB 1.0 and LEC 2.0)",
+        "description": "Advanced theory and application of explosives in excavation; detailed underground blast design; specialized blasting including blast casting, construction and pre-splitting. Introduction to blasting research. Examination of field applications. Prerequisites: Exp Eng 5612 or Min Eng 5612. Student must be at least 21 years of age. Successful background check. Consent of instructor."
+    },
+    {
+        "subject_id": 42,
+        "department_id": 18,
+        "subject_code": "EXP ENG",
+        "subject_name": "Explosives Engineering",
+        "course": "EXP ENG 5711  Explosives in Industry (LEC 3.0)",
+        "description": "Overview of how explosives are applied in various industrial settings. Focus is placed on the general application, identification, and necessity of explosives in industry. Topics include explosive use in surface and underground mining, road development, construction, utility placement, demolition, oil, gas, and underwater."
+    },
+    {
+        "subject_id": 42,
+        "department_id": 18,
+        "subject_code": "EXP ENG",
+        "subject_name": "Explosives Engineering",
+        "course": "EXP ENG 5713  Demolition of Buildings and Structures (LAB 1.0 and LEC 2.0)",
+        "description": "Provide participants with basics and solid grounding in the equipment, techniques and processes required for the demolition and remediation of mine plant and processing equipment sites and non-mining structures such as buildings, factories, bridges, etc. Field trip required. Prerequisites: Preceded or accompanied by Civ Eng 2200 or Mech Eng 2340; US citizen or permanent resident; Successful background check."
+    },
+    {
+        "subject_id": 42,
+        "department_id": 18,
+        "subject_code": "EXP ENG",
+        "subject_name": "Explosives Engineering",
+        "course": "EXP ENG 5721  Specialty Uses of Energetic Materials (LEC 3.0)",
+        "description": "Overview of special, less common uses of energetic materials and how they can be applied as a functional tool. Topics include the use of energetics in aerospace, explosive ordnance, oil field development, welding, pyrotechnics, theatrics, and cinematic special effects."
+    },
+    {
+        "subject_id": 42,
+        "department_id": 18,
+        "subject_code": "EXP ENG",
+        "subject_name": "Explosives Engineering",
+        "course": "EXP ENG 5914  Explosives Manufacturing (LEC 3.0)",
+        "description": "History of industrial explosives from discovery to what is used today. Manufacturing processes for packaged and bulk explosives are explored along with specialty explosives such as detonating cord, cast boosters, detonators, shaped charges, and commercial fireworks. Field manufacturing of explosives by mixing or gassing is also covered. Prerequisites: Successful background check, consent of instructor."
+    },
+    {
+        "subject_id": 42,
+        "department_id": 18,
+        "subject_code": "EXP ENG",
+        "subject_name": "Explosives Engineering",
+        "course": "EXP ENG 5922  Tunneling & Underground Construction Techniques (LAB 1.0 and LEC 2.0)",
+        "description": "Mechanical and conventional excavation techniques in underground tunneling and construction.  Topics include tunneling layouts design, equipment and performance modeling, ground control systems including support, drainage, and structural integrity.  Construction specifications, advance rate and contractual and cost estimation. Prerequisite: Successful background check. Consent of instructor."
+    }
+]
