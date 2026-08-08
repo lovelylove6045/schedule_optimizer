@@ -1,0 +1,346 @@
+[
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 1001  Special Topics (IND 0.0-6.0)",
+        "description": "This is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 1310  Exposure to Computer Experience (LEC 3.0)",
+        "description": "The course provides an overview of simple computing concepts. Students are gently introduced to programming and discuss the impact of computing on society. Students are made aware of various computing-related careers."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 1311  Exposure to Computing Principles (LEC 3.0)",
+        "description": "Students are introduced to various computing concepts including computer graphics, algorithms, agile development, the world wide web, e-commerce and mobile applications."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 1312  Computer Programming Exposure (LEC 3.0)",
+        "description": "The course exposes students to principles of programming including variables, data types, expressions, assignment, variables, classes, arrays and other data structures and recursion."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 1314  Exposure to Cybersecurity Concepts (LEC 3.0)",
+        "description": "This course provides an overview of basic cybersecurity issues, including evaluating of security needs, cryptography, and threat assessment. The course covers a broad array of security topics including data security, network security, security ethics and security as a computing profession. Students are exposed to various industry-standard security tools."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 1551  Implementing Information Systems: User Perspective (LEC 3.0)",
+        "description": "Introduction to object-oriented programming in the context of developing and implementing the various components of an information system with particular attention given to system interface such as window and web forms. Class will include numerous projects covering foundational programming."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 1552  Implementing Information Systems: Data Perspective (LEC 3.0)",
+        "description": "Continuation of object-oriented programming in the context of developing and implementing the various components of an information system with particular attention given to database incorporation. Class will include numerous projects covering intermediate topics. Prerequisites: IS&T 1551."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 1561  Algorithms and Programming with Java (LEC 3.0)",
+        "description": "Introduction to programming using Java. Topics include basic programming concepts such as variable data, decision-making, and repetitive code. Also algorithm design and analysis, event-driven design with classes and methods. Numerous programs and group exercises."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 1562  Java and Data Structures (LEC 3.0)",
+        "description": "Provides an intermediate knowledge of programming using Java. Important concepts of Object Oriented programming will be covered. A significant part of the course will be devoted to data structures and how to handle them. Numerous programs will be assigned. Prerequisites: IS&T 1561."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 1750  Introduction to Management Information Systems (LEC 3.0)",
+        "description": "This course familiarizes the students with the fundamental concepts and principles of management information systems. Topics covered include the strategic role of IT, decision support systems, database and datawarehouse, enterprise applications, mobile applications, and social and ethical issues related to information systems."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 2000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 2001  Special Topics (IND 0.0-6.0)",
+        "description": "This is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 2002  Cooperative Training in Information Science & Technology (IND 0.0-6.0)",
+        "description": "On-the-job experience gained through cooperative education with industry with credit arranged through departmental co-op advisor. Grade received depends on quality of reports submitted and work supervisors's evaluation. Prerequisite: Completed 30 hours toward degree."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 3001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 3333  Data Networks and Information Security (LEC 3.0)",
+        "description": "The course provides an overview of current and evolving networking and information security principles. Concepts include network standards and protocols; operation and management; switching and routing; area networks; wireless network infrastructure; security frameworks, policies, and management. Prerequisites: At least Sophomore standing."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 3343  Systems Analysis (LEC 3.0)",
+        "description": "Introduction to the processes by which business information systems are analyzed, designed, and introduced into the business environment. Topics include investigation of existing systems, requirements analysis, logical and physical design, database design, forms design, and report analysis. Prerequisite: IS&T 3423."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 3420  Introduction to Data Science and Management (LEC 3.0)",
+        "description": "Introduces students to increasing business success through analysis of large-scale data collections. Topics include: import/export of data, summary statistics, cross-tabulation, data transformations (sub setting, merging, sorting and aggregation), modeling methods, and visualization. Significant programming in R is expected. Prerequisites: IS&T 1562 or IS&T 1552 or Comp Sci 1575."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 3423  Database Management (LEC 3.0)",
+        "description": "The course introduces the concepts of database management systems. Issues in database architecture, design, administration, and implementation are covered. Prerequisites: IS&T 1750; A grade of \"C\" or better in IS&T 1551 or IS&T 1561 or Comp Sci 1570."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 4001  Special Topics (LEC 0.0-6.0)",
+        "description": "This is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 4085  Internship (IND 1.0-6.0)",
+        "description": "Students apply critical thinking skills and discipline specific knowledge in a work setting based on a project designed by the advisor and an industry organization. Activities will vary depending on the student's background and the setting. Requires major report and experiential learning opportunity at a department approved organization. Prerequisites: Subject to departmental requirements including departmental approval of the organization and internship learning plan prior to enrolling in the course. (Co-listed as BUS 4085)."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six credit hours allowed for graduation credit. Subject and credit to be arranged with the instructor."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 4261  Information Systems Project Management (LEC 3.0)",
+        "description": "The course overviews general project management principles and then focuses on information system application development. Topics include requirements analysis, project scheduling, risk management, quality assurance, testing, and team coordination. Prerequisites:A grade of \"C\" or better in IS&T 1551 or IS&T 1561 or Comp Sci 1570."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 4444  Introduction to Data Warehouses (LEC 3.0)",
+        "description": "This course presents the topic of data warehouses and the value to the organization. It takes the student from the database platform to structuring a data warehouse environment. Focus is placed on simplicity and addressing the user community needs. Prerequisites: IS&T 3423."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 4654  Introduction to Web Design and Digital Media Studies (LEC 3.0)",
+        "description": "The course covers web design and digital media, including topics such as social media, cyberculture, service design thinking, citizen journalism, crowd intelligence, brain-computer interfaces, privacy, and copyright."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 5001  Special Topics (LEC 0.0-6.0)",
+        "description": "This is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 5040  Oral Examination (IND 0.0)",
+        "description": "After completion of all other program requirements, oral examinations for on-campus M.S./Ph.D. students may be processed during intersession. Off-campus M.S. students must be enrolled in oral examination and must have paid an oral examination fee at the time of the defense/comprehensive examination (oral/ written). All other students must enroll for credit commensurate with uses made of facilities and/or faculties. In no case shall this be for less than three (3) semester hours for resident students."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 5099  Research (IND 0.0-15)",
+        "description": "Investigations of an advanced nature leading to the preparation of a thesis or dissertation. Consent of instructor required."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 5251  Management and Leadership of Technological Innovation (LEC 3.0)",
+        "description": "The course covers strategic management of technological innovation and leadership in managing technology-based organizations. It focuses on developing a general management perspective on technology, innovation, industry dynamics of technological innovation, and new product development. Prerequisite: Senior or Graduate Standing."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 5335  Fundamentals of Mobile Technology for Business (LEC 3.0)",
+        "description": "A broad overview of mobile technology use in business environments.Topics include the mobile industry; mobile network and wireless standards; mobile devices; mobile web design and app development; social and user experience issues; mobile marketing and commerce. Prerequisites: Junior standing or above."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 5420  Business Analytics and Data Science (LEC 3.0)",
+        "description": "Analysis of large business data sets via statistical summaries, cross-tabulation, correlation, and variance matrices. Techniques in model selection, prediction, and validation utilizing general linear and logistic regression, Bayesian methods, clustering, and visualization. Extensive programming in R is expected. Prerequisites: Calculus, Statistics, and Programming knowledge."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 5423  Foundations of Data Management (LEC 3.0)",
+        "description": "Foundational concepts of database management systems. Issues in database architecture, design, administration, and implementation. Extensive use of SQL with Oracle to create and manage databases. Significant project dealing with triggers or stored procedures. Prerequisites: Strong programming knowledge required."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 5450  Introduction to Information Visualization (LEC 3.0)",
+        "description": "Topics include: the visualization development framework, traditional presentations of data, human perception and aesthetics, colorspace theory, visualization algorithms and software, modern visualizations of large data sets. Application of R packages will be emphasized throughout. Prerequisites: Statistics, Calculus, and Programming Knowledge."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 5520  Data Science and Machine Learning with Python (LEC 3.0)",
+        "description": "Examines data science methodologies for scraping, manipulating, transforming, cleaning, visualizing, summarizing, and modeling large-scale data as well as supervised and unsupervised machine learning algorithms applied in various business analytics and data science scenarios. Python libraries such as Pandas, NumPy, Matplotlib, and Scikit-learn are utilized. Prerequisites: One of Stat 1115, Stat 3113 or Stat 3117; one of IS&T 1552, IS&T 1562, Comp Sci 1575; for Graduate Students: knowledge of calculus, statistics, and programming."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 5535  Machine Learning Algorithms and Applications (LEC 3.0)",
+        "description": "Introduces techniques of modern machine learning methods with applications in marketing, finance, and other business disciplines. Topics include regression, classification, resampling methods, model selection, regularization, decision trees, support vector machines, principal component analysis, and clustering. R programming is required. Prerequisites: One of Stat 1115, Stat 3113 or Stat 3117; one of IS&T 1552, IS&T 1562, Comp Sci 1575; or Graduate Standing with knowledge of calculus, statistics, and programming."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 5551  Foundations of Computing and Programming for Data Science (LEC 3.0)",
+        "description": "An introduction to contemporary computer programming and development with the application focus in the analysis of data in business context. This course aims to provide an overview of the fundamental knowledge and skills needed for advancing in the areas of information science and technology. Topics include introduction to computing, basic programming instructions, relational databases, and graphical representation of information and data. Prerequisites: Senior or graduate standing."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 5680  Digital Media Development and Interactive Design (LEC 3.0)",
+        "description": "This course covers techniques and tools for design and development of digital and interactive media, including text, graphics, animation, audio, and video. Prerequisites: A grade of \"C\" or better in IS&T 1551, IS&T 1561 or Comp Sci 1570."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 5725  Fundamentals of Cybersecurity Analytics (LEC 3.0)",
+        "description": "This course presents students with a basic understanding of cybersecurity topics, which span organizational information security policies, data breaches, awareness training, network security, application security, cloud security, data management, business continuity, and the latest cybersecurity issues."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 5780  Human and Organizational Factors in Cybersecurity (LEC 3.0)",
+        "description": "In-depth examination of human and organizational factors in cybersecurity and information assurance. Study of how to protect information integrity, availability, and confidentiality, as well as tools, methods, principles, and analytics for fraud prevention, insider threat detection, and forensic investigations. Assumes prior exposure to cybersecurity or IA."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 5885  Human-Computer Interaction and User Experience (LEC 3.0)",
+        "description": "Introduction to the field of Human-Computer Interaction (HCI). Students examine issues and challenges related to the interaction between people and technology. The class explores the social and cognitive characteristics of people who use information systems. Students learn techniques for understanding user needs, interface prototyping & interface evaluation."
+    },
+    {
+        "subject_id": 45,
+        "department_id": 20,
+        "subject_code": "IS&T",
+        "subject_name": "Info Science & Technology",
+        "course": "IS&T 5887  Human-Computer Interaction Evaluation (LEC 3.0)",
+        "description": "This course covers research and analysis methods and tools for evaluation of the impact of information technology systems on humans and organizations. The focus will be on practical evaluation with the goal of providing recommendations for improving system functionality and usability. Prerequisite: Preceded or accompanied by IS&T 5885."
+    }
+]

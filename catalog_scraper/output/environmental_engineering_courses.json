@@ -1,0 +1,202 @@
+[
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 2001  Special Topics (IND 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 2601  Fundamentals of Environmental Engineering and Science (LAB 1.0 and LEC 2.0)",
+        "description": "Course discusses fundamental chemical, physical, and biological principles in environmental engineering and science. Topics include environmental phenomena, aquatic pollution and control, solid waste management, air pollution and control, water and wastewater treatment systems, sustainability and life cycle analyses. Prerequisites: Chem 1301, Chem 1305, or Chem 1310; Math 1211 or Math 1214. (Co-listed with Civ Eng 2601)."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 2602  Biological Fundamentals Of Environmental Engineering (LEC 3.0)",
+        "description": "Introduction to the function of organisms related to environmental engineering. The course focuses on both the application of organisms to removing contaminants and the effects of contaminants on organisms. Prerequisites: Bio Sci 1113 and preceded or accompanied by Civ/Env Eng 2601. (Co-listed with Civ Eng 2602)."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 3001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 3603  Chemical Fundamentals Of Environmental Engineering (LAB 1.0 and LEC 2.0)",
+        "description": "Introduction to the key chemical and physical concepts integral to environmental systems and processes. This course provides a fundamental background in those chemical and environmental engineering principles that are common to all environmental engineering disciplines. Prerequisites: Chem 1320 or Geology 3410; Physics 1135, Math 2222."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 3615  Water And Wastewater Engineering (LEC 3.0)",
+        "description": "A study of the engineering design principles dealing with the quantity, quality and treatment of water, and the quantity, characteristics, treatment and disposal of wastewater. Prerequisites: Civ Eng 2601 and at least junior standing. (Co-listed with Civ Eng 3615)."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 4010  Senior Seminar: Engineering In A Global Society (RSD 1.0)",
+        "description": "Discussion of contemporary issues: public safety, health, and welfare; the principles of sustainable development; lifelong learning; impact of engineering solutions in a global and societal and political context; relationships with owners, contractors, and the public; public service; the Code of Ethics; and the Missouri licensing Statutes and Board Rules. Prerequisite: Senior standing. (Co-listed with Civ Eng and Arch Eng 4010)."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 4097  Senior Design Project (LEC 3.0)",
+        "description": "Open-ended design projects involving one or more areas of  engineering. Planning design projects, philosophy of design, and application of  engineering principles to design problems. Prerequisite: Civ Eng 4448 or Arch Eng 4448."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six (6) credit hours allowed for graduation credit. Subject and credit to be arranged with the instructor."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 4609  Research in Environmental Engineering (LEC 1.0)",
+        "description": "Students will investigate cutting edge research in the environmental engineering field including experimental studies, current environmental policy changes, and international environmental issues. Investigation to include live research seminars, reading current literature, and/or laboratory experimentation. Prerequisite: Senior standing."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 5001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course.  Variable title."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 5070  Teaching Engineering (LEC 3.0)",
+        "description": "Introduction to teaching objectives and techniques. Topics include: using course objectives to design a course; communication using traditional and cutting-edge media; textbook selection; assessment of student learning; grading; student learning styles; cooperative/active learning; and student discipline. Prerequisite: Graduate standing. (Co-listed with Eng Mgt 5070, Comp Eng 5070, Elec Eng 5070, Civ Eng 5070)."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 5360  Water Resources And Wastewater Engineering (LEC 3.0)",
+        "description": "Application of engineering principles to the planning and design of multipurpose projects involving water resources development and wastewater collection/treatment/disposal systems. Latest concepts in engineering analysis are applied to evaluation of alternative solutions. Prerequisites: Civ Eng 3333, 3335, 3615. (Co-listed with Civ Eng 5360)."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 5605  Environmental Systems Modeling (LEC 3.0)",
+        "description": "Introductory course in modeling environmental systems. Course will focus on contaminant fate and transport in the environment. Models will be developed that will include physical, chemical and biological reactions and processes that impact this fate. Prerequisites: Env Eng/Civ Eng 2601, Env Eng/Civ Eng 2602 and Env Eng/ Civ Eng 3603; or Graduate standing. (Co-listed with Civ Eng 5605)."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 5619  Environmental Engineering Design (LAB 1.0 and LEC 2.0)",
+        "description": "Functional design of water and wastewater facilities and other environmental cleanup systems. Prerequisite: Civ Eng 3615 or Env Eng 3615. (Co-listed with Civ Eng 5619)."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 5630  Remediation of Contaminated Groundwater And Soil (LAB 1.0 and LEC 2.0)",
+        "description": "Course covers current in-situ and ex-situ remediation technologies. Current literature and case studies are utilized to provide the focus for class discussions and projects. Prerequisites: Civ Eng 3615, Geo Eng 5237 or Graduate Standing. (Co-listed with Civ Eng 5630)."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 5635  Phytoremediation and Natural Treatment Systems: Science and Design (LEC 3.0)",
+        "description": "Students learn the scientific basics of chemical transport in soil and groundwater and learn fundamental plant physiology and processes. Students then learn how these processes are utilized in design of phytoremediation and natural treatment systems, including the most up to date literature and design guidance available. Prerequisites: Civ Eng 3615 or Env Eng 3615. (Co-listed with Civ Eng 5635)."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 5640  Environmental Law And Regulations (LEC 3.0)",
+        "description": "This course provides comprehensive coverage of environmental laws and regulations dealing with air, water, wastewater, and other media. The primary focus is permitting, reporting, and compliance protocols. The course topics include U.S. and international legal systems and judicial processes, liability, enforcement, Clean Air Act, Clean Water Act (NPDES) permitting), Safe Drinking Water Act, OSGA, TSCA, RCRA, and CERCLA. Case studies will be emphasized. (Co-listed with Civ Eng 5640)."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 5642  Sustainability, Population, Energy, Water, and Materials (LEC 3.0)",
+        "description": "This course will examine the concepts regarding the continued advancement of humankind while maintaining our ecological niche on earth. Key topics include: population growth, poverty, and impacts of development; energy consumption, sources, storage, conservation and policy; water quality and quantity; materials and building; and policy implications. Prerequisite: Senior or graduate standing. (Co-listed with Civ Eng 5642 and Arch Eng 5642)."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 5650  Public Health Engineering (LEC 3.0)",
+        "description": "A comprehensive course dealing with the environmental aspects of public health. Prerequisite: Civ Eng 2601 with grade of \"C\" or better. (Co-listed with Civ Eng 5650)."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 5660  Introduction To Air Pollution (LEC 3.0)",
+        "description": "Introduction to the field of air pollution dealing with sources, effects, federal legislation, transport and dispersion and principles of engineering control. Prerequisite: Civ Eng 3330 or equivalent; or graduate standing. (Co-listed with Civ Eng 5660)."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 5662  Air Pollution Control Methods (LEC 3.0)",
+        "description": "Study of the design principles and application of the state-ofthe-art control techniques to gaseous and particulate emissions from fossil fuel combustion, industrial and transportation sources. Prerequisite: Civ Eng 3330 or equivalent; or graduate standing. (Co-listed with Civ Eng 5662)."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 5665  Indoor Air Pollution (LEC 3.0)",
+        "description": "By developing a practical understanding of indoor air pollution sources, physics, chemistry and consequences, students will learn how radon, cigarette smoke, VOCs from furnishings, and so forth affect indoor air quality and apply engineering analyses to specify ventilation rates, choose furnishings and minimize occupant exposure to pollutants. Prerequisite: Civ Eng 2601 or Mech Eng 5571 or Graduate Status. (Co-listed with Civ Eng 5665 and Arch Eng 5665)."
+    },
+    {
+        "subject_id": 25,
+        "department_id": 12,
+        "subject_code": "ENV ENG",
+        "subject_name": "Environmental Engineering",
+        "course": "ENV ENG 5670  Solid Waste Management (LEC 3.0)",
+        "description": "A systematic study of the sources, amounts and characteristics of solid wastes and methods used for their collection, reclamation, and ultimate disposal. Prerequisite: Civ Eng 2601 with grade of \"C\" or better; or graduate standing. (Co-listed with Civ Eng 5670)."
+    }
+]

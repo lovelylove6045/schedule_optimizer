@@ -1,0 +1,602 @@
+[
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 1720  Introduction to Engineering Design (LAB 1.0 and LEC 2.0)",
+        "description": "Introduction to a systematic approach to engineering design (problem clarification, concept generation, concept selection, prototyping methods, engineering ethics) and fundamental design communication techniques. Computer aided design tools are introduced to assist in design analysis."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 1761  Introduction to Computer Aided Design (LAB 1.0)",
+        "description": "Introduces principles and application of computer aided design. Topics include parametric sketching, solid modelling, assemblies, mass properties, engineering drawings and file exchange. Prerequisites: Mech Eng 1720; Math 1211 or Math 1214."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 2001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 2340  Statics and Dynamics (LEC 3.0)",
+        "description": "An introduction to the principles of mechanics pertaining to problems of equilibrium, motion, and acceleration in two dimensions. Particle and rigid body equilibrium and applications; general planar motion; force, mass, and acceleration; impulse/ momentum; work/energy. This course will not satisfy the prerequisite for Civ Eng 2210. Prerequisites: A grade of \"C\" or better in Physics 1135 or Physics 1111; preceded or accompanied by Math 2222."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 2350  Engineering Mechanics-Dynamics (LEC 2.0)",
+        "description": "Application of the principles of mechanics to engineering problems of motion and acceleration. Topics include plane motion; force, mass and acceleration; work and energy; and impulse and momentum. Prerequisites: A grade of \"C\" or better in each of Civ Eng 2200 and Math 2222."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 2360  Dynamics (LEC 3.0)",
+        "description": "The principles of mechanics are used to model engineering systems. Kinematics of particle motion, kinematics of plane- and three-dimensional motions of rigid bodies. Kinetics of particles and of rigid bodies. Energy and momentum methods. Prerequisite: Grade of \"C\" or better in each of Civ Eng 2200, Math 2222. (Co-listed with Aero Eng 2360)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 2519  Thermodynamics (LEC 3.0)",
+        "description": "Energy transformations and the relation of energy to the status of matter. Fundamental laws, concepts, and modes of analysis which underlie all applications of energy conversion in engineering. Prerequisites: A grade of \"C\" or better in each of the following: Math 1214 (or Math 1211); Math 1215; Math 2222; Physics 1135 or Physics 1111."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 2527  Thermal Analysis (LEC 3.0)",
+        "description": "Basic principles of thermodynamics and heat transfer. First and second laws of thermodynamics and applications to engineering systems. Fundamentals of heat transfer by conduction, convection, and radiation with applications. Not for mechanical engineering majors. Prerequisites: Math 1215; Physics 1135 or Physics 1111."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 2653  Introduction To Manufacturing Processes (LAB 1.0 and LEC 2.0)",
+        "description": "Introduction into the fundamentals of manufacturing processes. Welding, joining, casting, forming, powder metallurgy and material removal are covered. The material is presented in a descriptive fashion with emphasis on the fundamental working of the processes, their capabilities, applications, advantages and limitations.Prerequisite: Mech Eng 1720; a grade of \"C\" or better in Physics 1135 or Physics 1111; preceded or accompanied by Mech Eng 1761."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 2761  Introduction To Mechanical Design (LAB 1.0 and LEC 1.0)",
+        "description": "Introduction to the mechanical design process with emphasis on creativity and design visualization. A systemic approach to design is introduced, emphasizing quality design, concept identification and selection, design life cycle, project management, failure analysis, and engineering ethics. Concurrent engineering will be presented in a group design project. Prerequisites: Mech Eng 1720, Mech Eng 1761, Mech Eng 2653, preceded or accompanied by Civ Eng 2200; a grade of \"C\" or better in each of the following: Math 1214 (or Math 1211); Physics 1135 or Physics 1111."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 3001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 3002  Cooperative Engineering Training (IND 0.0-6.0)",
+        "description": "On-the-job experience gained through cooperative education with industry, with credit arranged through departmental cooperative advisor. Grade received depends on quality of reports submitted and work supervisor's evaluation."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 3010  Seminar (LEC 1.0)",
+        "description": "Discussion of current topics."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 3131  Thermofluid Mechanics I (LEC 3.0)",
+        "description": "Principles of viscous and inviscid flow in ducts, nozzles, diffusers, blade passages and application to design; dimensional analysis and laws of similarity; external flows; compressible flows. Prerequisite: A grade of \"C\" or better in Mech Eng 2519."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 3313  Machine Dynamics (LEC 3.0)",
+        "description": "Motion analysis using vector methods is considered for machine elements including linkages, cams, and gears. Dynamic force analysis methods are applied to balancing, flywheels, and single and multicylinder engines. Prerequisites: A grade of \"C\" or better in each of the following: Comp Sci 1570 or Comp Sci 1970 or Comp Sci 1971 or Comp Sci 1972; Mech Eng 2360 or Aero Eng 2360; Math 1214 (or 1211); Math 1215; Math 2222; Physics 1135 or Physics 1111."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 3411  Modeling and Analysis of Dynamic Systems (LEC 3.0)",
+        "description": "Concepts of modeling mechanical systems as linear systems are studied and applied to hydraulic, pneumatic, and electromechanical systems. Analysis techniques described include matrix formulations, Laplace transforms, and time domain response methods. Prerequisites: A grade of \"C\" or better in each of the following: Comp Sci 1570 or Comp Sci 1970 or Comp Sci 1971 or Comp Sci 1972; Mech Eng 2360 or Aero Eng 2360; Math 1214 (or Math 1211); Math 1215; Math 2222; Math 3304; Physics 1135 or Physics 1111; Physics 2135 or Physics 2111."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 3521  Applied Thermodynamics (LEC 3.0)",
+        "description": "Extended study of the laws and concepts of thermodynamics with emphasis on applications to power and refrigeration cycles, gas mixtures, psychrometrics, behavior of real gases and combustion processes. Prerequisite: A grade of \"C\" or better in Mech Eng 2519."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 3525  Heat Transfer (LEC 3.0)",
+        "description": "Fundamental principles of heat transmission by radiation, conduction and convection; application of these principles to the solution of engineering problems. Prerequisites: A grade of \"C\" or better in each of Comp Sci 1570 or Comp Sci 1970 or Comp Sci 1971 or Comp Sci 1972, Math 3304, Mech Eng 2519."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 3653  Manufacturing (LEC 3.0)",
+        "description": "Advanced analytical study of metal forming and machining processes such as forging, rolling, extrusion, wire drawing and deep drawing; mechanics of metal cutting - orthogonal, turning, milling, cutting temperature, cutting tool materials, tool wear and tool life, and abrasive processes. Prerequisites: Mech Eng 2653, Civ Eng 2211, and a grade of \"C\" or better in Civ Eng 2210."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 3708  Machine Design I (LEC 3.0)",
+        "description": "Analysis of machine elements such as shafts, springs, screws, belts, bearings, and gears; analytical methods for the study of fatigue; comprehensive treatment of failure, safety, and reliability. Introduction to finite element methods in mechanical design. Prerequisites: Mech Eng 2653; accompanied or preceded by Mech Eng 2761; Met Eng 2110 or Aero Eng 3877; and a grade of \"C\" or better in Civ Eng 2210."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 4001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six credit hours allowed for graduation credit. Subject and credit to be arranged with the instructor."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 4479  Automatic Control Of Dynamic Systems (LEC 3.0)",
+        "description": "Use of classical control methods to analyze mechanical systems. Topics include root locus, Bode plots, and Nyquist diagrams. Applications to design situations are examined. Prerequisite: A grade of \"C\" or better in Mech Eng 3411."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 4480  Control System Laboratory (LAB 1.0)",
+        "description": "Experiments dealing with data acquisition, manipulation, and control of systems with particular emphasis on computer data acquisition and control applied to mechanical engineering systems. Microcomputer systems are used as measurement and control devices. Prerequisites: Preceded or accompanied by Mech Eng 4479."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 4761  Engineering Design (LAB 2.0 and LEC 1.0)",
+        "description": "Real-life design projects emphasize problem definition, conceptualization, modeling, approximation techniques and optimization. Teamwork, communication, leadership and group discussions are encouraged. Student group and professional expert presentations bring awareness to diverse design issues and methodology, and professional engineering practice. Prerequisites: Preceded or accompanied each of Mech Eng 3708, 3525, 3131, 4479."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 4840  Mechanical Instrumentation (LAB 2.0)",
+        "description": "Theory and application of instrumentation to measurement problems in mechanical and aerospace engineering. Experiments employing basic devices to measure quantities such as strain, pressure, force, temperature, motion, flow, and sound level are performed. Accepted procedures for recording, interpreting, and presenting experimental results are illustrated. Prerequisites: A grade of \"C\" or better in each of the following: Math 3304; Mech Eng 2519; Physics 2135 or Physics 2111."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 4842  Mechanical Engineering Systems (LAB 2.0)",
+        "description": "A laboratory course focusing on experimental design and evaluation of complete mechanical engineering systems. Analysis of both mechanical and thermodynamic systems is included. Emphasis is on evaluating system performance and improving student written and oral communication skills. Prerequisites: Mech Eng 4840, 3521, 3131, 3525, 3313."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title. (Co-listed with Aero Eng 6001)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5131  Intermediate Thermofluid Mechanics (LEC 3.0)",
+        "description": "Derivation of Navier-Stokes equations, analytical solutions of viscous flows; flow in pipes, flow networks; intermediate treatment of boundary layer theory; micro-fluidics and MEMS; introduction to numerical methods for solving fluid flows; and, preliminary treatise on turbulence. Prerequisite: Mech Eng 3131 or Aero Eng 3131. (Co-listed with Aero Eng 5131)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5139  Computational Fluid Dynamics (LEC 3.0)",
+        "description": "Introduction to the numerical solution of the Navier-Stokes equations, by finite difference methods, in both stream function-vorticity and primitive variable formulations. Course format emphasizes student development of complete computer programs utilizing a variety of solution methods. Prerequisites: Comp Sci 1570 or Comp Sci 1970 or Comp Sci 1971 or Comp Sci 1972; one course in fluid mechanics. (Co-listed with Aero Eng 5139)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5211  Introduction To Continuum Mechanics (LEC 3.0)",
+        "description": "Introductory cartesian tensor analysis to aid in the development of the theory of a continuum.  Kinematics of deformation, stress tensor, equations of motion, equations of mass and energy balance.  Examples from specific material theories in solid and fluid mechanics. Prerequisites: Civ Eng 2210, Math 3304."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5212  Introduction to Finite Element Analysis (LEC 3.0)",
+        "description": "Variational formulation of the governing equations. Finite element model, interpolation functions, numerical integration, assembly of elements and solution procedures. Applications to solid mechanics, fluid mechanics and heat transfer problems. Two-dimensional problems. Computer implementation and use of commercial finite element codes.  Prerequisites: Math 3304; senior or graduate standing. (Co-listed with Aero Eng 5212)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5229  Smart Materials and Sensors (LAB 1.0 and LEC 2.0)",
+        "description": "Smart structures with fiber reinforced polymer (FRP) composites and advanced sensors. Multi-disciplinary topics include characterization, performance, and fabrication of composite structures; fiber optic, resistance, and piezoelectric systems for strain sensing; and applications of smart composite structures. Laboratory and team activities involve manufacturing, measurement systems, instrumented structures, and performance tests on a large-scale smart composite bridge. Prerequisites: Senior standing and Math 3304. (Co-listed with Aero Eng 5229, Elec Eng 5270 and Civ Eng 5118)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5234  Stability of Engineering Structures (LEC 3.0)",
+        "description": "Solution of stability problems with applications to columns, plates and shell structures. Torsional and lateral buckling of columns. Buckling under high temperatures. Effect of imperfections introduced by a technological process on stability. Design issues related to stability requirements. Prerequisites: Civ Eng 2210; Math 3304; and Mech Eng 2350 or Mech Eng 2360 or Aero Eng 2360. (Co-listed with Aero Eng 5234)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5236  Fracture Mechanics (LEC 3.0)",
+        "description": "Linear elastic and plastic mathematical models for stresses around cracks; concepts of stress intensity; strain energy release rates; correlation of models with experiment; determination of plane stress and plane strain parameters; application to design. Prerequisite: Civ Eng 2210. (Co-listed with Aero Eng 5236)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5238  Fatigue Analysis (LEC 3.0)",
+        "description": "The mechanism of fatigue, fatigue strength of metals, fracture mechanics, influence of stress conditions on fatigue strength, stress concentrations, surface treatment effects, corrosion fatigue and fretting corrosion, fatigue of joints, components and structures, design to prevent fatigue. Prerequisite: Civ Eng 2210. (Co-listed with Aero Eng 5238)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5282  Introduction to Composite Materials & Structures (LEC 3.0)",
+        "description": "Introduction to fiber-reinforced composite materials and structures with emphasis on analysis and design. Composite micromechanics, lamination theory and failure criteria. Design procedures for structures made of composite materials. An overview of fabrication and experimental characterization. Prerequisite: Civ Eng 2210. (Co-listed with Aero Eng 5282)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5307  Vibrations I (LEC 3.0)",
+        "description": "Equations of motion, free and forced vibration of single degree of freedom systems and multidegree of freedom systems. Natural frequencies, resonance, modes of vibration and energy dissipation are studies. The vibration of continuous systems is introduced. Prerequisites: Mech Eng 3411 and 3313, or Aero Eng 3613 and Math 3304. (Co-listed with Aero Eng 5307)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5309  Engineering Acoustics I (LEC 3.0)",
+        "description": "Introduction to acoustical theory and measurement with emphasis on mechanical and aerospace engineering applications. Plane and spherical wave propagation, resonators and filters, absorption, room acoustics, human response to noise, noise legislation, noise control. Use of common instrumentation in several projects. Prerequisites: Mech Eng 3411 and 3313, or Aero Eng 3613 and Math 3304. (Co-listed with Aero Eng 5309)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5313  Intermediate Dynamics Of Mechanical And Aerospace Systems (LEC 3.0)",
+        "description": "Principles of dynamics are applied to problems in the design of mechanical and aerospace systems; basic concepts in kinematics and dynamics; dynamics of systems of particles; dynamics of rigid bodies, three-dimensional effects in machine elements; dynamic stability, theory and applications; methods of analytical dynamics. Prerequisite: Mech Eng 3313 or Aero Eng 3613. (Co-listed with Aero Eng 5313)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5420  Signal Processing for Instrumentation and Control (LEC 3.0)",
+        "description": "The course presents fundamental techniques for analysis and processing of experimental data and real-time signals. Continuous- and discrete-time development of signal spectra, Fourier Transform, convolution, filter design, and system identification. The emphasis is on practical problems that arise in instrumentation and control applications. Prerequisites: Math 3304; Mech Eng 3411 or permission of instructor for non-Mech Eng majors."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5449  Robotic Manipulators and Mechanisms (LAB 1.0 and LEC 2.0)",
+        "description": "Overview of industrial applications, manipulator systems and geometry. Manipulator kinematics; hand location, velocity and acceleration. Basic formulation of manipulator dynamics and control. Introduction to machine vision. Projects include robot programming, vision-aided inspection and guidance, and system integration. Prerequisites: Mech Eng 3313; Comp Sci 1970 or Comp Sci 1971 or Comp Sci 1972 or Comp Sci 1570. (Co-listed with Aero Eng 5449)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5478  Mechatronics (LAB 1.0 and LEC 2.0)",
+        "description": "This course will introduce students to the basics of mechatronics (i.e., the integration of mechanical, electrical, computer, and control systems). Students will learn the fundamentals of sensors and actuators for mechanical systems, computer interfacing, microcontrollers, real-time software, and control. Prerequisite: Mech Eng 4479 or equivalent. (Co-listed with Aero Eng 5478, Elec Eng 5870 and Comp Eng 5820)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5479  Machine Learning for Manufacturing Automation (LEC 3.0)",
+        "description": "Principles of machine learning, machine learning techniques (support vector machines, regression analysis, recurrent and convolution neural networks, autoencoders, deep reinforcement learning), applications (anomaly detection, computer vision, robotics). Prerequisites: Mech Eng 4479 or Mech Eng 5313 or Aero Eng 3361 or Aero Eng 5313; and Comp Sci 1972. (Co-listed with Aero Eng 5479)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5481  Mechanical And Aerospace Control Systems (LEC 3.0)",
+        "description": "Synthesis of mechanical and aerospace systems to perform specific control functions. Response and stability are studied. Singular value analysis for stability margins is introduced. Prerequisite: Mech Eng 4479 or Aero Eng 3361. (Co-listed with Aero Eng 5481)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5519  Advanced Thermodynamics (LEC 3.0)",
+        "description": "After a short review of classical thermodynamics, the elements of chemical reactions, chemical equilibrium, statistical thermodynamics, and the basic concepts of kinetic theory are presented. Prerequisite: Mech Eng 2519. (Co-listed with Aero Eng 5519)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5525  Intermediate Heat Transfer (LEC 3.0)",
+        "description": "Analytical study of conduction; theory of thermal radiation and applications; energy and momentum equations in convective heat transfer and review of empirical relations. Current topics are included. Prerequisite: Mech Eng 3525. (Co-listed with Aero Eng 5525)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5527  Combustion Processes (LEC 3.0)",
+        "description": "Application of chemical, thermodynamic, and gas dynamic principles to the combustion of solid, liquid, and gaseous fuels. Includes stoichiometry, thermochemistry, reaction mechanism, reaction velocity, temperature levels, and combustion waves. Prerequisite: Mech Eng 3521. (Co-listed with Aero Eng 5527)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5533  Internal Combustion Engines (LEC 3.0)",
+        "description": "A course dealing primarily with spark ignition and compression ignition engines. Topics include: thermodynamics, air and fuel metering, emissions and their control, performance, fuels, and matching engine and load. Significant lecture material drawn from current publications. Prerequisite: Mech Eng 3521."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5537  Fuel Cell Principles (LEC 3.0)",
+        "description": "Fuel cell fundamentals including thermodynamics, reaction kinetics, mass transport, characterization, and modeling are discussed. Different types of fuel cells such as proton exchange membrane and solid oxide are covered together with subsystem design and system integration as well as environmental impacts. Prerequisites: MECH ENG 3521."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5539  Modeling Across Scales in Computational Mechanics (LEC 3.0)",
+        "description": "Basic principles of computational mechanics, focusing on modeling and simulation on various length scales. The goal is to mathematically represent mechanical and material behavior, and to effectively solve those equations. Fundamental principles of continuum and sub-continuum (atomic) models will be learned through lectures and hands-on Matlab coding. Prerequisites: Civ Eng 2210, Mech Eng 2519, or consent of instructor for majors that do not require either of these courses; or graduate standing. (Co-listed with Aero Eng 5539)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5541  Applied Energy Conversion (LEC 3.0)",
+        "description": "The study of the principles of energy conversion. Specific applications include fuel cells and other direct energy conversion devices used in plug-in hybrid electric vehicles. Prerequisite: Mech Eng 3521."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5543  Energy Efficiency of Vehicles (LEC 3.0)",
+        "description": "Course topics include the energy consumption, energy efficiency, pollution and carbon emissions of vehicles. Energy efficiency models are developed to illustrate how to optimize the energy efficiency of vehicles. Detailed models are developed for gasoline, diesel, electric and hybrid-electric cars and trucks. Prerequisites: Math 2222, Physics 2135."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5544  Non-Intrusive Measurement Methods (LEC 3.0)",
+        "description": "Fundamentals of non-contact measurement methods for engineers. Basic engineering optics with a focus on radiation measurement methods including the effects of various sources and detectors. Prerequisites: Phys 2135; Mech 3525 or consent of instructor for non-Mech Eng majors."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5566  Solar Energy Technology (LEC 3.0)",
+        "description": "Introduction to the nature of solar radiation and associated thermal energy transfers. Methods of collecting and storing solar energy. Analysis and design of systems for utilizing solar energy, including heating and cooling. Prerequisite: Mech Eng 3525, or consent of instructor for non-Mech Eng majors."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5567  Heat Pump And Refrigeration Systems (LEC 3.0)",
+        "description": "The various methods used in the thermal design and analysis of both refrigeration and heat pumps systems are investigated. Various methods of producing heating and cooling are examined including vapor compression, absorption, air cycle, steam jet, and thermoelectric systems. Prerequisites: Mech Eng 3521, 3525."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5570  Plasma Physics I (LEC 3.0)",
+        "description": "Single particle orbits in electric and magnetic fields, moments of Boltzmann equation and introduction to fluid theory. Diffusion of plasma in electric and magnetic fields. Analysis of laboratory plasmas and magnetic confinement devices. Introduction to plasma kinetic theory. Prerequisite: Aero Eng 3131 or Mech Eng 3131 or Physics 3211 or Nuc Eng 3221 or Elec Eng 3600. (Co-listed with Aero Eng 5570, Nuc Eng 4370, Physics 4543)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5571  Environmental Controls (LEC 3.0)",
+        "description": "Theory and applications of principles of heating, ventilating, and air conditioning equipment and systems; design problems. Physiological and psychological factors relating to environmental control. Prerequisites: Mech Eng 3521 and accompanied or preceded by Mech Eng 3525; or Mech Eng 2527 and Civ Eng 3330."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5575  Mechanical Systems For Environmental Control (LEC 3.0)",
+        "description": "Analysis of refrigeration, heating, and air-distribution systems. Synthesis of environmental control systems. Prerequisites: Mech Eng 3521 and 3525; or  Mech Eng 2527 and Civ Eng 3330."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5606  Material Processing by High Pressure Water Jet (LEC 3.0)",
+        "description": "Methods of generating high pressure water jets; standard equipment, existing techniques and basic calculations. Applications of water jets to materials cutting and mineral processing. Safety rules. The course will be supported by laboratory demonstrations. (Co-listed with Min Eng 5413)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5653  Computer Numerical Control of Manufacturing Processes (LAB 1.0 and LEC 2.0)",
+        "description": "Fundamental theory and application of computer numerical controlled machine tools from the viewpoint of design principles, machine structural elements, control systems, and programming. Projects include manual and computer assisted part programming and machining. Prerequisites: Preceded or accompanied by Mech Eng 3653."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5655  Manufacturing Equipment Automation (LAB 1.0 and LEC 2.0)",
+        "description": "Manufacturing automation at the equipment level. Topics include sensors, actuators, and computer interfacing for manufacturing equipment, dynamic modeling and control of manufacturing equipment, interpolation, coordinated motion control, kinematic and geometric error modeling, and runout. Prerequisites: Preceded or accompanied by Mech Eng 4479 or equivalent."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5656  Design For Manufacture (LEC 3.0)",
+        "description": "Course covers the approach of concurrent product and process design. Topics includes: principle of DFM, New product design process, process capabilities and limitations, Taguchi method, tolerancing and system design, design for assembly and AI techniques for DFM. Prerequisites: Mech Eng 3708, Mech Eng 3653."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5702  Synthesis Of Mechanisms (LEC 3.0)",
+        "description": "Synthesis of planar mechanisms for function generation, path generation, and motion generation. Emphasis is on analytical methods for synthesis. Prerequisite: Mech Eng 3313."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5704  Compliant Mechanism Design (LEC 3.0)",
+        "description": "Introduction to compliant mechanisms; review of rigid-body mechanism analysis and synthesis methods; synthesis of planar mechanisms with force/energy constraints using graphical and analytical methods; pseudo-rigid-body models; force-deflection relationships; compliant mechanism synthesis methods; and special topics, e.g. bistable mechanisms, constant-force mechanisms, parallel mechanisms, and chain algorithm in design. Emphasis will be on applying the assimilated knowledge through a project on compliant mechanisms design. Prerequisites: Mech Eng 3313, Civ Eng 2210."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5708  Rapid Product Design And Optimization (LEC 3.0)",
+        "description": "Product Life cycle design; Finding design solutions using optimization technique; Rapid product realization using rapid prototyping and virtual prototyping techniques. Prerequisite: Mech Eng 3708."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5709  Machine Design II (LEC 3.0)",
+        "description": "A continuation of the study of machine elements; bearings, spur, bevel, worm, and helical gearing, and indeterminate machine elements; impact and shrink stresses. Prerequisite: Mech Eng 3708."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5715  Concurrent Engineering (LEC 3.0)",
+        "description": "Students will be introduced to the concurrent engineering approach to product development. They will learn to set up quantitative requirements and then use a quantitative rating process to identify the critical requirements relating to the desired product. The interaction between design, manufacturing, assembly, cost, and supportability will be covered. The students will form teams and practice the concurrent engineering process for simple products. Prerequisites: Mech Eng 3313 or Aero Eng 3131, and Civ Eng 2210. (Co-listed with Aero Eng 5715)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5757  Integrated Product And Process Design (LEC 3.0)",
+        "description": "Emphasize design policies of concurrent engineering and teamwork, and documenting of design process knowledge. Integration of product realization activities covering important aspects of a product life cycle such as \"customer\" needs analysis, concept generation, concept selection, product modeling, process development, and end of product life options. Prerequisites: Junior or above standing. (Co-listed with ENG MGT 5515)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5760  Probabilistic Engineering Design (LEC 3.0)",
+        "description": "The course deals with uncertainties in engineering analysis and design at three levels - uncertainty modeling, uncertainty analysis, and design under uncertainty. It covers physics-based reliability analysis and reliability-based design, robustness assessment and robust design, their integration with design simulations, and their engineering applications. Prerequisite: Mech Eng 3708 or Aero Eng 3361. (Co-listed with Aero Eng 5760)."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5761  Engineering Design Methodology (LEC 3.0)",
+        "description": "This course examines structured engineering design theory and methodologies for conceptual design and redesign of products. Topical coverage includes customer needs gathering, functional modeling, engineering specifications creation (OFD), concept generation, selection and design embodiment. Team work/hands-on projects emphasized. Prerequisite: At least Senior standing in engineering."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5763  Computer Aided Design: Theory and Practice (LAB 1.0 and LEC 2.0)",
+        "description": "Lectures cover the fundamentals of computer-aided design with emphasis on geometric modeling of curves, surfaces and solids, CAD/CAM data exchange, and computer graphics. In the lab session, students practice with commercial CAD/CAM systems including NX and SolidWorks to gain practical experience. Prerequisites: Comp Sci 1570 or Comp Sci 1970 or Comp Sci 1971 or Comp Sci 1972; Mech Eng 2761; Math 2222; at least Junior standing."
+    },
+    {
+        "subject_id": 39,
+        "department_id": 17,
+        "subject_code": "MECH ENG",
+        "subject_name": "Mechanical Engineering",
+        "course": "MECH ENG 5830  Applied Computational Methods (LEC 3.0)",
+        "description": "Detailed study of computational methods for efficient solution of selected fluids, structures, thermodynamics, and controls problems in aerospace and mechanical engineering. Besides basic numerical techniques, topics covered include gradient-based optimization and uncertainty quantification. Prerequisite: Comp Sci 1570 or Comp Sci 1970 or Comp Sci 1971 or Comp Sci 1972; Math 3304. (Co-listed with Aero Eng 5830)."
+    }
+]

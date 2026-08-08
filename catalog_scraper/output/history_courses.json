@@ -1,0 +1,594 @@
+[
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 1100  Early Western Civilization (LEC 3.0)",
+        "description": "Growth and development of ideas and institutions of western culture from prehistoric man to the voyages of discovery. HISTORY 1100 - MOTR WCIV 101: Western Civilization I"
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 1200  Modern Western Civilization (LEC 3.0)",
+        "description": "A continuation of History 1100 to the present with special emphasis on the philosophical, political, social, and economic backgrounds of modern society. HISTORY 1200 - MOTR WCIV 102: Western Civilization II"
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 1300  American History To 1877 (LEC 3.0)",
+        "description": "Survey of the history of the American colonies and United States from colonial times through Reconstruction. HISTORY 1300 - MOTR HIST 101: American History I"
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 1310  American History Since 1877 (LEC 3.0)",
+        "description": "Survey of the history of America since Reconstruction. HISTORY 1310 - MOTR HIST 102: American History II"
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 1790  Introduction to History (LEC 1.0)",
+        "description": "This required course for history majors will introduce them to the study of history, the various fields of history, and the current faculty. The course will also introduce students to the research methods of historians."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 2000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 2001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 2110  World Regional Geography (LEC 3.0)",
+        "description": "An introduction to the distinguishing cultural and physical characteristics of the major regions of the world. Emphasis on the political problems within the regions and the contemporary issues involved. HISTORY 2110 - MOTR GEOG 101: World Regional Geography"
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 2220  Making Of Modern Britain (LEC 3.0)",
+        "description": "A survey of modern Britain from the era of Restoration and Glorious Revolution (1660-1689) to the present. Major themes include the social, intellectual, cultural, political and economic aspects of modern and contemporary Britain. Prerequisite: History 1200 or History 1300 or History 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 2221  Making of Modern Germany (LEC 3.0)",
+        "description": "A survey of modern Germany from 1815 through the present. Major themes include social, intellectual, cultural, political, and economic aspects of modern and contemporary Germany, with emphasis on developments during the twentieth century. Prerequisite: History 1200 or History 1300 or History 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 2222  The Making Of Modern France (LEC 3.0)",
+        "description": "A survey of modern France from the era of Louis XIV (1660-1715) to the present. Major themes include the social, intellectual, cultural, political and economic aspects of modern and contemporary France. Prerequisite: History 1100 or History 1200."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 2224  Making Of Modern Russia (LEC 3.0)",
+        "description": "A survey of modern Russia from the era of \"Westernization\" and Peter the Great (1660-1725) to the present. Major themes include the social, intellectual, cultural, political and economic aspects of modern and contemporary Russia, with emphasis on the Soviet period. Prerequisite: History 1100 or History 1200 or History 1300 or History 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 2430  History of the American Pacific (LEC 3.0)",
+        "description": "This course examines United States expansion into the Pacific as an extension of 19th century Manifest Destiny. Emphasizing American Pacific possessions, the course includes a historical, political, geographical, and cultural look at the islands from 1800 to the present. Prerequisite: History 1300 or History 1310 or History 1200."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 2510  History of Technology (LEC 3.0)",
+        "description": "Technological achievements from prehistoric times to present; topics include agriculture, building and construction, communications, transportation, power sources, the Industrial Revolution, relationships between science and technology, factors in invention and innovation and sociocultural effects. Prerequisite: History 1100 or 1200 or 1300 or 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 2791  Historical Research Methods (LEC 3.0)",
+        "description": "The course focuses on methodology and teaches the skills historians use through hands-on activities and assignments. Students learn to critically evaluate primary documents, conduct good historical research, write analytical essays, and correctly cite sources. Prerequisites: History 1100, History 1200, History 1300, or History 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3010  Seminar (IND 0.0-6.0)",
+        "description": "Discussion of current topics."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3125  Ancient Rome (LEC 3.0)",
+        "description": "Rome 509 B.C. to 337 A.D. The Roman world from the founding of the Republic through the reign of constantine. Special emphasis is on the transformation of classical culture during the Republic and Imperial age. Prerequisite: History 1100 or History 1200 or History 1300 or History 1310 or Pol Sci 1200."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3130  Medieval History I (LEC 3.0)",
+        "description": "The Early Middle Ages, 284 A.D.-753 A.D., transition from ancient to Medieval civilization. The fundamental differences between Roman and Medieval ideas, institutions and life. The triumph of Christianity, the conditions which made this triumph possible and its role in the development of Western Europe. Prerequisite: History 1100 or History 1200 or History 1300 or History 1310 or Pol Sci 1200."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3135  Medieval History II (LEC 3.0)",
+        "description": "Medieval Civilization, 11th-13th centuries. The transition from Medieval to Modern world, developments in the political, social and economic institutions of the Medieval world and their enduring effect on Western European Civilization, conflict of faith and reason during this period. Prerequisite: History 1100 or History 1200 or History 1300 or History 1310 or Pol Sci 1200."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3140  History Of Renaissance Thought (LEC 3.0)",
+        "description": "Concentrates on the political, religious, and social thought of the Renaissance. Particular emphasis on the revival of the classics, the spread of humanistic values, and reform efforts during the period with relationship to the material basis of society. Prerequisite: History 1100 or History 1200 or History 1300 or History 1310 or Pol Sci 1200."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3150  Tudor and Stuart England (LEC 3.0)",
+        "description": "A study of England 1485 - 1689 covering the social, political, religious, and cultural developments. Prerequisite: History 1100 or History 1200 or History 1300 or History 1310 or Pol Sci 1200."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3200  History of Eastern Europe (LEC 3.0)",
+        "description": "This course surveys the history of Eastern Europe from the 17th century to the present, with special emphasis on the politics of nationalism, the Second World War, and the socialist era. In addition, it will explore the region’s cultural diversity through literature, film, games, and cuisine. Prerequisites: History 1100 or History 1200 or History 1300 or History 1310 or Pol Sci 1200."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3230  Europe In The Age Of The French Revolution And Napoleon (LEC 3.0)",
+        "description": "An in-depth examination of the causes, courses and results of the French Revolution and the Napoleonic Era (1789-1815). The impact of the age of the French Imperium upon European economic, diplomatic, intellectual, political and social development. Prerequisite: History 1100 or History 1200."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3235  Foundations Of Contemporary Europe 1815-1914 (LEC 3.0)",
+        "description": "Europe after Napoleon, development of democracy and nationalism, revolutionary movements and leaders, unification of Italy and Germany, national developments of the major powers and the road to the First World War are the bases of this course. Prerequisite: History 1100 or History 1200 or History 1300 or History 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3240  Contemporary Europe (LEC 3.0)",
+        "description": "First World War, the Versailles Peace Settlement and its aftermath, the Soviet, Fascist and Nazi revolutions and regimes, Western culture between the wars, the Second World War, the age of the atom and Cold War. Prerequisite: History 1200 or History 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3241  World War I A Global Perspective (LEC 3.0)",
+        "description": "This course traces the social, cultural, economic, and military factors that contributed to the First World War, accounts for why it continued for so long, and explains the aftermath during the 1920s and 1930s from a global, not just a European or American perspective.Prerequisites: History 1200 or History 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3280  European Migrations and Nationalism Formation (LEC 3.0)",
+        "description": "Analyzes migration patterns into, out of, and within Europe in context of global population movements from Roman Empire through the present. Students will learn to analyze and synthesize factors involved in these movements and correlations to personal and national identity formations. Prerequisites: History 1100 or History 1200 or History 1300 or History 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3320  Colonial America (LEC 3.0)",
+        "description": "Political and social trends in America to 1754. Emphasis placed upon native American culture, Spain and France in America, population trends, family, religion, class structure, economic change, social conflict, and the development of individualism in early America. Prerequisite: History 1300."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3321  Religion And Witchcraft In Early America (LEC 3.0)",
+        "description": "An examination of the role of occult ideas and practices in the religious life of early Americans. Emphasis placed upon Puritan beliefs which contributed to seventeenth century effort to eradicate witchcraft. Prerequisite: History 1300 or History 1200."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3325  Revolutionary America, 1754-1789 (LEC 3.0)",
+        "description": "An examination of the causes and consequences of the American Revolution. Emphasis placed upon the social conditions in America which contributed to both the Revolution and the writing of the 1787 Constitution. Prerequisite: History 1300."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3340  Age Of Jefferson And Jackson (LEC 3.0)",
+        "description": "Economic, political, social and constitutional development of the early American republic; the Federalist and Jeffersonian periods, Jacksonian Democracy, rise of sectionalism. Emphasis placed on historical interpretation and historiography of the period. Prerequisite: History 1300."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3345  Civil War And Reconstruction (LEC 3.0)",
+        "description": "Lecture, discussion and readings on the causes and consequences of the American Civil War. Focuses on the prewar North-South sectional rivalry: impact of the war on American society, government and politics. Reconstruction including the development of racial crisis in United States history. Prerequisite: History 1100 or History 1200 or History 1300 or History 1310 or Pol Sci 1200."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3360  Recent United States History (LEC 3.0)",
+        "description": "Examines America's modern age including the New Era, the New Deal, Internationalism, post-war affluence, the post-industrial era as well as the cultural, intellectual, social and technological features of American society from 1920 to the present. Prerequisite: History 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3420  History Of Missouri (LEC 3.0)",
+        "description": "Survey of Missouri's political, social, economic and cultural development from the beginning of settlement to the present. Prerequisite: History 1300 or 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3425  History Of The Old South (LEC 3.0)",
+        "description": "Analysis of the southern region of the United States between 1607-1861 with emphasis on economic, social, political, intellectual, and racial themes. Prerequisite: History 1300."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3426  History Of The Modern South (LEC 3.0)",
+        "description": "Analysis of the southern region of the United States between 1877 and the present with emphasis on economic, social, political, intellectual, and racial themes. Prerequisite: History 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3440  Grunts: 20th Century Americans In Combat (LEC 3.0)",
+        "description": "Through lectures, films, readings, exams, film reviews and discussions, this course examines the American military and combat experience throughout much of the twentieth century. The ultimate goal of the course is for students to understand the realities of warfare and its effect on ordinary Americans as well as American society. Prerequisite: History 1100 or History 1200 or History 1300 or History 1310 or Pol Sci 1200."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3441  The United States In World War II (LEC 3.0)",
+        "description": "Through lectures, readings and film this course will explore the American experience in World War II. The course will particularly focus on the war's American major battles along with the war's effect on Americans in combat and on the home front. Prerequisite: History 1100 or History 1200 or History 1300 or History 1310 or Pol Sci 1200."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3442  The United States in Vietnam (LEC 3.0)",
+        "description": "Through lecture, film and readings, this course examines the American experience in the Vietnam War. The course covers the causes and consequences of the war as well as its effect on those who fought and on American society as a whole. There is a special emphasis on the realities of combat and the war's impact on individual Americans. Prerequisite: History 1100 or History 1200 or History 1300 or History 1310 or Pol Sci 1200."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3443  The American Military Experience (LEC 3.0)",
+        "description": "A study of American military history, strategy, policy and institutions from the colonial period to the present. War will be viewed in the mainstream of history with emphasis on the American Revolution, the Civil War, and the 20th century conflicts. Prerequisite: History 1100 or History 1200 or History 1300 or History 1310 or Pol Sci 1200."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3510  Twentieth Century Technology And Society (LEC 3.0)",
+        "description": "An investigation of technological achievements since 1900 and their effects on society. Topics include: education in a technological society, technology and the state, the individual and the environment, cybernation, agriculture, scientific and industrial research. Prerequisite: History 1200 or 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3530  History of Science (LEC 3.0)",
+        "description": "A study of the history of science focusing on the leading conceptual developments within science, the scientific revolution, and science's role in society. Prerequisite: History 1100 or History 1200 or History 1300 or History 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3534  History of Medieval and Early Modern Science (LEC 3.0)",
+        "description": "A history of developments in science during the medieval and early modern periods, covering the influence of Islamic thought on Western science, the twelfth-century rediscovery of Aristotle and other ancient scientific texts, advances in the Renaissance, and the Scientific Revolution. Prerequisites: History 1100."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3600  World History (LEC 3.0)",
+        "description": "This is an introductory survey of world history, by which is meant an overview of major processes and interactions in the development of human society since the appearance of hominids ca. 3 million years ago. It emphasizes global patterns and connections in political, social, cultural, and economic history, and adopts a global geographical perspective. Prerequisites: History 1100 or History 1200 or History 1300 or History 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3625  Slavery and Abolition in Atlantic World (LEC 3.0)",
+        "description": "This course explores the role of slavery in the history of the Americas, Europe, and Africa. Focusing on the development of \"New World Slavery,\" students will be able to critique the extent to which Atlantic slavery influenced the history of race, capitalism, and liberty in the early modern period. Prerequisites: History 1100 or History 1200 or History 1300 or History 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3660  Modern East Asia (LEC 3.0)",
+        "description": "An analysis of the history of East Asia in the nineteenth and twentieth centuries. Topics include: social, historical, and intellectual traditions; imperialism and its impact; and the effects of World War II on Modern East Asia. Prerequisite: History 1200 or History 1300 or History 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3665  History of Japan (LEC 3.0)",
+        "description": "This course covers the history of modern Japan from 1600 to the present and includes Japan's political, social, and cultural/intellectual history. Prerequisite: History 1200 or History 1300 or History 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3722  Kings, Queens, and Guillotines: History of Music in the Enlightenment and Beyond (LEC 3.0)",
+        "description": "Examines the development of Western art music from the 18th century to the present. The lives of significant composers, as well as the political and social trends that shaped their careers, will also be studied. Score reading required, but prior music experience is not necessary. Prerequisites: History 1200 or English 1120 or Music 1150 or consent of instructor. (Co-listed with Music 3252)."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3723  History of Music in Film (LEC 3.0)",
+        "description": "This course takes an in depth look into the world of film music and the composers who make it. We will discuss what techniques comprise a great film score and what traits and come back again and again. Together we will take a journey from the first film score in 1933 all the way to the present, visiting many important films and figures along the way. Prerequisites: Sophomore standing. (Co-listed with Music 3253)."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3760  The American Presidency (LEC 3.0)",
+        "description": "Historical development of the presidency; emphasis on the constitutional powers and limits of the office and the political contextual variables which influence presidential behavior. Prerequisite: Pol Sci 1200 or History 1300 or History 1310. (Co-listed with Pol Sci 3760)."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3762  American Foreign Policy Since 1945 (LEC 3.0)",
+        "description": "Addresses the major issues in American foreign policy from WWII to the present with primary focus on problems during the Cold War and the post-Cold War era, including the emergence of the national security state. Prerequisite: History 1310 or Pol Sci 1200. (Co-listed with Pol Sci 3762)."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 3763  Contemporary Political Thought (LEC 3.0)",
+        "description": "This course will explore the impact of ideas on American politics and history, including the relationship between technological change and public policy; this will be pursued through the study of American political history, social institutions, and intellectual history. Prerequisite: History 1300 or History 1310 or Pol Sci 1200. (Co-listed with Pol Sci 3763)."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 4001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 4010  Seminar (RSD 0.0-6.0)",
+        "description": "Discussion of current topics. Prerequisite: Senior standing."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 4085  Internship (IND 0.0-6.0)",
+        "description": "Internship will involve students applying critical thinking skills and discipline specific knowledge in a work setting based on a project designed by the advisor and employee. Activities will vary depending on the student's background and the setting. Prerequisites: Senior status; must have completed 24 hours in major."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 4097  Senior Project (LEC 3.0)",
+        "description": "History majors (or Political Science minors) interested in graduate school or professional school, such as law school, should complete an extended research project, or thesis, under the supervision of a department faculty member. Prerequisites: History 2791 and senior standing. (Co-listed with Pol Sci 4097)."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 4145  The Reformation (LEC 3.0)",
+        "description": "An examination of the backgrounds, events, ideas, and impact of the Reformation in Europe. Emphasis on the competing ideas of the reformers as well as on the Reformation's long-term social, cultural, and political impact. Prerequisite: History 1100 or History 1200 or History 1300 or History 1310 or Pol Sci 1200."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 4245  Nazi Germany and the Holocaust (LEC 3.0)",
+        "description": "This course focuses on the rise of Nazism and its consequences for politics, society, and culture in Europe. The period's history will be examined from the perspective of perpetrators, victims, and bystanders with emphasis on the Holocaust and its legacy. Prerequisite: History 1200 or History 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 4246  War and Society in Twentieth-Century Europe (LEC 3.0)",
+        "description": "This course explores individuals' experiences in France and Germany between 1914 and 1945. Ideas about society changed in the twentieth century due to war; these changes were reflected in politics and changed relationships between men and women. Seminar-style course. Prerequisite: History 1200 or History 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 4410  Native American History (LEC 3.0)",
+        "description": "This course surveys the vibrant field of North American Indian History from first contact with Europeans until the activism of the 1970s. Prerequisite: History 1300 or History 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 4435  History of the American West (LEC 3.0)",
+        "description": "This class examines the American settlement of the Trans-Mississippi West. Areas to be considered include cattle, mining, exploring, women, and Native Americans. Traditional and contemporary views of the American West will be analyzed. Prerequisite: History 1300 or History 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 4470  American Environmental History (LEC 3.0)",
+        "description": "This class discusses the impact of human interactions with the physical environment and the natural world's influence on human civilizations with emphasis on the 19th and 20th centuries. Prerequisite: History 1200 or History 1300 or History 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 4550  Architecture, Technology and Society; 1750 to Present (LEC 3.0)",
+        "description": "This course investigates the relationships between architecture and technology and, as a consequence, architecture's impact on modern culture and society. Topics include; the industrial revolution, housing styles, new materials, Bauhaus and international style, and post-modern architecture. A field trip to Chicago is an integral part of the course. Prerequisites: History 1100 or History 1200 or History 1300 or History 1310 or Pol Sci 1200. Recommended: Junior or Senior Standing. Recommended for Arch Eng majors: Art 3203 taken prior to course."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 4551  Chicago: Architecture, Technology, Culture (LEC 3.0)",
+        "description": "This course examines the history of modern architecture, including the technological, social, economic, political and cultural dialog by using the city of Chicago as a text. Students will live and have class in the city and tour multiple historic and architectural sites. This is an immersive urban architectural experience for students. Prerequisites: History 1200 or History 1300 or History 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 4580  Issues in Science, Technology and Society (LEC 3.0)",
+        "description": "Interdisciplinary course introducing students to the main themes of Science and Technology Studies (STS). Using historical and current examples, they will critically analyze the influence of social groups on the development of science and technology and the effects of science and technology on society. (Co-listed with PHILOS 4580)."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 4760  China's Rise to Superpower (LEC 3.0)",
+        "description": "This course examines China's tumultuous rise since 1900 from a crumbling agrarian empire to a global leader in twenty-first century technology. Adopting a political economy perspective, the course addresses the intertwining of politics and technology in historical context and traces the country's pursuit of prosperity and security through profound transformations. The course examines China's transitions from empire to republic to people's republic, from a command economy to a form of state capitalism, and from traditional authoritarianism to digital authoritarianism. Diverse sources and materials, spanning video, texts, and images, set China's domestic transformations in regional and global context. Prerequisites: History 1100 or History 1200 or History 1300 or History 1310 or Pol Sci 1200. (Co-listed with Pol Sci 4760)."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 4790  Historiography (LEC 3.0)",
+        "description": "Historical interpretation from Herodotus to the present. Emphasis will be placed on reading the works of prominent historians in analyzing the major developments in historical writing. Serves as capstone course. Prerequisite: History 2791 and junior or senior standing."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 4792  Historical Representation in Video Games (LEC 3.0)",
+        "description": "This course explores video games as a medium for representing the past. By playing, watching, and analyzing a wide array of games, including popular series, students will learn core concepts in historiography and the philosophy of history. No previous gaming experience required. Prerequisites: History 1100, History 1200, History 1300, or History 1310."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 5003  Readings In American History Since 1865 (IND 3.0-5.0)",
+        "description": "Directed readings and writing on selected topics and areas in American History since 1865. Prerequisites: Graduate standing and consent of instructor."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 5004  Readings In European History To 1715 (IND 3.0-5.0)",
+        "description": "Directed readings and writing on selected topics and areas in European History to 1715. Prerequisites: Graduate standing and consent of instructor."
+    },
+    {
+        "subject_id": 18,
+        "department_id": 7,
+        "subject_code": "HISTORY",
+        "subject_name": "History",
+        "course": "HISTORY 5005  Readings In European History Since 1715 (IND 3.0-5.0)",
+        "description": "Directed readings and writing on selected topics and areas in European History since 1715. Prerequisites: Graduate standing and consent of instructor."
+    }
+]

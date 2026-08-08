@@ -1,0 +1,466 @@
+[
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 1100  Introduction to Psychology (LEC 1.0)",
+        "description": "An introduction to the study of psychology at S&T. Students will learn about personal and professional opportunities associated with the different areas of psychology and become acquainted with the psychology faculty and campus facilities."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 1101  General Psychology (LEC 3.0)",
+        "description": "An introduction to the science of the human mind and behavior. Topics include brain structure and function, human development, learning and memory, motivation, emotion, personality and psychological health, psychological disorders and their treatment, and social cognition and human relationships. PSYCH 1101 - MOTR PSYC 100: General Psychology"
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 2000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 2001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 2200  Research Methods (LAB 1.0 and LEC 3.0)",
+        "description": "An introduction to the content, models and methodologies of psychological research. This course covers the fundamental components of psychological research including the literature review, correlational and descriptive methods, experimental design, statistical analyses, interpretation, and ethics. Prerequisites: Psych 1101; Stat 1115 or Stat 3113. Stat 1115 preferred."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 2300  Educational Psychology (LEC 3.0)",
+        "description": "Principles of psychology relevant to the field of education. Course covers theoretical and applied information on such topics as human growth and development, and cognitive and behavioral views of learning and intelligence. The course also covers motivation, creation of learning environments, measurement and evaluation of learning. Prerequisite: Either Psych 1101 (psychology majors) or Educ 1074 (teacher education program). (Co-listed with Educ 2102)."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 3000  Special Problems In Psychology (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 3001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 3310  Developmental Psychology (LEC 3.0)",
+        "description": "A study of human growth and development across the lifespan. The course emphasizes the interaction of physical, psychological, and social changes and their resulting impact on the developing person at all stages in life. Prerequisite: Psych 1101. PSYCH 3310 - MOTR PSYC 200: Lifespan Human Development"
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 3311  Psychological & Educational Development Of The Adolescent (LEC 3.0)",
+        "description": "An examination of the biological, social, and cognitive transitions that occur during adolescence. Other topics include the role of families, the role of peers, the adolescent identity, sexuality, the impact of schools, the role of achievement, how adolescents spend their time (work, leisure), the role of the media, and problems encountered by the adolescent. Prerequisite: Either Psych 1101 (psychology majors) or Educ 1074 (teacher education program)."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 3400  Theories Of Learning (LEC 3.0)",
+        "description": "An examination of basic learning processes and the behavioral phenomena that arise from them. Topics include non-associative learning, classical conditioning, operant conditioning, and vicarious learning. Prerequisite: Psych 1101."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 3501  Drugs and Behavior (LEC 3.0)",
+        "description": "An introduction to the behavioral effects of drugs. A broad range of topics are covered including the 1) History of therapeutic and recreational drug use and abuse 2) Consequences of drug abuse and addiction 3) Behavioral, psychological, and physiological effects of drugs 4) Research methods used to study drugs 5) Effective treatments for drug problems. Prerequisites: Psych 1101."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4000  Special Problems And Readings In Psychology (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4010  Seminar (RSD 0.0-6.0)",
+        "description": "Prerequisite:  Senior Standing."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six credit hours allowed for graduation credit. Subject and credit to be arranged with the instructor. Prerequisite: Instructor consent."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4200  Tests and Measurements (LEC 3.0)",
+        "description": "Theoretical and statistical basis of psychological testing and measurement; test development and validation; examination of standardized tests of intelligence, aptitude, interest, personality, attitudes, and psychopathology; use of test and test batteries for diagnostics and prediction of criteria. Prerequisite: Psych 1101."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4310  Psychology Of The Exceptional Child (LEC 3.0)",
+        "description": "Study of the psychology of children on both ends of the educational spectrum. The course presents the fundamentals of providing services as well as understanding the abilities and disabilities of children classified as exceptional. Includes coverage of various disabilities, and the implications of dealing with personal, family and classroom issues. Prerequisite: Either Psych 1101 (psychology majors) or Educ 1074 (teacher education program)."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4340  Assessment of Student Learning (LEC 3.0)",
+        "description": "Students will learn to evaluate assessments for validity and reliability. Students will develop formative and summative assessments aligned with learning outcomes. Writing quality rubrics and universal design will be introduced. Students will analyze data to make instructional decisions and learn to evaluate vendor assessments. Prerequisites: Educ 1074. (Co-listed with Educ 3340)."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4400  Cognitive Psychology (LEC 3.0)",
+        "description": "This course covers basic cognitive processes and their application. Theory and research are presented on attention, perception, memory, problem solving, decision making and language. Prerequisite: Psych 1101."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4410  Neuroscience (LEC 3.0)",
+        "description": "The neurophysiological bases of behavior and cognition are examined. Topics covered include neuroanatomy, neurotransmission, neuropharmacology, brain systems, learning and memory, emotion, attention and consciousness, and neurologic/psychological disorders. Prerequisite: Psych 1101."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4411  Sensation and Perception (LEC 3.0)",
+        "description": "An in-depth examination of the human senses, with special emphasis on vision and hearing. Topics include the anatomy and physiology of the eye and ear, neural transduction, the organization and interpretation of sensory signals by the brain, selective attention, and the neural basis of the perception of color, form, space, depth, motion, music, and language.  Prerequisite: Psych 1101."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4500  Personality Theory (LEC 3.0)",
+        "description": "An examination of the ways in which personality traits develop and the sources of differences among people in the traits they exhibit. The emphasis is on major theories of personality development, as well as recent research in the field. Prerequisite: Psych 1101."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4501  Abnormal Psychology (LEC 3.0)",
+        "description": "An introductory study of various forms of personality and behavioral disorders. Consideration will be given to neurosis, psychosis, mental deficiency and other deviations, with emphasis on etiology and treatment. Prerequisite: Psych 1101."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4510  Clinical Psychology (LEC 3.0)",
+        "description": "Comprehensive survey of the field of clinical psychology. Course will cover a variety of assessment and treatment procedures relevant to psychology and other professionals who treat human adjustment problems; techniques based on experimental outcome research and psychological testing will be emphasized. Prerequisites: Psych 1101 and Psych 4501."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4590  Health Psychology (LEC 3.0)",
+        "description": "This course examines Health Psychology. Topics include basic behavioral pharmacology (involving alcohol and other drugs), illusions of invulnerability to risk, stress and coping, and the science of persuading people to protect their health. Students learn how to construct a public service announcement towards a societal problem as part of the course. Prerequisite: Psych 1101."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4600  Social Psychology (LEC 3.0)",
+        "description": "An exploration of the phenomena involved in human social behavior and the theories that explain them. Topics typically include social thinking, attitudes and attitude change, conformity, persuasion, interpersonal attraction, and more. Prerequisite: Psych 1101."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4601  Group Dynamics (LEC 3.0)",
+        "description": "A review of the concepts and theories related to group dynamics. Topics include group goals, communication within groups, group structure, norms, leadership, decision making, controversy, conflict resolution, power, diversity issues, and team development. Prerequisite: Psych 1101."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4602  Organizational Psychology (LEC 3.0)",
+        "description": "Analysis, comprehension, and prediction of human behavior in organizational settings through the scientific study of individual processes, group processes, and organizational structure and function. Prerequisite: Psych 1101."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4610  Psychology of Leadership in Organizations (LEC 3.0)",
+        "description": "Examination of conceptual and empirical research on determinants of effective vs. ineffective leadership. Topics include leadership measurement, traits, skills, leader-member exchange, charismatic and transformational leadership, change management, team leadership, and ethical leadership. Practical guidelines for developing leadership skills are discussed. Prerequisite: Psych 1101."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4700  Industrial Psychology (LEC 3.0)",
+        "description": "An overview of the field of industrial psychology including topics such as criterion development, job analysis, selection, training, performance assessment, and some human factors concerns. Prerequisite: Psych 1101."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4710  Human Factors (LEC 3.0)",
+        "description": "An examination of human-machine systems and the characteristics of people that affect system performance. Topics include applied research methods, systems analysis, and the perceptual, cognitive, physical and social strengths and limitations of human beings. The focus is on user-centered design of technology, particularly in manufacturing environments. Prerequisite: Psych 1101. (Co-listed with Eng Mgt 4330)."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4720  Psychology of Social Technology (LEC 3.0)",
+        "description": "This course covers research, theory, and practice from psychology and other social science disciplines for understanding the use of, interactions with, and interactions through computers and other technology. This course introduces students to the psychological and social issues involving personal, work, and societal use of technology. Prerequisite: Psych 1101."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4730  Environmental Psychology (LEC 3.0)",
+        "description": "An examination of the psychological effects of various environmental designs and ways to design environments effectively. Topics include: environmental attitudes, perception, and cognition; environmental influences, crowding, and the application  of environmental design principles to living, educational, work, and recreational settings. Prerequisite: Psych 1101."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4990  Internship (IND 0.0-6.0)",
+        "description": "Internship will involve students applying critical thinking skills and discipline specific knowledge in a work setting based on a project designed by the advisor and employee. Activities will vary depending on the student's background and the setting. Prerequisite: Junior or Senior Psychology major; consent of instructor; must have completed 9 hours in major."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4992  Cross-Cultural Psychology (LEC 3.0)",
+        "description": "Study of the impact of ethnic and national culture on psychological processes and behaviors. Topics include the effects of individualism and collectivism on patterns of socialization, personality, motivation, emotion and cognition; cultural differences in diagnosis and treatment of mental and physical health; and group and organizational behavior. Prerequisite: Psych 1101."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4993  Psychology of Gender (LEC 3.0)",
+        "description": "Overview of current research and theory on the psychology of gender. The course explores gender as a psychological and social construct that influences women's and men's lives across a variety of contexts including work, family, relationships, self-perceptions, and health. Considers how gender intersects with other social categories to shape experience. Prerequisite: Psych 1101."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 4995  Rationality (LEC 3.0)",
+        "description": "This course will discuss the various ways our natural thinking style can lead us to make reasoning errors and how we can try to do better. Our focus will be on using results from Cognitive Psychology to improve our everyday lives, doing various hands-on projects throughout the semester. (Co-listed with Philos 4884)."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 5001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new graduate level course. Variable title."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 5010  Seminar for Industrial / Organizational Psychology (RSD 3.0)",
+        "description": "A seminar course for general overviews of the most recent research in Industrial-Organizational Psychology. Prerequisite: Graduate standing."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 5012  Ethics and Professional Responsibilities (LEC 1.0)",
+        "description": "Case studies examining the ethical practice of psychology in organizations will be discussed. This will include covering both the legal and ethical standards surrounding the consulting and practice of I-O psychology and personnel management in organizations. Prerequisite: Graduate standing."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 5020  Introduction to Industrial-Organizational Psychology (LEC 3.0)",
+        "description": "Review of the most recent theoretical and applied research in advanced personnel and organizational psychology. Topics will include personnel selection, training and performance appraisal, job attitudes, motivation, work groups and teams, leadership, organizational culture, and organizational development. Prerequisites: Graduate Standing."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 5040  Oral Examination (IND 0.0)",
+        "description": "(Variable) After completion of all other program requirements, oral examinations for on-campus M.S./PH.D students may be processed during intersession. Off-campus M.S. students must be enrolled in oral examination and must have paid an oral examination fee at the time of the defense/comprehensive examination (oral/written). All other students must enroll for credit commensurate with uses made of facilities and/or faculties. In no case shall this be for less than three (3) semester hours for resident students."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 5200  Theories and Practice of Psychological Measurement (LEC 3.0)",
+        "description": "An overview of psychological tests and batteries used in a variety of disciplines.  An emphasis is placed on the proper development and use of these tests and test batteries.  Tests examined will include tests of intelligence, aptitude, personality, and psychopathology. Prerequisite: Psych 4200 or graduate standing."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 5201  Psychometrics (LEC 3.0)",
+        "description": "An examination of statistical methods used to develop and refine measures of human performance, aptitudes, and personality. Topics include reliability and validity, data reduction, measuring inter-relationships among variables (e.g., factor analysis, multiple regression), and testing group differences. Prerequisite: Psych 5202."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 5202  Applied Psychological Data Analysis (LEC 3.0)",
+        "description": "This course will focus on those statistical methods most useful for advanced research in psychology. We will learn to use R, a powerful, open-source statistical programming platform, and work through examples with psychological data sets including such techniques as correlation, ANOVAs, regression, and chi-squared. Prerequisite: Graduate standing."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 5210  Advanced Research Methods (LEC 3.0)",
+        "description": "Research methods and techniques, with an emphasis on conducting psychological research in organizational settings. Topics discussed include: ethics, reliability and validity in measurement and application, proper uses of experimental, quasi-experimental, and survey methodologies, as well as advanced methodologies IRT, SEM, HLM, and Meta-Analyses. Prerequisite: Graduate standing."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 5211  Research Methods in Cognition & Neuroscience (LEC 3.0)",
+        "description": "The course focuses on methodological approaches essential for investigating cognitive processes and neural mechanisms, integrating theoretical foundations with practical skills. Students will explore a range of quantitative and qualitative research methods applicable to studying cognition and neuroscience, including experimental designs, neuroimaging techniques (e.g., fMRI, EEG/ERP, PET), psychophysiological measures, computational modeling, and observational methods. Emphasis is placed on methodological considerations specific to cognitive neuroscience. Prerequisites: Graduate standing."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 5400  Advanced Cognition (LEC 3.0)",
+        "description": "This course covers advanced discussion of cognitive processes and their application. Theory and research are presented on attention, perception, memory, problem solving, decision-making and language. Prerequisites: Graduate standing."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 5600  Advanced Social Psychology (LEC 3.0)",
+        "description": "An advanced study of the behavior of individuals in interaction within groups. Consideration will also be given to the experimental literature dealing with the formal properties of groups, conformity and deviation, intergroup relations, and attitude formation and attitude change. Prerequisite: Psych 4600 or graduate standing."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 5601  Small Group Dynamics (LEC 3.0)",
+        "description": "This course covers group perception, identification, leadership, structure, conflict, cohesion, commitment, performance, norms, roles, influence, and decisions, and groups' relations, networks, and work teams. Students consider both theory and applications to their lives and organizations through observational, research, team and applied assignments. Prerequisite: Psych 4601 or graduate standing."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 5602  Organizational Development (LEC 3.0)",
+        "description": "Examination of the field of organizational development theories and interventions. An emphasis is placed on research methods and application of practices related to individual processes, group processes, and organizational structures and functions that impact change and development strategies and interventions. Prerequisite: Psych 4602 or graduate standing."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 5603  Advanced Social Influence (LEC 3.0)",
+        "description": "An in-depth review of the principles and procedures that affect the process of social influence, with consideration given to attitudinal, compliance inducing, and perceptual influences. Students will consider the theoretical implications and practical applications of topics in social influence in the form of independent reading, research proposals and/or projects, and observational assignments.  Prerequisites: Graduate standing."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 5604  Advanced Diversity Science (LEC 3.0)",
+        "description": "This course examines social psychological theory and research on barriers and opportunities for promoting diversity, equity, and inclusion in organizations. The course takes a sociocultural approach to understand the psychological mechanisms of stereotyping, bias, and stigma, as well as strategies (and pitfalls) for creating inclusive and equitable communities. Although diversity science is multidisciplinary, this course is grounded in psychological theory and research, drawing primarily from industrial/organizational, organizational behavior, and social psychological literatures. Prerequisites: Graduate standing."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 5700  Job Analysis and Performance Management (LEC 3.0)",
+        "description": "A focus on the scientific measurement of job performance. An in-depth discussion of the science and methods of appropriate job and task analysis will be discussed. Additionally, students will focus on current issues in performance management and appraisal including scientific findings related to both objective and subjective measures of performance. Prerequisite: Psych 4700 or graduate standing."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 5710  Advanced Human Factors (LEC 3.0)",
+        "description": "An in-depth review of the foundations of human factors, focusing on the interaction of people with various forms of technology in a variety of environments. Topics include research and evaluation methods, displays (e.g., visual, auditory), attention and information processing, decision making, motor skills, anthropometry, and biomechanics. (Co-listed with ENG MGT 5330)."
+    },
+    {
+        "subject_id": 22,
+        "department_id": 10,
+        "subject_code": "PSYCH",
+        "subject_name": "Psychology",
+        "course": "PSYCH 5740  Occupational Health and Safety (LEC 3.0)",
+        "description": "This course will cover the ethical, legislative, technical, behavioral and management aspects of health and safety practices in human resources. Topics include workplace safety, ergonomics, accident investigation, occupational stress, government regulatory agencies, employee assistance programs, wellness programs, and behavioral based safety. Prerequisites: Graduate standing."
+    }
+]

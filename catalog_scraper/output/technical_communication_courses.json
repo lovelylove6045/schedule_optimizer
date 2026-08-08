@@ -1,0 +1,282 @@
+[
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 1600  Introduction to Technical Communication (LEC 3.0)",
+        "description": "Introduction to the role of the professional technical communicator in business and industry and practice in methods of developing technical documents. Prerequisite: English 1120. (Co-listed with English 1600)."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 2540  Layout and Design (LEC 3.0)",
+        "description": "Theory and practice of layout and design for print and electronic media. Prerequisite: TCH COM 1600 or English 1600. (Co-listed with English 2540)."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 2560  Technical Marketing Communication (LEC 3.0)",
+        "description": "An introduction to technical marketing communication with an emphasis on relevant genres such as (but not limited to) the data sheet, white paper, and technical demonstration. Prerequisite: English 1120. (Co-listed with ENGLISH 2560)."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 3001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 3010  Seminar (RSD 0.0-6.0)",
+        "description": "Discussion of current topics. Prerequisites: One semester of college composition or technical writing."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 3440  Theory of Visual Technical Communication (LEC 3.0)",
+        "description": "A study of the relationships between visual and conceptual elements of technical communication. Prerequisites: TCH COM 1600 or ENGLISH 1600; TCH COM 2540 or ENGLISH 2540."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 3550  Writing for Social Media (LEC 3.0)",
+        "description": "The theory and practice of writing for social media. Emphasis on the role of social media in industry. Prerequisites: One semester of college composition or technical writing. (Co-listed with ENGLISH 3550)."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 3570  Writing in the Sciences (LEC 3.0)",
+        "description": "This course focuses on conventions of writing in science by studying science as a cultural and rhetorical domain. Through analyzing and writing scientific discourse, students will learn the challenges and methods of conveying scientific knowledge to the public. Prerequisites: English 1120 or equivalent."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 3580  Business Communication (LEC 3.0)",
+        "description": "The principles and practice of business communication. Covers topics such as genres of business writing, business uses of social media, branding and content strategy, and intercultural business communication. Prerequisites: One semester of college composition or technical writing."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 3590  Game Studies (LEC 3.0)",
+        "description": "An introduction to the study of games with an emphasis on their pedagogical and communicative uses. May cover topics such as game theory and design, gamification of classroom or workplace activities, game genres, and writing game narratives. Prerequisites: One semester of literature or composition. (Co-listed with English 3590)."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 3591  Writing for the Games Industry (LEC 3.0)",
+        "description": "This course focuses on common documents and genres found in the games industry from a technical communication perspective. Prerequisites: English 1120. (Co-listed with English 3591)."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 3592  Critical Game Analysis (LEC 3.0)",
+        "description": "This course critically examines technological, social, cultural and political-economic issues within the interdisciplinary study of games with an emphasis on games as communication. Classes and projects engage students in theory-driven treatments of games and expose them to the unique contributions of games to technical communication. Prerequisites: English 1120, and English 3590 or Tch Com 3590. (Co-listed with English 3592)."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 3593  Creating Narrative Games, Interactive Fiction, and Simulations (LEC 3.0)",
+        "description": "Introduction to the narrative design process for authoring text-based digital games. By the end of the semester, students will have developed a game or work of interactive fiction. No prior programming knowledge is required for students to be successful in the course. Prerequisites: English 1120. (Co-listed with English 3593)."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 3640  Video Design and Editing (LEC 3.0)",
+        "description": "Principles of visual design, vocal narration, and audio selection to create videos for both academic and professional purposes. Course includes extensive practice in video production. Prerequisites: English 1600 or Tch Com 1600."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 4099  Research (IND 0.0-15)",
+        "description": "Investigations of an advanced nature leading to the preparation of a thesis or dissertation. Consent of instructor required."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 4410  Theory and Practice of Technical Communication (LEC 3.0)",
+        "description": "This capstone course for ETC majors features student-led projects that put into play the theories and practices relevant to the disciplines of the department. Students are expected to develop professional portfolios. Prerequisites: English 2002, junior standing."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 4450  International Dimensions of Technical Communication (LEC 3.0)",
+        "description": "Examines complexity of communication of technical information worldwide. Includes topics such as graphics, icons, symbols; user interface design; intercultural communication. Students may not earn credit for both TCH COM 4450 and TCH COM 6450. Prerequisites: One semester of college composition or technical writing and undergraduate standing."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 4550  Proposal Writing (LEC 3.0)",
+        "description": "Familiarizes students with many aspects of writing proposals for various purposes in academic, professional, and public spheres. Offers students opportunities to write documents to promote their academic, professional, or personal goals or those of their organization(s). Prerequisite: One semester of college composition or technical writing."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 5001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 5010  Seminar (RSD 0.0-6.0)",
+        "description": "Discussion of current topics. Prerequisites: One semester of college composition or technical writing, or graduate standing."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 5040  Oral Examination (IND 0.0)",
+        "description": "After completion of all other program requirements, oral examinations for on-campus M.S./Ph.D. students may be processed during intersession. Off-campus M.S. students must be enrolled in oral examination and must have paid an oral examination fee at the time of the defense/comprehensive examination (oral/written). All other students must enroll for credit commensurate with uses made of facilities and/or faculties. In no case shall this be for less than three (3) semester hours for resident students."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 5085  Internship (IND 0.0-6.0)",
+        "description": "Internship will involve students applying critical thinking skills and discipline specific knowledge in a work setting based on a project designed by the advisor and employee. Activities will vary depending on the student's background and the setting. The course may be taken for undergraduate credit and/or graduate credit for up to 6 hours total. Prerequisites: Must have completed 24 hours in the major core curriculum."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 5099  Research (IND 0.0-15)",
+        "description": "Investigations of an advanced nature leading to the preparation of a thesis or dissertation. Consent of instructor required."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 5510  Technical Editing (LEC 3.0)",
+        "description": "The principles and practices of technical editing, including usability, audience analysis, contextual editing, the conventions of scientific and technical communication, and the role of the editor in document development and publication. Students will also learn standard practices of copy editing and the use of style guides. Prerequisites: One semester of college composition or technical writing, or graduate standing."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 5520  Structured Authoring (LEC 3.0)",
+        "description": "Students will acquire the technological and rhetorical skills necessary for creating effective online help systems, including context-sensitive help for computer and XML applications. Prerequisites: One semester of college composition or technical writing, or graduate standing."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 5530  Usability Studies (LEC 3.0)",
+        "description": "Students in this course will study and apply methods used by technical communicators to evaluate usability. Students will study methods used to evaluate human interaction with communication tools and how to make those products more suitable for human use. Prerequisites: One semester of college composition or technical writing, or graduate standing."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 5540  Advanced Layout and Design (LEC 3.0)",
+        "description": "Advanced theory and practice of layout and design for print and electronic media. Prerequisite: English 2540 or TCH COM 2540, or graduate standing."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 5550  Advanced Proposal Writing (LEC 3.0)",
+        "description": "Familiarizes graduate students with many aspects of writing proposals for various purposes in academic, professional, and public spheres. Offers opportunities to write documents to promote their academic, professional, or personal goals or those of their organization(s). Credit will not be given for both TCH COM 4550 and TCH COM 5550. Prerequisites: Graduate standing."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 5560  Web-Based Communication (LEC 3.0)",
+        "description": "Covers such topics as advanced writing and editing for the web; the creation of rhetorically effective websites; the use of blogs, wikis, and other web genres to communicate technical information. Prerequisites: One semester of college composition or technical writing, or graduate standing."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 5610  History of Technical Communication (LEC 3.0)",
+        "description": "Introduction to the roles of the technical communicator and the technologies of communication from ancient cultures to the present. Prerequisites: One semester of college composition or technical writing, or graduate standing."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 5620  Research Methods in Technical Communication (LEC 3.0)",
+        "description": "Students learn essential research methods in technical communication, including audience analysis, interviewing techniques, working with subject matter experts, and experimental research design. Prerequisites: One semester of college composition or technical writing, or graduate standing."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 5630  Persuasive AI (LEC 3.0)",
+        "description": "Examines how predictive analytics, conversational agents, generative models, and autonomous systems are transforming human communication. Students critique AI-mediated messages, reverse-engineer AI-driven influence tactics, prototype AI-assisted persuasive content, conduct user tests, and craft ethical guidelines and guardrails for responsible deployment. Prerequisites: One semester of college composition or technical writing, or graduate standing."
+    },
+    {
+        "subject_id": 13,
+        "department_id": 5,
+        "subject_code": "TCH COM",
+        "subject_name": "Technical Communication",
+        "course": "TCH COM 5640  Advanced Video Design and Editing (LEC 3.0)",
+        "description": "Principles of visual design, vocal narration, and audio selection to create videos for both academic and professional purposes. Course includes extensive practice in video production to achieve professional-level standard. Prerequisites: Graduate standing."
+    }
+]

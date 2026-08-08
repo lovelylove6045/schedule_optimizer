@@ -1,0 +1,202 @@
+[
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 1001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "Art 1001 is the introductory level for newly proposed art courses appropriate for first-year students and others with no special background in art."
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 1120  Drawing I (LEC 3.0)",
+        "description": "Principles of drawing: placement, proportion, perspective, chiaroscuro, values, line, form, texture, and techniques. Applied problems to develop perceptual observation. ART 1120 - MOTR PERF 105D: Studio Art-Drawing"
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 1140  Painting I (LEC 3.0)",
+        "description": "Basic exploration of acrylic and water color painting techniques and methods. Still life, landscape and figure."
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 1164  Sculpture (LEC 3.0)",
+        "description": "Solving problems in three dimensions. Includes use of clay and other sculpture materials in the study of contemporary and classical proportion."
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 1180  Art Appreciation (LEC 3.0)",
+        "description": "A basic introductory course designed to familiarize students who have little or no knowledge of the arts with fundamental knowledge necessary for intelligent approach to experiencing the visual arts; painting, sculpture, and architecture. ART 1180 - MOTR ARTS 100: Art Appreciation"
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 1185  Study Of Film (LAB 1.0 and LEC 2.0)",
+        "description": "A study of classic and contemporary films with emphasis on director's technique and philosophy. Films by Fellini, Antonioni plus Bergman, Chaplin, etc. will be viewed and discussed. $30 lab fee required."
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 1715  Popular Applied Arts (LAB 3.0)",
+        "description": "This fine arts course focuses on utilitarian art, its folk traditions, and its contemporary uses. Time will be spent learning and perfecting techniques, experimenting with materials, developing artistic vision, and practicing Studio Habits of Mind."
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 1790  Introduction to Glassmaking (LEC 3.0)",
+        "description": "This studio course introduces fundamental skills in glassmaking. Students will utilize a wide range of traditional and unconventional techniques to answer essential questions. This course will cover the historical and contemporary contexts of glass while demonstrating techniques in furnace-working and cold-working. Students will engage in weekly practice sessions in the furnace in order to complete their assignments."
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 2000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 2001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 2130  Advanced Drawing (LEC 3.0)",
+        "description": "Advanced application of drawing principles: cast and life drawing. Exercises in representational rendering.  Prerequisite: Art 1120."
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 2150  Advanced Painting (LEC 3.0)",
+        "description": "Advanced exploration of oil painting techniques and methods. Still life, landscape, and figure. Prerequisite: Art 1140."
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 3001  Special Topics (LAB 1.5 and LEC 1.5)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 3100  Advanced Art Studio (LAB 1.5 and LEC 1.5)",
+        "description": "This course is for the advanced student in Sculpture, Painting or Drawing with similar topics in various chosen mediums.Prerequisites: Art 1120, Art 1140, or Art 1164."
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 3203  Architectural Design I (LAB 2.0 and LEC 1.0)",
+        "description": "Introduction to the interaction between architecture and art. A series focused on the history of architecture as it relates to styles and functions. Theories of building and site design, plan and spatial organization, formal composition, and environmental context are considered as principle form determinants. Prerequisite: Sophomore standing."
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 3221  Fundamentals in Photography (LEC 3.0)",
+        "description": "In this course the student will learn the basics of photographic composition and the use of the digital camera. A brief history of photography will provide context for the student's own development. Prerequisite: Art 1180 or Art 1185 (required for Art minor credit) or Sp&M S 1185 or Sp&M S 2181 (required for Speech minor credit). (Co-listed with Sp&M S 3221)."
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 3260  Exploring Digital Art (LAB 1.5 and LEC 1.5)",
+        "description": "An exploration of digital art as a medium for making art as well as understanding visual culture from the past, present, and ideas for the future. A multidisciplinary approach will combine digital arts with design thinking and humanities in a creative and scholarly atmosphere."
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 3275  Foundations of Media Communication (LEC 3.0)",
+        "description": "The course explores the historical, social, and psychological impact of media through study and practice of academic and non-academic theories of effective media communication. The course supplies an integrated critical framework for application in student's day-to-day consumption of media. Prerequisite: Sp&M S 1185. (Co-listed with Sp&M S 3275)."
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 3276  Thematics Studies in Film and Philosophy (LEC 3.0)",
+        "description": "A study of special topics at the intersection of film and philosophy. Topics vary but may include films on the nature of reality, films on the problem of evil, films on concepts of consciousness and the self, and more. Prerequisites: Art 1185 or one philosophy course, or junior standing. (Co-listed with Philos 3276)."
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 3500  Innovation Through Design Thinking (LAB 3.0)",
+        "description": "Design thinking is a human-centered approach to innovation. Students will investigate and address a variety of identified human-centered problems through group collaboration, creative problem-solving, and prototyping. A multidisciplinary approach combines science, technology, engineering, math, and art with design thinking in a creative atmosphere. Prerequisites: Any ART course at the 1xxx level or above."
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 4001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 4320  French and Francophone Cinema (LEC 3.0)",
+        "description": "A survey of French and Francophone cinema. Prerequisites: Any 2000-level French course or above. (Co-listed with French 4320)."
+    },
+    {
+        "subject_id": 9,
+        "department_id": 1,
+        "subject_code": "ART",
+        "subject_name": "Art",
+        "course": "ART 5001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable titles. Prerequisites: Any 1XXX, 2XXX, 3XXX, and 4XXX level course."
+    }
+]

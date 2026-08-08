@@ -1,0 +1,482 @@
+[
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 1001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 1150  Physical and Environmental Geology (LAB 1.0 and LEC 2.0)",
+        "description": "Materials, structure, and surface features of the Earth and planets are studied in the context of the processes that continuously transform the Earth and affect management of Earth resources, hazards, engineering problems, and environmental challenges. Prerequisite: Entrance requirements. (Co-listed with Geology 1110)."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 1175  Geological Engineering in Popular Media (LAB 2.0 and LEC 1.0)",
+        "description": "Examination of the issues and topics related to geological engineering as presented in movies, television programs, and other communications media."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 1605  Mathematical Concepts for Military Engineers (LEC 2.0)",
+        "description": "Review of fundamental concepts in Algebra, Trigonometry and Calculus for students in Geological Engineering. Designed as a bridging course for Military Reserve officers enrolled in the On-Line Certificate in Military Geological Engineering. Prerequisite: Permission of instructor. This course was designed for military officers registered in either the GE DL MS Degree Program or the GE FLW MS Degree Program."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 1810  Humanitarian Engineering and Science Colloquium (RSD 0.50)",
+        "description": "Course introduces Humanitarian Engineering & Science Minor students to topics such as impact of Western interventions on developing cultures, ethics and engineering, frugal engineering, the role of civic engagement in corporate culture, responsible behavior in outreach programs, and others. Cannot be used for credit towards Geological Engineering B.S. Prerequisites: Open to undergraduate students pursuing the Humanitarian Engineering and Science Minor."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 1880  Civic Engagement (IND 0.50)",
+        "description": "Course provides a formal independent study framework so that Humanitarian Engineering & Science Minor students and other students have the opportunity to achieve formal recognition of experiential service learning that may occur during participation in extracurricular programs. Cannot be used for credit towards Geological Engineering B.S. Prerequisites: Open to undergraduate students pursuing the Humanitarian Engineering and Science Minor and other students."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 2000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 2001  Special Topics (LEC 1.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 2002  Cooperative Work Training (IND 1.0-3.0)",
+        "description": "On the job experience gained through cooperative education with industry, with credit arranged through departmental cooperative advisor. Grade received depends on quality of reports submitted and work supervisor's evaluation."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 2110  Principles Of Geological Engineering (LEC 1.0)",
+        "description": "Introduce GE students to the GE program. Topics include career paths, professional development, licensure, life long learning, engineering ethics, societal issues, engineering law, international engineering, and GE program outcomes and objectives. Discussion of the teaching and research of the faculty. Prerequisite: Sophomore standing in the GE program."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 2407  Geology and Engineering of Ancient and Modern Peru (LEC 1.0)",
+        "description": "A study of the geological engineering of the Cuzco-Machu Picchu corridor, including the interrelations of geology, climate, archeology, and history. A technical report and a week-long field trip to Peru during Spring Break are required."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 2536  Basic Weather (LAB 1.0 and LEC 2.0)",
+        "description": "A course to study basic concepts of atmospheric science such as air masses, frontal weather patterns and weather forecasting. The course also will include topics on climate and severe weather. Prerequisites: Physics 1135, Geo Eng 1150."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 2605  Statics and Mechanics of Geologic Materials (LEC 3.0)",
+        "description": "Fundamental statics of rigid bodies and mechanics of deformable bodies for entering graduate students, focusing on behavior of rock and soil in engineering situations. Not for students intending to register as professional engineers. Designed for military officers registered in GE DL MS Degree Program or GE FLW MS Degree Program. Prerequisite: Permission of instructor."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 3001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 3002  Cooperative Work Training (IND 1.0-3.0)",
+        "description": "On the job experience gained through cooperative education with industry, with credit arranged through departmental cooperative advisor. Grade received depends on quality of reports submitted and work supervisor's evaluation."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 3148  Fundamentals Of Geographic Information Systems (LAB 1.0 and LEC 2.0)",
+        "description": "Introduction to the fundamental concepts and components of Geographic Information Systems. Techniques for acquiring, manipulating and analyzing digital terrain data for geological and geotechnical applications. (Co-listed with Geology 3811)."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 3175  Geomorphology And Terrain Analysis (LAB 1.0 and LEC 2.0)",
+        "description": "Study of geomorphic processes, landform development, and surficial materials. Stresses evaluation of the engineering properties of terrain for site selection and design of engineered structures. Prerequisite: Geo Eng 1150."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 3249  Fundamentals Of Computer Applications In Geological Engineering (LAB 1.0 and LEC 2.0)",
+        "description": "Applications of existing and available software packages utilizing a variety of hardware systems for geological engineering purposes. Emphasis on practical utilization of software and network operations for graphical analysis of geologic data, mapping of surface and subsurface configurations and modeling of geologic processes. Prerequisites: Geo Eng 1150."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 4001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 4010  Current Topics and Professionalism (RSD 0.50)",
+        "description": "Discussion of current topics, professionalism, and ethics. Required for two semesters during senior year. (Course cannot be used for graduate credit). Prerequisite: Senior standing."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six (6) credit hours allowed for graduation credit. Subject and credit to be arranged with the instructor."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 4115  Statistical Methods in Geology and Engineering (LEC 3.0)",
+        "description": "Statistical methods in engineering and geological applications including site investigations and environmental data analyses. Introduction to spatial correlation analysis and geostatistical techniques such as kriging for resource evaluation and estimation."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 4276  Environmental Aspects Of Mining (LEC 3.0)",
+        "description": "Permitting: the legal environment of reclamation and environmental impact assessment; post-mining land-use selection and mine planning for optimum reclamation of all mines: metal, nonmetal, and coal; unit operations of reclamation; drainage, backfill, soil replacement, revegetation, maintenance, etc. Prerequisites: Co-requisites: MIN ENG 4933 or GEO ENG 5441 or ENV ENG 5619. (Co-listed with MIN ENG 4742)."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 4321  Drone Mapping and Photogrammetry (LAB 1.0 and LEC 2.0)",
+        "description": "The course will start with an overview of the basic knowledge required for passing the FAA Part 107 Remote Pilots Knowledge Test for small UAS operators, including UAS mapping technology and its rules and regulations, airspace classification, and reading aeronautical charts. The principles of UAS data collection are explained along with hands-on practice in flight planning and execution, as well as processing collected imagery. Prerequisites: Basic computer knowledge. Either Civ Eng 2401 or Geo Eng 3148 or equivalent. (Co-listed with Civ Eng 4321, Geology 4321, Geophys 4321, Min Eng 4321)."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor is required."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5085  Internship (IND 0.0-15)",
+        "description": "Students working toward a doctor of engineering degree will select, with the advice of their committees, appropriate problems for preparation of a dissertation. The problem selected and internship plan must conform to the purpose of providing a high level engineering experience consistent with the intent of the doctor of engineering degree."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5090  Geological Engineering Design (LAB 1.0 and LEC 2.0)",
+        "description": "Geological engineering design is an open-ended project course requiring the collection of data, analysis and synthesis of that data and design of a socially acceptable, economical solution to the selected problem. Oral and written reports are required. Prerequisite: To be taken in the semester before graduation."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5099  Research (IND 0.0-15)",
+        "description": "Investigations of an advanced nature leading to the preparation of a thesis or dissertation. Consent of instructor required."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5144  Remote Sensing Technology (LAB 1.0 and LEC 2.0)",
+        "description": "Principles of digital image processing including image enhancement and multispectral classification.  Emphasis upon design and implementation of remote sensing systems and analysis of remotely sensed data for geotechnical and environmental investigations. Prerequisite: Geology 1110. (Co-listed with Geology 4310)."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5146  Applications Of Geographic Information Systems (LAB 1.0 and LEC 2.0)",
+        "description": "Applications of Geographical Information Systems and remote sensing to environmental monitoring, mineral resource exploration, and geotechnical site evaluation. Prerequisite: Geo Eng 3175 or consent of instructor. (Co-listed with Geology 4821)."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5153  Regional Geological Engineering Problems In North America (LEC 3.0)",
+        "description": "A physiographic approach to engineering materials and problems. Course emphasizes the distribution and engineering characteristics of soil and rock to construction and site problems and includes aggregates, foundations, excavations, surface and ground water, slope stability and arctic conditions."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5172  Soil Science In Engineering Practice (LEC 3.0)",
+        "description": "A study of the ways in which soils and geologic conditions influence engineered projects. Soil formation, soil chemistry and properties to include composition, organic component, ion exchange and water relationships as well as erosion control and revegetation will be covered. Prerequisite: Geo Eng 3175."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5173  Geologic Field Methods (LAB 3.0)",
+        "description": "Field practice in geologic mapping and interpretation in the Western United States using topographic base maps and aerial photos. Emphasizes the description and interpretation of stratigraphic sections, sedimentary and tectonic structures. Prerequisite: Two courses in either Geology or Geological Engineering."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5174  Geological Engineering Field Methods (LAB 3.0)",
+        "description": "Instruction in methods of field investigation required for geological engineering studies. Course will include procedures for qualitative and quantitative data collection for characterizing surficial geologic conditions, groundwater and surface water investigations, and other engineering activities. Written reports and field trip required."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5211  Introduction to International Engineering and Design Lab (LAB 1.0)",
+        "description": "The lab for multi-disciplinary design will be as follows: Students will develop a work plan to address design objectives and other considerations including scheduling, budgeting, environmental impacts, and life cycle design. Prerequisites: Senior standing, instructor approval, accompanied by GEO ENG 5247."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5233  Risk Assessment In Environmental Studies (LEC 3.0)",
+        "description": "This course will present the concepts required to assess the human health and environmental risks resulting from contaminants in soil and groundwater. Course topics include evaluation of data sets, exposure calculation, chemical fate and transport, and development of conceptual site models."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5235  Environmental Geological Engineering (LEC 3.0)",
+        "description": "Introduction to engineering geologic mapping for site selection for solid waste disposal facilities; landfill site selection, design, permitting, construction, operation, and closeout/reclamation. Prerequisites: Geo Eng 3175, accompanied or preceded by Civ Eng 3715."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5237  Geological Aspects Of Hazardous Waste Management (LEC 3.0)",
+        "description": "Nature and classification of hazardous wastes; federal and state regulation for treatment and disposal; geological characterization of facility sites; design of impoundments, storage and containment facilities; ground water monitoring and protection; site permitting and licensing planning. Prerequisite: Geo Eng 3175."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5239  Groundwater Remediation (LEC 3.0)",
+        "description": "A survey of conventional and innovative techniques for remediation of contaminated groundwater. Topics include groundwater cleanup standards, physico-chemical properties of groundwater and contaminants, fate and transport of contaminants in the subsurface, hydrogeologic site characterization, and selection process of a remedial technology. Various computer programs developed to assist in preliminary selection and design of remediation technologies will be used. Prerequisite: Geo Eng 5331."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5247  Introduction to International Engineering and Design (LEC 2.0)",
+        "description": "A multi-disciplinary design course focused on sustainable design and technology transfer to developing countries. Students will develop a work plan to address design objectives and other considerations including scheduling, budgeting, environmental impacts, and life cycle design. Prerequisites: Senior standing, instructor approval, accompanied by Geo Eng 5211."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5276  Sustainability in Mining (LEC 3.0)",
+        "description": "Sustainability implications of mining. Topics include mine permitting, environmental impact assessment, mine reclamation and habitat restoration, sustainability implications of mine planning and design, environmental management systems, sustainability reporting, community development, and handling mine-influenced water. Prerequisites: Preceded or accompanied by Min Eng 5933 or Geo Eng 5441 or Env Eng 5619. (Co-listed with Min Eng 5742)."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5315  Advanced Statistical Methods in Geology and Engineering (LEC 3.0)",
+        "description": "Application of statistical methods to study of geologic materials and practices, with emphasis on reliable interpretation of laboratory and field data for water, hydrocarbon, and mineral exploration, research, and engineering as well as other aspects of geological engineering. Prerequisites: Geo Eng 4115 or Stat 3113 or Stat 3117."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5320  Groundwater Modeling (LEC 3.0)",
+        "description": "This course is an introduction to advanced modeling techniques for understanding flow and transport in porous media under different hydrologic conditions. Emphasis is placed on both theoretical and practical modeling considerations. Computer demonstrations are incorporated. Practical applications are emphasized. Prerequisite: Civ Eng 3330 or Geo Eng 5331."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5331  Subsurface Hydrology (LAB 1.0 and LEC 2.0)",
+        "description": "Introduction to the theory and engineering concepts of the movement of subsurface fluids. Hydraulic characteristics of earth materials, aquifer characterization, and flow prediction. Engineering problems related to subsurface fluids. Prerequisites: Geo Eng 1150 or Geology 1110; Math 1212 or Math 1214; Physics 1135 or Physics 1145."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5332  Fundamentals of Groundwater Hydrology (LEC 3.0)",
+        "description": "Focus on fundamental analysis and survey of groundwater hydrology with emphasis on practical geo-environmental and subsurface hydrology issues of interest to working professionals. Topics will include general hydrology, surface and subsurface intercconnection, basic groundwater flow and well test analysis, and a brief intro to contaminant transport. Prerequisites: Graduate standing."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5381  Intermediate Subsurface Hydrology And Contaminant Transport Mechs (LAB 1.0 and LEC 2.0)",
+        "description": "A study of the physical/chemical properties of rocks and sediments in the subsurface environment. Emphasis is put on waterrock properties such as permeability, capillarity, and mechanical dispersion. Both microscopic and macroscopic approaches are used. Prerequisites: Geo Eng 5331, Geo Eng 5332, or Geol 4411."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5415  Soil Mechanics for Geoprofessionals (LEC 3.0)",
+        "description": "The basic principles of soil mechanics necessary for professionals to practice in the field of geoconstruction. Topics related to the practical aspects of engineering include: soil classification, index properties, water flow through soils, compaction, compressibility, and shear strength. These basic principles will be applied to real world problems."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5432  Potential Field Theory (LEC 3.0)",
+        "description": "The mathematics and physics of gravitational, magnetic, and electrical fields of the earth as derived from potential functions, with applications to practical problems. The theorems of Laplace, Poisson, Gauss, and Green and their applications to geophysics are presented. Prerequisites: Math 5325 (also may be taken as a co-requisite). (Co-listed with Geophys 5432 and Geology 5432)."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5441  Engineering Geology And Geotechnics (LEC 3.0)",
+        "description": "Study of procedures and techniques used to evaluate geologic factors for site selection and the design of engineered structures. Prerequisite: Geo Eng 3175."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5443  Subsurface Exploration (LAB 1.0 and LEC 2.0)",
+        "description": "Lectures and field and laboratory exercises in the use of geologic and geophysical techniques for evaluation of subsurface geology and resources. Prerequisite: Geo Eng 1150."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5471  Rock Engineering (LEC 3.0)",
+        "description": "Data requirements for design; engineering properties of rock; characterization of fractures and rock masses; stereonet analysis of discontinuities; graphic analysis of failure; ground stress distribution; tunnel construction methods; ground support principles; selection of tunneling equipment; and specifications for underground construction. Prerequisite: Geo Eng 3175."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5556  Renewable Energy Systems (LEC 3.0)",
+        "description": "Introduction to the theory and performance prediction of typical renewable energy systems such as, but not limited to, those based on energy from the sun, wind and water, and geothermal. The use of environmental data, including stochastic modeling, for renewable energy system (including wind turbine, photovoltaic, and geothermal) design is addressed. Prerequisites: Math 3304, Physics 2135, and preceded or accompanied by Geo Eng 4115 or any Probability and Statistics class.  Junior or senior standing is required."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5575  Aggregates And Quarrying (LEC 3.0)",
+        "description": "Properties and uses of aggregates. Finding aggregate deposits and methods of extraction. Aggregate processing. Aggregate testing. Economics and politics of aggregates. Special topics in aggregates and quarrying. Prerequisites: Geo Eng 1150, Geo Eng 3175."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5642  Military Geology (LEC 3.0)",
+        "description": "This course will familiarize geologists, geophysicists, civil and geological engineers with the fundamental principles of physical geology, geohydrology and geomorphology as applied to military problems, such as development of fortitications, core infrastructure, water resources and combat engineering requirements. Prerequisite: Geo Eng 3175 or graduate standing."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5736  Geophysical Field Methods (LAB 1.0 and LEC 2.0)",
+        "description": "Imaging of selected subsurface features and engineering structures using various geophysical tools. Special emphasis is placed on ground penetrating radar and surface wave techniques. One field trip at student expense required. Prerequisite: Junior level standing or higher. (Co-listed with Geophys 5736)."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5761  Transportation Applications of Geophysics (LAB 1.0 and LEC 2.0)",
+        "description": "Overview of geophysical and non-destructive test methods that are commonly used to investigate transportation structures and their foundations. Emphasis is placed on bridge system substructure, bridge system superstructure, pavement, roadway subsidence, subsurface characterization and vibration measurements. Prerequisite: Junior level standing or higher. (Co-listed with Geophys 5761 and Civ Eng 5750)."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5782  Environmental and Engineering Geophysics (LAB 1.0 and LEC 2.0)",
+        "description": "An introduction to the theory and application of the gravity, magnetic, resistivity, self-potential, induced polarization and electromagnetic methods as applied to the solution of engineering and environmental problems. Prerequisite: Math 2222. (Co-listed with Geophys 5782)."
+    },
+    {
+        "subject_id": 34,
+        "department_id": 15,
+        "subject_code": "GEO ENG",
+        "subject_name": "Geological Engineering",
+        "course": "GEO ENG 5810  Fundamentals of Space Resources (LEC 3.0)",
+        "description": "Introduction to the science of the mineral resources of space and to the engineering of extracting them for human use. (Co-listed with Aero Eng 5810)."
+    }
+]

@@ -1,0 +1,242 @@
+[
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 1001  Special Topics (LEC 0.0-6.0)",
+        "description": "Music 1001 is the introductory level for newly proposed music courses appropriate for first-year students and others with no special background in music."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 1111  Individual Music Instruction I (LAB 1.0)",
+        "description": "Individual music instruction in student's concentration area. Prerequisite: Consent of instructor required."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 1121  Individual Music Instruction II (LAB 1.0-2.0)",
+        "description": "Individual music instruction in student's concentration area. Prerequisite: Consent of instructor."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 1130  Wind Symphony (LAB 1.0)",
+        "description": "Open to all students who play a band instrument. Auditions may be used for placement in ensemble."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 1131  Marching Band (LAB 1.0)",
+        "description": "Open to all students who play a band instrument. Auditions may be used for placement in ensemble."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 1132  University Orchestra (LAB 1.0)",
+        "description": "Open to all students who play stringed, wind, percussion or keyboard instruments used in the symphony orchestra. Students assigned to the orchestra after satisfactory audition."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 1134  Instrumental Chamber Ensemble-Strings (LAB 1.0)",
+        "description": "Open to all students who play violin, viola, cello or double bass. Students assigned to the ensemble after satisfactory audition."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 1135  Symphonic Band (LAB 1.0)",
+        "description": "Open to all students who play a band instrument. Auditions may be used for placement in ensemble. MUSIC 1135 - MOTR PERF 102B: Music Performance-Band MUSIC 1135 - MOTR PERF 102O: Music Performance-Orchestra"
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 1136  Jazz Ensemble (LAB 1.0)",
+        "description": "A study of the various instrumental jazz forms. Students are assigned by audition to a jazz ensemble. Prerequisite: Consent of instructor."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 1140  University Choir (LAB 1.0)",
+        "description": "SATB choral group. Open to all who are interested in learning to sing in a choral setting. No audition required. MUSIC 1140 - MOTR PERF 102C: Music Performance-Choir"
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 1141  Chamber Vocal Ensembles (LAB 1.0)",
+        "description": "An SATB choral group. Audition required. Auditions are open to all who are interested and are held during class time the first week of classes."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 1144  Jazz Choir (LAB 1.0)",
+        "description": "A cappella choral group with an emphasis on jazz music. Students will learn and perform pieces each semester at the choral concerts as well as at other venues as opportunities arise."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 1150  Music Appreciation (LEC 3.0)",
+        "description": "A study of the development of music with emphasis on understanding music forms and the role music has played in the various historical periods. MUSIC 1150 - MOTR MUSC 100: Music Appreciation"
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 1151  Music of Latin America (LEC 3.0)",
+        "description": "Music of Latin America will have an emphasis on music as a universal language. Students will gain an understanding that all cultures have a musical tradition, and recognizing this tradition contributes to the appreciation of each culture. Course will include discussions of Latin American influences on classical and Latino popular music."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 2000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 2001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 2111  Individual Music Instruction III (IND 1.0-2.0)",
+        "description": "Individual music instruction in student's concentration area. Can be repeated for credit."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 2121  Individual Music Instruction IV (LAB 1.0-2.0)",
+        "description": "Individual music instruction in student's concentration area. Prerequisite: Consent of instructor."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 2161  Theory of Music I (LEC 3.0)",
+        "description": "Basic musicianship. Notation, rhythm, meter, scales, intervals, triads, nonharmonic tones, major-minor seventh, modulations of common practice period. Applications of these materials in original composition and analysis of melodies and elementary homophonic form. MUSIC 2161 - MOTR MUSC 101: Music Fundamentals"
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 2162  Theory of Music II (LEC 3.0)",
+        "description": "A continuation of the requisite theory and fundamentals of Music 2161. Prerequisite: Music 2161."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 2163  Introduction to Composition and Arranging (LEC 3.0)",
+        "description": "Without composers there would be no music. In this course students will learn to create new musical ideas, develop those ideas, and create an original short piece of music. In addition students will learn how to take existing pieces of music and arrange them for various ensembles through a basic course in orchestration. Prerequisites: Preceded or accompanied by Music 1130, Music 1131, Music, 1132, Music 1134, Music 1135, or Music 1136."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 3001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 3010  Seminar (IND 0.0-6.0)",
+        "description": "Discussion of current topics."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 3251  From the Church to the Palace: Music of the Middle Ages and Renaissance (LEC 3.0)",
+        "description": "Examines the development of Western art music from Ancient Greece to the 18th century. The lives of significant composers, as well as the political and social trends that influenced their careers, will also be studied. Score reading required, but prior music reading experience is not necessary. Prerequisites: History 1100, or English 1120, or Music 1150, or consent of instructor."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 3252  Kings, Queens, and Guillotines: History of Music in the Enlightenment and Beyond (LEC 3.0)",
+        "description": "Examines the development of Western art music from the 18th century to the present. The lives of significant composers, as well as the political and social trends that shaped their careers, will also be studied. Score reading required, but prior music experience is not necessary. Prerequisites: History 1200 or English 1120 or Music 1150 or consent of instructor. (Co-listed with History 3722)."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 3253  History of Music in Film (LEC 3.0)",
+        "description": "This course takes an in depth look into the world of film music and the composers who make it. We will discuss what techniques comprise a great film score and what traits and come back again and again. Together we will take a journey from the first film score in  1933 all the way to the present, visiting many important films and figures along the way. Prerequisites: Sophomore standing. (Co-listed with History 3723)."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 3254  The Heart of Rock 'n Roll: A History of Popular Music in American Culture (1950-2000) (LEC 3.0)",
+        "description": "Ever since Jackie Brenston and His Delta cats recorded \"Rocket 88\" for Sam Philips in 1951, Rock 'n Roll music has been at the forefront of American popular culture. In this course we'll investigate the history and development of rock- and pop-based music in the latter half of the 20th century and how changes in society affected music in each decade. Prerequisites: Preceded or accompanied by Music 1130, Music 1131, Music 1132, Music 1134, Music 1135, or Music 1136."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 5,
+        "department_id": 1,
+        "subject_code": "MUSIC",
+        "subject_name": "Music",
+        "course": "MUSIC 4001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    }
+]

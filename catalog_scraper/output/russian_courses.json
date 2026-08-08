@@ -1,0 +1,154 @@
+[
+    {
+        "subject_id": 3,
+        "department_id": 1,
+        "subject_code": "RUSSIAN",
+        "subject_name": "Russian",
+        "course": "RUSSIAN 1001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable titles."
+    },
+    {
+        "subject_id": 3,
+        "department_id": 1,
+        "subject_code": "RUSSIAN",
+        "subject_name": "Russian",
+        "course": "RUSSIAN 1101  Elementary Russian I (LEC 4.0)",
+        "description": "Introduction to reading, conversation, and grammar. Prerequisite: Entrance requirements."
+    },
+    {
+        "subject_id": 3,
+        "department_id": 1,
+        "subject_code": "RUSSIAN",
+        "subject_name": "Russian",
+        "course": "RUSSIAN 1102  Elementary Russian II (LEC 4.0)",
+        "description": "Continuation of Russian 1101. Prerequisite: Russian 1101."
+    },
+    {
+        "subject_id": 3,
+        "department_id": 1,
+        "subject_code": "RUSSIAN",
+        "subject_name": "Russian",
+        "course": "RUSSIAN 1180  Readings In Science And Literature (LEC 4.0)",
+        "description": "Readings in scientific writings and literature for improving comprehension of Russian publications. Prerequisite: Russian 1102."
+    },
+    {
+        "subject_id": 3,
+        "department_id": 1,
+        "subject_code": "RUSSIAN",
+        "subject_name": "Russian",
+        "course": "RUSSIAN 2000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 3,
+        "department_id": 1,
+        "subject_code": "RUSSIAN",
+        "subject_name": "Russian",
+        "course": "RUSSIAN 2001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 3,
+        "department_id": 1,
+        "subject_code": "RUSSIAN",
+        "subject_name": "Russian",
+        "course": "RUSSIAN 2110  Basic Russian Conversation (LEC 2.0)",
+        "description": "Russian conversation and oral practice. Prerequisite: Russian 1102."
+    },
+    {
+        "subject_id": 3,
+        "department_id": 1,
+        "subject_code": "RUSSIAN",
+        "subject_name": "Russian",
+        "course": "RUSSIAN 2170  Masterpieces Of Russian Literature (LEC 3.0)",
+        "description": "Selected major works of Russian literature. Prerequisite: Russian 1180."
+    },
+    {
+        "subject_id": 3,
+        "department_id": 1,
+        "subject_code": "RUSSIAN",
+        "subject_name": "Russian",
+        "course": "RUSSIAN 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 3,
+        "department_id": 1,
+        "subject_code": "RUSSIAN",
+        "subject_name": "Russian",
+        "course": "RUSSIAN 3001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 3,
+        "department_id": 1,
+        "subject_code": "RUSSIAN",
+        "subject_name": "Russian",
+        "course": "RUSSIAN 3790  Scientific Russian (LEC 3.0)",
+        "description": "The course focuses on acquisition of Russian scientific vocabulary for STEM disciplines and development of practical skills in translating, discussing, and interpreting intermediate Russian scientific texts. Prerequisite: Russian 1180 or above."
+    },
+    {
+        "subject_id": 3,
+        "department_id": 1,
+        "subject_code": "RUSSIAN",
+        "subject_name": "Russian",
+        "course": "RUSSIAN 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 3,
+        "department_id": 1,
+        "subject_code": "RUSSIAN",
+        "subject_name": "Russian",
+        "course": "RUSSIAN 4001  Special Topics (LAB 1.0 and LEC 2.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 3,
+        "department_id": 1,
+        "subject_code": "RUSSIAN",
+        "subject_name": "Russian",
+        "course": "RUSSIAN 4010  Seminar (IND 0.0-6.0)",
+        "description": "Discussion of current topics. Prerequisite: Senior standing."
+    },
+    {
+        "subject_id": 3,
+        "department_id": 1,
+        "subject_code": "RUSSIAN",
+        "subject_name": "Russian",
+        "course": "RUSSIAN 4320  Russian Phonetics and Intonation (LEC 3.0)",
+        "description": "This course focuses on pronunciation improvement, development of basic transcription skills, comprehension of Russian speech at fast tempo, interactions of intonation and syntax. Prerequisite: Russian 1102."
+    },
+    {
+        "subject_id": 3,
+        "department_id": 1,
+        "subject_code": "RUSSIAN",
+        "subject_name": "Russian",
+        "course": "RUSSIAN 4360  Russian Civilization (LEC 3.0)",
+        "description": "Introduction to Russian civilization and culture from the 9th to the 19th century exploring the interrelation between Russian society, its history and its cultural expression in painting, literature, music, visual arts and architecture over the past thousand years.  Prerequisite: Any 1000 or higher level history course."
+    },
+    {
+        "subject_id": 3,
+        "department_id": 1,
+        "subject_code": "RUSSIAN",
+        "subject_name": "Russian",
+        "course": "RUSSIAN 4370  Survey Of Russian Literature I (Early Period) (LEC 3.0)",
+        "description": "A study of the history and development of 16th, 17th, 18th, and 19th century Russian literature. Prerequisite: Russian 2170."
+    },
+    {
+        "subject_id": 3,
+        "department_id": 1,
+        "subject_code": "RUSSIAN",
+        "subject_name": "Russian",
+        "course": "RUSSIAN 5001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 3,
+        "department_id": 1,
+        "subject_code": "RUSSIAN",
+        "subject_name": "Russian",
+        "course": "RUSSIAN 5790  Advanced Scientific Russian (LEC 3.0)",
+        "description": "The course focuses on acquisition of advanced Russian scientific vocabulary for STEM disciplines and development of practical skills in translating, discussion, and interpreting advanced Russian scientific texts. The final research project is required. Prerequisite: Russian 1180 or above."
+    }
+]

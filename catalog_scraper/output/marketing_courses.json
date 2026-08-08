@@ -1,0 +1,122 @@
+[
+    {
+        "subject_id": 44,
+        "department_id": 20,
+        "subject_code": "MKT",
+        "subject_name": "Marketing",
+        "course": "MKT 2000  Special Problems (IND 0.0-6.0)",
+        "description": "(Variable) Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 44,
+        "department_id": 20,
+        "subject_code": "MKT",
+        "subject_name": "Marketing",
+        "course": "MKT 2001  Special Topics (LEC 0.0-6.0)",
+        "description": "(Variable) This is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 44,
+        "department_id": 20,
+        "subject_code": "MKT",
+        "subject_name": "Marketing",
+        "course": "MKT 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in marketing. Prerequisite: Consent of instructor required."
+    },
+    {
+        "subject_id": 44,
+        "department_id": 20,
+        "subject_code": "MKT",
+        "subject_name": "Marketing",
+        "course": "MKT 3001  Special Topics (LEC 0.0-6.0)",
+        "description": "This is designed to give the department and opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 44,
+        "department_id": 20,
+        "subject_code": "MKT",
+        "subject_name": "Marketing",
+        "course": "MKT 3110  Marketing (LEC 3.0)",
+        "description": "The course examines the distribution, product, price, and promotion policies that underlie the activities of marketing institutions and the managerial, economic, and societal implications of such policies."
+    },
+    {
+        "subject_id": 44,
+        "department_id": 20,
+        "subject_code": "MKT",
+        "subject_name": "Marketing",
+        "course": "MKT 3210  Consumer Behavior (LEC 3.0)",
+        "description": "Introduces and applies important concepts, principles, and theories to understand consumer decision-making processes in the purchase, usage and disposal of goods and services. Examines the influence of cultural, social, and psychological factors on consumer behavior. Prerequisite: MKT 3110."
+    },
+    {
+        "subject_id": 44,
+        "department_id": 20,
+        "subject_code": "MKT",
+        "subject_name": "Marketing",
+        "course": "MKT 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six credit hours allowed for graduation credit. Subject and credit to be arranged with the instructor. Prerequisite: Consent of instructor required."
+    },
+    {
+        "subject_id": 44,
+        "department_id": 20,
+        "subject_code": "MKT",
+        "subject_name": "Marketing",
+        "course": "MKT 4580  Marketing Strategy (LEC 3.0)",
+        "description": "Identification and analysis of strategic managerial marketing issues. Integration of marketing concepts through theoretical overview and practical analysis, including extensive use of simulation. Prerequisite: MKT 3110 or MKT 5105 or Eng Mgt 3510."
+    },
+    {
+        "subject_id": 44,
+        "department_id": 20,
+        "subject_code": "MKT",
+        "subject_name": "Marketing",
+        "course": "MKT 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in marketing. Prerequisite: Consent of instructor required."
+    },
+    {
+        "subject_id": 44,
+        "department_id": 20,
+        "subject_code": "MKT",
+        "subject_name": "Marketing",
+        "course": "MKT 5001  Special Topics (LEC 0.0-6.0)",
+        "description": "This is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 44,
+        "department_id": 20,
+        "subject_code": "MKT",
+        "subject_name": "Marketing",
+        "course": "MKT 5099  Research (IND 0.0-9.0)",
+        "description": "Research investigation of an advanced nature leading to a major report suitable for publication in a journal or in a conference proceedings. Prerequisite: Consent of instructor required."
+    },
+    {
+        "subject_id": 44,
+        "department_id": 20,
+        "subject_code": "MKT",
+        "subject_name": "Marketing",
+        "course": "MKT 5310  Digital Marketing and Promotions (LEC 3.0)",
+        "description": "A managerial examination of integrated marketing communication (IMC) and creativity, with a focus on digital media and new marketing concepts. Specifically, we will look at innovative marketing techniques such as viral marketing, brand communities, experiential marketing and guerilla tactics. Prerequisites: At least Junior standing."
+    },
+    {
+        "subject_id": 44,
+        "department_id": 20,
+        "subject_code": "MKT",
+        "subject_name": "Marketing",
+        "course": "MKT 5320  Marketing for Non-Profits (LEC 3.0)",
+        "description": "Illustrates the importance of creating synergy within a marketing campaign. Speaking with \"one voice' allows a brand to make a stronger impact; students will work with a local non-profit to improve their marketing message at each customer touch point. Students will analyze a marketing plan and work to improve it, including brochures & donation letters. Prerequisites:  At least Junior standing."
+    },
+    {
+        "subject_id": 44,
+        "department_id": 20,
+        "subject_code": "MKT",
+        "subject_name": "Marketing",
+        "course": "MKT 5410  Big Data Consumer Analytics (LEC 3.0)",
+        "description": "In this course, we will discuss the challenges that companies face in extracting and utilizing insights from consumer Big Data to implement innovation in various marketing activities. Additionally, we will explore various approaches of analyzing consumer Big Data.  The course will include lectures, case studies and simulation. Prerequisites: Bus 6622 or both Mkt 3110 and one of the following: Stat 1115, Stat 1116, Stat 3113, or Stat 3117."
+    },
+    {
+        "subject_id": 44,
+        "department_id": 20,
+        "subject_code": "MKT",
+        "subject_name": "Marketing",
+        "course": "MKT 5762  Marketing Revolution with Machine Learning (LEC 3.0)",
+        "description": "This course introduces machine learning and artificial intelligence applications in marketing innovation contexts through case studies and industry collaborations, explores the underlying mathematics and implements algorithms using Python programming language. Prerequisites: Graduate standing or one of the following: Math 1210, Math 1211, Math 1212 or Math 1214. (Co-listed with Math 5762)."
+    }
+]

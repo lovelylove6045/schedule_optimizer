@@ -1,0 +1,738 @@
+[
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 1001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 1010  Transfer Student Seminar (LEC 0.50)",
+        "description": "Discussion of current topics. Prerequisite: First semester transfer student."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 2001  Special Topics (LEC 0.0 and RSD 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 2010  Sophomore Seminar (RSD 1.0)",
+        "description": "Discussion of current topics."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 2100  Circuits I (LEC 3.0)",
+        "description": "Circuit elements, signals, Kirchhoff's laws, network theorems, mesh and nodal analysis, transient and complete response of RL, RC, and RLC circuits. Prerequisites: Math 1215 (or 1221) with a grade of \"C\" or better and preceded or accompanied by Math 3304. Students should enroll in Elec Eng 2100 and Elec Eng 2101 simultaneously."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 2101  Circuit Analysis Laboratory I (LAB 1.0)",
+        "description": "Safety, basic measurements and meters, oscilloscopes, resistor networks, measurement of capacitors and inductors, RLC circuit response. Prerequisite: Preceded or accompanied by Elec Eng 2100. A student who drops Elec Eng 2100 must also drop Elec Eng 2101."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 2120  Circuits II (LEC 3.0)",
+        "description": "Analysis of steady state AC circuits, phasor notation, polyphase circuits, complex frequency and frequency response, magnetically coupled circuits. Prerequisites: Elec Eng 2100 and Math 3304 each with grade of \"C\" or better."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 2200  Introduction to Electronic Devices (LEC 3.0)",
+        "description": "Materials and device structures for applications in analog and digital electronics. Topics include characteristics and basic circuits for diodes, field-effect transistors, bipolar junction transistors, and operational amplifiers. Prerequisites: Elec Eng 2100, Elec Eng 2101, and Physics 2135 each with grade of \"C\" or better. Students should enroll in Elec Eng 2200 and Elec Eng 2201 simultaneously."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 2201  Electronic Devices Laboratory (LAB 1.0)",
+        "description": "Laboratory tools and measurement techniques for basic electronic circuits using diodes, field-effect transistors, bipolar junction transistors, and operational amplifiers. Topics include DC biasing and applications in analog and digital electronics. Prerequisites: Elec Eng 2100, Elec Eng 2101, and Physics 2135 each with grade of \"C\" or better. Preceded or accompanied by Elec Eng 2200."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 2410  Continuous Linear Systems (LEC 3.0)",
+        "description": "Analysis methods for continuous-time signals and systems in the time and frequency domains including signal models, Fourier transforms, and Laplace transforms. Examples of control and communication systems are included. Prerequisites: Elec Eng 2100 with a grade of \"C\" or better. Students should enroll in Elec Eng 2410 and Elec Eng 2411 simultaneously."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 2411  Continuous Linear Systems Laboratory (LAB 1.0)",
+        "description": "Laboratory and software tools for the analysis of linear systems. Topics include Matlab programming, spectral analysis, and applications. Prerequisites: Elec Eng 2100 with a grade of \"C\" or better. Preceded or accompanied by Elec Eng 2410."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 2800  Electrical Circuits (LEC 3.0)",
+        "description": "Taught primarily as an alternating current (AC) circuits course with direct current (DC) circuits as a special case. Current, voltage, and power relations; complex algebra; voltage and power relations in polyphase circuits with an emphasis on Transformers and Induction Machines. Not for electrical engineering majors. Prerequisites: Math 3304 or 3329; Physics 2135."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3000  Special Problems (IND 1.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3002  Cooperative Engineering Training (IND 1.0)",
+        "description": "On-the-job experience gained through cooperative education with industry, with credit arranged through departmental cooperative advisor. Grade received depends on quality of reports submitted and work supervisor's evaluation. Pass-fail grading option only. Prerequisite: Consent of the Electrical and Computer Engineering Department required."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3100  Electronics I (LEC 3.0)",
+        "description": "Diode and transistor circuits, small signal analysis, amplifier design, differential and operational amplifiers, flipflop circuits and waveshaping. Prerequisites: Elec Eng 2120 and Comp Eng 2210 each with a grade of \"C\" or better. Elec Eng 3101 is a corequisite."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3101  Electronics I Laboratory (LAB 1.0)",
+        "description": "Experiments in design with diodes, transistors, differential and operational amplifiers, and logic components. Prerequisites: Elec Eng 2120 and Comp Eng 2210 each with a grade of \"C\" or better. Elec Eng 3100 is a corequisite."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3120  Electronics II (LEC 3.0)",
+        "description": "Continuation of Elec Eng 3100. Diode and transistor circuits, small signal analysis, amplifier design, differential and operational amplifiers, flipflop circuits and waveshaping. Prerequisites: Elec Eng 3100 and Elec Eng 3101 each with a grade of \"C\" or better. Elec Eng 3121 is optional, but recommended."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3121  Electronics II Laboratory (LAB 1.0)",
+        "description": "Experiments in design with diodes, power transistors, integrated circuits, advanced bipolar and FET logic gates, flipflops and registers. Prerequisites: Elec Eng 3100 and Elec Eng 3101 each with a grade of \"C\" or better. Elec Eng 3120 is a corequisite."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3210  Semiconductor Materials Processing (LEC 3.0)",
+        "description": "Examination of semiconductor processing stages, including cleaning, oxidation, ion implantation, diffusion and thermal processing, deposition and epitaxy, etching, metallization, and lithography. Prerequisites: A grade of \"C\" or better in Semi Eng 2100 or with instructor permission. (Co-listed with Semi Eng 3100 and Comp Eng 3210)."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3211  Semiconductor Materials Processing Laboratory (LAB 2.0 and LEC 1.0)",
+        "description": "Front-end unit semiconductor process operations and testing, including cleaning, oxidation, ion implantation, diffusion and thermal processing, deposition and epitaxy, etching, metallization, and lithography. Prerequisites: A grade of \"C\" or better in Semi Eng 3019 and Elec Eng 2101; preceded or accompanied by Semi Eng 3100 or with instructor permission. (Co-listed with Semi Eng 3101 and Comp Eng 3211)."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3250  Electronic And Photonic Devices (LEC 3.0)",
+        "description": "Semiconductor materials and devices for electronic and photonic applications. Topics include crystal physics, electron and photon behavior, pn junctions, heterojunctions, junction diodes, optoelectronic devices, and ohmic and rectifying contacts. Prerequisite: Elec Eng 2120 with grade of \"C\" or better."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3320  Control Systems (LEC 3.0)",
+        "description": "Laplace transforms, formulation of the control problem, system equations and models, time and frequency domain analysis, stability, and design of linear control systems. Prerequisites: Elec Eng 2120, Elec Eng 2410, Elec Eng 2411 and Math 3304 each with a grade of \"C\" or better; accompanied by Elec Eng 3321."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3321  Control Systems Laboratory (LAB 1.0)",
+        "description": "Software tools for control systems analysis. Prerequisites: Elec Eng 2120, Elec Eng 2410, Elec Eng 2411 and Math 3304 with a grade of \"C\" or better; preceded or accompanied by Elec Eng 3320."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3340  Basic Programmable Logic Controllers (LAB 1.0 and LEC 2.0)",
+        "description": "Introduction to programmable automation in manufacturing, programmable logic controller (PLC) hardware, programming languages and techniques, PID closed-loop control, electrical code. Case studies. Laboratory exercises. Prerequisite: Preceded or accompanied by either Elec Eng 2120 or Elec Eng 2800."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3410  Digital Signal Processing (LEC 3.0)",
+        "description": "Analysis methods for discrete-time signals and systems in the time and frequency-domains including signal models and Fourier techniques. Continuous-time concepts are included as introductory material. Prerequisites: ELEC ENG 2120 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3411  Discrete Linear Systems Laboratory (LAB 1.0)",
+        "description": "Software tools for signal and system representation and for time and frequency-domain systems analysis. Prerequisites: Elec Eng 2120 with a grade of \"C\" or better. Preceded or accompanied by Elec Eng 3410."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3430  Digital Communications I (LEC 3.0)",
+        "description": "Signals and systems for digital communications. Topics include signals and their spectra, source formatting and source coding, digital baseband data communication, and digital pass-band modulation and demodulation. Prerequisites: Elec Eng 2120, Elec Eng 2410 and Elec Eng 2411 with a grade of \"C\" or better; accompanied by Elec Eng 3431."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3431  Digital Communication Laboratory (LAB 1.0)",
+        "description": "Laboratory and software tools for the analysis of communications and for linear and non-linear signals and systems. Topics include spectral analysis, transforms, and applications. Prerequisites: Elec Eng 2120, Elec Eng 2101, Elec Eng 2410, and Elec Eng 2411 with a grade of \"C\" or better; preceded or accompanied by Elec Eng 3430."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3440  Digital Communications II (LEC 3.0)",
+        "description": "Continuation of Elec Eng 3430. Signals and their spectra with application to digital communication systems. Prerequisites: ELEC ENG 3430 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3500  Electromechanics (LEC 3.0)",
+        "description": "Magnetics and magnetically coupled circuits, electromechanical energy conversion, rotating magnetic fields, stepper motors, DC machines, induction machines, synchronous machines, and brushless DC machines. Prerequisites: Physics 2135 with a grade of \"C\" or better; Elec Eng 2120 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3501  Electromechanics Laboratory (LAB 1.0)",
+        "description": "Experiments with power measurement, transformers, magnetically coupled circuits, rotating magnetic fields, stepper motors, DC machines, induction machines, synchronous machines, and brushless DC machines. Credit will only be given for one of Elec Eng 3501 or Elec Eng 3541. Prerequisites: Elec Eng 2120 with a grade of \"C\" or better. Preceded or accompanied by Elec Eng 3500."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3540  Power System Design And Analysis (LEC 3.0)",
+        "description": "Power system components and transmission lines, three phase balanced power system theory, analysis and design including economic and reliability considerations, and fault analysis. A power system design project using a graphical power flow program is included. Prerequisites: Elec Eng 2120 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3541  Power System Design And Analysis Laboratory (LAB 1.0)",
+        "description": "Computer-aided analysis of voltage regulation, power flow, compensation, and economic analysis. Individual projects are required. Credit will only be given for one of Elec Eng 3501 or Elec Eng 3541. Prerequisites: Elec Eng 2120 with a grade of \"C\" or better. Preceded or accompanied by Elec Eng 3540."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 3600  Electromagnetics (LEC 3.0)",
+        "description": "Static electric and magnetic fields using vector analysis and time-varying electromagnetic fields using Maxwell's equations. Topics include Coulomb's law, Gauss's law, Ampere's law, dielectric and magnetic materials, plane waves, and transmission lines. Prerequisites: Elec Eng 2120, Elec Eng 2101, Physics 2135, and Math 2222 each with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 4001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 4096  Electrical Engineering Senior Project I (LAB 0.50 and RSD 0.50)",
+        "description": "A complete design cycle. Working in small teams, students will design, document, analyze, implement and test a product. Topics include: Iteration in design, prototyping, group dynamics, design reviews, making effective presentations, concurrent design, designing for test, ethics and standards, testing and evaluation. Prerequisites: Comp Eng 2210, and at least three of the following: Elec Eng 3500 or Elec Eng 3540; Elec Eng 3320, Elec Eng 3430, Elec Eng 3600 or Elec Eng 3100 (may be preceded or accompanied by one of the previous courses). Preceded or accompanied by English 3560 or English 1160."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 4097  Electrical Engineering Senior Project II (LAB 3.0)",
+        "description": "A continuation of El Eng 4096. Prerequisite: Elec Eng 4096 with a grade of \"C\" or better; Stat 3113, Stat 3115, Stat 3117 or Stat 5643; Sp&M S 1185."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six (6) credit hours allowed for graduation credit. Subject and credit to be arranged with the instructor."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 4210  Semiconductor Device Simulation (LAB 1.0 and LEC 2.0)",
+        "description": "Semiconductor device simulation concepts: conventional and advanced MOS devices, bipolar transistors, heterostructures. Modern simulation tools such as SPICE and TCAD will be employed. Prerequisites: Preceded or accompanied by Elec Eng 3250 or Semi Eng 4101. (Co-listed with Semi Eng 4100 and Comp Eng 4210)."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 4211  Semiconductor Device Fabrication and Testing Laboratory (LAB 2.0 and LEC 1.0)",
+        "description": "Unit process operations, including back-end operations, inspection, and metrology for process control, are integrated into complete manufacturing sequences for fabrication and testing of semiconductor devices. Prerequisites: A grade of \"C\" or better in Semi Eng 3101 and preceded by Elec Eng 2200 or Elec Eng 3250. (Co-listed with Semi Eng 4101 and Comp Eng 4211)."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 4380  Practicum in Automation Engineering (LAB 3.0)",
+        "description": "Students on an approved internship or cooperative education assignment with industry will complete a project designed by the advisor and employer. The project selected must be related to topics in one or more of the other courses in the Automation Engineering Minor program. Prerequisites: Elec Eng 3340."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5040  Oral Examination (IND 0.0)",
+        "description": "After completion of all other program requirements, oral examinations for on-campus M.S./Ph.D. students may be processed during intersession. Off-campus M.S. students must be enrolled in oral examination and must have paid an oral examination fee at the time of the defense/comprehensive examination (oral/ written). All other students must enroll for credit commensurate with uses made of facilities and/or faculties. In no case shall this be for less than three (3) semester hours for resident students."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5070  Teaching Engineering (LEC 3.0)",
+        "description": "Introduction to teaching objectives and techniques. Topics include: using course objectives to design a course; communication using traditional and cutting-edge media; textbook selection; assessment of student learning; grading; student learning styles; cooperative/active learning; and student discipline. Prerequisite: Graduate standing. (Co-listed with Eng Mgt 5070, Env Eng 5070, Comp Eng 5070, Civ Eng 5070)."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5085  Internship (IND 1.0-15)",
+        "description": "Students working toward a master degree may select, with the advice of their committees, an appropriate internship opportunity as an integral part of the degree program. The internship plan must conform to the purpose of providing a high level engineering experience consistent with the intent of the master degree. This course will explore how well the current graduate curriculum prepares students for tackling the practical problems that they will encounter in the workplace. Assessment may be based upon the Satisfactory/Unsatisfactory grading option depending on the quality of reports and/or presentations summarizing the outcomes of internship activity to the student's academic advisor."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5099  Special Research And Thesis (IND 0.0-15)",
+        "description": "Investigations of an advanced nature leading to the preparation of a thesis or dissertation. Consent of instructor required."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5100  Advanced Electronic Circuits (LEC 3.0)",
+        "description": "Application of feedback theory, oscillators and frequency standards, precision analog techniques, low-power circuit design, interfacing sensors, designing for high reliability, electronics for harsh environments. Prerequisite: Elec Eng 3120."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5140  High-Frequency Amplifiers (LEC 3.0)",
+        "description": "Analysis and design of high frequency amplifiers. Topics include parameter conversions, activity and passivity, stability criteria, device operating conditions, Smith chart usage, matching networks, microstrip, scattering parameters, and practical applications. Prerequisites: Elec Eng 3120, 3600."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5150  Photovoltaic Systems Engineering (LEC 3.0)",
+        "description": "Physics and characteristics of photovoltaic (solar) cell technologies, electronic control of alternative energy sources, site selection, array design, energy storage methods, electrical code compliance, stand-alone systems, grid-intertie systems, legal and economic considerations. Prerequisite: Senior or graduate standing in Science or Engineering."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5160  Computer-Aided Network Design (LEC 3.0)",
+        "description": "Analysis and design of active and passive electric networks. Theory and computer application, including methods for automatic formulation of network state equations, network tolerance, network optimization, and device modeling. Prerequisites: Elec Eng 3100."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5200  Classical Optics (LEC 3.0)",
+        "description": "Physical optics and advanced topics in geometrical optics. Topics include ray propagation, electromagnetic propagation, mirrors, lenses, interference, diffraction, polarization, imaging systems, and guided waves. Prerequisites: Math 2222 and Physics 2135 or 2111. (Co-listed with Physics 4503)."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5210  Fourier Optics (LEC 3.0)",
+        "description": "Applications of Fourier analysis and linear systems theory to optics. Topics include scalar diffraction theory, Fourier transforming properties of lenses, optical information processing, and imaging systems. Prerequisites: Both Elec Eng 3430 and Elec Eng 3600 or Physics 4211. (Co-listed with PHYSICS 5503)."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5220  Fiber And Integrated Optics (LEC 3.0)",
+        "description": "Introduction to optical waveguides and their applications to communication and sensing. Topics include dielectric waveguide theory, optical fiber characteristics, integrated optic circuits, coupled-mode theory, optical communication systems, and photonic sensors. Prerequisite: Elec Eng 3600 or Physics 4211. (Co-listed with Physics 5513)."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5250  Quantum Computing (LEC 3.0)",
+        "description": "Introduction to the principles, subsystems, and architectures of quantum computing. Topics include architectural and general considerations of quantum systems which are suitable for parallel computing applications using a rule-based approach. Prerequisite: Comp Eng 2210. (Co-listed with Comp Eng 5230)."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5270  Smart Materials and Sensors (LAB 1.0 and LEC 2.0)",
+        "description": "Smart structures with fiber reinforced polymer (FRP) composites and advanced sensors. Multi-disciplinary topics include characterization, performance, and fabrication of composite structures; fiber optic, resistance, and piezoelectric systems for strain sensing; and applications of smart composite structures. Laboratory and team activities involve manufacturing, measurement systems, instrumented structures, and performance tests on a large-scale smart composite bridge. Prerequisites: Senior standing and Math 3304. (Co-listed with Aero Eng 5229, Mech Eng 5229 and Civ Eng 5118)."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5300  Digital Control (LEC 3.0)",
+        "description": "Analysis and design of digital control systems. Review of ztransforms; root locus and frequency response methods; state space analysis and design techniques; controllability, observability and estimation. Examination of digital control algorithms. Prerequisite: Elec Eng 3320."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5320  Neural Networks Control and Applications (LEC 3.0)",
+        "description": "Introduction to artificial neural networks and various supervised and unsupervised learning techniques. Detailed analysis of some of the neural networks that are used in control and identification of dynamical systems. Applications of neural networks in the area of Control. Case studies and a term project. Prerequisites: Elec Eng 3320."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5325  Applied Nonlinear Control (LEC 3.0)",
+        "description": "Review of State Variable Models, Nonlinear Model and Phenomena, Lyapunov Stability, Phase Plane Analysis, Feedback Linearization, Sliding Mode and Backstepping Control, and Control Applications Prerequisite: Elec Eng 3320 or graduate standing."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5340  Advanced PLC (LAB 1.0 and LEC 2.0)",
+        "description": "Advanced programmable logic controller (PLC) programming, function block, structured text, function chart, sequencer. Factory communications, system simulation, human-machine interface (HMI) programming. Advanced PID control. Network security and reliability. Class-wide project. Prerequisite: Elec Eng 3340."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5345  PLC Motion Control (LAB 1.0 and LEC 2.0)",
+        "description": "Factory automation motion control integrated with programmable logic controllers, servo control, variable-speed drive control, PackML state model, sizing motors and drives, machine safety, and experience with commercial hardware/software. Laboratory exercises on small-scale standard applications such as coordinated motion of multiple axes and camming. Prerequisite: Elec Eng 3340."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5350  Plantwide Process Control (LEC 3.0)",
+        "description": "Synthesis of control schemes for continuous and batch chemical plants from concept to implementation. Mulitloop control, RGA, SVD, constraint control, multivariable model predictive control, control sequence descriptions. Design project involving a moderately complicated multivariable control problem. Prerequisites: Chem Eng 4110 or Elec Eng 3320 or Elec Eng 3340 or graduate standing. (Co-listed with Chem Eng 5190)."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5355  Process Control System Safety, Security and Alarms (LEC 3.0)",
+        "description": "Lifecycle approach for industrial automation in the context of IEC 61511 (safety) and IEC 62443 (IACS cybersecurity) standards. Functional safety and cybersecurity fundamentals for risk analysis, safety/cybersecurity requirements, inherently safer/secure design techniques, SIL/SL verification, operations, real-world cybersecurity attacks, alarm management. Prerequisites: Elec Eng 3320, Elec Eng 3340, or Chem Eng 4110. (Co-listed with Chem Eng 5355)."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5360  System Simulation And Identification (LEC 3.0)",
+        "description": "Computationally efficient methods of digital simulation of linear systems. Non-parametric identification. Parametric identification with least squares and recursive least squares algorithms. Algorithms programmed using MATLAB. Prerequisite: Elec Eng 3320."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5380  Autonomous Mobile Robots (LEC 3.0)",
+        "description": "This course will provide an introduction to mobile robots and current approaches to robot autonomy. Topics include mobile robot systems, modeling and control, sensors and estimation, localization and mapping, and motion planning. Prerequisites: Elec Eng 3320 or equivalent and Stat 3117 or equivalent."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5400  Digital Signal Processing II (LEC 3.0)",
+        "description": "Spectral representations, sampling, quantization, z-transforms, digital filters and discrete transforms including the Fast Fourier transform. Prerequisites: Elec Eng 3410."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5420  Communications Systems II (LEC 3.0)",
+        "description": "Random signals and their characterization; noise performance of amplitude, angle and pulse modulation systems; digital data transmission; use of coding for error control. Prerequisite: Elec Eng 3430."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5430  Wireless Networks (LAB 1.0 and LEC 2.0)",
+        "description": "Introduction to wireless communications and networking. Topics include transmission fundamentals, wireless channel, coding techniques and error control, satellite and cellular networks, cordless systems, mobile IP and management, multiple access techniques and wireless protocols, wireless LAN, IEEE 802.11, and adhoc and sensor networks.  Prerequisites: Comp Eng 3150. (Co-listed with Comp Eng 5430 and Sys Eng 5323)."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5440  Stochastic Signal Analysis I (LEC 3.0)",
+        "description": "Introduction to the application of probabilistic models to typical electrical engineering problems. Topics include: methods for describing random voltages, random digital signals, correlation, linear mean-square estimation, linear transformation of random digital signals, and bit-error rate calculation for communication systems. Prerequisites: Math 3304 and Elec Eng 2120."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5450  Digital Image Processing (LEC 3.0)",
+        "description": "Fundamentals of human perception, sampling and quantization, image transforms, enhancement, restoration, channel and source coding. Prerequisites: Elec Eng 3430.(Co-listed with Comp Eng 5450)."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5460  Machine Vision (LEC 3.0)",
+        "description": "Image information, image filtering, template matching, histogram transformations, edge detection, boundary detection, region growing and pattern recognition. Complementary laboratory exercises are required. Prerequisites: Elec Eng 3430. (Co-listed with Comp Eng 5460)."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5500  Electric Drive Systems (LEC 3.0)",
+        "description": "Course content is roughly 1/3 power electronics, 1/3 applied control and 1/3 electric machinery and focuses on analysis, simulation, and control design of electric drive based speed, torque, and position control systems. Prerequisites: Elec Eng 3320."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5510  Electric-Drive Vehicles (LEC 3.0)",
+        "description": "Course covers introductory topics related to understanding/analysis of electric, hybrid/plug-in hybrid power trains. Classification of hybrid drivetrains, driving cycles, energy storage systems, mechanical coupling devices, automotive applications of fuel cells and introduction to power converters. Prerequisite: Senior standing and Physics 2135."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5520  Power Electronics (LEC 3.0)",
+        "description": "Analysis, design, modeling, and control of switching mode power converter circuits for ac-dc, dc-dc, dc-ac, and ac-ac conversion. Power semiconductor devices, passive components, and non-ideal sources and loads. Applications to industry, consumer goods, electric vehicles, and alternative energy.  Prerequisite: Elec Eng 3100."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5521  Power Electronics Laboratory (LAB 2.0)",
+        "description": "An introduction to power electronic circuits is presented. Students will construct several dc/dc, dc/ac and ac/dc converters. Various switching algorithms, including pulse width modulation, delta modulation, and hysteresis control will be developed to regulate and control the respective circuits. Prerequisite: Co-requisite Elec Eng 5520."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5540  Power Systems Engineering (LEC 3.0)",
+        "description": "Network analysis applied to power systems; the load flow concept; economic operation of power systems; synchronous machine reactances and transient stability; symmetrical components and asymmetrical faults; protective relaying. Prerequisite: Elec Eng 3540."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5550  Electric Power Quality (LEC 3.0)",
+        "description": "Definitions of power quality, types of power quality problems; sources of sags, transient overvoltages and harmonics; distribution overcurrent protection methods and their effect on power quality and reliability; harmonic analysis, principles of controlling harmonics, devices for filtering harmonics; power quality improvement methods. Prerequisite: Elec Eng 3500 or Elec Eng 3540."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5570  Extra High Voltage Engineering (LEC 3.0)",
+        "description": "The physical phenomena associated with high voltage dielectric breakdown are presented. Methods of generating and measuring high voltages and currents are explained. Type-tests performed on a variety of high voltage equipment are introduced. Prerequisite: Senior standing."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5600  Interference Control in Electronic Systems (LEC 3.0)",
+        "description": "Principles of high frequency effects in PCBs and components, generation of unwanted radio-frequency (RF) signals by ICs, RF radiation mechanisms, shielding, and immunity against electrostatic discharge and RF signals. Prerequisites: Elec Eng 3430 and 3600."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5620  Signal Integrity in High-Speed Digital & Mixed Signal Design (LEC 3.0)",
+        "description": "Signal integrity ensures signals transmitted over a propagation path maintain sufficient fidelity for proper receiver operation. Compromised signal integrity is often associated with parasitics (e.g. unintentional inductance, capacitance). Theory and CAD tools used for signal integrity analysis of functioning designs. Prerequisites: Elec Eng 3600 or Comp Eng 3150, and senior standing."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5630  Wave Propagation and Transmission Lines (LEC 3.0)",
+        "description": "The materials in this course are intended to provide a) follow up electromagnetics related courses, b) electromagnetics related career including RF design and c) a graduate degree in electromagnetic related fields an in-depth understanding of the basics of wave propagation and transmission lines. Prerequisite: Elec Eng 3600."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5640  Antennas and Propagation (LEC 3.0)",
+        "description": "Propagated fields of elemental dipole, directivity and gain, radiation resistance, the half-wave dipole, wire antennas, arrays, broadband antennas, aperture antennas, horn antennas, and antenna temperature. Prerequisite: Elec Eng 3600."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5650  Microwave and Millimeter Wave Engineering and Design (LEC 3.0)",
+        "description": "Introduce senior and graduate students to the concept of microwave and millimeter wave engineering and passive component design such as waveguide, cavities, couplers, detectors, mixers, etc., including network theory and scattering matrix. Finally, their specific application in the design of various microwave circuits will be discussed. Prerequisites: Elec Eng 3600."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5660  Microwave Principles For Mixed-Signal Design (LEC 3.0)",
+        "description": "Transmission lines; coupled transmission lines; microwave network analysis; impedance matching and tuning; design of microwave amplifiers and oscillators. Prerequisite: Elec Eng 3600."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5670  Nondestructive Testing (LEC 3.0)",
+        "description": "Principles and applications of various means of non-destructive testing of metallic materials. Radiological inspection methods, ultrasonic testing, magnetic methods, electrical and eddy current methods and others. Prerequisite: Physics 2135 or 2111. (Co-listed with Met Eng 5510)."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5680  Introduction to Radar Systems (LEC 3.0)",
+        "description": "The objective of this course is to introduce senior and graduate students to various radar system principles, designs and applications (e.g., pulse, frequency-modulated, chirp, Doppler radars). Topics related to signals, systems, noise, resolution, multiple sampling, different imaging modalities, and remote sensing will also be discussed. Prerequisites: Elec Eng 3430, Elec Eng 3600, Math 3304, Math 3108, and Stat 3115 or Stat 3117 or Stat 5643."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5810  Computational Intelligence (LEC 3.0)",
+        "description": "Introduction to Computational Intelligence (CI), Biological and Artificial Neuron, Neural Networks, Evolutionary Computing, Swarm Intelligence, Artificial Immune Systems, Fuzzy Systems, and Hybrid Systems. CI application case studies covered include digital systems, control, power systems, forecasting, and time-series predictions. Prerequisite: Graduate Standing. (Co-listed with Comp Eng 5310 and Sys Eng 5211)."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5820  Introduction to Neural Networks and Applications (LEC 3.0)",
+        "description": "The course provides an introduction to basic neural network architectures and their applications. Students learn to construct neural networks and train them to solve engineering problems, specifically pattern recognition and function approximation. Mathematical analysis of network architectures, training algorithms and practical applications of neural nets. Prerequisites: Graduate Standing. (Co-listed with Sys Eng 5212)."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5870  Mechatronics (LAB 1.0 and LEC 2.0)",
+        "description": "This course will introduce students to the basics of mechatronics (i.e., the integration of mechanical, electrical, computer, and control systems). Students will learn the fundamentals of sensors and actuators for mechanical systems, computer interfacing, microcontrollers, real-time software, and control. Prerequisite: Mech Eng 4479 or equivalent. (Co-listed with Mech Eng 5478, Aero Eng 5478 and Comp Eng 5820)."
+    },
+    {
+        "subject_id": 29,
+        "department_id": 14,
+        "subject_code": "ELEC ENG",
+        "subject_name": "Electrical Engineering",
+        "course": "ELEC ENG 5880  Introduction to Robotics (LEC 3.0)",
+        "description": "This course provides an introduction to robotics, covering robot hardware, fundamental kinematics, trajectories, differential motion, robotic decision making, and an overview of current topics in robotics. Prerequisite: A grade of \"C\" or better in both Math 3108 and Comp Sci 1575. (Co-listed with Comp Sci 5403 and Comp Eng 5880)."
+    }
+]

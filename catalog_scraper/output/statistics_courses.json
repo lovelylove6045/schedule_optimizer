@@ -1,0 +1,234 @@
+[
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 1001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 1115  Statistics For The Social Sciences I (LEC 3.0)",
+        "description": "A survey course in statistics for the social and behavioral sciences. Main emphasis is on inductive rather than traditional descriptive statistics. Attention given to the design of experiments, sampling procedures, basic probability distributions, tests of significance, linear regression and correlation, and analysis of variance. Not advised for engineering or science curricula. STAT 1115 - MOTR MATH 110: Statistical Reasoning"
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 2001  Special Topics (IND 0.0 and LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 3111  Statistical Tools For Decision Making (LAB 1.0 and LEC 2.0)",
+        "description": "An introduction to statistical techniques commonly used in management decision making. Topics include statistical inference of population parameters, linear regression, basics of experimental design and analysis, analysis of categorical data, and the use of statistical software. Credit will be given for only one of Stat 3111, 3113, 3115 or 3117. Prerequisite: A grade of \"C\" or better in Math 1208 or 1211 or 1212 or 1214."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 3113  Applied Engineering Statistics (LAB 1.0 and LEC 2.0)",
+        "description": "An introduction to applied statistical methods in engineering dealing with basic probability, estimation, tests of hypotheses, regression, design of experiments and control charts. Statistical computer packages will be used in connection with some of the material studies. Credit will be given for only one of Stat 3111, 3113, 3115 or 3117. Prerequisite: Math 1215 or Math 1221 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 3115  Engineering Statistics (LEC 3.0)",
+        "description": "An introduction to statistical methods in engineering and the physical sciences dealing with basic probability, distribution theory, confidence intervals, significance tests, and sampling. Credit will be given for only one of Stat 3111, 3113, 3115 or 3117. Prerequisite: Math 1215 or 1221 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 3117  Introduction To Probability And Statistics (LEC 3.0)",
+        "description": "Introduction to probability, distribution theory, statistical inference, with applications to physical and engineering sciences. Probability, probability and joint distributions, functions of random variables, system reliability, point and interval estimation, testing hypotheses, regression analysis. Credit will be given for only one of Stat 3111, 3113, 3115, or 3117. Prerequisite: Math 2222 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 3425  Introduction to Biostatistics (LAB 1.0 and LEC 3.0)",
+        "description": "Introduction to common biostatistical methods for designing research studies, collecting and analyzing data, with application to problems originating from the biological, environmental, and health sciences. Topics include randomization, means comparisons, ANOVA, regression, and analysis of count data. Prerequisites: A grade of \"C\" or better in Math 1120, Math 1140, Math 1210, Math 1211, Math 1212, or Math 1214; or by placement."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 4001  Special Topics (LAB 1.0 and LEC 3.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "This course is designed for the undergraduate student who wishes to engage in research. It is not to be used for graduate credit nor for more than six credit hours of undergraduate credit. The subject and credit are to be arranged with the instructor. Prerequisite: Consent of instructor."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 4210  Introduction to Statistical Data Science (LEC 3.0)",
+        "description": "A course introducing students to key data science methodologies and inferential thinking. A set of tools for modeling and understanding complex datasets will be developed. Methods such as regression, cross-validation, classification, tree-based methods, support vector machines, and unsupervised learning will be covered. Prerequisites: Stat 3113 or Stat 3115 or Stat 3117; Math 2222 or Math 3108; Comp Sci 1500 or Comp Sci 1570."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 5001  Special Topics (IND 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 5099  Graduate Research (IND 0.0-6.0)",
+        "description": "Investigation of an advanced nature leading to the preparation of a MS thesis or dissertation."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 5210  Statistical Data Analysis Using R (LEC 3.0)",
+        "description": "This course will introduce the student to common data analytic tools implemented in the R programming language and their appropriate and effective use. The focus will be on the use of R for data analysis and a discussion of theoretical underpinnings of the methods implemented. Prerequisites: One of the following: Stat 3113, Stat 3115, Stat 3117, or Stat 5643; and one of the following: Stat 5346, Stat 5353, Stat 6841, Stat 6343, Stat 6344, or Stat 6545."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 5260  Statistical Data Analysis Using SAS (LAB 1.0 and LEC 2.0)",
+        "description": "This course will introduce the student to selected data analytic tools implemented in the Statistical Analysis System (SAS) and appropriate and effective use of these tools. Focus would be on both the use of SAS data analytic tools and the theoretical and methodological rationale that form the basis of such analyses. Prerequisite: One of Stat 3113 or 3115 or 3117 or 5643; and one of Stat 5346 or 5353 or 6841 or 6343 or 6344 or 6545."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 5270  Foundations of Statistical Learning (LEC 3.0)",
+        "description": "An introduction to the statistical foundations of data-analytic techniques commonly used in Data Mining and the analysis of Big Data, including spline and kernel methods, principal component analysis, dimension reduction, neural networks, tree-based methods, nearest neighbors methods, support vector machines, bagging and boosting. Prerequisites: Math 2222, Math 3108 and one of Stat 3113 or Stat 3115 or Stat 3117 or Stat 5643."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 5290  Computational Bayesian Methods using Python (LEC 3.0)",
+        "description": "An introduction to Bayesian data analytic tools implemented in the Python programming language and their appropriate and effective use. The focus of the course is on the computational strategies and algorithms for Bayesian models and a discussion of theoretical underpinnings of the methods implemented. Prerequisites: One of Stat 3113 or Stat 3115 or Stat 3117 or Stat 5643; and one of Stat 5346 or Stat 5353 or Stat 6841 or Stat 6343 or Stat 6344 or Stat 6545."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 5346  Regression Analysis (LEC 3.0)",
+        "description": "Simple linear regression, multiple regression, regression diagnostics, multicollinearity, measures of influence and leverage, model selection techniques, polynomial models, regression with autocorrelated errors, introduction to non-linear regression. Prerequisites: Math 2222 and one of Stat 3113, Stat 3115, Stat 3117, or Stat 5643. (Co-listed with Comp Sci 5204)."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 5353  Statistical Data Analysis (LEC 3.0)",
+        "description": "Introduction to methods for analyzing statistical data from experiments and Introduction to methods for analyzing statistical data from experiments and surveys. Analysis of variance, correlation, introduction to regression techniques, contingency tables, non-parametric techniques and introduction to modern statistical software. Prerequisites: Math 2222 and one of Stat 1115, 3113, 3115 and 3117."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 5364  Causal Data Science (LEC 3.0)",
+        "description": "Potential outcomes, randomized experiments, observational studies, effect modification, interaction, causal directed acyclic graphs, Judea Pearl’s Theory of Causality, adjustment for confounding, selection bias, measurement bias, standardization, difference-in-differences, the front door method, instrumental variables, propensity-score methods and targeted learning. Prerequisites: Stat 3113, Stat 3115, Stat 3117, or Stat 5643."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 5643  Probability And Statistics (LEC 3.0)",
+        "description": "Introduction to the theory of probability and its applications, sample spaces, random variables, binomial, Poisson, normal distributions, derived distributions, and moment generating functions. Prerequisite: Math 2222."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 5644  Mathematical Statistics (LEC 3.0)",
+        "description": "A continuation of Stat 5643 with introduction to the theories of point estimation, hypothesis testing, and interval estimation. Includes sufficiency, completeness, likelihood and how they apply to the exponential family. Prerequisite: Stat 5643."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 5755  Statistical Models in Actuarial Science (LEC 3.0)",
+        "description": "This course covers the statistical foundation of actuarial models and their applications. Topics include survival and severity models, Kaplan-Meier and Nelson-Aalen estimators, aggregate and credibility models for insurance losses, discrete time Markov chains, ruin theory, and simulation. Prerequisite: Stat 5643 and either Stat 5644 or a 3000-level Stat course. (Co-listed with Econ 4350)."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 5756  Statistical Models for Life Contingencies (LEC 3.0)",
+        "description": "The basic statistical theory of actuarial models for life uncertainties such as time of death. Multiple life and multiple decrement models, statistical models for life and contingent insurance; last survivor, disability, withdrawal, retirement and reserving models for life insurance. Prerequisite: Stat 5643."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 5814  Applied Time Series Analysis (LEC 3.0)",
+        "description": "Introduction to time series modeling of empirical data observed over time. Topics include stationary processes, autocovariance functions, moving average, autoregressive, ARIMA, and GARCH models, spectral analysis, confidence intervals, forecasting, and forecast error. Prerequisites: One of Stat 3113, Stat 3115, Stat 3117, or Stat 5643 and one of Math 3108 or Math 5108."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 5904  Science Education and Quantitative Literacy for Middle School Teachers (LEC 3.0)",
+        "description": "An integrated science-mathematics course for middle school teachers. Course covers selected science/mathematics topics/skills specified in Missouri standards for grades 5-7. Inquiry based methods of teaching these topics in an integrated manner will be emphasized. Prerequisite: Current enrollment in a Teacher Education Program or a full or part-time teacher in a K-12 school. (Co-listed with Physics 4625)."
+    },
+    {
+        "subject_id": 19,
+        "department_id": 8,
+        "subject_code": "STAT",
+        "subject_name": "Statistics",
+        "course": "STAT 5905  Making Sense Of Data For Elementary School Teachers (LEC 3.0)",
+        "description": "An activity based course that is intended to provide elementary school teachers with the skills necessary to implement the Probability & Statistics strand of the American Statistical Association of the National Council of Teachers of Mathematics (NCTM) joint. Prerequisite: Graduate Standing."
+    }
+]

@@ -1,0 +1,546 @@
+[
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 1000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 1001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 1100  Introduction To Laboratory Safety & Hazardous Materials (LEC 1.0)",
+        "description": "A systematic study of safe laboratory operations and pertinent regulations of state and federal agencies."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 1110  Orientation for Chemistry Majors (LEC 1.0)",
+        "description": "Introduction to intellectual and professional opportunities in chemistry. Students will be acquainted with various areas of chemistry, with departmental and campus facilities useful to their studies, and with undergraduate research opportunities in the department. Required of all freshman chemistry majors; including transfer chemistry majors."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 1305  Fundamentals of General Chemistry (LEC 3.0 and RSD 1.0)",
+        "description": "Fundamentals of Chemistry is designed to provide engineering and other non-chemistry majors with a strong foundation in general chemistry concepts relevant to their fields. The course covers key topics such as stoichiometry, thermodynamics, kinetics, equilibrium, electrochemistry, and molecular structure, emphasizing their practical applications in engineering and technology. Delivered in a flipped classroom format, it integrates pre-recorded lectures with interactive, in-class problem-solving activities, and small-group recitation sessions to enhance student engagement and comprehension. Active-learning strategies, including case studies and collaborative exercises, are employed to promote critical thinking and develop problem-solving skills. Prerequisites: Entrance requirements."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 1310  General Chemistry I (LEC 3.0 and RSD 1.0)",
+        "description": "A comprehensive study of general chemistry concepts with focus on the atomic and molecular nature of matter. Fundamental scientific principles will be applied to solve chemistry problems and describe macroscopic physical properties. Prerequisite: Entrance requirements. CHEM 1310 - MOTR CHEM 150: Chemistry I CHEM 1310 - MOTR CHEM 150L: Chemistry I with Lab"
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 1319  General Chemistry Laboratory (LAB 1.0)",
+        "description": "The laboratory work accompanying general chemistry consists of experiments designed to supplement lectures in Chem 1305 or Chem 1310. Prerequisite: Preceded or accompanied by Chem 1100 and either Chem 1305 or Chem 1310. CHEM 1319 - MOTR CHEM 150L: Chemistry I with Lab"
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 1320  General Chemistry II (LEC 3.0)",
+        "description": "In-depth analysis of chemical reactions with an introduction to thermodynamics and kinetics including applications to electrochemistry and nuclear chemistry. Prerequisites: Chem 1310 with a grade of \"C\" or better; preceded or accompanied by Chem 1319."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 1510  Qualitative Analysis (LAB 2.0)",
+        "description": "This course is to accompany the study of the metals in general chemistry and is devoted to the qualitative separation and detection of the metals. Prerequisite: Preceded or accompanied by both Chem 1320 and Chem 1100."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 2000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 2001  Special Topics (RSD 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 2002  Cooperative Work Training (IND 1.0-3.0)",
+        "description": "On-the-job experience gained through cooperative education with industry, with credit arranged through departmental advisor. Grade received on quality of reports submitted and work supervisor's evaluation."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 2010  Seminar (IND 0.0-6.0)",
+        "description": "Discussion of current topics."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 2100  Master Student (LEC 1.0)",
+        "description": "Master Student is an orientation course for new and transfer students that addresses transition needs."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 2210  Organic Chemistry I (LEC 3.0)",
+        "description": "This course consists of four parts: 1) Structure, bonding, and nomenclature; 2) hydrocarbons (alkanes, alkenes, and alkynes), stereochemistry, resonance, and molecular orbital theory; 3) substitution and elimination reactions, and 4) identification of organic compounds via infrared and NMR spectroscopy. Prerequisites: Chem 1320."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 2219  Organic Chemistry I Lab (LAB 1.0)",
+        "description": "Laboratory involves purification techniques, simple and multistep synthesis and spectroscopic identification of organic functional groups. Prerequisites: Preceded or accompanied by Chem 2210 and Chem 1100."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 2220  Organic Chemistry II (LEC 3.0)",
+        "description": "This course consists of three parts. The first part will cover unsaturated systems, including aromaticity and reactions of unsaturated systems and aromatic compounds, and ultraviolet-visible spectroscopy; the second part will cover carbonyl compounds and their reactions; and the third part will cover amines and phenols and their reactions. Prerequisites: A grade of \"C\" or better in Chem 2210."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 2229  Organic Chemistry II Lab (LAB 1.0)",
+        "description": "Continuation of Chem 2219. Prerequisites: Chem 2219, preceded or accompanied by both Chem 2220 and Chem 1100."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 2410  Physical Chemistry I (LEC 3.0)",
+        "description": "A study of the laws of thermodynamics, transport phenomena, kinetic theory, and chemical kinetics with applications to states of matter, solutions, chemical reactions, and equilibria. Prerequisites: Physics 1111 or Physics 1135 or Physics 1145, and Math 1215."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 2420  Physical Chemistry II (LEC 3.0)",
+        "description": "A study of statistical approaches to thermodynamics, kinetic theory, and chemical kinetics, including the quantum theory of atoms, molecular structures, and molecular spectroscopy. Prerequisites: Physics 2111 or Physics 2135, Math 2222, and Chem 2410 or Chem Eng 3120."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 2459  Accelerated Physical Chemistry Laboratory (LAB 2.0)",
+        "description": "A laboratory course consisting of exploratory physical chemistry experiments. Prerequisites: Chem 2420 and preceded or accompanied by Chem 1100."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 2510  Analytical Chemistry I (LAB 1.0 and LEC 3.0)",
+        "description": "A study of analytical chemistry including an introduction to experimental error, statistics, principles of gravimetric and combustion analysis, chemical equilibrium, acid - base titrations, and electro-analytical determinations. Prerequisites: Chem 1320 and preceded or accompanied by Chem 1100."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 3310  Inorganic Chemistry I (LEC 3.0)",
+        "description": "A study of modern concepts of atomic structure, chemical bonding, thermodynamics and kinetics as related to the periodic relationship of the elements. Reference to topics of current interests as applied to the above areas. Prerequisites: Chem 1320."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 3320  Inorganic Chemistry II (LEC 3.0)",
+        "description": "A study of coordination chemistry, organometallics, bioinorganic and solid-state inorganic chemistry. Reference to topics of current interest as applied to the above areas. Prerequisites: CHEM 3310."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 3329  Inorganic Chemistry Laboratory (LAB 1.0)",
+        "description": "Synthesis and characterization of inorganic chemicals, high and low temperature syntheses, inert atmosphere and vacuum manipulations, electrochemistry, magnetochemistry, spectroscopy (NMR, IR, UV/VIS), superconductivity. Prerequisites: Preceded or accompanied by Chem 3310 and Chem 1100."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 3419  Physical Chemistry Laboratory I (LAB 1.0)",
+        "description": "Some typical operations of experimental physical chemistry. Prerequisites: Preceded or accompanied by both Chem 2410 and Chem 1100."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 3510  Analytical Chemistry II (LAB 1.0 and LEC 3.0)",
+        "description": "A study of analytical chemistry including separation techniques for chemical and biochemical analysis, atomic - molecular mass spectrometry, atomic - molecular spectroscopy, surface analysis with electron spectroscopy, X-ray and mass spectrometry. Prerequisites: Chem 2510; preceded or accompanied by Chem 1100."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Prerequisite: Consent of instructor required."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 4001  Special Topics (LAB 2.0 and LEC 1.0 and RSD 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 4010  Undergraduate Seminar (RSD 1.0)",
+        "description": "Written and oral presentations of current topics in chemistry. This course may serve as part of the capstone requirement for chemistry majors."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 4099  Undergraduate Research (IND 1.0-3.0)",
+        "description": "This course provides the undergraduate student with experience in conducting chemical research. Does not lead to the preparation of a thesis. Not more than eight (8) credit hours allowed for graduation credit. Subject and credit to be arranged with the instructor. Preparation of a written, detailed report is required of the student. Prerequisite: Must meet departmental requirements for instruction in laboratory safety. Consent of instructor required."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 4210  Intermediate Organic Chemistry (LEC 3.0)",
+        "description": "Fundamental organic reactions are discussed based on reaction mechanisms and synthetic applications emphasizing the synthon approach. Prerequisite: Chem 2220."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 4220  Intermediate Organic Chemistry II (LEC 3.0)",
+        "description": "A systematic study of organic reactions, their mechanisms and synthetic applications. Prerequisite: Chem 2220."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 4297  Organic Synthesis And Spectroscopic Analysis (LAB 2.0 and LEC 1.0)",
+        "description": "Advanced methods for the multistep synthesis and characterization of organic compounds. Modern instrumental methods of identification of organic compounds. Prerequisites: Chem 2229; preceded or accompanied by Chem 1100."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 4310  Selected Topics In Inorganic Chemistry (LEC 3.0)",
+        "description": "A study of inorganic chemistry with emphasis on physical methods. General subjects covered include: molecular structure, bonding, complexes, spectroscopy, and reaction rates."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 4410  Chemical Thermodynamics II (LEC 3.0)",
+        "description": "A study of the laws of thermodynamics with application to chemical systems. Emphasis is placed on partial molal functions. Prerequisites: Chem 3420."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 4420  Chemical Kinetics II (LEC 3.0)",
+        "description": "Advanced treatments of topics in physical chemistry including statistical mechanics and kinetics. Prerequisites: Chem 3420."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 4510  Instrumental Methods Of Chemical Analysis (LAB 1.0 and LEC 3.0)",
+        "description": "Principles and analytical applications of molecular spectroscopy, chromatographic separations, mass spectrometry, and radiochemistry.  A brief overview of instrument electronics, signal generation and processing, and automated analysis is also provided. Prerequisites: Chem 3510."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 4610  General Biochemistry (LEC 3.0)",
+        "description": "A resume of the important aspects of quantitative and physical chemistry in biochemical processes. General subjects covered include: proteins, nucleic acids, enzymes, carbohydrates and lipids. Prerequisite: Chem 2220."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 4619  General Biochemistry Laboratory (LAB 2.0)",
+        "description": "Experiments are integrated with the lectures and cover the chemical and physical properties of proteins, enzymes, nucleic acids, carbohydrates and lipids. Prerequisites: Preceded or accompanied by both Chem 4610 and Chem 1100."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 4620  Metabolism (LEC 3.0)",
+        "description": "A continuation of Chem 4610. Catabolism and anabolism of carbohydrates, lipids, proteins, and nucleic acids. Photosynthesis, oxidative phosphorylation and membranes. Prerequisite: Chem 4610."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 4630  Introduction to Bio-Nanotechnology (LEC 3.0)",
+        "description": "This course will educate on the interdisciplinary areas of bio-nanotechnology. Goal is for students to understand how biomacromolecules such as nucleic acids, proteins, and lipids self-assemble to form the functional units of an intact cell. Emphasis will be on current application in DNA/protein nanotechnology, drug delivery and environmental biosensors. Prerequisite: Chem 2220."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 4650  Medicinal Chemistry (LEC 3.0)",
+        "description": "A survey of the important aspects of analytical, organic, and physical chemistry as they relate to drug development, metabolism, and mechanism of action. A deeper understanding about drug design and molecular mechanisms by which drugs work in the body will be covered. Prerequisites: Chem 2220."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 4710  Principles Of Environmental Chemistry (LEC 3.0)",
+        "description": "This course provides a broad overview of chemical processes in air, water, soil, and biological environments with specific emphasis on the origin, transport, fate, and remediation of anthropogenic pollutants. Credit may not be given for both Chem 4710 and Chem 5710. Prerequisites: Chem 2210."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 4810  Chemistry And Inherent Properties Of Polymers (LEC 3.0)",
+        "description": "A basic study of the organic chemistry of natural and synthetic high polymers, their inherent properties and their uses in plastic, fiber, rubber, resin, food, paper and soap industries. Prerequisite: Chem 1320 or Met Eng 1210. (Co-listed with MS&E 4810)."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 4819  Polymer Science Laboratory (LAB 1.0)",
+        "description": "Lectures and laboratory experiments dealing with polymerization reactions, solution properties and bulk or solid properties will be presented. Each student will prepare polymers and carry out characterization experiments on actual samples. Prerequisite: Chem 4810 or MS&E 4810 and preceded or accompanied by Chem 1100. (Co-listed with MS&E 4819)."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 4850  Fundamentals Of Protective Coating I (LEC 3.0)",
+        "description": "Study of the basic principles of protective coatings with particular reference to the paint and varnish industry. Classifications, manufacture, properties and uses of protective coatings. Prerequisite: Chem 1320. (Co-listed with MS&E 4850)."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Prerequisite: Consent of instructor required."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 5001  Special Topics (LAB 2.0 and LEC 1.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 5099  Master Research (IND 0.0-6.0)",
+        "description": "Master level research with the intent to lead to the preparation of a master degree thesis. Not more than six (6) credit hours allowed for graduate credit.  Subject and credit to be arranged with the instructor. Preparation of a written, detailed report culminating in a thesis is required of the student. Prerequisite:  Must meet departmental training requirements for laboratory safety.  Consent of instructor required."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 5100  Laboratory Safety & Hazardous Materials (LEC 1.0)",
+        "description": "A systematic study of safe laboratory operations and pertinent regulations of state and federal agencies. Prerequisites: Graduate standing."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 5210  Fundamentals of Synthetic Organic Reactions (LEC 3.0)",
+        "description": "Fundamental organic reactions are discussed based on reaction mechanisms and synthetic applications emphasizing the synthon approach. Graduate students are required to demonstrate a higher level of learning on assessments. Prerequisite: Chem 2220."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 5220  Physical Organic Chemistry (LEC 3.0)",
+        "description": "Mechanisms of organic reactions and the tools used for their elucidation including kinetic isotope effects, linear-free energy relationships, MO theory and more advanced electronic structure methods, non-covalent interactions and other fundamental topics. Graduate students are expected to demonstrate a higher level of proficiency during assessments. Prerequisites: Chem 2220."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 5310  Introduction to Inorganic Chemistry (LEC 3.0)",
+        "description": "A study of inorganic chemistry with emphasis on physical methods. General subjects covered include: molecular structure, bonding, complexes, spectroscopy, and reaction rates.  Graduate students are required to demonstrate a higher level of proficiency during assessments."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 5410  Advanced Chemical Thermodynamics (LEC 3.0)",
+        "description": "A study of the laws of thermodynamics with application to chemical systems. Emphasis is placed on partial molal functions.  Credit will not given for both Chem 5410 and Chem 4410.  Prerequisites: Chem 3420."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 5420  Elemental Quantum Chemistry (LEC 3.0)",
+        "description": "A study of molecular structures and spectroscopy, statistical thermodynamics, kinetic theory, chemical kinetics, crystals, and liquids. Prerequisites: Math 2222; Physics 2135 or Physics 2111."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 5430  Advanced Chemical Kinetics (LEC 3.0)",
+        "description": "Introductory graduate treatment of special topics of physical chemistry including statistical mechanics and kinetics. Prerequisites: Chem 3430."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 5460  Molecular Engineering of Materials (LEC 3.0)",
+        "description": "This course focuses on the fundamentals of molecular engineering with an emphasis on their applications including renewable/clean energy solutions, energy storage, air/water cleaning, and optoelectronics. Topics include principles of modern physics, carbon chemistry, macromolecules, metal(covalent)-organic frameworks sol-gel processing and crystal growth. Prerequisites: Senior Standing or consent of instructor. (Co-listed with MS&E 5460)."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 5510  Introduction to Chemical Analysis (LAB 1.0 and LEC 3.0)",
+        "description": "Principles and analytical applications of molecular spectroscopy, chromatographic separations, mass spectrometry, and radiochemistry.  A brief overview of instrument electronics, signal generation and processing, and automated analysis is also provided. Graduate students are expected to achieve a higher level of proficiency on application and assessments compared to Chem 4510 students.   Prerequisites: Chem 1100, Chem 2510, Chem 2220, Chem 3430."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 5610  Biochemistry (LEC 3.0)",
+        "description": "A resume of the important aspects of quantitative and physical chemistry in biochemical processes. General subjects covered include: proteins, nucleic acids, enzymes, carbohydrates and lipids. Credit may not be given for both Chem 5610 and Chem 4610.  Prerequisite: Chem 2220."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 5619  Biochemistry Laboratory (LAB 2.0)",
+        "description": "Experiments are integrated with the lectures and cover the chemical and physical properties of proteins, enzymes, nucleic acids, carbohydrates and lipids.  Credit may not be given for both Chem 5619 and Chem 4619. Prerequisites: Preceded or accompanied by Chem 5610 and Chem 1100 or an equivalent training program approved by S&T."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 5620  Biochemical Metabolism (LEC 3.0)",
+        "description": "A continuation of Chem 5610. Catabolism and anabolism of carbohydrates, lipids, proteins, and nucleic acids. Photosynthesis, oxidative phosphorylation and membranes.  Credit may not be given for both Chem 5620 and Chem 4620.  Prerequisite: Chem 4610 or 5610."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 5630  Biochemical Nanotechnology (LEC 3.0)",
+        "description": "This course will educate on the interdisciplinary areas of bio-nanotechnology. Student will investigate the potential of nanoscience in advanced applications including DNA/protein nanotechnology, drug delivery, environmental biosensor and emerging biotechnology industries. Credit may not be given for both Chem 5630 and Chem 4630. Prerequisite: At least junior standing."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 5650  Introduction to Medicinal Chemistry (LEC 3.0)",
+        "description": "A survey of the important aspects of analytical, organic, and physical chemistry as they relate to drug development, metabolism, and mechanism of action. A deeper understanding about drug design and molecular mechanisms by which drugs work in the body will be covered. Prerequisite: Chem 2220."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 5710  Environmental Chemistry (LEC 3.0)",
+        "description": "This course provides a study of chemical processes in air, water, soil, and biological environments with specific emphasis on the origin, transport, fate, and remediation of anthropogenic pollutants. Credit may not be given for both Chem 4710 and Chem 5710.  Prerequisites: Chem 2210."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 5810  Introduction to Polymeric Materials (LEC 3.0)",
+        "description": "A basic study of the organic chemistry of natural and synthetic high polymers, their inherent properties and their uses in plastic, fiber, rubber, resin, food, paper and soap industries. Credit may not be given for both Chem 5810 and Chem 4810.  Prerequisite: Chem 1320. (Co-listed with MS&E 5810 and Chem Eng 5810)."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 5819  Polymer Synthesis and Characterization Lab (LAB 1.0)",
+        "description": "Laboratory experiments dealing with polymerization syntheses and solution, bulk and solid properties will be presented. Each student will prepare polymers and carry out all characterization experiments on actual samples. Credit may not be given for both Chem 5819 and Chem 4819.  Prerequisite: Chem 4810 or MS&E 4810 or Chem 5810 or MS&E 5810 or Chem Eng 5310, preceded or accompanied by Chem 1100 or Chem 5100 or an equivalent training program approved by S&T. (Co-listed with MS&E 5819)."
+    },
+    {
+        "subject_id": 11,
+        "department_id": 3,
+        "subject_code": "CHEM",
+        "subject_name": "Chemistry",
+        "course": "CHEM 5850  Introduction to Coating Chemistry (LEC 3.0)",
+        "description": "Study of the basic principles of protective coatings with particular reference to the paint and varnish industry. Classifications, manufacture, properties and uses of protective coatings. Credit may not be given for both Chem 5850 and Chem 4850.  Prerequisite: Chem 1320 or Met Eng 1210. (Co-listed with MS&E 5850)."
+    }
+]

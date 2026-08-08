@@ -1,0 +1,562 @@
+[
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 1000  Special Problems And Readings (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 1001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 1110  English As A Second Language-I (LEC 3.0)",
+        "description": "Elementary English for non-English speakers. Conversation and reading. Students learn to identify the topics and main ideas of texts, make short presentations, and write clearly organized essays. A study of English recommended for international students during their first semester in the U.S. Completing English 1110 meets S&T's English language requirement. Prerequisites: Prospective international students who meet: Missouri S&T's admission requirements except English language proficiency One of the following English language proficiency requirements: TOEFL iBT: 60 or above IELTS: 5.5 or above PTE: 50 or above Duolingo: 95 or above."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 1120  Exposition And Argumentation (LEC 3.0)",
+        "description": "Practice in college level essay writing. ENGLISH 1120 - MOTR ENGL 100: Composition I"
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 1160  Writing And Research (LEC 3.0)",
+        "description": "Practice in techniques of analytical writing and in methods of research. Prerequisite: English 1120. ENGLISH 1160 - MOTR ENGL 200: Composition II"
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 1170  Creative Writing (LEC 3.0)",
+        "description": "Practice in forms and techniques of poetry and prose fiction, with special attention to narrative development. Prerequisite: English 1120."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 1211  British Literature I: The Beginnings To 1800 (LEC 3.0)",
+        "description": "A survey of works and authors that explores the way these works represent the chronological period and express the individual concerns and techniques of those authors. ENGLISH 1211 - MOTR LITR 102: British Literature"
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 1212  British Literature II 1800 To Present (LEC 3.0)",
+        "description": "A survey of works and authors that explores the way these works represent the chronological period and express the individual concerns and techniques of those authors. ENGLISH 1212 - MOTR LITR 102: British Literature"
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 1221  American Literature: 1600 To 1865 (LEC 3.0)",
+        "description": "A chronological survey that explores the ways the literature represents the concerns of individual authors as well as the history of literature. ENGLISH 1221 - MOTR  LITR  101: American Literature"
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 1222  American Literature: 1865 To Present (LEC 3.0)",
+        "description": "A chronological survey that explores the ways the literature represents the concerns of individual authors as well as the history of literature. ENGLISH 1222 - MOTR  LITR  101: American Literature"
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 1231  World Literature I: From The Beginnings To The Renaissance (LEC 3.0)",
+        "description": "A survey of representative works and authors from the world's cultures. (Excludes British and American works). ENGLISH 1231 - MOTR LITR 200: World Literature"
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 1600  Introduction to Technical Communication (LEC 3.0)",
+        "description": "Introduction to the role of  the professional technical communicator in business and industry and practice in methods of developing technical documents.  Prerequisite: English 1120. (Co-listed with TCH COM 1600)."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 2000  Special Problems And Readings (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 2001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 2002  Critical Approaches To Literature (LEC 3.0)",
+        "description": "Study and application of the terminology and critical approaches used in understanding literary forms and genres."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 2003  Introduction to English and Technical Communication (LEC 3.0)",
+        "description": "This course serves as an introduction to the English and Technical Communication major. Students will engage with the various fields of study offered within the ETC department, including literature, linguistics, speech and media studies, and technical communication, while developing understanding of the unique approaches and intersections of those fields."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 2010  Seminar (IND 0.0-6.0)",
+        "description": "Discussion of current topics. Prerequisites: English 1120 and a semester of college literature."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 2171  Fiction Writing (LEC 3.0)",
+        "description": "This course introduces students to concepts of craft in fiction writing and the critical tools writers bring to revision. Students will write and present their own fully-developed stories and examine the stories of others in a workshop format. Prerequisite: English 1120 or equivalent."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 2172  Creative Nonfiction Writing (LEC 3.0)",
+        "description": "Students will write creative nonfiction essays about their experiences and the experiences of others. The course will emphasize the revision process, focusing on both sentence-level and global issues. Additionally, this course will introduce students to published writers rhetorical choices. Prerequisite: English 1120 or equivalent."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 2230  Literature And Film (LEC 3.0)",
+        "description": "This course will examine intertextual connections between literature and film, in terms of such things as adaptations, narrative technique and theory, genre, theme, and ideological movements. Prerequisite: English 1120."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 2232  Comics and Graphic Novels (LEC 3.0)",
+        "description": "Comics and graphic novels represent not only a distinct narrative form, but are also important cultural objects which engages complex questions of identity and culture. This class studies comics and the graphic novel as literature and as a popular art form. Prerequisites: English 1120."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 2240  Children's Literature (LEC 3.0)",
+        "description": "Introduction to the study of children's literature. Emphasis on historical developments, multicultural issues and works. Prerequisites: English 1120."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 2241  Young Adult Literature (LEC 3.0)",
+        "description": "Appropriate for teacher certification students. Selection and organization of materials for teaching literature to adolescents. Emphasizes literature written for adolescents and includes a unit of literature of American ethnic groups. Prerequisites: English 1120."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 2243  Science Fiction (LEC 3.0)",
+        "description": "A study of short stories, poems, or novels which represent the development and the techniques of the science fiction genre. Prerequisites: English 1120 and a semester of college literature."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 2244  Fantasy Literature (LEC 3.0)",
+        "description": "A study of the development of fantasy literature, predominately in the nineteenth, twentieth, and twenty-first centuries. The focus will include novels and other texts, including the work of J.R.R. Tolkien. Prerequisites: English 1120 and a semester of college literature."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 2247  American Crime And Detective Fiction (LEC 3.0)",
+        "description": "An introduction survey of American crime literature emphasizing the works of Hammett, Chandler, and James M. Cain to the more recent \"true crime\" tradition beginning with Capote's In Cold Blood. Prerequisites: English 1120 and a semester of college literature."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 2248  Thematic Studies in Literature and Film (LEC 3.0)",
+        "description": "Topics examine different thematic relationships between literature and film (e.g. Poe and Hitchcock, Shakespeare on film, etc.) announced at time of registration. Prerequisites: English 1120 and semester of college literature."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 2250  American Short Story (LEC 3.0)",
+        "description": "This course follows the development of the short story genre from its early nineteenth-century beginnings up to and including stories written by contemporary American authors. Prerequisite: English 1120."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 2410  Theory Of Written Communication (LEC 3.0)",
+        "description": "Major critical and conceptual approaches to written communication theory; includes semantics, history of print media, visible language, grammars, discourse theory, socio-linguistics reception theory, stylistics. Prerequisites: English 1120 and a semester of college literature."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 2540  Layout And Design (LEC 3.0)",
+        "description": "Theory and practice of layout and design for print and electronic media. Prerequisite: English 1600 or TCH COM 1600. (Co-listed with TCH COM 2540)."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 2560  Technical Marketing Communication (LEC 3.0)",
+        "description": "An introduction to technical marketing communication with an emphasis on relevant genres such as (but not limited to) the data sheet, white paper, and technical demonstration. Prerequisite: English 1120. (Co-listed with TCH COM 2560)."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3010  Seminar (RSD 3.0)",
+        "description": "Discussion of current topics. Prerequisites: English 1120 and a semester of college literature."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3085  Internship (IND 0.0-6.0)",
+        "description": "Internship will involve students applying critical thinking skills and discipline specific knowledge in a work setting based on a project designed by the advisor and employee. Activities will vary depending on the student's background and the setting. Prerequisite: Senior status; must have completed 24 hours in the major."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3101  Advanced Composition (LEC 3.0)",
+        "description": "Instruction and practice in writing expository essays of substantial content and skill, with particular emphasis on the rhetorical applications of recent findings in language research. Papers required will include critical analyses of literary works, and library research. Prerequisite: English 1160."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3170  Teaching And Supervising Reading and Writing (LEC 3.0)",
+        "description": "Students will study contemporary and traditional approaches to reading and writing instruction. The course will give students practice in applying literacy and composition theory and research to development of teaching methods, including course syllabi and assignments. Prerequisite: 6 hours of college level writing courses."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3210  Survey Of Old And Middle English Literature (LEC 3.0)",
+        "description": "Survey of Old English poetry in translation and Middle English literature (excluding Chaucer) through Malory. Special emphasis on culture and language with some attention given to modern reinterpretation of medieval works. Prerequisites: English 1120 and a semester of college literature."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3212  Sixteenth Century English Literature (LEC 3.0)",
+        "description": "A survey of the poetry and prose of England from 1500 to 1600. Prerequisites: English 1120 and a semester of college literature."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3213  Seventeenth Century English Literature (LEC 3.0)",
+        "description": "A study of major authors (excluding Milton) of prose and poetry in England from 1600 to 1660. Special attention will be paid to John Donne and the metaphysical poets, to Ben Jonson and the Cavalier poets, and to major prose writers such as Francis Bacon, Sir Thomas Browne, and others. Prerequisites: English 1120 and a semester of college literature."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3214  The Plays Of William Shakespeare (LEC 3.0)",
+        "description": "Selected comedies, tragedies, histories, and romances from early middle, and late periods of William Shakespeare's life. Prerequisites: English 1120 and a semester of college literature."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3215  The Restoration & Eighteenth Century (LEC 3.0)",
+        "description": "The history, development, and cultural contexts of British literature from 1660 to 1798. Prerequisites: English 1120 and a semester of college literature."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3217  Victorian Literature (LEC 3.0)",
+        "description": "A study of British prose and poetry from 1832 to 1900. Prerequisites: English 1120 and a semester of college literature."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3219  The British Novel II (LEC 3.0)",
+        "description": "A study of the development of the novel with major attention given to the Victorian and 20th century novelists. Prerequisites: ENGLISH 1120 and a semester of college literature."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3222  American Romanticism (LEC 3.0)",
+        "description": "A study of American literature from Poe to Whitman. Prerequisites: English 1120."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3223  American Poetry II (LEC 3.0)",
+        "description": "A study of significant selected poets of the 20th century, with special attention to theme, diction, and form, and poetry as a compressed image of the human condition. Prerequisites: English 1120 and a semester of college literature."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3224  Southern Culture (LEC 3.0)",
+        "description": "Introduction to major issues in the history and culture of the recent American South. Non-fiction, fiction, memoir, autobiography, journalism and film explore the social, economic, and political transformations of the region in the last half-century. Prerequisite: English 1120 and one semester of literature."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3226  The American Novel II (LEC 3.0)",
+        "description": "A study of selected, representative novels in chronological sequence from the major realists to the present. Prerequisites: English 1120 and a semester of college literature."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3227  American Gothic (LEC 3.0)",
+        "description": "This course follows the development of gothic/horror literature in the United States for its earliest expression in Phillip Freneau's 18th century works through Brockden Brown's late 18c. Gothic novels, to Hawthorne, Melville, and Poe's dark fiction, and finally to modern and contemporary works by Faulkner, O'Connor, Stephen King and others. Prerequisite: English 1120 and a previous literature course."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3232  Contemporary American Literature (LEC 3.0)",
+        "description": "Studies in American prose (fiction and non-fiction), drama, poetry, and screen plays published within the last fifteen years. Prerequisites: English 1120 and a semester of college literature."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3233  Contemporary British Literature (LEC 3.0)",
+        "description": "Studies in British prose (fiction and non-fiction), drama, poetry, and screen plays published within the last fifteen years. Prerequisites: English 1120 and a semester of college literature."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3234  Myth & Folklore (LEC 3.0)",
+        "description": "This course traces the development of myth and folklore from Ancient Mesopotamia through nineteenth century Europe. Students will be challenged with three questions along the way: What do myth and folklore do? Why were they important to earlier societies? Is myth alive today? Prerequisites: English 1120 and one semester of college literature."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3236  Tolkien & Lewis (LEC 3.0)",
+        "description": "This course offers a comprehensive understanding of the literary works of J.R.R. Tolkien and C.S. Lewis by exploring their fictional worlds through the cultural and historical contexts in which they were created. Prerequisites: English 1120."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3301  A Linguistic Study Of Modern English (LEC 3.0)",
+        "description": "A descriptive analysis of Modern English--its phonology, grammar, and vocabulary. Prerequisite: English 1120."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3302  History And Structure Of The English Language (LEC 3.0)",
+        "description": "An introduction to the study of the English language and its history through Old English, Middle English, and Modern English. Prerequisite: English 1120."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3303  The Grammatical Structure of English (LEC 3.0)",
+        "description": "The Grammatical Structure of English takes a linguistic approach to the study of the structure of present day English with a focus on morphology (the formation of words) and syntax (sentence structure). The course centers on form and function at the level of the word, phrase, and clause, using tree diagramming as the central mode of inquiry and analysis. Prerequisites: English 1120."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3304  Language in Society (LEC 3.0)",
+        "description": "Language in Society takes a sociolinguistic approach to the investigation of language variation and change in society, including: intersections of language and identity, race, gender, class, and other social factors; language ideologies; multilingualism; language standardization; pragmatics; and language policy and planning. Prerequisites: English 1120."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3550  Writing for Social Media (LEC 3.0)",
+        "description": "The theory and practice of writing for social media. Emphasis on the role of social media in industry. Prerequisites: One semester of college composition or technical writing. (Co-listed with TCH COM 3550)."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3560  Technical Writing (LEC 3.0)",
+        "description": "The theory and practice of writing technical documents and reports in the professions. Prerequisites: English 1120."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3590  Game Studies (LEC 3.0)",
+        "description": "An introduction to the study of games with an emphasis on their pedagogical and communicative uses. May cover topics such as game theory and design, gamification of classroom or workplace activities, game genres, and writing game narratives. Prerequisites: One semester of literature or composition. (Co-listed with TCH COM 3590)."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3591  Writing for the Games Industry (LEC 3.0)",
+        "description": "This course focuses on common documents and genres found in the games industry from a technical communication perspective. Prerequisites: English 1120. (Co-listed with Tch Com 3591)."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3592  Critical Game Analysis (LEC 3.0)",
+        "description": "This course critically examines technological, social, cultural and political-economic issues within the interdisciplinary study of games with an emphasis on games as communication. Classes and projects engage students in theory-driven treatments of games and expose them to the unique contributions of games to technical communication. Prerequisites: English 1120, and English 3590 or Tch Com 3590. (Co-listed with Tch Com 3592)."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 3593  Creating Narrative Games, Interactive Fiction, and Simulations (LEC 3.0)",
+        "description": "Introduction to the narrative design process for authoring text-based digital games. By the end of the semester, students will have developed a game or work of interactive fiction. No prior programming knowledge is required for students to be successful in the course. Prerequisites: English 1120. (Co-listed with Tch Com 3593)."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 4290  Texts And Contexts (LEC 3.0)",
+        "description": "Examines the relationships between selected texts written or published in a given year and the context of events of that time. Also explores current critical approaches to such texts and contexts. Writing intensive and Computer intensive. Prerequisites: English 1120 and a semester of college literature; junior standing."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 5001  Special Topics (IND 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 5100  Readings In Rhetoric And Composition (LEC 3.0)",
+        "description": "Directed readings and writing on selected topics and areas in Rhetoric and Composition. Credit will only be given for one of English 5210, 5220, 5230, or 5100 toward the Coop MA with UMSL. Prerequisites: Graduate standing and consent of instructor."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 5110  English as a Second Language (LEC 3.0)",
+        "description": "Elementary English for non-English speakers. Conversation and reading. Students learn to identify the topics and main ideas of texts, make short presentations, and write clearly organized essays. A study of English recommended for international graduate students during their first semester in the U.S. Meets S&T's English language requirement. Prerequisites: Prospective international graduate students who meet: Missouri S&T's admission requirements except English language proficiency One of the following English language proficiency requirements: TOEFL iBT: 60 or above IELTS: 5.5 or above PTE: 50 or above Duolingo: 95 or above."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 5210  Readings In British Literature (LEC 3.0)",
+        "description": "Directed readings and writing on selected topics and areas in British literature. Credit will only be given for one of English 5210, 5220, 5230, or 5100 toward the Coop MA with UMSL. Prerequisites: Graduate standing and consent of instructor."
+    },
+    {
+        "subject_id": 15,
+        "department_id": 5,
+        "subject_code": "ENGLISH",
+        "subject_name": "English",
+        "course": "ENGLISH 5571  Advanced Writing For Science & Engineering (LEC 3.0)",
+        "description": "Focus on writing applications specifically for students in scientific or engineering fields. Primary emphases will be on producing effective and readable professional writing. Prerequisites: English 3560 and 2560, or graduate standing."
+    }
+]

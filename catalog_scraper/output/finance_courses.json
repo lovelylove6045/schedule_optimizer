@@ -1,0 +1,98 @@
+[
+    {
+        "subject_id": 46,
+        "department_id": 20,
+        "subject_code": "FINANCE",
+        "subject_name": "Finance",
+        "course": "FINANCE 2000  Special Problems (IND 0.0-6.0)",
+        "description": "(Variable) Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 46,
+        "department_id": 20,
+        "subject_code": "FINANCE",
+        "subject_name": "Finance",
+        "course": "FINANCE 2001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 46,
+        "department_id": 20,
+        "subject_code": "FINANCE",
+        "subject_name": "Finance",
+        "course": "FINANCE 2150  Corporate Finance I (LEC 3.0)",
+        "description": "This course studies the need for funds in business and the techniques of analysis used to determine how effectively these funds are invested within the firm. Topics include the institutions, instruments, and markets concerned with raising funds. Prerequisites: Bus 1210 or Eng Mgt 2211."
+    },
+    {
+        "subject_id": 46,
+        "department_id": 20,
+        "subject_code": "FINANCE",
+        "subject_name": "Finance",
+        "course": "FINANCE 3000  Special Problems (IND 0.0-6.0)",
+        "description": "(Variable) Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 46,
+        "department_id": 20,
+        "subject_code": "FINANCE",
+        "subject_name": "Finance",
+        "course": "FINANCE 3001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 46,
+        "department_id": 20,
+        "subject_code": "FINANCE",
+        "subject_name": "Finance",
+        "course": "FINANCE 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six credit hours allowed towards graduation credit. Subject and credit to be arranged with the instructor."
+    },
+    {
+        "subject_id": 46,
+        "department_id": 20,
+        "subject_code": "FINANCE",
+        "subject_name": "Finance",
+        "course": "FINANCE 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in finance. Prerequisite: Admission to the MBA program and permission of the instructor."
+    },
+    {
+        "subject_id": 46,
+        "department_id": 20,
+        "subject_code": "FINANCE",
+        "subject_name": "Finance",
+        "course": "FINANCE 5001  Special Topics (LEC 0.0-6.0)",
+        "description": "This is designed to give the department an opportunity to test a new course. Variable title. Prerequisite: Admission to the MBA program."
+    },
+    {
+        "subject_id": 46,
+        "department_id": 20,
+        "subject_code": "FINANCE",
+        "subject_name": "Finance",
+        "course": "FINANCE 5099  Research (IND 0.0-9.0)",
+        "description": "Research investigation of an advanced nature leading to a major report suitable for publication in a journal or in a conference proceedings. Prerequisite: Permission of the instructor."
+    },
+    {
+        "subject_id": 46,
+        "department_id": 20,
+        "subject_code": "FINANCE",
+        "subject_name": "Finance",
+        "course": "FINANCE 5160  Corporate Finance II (LEC 3.0)",
+        "description": "This course provides a rigorous and consistent presentation of the theory of financial decisions. Capital markets are analyzed under assumptions of risk aversion and uncertainty. Models of modern portfolio theory are discussed including the CAPM and the Modigliani-Miller analysis. Prerequisite: Finance 2150 or graduate standing and basic corporate finance knowledge."
+    },
+    {
+        "subject_id": 46,
+        "department_id": 20,
+        "subject_code": "FINANCE",
+        "subject_name": "Finance",
+        "course": "FINANCE 5260  Investments I (LEC 3.0)",
+        "description": "Introduction to fundamental elements of investment analysis. Students learn financial tools and gain necessary knowledge to select among alternative financial assets. Real world experience includes stock analysis, portfolio simulations and interactions with professionals in the securities industry. Prerequisites: Finance 2150 or graduate standing and basic corporate finance knowledge."
+    },
+    {
+        "subject_id": 46,
+        "department_id": 20,
+        "subject_code": "FINANCE",
+        "subject_name": "Finance",
+        "course": "FINANCE 5310  Financial Technology and Analytics (LEC 3.0)",
+        "description": "This course introduces the foundations of emerging technologies such as AI&ML, Open Banking, Internet of Things, and Blockchain that are re-shaping the finance sector. The applications of technologies such as mobile payments, P2P lending, algorithmic trading, robo-advising, challenging banks and IoT insurance, will be introduced. The competitive landscape and new business models will be studied. Prerequisites: Finance 2150 or Graduate Standing and basic corporate finance knowledge."
+    }
+]

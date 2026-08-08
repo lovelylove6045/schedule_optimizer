@@ -1,0 +1,114 @@
+[
+    {
+        "subject_id": 24,
+        "department_id": 11,
+        "subject_code": "BME",
+        "subject_name": "Biomedical Engineering",
+        "course": "BME 2001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable titles."
+    },
+    {
+        "subject_id": 24,
+        "department_id": 11,
+        "subject_code": "BME",
+        "subject_name": "Biomedical Engineering",
+        "course": "BME 3001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable titles."
+    },
+    {
+        "subject_id": 24,
+        "department_id": 11,
+        "subject_code": "BME",
+        "subject_name": "Biomedical Engineering",
+        "course": "BME 3100  Fundamentals of Transport in Biomedical Engineering (LEC 4.0)",
+        "description": "This course covers the fundamentals of momentum, energy, and mass transport with an emphasis on the applications in biology and biotechnology. General differential equations for momentum, energy, and mass transfer are presented and solved for a variety of biomedical engineering problems. Prerequisites: A grade of \"C\" or better in Math 3304 and either Chem Eng 2110 or Cer Eng 3230."
+    },
+    {
+        "subject_id": 24,
+        "department_id": 11,
+        "subject_code": "BME",
+        "subject_name": "Biomedical Engineering",
+        "course": "BME 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required. Prerequisites: Permission of the instructor."
+    },
+    {
+        "subject_id": 24,
+        "department_id": 11,
+        "subject_code": "BME",
+        "subject_name": "Biomedical Engineering",
+        "course": "BME 4001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable titles."
+    },
+    {
+        "subject_id": 24,
+        "department_id": 11,
+        "subject_code": "BME",
+        "subject_name": "Biomedical Engineering",
+        "course": "BME 4091  Biomedical Engineering Design I (LEC 3.0)",
+        "description": "Design considerations for biomedical engineering manufacturing and biomaterials design emphasizing traditional engineering design concepts and engineering economic analysis. Prerequisites: Preceded or accompanied by English 3560 and either Chem Eng 5250 or MS&E 5310."
+    },
+    {
+        "subject_id": 24,
+        "department_id": 11,
+        "subject_code": "BME",
+        "subject_name": "Biomedical Engineering",
+        "course": "BME 4097  Biomedical Engineering Design II (LEC 3.0)",
+        "description": "Application of engineering design principles to the solution of a biomedical engineering problem. Communication emphasized course. Prerequisites: BME 4091."
+    },
+    {
+        "subject_id": 24,
+        "department_id": 11,
+        "subject_code": "BME",
+        "subject_name": "Biomedical Engineering",
+        "course": "BME 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six hours allowed for graduation credit. Subject and credit to be arranged with the instructor. Prerequisites: Consent of instructor required."
+    },
+    {
+        "subject_id": 24,
+        "department_id": 11,
+        "subject_code": "BME",
+        "subject_name": "Biomedical Engineering",
+        "course": "BME 4100  Biomedical Polymers and Metals (LEC 3.0)",
+        "description": "The structure of polymers and metals and their use in bio-applications with emphasis on how the structures influence processing, mechanical properties, and corrosion. Prerequisites: Chem Eng 3210."
+    },
+    {
+        "subject_id": 24,
+        "department_id": 11,
+        "subject_code": "BME",
+        "subject_name": "Biomedical Engineering",
+        "course": "BME 5001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable titles."
+    },
+    {
+        "subject_id": 24,
+        "department_id": 11,
+        "subject_code": "BME",
+        "subject_name": "Biomedical Engineering",
+        "course": "BME 5100  Drug and Gene Delivery Systems (LEC 3.0)",
+        "description": "Overview of drug and gene delivery systems, rational design for their applications with an emphasis on structure-property-function relationships. Three major parts: polymers and nanoparticles as drug and gene carriers; strategies to deliver drugs and genes; in vitro and in vivo techniques of assessment and validation. Prerequisites: Chem 2210 and Bio Sci 2213. (Co-listed with Chem Eng 5260)."
+    },
+    {
+        "subject_id": 24,
+        "department_id": 11,
+        "subject_code": "BME",
+        "subject_name": "Biomedical Engineering",
+        "course": "BME 5200  Materials as Hard Tissue Devices (LEC 3.0)",
+        "description": "This course considers the structure-property relationships of materials employed as medical devices, as well as the bone and dentition that they are designed to replace. The course will also consider the behavior of materials in the physiological environment, the tailoring of that behavior as a response to both bulk and surface properties, and the future of hard tissue medical devices. Prerequisites: BME 4100 or MS&E 5210. (Co-listed with Chem Eng 5270)."
+    },
+    {
+        "subject_id": 24,
+        "department_id": 11,
+        "subject_code": "BME",
+        "subject_name": "Biomedical Engineering",
+        "course": "BME 5300  Vaccine Manufacturing (LEC 3.0)",
+        "description": "The development, manufacturing, and approval process of vaccines are covered. Vaccines that use attenuated or inactivated viruses, viral components and mRNA as the active ingredient are discussed. The manufacturing process includes the making of the active ingredient, vaccine formulation and delivery. The class includes three remote lab experiments. Prerequisites: Senior standing in an engineering discipline, physics, chemistry, or biology. (Co-listed with Chem Eng 5280)."
+    },
+    {
+        "subject_id": 24,
+        "department_id": 11,
+        "subject_code": "BME",
+        "subject_name": "Biomedical Engineering",
+        "course": "BME 5311  Integrity and Ethics in Bioengineering (LEC 1.0)",
+        "description": "Study of ethical, social, and legal issues that arise in biotechnology and pharmaceutical industries and in biomedical research. Emphasis on professional attitudes and standard practices. Prerequisites: Senior or graduate standing."
+    }
+]

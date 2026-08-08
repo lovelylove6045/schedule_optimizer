@@ -1,0 +1,474 @@
+[
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 1105  Nuclear Technology Applications (LEC 1.0)",
+        "description": "It is a project oriented course that examines various aspects of nuclear technology, such as radiation detection, radiation protection, food irradiation, medical and industrial applications. The students will work in small groups on stimulating projects."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 2001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 2105  Introduction To Nuclear Engineering (LEC 2.0)",
+        "description": "Atoms and nuclei; nuclear reactions; radioactivity; interactions of radiation with matter; fission and fusion reactors; nuclear fuels; radiation effects on materials and man; radioactive waste disposal; reactor safety; radiation protection. Prerequisite: Math 1215."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 2406  Reactor Operations I (LAB 1.0)",
+        "description": "A first course in reactor operations training and practical approach to nuclear reactor concepts. Students will receive hands-on training and are encouraged to take the NRC Reactor Operator's Exam. Prerequisites: Math 1214 or Math 1211."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 3001  Special Topics (LAB 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 3103  Interactions Of Radiation With Matter (LEC 3.0)",
+        "description": "Atoms and nuclei; relativistic kinematics; quantum theory; nuclear decay; cross sections; neutron, gamma, and charged particle interactions; production of radioisotopes; electrical, thermal and magnetic properties of solids. Prerequisites: Math 2222, Physics 2135."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 3205  Fundamentals of Nuclear Engineering (LEC 3.0)",
+        "description": "An introduction to the principles and equations used in nuclear fission reactor technology including: reactor types; neutron physics and reactor theory; reactor kinetics and control; radiation protection; reactor safety and licensing; and environmental aspects of nuclear power. Prerequisites: Math 3304; Preceded or accompanied by Physics 2305 or  2311, or Nuc Eng 3103."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 3221  Reactor Fluid Mechanics (LEC 3.0)",
+        "description": "A study of the fundamental principles of incompressible viscous and inviscid flows in ducts, nozzles, tube bundles and applications to nuclear engineering; fluid statics; dimensional analysis and similitude; boundary layer theory. Prerequisites: Mech Eng 2519 or Mech Eng 2527, Math 3304, Junior standing."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 3223  Reactor Heat Transfer (LEC 3.0)",
+        "description": "A study of the fundamental principles of conduction, convection and thermal radiation with volumetric source terms for nuclear engineering applications; empirical correlations; finite difference methods; analysis of nuclear reactor cores. Prerequisite: Nuc Eng 3221."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 4001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six credit hours allowed for graduation credit. Subject and credit to be arranged with the instructor."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 4203  Nuclear Reactor Engineering (LEC 3.0)",
+        "description": "Study of neutron interactions, fission, chain reactions, neutron diffusion and neutron slowing down; criticality of a bare thermal homogeneous reactor. Prerequisite: Nuc Eng 3205."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 4207  Nuclear Fuel Cycle (LEC 3.0)",
+        "description": "Nuclear fuel reserves and resources; milling, conversion, and enrichment; fuel fabrication; in-and-out-of core fuel management; transportation, storage, and disposal of nuclear fuel; low level and high level waste management; economics of the nuclear fuel cycle. Prerequisite: Nuc Eng 3205."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 4241  Nuclear Materials I (LEC 3.0)",
+        "description": "Fundamentals of materials selection for components in nuclear applications; design and fabrication of UO2 fuel; reactor fuel element performance; mechanical properties of UO2; radiation damage and effects, including computer modeling; corrosion of materials in nuclear reactor systems. Prerequisites: Civ Eng 2210; Nuc Eng 3205; Nuc Eng 3223; Met Eng 2110. (Co-listed with Met Eng 5170)."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 4281  Probabilistic Risk Assessment (LEC 3.0)",
+        "description": "A discussion of the techniques for assessment of reliability, safety and risk associated with complex systems such as those encountered in nuclear power. Classification of accidents, fault tree analysis, consequences, figures of merit, and use of probabilistic risk analysis in regulation are discussed. (Co-listed with Eng Mgt 4281)."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 4312  Nuclear Radiation Measurements and Spectroscopy (LAB 1.0 and LEC 2.0)",
+        "description": "Contemporary radiation detection theory and experiments with high resolution gamma-ray spectroscopy, solid state detectors, neutron detection and conventional gas filled detectors. Neutron activation analysis of unknown material, statistical aspects of nuclear measurements.  Prerequisite: Nuc Eng 3205, Elec Eng 2800."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 4347  Radiological Engineering (LEC 3.0)",
+        "description": "Radiation exposure pathways analysis. Modeling of radionuclides transport through atmosphere, surface and ground water. Human health impact. Transportation of nuclear waste. Nuclear Waste characterization. Regulatory structure and requirements. Scenario case studies and computer simulation of transport. Prerequisite: Nuc Eng 3205."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 4350  Introduction to Nuclear Medical Science (LEC 3.0)",
+        "description": "Introduction to physics and technologies involved in various radiological imaging and treatment systems in the medical field, such as digital radiography, digital mammography, computed tomography and nuclear medicine instruments will be covered. Prerequisites: Nuc Eng 4312 or equivalent. (Co-listed with Nuc Eng 5350)."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 4363  Applied Health Physics (LEC 3.0)",
+        "description": "Radiation sources; external and internal dosimetry; biological effects of radiation; radiation protection principles; regulatory guides; radioactive and nuclear materials management. Prerequisite: Nuc Eng 3103 or Physics 2305."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 4370  Plasma Physics I (LEC 3.0)",
+        "description": "Single particle orbits in electric and magnetic fields, moments of Boltzmann equation and introduction to fluid theory. Diffusion of plasma in electric and magnetic fields. Analysis of laboratory plasmas and magnetic confinement devices. Introduction to plasma kinetic theory. Prerequisite: Aero Eng 3131 or Mech Eng 3131 or Physics 3211 or Nuc Eng 3221 or Elec Eng 3600. (Co-listed with Aero Eng 5570, Mech Eng 5570, Physics 4543)."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 4428  Reactor Laboratory I (LAB 1.0 and LEC 2.0)",
+        "description": "Acquaints the student with neutron flux measurement, reactor operation, control rod calibration, reactor power measurement and neutron activation experiments. Experiments with the thermal column and neutron beam port are also demonstrated. Prerequisites: Nuc Eng 4312 or Nuc Eng 5312, Nuc Eng 3205."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 4438  Nuclear Engineering Laboratory (LAB 1.0 and LEC 1.0)",
+        "description": "A continuation of NUC ENG 4428 that introduces students to the research process through hands-on laboratory activities.  Prerequisite: Nuc Eng 4312 or Nuc Eng 5312 and Nuc Eng 4428 or Nuc Eng 5428."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 4496  Nuclear System Design I (LAB 1.0 and LEC 1.0)",
+        "description": "A preliminary design of a nuclear system (e.g. a fission or fusion nuclear reactor plant, a space power system, a radioactive waste disposal system). Prerequisites: Nuc Eng 3223, Nuc Eng 4203 or Nuc Eng 5203; preceded or accompanied by Nuc Eng 4241 or Nuc Eng 5241."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 4497  Nuclear System Design II (LEC 3.0)",
+        "description": "A complete design of a nuclear system (e.g.a fission or fusion nuclear reactor plant, a space power system, a radioactive waste disposal system). Prerequisite: Nuc Eng 4496."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in he department. Consent of instructor required."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5002  Cooperative Training (IND 1.0-6.0)",
+        "description": "On the job training gained through cooperative education with industry, with credit arranged through departmental cooperative advisor. Grade received depends on quality of reports submitted and work supervisor's evaluation."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5010  Nuclear Engineering Seminar (RSD 0.50)",
+        "description": "Discussion of current topics."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5203  Reactor Physics I (LEC 3.0)",
+        "description": "Study of neutron interactions, fission, chain reactions, neutron diffusion and neutron slowing down; criticality of a bare thermal homogeneous reactor. Prerequisite: Nuc Eng 3205."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5207  Nuclear Fuel Cycle (LEC 3.0)",
+        "description": "Nuclear fuel reserves and resources; milling, conversion, and enrichment; fuel fabrication; in-and-out-of core fuel management; transportation, storage, and disposal of nuclear fuel; low level and high level waste management; economics of the nuclear fuel cycle. Prerequisite: Nuc Eng 3205."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5229  Nuclear Power Plant Systems (LEC 3.0)",
+        "description": "A study of current nuclear power plant concepts and the environmental, economics and safety considerations affecting their design. Includes such topics as: thermodynamics, thermal hydraulics, and mechanical and electrical aspects of nuclear power facilities. Prerequisites: Nuc Eng 3205 and accompanied or preceded by Nuc Eng 3223."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5241  Nuclear Materials I (LEC 3.0)",
+        "description": "Fundamentals of materials selection for components in nuclear applications; design and fabrication of UO2 fuel; reactor fuel element performance; mechanical properties of UO2; radiation damage and effects, including computer modeling; corrosion of materials in nuclear reactor systems. Prerequisites: Civ Eng 2210, Nuc Eng 3205, Nuc Eng 3223, Met Eng 2110, or graduate standing. (Co-listed with Met Eng 5170)."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5251  Reactor Kinetics (LEC 3.0)",
+        "description": "Derivation and solutions to elementary kinetics models. Application of the point kinetics model in fast and thermal reactor dynamics, internal and external feedback mechanisms, rigorous derivation and solutions of the space dependent kinetics model fission product and fuel isotope changes during reactor operation. Prerequisite: Nuc Eng 3205."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5253  Monte Carlo Approach to Reactor Analysis (LEC 3.0)",
+        "description": "An introduction to a stochastic method for solving particle transport problems with a view to utilize the method in reactor design and analysis, shielding problems, flux calculations, reaction rates determination and general steady state reactor physics analysis. Prerequisites: Accompanied by NUC ENG 3205."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5257  Introduction to Nuclear Thermal Hydraulics (LEC 3.0)",
+        "description": "An introductory course in the application of thermal-hydraulic principles to energy systems, with emphasis on nuclear energy issues. Will include the development of constitutive models and applications to power systems, fluid mechanics, and heat transfer problems (including multiphase flows). Prerequisite: Preceded or accompanied by NUC ENG 3223, or MECH ENG 3525, or equivalent, or Graduate standing."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5259  Licensing Of Nuclear Power Plants (LAB 1.0 and LEC 2.0)",
+        "description": "The pertinent sections of the Code of Federal Regulations, the Nuclear Regulatory Commission's Regulatory Guides and Staff Position Papers, and other regulatory requirements are reviewed. Safety analysis reports and environmental reports for specific plants are studied. Operational aspects of the nuclear power plant will be covered by including field trips. Prerequisite: Nuc Eng 3205."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5281  Introduction to Probabilistic Risk Assessment (LEC 3.0)",
+        "description": "An introduction to advanced techniques for assessing reliability, safety and risk in complex systems. Classification of initiating events, fault tree analysis, consequences, figures of merit, and use of probabilistic risk analysis in regulation are discussed using examples and applied through a simple case study. (Co-listed with Sys Eng 5281)."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5312  Nuclear Radiation Measurements and Spectroscopy (LAB 1.0 and LEC 2.0)",
+        "description": "Contemporary radiation detection theory and experiments with high resolution gamma-ray spectroscopy, solid state detectors, neutron detection and conventional gas filled detectors. Neutron activation analysis of unknown material, statistical aspects of nuclear measurements.  Prerequisite: Nuc Eng 3205."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5338  Innovation and Value Generation (LEC 3.0)",
+        "description": "This course introduces a structured framework for understanding and executing the innovation process, from ideation to implementation. It emphasizes a systematic approach to identifying real-world needs, crafting solutions, and transforming them into impactful outcomes, providing strategies for identifying customer needs and determining innovative solutions. (Co-listed with Econ 5338, Chem Eng 5338, and Min Eng 5338)."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5345  Nuclear Engineering Mathematical Methods (LEC 3.0)",
+        "description": "Application of mathematical methods used in the solution of nuclear engineering problems, particularly with the neutron kinetics equations, the Navier-Stokes equations, and the heat conduction equation with nuclear heat generation terms. Prerequisites: Nuc Eng 4203 or Nuc Eng 5203 or Graduate Standing."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5347  Radiological Engineering (LEC 3.0)",
+        "description": "Radiation exposure pathways analysis. Modeling of radionuclides transport through atmosphere, surface and ground water. Human health impact. Transportation of nuclear waste. Nuclear Waste characterization. Regulatory structure and requirements. Scenario case studies and computer simulation of transport. Prerequisite: Nuc Eng 3205."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5350  Nuclear Medical Science (LEC 3.0)",
+        "description": "Advanced level of technologies involved in medical modalities, such as digital radiography, digital mammography, modern computed tomography, gamma camera, SPECT and PET will be covered. Prerequisites: Nuc Eng 4312 or 5312."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5360  Data Driven Strategic Insights (LEC 3.0)",
+        "description": "This course designates a corporate executive to teach identifying the appropriate data analytics for corporate decision-making using modeling frameworks such as regression analysis, forecasting, Monte Carlo simulation, and optimization. The course utilizes Python and cloud-based software platforms to work with large databases in financial contexts. Prerequisites: Econ 1100, Econ 1200, and Econ 3300, or instructor approval. (Co-listed with Econ 5360)."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5361  Fusion Fundamentals (LEC 3.0)",
+        "description": "Introduction to the plasma state, single particle motion, kinetic theory, plasma waves, fusion, power generation, radiation mechanisms, inertial confinement and fusion devices, including conceptual fusion power plant designs. Prerequisite: Preceded or accompanied by Math 3304, or Graduate Standing."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5363  Applied Health Physics (LEC 3.0)",
+        "description": "Radiation sources; external and internal dosimetry; biological effects of radiation; radiation protection principles; regulatory guides; radioactive and nuclear materials management. Prerequisite: Nuc Eng 3103 or Physics 2305, or Graduate Standing."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5365  Radiation Protection Engineering (LEC 3.0)",
+        "description": "Radiation fields and sources including nuclear reactors, radioactive wastes, x-ray machines, and accelerators. Stopping of radiation (Charges particles, photons, and neutrons) by matter. Radiation transport methods. Radiation shielding design. Dose rate calculations. Biological effects of radiation. Regulatory guides (10CFR20). Prerequisite: Nuc Eng 3205."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5367  Radioactive Waste Management And Remediation (LEC 3.0)",
+        "description": "Sources and classes of radioactive waste, long-term decay, spent fuel storage, transport, disposal options, regulatory control, materials issues, site selection and geologic characterization, containment, design and monitoring requirements, domestic and foreign waste disposal programs, economic and environmental issues, history of disposal actions, and conduct of remedial actions and clean up. Prerequisite: Math 3304. (Co-listed with Geology 4421)."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5370  Plasma Physics I (LEC 3.0)",
+        "description": "Single particle orbits in electric and magnetic fields, moments of Boltzmann equation and introduction to fluid theory. Diffusion of plasma in electric and magnetic fields. Analysis of laboratory plasmas and magnetic confinement devices. Introduction to plasma kinetic theory. Prerequisite: Aero Eng 3131 or Mech Eng 3131 or Physics 3211 or Nuc Eng 3221 or Elec Eng 3600. (Co-listed with Aero Eng 5570, Mech Eng 5570, Physics 4543)."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5428  Advanced Reactor Laboratory I (LAB 1.0 and LEC 2.0)",
+        "description": "Acquaints the student with neutron flux measurement, reactor operation, control rod calibration, reactor power measurement and neutron activation experiments. Experiments with the thermal column and neutron beam port are also demonstrated. Prerequisites:  Nuc Eng 4312 or 5312, Nuc Eng 3205."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5438  Advanced Nuclear Engineering Laboratory (LAB 1.0 and LEC 1.0)",
+        "description": "A continuation of NUC ENG 5428 that emphasizes the research process through development of hands-on laboratory activities. Prerequisite: Nuc Eng 4428 or Nuc Eng 5428."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5456  Reactor Operation II (LAB 1.0)",
+        "description": "The operation of the training reactor. The program is similar to that required for the NRC Reactor Operator's license.  Students from other disciplines will also benefit from the course. Prerequisite: Nuc Eng 2105, 2406."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5507  Nuclear Policy (LEC 3.0)",
+        "description": "This course introduces nuclear security and safeguards policy. It explores the following topics: history of domestic and international nuclear policy, evolution of U.S. nuclear weapons policy, factors influencing policy, the IAEA, nuclear deterrence policy, nuclear safeguards policy, policy in non-proliferation issues, and various international agreements. Prerequisites: Graduate Standing or enrolled in the Nuclear Nonproliferation certificate program."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5509  Nuclear Nonproliferation (LEC 3.0)",
+        "description": "This course will introduce IAEA mission specific to nonproliferation. The class will provide discussion of essential elements of a nuclear weapon, followed by a brief historical over of nonproliferation treaties in place to deter proliferation. Methods of fissile material production will be discussed followed by a survey of tool and techniques available an Prerequisites: Graduate Standing or enrolled in the Nuclear Nonproliferation certificate program."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5543  Innovation Economics and Finance (LEC 3.0)",
+        "description": "This course teaches rapid project development and financing, from an idea to a revenue-generating asset. It covers process ideation, technology/vendor selection, financial modeling, contract structuring, non-recourse financing, and project execution, such as engineering, procurement, construction, and start-up, resulting in a cash-flowing, tradeable annuity. (Co-listed with Econ 5543, Chem Eng 5543, and Min Eng 5543)."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5577  Advanced Nuclear Forensics and Radiochemistry (LEC 3.0)",
+        "description": "Fundamentals of radiochemistry, including nuclear science, cosmochemistry, spent fuel reprocessing, with details on solvent extraction. We will review case studies in Nuclear Forensics. This advanced section also includes experiments on radiochemistry and demonstrate experimental nuclear forensics techniques. Dual listed with Nuc Eng 4577."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5648  Innovation to Market (LEC 3.0)",
+        "description": "This course provides the tools needed to transform innovative solutions into market-ready products and services, focusing on business model development, value generation, and product management. Students will learn to identify product-market fit, maximize value to customers and users, and launch successful innovations. Prerequisites: Econ 5338 and Econ 5543. (Co-listed with Econ 5648, Chem Eng 5648, and Min Eng 5648)."
+    },
+    {
+        "subject_id": 43,
+        "department_id": 19,
+        "subject_code": "NUC ENG",
+        "subject_name": "Nuclear Engineering",
+        "course": "NUC ENG 5658  Building Sustainability and Environmental, Social and Governance (ESG) (LEC 3.0)",
+        "description": "Across the globe, businesses are increasingly recognizing the importance of sustainability and ESG principles. This course equips students with the knowledge, tool set, and skills needed to understand, implement, and integrate sustainability and ESG practices in various organizational contexts. Prerequisites: Junior or above standing. (Co-listed with Econ 5658, Chem Eng 5658, and Min Eng 5658)."
+    }
+]

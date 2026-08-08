@@ -1,0 +1,314 @@
+[
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 1000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 1001  Special Topics (IND 0.0-6.0)",
+        "description": "This is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 1110  Introduction to Management and Entrepreneurship (LEC 3.0)",
+        "description": "The course provides an introduction to the basic concepts of management and entrepreneurship to provide an awareness of what functions and challenges are faced by managers and entrepreneurs in today's global environment. Applications of the concepts to the organization, operations, and resources are discussed. Appropriate for all majors."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 1210  Financial Accounting (LEC 3.0)",
+        "description": "This course is an introduction to financial accounting and its significant role in making sound business decisions. Emphasis is on what accounting information is, why it is important, and how it is used to make strategic economic decisions."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 1414  The Inclusive Workplace (LEC 3.0)",
+        "description": "This course will cover topics such as corporate social responsibility, ethics, diversity and inclusion (i.e. national culture, race, religion, age, gender, sexual orientation, and ability).  Students will learn to recognize their own biases, understand the benefits of inclusion, and be exposed to a few strategies utilized to achieve an inclusive workplace."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 1810  Introduction to College Success (LEC 1.0)",
+        "description": "This course teaches essential skills for success in Business and Information Technology and a student's future career. The course creates a sense of community in the department and prepares the student for the business world."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 2000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 2001  Special Topics (LEC 0.0-6.0)",
+        "description": "This is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 2002  Cooperative Training in Business (IND 0.0-6.0)",
+        "description": "On-the-job experience gained through cooperative education with industry with credit arranged through departmental co-op advisor. Grade received depends on quality of reports submitted and work supervisors's evaluation. Prerequisite: Completed 30 hours toward degree."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 2910  Business Law (LEC 3.0)",
+        "description": "This course is an introduction to the nature and meaning of law and the legal environment of business. Topics include the legal process, sources of law, and institutions."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 3115  Introduction to Teambuilding and Leadership (LEC 3.0)",
+        "description": "This course covers an introduction to leadership styles, principles, models, issues, and applications through analytical and intellectual examination. Key components of teams are introduced, with opportunities to practice and develop both leadership and teambuilding skills."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 3220  Managerial Accounting (LEC 3.0)",
+        "description": "Emphasizes internal use of accounting information in establishing plans and objectives, controlling operations, and making decisions involved with management of an enterprise (the determination of costs relevant to a specific purpose such as inventory valuation, control of current operation, or special decisions). Prerequisites: Bus 1210 or Eng Mgt 2211."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 4001  Special Topics (LEC 0.0-6.0)",
+        "description": "This is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 4050  The Business of eSports (LEC 3.0)",
+        "description": "This course is designed to provide students with an overview of the business side of the eSports industry. Topics covered include business model analysis, competitive structure, marketing and sponsorship, and tournament operations."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 4085  Internship (IND 1.0-6.0)",
+        "description": "Students apply critical thinking skills and discipline specific knowledge in a work setting based on a project designed by the advisor and an industry organization. Activities will vary depending on the student's background and the setting. Requires major report and experiential learning opportunity at a department approved organization. Prerequisites: Subject to departmental requirements including departmental approval of the organization and internship learning plan prior to enrolling in the course. (Co-listed as IS&T 4085)."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six credit hours allowed for graduation credit. Subject and credit to be arranged with the instructor."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 4675  International Business (LEC 3.0)",
+        "description": "This survey course will deal with business concepts, analytical processes and philosophical bases for international business operations. Emphasis is on environmental dynamics, multinational business organizations, cultural and economic constraints, unique international business practices and international operations, strategy and policy."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Prerequisite: Admission to the MBA program."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 5001  Special Topics (LEC 0.0-6.0)",
+        "description": "This is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 5040  Oral Examination (IND 0.0)",
+        "description": "After completion of all other requirements, oral examinations for on-campus M.B.A./Ph.D. students may be processed during intersession. Off-campus M.B.A. students must be enrolled in oral examination and must have paid an oral examination fee at the time defense/oral examination (oral/written). All other students must enroll for credit commensurate with uses made of facilities and/or faculties. In no case shall this be for less than three (3) semester hours for resident students."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 5080  Practicum (IND 0.0-6.0)",
+        "description": "This course is similar to the Bus 5085 Internship course. The difference is that this course is intended for students who are already employed by an organization for whom they wish to continue working. Prerequisite: Bus Core."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 5085  Internship (IND 0.0-6.0)",
+        "description": "Students apply critical thinking skills and discipline specific knowledge in a work setting based on a project designed by the advisor and employer. Activities will vary depending on the student's background and the setting. Requires major report and formal presentation to sponsoring organization. Prerequisite: Graduate standing."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 5099  Research (IND 0.0-9.0)",
+        "description": "Research investigation of an advanced nature leading to a major report suitable for publication in a journal or in a conference proceedings. Prerequisite: Permission of the instructor."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 5111  Business Negotiations (LEC 3.0)",
+        "description": "The purpose of this course is to understand the practices and processes of negotiation for negotiating successfully in a variety of settings. The course is designed to be relevant to the broad spectrum of negotiation problems faced by managers, consultants, etc. Because almost everyone negotiates all the time, this course is relevant to almost any student. Prerequisites:Junior standing or above."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 5115  Introduction to Individual and Group Dynamics in Business (LEC 3.0)",
+        "description": "This course will cover contemporary theories of business leadership styles and group dynamics. Leadership theories, group dysfunction/function, positive group interactions, change impacts, the importance of business ethics as well as the role of gender and culture on the group will be examined."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 5150  Customer Focus and Satisfaction (LEC 3.0)",
+        "description": "Major emphasis is given to the concept of customer focus, with coverage of techniques for obtaining customer needs, measuring customer satisfaction, developing products and services to satisfy customers, and maximizing the benefits of customer feedback. A semester long HoQ project will be done. Prerequisites: Mkt 3110 or Mkt 3105 or Eng Mgt 3510."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 5230  Financial Data Analysis and Storytelling (LEC 3.0)",
+        "description": "Analysis and interpretation of key financial performance indicators for profitability, credit, and other business analyses. Data analytics concepts and techniques are illustrated using platforms like Power BI or Tableau. Students will learn to use a/the storytelling approach to communicate business insights in a data-driven environment. Prerequisite: BUS 1210 or graduate standing and financial accounting knowledge."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 5360  Business Operations (LEC 3.0)",
+        "description": "This course examines the concepts, processes, and institutions that are fundamental to an understanding of business operations within organizations. Emphasis is on the management and organization of manufacturing and service operations and the application of quantitative methods to the solution of strategic, tactical and operational problems. Prerequisites: BUS 1210 or ENG MGT 2211; at least Junior standing; and one of the following: STAT 1115, STAT 3113, or STAT 3117."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 5470  Human Resource Management (LEC 3.0)",
+        "description": "The course examines employee selection, performance appraisal, training and development, compensation, legal issues, and labor relations. Prerequisite: Bus 1110."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 5510  Corporate Entrepreneurship and Ecosystem Strategy (LEC 3.0)",
+        "description": "Course explores how established organizations identify, develop, and capitalize on innovative opportunities within dynamic ecosystems. Topics include corporate venturing, collaborative innovation, entrepreneurial leadership, public–private partnerships, and ecosystem development at the local and regional levels. Students will learn frameworks for ecosystem mapping, stakeholder analysis, strategic partnership formation, and managing intrapreneurial ventures. Emphasis is placed on real-world case studies, ecosystem projects, and applied research in various organizational contexts."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 5580  Strategic Management (LEC 3.0)",
+        "description": "Study of the formulation and implementation of corporative, business and functional strategies designed to achieve organizational objectives. Case studies and research reports may be used extensively.  Prerequisites: MKT 3110 or Eng Mgt 3510; Finance 2150 or Eng Mgt 3200; Senior standing."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 5730  Machine Learning and Artificial Intelligence for Business (LEC 3.0)",
+        "description": "Explores various approaches to machine learning and artificial intelligence, along with their numerous applications in business. Describes some of the many technological approaches to business problems that are considered part of machine learning and artificial intelligence, such as neural networks and deep learning. Prerequisites: IS&T 1750; or Graduate Standing, understanding of management information systems."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 5810  Branding for Innovation (LEC 3.0)",
+        "description": "This course touches on branding on all fronts, including internal and external. It covers how firms sell their stories to employees, existing customers, potential customers, investors, and the community. Focusing primarily on startups, entrepreneurs, and tech-savvy firms, this class addresses core company values, fostering creativity & innovation, storytelling, and brand identity."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 5910  Privacy and Information Security (LEC 3.0)",
+        "description": "Explores issues concerning the use, disclosure, and protection of information (personal, organizational, health, and financial) from a legal perspective. A focus on understanding, planning, protecting, and responding to data breaches and other information risk and threats. Case studies based on litigation are reviewed and analyzed. Assumes MIS familiarity."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 5920  Artificial Intelligence: Law, Governance, and Policy (LEC 3.0)",
+        "description": "An in-depth study into the domestic and international laws that govern and affect development, adoption, and use of artificial intelligence. Topics include assessing various artificial intelligence frameworks, analyzing associated governmental and organizational artificial intelligence policies, evaluating model bias, and establishing and utilizing a governance structure for artificial intelligence. Prerequisites: Junior standing."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS 5980  Business Models for Entrepreneurship and Innovation (LEC 3.0)",
+        "description": "This course uses problem based learning to expand student insight into the nature, development, and application of business models. It increases the practical skills and knowledge required to generate original models of value creation for both entrepreneurial start-ups and corporate innovation. Prerequisite: Senior or graduate standing."
+    },
+    {
+        "subject_id": 48,
+        "department_id": 20,
+        "subject_code": "BUS",
+        "subject_name": "Business",
+        "course": "BUS COOP  Cooperative Work Program (IND 0.0)",
+        "description": ""
+    }
+]

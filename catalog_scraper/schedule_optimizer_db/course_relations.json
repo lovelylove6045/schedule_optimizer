@@ -1,0 +1,2837 @@
+[
+  {
+    "course_relation_id": 1,
+    "course_id": 35,
+    "related_course_id": 454,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: THEATRE 3245 — SP&M S 3245"
+  },
+  {
+    "course_relation_id": 2,
+    "course_id": 94,
+    "related_course_id": 198,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHILOS 3276 — Art 3276"
+  },
+  {
+    "course_relation_id": 3,
+    "course_id": 103,
+    "related_course_id": 777,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHILOS 4354 — Comp Eng 5803, Comp Sci 5203 and Math 5154"
+  },
+  {
+    "course_relation_id": 4,
+    "course_id": 103,
+    "related_course_id": 1169,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHILOS 4354 — Comp Eng 5803, Comp Sci 5203 and Math 5154"
+  },
+  {
+    "course_relation_id": 5,
+    "course_id": 103,
+    "related_course_id": 1337,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHILOS 4354 — Comp Eng 5803, Comp Sci 5203 and Math 5154"
+  },
+  {
+    "course_relation_id": 6,
+    "course_id": 108,
+    "related_course_id": 668,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHILOS 4580 — HISTORY 4580"
+  },
+  {
+    "course_relation_id": 7,
+    "course_id": 110,
+    "related_course_id": 875,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHILOS 4884 — Psych 4995"
+  },
+  {
+    "course_relation_id": 8,
+    "course_id": 138,
+    "related_course_id": 650,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MUSIC 3252 — History 3722"
+  },
+  {
+    "course_relation_id": 9,
+    "course_id": 139,
+    "related_course_id": 651,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MUSIC 3253 — History 3723"
+  },
+  {
+    "course_relation_id": 10,
+    "course_id": 174,
+    "related_course_id": 202,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: FRENCH 4320 — ART 4320"
+  },
+  {
+    "course_relation_id": 11,
+    "course_id": 195,
+    "related_course_id": 452,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ART 3221 — Sp&M S 3221"
+  },
+  {
+    "course_relation_id": 12,
+    "course_id": 197,
+    "related_course_id": 459,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ART 3275 — Sp&M S 3275"
+  },
+  {
+    "course_relation_id": 13,
+    "course_id": 208,
+    "related_course_id": 564,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: BIO SCI 1173 — Env Sci 1173"
+  },
+  {
+    "course_relation_id": 14,
+    "course_id": 229,
+    "related_course_id": 923,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: BIO SCI 3110 — Cer Eng 3110 and Chem Eng 3210"
+  },
+  {
+    "course_relation_id": 15,
+    "course_id": 229,
+    "related_course_id": 1766,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: BIO SCI 3110 — Cer Eng 3110 and Chem Eng 3210"
+  },
+  {
+    "course_relation_id": 16,
+    "course_id": 230,
+    "related_course_id": 567,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: BIO SCI 3213 — Env Sci 3213"
+  },
+  {
+    "course_relation_id": 17,
+    "course_id": 275,
+    "related_course_id": 953,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: BIO SCI 5210 — Chem Eng 5200, MS&E 5310"
+  },
+  {
+    "course_relation_id": 18,
+    "course_id": 275,
+    "related_course_id": 1564,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: BIO SCI 5210 — Chem Eng 5200, MS&E 5310"
+  },
+  {
+    "course_relation_id": 19,
+    "course_id": 276,
+    "related_course_id": 1561,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: BIO SCI 5240 — MS&E 5210"
+  },
+  {
+    "course_relation_id": 20,
+    "course_id": 278,
+    "related_course_id": 1195,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: BIO SCI 5323 — COMP SCI 5700"
+  },
+  {
+    "course_relation_id": 21,
+    "course_id": 283,
+    "related_course_id": 575,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: BIO SCI 5425 — Env Sci 5425"
+  },
+  {
+    "course_relation_id": 22,
+    "course_id": 333,
+    "related_course_id": 1552,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM 4810 — MS&E 4810"
+  },
+  {
+    "course_relation_id": 23,
+    "course_id": 334,
+    "related_course_id": 1553,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM 4819 — MS&E 4819"
+  },
+  {
+    "course_relation_id": 24,
+    "course_id": 335,
+    "related_course_id": 1554,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM 4850 — MS&E 4850"
+  },
+  {
+    "course_relation_id": 25,
+    "course_id": 346,
+    "related_course_id": 1566,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM 5460 — MS&E 5460"
+  },
+  {
+    "course_relation_id": 26,
+    "course_id": 354,
+    "related_course_id": 977,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM 5810 — MS&E 5810 and Chem Eng 5810"
+  },
+  {
+    "course_relation_id": 27,
+    "course_id": 354,
+    "related_course_id": 1567,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM 5810 — MS&E 5810 and Chem Eng 5810"
+  },
+  {
+    "course_relation_id": 28,
+    "course_id": 355,
+    "related_course_id": 1568,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM 5819 — MS&E 5819"
+  },
+  {
+    "course_relation_id": 29,
+    "course_id": 356,
+    "related_course_id": 1569,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM 5850 — MS&E 5850"
+  },
+  {
+    "course_relation_id": 30,
+    "course_id": 368,
+    "related_course_id": 843,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: EDUC 2102 — Psych 2300"
+  },
+  {
+    "course_relation_id": 31,
+    "course_id": 383,
+    "related_course_id": 755,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: EDUC 3221 — Math 3921"
+  },
+  {
+    "course_relation_id": 32,
+    "course_id": 384,
+    "related_course_id": 756,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: EDUC 3222 — Math 3922"
+  },
+  {
+    "course_relation_id": 33,
+    "course_id": 389,
+    "related_course_id": 856,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: EDUC 3340 — Psych 4340"
+  },
+  {
+    "course_relation_id": 34,
+    "course_id": 410,
+    "related_course_id": 478,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: TCH COM 1600 — English 1600"
+  },
+  {
+    "course_relation_id": 35,
+    "course_id": 411,
+    "related_course_id": 496,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: TCH COM 2540 — English 2540"
+  },
+  {
+    "course_relation_id": 36,
+    "course_id": 412,
+    "related_course_id": 497,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: TCH COM 2560 — ENGLISH 2560"
+  },
+  {
+    "course_relation_id": 37,
+    "course_id": 417,
+    "related_course_id": 524,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: TCH COM 3550 — ENGLISH 3550"
+  },
+  {
+    "course_relation_id": 38,
+    "course_id": 420,
+    "related_course_id": 526,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: TCH COM 3590 — English 3590"
+  },
+  {
+    "course_relation_id": 39,
+    "course_id": 421,
+    "related_course_id": 527,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: TCH COM 3591 — English 3591"
+  },
+  {
+    "course_relation_id": 40,
+    "course_id": 422,
+    "related_course_id": 528,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: TCH COM 3592 — English 3592"
+  },
+  {
+    "course_relation_id": 41,
+    "course_id": 423,
+    "related_course_id": 529,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: TCH COM 3593 — English 3593"
+  },
+  {
+    "course_relation_id": 42,
+    "course_id": 538,
+    "related_course_id": 986,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 2601 — Civ Eng 2601"
+  },
+  {
+    "course_relation_id": 43,
+    "course_id": 539,
+    "related_course_id": 987,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 2602 — Civ Eng 2602"
+  },
+  {
+    "course_relation_id": 44,
+    "course_id": 542,
+    "related_course_id": 997,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 3615 — Civ Eng 3615"
+  },
+  {
+    "course_relation_id": 45,
+    "course_id": 543,
+    "related_course_id": 1001,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 4010 — Arch Eng and Env Eng 4010"
+  },
+  {
+    "course_relation_id": 46,
+    "course_id": 543,
+    "related_course_id": 1078,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 4010 — Civ Eng and Arch Eng 4010"
+  },
+  {
+    "course_relation_id": 47,
+    "course_id": 549,
+    "related_course_id": 1010,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5070 — Eng Mgt 5070, Comp Eng 5070, Elec Eng 5070, Civ Eng 5070"
+  },
+  {
+    "course_relation_id": 48,
+    "course_id": 549,
+    "related_course_id": 1247,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5070 — Eng Mgt 5070, Comp Eng 5070, Elec Eng 5070, Civ Eng 5070"
+  },
+  {
+    "course_relation_id": 49,
+    "course_id": 549,
+    "related_course_id": 1315,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5070 — Eng Mgt 5070, Comp Eng 5070, Elec Eng 5070, Civ Eng 5070"
+  },
+  {
+    "course_relation_id": 50,
+    "course_id": 549,
+    "related_course_id": 2133,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5070 — Eng Mgt 5070, Comp Eng 5070, Elec Eng 5070, Civ Eng 5070"
+  },
+  {
+    "course_relation_id": 51,
+    "course_id": 550,
+    "related_course_id": 1037,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5360 — Civ Eng 5360"
+  },
+  {
+    "course_relation_id": 52,
+    "course_id": 551,
+    "related_course_id": 1051,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5605 — Civ Eng 5605"
+  },
+  {
+    "course_relation_id": 53,
+    "course_id": 552,
+    "related_course_id": 1052,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5619 — Civ Eng 5619"
+  },
+  {
+    "course_relation_id": 54,
+    "course_id": 553,
+    "related_course_id": 1053,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5630 — Civ Eng 5630"
+  },
+  {
+    "course_relation_id": 55,
+    "course_id": 554,
+    "related_course_id": 1054,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5635 — Civ Eng 5635"
+  },
+  {
+    "course_relation_id": 56,
+    "course_id": 555,
+    "related_course_id": 1055,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5640 — Civ Eng 5640"
+  },
+  {
+    "course_relation_id": 57,
+    "course_id": 556,
+    "related_course_id": 1056,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5642 — Civ Eng 5642 and Arch Eng 5642"
+  },
+  {
+    "course_relation_id": 58,
+    "course_id": 556,
+    "related_course_id": 1103,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5642 — Civ Eng 5642 and Arch Eng 5642"
+  },
+  {
+    "course_relation_id": 59,
+    "course_id": 557,
+    "related_course_id": 1057,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5650 — Civ Eng 5650"
+  },
+  {
+    "course_relation_id": 60,
+    "course_id": 558,
+    "related_course_id": 1058,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5660 — Civ Eng 5660"
+  },
+  {
+    "course_relation_id": 61,
+    "course_id": 559,
+    "related_course_id": 1059,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5662 — Civ Eng 5662"
+  },
+  {
+    "course_relation_id": 62,
+    "course_id": 560,
+    "related_course_id": 1060,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5665 — Civ Eng 5665 and Arch Eng 5665"
+  },
+  {
+    "course_relation_id": 63,
+    "course_id": 560,
+    "related_course_id": 1104,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5665 — Civ Eng 5665 and Arch Eng 5665"
+  },
+  {
+    "course_relation_id": 64,
+    "course_id": 561,
+    "related_course_id": 1061,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5670 — Civ Eng 5670"
+  },
+  {
+    "course_relation_id": 65,
+    "course_id": 589,
+    "related_course_id": 652,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: POL SCI 3760 — History 3760"
+  },
+  {
+    "course_relation_id": 66,
+    "course_id": 590,
+    "related_course_id": 653,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: POL SCI 3762 — History 3762"
+  },
+  {
+    "course_relation_id": 67,
+    "course_id": 591,
+    "related_course_id": 654,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: POL SCI 3763 — History 3763"
+  },
+  {
+    "course_relation_id": 68,
+    "course_id": 596,
+    "related_course_id": 659,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: POL SCI 4097 — HISTORY 4097"
+  },
+  {
+    "course_relation_id": 69,
+    "course_id": 600,
+    "related_course_id": 669,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: POL SCI 4760 — History 4760"
+  },
+  {
+    "course_relation_id": 70,
+    "course_id": 723,
+    "related_course_id": 1170,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: STAT 5346 — Comp Sci 5204"
+  },
+  {
+    "course_relation_id": 71,
+    "course_id": 728,
+    "related_course_id": 2066,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: STAT 5755 — Econ 4350"
+  },
+  {
+    "course_relation_id": 72,
+    "course_id": 731,
+    "related_course_id": 829,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: STAT 5904 — Physics 4625"
+  },
+  {
+    "course_relation_id": 73,
+    "course_id": 772,
+    "related_course_id": 1191,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MATH 5102 — COMP SCI 5602"
+  },
+  {
+    "course_relation_id": 74,
+    "course_id": 777,
+    "related_course_id": 1169,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHILOS 4354 — Comp Eng 5803, Comp Sci 5203 and Math 5154"
+  },
+  {
+    "course_relation_id": 75,
+    "course_id": 777,
+    "related_course_id": 1337,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHILOS 4354 — Comp Eng 5803, Comp Sci 5203 and Math 5154"
+  },
+  {
+    "course_relation_id": 76,
+    "course_id": 793,
+    "related_course_id": 2084,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MATH 5737 — Econ 5337"
+  },
+  {
+    "course_relation_id": 77,
+    "course_id": 794,
+    "related_course_id": 1932,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MATH 5762 — MKT 5762"
+  },
+  {
+    "course_relation_id": 78,
+    "course_id": 822,
+    "related_course_id": 1254,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHYSICS 4503 — Elec Eng 5200"
+  },
+  {
+    "course_relation_id": 148,
+    "course_id": 1041,
+    "related_course_id": 1101,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5448 — Arch Eng 5448"
+  },
+  {
+    "course_relation_id": 79,
+    "course_id": 824,
+    "related_course_id": 963,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHYSICS 4523 — Aero Eng 3877, Chem Eng 5300, Met Eng 5810, Cer Eng 5810"
+  },
+  {
+    "course_relation_id": 80,
+    "course_id": 824,
+    "related_course_id": 1697,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHYSICS 4523 — Aero Eng 3877, Chem Eng 5300, Met Eng 5810, Cer Eng 5810"
+  },
+  {
+    "course_relation_id": 81,
+    "course_id": 824,
+    "related_course_id": 1712,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHYSICS 4523 — Aero Eng 3877, Chem Eng 5300, Met Eng 5810, Cer Eng 5810"
+  },
+  {
+    "course_relation_id": 82,
+    "course_id": 824,
+    "related_course_id": 1796,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHYSICS 4523 — Aero Eng 3877, Chem Eng 5300, Met Eng 5810, Cer Eng 5810"
+  },
+  {
+    "course_relation_id": 83,
+    "course_id": 826,
+    "related_course_id": 1628,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHYSICS 4543 — Aero Eng 5570, Mech Eng 5570, Nuc Eng 4370"
+  },
+  {
+    "course_relation_id": 84,
+    "course_id": 826,
+    "related_course_id": 1751,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHYSICS 4543 — Aero Eng 5570, Mech Eng 5570, Nuc Eng 4370"
+  },
+  {
+    "course_relation_id": 85,
+    "course_id": 826,
+    "related_course_id": 1880,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHYSICS 4543 — Aero Eng 5570, Mech Eng 5570, Nuc Eng 4370"
+  },
+  {
+    "course_relation_id": 86,
+    "course_id": 826,
+    "related_course_id": 1908,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: NUC ENG 5370 — Aero Eng 5570, Mech Eng 5570, Physics 4543"
+  },
+  {
+    "course_relation_id": 87,
+    "course_id": 836,
+    "related_course_id": 1255,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHYSICS 5503 — ELEC ENG 5210"
+  },
+  {
+    "course_relation_id": 88,
+    "course_id": 837,
+    "related_course_id": 1256,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHYSICS 5513 — Elec Eng 5220"
+  },
+  {
+    "course_relation_id": 89,
+    "course_id": 869,
+    "related_course_id": 2128,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PSYCH 4710 — Eng Mgt 4330"
+  },
+  {
+    "course_relation_id": 90,
+    "course_id": 894,
+    "related_course_id": 2143,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PSYCH 5710 — ENG MGT 5330"
+  },
+  {
+    "course_relation_id": 91,
+    "course_id": 906,
+    "related_course_id": 960,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: BME 5100 — Chem Eng 5260"
+  },
+  {
+    "course_relation_id": 92,
+    "course_id": 907,
+    "related_course_id": 961,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: BME 5200 — Chem Eng 5270"
+  },
+  {
+    "course_relation_id": 93,
+    "course_id": 908,
+    "related_course_id": 962,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: BME 5300 — Chem Eng 5280"
+  },
+  {
+    "course_relation_id": 94,
+    "course_id": 923,
+    "related_course_id": 1766,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: BIO SCI 3110 — Cer Eng 3110 and Chem Eng 3210"
+  },
+  {
+    "course_relation_id": 95,
+    "course_id": 947,
+    "related_course_id": 1828,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5120 — Min Eng 5420"
+  },
+  {
+    "course_relation_id": 96,
+    "course_id": 948,
+    "related_course_id": 2127,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5130 — Eng Mgt 4312"
+  },
+  {
+    "course_relation_id": 97,
+    "course_id": 952,
+    "related_course_id": 1264,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5190 — Elec Eng 5350"
+  },
+  {
+    "course_relation_id": 98,
+    "course_id": 953,
+    "related_course_id": 1564,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: BIO SCI 5210 — Chem Eng 5200, MS&E 5310"
+  },
+  {
+    "course_relation_id": 99,
+    "course_id": 963,
+    "related_course_id": 1697,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHYSICS 4523 — Aero Eng 3877, Chem Eng 5300, Met Eng 5810, Cer Eng 5810"
+  },
+  {
+    "course_relation_id": 100,
+    "course_id": 963,
+    "related_course_id": 1712,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHYSICS 4523 — Aero Eng 3877, Chem Eng 5300, Met Eng 5810, Cer Eng 5810"
+  },
+  {
+    "course_relation_id": 101,
+    "course_id": 963,
+    "related_course_id": 1796,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHYSICS 4523 — Aero Eng 3877, Chem Eng 5300, Met Eng 5810, Cer Eng 5810"
+  },
+  {
+    "course_relation_id": 102,
+    "course_id": 966,
+    "related_course_id": 1683,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5315 — Met Eng 5310"
+  },
+  {
+    "course_relation_id": 103,
+    "course_id": 970,
+    "related_course_id": 1825,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5338 — Econ 5338, Min Eng 5338, and Nuc Eng 5338"
+  },
+  {
+    "course_relation_id": 104,
+    "course_id": 970,
+    "related_course_id": 1899,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5338 — Econ 5338, Min Eng 5338, and Nuc Eng 5338"
+  },
+  {
+    "course_relation_id": 105,
+    "course_id": 970,
+    "related_course_id": 2085,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5338 — Econ 5338, Min Eng 5338, and Nuc Eng 5338"
+  },
+  {
+    "course_relation_id": 106,
+    "course_id": 972,
+    "related_course_id": 1265,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5355 — Elec Eng 5355"
+  },
+  {
+    "course_relation_id": 107,
+    "course_id": 974,
+    "related_course_id": 1834,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5543 — Econ 5543, Min Eng 5543, and Nuc Eng 5543"
+  },
+  {
+    "course_relation_id": 108,
+    "course_id": 974,
+    "related_course_id": 1914,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5543 — Econ 5543, Min Eng 5543, and Nuc Eng 5543"
+  },
+  {
+    "course_relation_id": 109,
+    "course_id": 974,
+    "related_course_id": 2090,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5543 — Econ 5543, Min Eng 5543, and Nuc Eng 5543"
+  },
+  {
+    "course_relation_id": 110,
+    "course_id": 975,
+    "related_course_id": 1836,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5648 — Econ 5648, Min Eng 5648, and Nuc Eng 5648"
+  },
+  {
+    "course_relation_id": 111,
+    "course_id": 975,
+    "related_course_id": 1916,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5648 — Econ 5648, Min Eng 5648, and Nuc Eng 5648"
+  },
+  {
+    "course_relation_id": 112,
+    "course_id": 975,
+    "related_course_id": 2092,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5648 — Econ 5648, Min Eng 5648, and Nuc Eng 5648"
+  },
+  {
+    "course_relation_id": 113,
+    "course_id": 976,
+    "related_course_id": 1837,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5658 — Econ 5658, Min Eng 5658, and Nuc Eng 5658"
+  },
+  {
+    "course_relation_id": 114,
+    "course_id": 976,
+    "related_course_id": 1917,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5658 — Econ 5658, Min Eng 5658, and Nuc Eng 5658"
+  },
+  {
+    "course_relation_id": 115,
+    "course_id": 976,
+    "related_course_id": 2093,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5658 — Econ 5658, Min Eng 5658, and Nuc Eng 5658"
+  },
+  {
+    "course_relation_id": 116,
+    "course_id": 977,
+    "related_course_id": 1567,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM 5810 — MS&E 5810 and Chem Eng 5810"
+  },
+  {
+    "course_relation_id": 117,
+    "course_id": 980,
+    "related_course_id": 1070,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 2003 — Arch Eng 2003"
+  },
+  {
+    "course_relation_id": 118,
+    "course_id": 991,
+    "related_course_id": 1074,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 3201 — Arch Eng 3201"
+  },
+  {
+    "course_relation_id": 119,
+    "course_id": 992,
+    "related_course_id": 1075,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 3210 — Arch Eng 3210"
+  },
+  {
+    "course_relation_id": 120,
+    "course_id": 993,
+    "related_course_id": 1076,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 3220 — Arch Eng 3220"
+  },
+  {
+    "course_relation_id": 121,
+    "course_id": 1004,
+    "related_course_id": 1407,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 4321 — Geo Eng 4321, Geology 4321, Geophys 4321, Min Eng 4321"
+  },
+  {
+    "course_relation_id": 122,
+    "course_id": 1004,
+    "related_course_id": 1472,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 4321 — Geo Eng 4321, Geology 4321, Geophys 4321, Min Eng 4321"
+  },
+  {
+    "course_relation_id": 123,
+    "course_id": 1004,
+    "related_course_id": 1520,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 4321 — Geo Eng 4321, Geology 4321, Geophys 4321, Min Eng 4321"
+  },
+  {
+    "course_relation_id": 124,
+    "course_id": 1004,
+    "related_course_id": 1815,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 4321 — Geo Eng 4321, Geology 4321, Geophys 4321, Min Eng 4321"
+  },
+  {
+    "course_relation_id": 125,
+    "course_id": 1005,
+    "related_course_id": 1081,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 4448 — Arch Eng 4448"
+  },
+  {
+    "course_relation_id": 126,
+    "course_id": 1010,
+    "related_course_id": 1247,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5070 — Eng Mgt 5070, Comp Eng 5070, Elec Eng 5070, Civ Eng 5070"
+  },
+  {
+    "course_relation_id": 127,
+    "course_id": 1010,
+    "related_course_id": 1315,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5070 — Eng Mgt 5070, Comp Eng 5070, Elec Eng 5070, Civ Eng 5070"
+  },
+  {
+    "course_relation_id": 128,
+    "course_id": 1010,
+    "related_course_id": 2133,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5070 — Eng Mgt 5070, Comp Eng 5070, Elec Eng 5070, Civ Eng 5070"
+  },
+  {
+    "course_relation_id": 129,
+    "course_id": 1014,
+    "related_course_id": 1258,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5118 — Aero Eng 5229, Mech Eng 5229 and Elec Eng 5270"
+  },
+  {
+    "course_relation_id": 130,
+    "course_id": 1014,
+    "related_course_id": 1604,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5118 — Aero Eng 5229, Mech Eng 5229 and Elec Eng 5270"
+  },
+  {
+    "course_relation_id": 131,
+    "course_id": 1014,
+    "related_course_id": 1732,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5118 — Aero Eng 5229, Mech Eng 5229 and Elec Eng 5270"
+  },
+  {
+    "course_relation_id": 132,
+    "course_id": 1016,
+    "related_course_id": 1086,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5181 — Arch Eng 5181"
+  },
+  {
+    "course_relation_id": 133,
+    "course_id": 1017,
+    "related_course_id": 1087,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5203 — Arch Eng 5203"
+  },
+  {
+    "course_relation_id": 134,
+    "course_id": 1018,
+    "related_course_id": 1088,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5205 — Arch Eng 5205"
+  },
+  {
+    "course_relation_id": 135,
+    "course_id": 1019,
+    "related_course_id": 1089,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5206 — Arch Eng 5206"
+  },
+  {
+    "course_relation_id": 136,
+    "course_id": 1020,
+    "related_course_id": 1090,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5207 — Arch Eng 5207"
+  },
+  {
+    "course_relation_id": 137,
+    "course_id": 1021,
+    "related_course_id": 1091,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5208 — Arch Eng 5208"
+  },
+  {
+    "course_relation_id": 138,
+    "course_id": 1022,
+    "related_course_id": 1085,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5209 — Arch Eng 5001"
+  },
+  {
+    "course_relation_id": 139,
+    "course_id": 1023,
+    "related_course_id": 1092,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5210 — Arch Eng 5210"
+  },
+  {
+    "course_relation_id": 140,
+    "course_id": 1024,
+    "related_course_id": 1093,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5220 — Arch Eng 5220"
+  },
+  {
+    "course_relation_id": 141,
+    "course_id": 1025,
+    "related_course_id": 1094,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5222 — Arch Eng 5222"
+  },
+  {
+    "course_relation_id": 142,
+    "course_id": 1026,
+    "related_course_id": 1095,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5231 — Arch Eng 5231"
+  },
+  {
+    "course_relation_id": 143,
+    "course_id": 1028,
+    "related_course_id": 1096,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5260 — Arch Eng 5260"
+  },
+  {
+    "course_relation_id": 144,
+    "course_id": 1029,
+    "related_course_id": 1097,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5270 — Arch Eng 5270"
+  },
+  {
+    "course_relation_id": 145,
+    "course_id": 1038,
+    "related_course_id": 1098,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5442 — Arch Eng 5442"
+  },
+  {
+    "course_relation_id": 146,
+    "course_id": 1039,
+    "related_course_id": 1099,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5445 — Arch Eng 5445"
+  },
+  {
+    "course_relation_id": 147,
+    "course_id": 1040,
+    "related_course_id": 1100,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5446 — Arch Eng 5446"
+  },
+  {
+    "course_relation_id": 149,
+    "course_id": 1042,
+    "related_course_id": 1102,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5449 — Arch Eng 5449"
+  },
+  {
+    "course_relation_id": 150,
+    "course_id": 1056,
+    "related_course_id": 1103,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5642 — Civ Eng 5642 and Arch Eng 5642"
+  },
+  {
+    "course_relation_id": 151,
+    "course_id": 1060,
+    "related_course_id": 1104,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5665 — Civ Eng 5665 and Arch Eng 5665"
+  },
+  {
+    "course_relation_id": 152,
+    "course_id": 1065,
+    "related_course_id": 1105,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5729 — Arch Eng 5729"
+  },
+  {
+    "course_relation_id": 153,
+    "course_id": 1067,
+    "related_course_id": 1440,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5750 — Geo Eng 5761 and Geophys 5761"
+  },
+  {
+    "course_relation_id": 154,
+    "course_id": 1067,
+    "related_course_id": 1535,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5750 — Geo Eng 5761 and Geophys 5761"
+  },
+  {
+    "course_relation_id": 155,
+    "course_id": 1146,
+    "related_course_id": 1301,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: COMP SCI 3803 — Comp Eng 3110"
+  },
+  {
+    "course_relation_id": 156,
+    "course_id": 1169,
+    "related_course_id": 1337,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHILOS 4354 — Comp Eng 5803, Comp Sci 5203 and Math 5154"
+  },
+  {
+    "course_relation_id": 157,
+    "course_id": 1171,
+    "related_course_id": 1323,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: COMP SCI 5205 — Comp Eng 5170."
+  },
+  {
+    "course_relation_id": 158,
+    "course_id": 1177,
+    "related_course_id": 1292,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: COMP SCI 5403 — Comp Eng 5880 and Elec Eng 5880"
+  },
+  {
+    "course_relation_id": 159,
+    "course_id": 1177,
+    "related_course_id": 1339,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: COMP SCI 5403 — Comp Eng 5880 and Elec Eng 5880"
+  },
+  {
+    "course_relation_id": 160,
+    "course_id": 1182,
+    "related_course_id": 1328,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: COMP SCI 5408 — Comp Eng 5320"
+  },
+  {
+    "course_relation_id": 161,
+    "course_id": 1200,
+    "related_course_id": 1318,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: COMP SCI 5803 — Comp Eng 5110"
+  },
+  {
+    "course_relation_id": 162,
+    "course_id": 1220,
+    "related_course_id": 1303,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 3210 — Semi Eng 3100 and Comp Eng 3210"
+  },
+  {
+    "course_relation_id": 163,
+    "course_id": 1220,
+    "related_course_id": 1540,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 3210 — Semi Eng 3100 and Comp Eng 3210"
+  },
+  {
+    "course_relation_id": 164,
+    "course_id": 1221,
+    "related_course_id": 1304,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 3211 — Semi Eng 3101 and Comp Eng 3211"
+  },
+  {
+    "course_relation_id": 165,
+    "course_id": 1221,
+    "related_course_id": 1541,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 3211 — Semi Eng 3101 and Comp Eng 3211"
+  },
+  {
+    "course_relation_id": 166,
+    "course_id": 1241,
+    "related_course_id": 1310,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 4210 — Semi Eng 4100 and Comp Eng 4210"
+  },
+  {
+    "course_relation_id": 167,
+    "course_id": 1241,
+    "related_course_id": 1546,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 4210 — Semi Eng 4100 and Comp Eng 4210"
+  },
+  {
+    "course_relation_id": 168,
+    "course_id": 1242,
+    "related_course_id": 1311,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 4211 — Semi Eng 4101 and Comp Eng 4211"
+  },
+  {
+    "course_relation_id": 169,
+    "course_id": 1242,
+    "related_course_id": 1547,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 4211 — Semi Eng 4101 and Comp Eng 4211"
+  },
+  {
+    "course_relation_id": 170,
+    "course_id": 1247,
+    "related_course_id": 1315,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5070 — Eng Mgt 5070, Comp Eng 5070, Elec Eng 5070, Civ Eng 5070"
+  },
+  {
+    "course_relation_id": 171,
+    "course_id": 1247,
+    "related_course_id": 2133,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5070 — Eng Mgt 5070, Comp Eng 5070, Elec Eng 5070, Civ Eng 5070"
+  },
+  {
+    "course_relation_id": 172,
+    "course_id": 1257,
+    "related_course_id": 1326,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 5250 — Comp Eng 5230"
+  },
+  {
+    "course_relation_id": 173,
+    "course_id": 1258,
+    "related_course_id": 1604,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5118 — Aero Eng 5229, Mech Eng 5229 and Elec Eng 5270"
+  },
+  {
+    "course_relation_id": 174,
+    "course_id": 1258,
+    "related_course_id": 1732,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5118 — Aero Eng 5229, Mech Eng 5229 and Elec Eng 5270"
+  },
+  {
+    "course_relation_id": 175,
+    "course_id": 1270,
+    "related_course_id": 1331,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 5430 — Comp Eng 5430 and Sys Eng 5323"
+  },
+  {
+    "course_relation_id": 176,
+    "course_id": 1270,
+    "related_course_id": 2105,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 5430 — Comp Eng 5430 and Sys Eng 5323"
+  },
+  {
+    "course_relation_id": 177,
+    "course_id": 1272,
+    "related_course_id": 1332,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 5450 — Comp Eng 5450"
+  },
+  {
+    "course_relation_id": 178,
+    "course_id": 1273,
+    "related_course_id": 1333,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 5460 — Comp Eng 5460"
+  },
+  {
+    "course_relation_id": 179,
+    "course_id": 1287,
+    "related_course_id": 1692,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 5670 — Met Eng 5510"
+  },
+  {
+    "course_relation_id": 180,
+    "course_id": 1289,
+    "related_course_id": 1327,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 5810 — Comp Eng 5310 and Sys Eng 5211"
+  },
+  {
+    "course_relation_id": 181,
+    "course_id": 1289,
+    "related_course_id": 2102,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 5810 — Comp Eng 5310 and Sys Eng 5211"
+  },
+  {
+    "course_relation_id": 182,
+    "course_id": 1290,
+    "related_course_id": 2103,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 5820 — Sys Eng 5212"
+  },
+  {
+    "course_relation_id": 183,
+    "course_id": 1291,
+    "related_course_id": 1338,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 5870 — Mech Eng 5478, Aero Eng 5478 and Comp Eng 5820"
+  },
+  {
+    "course_relation_id": 184,
+    "course_id": 1291,
+    "related_course_id": 1614,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 5870 — Mech Eng 5478, Aero Eng 5478 and Comp Eng 5820"
+  },
+  {
+    "course_relation_id": 185,
+    "course_id": 1291,
+    "related_course_id": 1743,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 5870 — Mech Eng 5478, Aero Eng 5478 and Comp Eng 5820"
+  },
+  {
+    "course_relation_id": 186,
+    "course_id": 1292,
+    "related_course_id": 1339,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: COMP SCI 5403 — Comp Eng 5880 and Elec Eng 5880"
+  },
+  {
+    "course_relation_id": 187,
+    "course_id": 1303,
+    "related_course_id": 1540,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 3210 — Semi Eng 3100 and Comp Eng 3210"
+  },
+  {
+    "course_relation_id": 188,
+    "course_id": 1304,
+    "related_course_id": 1541,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 3211 — Semi Eng 3101 and Comp Eng 3211"
+  },
+  {
+    "course_relation_id": 189,
+    "course_id": 1310,
+    "related_course_id": 1546,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 4210 — Semi Eng 4100 and Comp Eng 4210"
+  },
+  {
+    "course_relation_id": 190,
+    "course_id": 1311,
+    "related_course_id": 1547,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 4211 — Semi Eng 4101 and Comp Eng 4211"
+  },
+  {
+    "course_relation_id": 191,
+    "course_id": 1315,
+    "related_course_id": 2133,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ENV ENG 5070 — Eng Mgt 5070, Comp Eng 5070, Elec Eng 5070, Civ Eng 5070"
+  },
+  {
+    "course_relation_id": 192,
+    "course_id": 1327,
+    "related_course_id": 2102,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 5810 — Comp Eng 5310 and Sys Eng 5211"
+  },
+  {
+    "course_relation_id": 193,
+    "course_id": 1331,
+    "related_course_id": 2105,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 5430 — Comp Eng 5430 and Sys Eng 5323"
+  },
+  {
+    "course_relation_id": 194,
+    "course_id": 1338,
+    "related_course_id": 1614,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 5870 — Mech Eng 5478, Aero Eng 5478 and Comp Eng 5820"
+  },
+  {
+    "course_relation_id": 195,
+    "course_id": 1338,
+    "related_course_id": 1743,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 5870 — Mech Eng 5478, Aero Eng 5478 and Comp Eng 5820"
+  },
+  {
+    "course_relation_id": 196,
+    "course_id": 1384,
+    "related_course_id": 1444,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: GEO ENG 1150 — Geology 1110"
+  },
+  {
+    "course_relation_id": 197,
+    "course_id": 1398,
+    "related_course_id": 1463,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: GEO ENG 3148 — Geology 3811"
+  },
+  {
+    "course_relation_id": 198,
+    "course_id": 1407,
+    "related_course_id": 1472,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 4321 — Geo Eng 4321, Geology 4321, Geophys 4321, Min Eng 4321"
+  },
+  {
+    "course_relation_id": 199,
+    "course_id": 1407,
+    "related_course_id": 1520,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 4321 — Geo Eng 4321, Geology 4321, Geophys 4321, Min Eng 4321"
+  },
+  {
+    "course_relation_id": 200,
+    "course_id": 1407,
+    "related_course_id": 1815,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 4321 — Geo Eng 4321, Geology 4321, Geophys 4321, Min Eng 4321"
+  },
+  {
+    "course_relation_id": 201,
+    "course_id": 1413,
+    "related_course_id": 1471,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: GEO ENG 5144 — Geology 4310"
+  },
+  {
+    "course_relation_id": 202,
+    "course_id": 1414,
+    "related_course_id": 1483,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: GEO ENG 5146 — Geology 4821"
+  },
+  {
+    "course_relation_id": 203,
+    "course_id": 1425,
+    "related_course_id": 1838,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: GEO ENG 5276 — Min Eng 5742"
+  },
+  {
+    "course_relation_id": 204,
+    "course_id": 1432,
+    "related_course_id": 1496,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: GEO ENG 5432 — Geophys 5432 and Geology 5432"
+  },
+  {
+    "course_relation_id": 205,
+    "course_id": 1432,
+    "related_course_id": 1533,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: GEO ENG 5432 — Geophys 5432 and Geology 5432"
+  },
+  {
+    "course_relation_id": 206,
+    "course_id": 1439,
+    "related_course_id": 1534,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: GEO ENG 5736 — Geophys 5736"
+  },
+  {
+    "course_relation_id": 207,
+    "course_id": 1440,
+    "related_course_id": 1535,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5750 — Geo Eng 5761 and Geophys 5761"
+  },
+  {
+    "course_relation_id": 208,
+    "course_id": 1441,
+    "related_course_id": 1536,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: GEO ENG 5782 — Geophys 5782"
+  },
+  {
+    "course_relation_id": 209,
+    "course_id": 1442,
+    "related_course_id": 1755,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: GEO ENG 5810 — Aero Eng 5810"
+  },
+  {
+    "course_relation_id": 210,
+    "course_id": 1472,
+    "related_course_id": 1520,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 4321 — Geo Eng 4321, Geology 4321, Geophys 4321, Min Eng 4321"
+  },
+  {
+    "course_relation_id": 211,
+    "course_id": 1472,
+    "related_course_id": 1815,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 4321 — Geo Eng 4321, Geology 4321, Geophys 4321, Min Eng 4321"
+  },
+  {
+    "course_relation_id": 212,
+    "course_id": 1496,
+    "related_course_id": 1533,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: GEO ENG 5432 — Geophys 5432 and Geology 5432"
+  },
+  {
+    "course_relation_id": 213,
+    "course_id": 1520,
+    "related_course_id": 1815,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 4321 — Geo Eng 4321, Geology 4321, Geophys 4321, Min Eng 4321"
+  },
+  {
+    "course_relation_id": 214,
+    "course_id": 1542,
+    "related_course_id": 1658,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: SEMI ENG 3230 — Cer Eng 3230 and Met Eng 3230"
+  },
+  {
+    "course_relation_id": 215,
+    "course_id": 1542,
+    "related_course_id": 1769,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: SEMI ENG 3230 — Cer Eng 3230 and Met Eng 3230"
+  },
+  {
+    "course_relation_id": 216,
+    "course_id": 1543,
+    "related_course_id": 1773,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: SEMI ENG 3410 — Cer Eng 3410"
+  },
+  {
+    "course_relation_id": 217,
+    "course_id": 1544,
+    "related_course_id": 1666,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: SEMI ENG 4096 — Cer Eng 4096 and Met Eng 4096"
+  },
+  {
+    "course_relation_id": 218,
+    "course_id": 1544,
+    "related_course_id": 1777,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: SEMI ENG 4096 — Cer Eng 4096 and Met Eng 4096"
+  },
+  {
+    "course_relation_id": 219,
+    "course_id": 1545,
+    "related_course_id": 1667,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: SEMI ENG 4097 — Cer Eng 4097 and Met Eng 4097"
+  },
+  {
+    "course_relation_id": 220,
+    "course_id": 1545,
+    "related_course_id": 1778,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: SEMI ENG 4097 — Cer Eng 4097 and Met Eng 4097"
+  },
+  {
+    "course_relation_id": 221,
+    "course_id": 1575,
+    "related_course_id": 1699,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 2360 — Aero Eng 2360"
+  },
+  {
+    "course_relation_id": 222,
+    "course_id": 1599,
+    "related_course_id": 1726,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: AERO ENG 5001 — Mech Eng 5001"
+  },
+  {
+    "course_relation_id": 223,
+    "course_id": 1600,
+    "related_course_id": 1727,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 5131 — Aero Eng 5131"
+  },
+  {
+    "course_relation_id": 224,
+    "course_id": 1601,
+    "related_course_id": 1728,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 5139 — Aero Eng 5139"
+  },
+  {
+    "course_relation_id": 225,
+    "course_id": 1603,
+    "related_course_id": 1731,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 5212 — Aero Eng 5212"
+  },
+  {
+    "course_relation_id": 226,
+    "course_id": 1604,
+    "related_course_id": 1732,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CIV ENG 5118 — Aero Eng 5229, Mech Eng 5229 and Elec Eng 5270"
+  },
+  {
+    "course_relation_id": 227,
+    "course_id": 1605,
+    "related_course_id": 1733,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 5234 — Aero Eng 5234"
+  },
+  {
+    "course_relation_id": 228,
+    "course_id": 1606,
+    "related_course_id": 1734,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 5236 — Aero Eng 5236"
+  },
+  {
+    "course_relation_id": 229,
+    "course_id": 1607,
+    "related_course_id": 1735,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 5238 — Aero Eng 5238"
+  },
+  {
+    "course_relation_id": 230,
+    "course_id": 1608,
+    "related_course_id": 1736,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 5282 — Aero Eng 5282"
+  },
+  {
+    "course_relation_id": 231,
+    "course_id": 1609,
+    "related_course_id": 1737,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 5307 — Aero Eng 5307"
+  },
+  {
+    "course_relation_id": 232,
+    "course_id": 1610,
+    "related_course_id": 1738,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 5309 — Aero Eng 5309"
+  },
+  {
+    "course_relation_id": 233,
+    "course_id": 1611,
+    "related_course_id": 1739,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 5313 — Aero Eng 5313"
+  },
+  {
+    "course_relation_id": 234,
+    "course_id": 1613,
+    "related_course_id": 1742,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 5449 — Aero Eng 5449"
+  },
+  {
+    "course_relation_id": 235,
+    "course_id": 1614,
+    "related_course_id": 1743,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: ELEC ENG 5870 — Mech Eng 5478, Aero Eng 5478 and Comp Eng 5820"
+  },
+  {
+    "course_relation_id": 236,
+    "course_id": 1615,
+    "related_course_id": 1744,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 5479 — Aero Eng 5479"
+  },
+  {
+    "course_relation_id": 237,
+    "course_id": 1616,
+    "related_course_id": 1745,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 5481 — Aero Eng 5481"
+  },
+  {
+    "course_relation_id": 238,
+    "course_id": 1617,
+    "related_course_id": 1746,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 5519 — Aero Eng 5519"
+  },
+  {
+    "course_relation_id": 239,
+    "course_id": 1618,
+    "related_course_id": 1747,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 5525 — Aero Eng 5525"
+  },
+  {
+    "course_relation_id": 240,
+    "course_id": 1619,
+    "related_course_id": 1748,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 5527 — Aero Eng 5527"
+  },
+  {
+    "course_relation_id": 241,
+    "course_id": 1622,
+    "related_course_id": 1750,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 5539 — Aero Eng 5539"
+  },
+  {
+    "course_relation_id": 242,
+    "course_id": 1628,
+    "related_course_id": 1751,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHYSICS 4543 — Aero Eng 5570, Mech Eng 5570, Nuc Eng 4370"
+  },
+  {
+    "course_relation_id": 243,
+    "course_id": 1628,
+    "related_course_id": 1880,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHYSICS 4543 — Aero Eng 5570, Mech Eng 5570, Nuc Eng 4370"
+  },
+  {
+    "course_relation_id": 244,
+    "course_id": 1628,
+    "related_course_id": 1908,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: NUC ENG 5370 — Aero Eng 5570, Mech Eng 5570, Physics 4543"
+  },
+  {
+    "course_relation_id": 245,
+    "course_id": 1631,
+    "related_course_id": 1827,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 5606 — Min Eng 5413"
+  },
+  {
+    "course_relation_id": 246,
+    "course_id": 1639,
+    "related_course_id": 1753,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 5715 — Aero Eng 5715"
+  },
+  {
+    "course_relation_id": 247,
+    "course_id": 1640,
+    "related_course_id": 2153,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 5757 — ENG MGT 5515"
+  },
+  {
+    "course_relation_id": 248,
+    "course_id": 1641,
+    "related_course_id": 1754,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 5760 — Aero Eng 5760"
+  },
+  {
+    "course_relation_id": 249,
+    "course_id": 1644,
+    "related_course_id": 1756,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MECH ENG 5830 — Aero Eng 5830"
+  },
+  {
+    "course_relation_id": 250,
+    "course_id": 1658,
+    "related_course_id": 1769,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: SEMI ENG 3230 — Cer Eng 3230 and Met Eng 3230"
+  },
+  {
+    "course_relation_id": 251,
+    "course_id": 1666,
+    "related_course_id": 1777,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: SEMI ENG 4096 — Cer Eng 4096 and Met Eng 4096"
+  },
+  {
+    "course_relation_id": 252,
+    "course_id": 1667,
+    "related_course_id": 1778,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: SEMI ENG 4097 — Cer Eng 4097 and Met Eng 4097"
+  },
+  {
+    "course_relation_id": 253,
+    "course_id": 1681,
+    "related_course_id": 1874,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: NUC ENG 4241 — Met Eng 5170"
+  },
+  {
+    "course_relation_id": 254,
+    "course_id": 1681,
+    "related_course_id": 1892,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MET ENG 5170 — Nuc Eng 5241"
+  },
+  {
+    "course_relation_id": 255,
+    "course_id": 1682,
+    "related_course_id": 1831,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MET ENG 5270 — Min Eng 5424"
+  },
+  {
+    "course_relation_id": 256,
+    "course_id": 1697,
+    "related_course_id": 1712,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHYSICS 4523 — Aero Eng 3877, Chem Eng 5300, Met Eng 5810, Cer Eng 5810"
+  },
+  {
+    "course_relation_id": 257,
+    "course_id": 1697,
+    "related_course_id": 1796,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHYSICS 4523 — Aero Eng 3877, Chem Eng 5300, Met Eng 5810, Cer Eng 5810"
+  },
+  {
+    "course_relation_id": 258,
+    "course_id": 1712,
+    "related_course_id": 1796,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHYSICS 4523 — Aero Eng 3877, Chem Eng 5300, Met Eng 5810, Cer Eng 5810"
+  },
+  {
+    "course_relation_id": 259,
+    "course_id": 1751,
+    "related_course_id": 1880,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: PHYSICS 4543 — Aero Eng 5570, Mech Eng 5570, Nuc Eng 4370"
+  },
+  {
+    "course_relation_id": 260,
+    "course_id": 1751,
+    "related_course_id": 1908,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: NUC ENG 5370 — Aero Eng 5570, Mech Eng 5570, Physics 4543"
+  },
+  {
+    "course_relation_id": 261,
+    "course_id": 1806,
+    "related_course_id": 2056,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MIN ENG 3512 — Econ 3512"
+  },
+  {
+    "course_relation_id": 262,
+    "course_id": 1816,
+    "related_course_id": 2071,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MIN ENG 4512 — ECON 4512"
+  },
+  {
+    "course_relation_id": 263,
+    "course_id": 1817,
+    "related_course_id": 2070,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MIN ENG 4523 — Econ 4440"
+  },
+  {
+    "course_relation_id": 264,
+    "course_id": 1818,
+    "related_course_id": 2073,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MIN ENG 4524 — Econ 4540"
+  },
+  {
+    "course_relation_id": 265,
+    "course_id": 1825,
+    "related_course_id": 1899,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5338 — Econ 5338, Min Eng 5338, and Nuc Eng 5338"
+  },
+  {
+    "course_relation_id": 266,
+    "course_id": 1825,
+    "related_course_id": 2085,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5338 — Econ 5338, Min Eng 5338, and Nuc Eng 5338"
+  },
+  {
+    "course_relation_id": 267,
+    "course_id": 1833,
+    "related_course_id": 2089,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MIN ENG 5532 — ECON 5532"
+  },
+  {
+    "course_relation_id": 268,
+    "course_id": 1834,
+    "related_course_id": 1914,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5543 — Econ 5543, Min Eng 5543, and Nuc Eng 5543"
+  },
+  {
+    "course_relation_id": 269,
+    "course_id": 1834,
+    "related_course_id": 2090,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5543 — Econ 5543, Min Eng 5543, and Nuc Eng 5543"
+  },
+  {
+    "course_relation_id": 270,
+    "course_id": 1835,
+    "related_course_id": 1852,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: MIN ENG 5612 — Exp Eng 5612"
+  },
+  {
+    "course_relation_id": 271,
+    "course_id": 1836,
+    "related_course_id": 1916,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5648 — Econ 5648, Min Eng 5648, and Nuc Eng 5648"
+  },
+  {
+    "course_relation_id": 272,
+    "course_id": 1836,
+    "related_course_id": 2092,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5648 — Econ 5648, Min Eng 5648, and Nuc Eng 5648"
+  },
+  {
+    "course_relation_id": 273,
+    "course_id": 1837,
+    "related_course_id": 1917,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5658 — Econ 5658, Min Eng 5658, and Nuc Eng 5658"
+  },
+  {
+    "course_relation_id": 274,
+    "course_id": 1837,
+    "related_course_id": 2093,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5658 — Econ 5658, Min Eng 5658, and Nuc Eng 5658"
+  },
+  {
+    "course_relation_id": 275,
+    "course_id": 1875,
+    "related_course_id": 2125,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: NUC ENG 4281 — Eng Mgt 4281"
+  },
+  {
+    "course_relation_id": 276,
+    "course_id": 1878,
+    "related_course_id": 1902,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: NUC ENG 4350 — Nuc Eng 5350"
+  },
+  {
+    "course_relation_id": 277,
+    "course_id": 1897,
+    "related_course_id": 2104,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: NUC ENG 5281 — Sys Eng 5281"
+  },
+  {
+    "course_relation_id": 278,
+    "course_id": 1899,
+    "related_course_id": 2085,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5338 — Econ 5338, Min Eng 5338, and Nuc Eng 5338"
+  },
+  {
+    "course_relation_id": 279,
+    "course_id": 1903,
+    "related_course_id": 2086,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: NUC ENG 5360 — Econ 5360"
+  },
+  {
+    "course_relation_id": 280,
+    "course_id": 1914,
+    "related_course_id": 2090,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5543 — Econ 5543, Min Eng 5543, and Nuc Eng 5543"
+  },
+  {
+    "course_relation_id": 281,
+    "course_id": 1916,
+    "related_course_id": 2092,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5648 — Econ 5648, Min Eng 5648, and Nuc Eng 5648"
+  },
+  {
+    "course_relation_id": 282,
+    "course_id": 1917,
+    "related_course_id": 2093,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: CHEM ENG 5658 — Econ 5658, Min Eng 5658, and Nuc Eng 5658"
+  },
+  {
+    "course_relation_id": 283,
+    "course_id": 1954,
+    "related_course_id": 1992,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: IS&T 4085 — as BUS 4085"
+  },
+  {
+    "course_relation_id": 284,
+    "course_id": 2101,
+    "related_course_id": 2142,
+    "relation_type": "CROSS_LISTED",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog co-listing: SYS ENG 5105 — Eng Mgt 5320"
+  },
+  {
+    "course_relation_id": 285,
+    "course_id": 206,
+    "related_course_id": 211,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Cannot also receive credit for Bio Sci 1113."
+  },
+  {
+    "course_relation_id": 286,
+    "course_id": 324,
+    "related_course_id": 343,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit will not given for both Chem 5410 and Chem 4410."
+  },
+  {
+    "course_relation_id": 287,
+    "course_id": 327,
+    "related_course_id": 348,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit may not be given for both Chem 5610 and Chem 4610."
+  },
+  {
+    "course_relation_id": 288,
+    "course_id": 328,
+    "related_course_id": 349,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit may not be given for both Chem 5619 and Chem 4619."
+  },
+  {
+    "course_relation_id": 289,
+    "course_id": 329,
+    "related_course_id": 350,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit may not be given for both Chem 5620 and Chem 4620."
+  },
+  {
+    "course_relation_id": 290,
+    "course_id": 330,
+    "related_course_id": 351,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit may not be given for both Chem 5630 and Chem 4630."
+  },
+  {
+    "course_relation_id": 291,
+    "course_id": 332,
+    "related_course_id": 353,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit may not be given for both Chem 4710 and Chem 5710."
+  },
+  {
+    "course_relation_id": 292,
+    "course_id": 333,
+    "related_course_id": 354,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit may not be given for both Chem 5810 and Chem 4810."
+  },
+  {
+    "course_relation_id": 293,
+    "course_id": 333,
+    "related_course_id": 977,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit may not be given for both Chem 5810 and Chem 4810."
+  },
+  {
+    "course_relation_id": 294,
+    "course_id": 333,
+    "related_course_id": 1567,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit may not be given for both Chem 5810 and Chem 4810."
+  },
+  {
+    "course_relation_id": 295,
+    "course_id": 334,
+    "related_course_id": 355,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit may not be given for both Chem 5819 and Chem 4819."
+  },
+  {
+    "course_relation_id": 296,
+    "course_id": 334,
+    "related_course_id": 1568,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit may not be given for both Chem 5819 and Chem 4819."
+  },
+  {
+    "course_relation_id": 297,
+    "course_id": 335,
+    "related_course_id": 356,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit may not be given for both Chem 5850 and Chem 4850."
+  },
+  {
+    "course_relation_id": 298,
+    "course_id": 335,
+    "related_course_id": 1569,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit may not be given for both Chem 5850 and Chem 4850."
+  },
+  {
+    "course_relation_id": 299,
+    "course_id": 354,
+    "related_course_id": 977,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit may not be given for both Chem 5810 and Chem 4810."
+  },
+  {
+    "course_relation_id": 300,
+    "course_id": 354,
+    "related_course_id": 1567,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit may not be given for both Chem 5810 and Chem 4810."
+  },
+  {
+    "course_relation_id": 301,
+    "course_id": 355,
+    "related_course_id": 1568,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit may not be given for both Chem 5819 and Chem 4819."
+  },
+  {
+    "course_relation_id": 302,
+    "course_id": 356,
+    "related_course_id": 1569,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit may not be given for both Chem 5850 and Chem 4850."
+  },
+  {
+    "course_relation_id": 303,
+    "course_id": 428,
+    "related_course_id": 439,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit will not be given for both TCH COM 4550 and TCH COM 5550."
+  },
+  {
+    "course_relation_id": 304,
+    "course_id": 707,
+    "related_course_id": 708,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit will be given for only one of Stat 3111, 3113, 3115 or 3117."
+  },
+  {
+    "course_relation_id": 305,
+    "course_id": 707,
+    "related_course_id": 709,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit will be given for only one of Stat 3111, 3113, 3115 or 3117."
+  },
+  {
+    "course_relation_id": 306,
+    "course_id": 707,
+    "related_course_id": 710,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit will be given for only one of Stat 3111, 3113, 3115 or 3117."
+  },
+  {
+    "course_relation_id": 307,
+    "course_id": 708,
+    "related_course_id": 709,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit will be given for only one of Stat 3111, 3113, 3115 or 3117."
+  },
+  {
+    "course_relation_id": 308,
+    "course_id": 708,
+    "related_course_id": 710,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit will be given for only one of Stat 3111, 3113, 3115 or 3117."
+  },
+  {
+    "course_relation_id": 309,
+    "course_id": 709,
+    "related_course_id": 710,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit will be given for only one of Stat 3111, 3113, 3115 or 3117."
+  },
+  {
+    "course_relation_id": 310,
+    "course_id": 742,
+    "related_course_id": 745,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit will be given for only one of Math 1210 or Math 1214."
+  },
+  {
+    "course_relation_id": 311,
+    "course_id": 766,
+    "related_course_id": 785,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit will not be given for both Math 4530 and Math 5530."
+  },
+  {
+    "course_relation_id": 312,
+    "course_id": 2065,
+    "related_course_id": 2083,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit cannot be obtained for both Econ 4310 and Econ 5310."
+  },
+  {
+    "course_relation_id": 313,
+    "course_id": 2069,
+    "related_course_id": 2088,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit cannot be obtained for both Econ 4430 and Econ 5430."
+  },
+  {
+    "course_relation_id": 314,
+    "course_id": 2077,
+    "related_course_id": 2094,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit cannot be obtained for both Econ 4710 and Econ 5710."
+  },
+  {
+    "course_relation_id": 315,
+    "course_id": 2078,
+    "related_course_id": 2095,
+    "relation_type": "DUPLICATE_CREDIT",
+    "is_bidirectional": true,
+    "maximum_combined_credits": null,
+    "notes": "Catalog duplicate-credit restriction: Credit cannot be obtained for both Econ 4720 and Econ 5720."
+  }
+]

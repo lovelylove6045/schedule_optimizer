@@ -1,0 +1,378 @@
+[
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 1912  Principles Of Mining Engineering (LAB 1.0 and LEC 1.0)",
+        "description": "Principles and definitions related to mining engineering including one or more field trips to familiarize the student with current mining practices."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 2002  Cooperative Engineer Training (IND 0.0-6.0)",
+        "description": "On-the-job experience gained through cooperative education with industry, with credit arranged through departmental cooperative advisor. Grade received depends on quality of reports submitted and work supervisor's evaluation."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 2412  Principles Of Mineral Processing (LAB 1.0 and LEC 2.0)",
+        "description": "Introduction to the principles of mineral processing including mineral resources; particle comminution, classification, separation and dewatering; flowsheet and equipment design."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 2914  Surface Mine Design (LAB 2.0 and LEC 1.0)",
+        "description": "Surface mining methods. Conventional methods for ore reserves estimation. Geomechanics, geometrics and computer-aided mine design, haul roads and waste dump design and layouts optimization. Materials scheduling and sequencing using a commercially available mine design software. Prerequisite: Min Eng 1912."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 2924  Underground Mine Design (LAB 2.0 and LEC 1.0)",
+        "description": "Underground mining methods. Parametric statistics and introductory geostatistics. Geomechanics, geometrics and computer-aided mine design. Empirical and numerical methods for mine openings, pillar and roof span design; caving and ore drawing mechanics. Materials scheduling and sequencing using commercially available software. Prerequisite: Min Eng 1912 and Min Eng 2914."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 2925  Surveying For Mineral Engineers (LAB 2.0)",
+        "description": "Principles of surface and underground survey practice utilizing total station, engineer's level and GPS. Traversing and details, note taking and computations, balancing surveys and error analysis, staking-out new points, and map construction with AutoCAD. Prerequisite: Preceded or accompanied by Min Eng 1912."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 3001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 3002  Mine Rescue (LAB 1.0 and LEC 2.0)",
+        "description": "Utilization of the principles of mine safety concerning mine gases, ventilation, explosives, fires, and first aid in the organization of mine rescue personnel and techniques. Training in the use of current mine rescue equipment, recognition and control of common recovery hazards, handling of survivors. Prerequisite: Min Eng 2126."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 3512  Mining Industry Economics (LEC 3.0)",
+        "description": "Importance of the mineral industry to national economy, uses, distribution, and trade of economic minerals, time value of money, mineral taxation, economic evaluation utilizing depreciation, depletion, and discounted cashflow concepts, social and economical significance of mineral resources. Prerequisite: Econ 1100 or 1200.  (Co-listed with Econ 3512)."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 3912  Materials Handling In Mines (LEC 2.0)",
+        "description": "Mining applications of material transport and handling. Truck haulage and haulroads. Conveyors: belt, armored, and others; feeders; bins and bunkers; material stockpiling and homogenization; rail transport; water transport; slurry transport; mine hoists and hoisting. Prerequisite: Min Eng 1912."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 3913  Mineral Identification and Exploration (LAB 1.0 and LEC 2.0)",
+        "description": "Characterization of mineral deposits. Ore body definition. Mineral Exploration techniques. Sample methods, errors and mitigation. Rock Identification and application of Geological Sciences. Hands-on lab to understand geologic concepts. Prerequisites: Either Chem 1305 or Chem 1310, and Chem 1319."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 4001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 4096  Computer Aided Mine Design (LAB 3.0)",
+        "description": "Mine planning and design using commercial software. Orebody description. Surface mining: geometric design, pit limits, and production planning. Underground mining: development planning, opening and support design, ventilation and production planning. Group projects with real-world mining data. Preparation for capstone design project. Prerequisites: Min Eng 5522, Min Eng 5932, and Min Eng 5933."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 4097  Capstone Design Project (LAB 2.0 and LEC 1.0)",
+        "description": "Capstone project with written and oral presentations. Includes mine design and optimization, production plan, equipment and flowsheet design based on geology, resources/reserves, geotechnics, hydrology and hydro-geology. Project also incorporates markets, environmental and permitting, mine-mill organization, support facilities, economic and risk analyses. Prerequisite: Min Eng 4096."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six credit hours allowed for graduation credit. Subject and credit to be arranged with the instructor."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 4122  Advanced Mine Health and Safety (LEC 3.0)",
+        "description": "A detailed study of health and safety principles, practices, analyses, regulations, risks and hazards recognition, mitigation and control, and disaster prevention in the mining industry. Prerequisite: Min Eng 2126."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 4321  Drone Mapping and Photogrammetry (LAB 1.0 and LEC 2.0)",
+        "description": "The course will start with an overview of the basic knowledge required for passing the FAA Part 107 Remote Pilots Knowledge Test for small UAS operators, including UAS mapping technology and its rules and regulations, airspace classification, and reading aeronautical charts. The principles of UAS data collection are explained along with hands-on practice in flight planning and execution, as well as processing collected imagery. Prerequisites: Basic computer knowledge. Either Civ Eng 2401 or Geo Eng 3148 or equivalent. (Co-listed with Civ Eng 4321, Geology 4321, Geophys 4321, Geo Eng 4321)."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 4512  Mine Management (LEC 3.0)",
+        "description": "Theory and practice of mine management, including basic managerial functions, management theories, communication skills, motivation, leadership, organization, maintenance management, managerial decision making, cost control, labor relations, government relations, ethics and risks management with emphasis in presentation skills. Prerequisite: Completion of 50 credits toward Mining Engineering degree. (Co-listed ECON 4512)."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 4523  Environmental And Natural Resource Economics (LEC 3.0)",
+        "description": "Optimum use of replenishable and non-replenishable resources, public goods and common resources, externalities, private vs. public costs, and quality of the environment; emphasis on public policy related to environmental and natural resource economics. Prerequisite: Econ 1100. (Co-listed with Econ 4440)."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 4524  Energy Economics (LEC 3.0)",
+        "description": "For students interested in both economic and engineering issues of energy policy. Provides an assessment of economics and technology issues related to traditional and renewable energy resources. Presented in a framework that allows for analysis of the economic trade-offs between energy sources and the technologies associated with their use and extraction. Prerequisite: Econ 1100 or Econ 1200. (Co-listed with Econ 4540)."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 4824  Soils and Overburden Materials for Mining Engineering (LEC 2.0)",
+        "description": "Physical and mechanical properties of soils and overburden materials. Soils and overburden characterization for reclamation and mine closure and overburden blasting. Soil failure modes and slope stability for surface mine layouts, waste dumps, tailings and earth dams, and foundations for heavy mining machinery. Prerequisites: Civ Eng 2210."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of the instructor required."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5113  Mine Atmosphere Control (LAB 1.0 and LEC 2.0)",
+        "description": "Fundamentals of mine ventilation, including the principles of airflow, control of gases, dust, and temperature, methane drainage, mine fans, network theory, computer network simulation, and economics of airflow, with emphasis on analysis, systems design and practical application. Prerequisite: Mech Eng 2527 and Civ Eng 3330; or Nuc Eng 3221."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5212  Aggregates and Quarrying (LEC 3.0)",
+        "description": "Advanced coverage of topics on the stone and aggregate industry, including surface and underground operations, plant equipment, economics, marketing, transportation, and environmental topics. The course will include at least one field trip and a design project. Prerequisite: Min Eng 3912; Preceded or accompanied by Civ Eng 3116."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5322  Coal Mining Methods (LEC 3.0)",
+        "description": "An in-depth study of all aspects of coal mining, including an overview of the coal industry, reserves and geology, planning and development of coal mines, surface and underground mechanized methods of face preparation, equipment, coal extraction, handling and preparation as practiced in the United States. Prerequisites: Min Eng 5912."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5338  Innovation and Value Generation (LEC 3.0)",
+        "description": "This course introduces a structured framework for understanding and executing the innovation process, from ideation to implementation. It emphasizes a systematic approach to identifying real-world needs, crafting solutions, and transforming them into impactful outcomes, providing strategies for identifying customer needs and determining innovative solutions. (Co-listed with Econ 5338, Chem Eng 5338, and Nuc Eng 5338)."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5412  Aggregates Materials Sizing and Characterization (LAB 1.0 and LEC 2.0)",
+        "description": "Geological formation of aggregates; aggregate properties and their measurements; aggregates for specific end-user applications; specifications and standards; processing (crushing, screening, classification, and washing); plant design and flow sheet analysis; quality control and assurance. Field trip to a nearby quarry required. Prerequisite: Min Eng 2412."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5413  Material Processing by High Pressure Water Jet (LEC 3.0)",
+        "description": "Methods of generating high pressure water jets; standard equipment, existing techniques and basic calculations. Applications of water jets to materials cutting and mineral processing. Safety rules. The course will be supported by laboratory demonstrations. (Co-listed with Mech Eng 5606)."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5420  Interfacial Phenomena In Chemical Engineering (LEC 3.0)",
+        "description": "The course deals with the effects of surfaces on transport phenomena and on the role of surface-active agents by applying the fundamentals of thermodynamics, momentum, heat and mass transfer at interfaces and of surfactants. Some applications are included. Prerequisite: Chem Eng 3131 or graduate standing. (Co-listed with Chem Eng 5120)."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5422  Coal Preparation (LAB 1.0 and LEC 2.0)",
+        "description": "Coal properties, sampling, testing, breaking, sizing, cleaning and dewatering. Disposal of refuse. Prerequisite: Min Eng 2412."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5423  Flotation and Hydrometallurgy (LAB 1.0 and LEC 2.0)",
+        "description": "Forth flotation including mineral surfaces, double layer theory, zeta potential, hydrophbicity, adsorption, collectors, frothers, modulation, kinetics, and sulphide and acid flotation systems. Hydrometallurgy including leaching, ion exchange and liquid/liquid extraction. Prerequisites: Min Eng 2412."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5424  Mineral Processing II Mechanics And Design (LAB 1.0 and LEC 2.0)",
+        "description": "Mineral particle mechanics of comminution, sizing, classification, concentration, filtering and thickening. Mill and equipment selection and design including flowsheet, development and plant assessment.  Prerequisites: Min Eng 2412. (Co-listed with Met Eng 5270)."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5522  Ore Reserve Analysis and Geostatistics (LAB 1.0 and LEC 2.0)",
+        "description": "Principles of geostatistics, theory of spatially correlated random variables, variance and co-variances and their application on the evaluation of mineral resources, ore reserve estimation, strategic exploration, and production planning. Real case studies from mining industry will be presented. Prerequisites: Stat 3113 or Stat 3115."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5532  Advanced Mining Economics (LEC 3.0)",
+        "description": "Mining industry & national economics. Social & economics significance of mined commodities. Marketing of mined commodities. Innovation approaches to mine financing, project loans, and leasing. Mining feasibility studies, government influence & policy, mining industry foreign investment, investment strategies, mining taxation, cost predictions. Case Studies. (Co-listed with ECON 5532)."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5543  Innovation Economics and Finance (LEC 3.0)",
+        "description": "This course teaches rapid project development and financing, from an idea to a revenue-generating asset. It covers process ideation, technology/vendor selection, financial modeling, contract structuring, non-recourse financing, and project execution, such as engineering, procurement, construction, and start-up, resulting in a cash-flowing, tradeable annuity. (Co-listed with Econ 5543, Chem Eng 5543, and Nuc Eng 5543)."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5612  Principles of Explosives Engineering (LAB 1.0 and LEC 2.0)",
+        "description": "Theory and application of explosives in the mining industry; explosives, initiating systems, characteristics of explosive reactions and rock breakage, fundamentals of blast design, drilling and blasting, regulatory and safety considerations. Prerequisites: Min Eng 1912; successful background check. (Co-listed with Exp Eng 5612)."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5648  Innovation to Market (LEC 3.0)",
+        "description": "This course provides the tools needed to transform innovative solutions into market-ready products and services, focusing on business model development, value generation, and product management. Students will learn to identify product-market fit, maximize value to customers and users, and launch successful innovations. Prerequisites: Econ 5338 and Econ 5543. (Co-listed with Econ 5648, Chem Eng 5648, and Nuc Eng 5648)."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5658  Building Sustainability and Environmental, Social and Governance (ESG) (LEC 3.0)",
+        "description": "Across the globe, businesses are increasingly recognizing the importance of sustainability and ESG principles. This course equips students with the knowledge, tool set, and skills needed to understand, implement, and integrate sustainability and ESG practices in various organizational contexts. Prerequisites: Junior or above standing. (Co-listed with Econ 5658, Chem Eng 5658, and Nuc Eng 5658)."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5742  Sustainability in Mining (LEC 3.0)",
+        "description": "Sustainability implications of mining. Topics include mine permitting, environmental impact assessment, mine reclamation and habitat restoration, sustainability implications of mine planning and design, environmental management systems, sustainability reporting, community development, and handling mine-influenced water. Prerequisites: Preceded or accompanied by Min Eng 5933 or Geo Eng 5441 or Env Eng 5619. (Co-listed with Geo Eng 5276)."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5823  Rock Mechanics (LAB 1.0 and LEC 2.0)",
+        "description": "Applications of the fundamental principles of mechanics to engineering problems of equilibrium, strength and stiffness of rock materials. Review of in-situ stresses, laboratory and field instrumentation, rock and rockmass properties. Ground Control; pillar design, roof span design, rock reinforcement, surface subsidence, slope stability, and violent failure. Prerequisites: Civ Eng 2210 and Geology 3310. Field trip required."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5912  Mine Power and Drainage (LAB 1.0 and LEC 2.0)",
+        "description": "Engineering principles of mine power distribution and application and mine dewatering. Basics of electrical circuits, AC/DC power, transformers, electric meters, power distribution, and power management. Hydraulic power systems. Compressed air in mines. Mine dewatering. Controlling water inflow. Dewatering wells. Water pumping and pumping systems. Prerequisite: Physics 2135 and one of the following Civ Eng 3330 or Nuc Eng 3221."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5913  Advanced Computer Aided Mine Design (LAB 1.0 and LEC 2.0)",
+        "description": "Project-based mine planning and design course. Engineering design process applied to computer-aided mine planning and design. Mine layouts, production planning, and materials scheduling optimization. Prerequisite: Graduate standing."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5932  Underground Mining Methods (LEC 3.0)",
+        "description": "Principles of planning, constructing, and operating economically viable underground mines. Cost effective mining methods: room-and-pillar, sublevel open stoping, VCR, shrinkage, sublevel caving, cut-and-fill, block caving, longwall. Selection of equipment for underground mining operations. Optimization of mine performance. Field trip Required. Prerequisite: Preceded or accompanied by Min Eng 1912."
+    },
+    {
+        "subject_id": 41,
+        "department_id": 18,
+        "subject_code": "MIN ENG",
+        "subject_name": "Mining Engineering",
+        "course": "MIN ENG 5933  Surface Mining Methods (LEC 3.0)",
+        "description": "Principles of planning, constructing, and operating economically viable surface mines. Cost effective mining methods: placer mining, strip mining, open pit mining, quarrying. Selection of equipment for surface mining operations. Optimization of mine performance. Field trip required. Prerequisites: Min Eng 3912."
+    }
+]

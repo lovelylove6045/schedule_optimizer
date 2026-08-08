@@ -1,0 +1,18 @@
+[
+    {
+        "subject_id": 8,
+        "department_id": 1,
+        "subject_code": "ETYM",
+        "subject_name": "Etymology",
+        "course": "ETYM 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Prerequisite: Consent of instructor."
+    },
+    {
+        "subject_id": 8,
+        "department_id": 1,
+        "subject_code": "ETYM",
+        "subject_name": "Etymology",
+        "course": "ETYM 4306  Introduction To Etymology (LEC 3.0)",
+        "description": "Introduction to etymology in its broadest sense: origin of words, idioms, writing systems, etc. Prerequisite: Any foreign language course or English 1120."
+    }
+]

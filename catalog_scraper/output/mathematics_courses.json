@@ -1,0 +1,498 @@
+[
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 1000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings in specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 1001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 1101  Introduction To Mathematics (LEC 1.0)",
+        "description": "Introduction to the department, program of study, methods of study, and an introduction of the various areas of mathematics. Required of fall semester freshman mathematics majors."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 1103  Fundamentals Of Algebra (LEC 3.0)",
+        "description": "Basic principles of algebra including the number line and an introduction to equations and inequalities, polynomials, rational expressions, exponents and radicals, the quadratic formula and functions. Prerequisite: Entrance requirements."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 1110  Mathematical Reasoning and Modeling (LEC 3.0)",
+        "description": "Designed for non-STEM majors, this course provides a comprehensive overview of the reasoning skills required to process, reflect upon, and apply quantitative information in making decisions. Topics include ratios, rates, percentages, units, descriptive statistics, linear and exponential modeling, correlation, logic, and probability. Technology is emphasized.  Prerequisites: Entrance requirements."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 1120  College Algebra (LEC 5.0)",
+        "description": "Contains the same topics as covered in Math 1140, and preceded by a thorough review of the basic principles of algebra. Prerequisite: A grade of \"C\" or better in Math 1103; or by placement examination. MATH 1120 - MOTR MATH 130: Pre-Calculus Algebra"
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 1140  College Algebra (LEC 3.0)",
+        "description": "A study of linear equations, rational functions, radicals, quadratic equations, inequalities, determinants, progressions, theory of equations, permutations, combinations, and the binomial theorem. Prerequisite: By placement examination. MATH 1140 - MOTR MATH 130: Pre-Calculus Algebra MATH 1140 - MOTR MATH 150: Pre-Calculus"
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 1160  Trigonometry (LEC 2.0)",
+        "description": "A study of the trigonometric functions, radian measure, graphing trigonometric functions, identities, trigonometric equations and inverse trigonometric functions. Solutions of general triangles and trigonometric representation of complex numbers are included. Prerequisite: Math 1120 or 1140 with a grade of \"C\" or better; or by placement exam. MATH 1160 - MOTR MATH 150: Pre-Calculus"
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 1190  Success for Calculus (LAB 1.0 and LEC 3.0)",
+        "description": "This course focuses on the use of college algebra and trigonometry skills within the context of calculus, providing students with the opportunity to improve their preparedness for future calculus coursework. Pass/Fail only. Prerequisites: Consent of instructor."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 1210  Calculus I-A (LAB 2.0 and LEC 3.0)",
+        "description": "An introduction to differential and integral calculus for students needing extra algebra or trigonometry content. Emphasizes differential calculus along with linear, polynomial, rational, and radical functions and equations. Math 1210 and 1211 combined cover the same calculus content as Math 1214. Credit will be given for only one of Math 1210 or Math 1214. Prerequisites: A grade of \"C\" or better in either Math 1120 or Math 1140, or by placement exam."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 1211  Calculus I-B (LAB 1.0 and LEC 3.0)",
+        "description": "A continuation of Math 1210. Emphasizes differential and integral calculus along with exponential, logarithmic, and trigonometric functions and equations, plus trigonometric identities and solutions of general triangles. Math 1210 and 1211 combined cover the same calculus content as Math 1214. Prerequisites: A grade of \"C\" or better in either Math 1210 or 1214."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 1212  Survey of Calculus (LAB 1.0 and LEC 3.0)",
+        "description": "A survey of derivatives, optimization, exponential and logarithmic functions, integration, multivariate functions, partial derivatives, and Lagrange multipliers with applications in business, economics, and biology. This course is not appropriate for engineering or physical science majors. May not be used as a prerequisite for Math 1215. Prerequisites: A grade of \"C\" or better in either Math 1120, Math 1140, or Math 1210; or by placement exam."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 1214  Calculus I (LAB 1.0 and LEC 3.0)",
+        "description": "Introduction to limits, continuity, differentiation, and integration of algebraic and transcendental functions. Applications in physical science and engineering. Credit will be given for only one of Math 1210 or 1214. Prerequisites: A grade of \"C\" or better in both Math 1160 and one of Math 1120 or Math 1140; or by placement exam."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 1215  Calculus II (LAB 1.0 and LEC 3.0)",
+        "description": "Techniques of integration, sequences and series including power series, polar coordinates, polar and parametric equations. Applications in physical science and engineering. Prerequisites: A grade of \"C\" or better in Math 1214; or a grade of \"C\" or better in both Math 1210 and Math 1211."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 2002  Cooperative Work Training (IND 0.0-6.0)",
+        "description": "On-the-job experience gained through cooperative education with industry. Variable credit arranged with the advisor. P/F grading option is required and maximum credit per semester is 3 hrs., maximum for entire program is 6 hrs."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 2222  Calculus  III (LAB 1.0 and LEC 3.0)",
+        "description": "An introduction to multivariable calculus. Vector valued functions, curves and surfaces in two and three dimensions, partial differentiation, multiple integration, line and surface integrals, the major theorems of vector calculus, and applications of these ideas are studied. Prerequisites: A grade of \"C\" or better in Math 1215."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 3000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings in specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 3001  Special Topics (IND 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 3010  Undergraduate Seminar (SEM 1.0-3.0)",
+        "description": "Discussion of advanced or current topics. (Course cannot be used for graduate credit)."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 3108  Linear Algebra I (LEC 3.0)",
+        "description": "Systems of linear equations, matrices, vector spaces, inner products, linear transformations, determinants, and eigenvalues are studied. Prerequisite: Math 1215 or 1221 or 2222 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 3109  Foundations Of Mathematics (LEC 3.0)",
+        "description": "Introduction to mathematical reasoning through an axiomatic development of mathematical systems. Strong emphasis is placed on learning to understand what constitutes a sound mathematical argument. Communication, both written and spoken, is emphasized. Prerequisite: Math 1215 or 1221 with a grade of \"C\" or better."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 3304  Elementary Differential Equations (LEC 3.0)",
+        "description": "First order differential equations and linear differential equations of higher order are studied. The Laplace transform and systems of linear equations as well as selected physical applications are covered. Credit will not be given for both Math 3329 and Math 3304. Prerequisite: A grade of \"C\" or better in either Math 1215 or Math 1221."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 3921  Methods of Teaching Math (LEC 3.0)",
+        "description": "The course presents an overview of how children learn mathematics, various techniques in teaching mathematics, and examples of applying these techniques to specific mathematical concepts (such as geometry, measurement, basic operations, statistics and probability, etc.). Prerequisite: Math 1120 or Math 1140; Educ 1074. (Co-listed with Educ 3221)."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 3922  Geometric Concepts for Elementary Teachers (LEC 3.0)",
+        "description": "The course covers methods of teaching the study of points, lines, polygons, similarity, congruence, constructions, and proof in Euclidean Plane Geometry. Transformational geometry and trigonometry are introduced to elementary teachers. Prerequisites: Math 1120 or Math 1140. (Co-listed with Educ 3222)."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 4000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 4001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 4010  Undergraduate Seminar (SEM 1.0-3.0)",
+        "description": "Discussion of advanced or current topics. (Course cannot be used for graduate credit)."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 4096  Problem Solving In Pure Mathematics (LEC 1.0)",
+        "description": "Problems from pure mathematics, including analysis, algebra, number theory, set theory, finite mathematics, probability and statistics. Emphasis on identifying or inventing ways to solve problems based on the student's entire mathematics background. Prerequisites: Corequisite Math 4209 and Senior standing."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 4097  Problem Solving In Applied Mathematics (LEC 1.0)",
+        "description": "Problems from applied mathematics which are open-ended, and do not always have a unique correct solution. Emphasis on developing mathematical models and writing solution narratives, including clarity, analysis, and design. Prerequisites: Math 3109 and Senior standing."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 4098  Explorations in Pure Mathematics (LEC 3.0)",
+        "description": "Students interested in pure mathematics will be encouraged to use their entire mathematics background as a context for learning about some of the great theorems which have shaped the development of mathematics and solving novel problems in areas such as, but not limited to, analysis, algebra, number theory, set theory, topology, and finite mathematics. Prerequisites: Senior standing; preceded or accompanied by Math 4209."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "This course is designed for the undergraduate student who wishes to engage in research. It is not to be used for graduate credit nor for more than six credit hours of undergraduate credit. The subject and credit are to be arranged with the instructor. Prerequisite: Consent of instructor."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 4209  Advanced Calculus I (LEC 3.0)",
+        "description": "Completeness of the set of real numbers, sequences and series of real numbers, limits, continuity and differentiability, uniform convergence, Taylor series, Heine-Borel theorem, Riemann integral, fundamental theorem of calculus, Cauchy-Riemann integral. Prerequisite: Math 2222 and Math 3109, or a 4000-level or higher mathematics course, or graduate standing."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 4211  Advanced Calculus II (LEC 3.0)",
+        "description": "Euclidean n-space, differentiation and integration of scalar functions of several variables, maxima and minima theory, change of variables, differentiation and integration of vector functions of several variables, Divergence theorem, Stokes' theorem. Prerequisite: Math 4209."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 4530  Topics In Geometry (LEC 3.0)",
+        "description": "A survey of non-Euclidean geometries, finite geometries, affine and projective planes, metric postulates for the Euclidean plane, and selected topics. Credit will not be given for both Math 4530 and Math 5530. Prerequisites: MATH 3108."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5010  Graduate Seminar (SEM 1.0)",
+        "description": "Discussion of advanced or current topics."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5040  Oral Examination (IND 0.0)",
+        "description": "After completion of all other program requirements, oral examinations for on-campus M.S./Ph.D. students may be processed during intersession. Off-campus M.S. students must be enrolled in oral examination and must have paid an oral examination fee at the time of the defense/comprehensive examination (oral/ written). All other students must enroll for credit commensurate with uses made of facilities and/or faculties. In no case shall this be for less than three (3) semester hours for resident students."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5099  Graduate Research (IND 0.0-6.0)",
+        "description": "Investigation of an advanced nature leading to the preparation of a MS thesis or dissertation."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5102  Introduction to Cryptography (LEC 3.0)",
+        "description": "Introduces fundamentals of modern cryptography. Topics include basic number theory, public & private key encryption schemes, cryptographic hash functions, message authentication codes, elliptic curve cryptography, Diffie-Hellman key agreements, digital signatures, PUFs, quantum cryptography, and generation of prime numbers and pseudo-random sequences. Prerequisites: A grade of \"C\" or better in COMP SCI 4610, or a grade of \"C\" or better in Math 3109. (Co-listed with COMP SCI 5602)."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5105  Modern Algebra I (LEC 3.0)",
+        "description": "Equivalence relations and functions, basic properties of groups, subgroups, permutations, cosets and Lagrange's Theorem, homomorphisms and isomorphisms, factor groups. Prerequisite: Math 3109 or graduate standing; preceded or accompanied by Math 3108."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5106  Modern Algebra II (LEC 3.0)",
+        "description": "This course is a continuation of Math 5105. Rings and fields are discussed. Euclidean domains, principal ideal domains, unique factorization domains, vector spaces, finite fields and field extensions are studied. Prerequisite: Math 5105."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5107  Combinatorics And Graph Theory (LEC 3.0)",
+        "description": "Covers some basics of enumeration and graph theory. Topics are selected from the following: permutations combinations, the inclusion/exclusion principle, generating functions, recurrence relations, trees, networks, graph connectivity and graph coloring. Prerequisite: Comp Sci 1200 or Math 3109."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5108  Linear Algebra II (LEC 3.0)",
+        "description": "Eigenvalue problems, Cayley-Hamilton theorem, Jordan normal form, linear functionals, bilinear forms, quadratic forms, orthogonal and unitary transformations, selected applications of linear algebra. Prerequisite: Math 3108."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5154  Mathematical Logic I (LEC 3.0)",
+        "description": "A mathematical introduction to logic with some applications. Functional and relational languages, satisfaction, soundness and completeness theorems, compactness theorems. Examples from Mathematics, Philosophy, Computer Science, and/or Computer Engineering. Prerequisite: Philos 3254 or Math 5105 or Comp Sci 2500 or Comp Eng 2210. (Co-listed with Comp Eng 5803, Comp Sci 5203 and Philos 4354)."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5215  Introduction To Real Analysis (LEC 3.0)",
+        "description": "Riemann-Stieltjes integration, sequences and series of functions, uniform approximation, the Banach Space C(a,b), Lebesgue measure and integration, the space LP(a,b), Fourier series. Prerequisite: Math 4209."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5222  Vector And Tensor Analysis (LEC 3.0)",
+        "description": "Vector algebra, vector differential and integral calculus, line and surface integrals, theorems of Stokes and Gauss, tensor algebra and tensor analysis, applications to problems in kinematics, elasticity theory, fluid mechanics, electromagnetic theory, relativity theory. Prerequisite: Math 2222 and Math 3108."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5302  Intermediate Differential Equations (LEC 3.0)",
+        "description": "Linear differential equations, vector-matrix systems, existence and uniqueness theory, nonlinear systems, phase-plane analysis, introduction to stability theory. Prerequisite: A grade of \"C\" or better in Math 2222 and Math 3304."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5325  Partial Differential Equations (LEC 3.0)",
+        "description": "Linear equations, heat equation, eigenfunction expansions, Green's formula, inhomogeneous problems, Fourier series, wave equation. Prerequisite: A grade of \"C\" or better in Math 2222 and Math 3304."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5351  Introduction To Complex Variables (LEC 3.0)",
+        "description": "The basic tools of complex variables are studied. These include the Cauchy-Riemann equations, complex contour integration, the Cauchy-Goursat theorem, conformal mappings, the calculus of residues and applications to boundary value problems. Prerequisite: A grade of \"C\" or better in Math 2222 and Math 3304."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5483  Operational Calculus (LEC 3.0)",
+        "description": "The Laplace transformation, properties of the transformation, various applications to ordinary and partial differential equations, systems with step and Dirac functions as driving forces, various non-elementary functions and their transforms, problems in heat conduction and wave motion, Fourier transforms and their operational properties. Prerequisite: A grade of \"C\" or better in Math 2222 and Math 3304."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5512  Introduction To Differential Geometry (LEC 3.0)",
+        "description": "Elements of the geometry of curves and surfaces in Euclidean three-space using methods of advanced calculus and vectors. Prerequisite: Math 4209 or Math 5222."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5530  Topics in Geometry - Graduate Option (LEC 3.0)",
+        "description": "A survey of non-Euclidean geometries, finite geometries, affine and projective planes, metric postulates for the Euclidean plane, and selected topics.  Students will demonstrate graduate-level mastery of the subject matter. Credit will not be given for both Math 4530 and Math 5530. Prerequisites: MATH 3108."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5585  Introduction To Topology (LEC 3.0)",
+        "description": "Metric spaces; general topological spaces; connectedness, compactness, separation properties, functions and continuity. Prerequisite: Math 4209."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5601  Introduction to Numerical Analysis (LEC 3.0)",
+        "description": "Mathematical foundation and theory of the basic numerical methods for nonlinear equations, function approximations, numerical differentiation/integration, ordinary differential equations, and matrix computation, including convergence, accuracy, and stability analysis; extension of the basic methods to the corresponding more advanced methods. Prerequisites: A grade of \"C\" or better in Math 3108 or Math 3304, and Comp Sci 1570, Comp Sci 1970, Comp Sci 1971, or Comp Sci 1972."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5602  Mathematical Foundation of Finite Element Methods (LEC 3.0)",
+        "description": "Implementation and theoretical analysis of the finite element method for the approximate solution of partial differential equations. Implementation of finite element methods for elliptic and parabolic equations. Theoretical analysis of convergence, accuracy, and stability of approximate solutions. Prerequisites: Math 5601, or any instructor approved 4000-level or higher course from another discipline with a significant computational component."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5603  Methods of Applied Mathematics (LEC 3.0)",
+        "description": "Methods to develop and analyze mathematical models. Topics include dimensional analysis and scaling, perturbation methods, and the construction of ordinary and partial differential equation models. Prerequisites: A grade of \"C\" or better in Math 2222 and Math 3304; programming competency."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5604  Introduction to Numerical Methods for Differential Equations (LEC 3.0)",
+        "description": "An introduction to finite difference methods for ordinary and partial differential equations, including (1) the derivation of the numerical methods, (2) implementation of the methods in Matlab, and (3) the mathematical accuracy and stability analysis of the methods. Prerequisites: A grade of \"C\" or better in Math 2222 and Math 3304; programming competency (preferably Matlab)."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5670  Scientific Programming with Python (LEC 3.0)",
+        "description": "This course introduces scientific programming using Python and its associated libraries. Students develop computational skills to formulate, implement, and solve a variety of mathematical problems, as well as to create clear reports and informative visualizations. No prior knowledge of Python is required. Prerequisites: Math 3108."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5680  Mathematics of Machine Learning (LEC 3.0)",
+        "description": "Mathematics, programming, data analysis, and graphics associated with machine learning. Probability, Naïve Bayes classifier, stochastic gradient descent, self-organizing maps, decision trees and other tree-based methods, perception, reinforcement learning, keras, and neural networks. These topics will be treated from a mathematical viewpoint. Prerequisites: A grade of \"C\" or better in Math 2222; programming competency."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5737  Financial Mathematics (LEC 3.0)",
+        "description": "The course objective is to provide an understanding of the fundamental concepts of financial mathematics. Topics include pricing, assets-liability management, capital budgeting, valuing cash flow, bonds, futures, swaps, options. Preparation for the financial mathematics actuarial exam will be provided. Prerequisites: Math 1215, Econ 1100 or Econ 1200, and one of the following: Stat 3111, Stat 3113, Stat 3115, Stat 3117 or Stat 5643. (Co-listed with Econ 5337)."
+    },
+    {
+        "subject_id": 20,
+        "department_id": 8,
+        "subject_code": "MATH",
+        "subject_name": "Mathematics",
+        "course": "MATH 5762  Marketing Revolution with Machine Learning (LEC 3.0)",
+        "description": "This course introduces machine learning and artificial intelligence applications in marketing innovation contexts through case studies and industry collaborations, explores the underlying mathematics and implements algorithms using Python programming language. Prerequisites: Graduate standing or one of the following: Math 1210, Math 1211, Math 1212 or Math 1214. (Co-listed with MKT 5762)."
+    }
+]

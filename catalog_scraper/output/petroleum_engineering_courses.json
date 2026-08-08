@@ -1,0 +1,346 @@
+[
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 1120  Introduction to Subsurface Energy and Carbon Storage (LEC 1.0)",
+        "description": "This course provides an overview of oil and gas upstream activities, a brief introduction to geothermal energy and carbon storage in geological reservoirs."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 2000  Special Problems (IND 1.0-3.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 2001  Special Topics (IND 1.0-3.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 2002  Cooperative Work Training (IND 1.0-3.0)",
+        "description": "On-the-job experience gained through cooperative education with industry, with credit arranged through departmental cooperative advisor. Grade received depends on quality of reports submitted and work supervisor's evaluation."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 3000  Special Problems (IND 1.0-3.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 3001  Special Topics (LAB 0.0 and LEC 0.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 3320  Rock and Fluid Properties (LAB 1.0 and LEC 2.0)",
+        "description": "Properties of petroleum reservoir rocks, including lithology, porosity, absolute permeability, pore surface area, relative and effective permeability, fluid saturations, rock wettability, capillary characteristics, acoustic properties, and electrical properties. Darcy's law for single phase linear horizontal, tilted and radial flow. Properties of petroleum fluids. Prerequisites: Preceded or accompanied by Physics 1135."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 3330  Formation Evaluation (LAB 1.0 and LEC 2.0)",
+        "description": "An introduction to the electrical, nuclear, and acoustic properties of rocks: theory and interpretation of well logs. Prerequisites: Physics 2135 or Physics 2111 and Pet Eng 3320."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 3520  Petroleum Reservoir Engineering (LEC 3.0)",
+        "description": "Properties of reservoir formations and fluids; reservoir volumetrics, reservoir statics, reservoir dynamics. Darcy's law and the mechanics of single and multiphase fluid flow through reservoir rock, capillary phenomena, material balance, reservoir drive mechanisms. Prerequisite: Accompanied or preceded by Pet Eng 3320."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 3529  Petroleum Reservoir Laboratory (LAB 1.0)",
+        "description": "Core analysis determination of intensive properties of crude oil and its products; equipment and methods used to obtain petroleum reservoir information. Prerequisite: Accompanied or preceded by Pet Eng 3520."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4000  Special Problems\nSpecial Problems\nSpecial Problems (IND 0.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4001  Special Topics (LAB 1.0 and LEC 2.0)",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4010  Ethics and Professionalism (LEC 1.0)",
+        "description": "Topics related to Ethics and Professionalism. Lifelong learning, teamwork and discussion of current events. (Course cannot be used for graduate credit). Prerequisite: Senior standing in Pet Eng."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4097  Capstone Design (LEC 3.0)",
+        "description": "Senior capstone design project(s) based on industry data. Application of reservoir engineering: drilling and production engineering principles to evaluate and solve an industry problem such as a new field development, evaluation of an existing reservoir asset, or analysis of field re-development. Prerequisites: Pet Eng 3520 and senior standing."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4099  Undergraduate Research (IND 0.0-6.0)",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Not for graduate credit. Not more than six credit hours allowed for graduation credit. Subject and credit to be arranged with the instructor."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4109  Field Studies (LAB 1.0)",
+        "description": "Field trip, which studies different aspects of petroleum engineering like reservoirs, caprocks and traps, drilling rigs, petroleum production facilities, refineries and petroleum engineering research facilities.  This course takes the students for one week to petroleum operations and geological outcrops in Oklahoma and Texas to expose students to field work."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4111  Fundamental Digital Applications In Petroleum Engineering (LEC 3.0)",
+        "description": "Applications of Windows-based Visual Basic solutions to engineering problems including selected topics in fluid flow, PVT behavior, matrices in engineering solutions, translating curves to computer solutions, predictor-corrector material balance solutions, and graphical display of results. Prerequisite: Junior Standing."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4210  Drilling and Well Integrity (LAB 1.0 and LEC 2.0)",
+        "description": "This course covers drilling fluids, including mixing and analysis of rheological properties; pressure loss calculations; casing design; well cementing; pore pressure and geomechanical considerations in drilling; completion equipment; and completion design. Prerequisite: Preceded or accompanied by Civ Eng 2200."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4211  Advanced Drilling Technology (LEC 3.0)",
+        "description": "In-depth study of directional well planning and drilling. The course covers the bottom hole assembiles and operational techniques used in drill directional drilling as well as the limiting factors and hole problems related to horizontal wells. Prerequisites: Pet Eng 4210."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4311  Reservoir Characterization (LEC 3.0)",
+        "description": "The integration and extrapolation of Geologic, Geophysical, and Petroleum Engineering data for flow model construction. Prerequisites: Pet Eng 3520 and Pet Eng 3330."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4410  Production Engineering (LAB 1.0 and LEC 2.0)",
+        "description": "Introduction to the producing  wellbore system; inflow performance relationships, effect of formation damage on well flow, nodal systems analysis; perforating methods and their effect on inflow; stimulation treatments to enhance well performance. Introduction to well completions, diagnostics and well servicing. Overview of production systems. Prerequisite: Preceded or accompanied by Pet Eng 3520."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4421  Artificial Lift (LEC 3.0)",
+        "description": "This course is a study of artificial lift methods used to produce liquids (oil/water) from wellbores. Methods covered include sucker rod (piston) pumps, electric submersible pumps, gas lift, hydraulic lift and plunger lift. Prerequisite: Pet Eng 4410."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4431  Well Completion Design (LEC 3.0)",
+        "description": "An overview of the hardware, fluids and processes employed in completing oil and gas wells. Examination of types of well completions and considerations in their design. Introduction to downhole mechanics and tubing movement and stress calculations. Prerequisite: Pet Eng 4410."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4441  Well Stimulation (LEC 3.0)",
+        "description": "This course reviews fundamentals of hydraulic fracturing and builds on the basic theory through the use of STIMPLAN software and hands on industry examples. The course teaches the methods used to plan, execute and evaluate hydraulic fracturing treatments. Students may not earn credit for both Pet Eng 4441 and Pet Eng 6441. Prerequisites: Pet Eng 3520 and Pet Eng 3330."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4511  Applied Petroleum Reservoir Engineering (LEC 3.0)",
+        "description": "Quantitative study of oil production by natural forces, gas cap, water influx, solution gas, etc.; material balance equations, study of gas, non-retrograde gas condensate, and black oil reservoirs. Predictive calculations of oil recovery from different reservoir types. Prerequisites: Pet Eng 3520."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4520  Well Test Analysis (LAB 1.0 and LEC 2.0)",
+        "description": "Causes of low well productivity; analysis of pressure buildup tests, drawdown tests, multi-rate tests, injection well fall off tests, and open flow potential tests; design of well testing procedures. Prerequisite: Pet Eng 3520."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4531  Natural Gas Engineering (LEC 3.0)",
+        "description": "This course will cover basic and fundamental knowledge for a future natural gas engineer, including natural gas properties, natural gas underground storage estimates, natural gas exploration/drilling/and completion, natural gas productivity and deliverability estimates, natural gas related processing after it reaches the surface. Prerequisite: Pet Eng 3320."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4590  Subsurface Energy Economics (LEC 3.0)",
+        "description": "Uncertainty in the estimation of oil and gas reserves; tangible and intangible investment costs; depreciation; evaluation of producing properties; federal income tax considerations; chance factor and risk determination. Petroleum economic evaluation software is introduced. Students are expected to have fundamental engineering skills on MS Excel. Prerequisites: Pet Eng 3520."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4611  Secondary Recovery Of Petroleum (LEC 3.0)",
+        "description": "Oil recovery by water injection. Effects of wettability, capillary pressure, relative permeability, mobility ratio on displacement, sweep, and recovery efficiencies. Piston-like and Buckley-Leverett models. Fractional flow and frontal advance equation. Oil recovery prediction methods for linear and pattern waterfloods in single and multi-layered reservoirs. Prerequisites: Pet Eng 3520."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4621  Fundamentals Of Petroleum Reservoir Simulation (LEC 3.0)",
+        "description": "An introduction to petroleum reservoir simulation. Fundamentals of finite difference approximation of the partial differential equations of flow through porous media. Discussion of various simulation schemes, data handling, boundary conditions. Use of a dry gas and black oil simulators. Prerequisite: Pet Eng 3520."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4631  Applied Reservoir Simulation (LAB 1.0 and LEC 2.0)",
+        "description": "Simulation of reservoir problems using field and individual well models to determine well spacing, production effects of secondary and enhanced recovery processes, future rate predictions and recovery, coning effects, and more. The lab focuses on learning computer simulation models, including practice using the software and data analyses techniques. Prerequisite: Pet Eng 3520."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4710  Finite Element Analysis with Applications in Petroleum Engineering (LAB 1.0 and LEC 2.0)",
+        "description": "This course introduces finite element analysis (FEA) methods and applications of FEA in subsurface engineering. The course is intended to provide a fundamental understanding of FEA software and experience in creating meshes for petroleum reservoirs or other subsurface features. Prerequisites: Pet Eng 3520, Geology 3310, and Math 3304."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4720  Reservoir Geomechanics (LAB 1.0 and LEC 2.0)",
+        "description": "This course introduces the work process necessary to create the Mechanical Earth Model's principal components, formation in situ stress and strength. 1-D modeling methods are reviewed and extended to 3-D, and the integration of MEM with well design is shown. An MEM model will be created and compared to actual field results. Prerequisites: Pet Eng 3330, Geology 3310, and Geology 3319."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4811  Offshore Petroleum Technology (LEC 3.0)",
+        "description": "An introduction to the development of oil and gas fields offshore, including offshore leasing, drilling, well completions, production facilities, pipelines, and servicing. Subsea systems, and deepwater developments are also included. This course is suitable for mechanical, electrical and civil engineering students interested in ultimately working offshore. Prerequisites: Pet Eng 3520."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 4821  Environmental Petroleum Applications (LEC 3.0)",
+        "description": "This course is a study of environmental protection and regulatory compliance in the oil and gas industry. The impact of various environmental laws on drilling and production operations will be covered. Oilfield and related wastes and their handling are described. Federal, state and local regulatory agencies are introduced, and their role in permitting and compliance monitoring is presented. Legal and ethical responsibilities are discussed. Prerequisite: Chem 1310."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 5000  Special Problems (IND 0.0-6.0)",
+        "description": "Problems or readings on specific subjects of projects in the department. Consent of instructor required."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 5001  Special Topics (LEC 0.0-6.0)",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 5010  Seminar (RSD 0.0-6.0)",
+        "description": "Discussion of current topics."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 5040  Oral Examination (IND 0.0)",
+        "description": "After completion of all other program requirements, oral examinations for on-campus M.S./Ph.D. students may be processed during intersession. Off-campus M.S. students must be enrolled in oral examination and must have paid an oral examination fee at the time of the defense/comprehensive examination (oral/ written). All other students must enroll for credit commensurate with uses made of facilities and/or faculties. In no case shall this be for less than three (3) semester hours for resident students."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 5050  Carbon Storage (LEC 3.0)",
+        "description": "This course provides an overview of CO2 storage in subsurface from fundamental to applications. The topics include importance of store CO2 in subsurface, CO2 phase behavior, geologic reservoir storage, CO2 enhanced oil recovery, CO2 leakage monitoring and control, and field case studies."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 5085  Internship (IND 0.0-15)",
+        "description": "Students working toward a doctor of engineering degree will select, with the advice of their committees, appropriate problems for preparation of a dissertation. The problem selected and internship plan must conform to the purpose of providing a high level engineering experience consistent with the intent of the doctor of engineering degree."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 5099  Research (IND 0.0-12)",
+        "description": "Investigations of an advanced nature leading to the preparation of a thesis or dissertation. Consent of instructor required."
+    },
+    {
+        "subject_id": 31,
+        "department_id": 15,
+        "subject_code": "PET ENG",
+        "subject_name": "Petroleum Engineering",
+        "course": "PET ENG 5801  Petroleum Data Analytics (LAB 1.0 and LEC 2.0)",
+        "description": "This course provides a general introduction to fundamental data analytics methods including basic statistical analysis, regression analyses and their applications in petroleum engineering, and their implementation using python, the most popular interpreted computer language. Prerequisites: Comp Sci 1500 and at least Junior standing."
+    }
+]
