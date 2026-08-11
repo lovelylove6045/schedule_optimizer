@@ -1,0 +1,74 @@
+[
+  {
+    "requirement_set_id": 1,
+    "requirement_set_code": "AERO_BS_2026_CORE",
+    "requirement_set_name": "Aerospace Engineering BS Core",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Fixed Aerospace BS curriculum plus MATH 1211/1214 choice.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 2,
+    "requirement_set_code": "AERO_BS_2026_PROGRAMMING",
+    "requirement_set_name": "Aerospace Programming Requirement",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "COMP SCI 1972+1982 OR COMP SCI 1570+1580.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 3,
+    "requirement_set_code": "AERO_BS_2026_COMMUNICATION",
+    "requirement_set_name": "Aerospace Communication Choice",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "ENGLISH 1160, ENGLISH 3560, or SP&M S 1185.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 4,
+    "requirement_set_code": "AERO_BS_2026_DESIGN",
+    "requirement_set_name": "Aerospace Senior Design Sequence",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "AERO 4780+4781 OR AERO 4790+4791.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 5,
+    "requirement_set_code": "AERO_BS_2026_ADV_MATH",
+    "requirement_set_name": "Aerospace Advanced Math/Statistics",
+    "requirement_set_type": "PROGRAM_ELECTIVES",
+    "description": "3 credits: MATH 3108, STAT 3113, or 5000-level Math/Stat.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 6,
+    "requirement_set_code": "AERO_BS_2026_ETHICS",
+    "requirement_set_name": "Aerospace Ethics Elective",
+    "requirement_set_type": "PROGRAM_ELECTIVES",
+    "description": "3 credits of ethics.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 7,
+    "requirement_set_code": "AERO_BS_2026_TECH",
+    "requirement_set_name": "Aerospace Technical Electives",
+    "requirement_set_type": "PROGRAM_ELECTIVES",
+    "description": "9 MAE technical elective credits, at least 3 at 5000 level.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 8,
+    "requirement_set_code": "MST_GEN_ED_2026",
+    "requirement_set_name": "Missouri S&T General Education",
+    "requirement_set_type": "GENERAL_EDUCATION",
+    "description": "Reusable 2026-2027 university general education requirements.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 9,
+    "requirement_set_code": "AERO_MINOR_2026_CORE",
+    "requirement_set_name": "Aerospace Engineering Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "Fifteen-credit Aerospace Engineering minor: four fixed 3-credit courses plus one additional 3000-level 3-credit AERO ENG lecture course.",
+    "is_active": true
+  }
+]

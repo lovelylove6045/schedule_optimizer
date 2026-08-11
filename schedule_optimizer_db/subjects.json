@@ -1,0 +1,380 @@
+[
+  {
+    "subject_id": 1,
+    "department_id": 1,
+    "subject_code": "THEATRE",
+    "subject_name": "Theatre",
+    "is_active": true
+  },
+  {
+    "subject_id": 2,
+    "department_id": 1,
+    "subject_code": "SPANISH",
+    "subject_name": "Spanish",
+    "is_active": true
+  },
+  {
+    "subject_id": 3,
+    "department_id": 1,
+    "subject_code": "RUSSIAN",
+    "subject_name": "Russian",
+    "is_active": true
+  },
+  {
+    "subject_id": 4,
+    "department_id": 1,
+    "subject_code": "PHILOS",
+    "subject_name": "Philosophy",
+    "is_active": true
+  },
+  {
+    "subject_id": 5,
+    "department_id": 1,
+    "subject_code": "MUSIC",
+    "subject_name": "Music",
+    "is_active": true
+  },
+  {
+    "subject_id": 6,
+    "department_id": 1,
+    "subject_code": "GERMAN",
+    "subject_name": "German",
+    "is_active": true
+  },
+  {
+    "subject_id": 7,
+    "department_id": 1,
+    "subject_code": "FRENCH",
+    "subject_name": "French",
+    "is_active": true
+  },
+  {
+    "subject_id": 8,
+    "department_id": 1,
+    "subject_code": "ETYM",
+    "subject_name": "Etymology",
+    "is_active": true
+  },
+  {
+    "subject_id": 9,
+    "department_id": 1,
+    "subject_code": "ART",
+    "subject_name": "Art",
+    "is_active": true
+  },
+  {
+    "subject_id": 10,
+    "department_id": 2,
+    "subject_code": "BIO SCI",
+    "subject_name": "Biological Sciences",
+    "is_active": true
+  },
+  {
+    "subject_id": 11,
+    "department_id": 3,
+    "subject_code": "CHEM",
+    "subject_name": "Chemistry",
+    "is_active": true
+  },
+  {
+    "subject_id": 12,
+    "department_id": 4,
+    "subject_code": "EDUC",
+    "subject_name": "Education",
+    "is_active": true
+  },
+  {
+    "subject_id": 13,
+    "department_id": 5,
+    "subject_code": "TCH COM",
+    "subject_name": "Technical Communication",
+    "is_active": true
+  },
+  {
+    "subject_id": 14,
+    "department_id": 5,
+    "subject_code": "SP&M S",
+    "subject_name": "Speech & Media Studies",
+    "is_active": true
+  },
+  {
+    "subject_id": 15,
+    "department_id": 5,
+    "subject_code": "ENGLISH",
+    "subject_name": "English",
+    "is_active": true
+  },
+  {
+    "subject_id": 16,
+    "department_id": 6,
+    "subject_code": "ENV SCI",
+    "subject_name": "Environmental Science",
+    "is_active": true
+  },
+  {
+    "subject_id": 17,
+    "department_id": 7,
+    "subject_code": "POL SCI",
+    "subject_name": "Political Science",
+    "is_active": true
+  },
+  {
+    "subject_id": 18,
+    "department_id": 7,
+    "subject_code": "HISTORY",
+    "subject_name": "History",
+    "is_active": true
+  },
+  {
+    "subject_id": 19,
+    "department_id": 8,
+    "subject_code": "STAT",
+    "subject_name": "Statistics",
+    "is_active": true
+  },
+  {
+    "subject_id": 20,
+    "department_id": 8,
+    "subject_code": "MATH",
+    "subject_name": "Mathematics",
+    "is_active": true
+  },
+  {
+    "subject_id": 21,
+    "department_id": 9,
+    "subject_code": "PHYSICS",
+    "subject_name": "Physics",
+    "is_active": true
+  },
+  {
+    "subject_id": 22,
+    "department_id": 10,
+    "subject_code": "PSYCH",
+    "subject_name": "Psychology",
+    "is_active": true
+  },
+  {
+    "subject_id": 23,
+    "department_id": 11,
+    "subject_code": "CHEM ENG",
+    "subject_name": "Chemical Engineering",
+    "is_active": true
+  },
+  {
+    "subject_id": 24,
+    "department_id": 11,
+    "subject_code": "BME",
+    "subject_name": "Biomedical Engineering",
+    "is_active": true
+  },
+  {
+    "subject_id": 25,
+    "department_id": 12,
+    "subject_code": "ENV ENG",
+    "subject_name": "Environmental Engineering",
+    "is_active": true
+  },
+  {
+    "subject_id": 26,
+    "department_id": 12,
+    "subject_code": "CIV ENG",
+    "subject_name": "Civil Engineering",
+    "is_active": true
+  },
+  {
+    "subject_id": 27,
+    "department_id": 12,
+    "subject_code": "ARCH ENG",
+    "subject_name": "Architectural Engineering",
+    "is_active": true
+  },
+  {
+    "subject_id": 28,
+    "department_id": 13,
+    "subject_code": "COMP SCI",
+    "subject_name": "Computer Science",
+    "is_active": true
+  },
+  {
+    "subject_id": 29,
+    "department_id": 14,
+    "subject_code": "ELEC ENG",
+    "subject_name": "Electrical Engineering",
+    "is_active": true
+  },
+  {
+    "subject_id": 30,
+    "department_id": 14,
+    "subject_code": "COMP ENG",
+    "subject_name": "Computer Engineering",
+    "is_active": true
+  },
+  {
+    "subject_id": 31,
+    "department_id": 15,
+    "subject_code": "PET ENG",
+    "subject_name": "Petroleum Engineering",
+    "is_active": true
+  },
+  {
+    "subject_id": 32,
+    "department_id": 15,
+    "subject_code": "GEOPHYS",
+    "subject_name": "Geophysics",
+    "is_active": true
+  },
+  {
+    "subject_id": 33,
+    "department_id": 15,
+    "subject_code": "GEOLOGY",
+    "subject_name": "Geology",
+    "is_active": true
+  },
+  {
+    "subject_id": 34,
+    "department_id": 15,
+    "subject_code": "GEO ENG",
+    "subject_name": "Geological Engineering",
+    "is_active": true
+  },
+  {
+    "subject_id": 35,
+    "department_id": 16,
+    "subject_code": "SEMI ENG",
+    "subject_name": "Semiconductor Engineering",
+    "is_active": true
+  },
+  {
+    "subject_id": 36,
+    "department_id": 16,
+    "subject_code": "MET ENG",
+    "subject_name": "Metallurgical Engineering",
+    "is_active": true
+  },
+  {
+    "subject_id": 37,
+    "department_id": 16,
+    "subject_code": "MS&E",
+    "subject_name": "Materials Science & Eng",
+    "is_active": true
+  },
+  {
+    "subject_id": 38,
+    "department_id": 16,
+    "subject_code": "CER ENG",
+    "subject_name": "Ceramic Engineering",
+    "is_active": true
+  },
+  {
+    "subject_id": 39,
+    "department_id": 17,
+    "subject_code": "MECH ENG",
+    "subject_name": "Mechanical Engineering",
+    "is_active": true
+  },
+  {
+    "subject_id": 40,
+    "department_id": 17,
+    "subject_code": "AERO ENG",
+    "subject_name": "Aerospace Engineering",
+    "is_active": true
+  },
+  {
+    "subject_id": 41,
+    "department_id": 18,
+    "subject_code": "MIN ENG",
+    "subject_name": "Mining Engineering",
+    "is_active": true
+  },
+  {
+    "subject_id": 42,
+    "department_id": 18,
+    "subject_code": "EXP ENG",
+    "subject_name": "Explosives Engineering",
+    "is_active": true
+  },
+  {
+    "subject_id": 43,
+    "department_id": 19,
+    "subject_code": "NUC ENG",
+    "subject_name": "Nuclear Engineering",
+    "is_active": true
+  },
+  {
+    "subject_id": 44,
+    "department_id": 20,
+    "subject_code": "MKT",
+    "subject_name": "Marketing",
+    "is_active": true
+  },
+  {
+    "subject_id": 45,
+    "department_id": 20,
+    "subject_code": "IS&T",
+    "subject_name": "Info Science & Technology",
+    "is_active": true
+  },
+  {
+    "subject_id": 46,
+    "department_id": 20,
+    "subject_code": "FINANCE",
+    "subject_name": "Finance",
+    "is_active": true
+  },
+  {
+    "subject_id": 47,
+    "department_id": 20,
+    "subject_code": "ERP",
+    "subject_name": "Enterprise Resource Planning",
+    "is_active": true
+  },
+  {
+    "subject_id": 48,
+    "department_id": 20,
+    "subject_code": "BUS",
+    "subject_name": "Business",
+    "is_active": true
+  },
+  {
+    "subject_id": 49,
+    "department_id": 21,
+    "subject_code": "ECON",
+    "subject_name": "Economics",
+    "is_active": true
+  },
+  {
+    "subject_id": 50,
+    "department_id": 22,
+    "subject_code": "SYS ENG",
+    "subject_name": "Systems Engineering",
+    "is_active": true
+  },
+  {
+    "subject_id": 51,
+    "department_id": 22,
+    "subject_code": "ENG MGT",
+    "subject_name": "Engineering Management",
+    "is_active": true
+  },
+  {
+    "subject_id": 52,
+    "department_id": 23,
+    "subject_code": "FR ENG",
+    "subject_name": "Freshman Engineering",
+    "is_active": true
+  },
+  {
+    "subject_id": 53,
+    "department_id": 24,
+    "subject_code": "PREMED",
+    "subject_name": "Pre-Medicine",
+    "is_active": true
+  },
+  {
+    "subject_id": 54,
+    "department_id": 1,
+    "subject_code": "ALP",
+    "subject_name": "Arts, Languages & Philosophy",
+    "is_active": true
+  }
+]

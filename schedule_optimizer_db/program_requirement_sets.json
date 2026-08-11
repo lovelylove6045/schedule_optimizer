@@ -1,0 +1,56 @@
+[
+  {
+    "program_requirement_set_id": 1,
+    "academic_program_id": 1,
+    "requirement_set_id": 1,
+    "display_order": 10
+  },
+  {
+    "program_requirement_set_id": 2,
+    "academic_program_id": 1,
+    "requirement_set_id": 2,
+    "display_order": 20
+  },
+  {
+    "program_requirement_set_id": 3,
+    "academic_program_id": 1,
+    "requirement_set_id": 3,
+    "display_order": 30
+  },
+  {
+    "program_requirement_set_id": 4,
+    "academic_program_id": 1,
+    "requirement_set_id": 4,
+    "display_order": 40
+  },
+  {
+    "program_requirement_set_id": 5,
+    "academic_program_id": 1,
+    "requirement_set_id": 5,
+    "display_order": 50
+  },
+  {
+    "program_requirement_set_id": 6,
+    "academic_program_id": 1,
+    "requirement_set_id": 6,
+    "display_order": 60
+  },
+  {
+    "program_requirement_set_id": 7,
+    "academic_program_id": 1,
+    "requirement_set_id": 7,
+    "display_order": 70
+  },
+  {
+    "program_requirement_set_id": 8,
+    "academic_program_id": 1,
+    "requirement_set_id": 8,
+    "display_order": 80
+  },
+  {
+    "program_requirement_set_id": 9,
+    "academic_program_id": 2,
+    "requirement_set_id": 9,
+    "display_order": 10
+  }
+]

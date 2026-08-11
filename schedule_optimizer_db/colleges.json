@@ -1,0 +1,20 @@
+[
+  {
+    "college_id": 1,
+    "college_code": "CEC",
+    "college_name": "College of Engineering and Computing",
+    "is_active": true
+  },
+  {
+    "college_id": 2,
+    "college_code": "KUMMER",
+    "college_name": "Kummer College of Innovation, Entrepreneurship, and Economic Development",
+    "is_active": true
+  },
+  {
+    "college_id": 3,
+    "college_code": "CASE",
+    "college_name": "College of Arts, Sciences, and Education",
+    "is_active": true
+  }
+]

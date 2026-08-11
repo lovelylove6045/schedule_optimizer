@@ -1,0 +1,82 @@
+[
+  {
+    "course_group_id": 1,
+    "course_group_code": "AERO_ADV_MATH_STAT_2026",
+    "course_group_name": "Aerospace Advanced Math/Statistics Options",
+    "course_group_type": "ELECTIVE",
+    "description": "MATH 3108, STAT 3113, and active 5000-level MATH/STAT courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 2,
+    "course_group_code": "AERO_ETHICS_2026",
+    "course_group_name": "Aerospace Ethics Options",
+    "course_group_type": "ELECTIVE",
+    "description": "Prototype explicit ethics pool.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 3,
+    "course_group_code": "AERO_MAE_TECH_2026",
+    "course_group_name": "Aerospace/Mechanical Technical Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Prototype: active STANDARD AERO/MECH courses at 3000+ excluding required AERO core.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 4,
+    "course_group_code": "AERO_MAE_TECH_5000_2026",
+    "course_group_name": "Aerospace/Mechanical 5000-Level Technical Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "5000-level subset; excludes AERO ENG 5810.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 5,
+    "course_group_code": "MST_GENED_MATH_2026",
+    "course_group_name": "Gen Ed Mathematical Science",
+    "course_group_type": "GENERAL_EDUCATION",
+    "description": "MATH 1110+ or STAT 1115+.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 6,
+    "course_group_code": "MST_GENED_NATSCI_2026",
+    "course_group_name": "Gen Ed Natural Sciences",
+    "course_group_type": "GENERAL_EDUCATION",
+    "description": "Catalog natural science disciplines and thresholds.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 7,
+    "course_group_code": "MST_GENED_HASS_2026",
+    "course_group_name": "Gen Ed HASS",
+    "course_group_type": "GENERAL_EDUCATION",
+    "description": "Broad HASS disciplines.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 8,
+    "course_group_code": "MST_GENED_HFA_2026",
+    "course_group_name": "Gen Ed Humanities/Fine Arts",
+    "course_group_type": "GENERAL_EDUCATION",
+    "description": "Specific HFA courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 9,
+    "course_group_code": "MST_GENED_BSS_2026",
+    "course_group_name": "Gen Ed Behavioral/Social Sciences",
+    "course_group_type": "GENERAL_EDUCATION",
+    "description": "Specific BSS courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 10,
+    "course_group_code": "AERO_MINOR_3000_LECTURE_2026",
+    "course_group_name": "Aerospace Minor 3000-Level Lecture Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Prototype pool for the minor requirement: one additional active STANDARD AERO ENG 3000-level 3-credit course, excluding the fixed minor courses.",
+    "is_active": true
+  }
+]
