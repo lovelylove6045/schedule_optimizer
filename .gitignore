@@ -1,0 +1,30 @@
+# Environment files (never commit secrets)
+.env
+.env.*
+!.env.example
+!*/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+backend/.venv/
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# Docker / OS
+*.local
+.DS_Store
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Reference documents (spec/rules/design PDFs, not project source)
+*.pdf

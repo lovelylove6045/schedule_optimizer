@@ -1,0 +1,59 @@
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build:
+      context: ./backend
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      # Override host so the backend container reaches Postgres via the compose
+      # network instead of the host-local address used outside Docker.
+      POSTGRES_HOST: db
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      # Anonymous volume masks the host's (Windows) .venv so the container keeps
+      # using the Linux virtualenv baked in at build time instead of the bind mount.
+      - /app/.venv
+    depends_on:
+      db:
+        condition: service_healthy
+
+  # Optional, production-style build of the frontend for full-stack container
+  # smoke tests (see docs/PHASES.md, Phase 6). Day-to-day frontend dev is done
+  # via `npm run dev` for fast hot-reload instead of this service.
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://localhost:8000}
+    restart: unless-stopped
+    ports:
+      - "4173:80"
+    depends_on:
+      - backend
+    profiles:
+      - full
+
+volumes:
+  pgdata:
