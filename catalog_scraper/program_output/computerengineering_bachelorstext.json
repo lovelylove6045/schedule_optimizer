@@ -1,0 +1,3026 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/computerengineering/#bachelorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/computerengineering/",
+        "fragment": "bachelorstext",
+        "page_slug": "computerengineering",
+        "page_title": "Computer Engineering < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=bachelorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 10192,
+        "html_character_count": 49859,
+        "heading_count": 3,
+        "paragraph_count": 31,
+        "list_count": 0,
+        "table_count": 2,
+        "link_count": 187,
+        "superscript_count": 57,
+        "text_sha256": "16e638b4c17f56fe09bf98e28149550af52a3614c5d071604f8d28e450f62417",
+        "html_sha256": "47f298563e2de326ae46be1a0ed1684bab6a0995084b71bf0bb6523e2d556f1b"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Bachelor of Science Computer Engineering 1",
+            "id": null
+        },
+        {
+            "number": 2,
+            "level": "h3",
+            "text": "Free Electives Footnote:",
+            "id": null
+        },
+        {
+            "number": 3,
+            "level": "h2",
+            "text": "Emphasis Areas for Computer Engineering",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "CHEM 1305",
+            "href": "/search/?P=CHEM%201305",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201305",
+            "resolved_course": "CHEM 1305"
+        },
+        {
+            "number": 2,
+            "text": "COMP SCI 1500",
+            "href": "/search/?P=COMP%20SCI%201500",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201500",
+            "resolved_course": "COMP SCI 1500"
+        },
+        {
+            "number": 3,
+            "text": "CHEM 1319",
+            "href": "/search/?P=CHEM%201319",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201319",
+            "resolved_course": "CHEM 1319"
+        },
+        {
+            "number": 4,
+            "text": "ENGLISH 1120",
+            "href": "/search/?P=ENGLISH%201120",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201120",
+            "resolved_course": "ENGLISH 1120"
+        },
+        {
+            "number": 5,
+            "text": "MATH 1215",
+            "href": "/search/?P=MATH%201215",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201215",
+            "resolved_course": "MATH 1215"
+        },
+        {
+            "number": 6,
+            "text": "FR ENG 1100",
+            "href": "/search/?P=FR%20ENG%201100",
+            "url": "https://catalog.mst.edu/search/?P=FR%20ENG%201100",
+            "resolved_course": "FR ENG 1100"
+        },
+        {
+            "number": 7,
+            "text": "PHYSICS 1135",
+            "href": "/search/?P=PHYSICS%201135",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%201135",
+            "resolved_course": "PHYSICS 1135"
+        },
+        {
+            "number": 8,
+            "text": "HISTORY 1200",
+            "href": "/search/?P=HISTORY%201200",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201200",
+            "resolved_course": "HISTORY 1200"
+        },
+        {
+            "number": 9,
+            "text": "1300",
+            "href": "/search/?P=HISTORY%201300",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201300",
+            "resolved_course": "HISTORY 1300"
+        },
+        {
+            "number": 10,
+            "text": "1310",
+            "href": "/search/?P=HISTORY%201310",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201310",
+            "resolved_course": "HISTORY 1310"
+        },
+        {
+            "number": 11,
+            "text": "POL SCI 1200",
+            "href": "/search/?P=POL%20SCI%201200",
+            "url": "https://catalog.mst.edu/search/?P=POL%20SCI%201200",
+            "resolved_course": "POL SCI 1200"
+        },
+        {
+            "number": 12,
+            "text": "MATH 1214",
+            "href": "/search/?P=MATH%201214",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201214",
+            "resolved_course": "MATH 1214"
+        },
+        {
+            "number": 13,
+            "text": "1211",
+            "href": "/search/?P=MATH%201211",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201211",
+            "resolved_course": "MATH 1211"
+        },
+        {
+            "number": 14,
+            "text": "COMP SCI 1570",
+            "href": "/search/?P=COMP%20SCI%201570",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201570",
+            "resolved_course": "COMP SCI 1570"
+        },
+        {
+            "number": 15,
+            "text": "COMP ENG 2010",
+            "href": "/search/?P=COMP%20ENG%202010",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%202010",
+            "resolved_course": "COMP ENG 2010"
+        },
+        {
+            "number": 16,
+            "text": "ELEC ENG 2010",
+            "href": "/search/?P=ELEC%20ENG%202010",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202010",
+            "resolved_course": "ELEC ENG 2010"
+        },
+        {
+            "number": 17,
+            "text": "COMP SCI 1580",
+            "href": "/search/?P=COMP%20SCI%201580",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201580",
+            "resolved_course": "COMP SCI 1580"
+        },
+        {
+            "number": 18,
+            "text": "COMP ENG 2210",
+            "href": "/search/?P=COMP%20ENG%202210",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%202210",
+            "resolved_course": "COMP ENG 2210"
+        },
+        {
+            "number": 19,
+            "text": "ELEC ENG 2100",
+            "href": "/search/?P=ELEC%20ENG%202100",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202100",
+            "resolved_course": "ELEC ENG 2100"
+        },
+        {
+            "number": 20,
+            "text": "COMP ENG 2211",
+            "href": "/search/?P=COMP%20ENG%202211",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%202211",
+            "resolved_course": "COMP ENG 2211"
+        },
+        {
+            "number": 21,
+            "text": "ELEC ENG 2101",
+            "href": "/search/?P=ELEC%20ENG%202101",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202101",
+            "resolved_course": "ELEC ENG 2101"
+        },
+        {
+            "number": 22,
+            "text": "COMP SCI 1200",
+            "href": "/search/?P=COMP%20SCI%201200",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201200",
+            "resolved_course": "COMP SCI 1200"
+        },
+        {
+            "number": 23,
+            "text": "MATH 3304",
+            "href": "/search/?P=MATH%203304",
+            "url": "https://catalog.mst.edu/search/?P=MATH%203304",
+            "resolved_course": "MATH 3304"
+        },
+        {
+            "number": 24,
+            "text": "COMP SCI 1575",
+            "href": "/search/?P=COMP%20SCI%201575",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201575",
+            "resolved_course": "COMP SCI 1575"
+        },
+        {
+            "number": 25,
+            "text": "PHYSICS 2135",
+            "href": "/search/?P=PHYSICS%202135",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202135",
+            "resolved_course": "PHYSICS 2135"
+        },
+        {
+            "number": 26,
+            "text": "ELEC ENG 2120",
+            "href": "/search/?P=ELEC%20ENG%202120",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202120",
+            "resolved_course": "ELEC ENG 2120"
+        },
+        {
+            "number": 27,
+            "text": "MATH 2222",
+            "href": "/search/?P=MATH%202222",
+            "url": "https://catalog.mst.edu/search/?P=MATH%202222",
+            "resolved_course": "MATH 2222"
+        },
+        {
+            "number": 28,
+            "text": "COMP ENG 3110",
+            "href": "/search/?P=COMP%20ENG%203110",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%203110",
+            "resolved_course": "COMP ENG 3110"
+        },
+        {
+            "number": 29,
+            "text": "ELEC ENG 2200",
+            "href": "/search/?P=ELEC%20ENG%202200",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202200",
+            "resolved_course": "ELEC ENG 2200"
+        },
+        {
+            "number": 30,
+            "text": "COMP ENG 3150",
+            "href": "/search/?P=COMP%20ENG%203150",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%203150",
+            "resolved_course": "COMP ENG 3150"
+        },
+        {
+            "number": 31,
+            "text": "ELEC ENG 2201",
+            "href": "/search/?P=ELEC%20ENG%202201",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202201",
+            "resolved_course": "ELEC ENG 2201"
+        },
+        {
+            "number": 32,
+            "text": "COMP SCI 3800",
+            "href": "/search/?P=COMP%20SCI%203800",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%203800",
+            "resolved_course": "COMP SCI 3800"
+        },
+        {
+            "number": 33,
+            "text": "2500",
+            "href": "/search/?P=COMP%20SCI%202500",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%202500",
+            "resolved_course": "COMP SCI 2500"
+        },
+        {
+            "number": 34,
+            "text": "ELEC ENG 3410",
+            "href": "/search/?P=ELEC%20ENG%203410",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%203410",
+            "resolved_course": "ELEC ENG 3410"
+        },
+        {
+            "number": 35,
+            "text": "SP&M S 1185",
+            "href": "/search/?P=SP%26M%20S%201185",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%201185",
+            "resolved_course": "SP&M S 1185"
+        },
+        {
+            "number": 36,
+            "text": "ENGLISH 3560",
+            "href": "/search/?P=ENGLISH%203560",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%203560",
+            "resolved_course": "ENGLISH 3560"
+        },
+        {
+            "number": 37,
+            "text": "1160",
+            "href": "/search/?P=ENGLISH%201160",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201160",
+            "resolved_course": "ENGLISH 1160"
+        },
+        {
+            "number": 38,
+            "text": "STAT 3117",
+            "href": "/search/?P=STAT%203117",
+            "url": "https://catalog.mst.edu/search/?P=STAT%203117",
+            "resolved_course": "STAT 3117"
+        },
+        {
+            "number": 39,
+            "text": "COMP ENG 4096",
+            "href": "/search/?P=COMP%20ENG%204096",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%204096",
+            "resolved_course": "COMP ENG 4096"
+        },
+        {
+            "number": 40,
+            "text": "COMP ENG 4097",
+            "href": "/search/?P=COMP%20ENG%204097",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%204097",
+            "resolved_course": "COMP ENG 4097"
+        },
+        {
+            "number": 41,
+            "text": "COMP ENG 5410",
+            "href": "/search/?P=COMP%20ENG%205410",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%205410",
+            "resolved_course": "COMP ENG 5410"
+        },
+        {
+            "number": 42,
+            "text": "COMP ENG 2210",
+            "href": "/search/?P=COMP%20ENG%202210",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%202210",
+            "resolved_course": "COMP ENG 2210"
+        },
+        {
+            "number": 43,
+            "text": "COMP ENG 2211",
+            "href": "/search/?P=COMP%20ENG%202211",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%202211",
+            "resolved_course": "COMP ENG 2211"
+        },
+        {
+            "number": 44,
+            "text": "COMP ENG 3110",
+            "href": "/search/?P=COMP%20ENG%203110",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%203110",
+            "resolved_course": "COMP ENG 3110"
+        },
+        {
+            "number": 45,
+            "text": "COMP ENG 3150",
+            "href": "/search/?P=COMP%20ENG%203150",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%203150",
+            "resolved_course": "COMP ENG 3150"
+        },
+        {
+            "number": 46,
+            "text": "COMP ENG 4096",
+            "href": "/search/?P=COMP%20ENG%204096",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%204096",
+            "resolved_course": "COMP ENG 4096"
+        },
+        {
+            "number": 47,
+            "text": "COMP ENG 5410",
+            "href": "/search/?P=COMP%20ENG%205410",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%205410",
+            "resolved_course": "COMP ENG 5410"
+        },
+        {
+            "number": 48,
+            "text": "COMP SCI 1200",
+            "href": "/search/?P=COMP%20SCI%201200",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201200",
+            "resolved_course": "COMP SCI 1200"
+        },
+        {
+            "number": 49,
+            "text": "COMP SCI 1570",
+            "href": "/search/?P=COMP%20SCI%201570",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201570",
+            "resolved_course": "COMP SCI 1570"
+        },
+        {
+            "number": 50,
+            "text": "COMP SCI 1575",
+            "href": "/search/?P=COMP%20SCI%201575",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201575",
+            "resolved_course": "COMP SCI 1575"
+        },
+        {
+            "number": 51,
+            "text": "COMP SCI 1580",
+            "href": "/search/?P=COMP%20SCI%201580",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201580",
+            "resolved_course": "COMP SCI 1580"
+        },
+        {
+            "number": 52,
+            "text": "COMP SCI 2500",
+            "href": "/search/?P=COMP%20SCI%202500",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%202500",
+            "resolved_course": "COMP SCI 2500"
+        },
+        {
+            "number": 53,
+            "text": "COMP SCI 3800",
+            "href": "/search/?P=COMP%20SCI%203800",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%203800",
+            "resolved_course": "COMP SCI 3800"
+        },
+        {
+            "number": 54,
+            "text": "ELEC ENG 2100",
+            "href": "/search/?P=ELEC%20ENG%202100",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202100",
+            "resolved_course": "ELEC ENG 2100"
+        },
+        {
+            "number": 55,
+            "text": "ELEC ENG 2101",
+            "href": "/search/?P=ELEC%20ENG%202101",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202101",
+            "resolved_course": "ELEC ENG 2101"
+        },
+        {
+            "number": 56,
+            "text": "ELEC ENG 2120",
+            "href": "/search/?P=ELEC%20ENG%202120",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202120",
+            "resolved_course": "ELEC ENG 2120"
+        },
+        {
+            "number": 57,
+            "text": "ELEC ENG 2200",
+            "href": "/search/?P=ELEC%20ENG%202200",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202200",
+            "resolved_course": "ELEC ENG 2200"
+        },
+        {
+            "number": 58,
+            "text": "ELEC ENG 2201",
+            "href": "/search/?P=ELEC%20ENG%202201",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202201",
+            "resolved_course": "ELEC ENG 2201"
+        },
+        {
+            "number": 59,
+            "text": "ELEC ENG 3410",
+            "href": "/search/?P=ELEC%20ENG%203410",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%203410",
+            "resolved_course": "ELEC ENG 3410"
+        },
+        {
+            "number": 60,
+            "text": "MATH 1211",
+            "href": "/search/?P=MATH%201211",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201211",
+            "resolved_course": "MATH 1211"
+        },
+        {
+            "number": 61,
+            "text": "MATH 1214",
+            "href": "/search/?P=MATH%201214",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201214",
+            "resolved_course": "MATH 1214"
+        },
+        {
+            "number": 62,
+            "text": "MATH 1215",
+            "href": "/search/?P=MATH%201215",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201215",
+            "resolved_course": "MATH 1215"
+        },
+        {
+            "number": 63,
+            "text": "MATH 2222",
+            "href": "/search/?P=MATH%202222",
+            "url": "https://catalog.mst.edu/search/?P=MATH%202222",
+            "resolved_course": "MATH 2222"
+        },
+        {
+            "number": 64,
+            "text": "MATH 3304",
+            "href": "/search/?P=MATH%203304",
+            "url": "https://catalog.mst.edu/search/?P=MATH%203304",
+            "resolved_course": "MATH 3304"
+        },
+        {
+            "number": 65,
+            "text": "PHYSICS 1135",
+            "href": "/search/?P=PHYSICS%201135",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%201135",
+            "resolved_course": "PHYSICS 1135"
+        },
+        {
+            "number": 66,
+            "text": "PHYSICS 2135",
+            "href": "/search/?P=PHYSICS%202135",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202135",
+            "resolved_course": "PHYSICS 2135"
+        },
+        {
+            "number": 67,
+            "text": "PHYSICS 1111",
+            "href": "/search/?P=PHYSICS%201111",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%201111",
+            "resolved_course": "PHYSICS 1111"
+        },
+        {
+            "number": 68,
+            "text": "PHYSICS 1119",
+            "href": "/search/?P=PHYSICS%201119",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%201119",
+            "resolved_course": "PHYSICS 1119"
+        },
+        {
+            "number": 69,
+            "text": "PHYSICS 1135",
+            "href": "/search/?P=PHYSICS%201135",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%201135",
+            "resolved_course": "PHYSICS 1135"
+        },
+        {
+            "number": 70,
+            "text": "PHYSICS 2111",
+            "href": "/search/?P=PHYSICS%202111",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202111",
+            "resolved_course": "PHYSICS 2111"
+        },
+        {
+            "number": 71,
+            "text": "PHYSICS 2119",
+            "href": "/search/?P=PHYSICS%202119",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202119",
+            "resolved_course": "PHYSICS 2119"
+        },
+        {
+            "number": 72,
+            "text": "PHYSICS 2135",
+            "href": "/search/?P=PHYSICS%202135",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202135",
+            "resolved_course": "PHYSICS 2135"
+        },
+        {
+            "number": 73,
+            "text": "MATH 3108",
+            "href": "/search/?P=MATH%203108",
+            "url": "https://catalog.mst.edu/search/?P=MATH%203108",
+            "resolved_course": "MATH 3108"
+        },
+        {
+            "number": 74,
+            "text": "MATH 3109",
+            "href": "/search/?P=MATH%203109",
+            "url": "https://catalog.mst.edu/search/?P=MATH%203109",
+            "resolved_course": "MATH 3109"
+        },
+        {
+            "number": 75,
+            "text": "MATH 4096",
+            "href": "/search/?P=MATH%204096",
+            "url": "https://catalog.mst.edu/search/?P=MATH%204096",
+            "resolved_course": "MATH 4096"
+        },
+        {
+            "number": 76,
+            "text": "MATH 4209",
+            "href": "/search/?P=MATH%204209",
+            "url": "https://catalog.mst.edu/search/?P=MATH%204209",
+            "resolved_course": "MATH 4209"
+        },
+        {
+            "number": 77,
+            "text": "MATH 4211",
+            "href": "/search/?P=MATH%204211",
+            "url": "https://catalog.mst.edu/search/?P=MATH%204211",
+            "resolved_course": "MATH 4211"
+        },
+        {
+            "number": 78,
+            "text": "MATH 4530",
+            "href": "/search/?P=MATH%204530",
+            "url": "https://catalog.mst.edu/search/?P=MATH%204530",
+            "resolved_course": "MATH 4530"
+        },
+        {
+            "number": 79,
+            "text": "MATH 5105",
+            "href": "/search/?P=MATH%205105",
+            "url": "https://catalog.mst.edu/search/?P=MATH%205105",
+            "resolved_course": "MATH 5105"
+        },
+        {
+            "number": 80,
+            "text": "MATH 5106",
+            "href": "/search/?P=MATH%205106",
+            "url": "https://catalog.mst.edu/search/?P=MATH%205106",
+            "resolved_course": "MATH 5106"
+        },
+        {
+            "number": 81,
+            "text": "MATH 5107",
+            "href": "/search/?P=MATH%205107",
+            "url": "https://catalog.mst.edu/search/?P=MATH%205107",
+            "resolved_course": "MATH 5107"
+        },
+        {
+            "number": 82,
+            "text": "MATH 5108",
+            "href": "/search/?P=MATH%205108",
+            "url": "https://catalog.mst.edu/search/?P=MATH%205108",
+            "resolved_course": "MATH 5108"
+        },
+        {
+            "number": 83,
+            "text": "MATH 5154",
+            "href": "/search/?P=MATH%205154",
+            "url": "https://catalog.mst.edu/search/?P=MATH%205154",
+            "resolved_course": "MATH 5154"
+        },
+        {
+            "number": 84,
+            "text": "MATH 5215",
+            "href": "/search/?P=MATH%205215",
+            "url": "https://catalog.mst.edu/search/?P=MATH%205215",
+            "resolved_course": "MATH 5215"
+        },
+        {
+            "number": 85,
+            "text": "MATH 5222",
+            "href": "/search/?P=MATH%205222",
+            "url": "https://catalog.mst.edu/search/?P=MATH%205222",
+            "resolved_course": "MATH 5222"
+        },
+        {
+            "number": 86,
+            "text": "MATH 5302",
+            "href": "/search/?P=MATH%205302",
+            "url": "https://catalog.mst.edu/search/?P=MATH%205302",
+            "resolved_course": "MATH 5302"
+        },
+        {
+            "number": 87,
+            "text": "MATH 5325",
+            "href": "/search/?P=MATH%205325",
+            "url": "https://catalog.mst.edu/search/?P=MATH%205325",
+            "resolved_course": "MATH 5325"
+        },
+        {
+            "number": 88,
+            "text": "MATH 5351",
+            "href": "/search/?P=MATH%205351",
+            "url": "https://catalog.mst.edu/search/?P=MATH%205351",
+            "resolved_course": "MATH 5351"
+        },
+        {
+            "number": 89,
+            "text": "MATH 5483",
+            "href": "/search/?P=MATH%205483",
+            "url": "https://catalog.mst.edu/search/?P=MATH%205483",
+            "resolved_course": "MATH 5483"
+        },
+        {
+            "number": 90,
+            "text": "MATH 5585",
+            "href": "/search/?P=MATH%205585",
+            "url": "https://catalog.mst.edu/search/?P=MATH%205585",
+            "resolved_course": "MATH 5585"
+        },
+        {
+            "number": 91,
+            "text": "MATH 5603",
+            "href": "/search/?P=MATH%205603",
+            "url": "https://catalog.mst.edu/search/?P=MATH%205603",
+            "resolved_course": "MATH 5603"
+        },
+        {
+            "number": 92,
+            "text": "MATH 5737",
+            "href": "/search/?P=MATH%205737",
+            "url": "https://catalog.mst.edu/search/?P=MATH%205737",
+            "resolved_course": "MATH 5737"
+        },
+        {
+            "number": 93,
+            "text": "STAT 5346",
+            "href": "/search/?P=STAT%205346",
+            "url": "https://catalog.mst.edu/search/?P=STAT%205346",
+            "resolved_course": "STAT 5346"
+        },
+        {
+            "number": 94,
+            "text": "STAT 5353",
+            "href": "/search/?P=STAT%205353",
+            "url": "https://catalog.mst.edu/search/?P=STAT%205353",
+            "resolved_course": "STAT 5353"
+        },
+        {
+            "number": 95,
+            "text": "STAT 5644",
+            "href": "/search/?P=STAT%205644",
+            "url": "https://catalog.mst.edu/search/?P=STAT%205644",
+            "resolved_course": "STAT 5644"
+        },
+        {
+            "number": 96,
+            "text": "BIO SCI 2213",
+            "href": "/search/?P=BIO%20SCI%202213",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%202213",
+            "resolved_course": "BIO SCI 2213"
+        },
+        {
+            "number": 97,
+            "text": "BIO SCI 2223",
+            "href": "/search/?P=BIO%20SCI%202223",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%202223",
+            "resolved_course": "BIO SCI 2223"
+        },
+        {
+            "number": 98,
+            "text": "CER ENG 4240",
+            "href": "/search/?P=CER%20ENG%204240",
+            "url": "https://catalog.mst.edu/search/?P=CER%20ENG%204240",
+            "resolved_course": "CER ENG 4240"
+        },
+        {
+            "number": 99,
+            "text": "CHEM 2210",
+            "href": "/search/?P=CHEM%202210",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%202210",
+            "resolved_course": "CHEM 2210"
+        },
+        {
+            "number": 100,
+            "text": "MECH ENG 2340",
+            "href": "/search/?P=MECH%20ENG%202340",
+            "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%202340",
+            "resolved_course": "MECH ENG 2340"
+        },
+        {
+            "number": 101,
+            "text": "MECH ENG 2519",
+            "href": "/search/?P=MECH%20ENG%202519",
+            "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%202519",
+            "resolved_course": "MECH ENG 2519"
+        },
+        {
+            "number": 102,
+            "text": "MECH ENG 2527",
+            "href": "/search/?P=MECH%20ENG%202527",
+            "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%202527",
+            "resolved_course": "MECH ENG 2527"
+        },
+        {
+            "number": 103,
+            "text": "NUC ENG 3103",
+            "href": "/search/?P=NUC%20ENG%203103",
+            "url": "https://catalog.mst.edu/search/?P=NUC%20ENG%203103",
+            "resolved_course": "NUC ENG 3103"
+        },
+        {
+            "number": 104,
+            "text": "NUC ENG 3205",
+            "href": "/search/?P=NUC%20ENG%203205",
+            "url": "https://catalog.mst.edu/search/?P=NUC%20ENG%203205",
+            "resolved_course": "NUC ENG 3205"
+        },
+        {
+            "number": 105,
+            "text": "PHYSICS 2305",
+            "href": "/search/?P=PHYSICS%202305",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202305",
+            "resolved_course": "PHYSICS 2305"
+        },
+        {
+            "number": 106,
+            "text": "PHYSICS 2311",
+            "href": "/search/?P=PHYSICS%202311",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202311",
+            "resolved_course": "PHYSICS 2311"
+        },
+        {
+            "number": 107,
+            "text": "PHYSICS 2401",
+            "href": "/search/?P=PHYSICS%202401",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202401",
+            "resolved_course": "PHYSICS 2401"
+        },
+        {
+            "number": 108,
+            "text": "PHYSICS 4311",
+            "href": "/search/?P=PHYSICS%204311",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%204311",
+            "resolved_course": "PHYSICS 4311"
+        },
+        {
+            "number": 109,
+            "text": "CIV ENG 2200",
+            "href": "/search/?P=CIV%20ENG%202200",
+            "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%202200",
+            "resolved_course": "CIV ENG 2200"
+        },
+        {
+            "number": 110,
+            "text": "MECH ENG 2350",
+            "href": "/search/?P=MECH%20ENG%202350",
+            "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%202350",
+            "resolved_course": "MECH ENG 2350"
+        },
+        {
+            "number": 111,
+            "text": "STAT 3117",
+            "href": "/search/?P=STAT%203117",
+            "url": "https://catalog.mst.edu/search/?P=STAT%203117",
+            "resolved_course": "STAT 3117"
+        },
+        {
+            "number": 112,
+            "text": "STAT 5643",
+            "href": "/search/?P=STAT%205643",
+            "url": "https://catalog.mst.edu/search/?P=STAT%205643",
+            "resolved_course": "STAT 5643"
+        },
+        {
+            "number": 113,
+            "text": "SP&M S 1185",
+            "href": "/search/?P=SP%26M%20S%201185",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%201185",
+            "resolved_course": "SP&M S 1185"
+        },
+        {
+            "number": 114,
+            "text": "MIL ARMY 4250",
+            "href": "/search/?P=MIL%20ARMY%204250",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20ARMY%204250",
+            "resolved_course": "MIL ARMY 4250"
+        },
+        {
+            "number": 115,
+            "text": "MIL ARMY 4500",
+            "href": "/search/?P=MIL%20ARMY%204500",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20ARMY%204500",
+            "resolved_course": "MIL ARMY 4500"
+        },
+        {
+            "number": 116,
+            "text": "MIL AIR 4110",
+            "href": "/search/?P=MIL%20AIR%204110",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20AIR%204110",
+            "resolved_course": "MIL AIR 4110"
+        },
+        {
+            "number": 117,
+            "text": "MIL AIR 4120",
+            "href": "/search/?P=MIL%20AIR%204120",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20AIR%204120",
+            "resolved_course": "MIL AIR 4120"
+        },
+        {
+            "number": 118,
+            "text": "COMP ENG 4000",
+            "href": "/search/?P=COMP%20ENG%204000",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%204000",
+            "resolved_course": "COMP ENG 4000"
+        },
+        {
+            "number": 119,
+            "text": "COMP ENG 4096",
+            "href": "/search/?P=COMP%20ENG%204096",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%204096",
+            "resolved_course": "COMP ENG 4096"
+        },
+        {
+            "number": 120,
+            "text": "COMP ENG 4097",
+            "href": "/search/?P=COMP%20ENG%204097",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%204097",
+            "resolved_course": "COMP ENG 4097"
+        },
+        {
+            "number": 121,
+            "text": "COMP ENG 4099",
+            "href": "/search/?P=COMP%20ENG%204099",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%204099",
+            "resolved_course": "COMP ENG 4099"
+        },
+        {
+            "number": 122,
+            "text": "COMP ENG 5000",
+            "href": "/search/?P=COMP%20ENG%205000",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%205000",
+            "resolved_course": "COMP ENG 5000"
+        },
+        {
+            "number": 123,
+            "text": "COMP ENG 5099",
+            "href": "/search/?P=COMP%20ENG%205099",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%205099",
+            "resolved_course": "COMP ENG 5099"
+        },
+        {
+            "number": 124,
+            "text": "ELEC ENG 3100",
+            "href": "/search/?P=ELEC%20ENG%203100",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%203100",
+            "resolved_course": "ELEC ENG 3100"
+        },
+        {
+            "number": 125,
+            "text": "ELEC ENG 3250",
+            "href": "/search/?P=ELEC%20ENG%203250",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%203250",
+            "resolved_course": "ELEC ENG 3250"
+        },
+        {
+            "number": 126,
+            "text": "COMP ENG 5410",
+            "href": "/search/?P=COMP%20ENG%205410",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%205410",
+            "resolved_course": "COMP ENG 5410"
+        },
+        {
+            "number": 127,
+            "text": "ELEC ENG 5160",
+            "href": "/search/?P=ELEC%20ENG%205160",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%205160",
+            "resolved_course": "ELEC ENG 5160"
+        },
+        {
+            "number": 128,
+            "text": "COMP SCI 3610",
+            "href": "/search/?P=COMP%20SCI%203610",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%203610",
+            "resolved_course": "COMP SCI 3610"
+        },
+        {
+            "number": 129,
+            "text": "COMP SCI 5600",
+            "href": "/search/?P=COMP%20SCI%205600",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205600",
+            "resolved_course": "COMP SCI 5600"
+        },
+        {
+            "number": 130,
+            "text": "COMP ENG 3002",
+            "href": "/search/?P=COMP%20ENG%203002",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%203002",
+            "resolved_course": "COMP ENG 3002"
+        },
+        {
+            "number": 131,
+            "text": "ELEC ENG 3002",
+            "href": "/search/?P=ELEC%20ENG%203002",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%203002",
+            "resolved_course": "ELEC ENG 3002"
+        },
+        {
+            "number": 132,
+            "text": "COMP ENG 4000",
+            "href": "/search/?P=COMP%20ENG%204000",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%204000",
+            "resolved_course": "COMP ENG 4000"
+        },
+        {
+            "number": 133,
+            "text": "COMP ENG 4099",
+            "href": "/search/?P=COMP%20ENG%204099",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%204099",
+            "resolved_course": "COMP ENG 4099"
+        },
+        {
+            "number": 134,
+            "text": "COMP SCI 4000",
+            "href": "/search/?P=COMP%20SCI%204000",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%204000",
+            "resolved_course": "COMP SCI 4000"
+        },
+        {
+            "number": 135,
+            "text": "COMP SCI 4099",
+            "href": "/search/?P=COMP%20SCI%204099",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%204099",
+            "resolved_course": "COMP SCI 4099"
+        },
+        {
+            "number": 136,
+            "text": "ELEC ENG 4000",
+            "href": "/search/?P=ELEC%20ENG%204000",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%204000",
+            "resolved_course": "ELEC ENG 4000"
+        },
+        {
+            "number": 137,
+            "text": "ELEC ENG 4099",
+            "href": "/search/?P=ELEC%20ENG%204099",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%204099",
+            "resolved_course": "ELEC ENG 4099"
+        },
+        {
+            "number": 138,
+            "text": "COMP ENG 3000",
+            "href": "/search/?P=COMP%20ENG%203000",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%203000",
+            "resolved_course": "COMP ENG 3000"
+        },
+        {
+            "number": 139,
+            "text": "COMP ENG 4000",
+            "href": "/search/?P=COMP%20ENG%204000",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%204000",
+            "resolved_course": "COMP ENG 4000"
+        },
+        {
+            "number": 140,
+            "text": "COMP ENG 4096",
+            "href": "/search/?P=COMP%20ENG%204096",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%204096",
+            "resolved_course": "COMP ENG 4096"
+        },
+        {
+            "number": 141,
+            "text": "COMP ENG 4097",
+            "href": "/search/?P=COMP%20ENG%204097",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%204097",
+            "resolved_course": "COMP ENG 4097"
+        },
+        {
+            "number": 142,
+            "text": "COMP ENG 4099",
+            "href": "/search/?P=COMP%20ENG%204099",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%204099",
+            "resolved_course": "COMP ENG 4099"
+        },
+        {
+            "number": 143,
+            "text": "COMP ENG 5000",
+            "href": "/search/?P=COMP%20ENG%205000",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%205000",
+            "resolved_course": "COMP ENG 5000"
+        },
+        {
+            "number": 144,
+            "text": "COMP ENG 5099",
+            "href": "/search/?P=COMP%20ENG%205099",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%205099",
+            "resolved_course": "COMP ENG 5099"
+        },
+        {
+            "number": 145,
+            "text": "COMP SCI 3000",
+            "href": "/search/?P=COMP%20SCI%203000",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%203000",
+            "resolved_course": "COMP SCI 3000"
+        },
+        {
+            "number": 146,
+            "text": "COMP SCI 4000",
+            "href": "/search/?P=COMP%20SCI%204000",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%204000",
+            "resolved_course": "COMP SCI 4000"
+        },
+        {
+            "number": 147,
+            "text": "COMP SCI 4096",
+            "href": "/search/?P=COMP%20SCI%204096",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%204096",
+            "resolved_course": "COMP SCI 4096"
+        },
+        {
+            "number": 148,
+            "text": "COMP SCI 4097",
+            "href": "/search/?P=COMP%20SCI%204097",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%204097",
+            "resolved_course": "COMP SCI 4097"
+        },
+        {
+            "number": 149,
+            "text": "COMP SCI 4099",
+            "href": "/search/?P=COMP%20SCI%204099",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%204099",
+            "resolved_course": "COMP SCI 4099"
+        },
+        {
+            "number": 150,
+            "text": "COMP SCI 5000",
+            "href": "/search/?P=COMP%20SCI%205000",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205000",
+            "resolved_course": "COMP SCI 5000"
+        },
+        {
+            "number": 151,
+            "text": "COMP SCI 3610",
+            "href": "/search/?P=COMP%20SCI%203610",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%203610",
+            "resolved_course": "COMP SCI 3610"
+        },
+        {
+            "number": 152,
+            "text": "COMP SCI 4010",
+            "href": "/search/?P=COMP%20SCI%204010",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%204010",
+            "resolved_course": "COMP SCI 4010"
+        },
+        {
+            "number": 153,
+            "text": "COMP SCI 5099",
+            "href": "/search/?P=COMP%20SCI%205099",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205099",
+            "resolved_course": "COMP SCI 5099"
+        },
+        {
+            "number": 154,
+            "text": "COMP SCI 5600",
+            "href": "/search/?P=COMP%20SCI%205600",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205600",
+            "resolved_course": "COMP SCI 5600"
+        },
+        {
+            "number": 155,
+            "text": "ELEC ENG 3000",
+            "href": "/search/?P=ELEC%20ENG%203000",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%203000",
+            "resolved_course": "ELEC ENG 3000"
+        },
+        {
+            "number": 156,
+            "text": "ELEC ENG 4000",
+            "href": "/search/?P=ELEC%20ENG%204000",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%204000",
+            "resolved_course": "ELEC ENG 4000"
+        },
+        {
+            "number": 157,
+            "text": "ELEC ENG 4096",
+            "href": "/search/?P=ELEC%20ENG%204096",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%204096",
+            "resolved_course": "ELEC ENG 4096"
+        },
+        {
+            "number": 158,
+            "text": "ELEC ENG 4097",
+            "href": "/search/?P=ELEC%20ENG%204097",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%204097",
+            "resolved_course": "ELEC ENG 4097"
+        },
+        {
+            "number": 159,
+            "text": "ELEC ENG 4099",
+            "href": "/search/?P=ELEC%20ENG%204099",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%204099",
+            "resolved_course": "ELEC ENG 4099"
+        },
+        {
+            "number": 160,
+            "text": "ELEC ENG 5000",
+            "href": "/search/?P=ELEC%20ENG%205000",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%205000",
+            "resolved_course": "ELEC ENG 5000"
+        },
+        {
+            "number": 161,
+            "text": "ELEC ENG 5099",
+            "href": "/search/?P=ELEC%20ENG%205099",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%205099",
+            "resolved_course": "ELEC ENG 5099"
+        },
+        {
+            "number": 162,
+            "text": "COMP ENG 4096",
+            "href": "/search/?P=COMP%20ENG%204096",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%204096",
+            "resolved_course": "COMP ENG 4096"
+        },
+        {
+            "number": 163,
+            "text": "ELEC ENG 4096",
+            "href": "/search/?P=ELEC%20ENG%204096",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%204096",
+            "resolved_course": "ELEC ENG 4096"
+        },
+        {
+            "number": 164,
+            "text": "COMP ENG 4097",
+            "href": "/search/?P=COMP%20ENG%204097",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%204097",
+            "resolved_course": "COMP ENG 4097"
+        },
+        {
+            "number": 165,
+            "text": "ELEC ENG 4097",
+            "href": "/search/?P=ELEC%20ENG%204097",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%204097",
+            "resolved_course": "ELEC ENG 4097"
+        },
+        {
+            "number": 166,
+            "text": "COMP ENG 4096",
+            "href": "/search/?P=COMP%20ENG%204096",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%204096",
+            "resolved_course": "COMP ENG 4096"
+        },
+        {
+            "number": 167,
+            "text": "ELEC ENG 4096",
+            "href": "/search/?P=ELEC%20ENG%204096",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%204096",
+            "resolved_course": "ELEC ENG 4096"
+        },
+        {
+            "number": 168,
+            "text": "COMP ENG 4097",
+            "href": "/search/?P=COMP%20ENG%204097",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%204097",
+            "resolved_course": "COMP ENG 4097"
+        },
+        {
+            "number": 169,
+            "text": "ELEC ENG 4097",
+            "href": "/search/?P=ELEC%20ENG%204097",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%204097",
+            "resolved_course": "ELEC ENG 4097"
+        },
+        {
+            "number": 170,
+            "text": "COMP ENG 4096",
+            "href": "/search/?P=COMP%20ENG%204096",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%204096",
+            "resolved_course": "COMP ENG 4096"
+        },
+        {
+            "number": 171,
+            "text": "COMP ENG 4097",
+            "href": "/search/?P=COMP%20ENG%204097",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%204097",
+            "resolved_course": "COMP ENG 4097"
+        },
+        {
+            "number": 172,
+            "text": "ELEC ENG 2800",
+            "href": "/search/?P=ELEC%20ENG%202800",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202800",
+            "resolved_course": "ELEC ENG 2800"
+        },
+        {
+            "number": 173,
+            "text": "ELEC ENG 4096",
+            "href": "/search/?P=ELEC%20ENG%204096",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%204096",
+            "resolved_course": "ELEC ENG 4096"
+        },
+        {
+            "number": 174,
+            "text": "ELEC ENG 4097",
+            "href": "/search/?P=ELEC%20ENG%204097",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%204097",
+            "resolved_course": "ELEC ENG 4097"
+        },
+        {
+            "number": 175,
+            "text": "COMP ENG 3002",
+            "href": "/search/?P=COMP%20ENG%203002",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%203002",
+            "resolved_course": "COMP ENG 3002"
+        },
+        {
+            "number": 176,
+            "text": "ELEC ENG 3002",
+            "href": "/search/?P=ELEC%20ENG%203002",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%203002",
+            "resolved_course": "ELEC ENG 3002"
+        },
+        {
+            "number": 177,
+            "text": "BUS 5980",
+            "href": "/search/?P=BUS%205980",
+            "url": "https://catalog.mst.edu/search/?P=BUS%205980",
+            "resolved_course": "BUS 5980"
+        },
+        {
+            "number": 178,
+            "text": "ECON 4430",
+            "href": "/search/?P=ECON%204430",
+            "url": "https://catalog.mst.edu/search/?P=ECON%204430",
+            "resolved_course": "ECON 4430"
+        },
+        {
+            "number": 179,
+            "text": "ECON 5337",
+            "href": "/search/?P=ECON%205337",
+            "url": "https://catalog.mst.edu/search/?P=ECON%205337",
+            "resolved_course": "ECON 5337"
+        },
+        {
+            "number": 180,
+            "text": "ENG MGT 2310",
+            "href": "/search/?P=ENG%20MGT%202310",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%202310",
+            "resolved_course": "ENG MGT 2310"
+        },
+        {
+            "number": 181,
+            "text": "ENG MGT 3320",
+            "href": "/search/?P=ENG%20MGT%203320",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%203320",
+            "resolved_course": "ENG MGT 3320"
+        },
+        {
+            "number": 182,
+            "text": "ENG MGT 4110",
+            "href": "/search/?P=ENG%20MGT%204110",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%204110",
+            "resolved_course": "ENG MGT 4110"
+        },
+        {
+            "number": 183,
+            "text": "ENG MGT 5514",
+            "href": "/search/?P=ENG%20MGT%205514",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205514",
+            "resolved_course": "ENG MGT 5514"
+        },
+        {
+            "number": 184,
+            "text": "PHILOS 3225",
+            "href": "/search/?P=PHILOS%203225",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%203225",
+            "resolved_course": "PHILOS 3225"
+        },
+        {
+            "number": 185,
+            "text": "MATH 1210",
+            "href": "/search/?P=MATH%201210",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201210",
+            "resolved_course": "MATH 1210"
+        },
+        {
+            "number": 186,
+            "text": "MATH 1211",
+            "href": "/search/?P=MATH%201211",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201211",
+            "resolved_course": "MATH 1211"
+        },
+        {
+            "number": 187,
+            "text": "MATH 1214",
+            "href": "/search/?P=MATH%201214",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201214",
+            "resolved_course": "MATH 1214"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "Freshman Year First Semester Credits Second Semester Credits CHEM 1305 4 COMP SCI 1500 3 CHEM 1319 1 Gen Ed Elective 5 6 ENGLISH 1120 3 MATH 1215 3 4 FR ENG 1100 2 1 PHYSICS 1135 3,4 4 HISTORY 1200 , or 1300 , or 1310 , or POL SCI 1200 3 MATH 1214 or 1211 3,18 4 16 17 Sophomore Year First Semester Credits Second Semester Credits COMP SCI 1570 3 3 COMP ENG 2010 or ELEC ENG 2010 1 COMP SCI 1580 3 1 COMP ENG 2210 3,6 3 ELEC ENG 2100 3,6 3 COMP ENG 2211 3,6 1 ELEC ENG 2101 3,6 1 COMP SCI 1200 3 3 MATH 3304 3 3 COMP SCI 1575 3 3 PHYSICS 2135 3,4 4 ELEC ENG 2120 3 3 MATH 2222 3 4 15 18 Junior Year First Semester Credits Second Semester Credits COMP ENG 3110 3 3 COMP ENG Elective A 3,11 3 ELEC ENG 2200 3,6 3 COMP ENG 3150 3 3 ELEC ENG 2201 3,6 1 COMP SCI 3800 or 2500 3 3 Mathematics Elective 7 3 ELEC ENG 3410 3 3 SP&M S 1185 10 3 ENGLISH 3560 or 1160 3 STAT 3117 9 3 16 15 Senior Year First Semester Credits Second Semester Credits COMP ENG Elective B 3,11 3 COMP ENG Elective D 3,12,13 3 COMP ENG Elective C 3,14 3 COMP ENG Elective E 3,12,13 3 COMP ENG 4096 3,15 1 COMP ENG 4097 15 3 COMP ENG 5410 3, 11, 14 3 Free Elective 16 3 Engineering Science Elective 8 3 Professional Development Elective 17 3 Gen Ed Elective 5 3 16 15 Total Credits: 128",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Freshman Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CHEM 1305",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CHEM 1305",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%201305",
+                                    "resolved_course": "CHEM 1305"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "COMP SCI 1500",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 1500",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201500",
+                                    "resolved_course": "COMP SCI 1500"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CHEM 1319",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CHEM 1319",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%201319",
+                                    "resolved_course": "CHEM 1319"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Gen Ed Elective 5",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "6",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENGLISH 1120",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENGLISH 1120",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%201120",
+                                    "resolved_course": "ENGLISH 1120"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MATH 1215 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 1215",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201215",
+                                    "resolved_course": "MATH 1215"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "FR ENG 1100 2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "FR ENG 1100",
+                                    "url": "https://catalog.mst.edu/search/?P=FR%20ENG%201100",
+                                    "resolved_course": "FR ENG 1100"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "PHYSICS 1135 3,4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 1135",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%201135",
+                                    "resolved_course": "PHYSICS 1135"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "HISTORY 1200 , or 1300 , or 1310 , or POL SCI 1200",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "HISTORY 1200",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201200",
+                                    "resolved_course": "HISTORY 1200"
+                                },
+                                {
+                                    "text": "1300",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201300",
+                                    "resolved_course": "HISTORY 1300"
+                                },
+                                {
+                                    "text": "1310",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201310",
+                                    "resolved_course": "HISTORY 1310"
+                                },
+                                {
+                                    "text": "POL SCI 1200",
+                                    "url": "https://catalog.mst.edu/search/?P=POL%20SCI%201200",
+                                    "resolved_course": "POL SCI 1200"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MATH 1214 or 1211 3,18",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 1214",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201214",
+                                    "resolved_course": "MATH 1214"
+                                },
+                                {
+                                    "text": "1211",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201211",
+                                    "resolved_course": "MATH 1211"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "16",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "17",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 10,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Sophomore Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 11,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 12,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 1570 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 1570",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201570",
+                                    "resolved_course": "COMP SCI 1570"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "COMP ENG 2010 or ELEC ENG 2010",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP ENG 2010",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%202010",
+                                    "resolved_course": "COMP ENG 2010"
+                                },
+                                {
+                                    "text": "ELEC ENG 2010",
+                                    "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202010",
+                                    "resolved_course": "ELEC ENG 2010"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 13,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 1580 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 1580",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201580",
+                                    "resolved_course": "COMP SCI 1580"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "COMP ENG 2210 3,6",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP ENG 2210",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%202210",
+                                    "resolved_course": "COMP ENG 2210"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 14,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ELEC ENG 2100 3,6",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ELEC ENG 2100",
+                                    "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202100",
+                                    "resolved_course": "ELEC ENG 2100"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "COMP ENG 2211 3,6",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP ENG 2211",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%202211",
+                                    "resolved_course": "COMP ENG 2211"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 15,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ELEC ENG 2101 3,6",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ELEC ENG 2101",
+                                    "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202101",
+                                    "resolved_course": "ELEC ENG 2101"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "COMP SCI 1200 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 1200",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201200",
+                                    "resolved_course": "COMP SCI 1200"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 16,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MATH 3304 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 3304",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%203304",
+                                    "resolved_course": "MATH 3304"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "COMP SCI 1575 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 1575",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201575",
+                                    "resolved_course": "COMP SCI 1575"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 17,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHYSICS 2135 3,4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 2135",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%202135",
+                                    "resolved_course": "PHYSICS 2135"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "ELEC ENG 2120 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ELEC ENG 2120",
+                                    "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202120",
+                                    "resolved_course": "ELEC ENG 2120"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 18,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "MATH 2222 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 2222",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%202222",
+                                    "resolved_course": "MATH 2222"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 19,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "18",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 20,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Junior Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 21,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 22,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP ENG 3110 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP ENG 3110",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%203110",
+                                    "resolved_course": "COMP ENG 3110"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "COMP ENG Elective A 3,11",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 23,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ELEC ENG 2200 3,6",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ELEC ENG 2200",
+                                    "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202200",
+                                    "resolved_course": "ELEC ENG 2200"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "COMP ENG 3150 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP ENG 3150",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%203150",
+                                    "resolved_course": "COMP ENG 3150"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 24,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ELEC ENG 2201 3,6",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ELEC ENG 2201",
+                                    "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202201",
+                                    "resolved_course": "ELEC ENG 2201"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "COMP SCI 3800 or 2500 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 3800",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%203800",
+                                    "resolved_course": "COMP SCI 3800"
+                                },
+                                {
+                                    "text": "2500",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%202500",
+                                    "resolved_course": "COMP SCI 2500"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 25,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Mathematics Elective 7",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "ELEC ENG 3410 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ELEC ENG 3410",
+                                    "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%203410",
+                                    "resolved_course": "ELEC ENG 3410"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 26,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 1185 10",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 1185",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%201185",
+                                    "resolved_course": "SP&M S 1185"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "ENGLISH 3560 or 1160",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENGLISH 3560",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%203560",
+                                    "resolved_course": "ENGLISH 3560"
+                                },
+                                {
+                                    "text": "1160",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%201160",
+                                    "resolved_course": "ENGLISH 1160"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 27,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "STAT 3117 9",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "STAT 3117",
+                                    "url": "https://catalog.mst.edu/search/?P=STAT%203117",
+                                    "resolved_course": "STAT 3117"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 28,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "16",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 29,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Senior Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 30,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 31,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP ENG Elective B 3,11",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "COMP ENG Elective D 3,12,13",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 32,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP ENG Elective C 3,14",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "COMP ENG Elective E 3,12,13",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 33,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP ENG 4096 3,15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP ENG 4096",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%204096",
+                                    "resolved_course": "COMP ENG 4096"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "COMP ENG 4097 15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP ENG 4097",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%204097",
+                                    "resolved_course": "COMP ENG 4097"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 34,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP ENG 5410 3, 11, 14",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP ENG 5410",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%205410",
+                                    "resolved_course": "COMP ENG 5410"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Free Elective 16",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 35,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Engineering Science Elective 8",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Professional Development Elective 17",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 36,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Gen Ed Elective 5",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 37,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "16",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 38,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Total Credits: 128",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_plangrid\"><tr class=\"plangridyear firstrow\"><th colspan=\"4\">Freshman Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201305\" onclick=\"return showCourse(this, 'CHEM 1305');\" title=\"CHEM 1305\">CHEM 1305</a></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201500\" onclick=\"return showCourse(this, 'COMP SCI 1500');\" title=\"COMP SCI 1500\">COMP SCI 1500</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201319\" onclick=\"return showCourse(this, 'CHEM 1319');\" title=\"CHEM 1319\">CHEM 1319</a></td><td class=\"hourscol\">1</td><td class=\"codecol\">Gen Ed Elective<sup>5</sup></td><td class=\"hourscol\">6</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201120\" onclick=\"return showCourse(this, 'ENGLISH 1120');\" title=\"ENGLISH 1120\">ENGLISH 1120</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201215\" onclick=\"return showCourse(this, 'MATH 1215');\" title=\"MATH 1215\">MATH 1215</a><sup>3</sup></td><td class=\"hourscol\">4</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=FR%20ENG%201100\" onclick=\"return showCourse(this, 'FR ENG 1100');\" title=\"FR ENG 1100\">FR ENG 1100</a><sup>2</sup></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201135\" onclick=\"return showCourse(this, 'PHYSICS 1135');\" title=\"PHYSICS 1135\">PHYSICS 1135</a><sup>3,4</sup></td><td class=\"hourscol\">4</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201200\" onclick=\"return showCourse(this, 'HISTORY 1200');\" title=\"HISTORY 1200\">HISTORY 1200</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201300\" onclick=\"return showCourse(this, 'HISTORY 1300');\" title=\"HISTORY 1300\"> 1300</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201310\" onclick=\"return showCourse(this, 'HISTORY 1310');\" title=\"HISTORY 1310\"> 1310</a>, or <a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%201200\" onclick=\"return showCourse(this, 'POL SCI 1200');\" title=\"POL SCI 1200\">POL SCI  1200</a></td><td class=\"hourscol\">3</td><td colspan=\"2\"> </td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201214\" onclick=\"return showCourse(this, 'MATH 1214');\" title=\"MATH 1214\">MATH 1214</a> or <a class=\"bubblelink code\" href=\"/search/?P=MATH%201211\" onclick=\"return showCourse(this, 'MATH 1211');\" title=\"MATH 1211\"> 1211</a><sup>3,18</sup></td><td class=\"hourscol\">4</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">16</td><td> </td><td class=\"hourscol\">17</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Sophomore Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201570\" onclick=\"return showCourse(this, 'COMP SCI 1570');\" title=\"COMP SCI 1570\">COMP SCI 1570</a><sup>3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%202010\" onclick=\"return showCourse(this, 'COMP ENG 2010');\" title=\"COMP ENG 2010\">COMP ENG 2010</a> or <a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202010\" onclick=\"return showCourse(this, 'ELEC ENG 2010');\" title=\"ELEC ENG 2010\">ELEC ENG  2010</a></td><td class=\"hourscol\">1</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201580\" onclick=\"return showCourse(this, 'COMP SCI 1580');\" title=\"COMP SCI 1580\">COMP SCI 1580</a><sup>3</sup></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%202210\" onclick=\"return showCourse(this, 'COMP ENG 2210');\" title=\"COMP ENG 2210\">COMP ENG 2210</a><sup>3,6</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202100\" onclick=\"return showCourse(this, 'ELEC ENG 2100');\" title=\"ELEC ENG 2100\">ELEC ENG 2100</a><sup>3,6</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%202211\" onclick=\"return showCourse(this, 'COMP ENG 2211');\" title=\"COMP ENG 2211\">COMP ENG 2211</a><sup>3,6</sup></td><td class=\"hourscol\">1</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202101\" onclick=\"return showCourse(this, 'ELEC ENG 2101');\" title=\"ELEC ENG 2101\">ELEC ENG 2101</a><sup>3,6</sup></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201200\" onclick=\"return showCourse(this, 'COMP SCI 1200');\" title=\"COMP SCI 1200\">COMP SCI 1200</a><sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%203304\" onclick=\"return showCourse(this, 'MATH 3304');\" title=\"MATH 3304\">MATH 3304</a><sup>3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201575\" onclick=\"return showCourse(this, 'COMP SCI 1575');\" title=\"COMP SCI 1575\">COMP SCI 1575</a><sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202135\" onclick=\"return showCourse(this, 'PHYSICS 2135');\" title=\"PHYSICS 2135\">PHYSICS 2135</a><sup>3,4</sup></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202120\" onclick=\"return showCourse(this, 'ELEC ENG 2120');\" title=\"ELEC ENG 2120\">ELEC ENG 2120</a><sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td colspan=\"2\"> </td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%202222\" onclick=\"return showCourse(this, 'MATH 2222');\" title=\"MATH 2222\">MATH 2222</a><sup>3</sup></td><td class=\"hourscol\">4</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">18</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Junior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%203110\" onclick=\"return showCourse(this, 'COMP ENG 3110');\" title=\"COMP ENG 3110\">COMP ENG 3110</a><sup>3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">COMP ENG Elective A<sup>3,11</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202200\" onclick=\"return showCourse(this, 'ELEC ENG 2200');\" title=\"ELEC ENG 2200\">ELEC ENG 2200</a><sup>3,6</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%203150\" onclick=\"return showCourse(this, 'COMP ENG 3150');\" title=\"COMP ENG 3150\">COMP ENG 3150</a><sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202201\" onclick=\"return showCourse(this, 'ELEC ENG 2201');\" title=\"ELEC ENG 2201\">ELEC ENG 2201</a><sup>3,6</sup></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%203800\" onclick=\"return showCourse(this, 'COMP SCI 3800');\" title=\"COMP SCI 3800\">COMP SCI 3800</a> or <a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%202500\" onclick=\"return showCourse(this, 'COMP SCI 2500');\" title=\"COMP SCI 2500\"> 2500</a><sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Mathematics Elective<sup>7</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%203410\" onclick=\"return showCourse(this, 'ELEC ENG 3410');\" title=\"ELEC ENG 3410\">ELEC ENG 3410</a><sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%201185\" onclick=\"return showCourse(this, 'SP&amp;M S 1185');\" title=\"SP&amp;M S 1185\">SP&amp;M S 1185</a><sup>10</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%203560\" onclick=\"return showCourse(this, 'ENGLISH 3560');\" title=\"ENGLISH 3560\">ENGLISH 3560</a> or <a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201160\" onclick=\"return showCourse(this, 'ENGLISH 1160');\" title=\"ENGLISH 1160\"> 1160</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%203117\" onclick=\"return showCourse(this, 'STAT 3117');\" title=\"STAT 3117\">STAT 3117</a><sup>9</sup></td><td class=\"hourscol\">3</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">16</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Senior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\">COMP ENG Elective B<sup>3,11</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">COMP ENG Elective D<sup>3,12,13</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">COMP ENG Elective C<sup>3,14</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">COMP ENG Elective E<sup>3,12,13</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%204096\" onclick=\"return showCourse(this, 'COMP ENG 4096');\" title=\"COMP ENG 4096\">COMP ENG 4096</a><sup>3,15</sup></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%204097\" onclick=\"return showCourse(this, 'COMP ENG 4097');\" title=\"COMP ENG 4097\">COMP ENG 4097</a><sup>15</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%205410\" onclick=\"return showCourse(this, 'COMP ENG 5410');\" title=\"COMP ENG 5410\">COMP ENG 5410</a><sup>3, 11, 14</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Free Elective<sup>16</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Engineering Science Elective <sup>8</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Professional Development Elective<sup>17</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Gen Ed Elective<sup>5</sup></td><td class=\"hourscol\">3</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">16</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridtotal lastrow\"><td colspan=\"4\">Total Credits: 128</td></tr></table>"
+        },
+        {
+            "table_number": 2,
+            "text": "Computational Intelligence 9 COMP ENG 53XX Courses Computer Chips and Semiconductor Engineering 9 COMP ENG 32XX/42XX/52XX, COMP ENG 51XX, ELEC ENG 3100, ELEC ENG 3250 Electronic Computer System Design 9 COMP ENG 51XX, ELEC ENG 36XX, ELEC ENG 56XX Networks and Cyber Physical Systems 9 COMP ENG 44XX, COMP ENG 54XX (except COMP ENG 5410), ELEC ENG 5160, ELEC ENG 53XX",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Computational Intelligence",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "9",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP ENG 53XX Courses",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Computer Chips and Semiconductor Engineering",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "9",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP ENG 32XX/42XX/52XX, COMP ENG 51XX, ELEC ENG 3100, ELEC ENG 3250",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Electronic Computer System Design",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "9",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP ENG 51XX, ELEC ENG 36XX, ELEC ENG 56XX",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Networks and Cyber Physical Systems",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "9",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP ENG 44XX, COMP ENG 54XX (except COMP ENG 5410), ELEC ENG 5160, ELEC ENG 53XX",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><tbody><tr class=\"even areaheader firstrow\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Computational Intelligence</span></td><td class=\"hourscol\">9</td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">COMP ENG 53XX Courses</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Computer Chips and Semiconductor Engineering</span></td><td class=\"hourscol\">9</td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">COMP ENG 32XX/42XX/52XX, COMP ENG 51XX, ELEC ENG 3100, ELEC ENG 3250</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Electronic Computer System Design</span></td><td class=\"hourscol\">9</td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">COMP ENG 51XX, ELEC ENG 36XX, ELEC ENG 56XX</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Networks and Cyber Physical Systems</span></td><td class=\"hourscol\">9</td></tr> <tr class=\"odd lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">COMP ENG 44XX, COMP ENG 54XX (except COMP ENG 5410), ELEC ENG 5160, ELEC ENG 53XX</span></td><td class=\"hourscol\"></td></tr> </tbody></table>"
+        }
+    ],
+    "section_text": "Bachelor of Science Computer Engineering 1 For the Bachelor of Science degree in Computer Engineering, a minimum of 128 credit hours is required. These requirements are in addition to credit received for algebra, trigonometry, and basic ROTC courses. An average of at least two grade points per credit hour must be attained. At least two grade points per credit hour must also be attained in all courses taken in Computer Engineering. The Computer Engineering program at Missouri S&T is characterized by its focus on the scientific basics of engineering and its innovative application; indeed, the underlying theme of this educational program is the application of the scientific basics to engineering practice through attention to problems and needs of the public. The necessary interrelations among the various topics, the engineering disciplines, and the other professions as they naturally come together in the solution of real world problems are emphasized as research, analysis, synthesis, and design. These interrelations are presented and discussed through classroom and laboratory instruction. Free Electives Footnote: Each student is required to take three hours of free electives in consultation with his/her academic advisor. Credits which do not count towards this requirement are deficiency courses (such as algebra and trigonometry), and extra credits in required courses. Any courses outside of engineering and science must be at least three credit hours. Freshman Year First Semester Credits Second Semester Credits CHEM 1305 4 COMP SCI 1500 3 CHEM 1319 1 Gen Ed Elective 5 6 ENGLISH 1120 3 MATH 1215 3 4 FR ENG 1100 2 1 PHYSICS 1135 3,4 4 HISTORY 1200 , or 1300 , or 1310 , or POL SCI 1200 3 MATH 1214 or 1211 3,18 4 16 17 Sophomore Year First Semester Credits Second Semester Credits COMP SCI 1570 3 3 COMP ENG 2010 or ELEC ENG 2010 1 COMP SCI 1580 3 1 COMP ENG 2210 3,6 3 ELEC ENG 2100 3,6 3 COMP ENG 2211 3,6 1 ELEC ENG 2101 3,6 1 COMP SCI 1200 3 3 MATH 3304 3 3 COMP SCI 1575 3 3 PHYSICS 2135 3,4 4 ELEC ENG 2120 3 3 MATH 2222 3 4 15 18 Junior Year First Semester Credits Second Semester Credits COMP ENG 3110 3 3 COMP ENG Elective A 3,11 3 ELEC ENG 2200 3,6 3 COMP ENG 3150 3 3 ELEC ENG 2201 3,6 1 COMP SCI 3800 or 2500 3 3 Mathematics Elective 7 3 ELEC ENG 3410 3 3 SP&M S 1185 10 3 ENGLISH 3560 or 1160 3 STAT 3117 9 3 16 15 Senior Year First Semester Credits Second Semester Credits COMP ENG Elective B 3,11 3 COMP ENG Elective D 3,12,13 3 COMP ENG Elective C 3,14 3 COMP ENG Elective E 3,12,13 3 COMP ENG 4096 3,15 1 COMP ENG 4097 15 3 COMP ENG 5410 3, 11, 14 3 Free Elective 16 3 Engineering Science Elective 8 3 Professional Development Elective 17 3 Gen Ed Elective 5 3 16 15 Total Credits: 128 1 The minimum number of hours required for a degree in Computer Engineering is 128. 2 Students that transfer to Missouri S&T after their freshman year are not required to enroll in Foundational Engineering and Computing Seminars. 3 A minimum grade of \"C\" must be attained in COMP ENG 2210 , COMP ENG 2211 , COMP ENG 3110 , COMP ENG 3150 , COMP ENG 4096 , COMP ENG 5410 , COMP ENG electives A, B, C, D and E, COMP SCI 1200 , COMP SCI 1570 , COMP SCI 1575 , COMP SCI 1580 , COMP SCI 2500 or COMP SCI 3800 , ELEC ENG 2100 , ELEC ENG 2101 , ELEC ENG 2120 , ELEC ENG 2200 , ELEC ENG 2201 , ELEC ENG 3410 , MATH 1211 or MATH 1214 , MATH 1215 , MATH 2222 , MATH 3304 , PHYSICS 1135 , and PHYSICS 2135 (or their equivalents). Also, students may not enroll in other courses that use these courses as prerequisites until the minimum grade of \"C\" is attained. 4 Students may take PHYSICS 1111 and PHYSICS 1119 in place of PHYSICS 1135 . Students may take PHYSICS 2111 and PHYSICS 2119 in place of PHYSICS 2135 . 5 All electives must be approved by the student's advisor. Gen. Ed. electives must fulfill the Missouri S&T general education requirements applicable to the student's catalog year. These requirements are specified in the current catalog. 6 Students who drop a lecture course prior to the deadline to drop a class must also drop the corequisite lab course. 7 Students must take one of the following courses: MATH 3108 , MATH 3109 , MATH 4096 , MATH 4209 , MATH 4211 , MATH 4530 , MATH 5105 , MATH 5106 , MATH 5107 , MATH 5108 , MATH 5154 , MATH 5215 , MATH 5222 , MATH 5302 , MATH 5325 , MATH 5351 , MATH 5483 , MATH 5585 , MATH 5603 , MATH 5737 , STAT 5346 , STAT 5353 , STAT 5644 . 8 Students must take one of BIO SCI 2213 , BIO SCI 2223 , CER ENG 4240 , CHEM 2210 , MECH ENG 2340 , MECH ENG 2519 , MECH ENG 2527 , NUC ENG 3103 , NUC ENG 3205 , PHYSICS 2305 , PHYSICS 2311 , PHYSICS 2401 , or PHYSICS 4311 . The following pair of courses can be substituted: CIV ENG 2200 and MECH ENG 2350 . 9 Students may replace STAT 3117 with STAT 5643 . 10 Students may replace SP&M S 1185 with the ROTC sequence of MIL ARMY 4250 and MIL ARMY 4500 or MIL AIR 4110 and MIL AIR 4120 . 11 COMP ENG Senior Electives A and B, respectively, must be selected from 4XXX or 5XXX courses in COMP ENG, except COMP ENG 4000 , COMP ENG 4096 , COMP ENG 4097 , COMP ENG 4099 , COMP ENG 5000 , and COMP ENG 5099 . The two courses selected for electives A and B, respectively, should be from two different COMP ENG emphasis areas. The emphasis areas, with course number options, are as follows: Computational Intelligence: COMP ENG 53XX Computer Chips and Semiconductor Engineering: COMP ENG 32XX/42XX/52XX, COMP ENG 51XX, ELEC ENG 3100 , ELEC ENG 3250 Electronic Computer System Design: COMP ENG 51XX, ELEC ENG 36XX, ELEC ENG 56XX Networks and Cyber Physical Systems: COMP ENG 44XX, COMP ENG 54XX (except COMP ENG 5410 ), ELEC ENG 5160 , ELEC ENG 53XX 12 COMP ENG Senior Electives D and E must be selected from an approved list that contains most 3XXX, 4XXX and 5XXX courses in science, mathematics, and engineering except required courses in COMP ENG, ELEC ENG, and COMP SCI and except COMP SCI 3610 and COMP SCI 5600 . 13 COMP ENG Electives D and E cannot include more than three hours of COMP ENG 3002 / ELEC ENG 3002 , COMP ENG 4000 / COMP ENG 4099 , COMP SCI 4000 / COMP SCI 4099 , ELEC ENG 4000 / ELEC ENG 4099 . 14 COMP ENG Senior Elective C must be selected from 3XXX, 4XXX or 5XXX courses in COMP ENG, ELEC ENG, or COMP SCI, except COMP ENG 3000 / COMP ENG 4000 / COMP ENG 4096 / COMP ENG 4097 / COMP ENG 4099 / COMP ENG 5000 / COMP ENG 5099 , COMP SCI 3000 / COMP SCI 4000 / COMP SCI 4096 / COMP SCI 4097 / COMP SCI 4099 / COMP SCI 5000 , COMP SCI 3610 , COMP SCI 4010 , COMP SCI 5099 , COMP SCI 5600 , ELEC ENG 3000 / ELEC ENG 4000 / ELEC ENG 4096 / ELEC ENG 4097 / ELEC ENG 4099 / ELEC ENG 5000 / ELEC ENG 5099 . 15 Students pursuing dual degrees in COMP ENG and ELEC ENG may take either COMP ENG 4096 or ELEC ENG 4096 and COMP ENG 4097 or ELEC ENG 4097 . Students may not receive credit for both COMP ENG 4096 and ELEC ENG 4096 or COMP ENG 4097 and ELEC ENG 4097 in the same degree program. 16 Students are required to take at least three credit hours. COMP ENG 4096 , COMP ENG 4097 , ELEC ENG 2800 , ELEC ENG 4096 and ELEC ENG 4097 may not be used for free electives. No more than one credit hour of COMP ENG 3002 or ELEC ENG 3002 may be applied to the BS degree for free electives. 17 Students must take one of the following courses: BUS 5980 , ECON 4430 , ECON 5337 , ENG MGT 2310 , ENG MGT 3320 , ENG MGT 4110 , ENG MGT 5514 , PHILOS 3225 . 18 The course combination MATH 1210 and MATH 1211 may be taken in place of MATH 1214 . Emphasis Areas for Computer Engineering A declared emphasis area is not required. A student may choose to obtain a Computer Engineering degree without a formal emphasis or may choose to obtain a Computer Engineering degree with a declared emphasis in one or more of the emphasis area s of computer engineering. A major change request is required to add the emphasis area option to the degree program. Emphasis areas that may be declared, include: Computational Intelligence , Computer Chips and Semiconductor Engineering , Electronic Computer System Design , and Networks and Cyber Physical Systems . Note that Computational Intelligence is also a Computer Engineering emphasis area but is focused in the graduate program. For students who seek a Computer Engineering degree without a formal emphasis , these emphasis area s may guide the choice of their COMP ENG Electives A, B, C, D, and E as well as their free electives. Students should consult with their advisors on such course selections. For students who seek a Computer Engineering degree with a declared emphasis , courses in the declared emphasis area will be applied to COMP ENG Electives A, C, and D in the degree requirements. For students who choose to have multiple emphasis area s, the additional courses will apply to COMP ENG Electives B and E and free elective requirements. Students should seek guidance from their advisors on emphasis area s and on courses that are relevant to more than one emphasis area . Students may have an emphasis area or emphasis area s listed on their transcript by completing three three-credit-hour courses in computer engineering from the designated lists. For a single emphasis area , this requirement will be satisfied by completing the relevant 4XXX-level or above course for Elective A and 3XXX-level or above courses for Electives C and D from the designated emphasis area course list. For a second emphasis area , this requirement will be satisfied by completing the relevant 4XXX-level or above course for Elective B, a 3XXX-level or above course for Electives E, and a 3XXX-level or above course for the free elective from the designated second emphasis area course list. Courses not on the emphasis area list, including experimental courses (5001) require departmental approval to apply toward the designated emphasis area . Computer Engineering Course List Designations : Computational Intelligence 9 COMP ENG 53XX Courses Computer Chips and Semiconductor Engineering 9 COMP ENG 32XX/42XX/52XX, COMP ENG 51XX, ELEC ENG 3100, ELEC ENG 3250 Electronic Computer System Design 9 COMP ENG 51XX, ELEC ENG 36XX, ELEC ENG 56XX Networks and Cyber Physical Systems 9 COMP ENG 44XX, COMP ENG 54XX (except COMP ENG 5410), ELEC ENG 5160, ELEC ENG 53XX",
+    "section_html": "<div class=\"tab_content\" id=\"bachelorstextcontainer\">\n<a name=\"bachelorstext\"></a><h2>Bachelor of Science Computer Engineering<sup>1</sup></h2> <p>For the Bachelor of Science degree in Computer Engineering, a minimum of 128 credit hours is required. These requirements are in addition to credit received for algebra, trigonometry, and basic ROTC courses. An average of at least two grade points per credit hour must be attained. At least two grade points per credit hour must also be attained in all courses taken in Computer Engineering.</p> <p><span>The Computer Engineering program at Missouri S&amp;T is characterized by its focus on the scientific basics of engineering and its innovative application; indeed, the underlying theme of this educational program is the application of the scientific basics to engineering practice through attention to problems and needs of the public. The necessary interrelations among the various topics, the engineering disciplines, and the other professions as they naturally come together in the solution of real world problems are emphasized as research, analysis, synthesis, and design. These interrelations are presented and discussed through classroom and laboratory instruction.</span></p> <h3>Free Electives Footnote:</h3> <p>Each student is required to take three hours of free electives in consultation with his/her academic advisor. Credits which do not count towards this requirement are deficiency courses (such as algebra and trigonometry), and extra credits in required courses. Any courses outside of engineering and science must be at least three credit hours.</p> <table class=\"sc_plangrid\"><tr class=\"plangridyear firstrow\"><th colspan=\"4\">Freshman Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201305\" onclick=\"return showCourse(this, 'CHEM 1305');\" title=\"CHEM 1305\">CHEM 1305</a></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201500\" onclick=\"return showCourse(this, 'COMP SCI 1500');\" title=\"COMP SCI 1500\">COMP SCI 1500</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201319\" onclick=\"return showCourse(this, 'CHEM 1319');\" title=\"CHEM 1319\">CHEM 1319</a></td><td class=\"hourscol\">1</td><td class=\"codecol\">Gen Ed Elective<sup>5</sup></td><td class=\"hourscol\">6</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201120\" onclick=\"return showCourse(this, 'ENGLISH 1120');\" title=\"ENGLISH 1120\">ENGLISH 1120</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201215\" onclick=\"return showCourse(this, 'MATH 1215');\" title=\"MATH 1215\">MATH 1215</a><sup>3</sup></td><td class=\"hourscol\">4</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=FR%20ENG%201100\" onclick=\"return showCourse(this, 'FR ENG 1100');\" title=\"FR ENG 1100\">FR ENG 1100</a><sup>2</sup></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201135\" onclick=\"return showCourse(this, 'PHYSICS 1135');\" title=\"PHYSICS 1135\">PHYSICS 1135</a><sup>3,4</sup></td><td class=\"hourscol\">4</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201200\" onclick=\"return showCourse(this, 'HISTORY 1200');\" title=\"HISTORY 1200\">HISTORY 1200</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201300\" onclick=\"return showCourse(this, 'HISTORY 1300');\" title=\"HISTORY 1300\"> 1300</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201310\" onclick=\"return showCourse(this, 'HISTORY 1310');\" title=\"HISTORY 1310\"> 1310</a>, or <a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%201200\" onclick=\"return showCourse(this, 'POL SCI 1200');\" title=\"POL SCI 1200\">POL SCI  1200</a></td><td class=\"hourscol\">3</td><td colspan=\"2\"> </td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201214\" onclick=\"return showCourse(this, 'MATH 1214');\" title=\"MATH 1214\">MATH 1214</a> or <a class=\"bubblelink code\" href=\"/search/?P=MATH%201211\" onclick=\"return showCourse(this, 'MATH 1211');\" title=\"MATH 1211\"> 1211</a><sup>3,18</sup></td><td class=\"hourscol\">4</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">16</td><td> </td><td class=\"hourscol\">17</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Sophomore Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201570\" onclick=\"return showCourse(this, 'COMP SCI 1570');\" title=\"COMP SCI 1570\">COMP SCI 1570</a><sup>3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%202010\" onclick=\"return showCourse(this, 'COMP ENG 2010');\" title=\"COMP ENG 2010\">COMP ENG 2010</a> or <a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202010\" onclick=\"return showCourse(this, 'ELEC ENG 2010');\" title=\"ELEC ENG 2010\">ELEC ENG  2010</a></td><td class=\"hourscol\">1</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201580\" onclick=\"return showCourse(this, 'COMP SCI 1580');\" title=\"COMP SCI 1580\">COMP SCI 1580</a><sup>3</sup></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%202210\" onclick=\"return showCourse(this, 'COMP ENG 2210');\" title=\"COMP ENG 2210\">COMP ENG 2210</a><sup>3,6</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202100\" onclick=\"return showCourse(this, 'ELEC ENG 2100');\" title=\"ELEC ENG 2100\">ELEC ENG 2100</a><sup>3,6</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%202211\" onclick=\"return showCourse(this, 'COMP ENG 2211');\" title=\"COMP ENG 2211\">COMP ENG 2211</a><sup>3,6</sup></td><td class=\"hourscol\">1</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202101\" onclick=\"return showCourse(this, 'ELEC ENG 2101');\" title=\"ELEC ENG 2101\">ELEC ENG 2101</a><sup>3,6</sup></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201200\" onclick=\"return showCourse(this, 'COMP SCI 1200');\" title=\"COMP SCI 1200\">COMP SCI 1200</a><sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%203304\" onclick=\"return showCourse(this, 'MATH 3304');\" title=\"MATH 3304\">MATH 3304</a><sup>3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201575\" onclick=\"return showCourse(this, 'COMP SCI 1575');\" title=\"COMP SCI 1575\">COMP SCI 1575</a><sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202135\" onclick=\"return showCourse(this, 'PHYSICS 2135');\" title=\"PHYSICS 2135\">PHYSICS 2135</a><sup>3,4</sup></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202120\" onclick=\"return showCourse(this, 'ELEC ENG 2120');\" title=\"ELEC ENG 2120\">ELEC ENG 2120</a><sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td colspan=\"2\"> </td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%202222\" onclick=\"return showCourse(this, 'MATH 2222');\" title=\"MATH 2222\">MATH 2222</a><sup>3</sup></td><td class=\"hourscol\">4</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">18</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Junior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%203110\" onclick=\"return showCourse(this, 'COMP ENG 3110');\" title=\"COMP ENG 3110\">COMP ENG 3110</a><sup>3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">COMP ENG Elective A<sup>3,11</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202200\" onclick=\"return showCourse(this, 'ELEC ENG 2200');\" title=\"ELEC ENG 2200\">ELEC ENG 2200</a><sup>3,6</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%203150\" onclick=\"return showCourse(this, 'COMP ENG 3150');\" title=\"COMP ENG 3150\">COMP ENG 3150</a><sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202201\" onclick=\"return showCourse(this, 'ELEC ENG 2201');\" title=\"ELEC ENG 2201\">ELEC ENG 2201</a><sup>3,6</sup></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%203800\" onclick=\"return showCourse(this, 'COMP SCI 3800');\" title=\"COMP SCI 3800\">COMP SCI 3800</a> or <a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%202500\" onclick=\"return showCourse(this, 'COMP SCI 2500');\" title=\"COMP SCI 2500\"> 2500</a><sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Mathematics Elective<sup>7</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%203410\" onclick=\"return showCourse(this, 'ELEC ENG 3410');\" title=\"ELEC ENG 3410\">ELEC ENG 3410</a><sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%201185\" onclick=\"return showCourse(this, 'SP&amp;M S 1185');\" title=\"SP&amp;M S 1185\">SP&amp;M S 1185</a><sup>10</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%203560\" onclick=\"return showCourse(this, 'ENGLISH 3560');\" title=\"ENGLISH 3560\">ENGLISH 3560</a> or <a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201160\" onclick=\"return showCourse(this, 'ENGLISH 1160');\" title=\"ENGLISH 1160\"> 1160</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%203117\" onclick=\"return showCourse(this, 'STAT 3117');\" title=\"STAT 3117\">STAT 3117</a><sup>9</sup></td><td class=\"hourscol\">3</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">16</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Senior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\">COMP ENG Elective B<sup>3,11</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">COMP ENG Elective D<sup>3,12,13</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">COMP ENG Elective C<sup>3,14</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">COMP ENG Elective E<sup>3,12,13</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%204096\" onclick=\"return showCourse(this, 'COMP ENG 4096');\" title=\"COMP ENG 4096\">COMP ENG 4096</a><sup>3,15</sup></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%204097\" onclick=\"return showCourse(this, 'COMP ENG 4097');\" title=\"COMP ENG 4097\">COMP ENG 4097</a><sup>15</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%205410\" onclick=\"return showCourse(this, 'COMP ENG 5410');\" title=\"COMP ENG 5410\">COMP ENG 5410</a><sup>3, 11, 14</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Free Elective<sup>16</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Engineering Science Elective <sup>8</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Professional Development Elective<sup>17</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Gen Ed Elective<sup>5</sup></td><td class=\"hourscol\">3</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">16</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridtotal lastrow\"><td colspan=\"4\">Total Credits: 128</td></tr></table> <dl aria-label=\"Footnotes\" class=\"sc_footnotes\"><dt> <sup> 1 </sup> </dt><dd><p class=\"noindent\">The minimum number of hours required for a degree in Computer Engineering is 128.</p></dd><dt> <sup> 2 </sup> </dt><dd><p class=\"noindent\">Students that transfer to Missouri S&amp;T after their freshman year are not required to enroll in Foundational Engineering and Computing Seminars.</p></dd><dt> <sup> 3 </sup> </dt><dd><p class=\"noindent\">A minimum grade of \"C\" must be attained in <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%202210\" onclick=\"return showCourse(this, 'COMP ENG 2210');\" title=\"COMP ENG 2210\">COMP ENG 2210</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%202211\" onclick=\"return showCourse(this, 'COMP ENG 2211');\" title=\"COMP ENG 2211\">COMP ENG 2211</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%203110\" onclick=\"return showCourse(this, 'COMP ENG 3110');\" title=\"COMP ENG 3110\">COMP ENG 3110</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%203150\" onclick=\"return showCourse(this, 'COMP ENG 3150');\" title=\"COMP ENG 3150\">COMP ENG 3150</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%204096\" onclick=\"return showCourse(this, 'COMP ENG 4096');\" title=\"COMP ENG 4096\">COMP ENG 4096</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%205410\" onclick=\"return showCourse(this, 'COMP ENG 5410');\" title=\"COMP ENG 5410\">COMP ENG 5410</a></span>, COMP ENG electives A, B, C, D and E, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201200\" onclick=\"return showCourse(this, 'COMP SCI 1200');\" title=\"COMP SCI 1200\">COMP SCI 1200</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201570\" onclick=\"return showCourse(this, 'COMP SCI 1570');\" title=\"COMP SCI 1570\">COMP SCI 1570</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201575\" onclick=\"return showCourse(this, 'COMP SCI 1575');\" title=\"COMP SCI 1575\">COMP SCI 1575</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201580\" onclick=\"return showCourse(this, 'COMP SCI 1580');\" title=\"COMP SCI 1580\">COMP SCI 1580</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%202500\" onclick=\"return showCourse(this, 'COMP SCI 2500');\" title=\"COMP SCI 2500\">COMP SCI 2500</a></span> or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%203800\" onclick=\"return showCourse(this, 'COMP SCI 3800');\" title=\"COMP SCI 3800\">COMP SCI 3800</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202100\" onclick=\"return showCourse(this, 'ELEC ENG 2100');\" title=\"ELEC ENG 2100\">ELEC ENG 2100</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202101\" onclick=\"return showCourse(this, 'ELEC ENG 2101');\" title=\"ELEC ENG 2101\">ELEC ENG 2101</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202120\" onclick=\"return showCourse(this, 'ELEC ENG 2120');\" title=\"ELEC ENG 2120\">ELEC ENG 2120</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202200\" onclick=\"return showCourse(this, 'ELEC ENG 2200');\" title=\"ELEC ENG 2200\">ELEC ENG 2200</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202201\" onclick=\"return showCourse(this, 'ELEC ENG 2201');\" title=\"ELEC ENG 2201\">ELEC ENG 2201</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%203410\" onclick=\"return showCourse(this, 'ELEC ENG 3410');\" title=\"ELEC ENG 3410\">ELEC ENG 3410</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201211\" onclick=\"return showCourse(this, 'MATH 1211');\" title=\"MATH 1211\">MATH 1211</a></span> or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201214\" onclick=\"return showCourse(this, 'MATH 1214');\" title=\"MATH 1214\">MATH 1214</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201215\" onclick=\"return showCourse(this, 'MATH 1215');\" title=\"MATH 1215\">MATH 1215</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%202222\" onclick=\"return showCourse(this, 'MATH 2222');\" title=\"MATH 2222\">MATH 2222</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%203304\" onclick=\"return showCourse(this, 'MATH 3304');\" title=\"MATH 3304\">MATH 3304</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201135\" onclick=\"return showCourse(this, 'PHYSICS 1135');\" title=\"PHYSICS 1135\">PHYSICS 1135</a></span>, and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202135\" onclick=\"return showCourse(this, 'PHYSICS 2135');\" title=\"PHYSICS 2135\">PHYSICS 2135</a></span> (or their equivalents). Also, students may not enroll in other courses that use these courses as prerequisites until the minimum grade of \"C\" is attained. </p></dd><dt> <sup> 4 </sup> </dt><dd><p class=\"noindent\">Students may take <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201111\" onclick=\"return showCourse(this, 'PHYSICS 1111');\" title=\"PHYSICS 1111\">PHYSICS 1111</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201119\" onclick=\"return showCourse(this, 'PHYSICS 1119');\" title=\"PHYSICS 1119\">PHYSICS 1119</a></span> in place of <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201135\" onclick=\"return showCourse(this, 'PHYSICS 1135');\" title=\"PHYSICS 1135\">PHYSICS 1135</a></span>. Students may take <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202111\" onclick=\"return showCourse(this, 'PHYSICS 2111');\" title=\"PHYSICS 2111\">PHYSICS 2111</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202119\" onclick=\"return showCourse(this, 'PHYSICS 2119');\" title=\"PHYSICS 2119\">PHYSICS 2119</a></span> in place of <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202135\" onclick=\"return showCourse(this, 'PHYSICS 2135');\" title=\"PHYSICS 2135\">PHYSICS 2135</a></span>.</p></dd><dt> <sup> 5 </sup> </dt><dd><p class=\"noindent\">All electives must be approved by the student's advisor. Gen. Ed. electives must fulfill the Missouri S&amp;T general education requirements applicable to the student's catalog year. These requirements are specified in the current catalog.</p></dd><dt> <sup> 6 </sup> </dt><dd><p class=\"noindent\">Students who drop a lecture course prior to the deadline to drop a class must also drop the corequisite lab course.</p></dd><dt> <sup> 7 </sup> </dt><dd><p class=\"noindent\">Students must take one of the following courses:</p> <p class=\"noindent\"><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%203108\" onclick=\"return showCourse(this, 'MATH 3108');\" title=\"MATH 3108\">MATH 3108</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%203109\" onclick=\"return showCourse(this, 'MATH 3109');\" title=\"MATH 3109\">MATH 3109</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%204096\" onclick=\"return showCourse(this, 'MATH 4096');\" title=\"MATH 4096\">MATH 4096</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%204209\" onclick=\"return showCourse(this, 'MATH 4209');\" title=\"MATH 4209\">MATH 4209</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%204211\" onclick=\"return showCourse(this, 'MATH 4211');\" title=\"MATH 4211\">MATH 4211</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%204530\" onclick=\"return showCourse(this, 'MATH 4530');\" title=\"MATH 4530\">MATH 4530</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%205105\" onclick=\"return showCourse(this, 'MATH 5105');\" title=\"MATH 5105\">MATH 5105</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%205106\" onclick=\"return showCourse(this, 'MATH 5106');\" title=\"MATH 5106\">MATH 5106</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%205107\" onclick=\"return showCourse(this, 'MATH 5107');\" title=\"MATH 5107\">MATH 5107</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%205108\" onclick=\"return showCourse(this, 'MATH 5108');\" title=\"MATH 5108\">MATH 5108</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%205154\" onclick=\"return showCourse(this, 'MATH 5154');\" title=\"MATH 5154\">MATH 5154</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%205215\" onclick=\"return showCourse(this, 'MATH 5215');\" title=\"MATH 5215\">MATH 5215</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%205222\" onclick=\"return showCourse(this, 'MATH 5222');\" title=\"MATH 5222\">MATH 5222</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%205302\" onclick=\"return showCourse(this, 'MATH 5302');\" title=\"MATH 5302\">MATH 5302</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%205325\" onclick=\"return showCourse(this, 'MATH 5325');\" title=\"MATH 5325\">MATH 5325</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%205351\" onclick=\"return showCourse(this, 'MATH 5351');\" title=\"MATH 5351\">MATH 5351</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%205483\" onclick=\"return showCourse(this, 'MATH 5483');\" title=\"MATH 5483\">MATH 5483</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%205585\" onclick=\"return showCourse(this, 'MATH 5585');\" title=\"MATH 5585\">MATH 5585</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%205603\" onclick=\"return showCourse(this, 'MATH 5603');\" title=\"MATH 5603\">MATH 5603</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%205737\" onclick=\"return showCourse(this, 'MATH 5737');\" title=\"MATH 5737\">MATH 5737</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%205346\" onclick=\"return showCourse(this, 'STAT 5346');\" title=\"STAT 5346\">STAT 5346</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%205353\" onclick=\"return showCourse(this, 'STAT 5353');\" title=\"STAT 5353\">STAT 5353</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%205644\" onclick=\"return showCourse(this, 'STAT 5644');\" title=\"STAT 5644\">STAT 5644</a></span>. </p></dd><dt> <sup> 8 </sup> </dt><dd><p class=\"noindent\">Students must take one of <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%202213\" onclick=\"return showCourse(this, 'BIO SCI 2213');\" title=\"BIO SCI 2213\">BIO SCI 2213</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%202223\" onclick=\"return showCourse(this, 'BIO SCI 2223');\" title=\"BIO SCI 2223\">BIO SCI 2223</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CER%20ENG%204240\" onclick=\"return showCourse(this, 'CER ENG 4240');\" title=\"CER ENG 4240\">CER ENG 4240</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%202210\" onclick=\"return showCourse(this, 'CHEM 2210');\" title=\"CHEM 2210\">CHEM 2210</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%202340\" onclick=\"return showCourse(this, 'MECH ENG 2340');\" title=\"MECH ENG 2340\">MECH ENG 2340</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%202519\" onclick=\"return showCourse(this, 'MECH ENG 2519');\" title=\"MECH ENG 2519\">MECH ENG 2519</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%202527\" onclick=\"return showCourse(this, 'MECH ENG 2527');\" title=\"MECH ENG 2527\">MECH ENG 2527</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=NUC%20ENG%203103\" onclick=\"return showCourse(this, 'NUC ENG 3103');\" title=\"NUC ENG 3103\">NUC ENG 3103</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=NUC%20ENG%203205\" onclick=\"return showCourse(this, 'NUC ENG 3205');\" title=\"NUC ENG 3205\">NUC ENG 3205</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202305\" onclick=\"return showCourse(this, 'PHYSICS 2305');\" title=\"PHYSICS 2305\">PHYSICS 2305</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202311\" onclick=\"return showCourse(this, 'PHYSICS 2311');\" title=\"PHYSICS 2311\">PHYSICS 2311</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202401\" onclick=\"return showCourse(this, 'PHYSICS 2401');\" title=\"PHYSICS 2401\">PHYSICS 2401</a></span>, or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%204311\" onclick=\"return showCourse(this, 'PHYSICS 4311');\" title=\"PHYSICS 4311\">PHYSICS 4311</a></span>. The following pair of courses can be substituted: <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%202200\" onclick=\"return showCourse(this, 'CIV ENG 2200');\" title=\"CIV ENG 2200\">CIV ENG 2200</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%202350\" onclick=\"return showCourse(this, 'MECH ENG 2350');\" title=\"MECH ENG 2350\">MECH ENG 2350</a></span>. </p></dd><dt> <sup> 9 </sup> </dt><dd><p class=\"noindent\">Students may replace <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%203117\" onclick=\"return showCourse(this, 'STAT 3117');\" title=\"STAT 3117\">STAT 3117</a></span> with <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%205643\" onclick=\"return showCourse(this, 'STAT 5643');\" title=\"STAT 5643\">STAT 5643</a></span>.</p></dd><dt> <sup> 10 </sup> </dt><dd><p class=\"noindent\">Students may replace <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%201185\" onclick=\"return showCourse(this, 'SP&amp;M S 1185');\" title=\"SP&amp;M S 1185\">SP&amp;M S 1185</a></span> with the ROTC sequence of <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20ARMY%204250\" onclick=\"return showCourse(this, 'MIL ARMY 4250');\" title=\"MIL ARMY 4250\">MIL ARMY 4250</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20ARMY%204500\" onclick=\"return showCourse(this, 'MIL ARMY 4500');\" title=\"MIL ARMY 4500\">MIL ARMY 4500</a></span> or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20AIR%204110\" onclick=\"return showCourse(this, 'MIL AIR 4110');\" title=\"MIL AIR 4110\">MIL AIR 4110</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20AIR%204120\" onclick=\"return showCourse(this, 'MIL AIR 4120');\" title=\"MIL AIR 4120\">MIL AIR 4120</a></span>.</p></dd><dt> <sup> 11 </sup> </dt><dd><p class=\"xxxxxxxxxxmsonormal\">COMP ENG Senior Electives A and B, respectively, must be selected from 4XXX or 5XXX courses in COMP ENG, except <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%204000\" onclick=\"return showCourse(this, 'COMP ENG 4000');\" title=\"COMP ENG 4000\">COMP ENG 4000</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%204096\" onclick=\"return showCourse(this, 'COMP ENG 4096');\" title=\"COMP ENG 4096\">COMP ENG 4096</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%204097\" onclick=\"return showCourse(this, 'COMP ENG 4097');\" title=\"COMP ENG 4097\">COMP ENG 4097</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%204099\" onclick=\"return showCourse(this, 'COMP ENG 4099');\" title=\"COMP ENG 4099\">COMP ENG 4099</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%205000\" onclick=\"return showCourse(this, 'COMP ENG 5000');\" title=\"COMP ENG 5000\">COMP ENG 5000</a></span>, and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%205099\" onclick=\"return showCourse(this, 'COMP ENG 5099');\" title=\"COMP ENG 5099\">COMP ENG 5099</a></span>. The two courses selected for electives A and B, respectively, should be from two different COMP ENG emphasis areas. The emphasis areas, with course number options, are as follows:</p> <p class=\"xxxxxxxxxxmsonormal\">Computational Intelligence: COMP ENG 53XX</p> <p class=\"xxxxxxxxxxmsonormal\">Computer Chips and Semiconductor Engineering: COMP ENG 32XX/42XX/52XX, COMP ENG 51XX, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%203100\" onclick=\"return showCourse(this, 'ELEC ENG 3100');\" title=\"ELEC ENG 3100\">ELEC ENG 3100</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%203250\" onclick=\"return showCourse(this, 'ELEC ENG 3250');\" title=\"ELEC ENG 3250\">ELEC ENG 3250</a></span></p> <p class=\"xxxxxxxxxxmsonormal\">Electronic Computer System Design: COMP ENG 51XX, ELEC ENG 36XX, ELEC ENG 56XX</p> <p class=\"xxxxxxxxxxmsonormal\">Networks and Cyber Physical Systems:  COMP ENG 44XX, COMP ENG 54XX (except <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%205410\" onclick=\"return showCourse(this, 'COMP ENG 5410');\" title=\"COMP ENG 5410\">COMP ENG 5410</a></span>), <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%205160\" onclick=\"return showCourse(this, 'ELEC ENG 5160');\" title=\"ELEC ENG 5160\">ELEC ENG 5160</a></span>, ELEC ENG 53XX</p></dd><dt> <sup> 12 </sup> </dt><dd><p class=\"xxxxxxxxxxmsonormal\">COMP ENG Senior Electives D and E must be selected from an approved list that contains most 3XXX, 4XXX and 5XXX courses in science, mathematics, and engineering except required courses in COMP ENG, ELEC ENG, and COMP SCI and except <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%203610\" onclick=\"return showCourse(this, 'COMP SCI 3610');\" title=\"COMP SCI 3610\">COMP SCI 3610</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205600\" onclick=\"return showCourse(this, 'COMP SCI 5600');\" title=\"COMP SCI 5600\">COMP SCI 5600</a></span>.</p></dd><dt> <sup> 13 </sup> </dt><dd><p class=\"noindent\">COMP ENG Electives D and E cannot include more than three hours of <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%203002\" onclick=\"return showCourse(this, 'COMP ENG 3002');\" title=\"COMP ENG 3002\">COMP ENG 3002</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%203002\" onclick=\"return showCourse(this, 'ELEC ENG 3002');\" title=\"ELEC ENG 3002\">ELEC ENG 3002</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%204000\" onclick=\"return showCourse(this, 'COMP ENG 4000');\" title=\"COMP ENG 4000\">COMP ENG 4000</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%204099\" onclick=\"return showCourse(this, 'COMP ENG 4099');\" title=\"COMP ENG 4099\">COMP ENG 4099</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%204000\" onclick=\"return showCourse(this, 'COMP SCI 4000');\" title=\"COMP SCI 4000\">COMP SCI 4000</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%204099\" onclick=\"return showCourse(this, 'COMP SCI 4099');\" title=\"COMP SCI 4099\">COMP SCI 4099</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%204000\" onclick=\"return showCourse(this, 'ELEC ENG 4000');\" title=\"ELEC ENG 4000\">ELEC ENG 4000</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%204099\" onclick=\"return showCourse(this, 'ELEC ENG 4099');\" title=\"ELEC ENG 4099\">ELEC ENG 4099</a></span>.</p></dd><dt> <sup> 14 </sup> </dt><dd><p class=\"noindent\">COMP ENG Senior Elective C must be selected from 3XXX, 4XXX or 5XXX courses in COMP ENG, ELEC ENG, or COMP SCI, except <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%203000\" onclick=\"return showCourse(this, 'COMP ENG 3000');\" title=\"COMP ENG 3000\">COMP ENG 3000</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%204000\" onclick=\"return showCourse(this, 'COMP ENG 4000');\" title=\"COMP ENG 4000\">COMP ENG 4000</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%204096\" onclick=\"return showCourse(this, 'COMP ENG 4096');\" title=\"COMP ENG 4096\">COMP ENG 4096</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%204097\" onclick=\"return showCourse(this, 'COMP ENG 4097');\" title=\"COMP ENG 4097\">COMP ENG 4097</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%204099\" onclick=\"return showCourse(this, 'COMP ENG 4099');\" title=\"COMP ENG 4099\">COMP ENG 4099</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%205000\" onclick=\"return showCourse(this, 'COMP ENG 5000');\" title=\"COMP ENG 5000\">COMP ENG 5000</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%205099\" onclick=\"return showCourse(this, 'COMP ENG 5099');\" title=\"COMP ENG 5099\">COMP ENG 5099</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%203000\" onclick=\"return showCourse(this, 'COMP SCI 3000');\" title=\"COMP SCI 3000\">COMP SCI 3000</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%204000\" onclick=\"return showCourse(this, 'COMP SCI 4000');\" title=\"COMP SCI 4000\">COMP SCI 4000</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%204096\" onclick=\"return showCourse(this, 'COMP SCI 4096');\" title=\"COMP SCI 4096\">COMP SCI 4096</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%204097\" onclick=\"return showCourse(this, 'COMP SCI 4097');\" title=\"COMP SCI 4097\">COMP SCI 4097</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%204099\" onclick=\"return showCourse(this, 'COMP SCI 4099');\" title=\"COMP SCI 4099\">COMP SCI 4099</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205000\" onclick=\"return showCourse(this, 'COMP SCI 5000');\" title=\"COMP SCI 5000\">COMP SCI 5000</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%203610\" onclick=\"return showCourse(this, 'COMP SCI 3610');\" title=\"COMP SCI 3610\">COMP SCI 3610</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%204010\" onclick=\"return showCourse(this, 'COMP SCI 4010');\" title=\"COMP SCI 4010\">COMP SCI 4010</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205099\" onclick=\"return showCourse(this, 'COMP SCI 5099');\" title=\"COMP SCI 5099\">COMP SCI 5099</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205600\" onclick=\"return showCourse(this, 'COMP SCI 5600');\" title=\"COMP SCI 5600\">COMP SCI 5600</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%203000\" onclick=\"return showCourse(this, 'ELEC ENG 3000');\" title=\"ELEC ENG 3000\">ELEC ENG 3000</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%204000\" onclick=\"return showCourse(this, 'ELEC ENG 4000');\" title=\"ELEC ENG 4000\">ELEC ENG 4000</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%204096\" onclick=\"return showCourse(this, 'ELEC ENG 4096');\" title=\"ELEC ENG 4096\">ELEC ENG 4096</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%204097\" onclick=\"return showCourse(this, 'ELEC ENG 4097');\" title=\"ELEC ENG 4097\">ELEC ENG 4097</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%204099\" onclick=\"return showCourse(this, 'ELEC ENG 4099');\" title=\"ELEC ENG 4099\">ELEC ENG 4099</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%205000\" onclick=\"return showCourse(this, 'ELEC ENG 5000');\" title=\"ELEC ENG 5000\">ELEC ENG 5000</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%205099\" onclick=\"return showCourse(this, 'ELEC ENG 5099');\" title=\"ELEC ENG 5099\">ELEC ENG 5099</a></span>. </p></dd><dt> <sup> 15 </sup> </dt><dd><p class=\"noindent\">Students pursuing dual degrees in COMP ENG and ELEC ENG may take either <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%204096\" onclick=\"return showCourse(this, 'COMP ENG 4096');\" title=\"COMP ENG 4096\">COMP ENG 4096</a></span> or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%204096\" onclick=\"return showCourse(this, 'ELEC ENG 4096');\" title=\"ELEC ENG 4096\">ELEC ENG 4096</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%204097\" onclick=\"return showCourse(this, 'COMP ENG 4097');\" title=\"COMP ENG 4097\">COMP ENG 4097</a></span> or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%204097\" onclick=\"return showCourse(this, 'ELEC ENG 4097');\" title=\"ELEC ENG 4097\">ELEC ENG 4097</a></span>. Students may not receive credit for both <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%204096\" onclick=\"return showCourse(this, 'COMP ENG 4096');\" title=\"COMP ENG 4096\">COMP ENG 4096</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%204096\" onclick=\"return showCourse(this, 'ELEC ENG 4096');\" title=\"ELEC ENG 4096\">ELEC ENG 4096</a></span> or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%204097\" onclick=\"return showCourse(this, 'COMP ENG 4097');\" title=\"COMP ENG 4097\">COMP ENG 4097</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%204097\" onclick=\"return showCourse(this, 'ELEC ENG 4097');\" title=\"ELEC ENG 4097\">ELEC ENG 4097</a></span> in the same degree program.</p></dd><dt> <sup> 16 </sup> </dt><dd><p class=\"noindent\">Students are required to take at least three credit hours. <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%204096\" onclick=\"return showCourse(this, 'COMP ENG 4096');\" title=\"COMP ENG 4096\">COMP ENG 4096</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%204097\" onclick=\"return showCourse(this, 'COMP ENG 4097');\" title=\"COMP ENG 4097\">COMP ENG 4097</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202800\" onclick=\"return showCourse(this, 'ELEC ENG 2800');\" title=\"ELEC ENG 2800\">ELEC ENG 2800</a></span>,<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%204096\" onclick=\"return showCourse(this, 'ELEC ENG 4096');\" title=\"ELEC ENG 4096\">ELEC ENG 4096</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%204097\" onclick=\"return showCourse(this, 'ELEC ENG 4097');\" title=\"ELEC ENG 4097\">ELEC ENG 4097</a></span> may not be used for free electives. No more than one credit hour of <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%203002\" onclick=\"return showCourse(this, 'COMP ENG 3002');\" title=\"COMP ENG 3002\">COMP ENG 3002</a></span> or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%203002\" onclick=\"return showCourse(this, 'ELEC ENG 3002');\" title=\"ELEC ENG 3002\">ELEC ENG 3002</a></span> may be applied to the BS degree for free electives. </p></dd><dt> <sup> 17 </sup> </dt><dd><p class=\"noindent\">Students must take one of the following courses:  <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=BUS%205980\" onclick=\"return showCourse(this, 'BUS 5980');\" title=\"BUS 5980\">BUS 5980</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%204430\" onclick=\"return showCourse(this, 'ECON 4430');\" title=\"ECON 4430\">ECON 4430</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205337\" onclick=\"return showCourse(this, 'ECON 5337');\" title=\"ECON 5337\">ECON 5337</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%202310\" onclick=\"return showCourse(this, 'ENG MGT 2310');\" title=\"ENG MGT 2310\">ENG MGT 2310</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%203320\" onclick=\"return showCourse(this, 'ENG MGT 3320');\" title=\"ENG MGT 3320\">ENG MGT 3320</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%204110\" onclick=\"return showCourse(this, 'ENG MGT 4110');\" title=\"ENG MGT 4110\">ENG MGT 4110</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205514\" onclick=\"return showCourse(this, 'ENG MGT 5514');\" title=\"ENG MGT 5514\">ENG MGT 5514</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%203225\" onclick=\"return showCourse(this, 'PHILOS 3225');\" title=\"PHILOS 3225\">PHILOS 3225</a></span>.</p></dd><dt> <sup> 18 </sup> </dt><dd><p class=\"noindent\">The course combination <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201210\" onclick=\"return showCourse(this, 'MATH 1210');\" title=\"MATH 1210\">MATH 1210</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201211\" onclick=\"return showCourse(this, 'MATH 1211');\" title=\"MATH 1211\">MATH 1211</a></span> may be taken in place of <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201214\" onclick=\"return showCourse(this, 'MATH 1214');\" title=\"MATH 1214\">MATH 1214</a></span>.</p></dd></dl> <h2>Emphasis Areas for Computer Engineering</h2> <p><span>A declared </span><span class=\"markjclsmc3b4\">emphasis</span><span class=\"markzvoh8gk07\"> area</span><span> is not required. A student may choose to obtain a Computer Engineering degree without a formal </span><span class=\"markjclsmc3b4\">emphasis</span><span> or may choose to obtain a Computer Engineering degree with a declared </span><span class=\"markjclsmc3b4\">emphasis</span><span> in one or more of the </span><span class=\"markjclsmc3b4\">emphasis</span><span class=\"markzvoh8gk07\"> area</span><span>s of computer engineering. A major change request is required to add the </span><span class=\"markjclsmc3b4\">emphasis </span><span class=\"markzvoh8gk07\">area</span><span> option to the degree program. </span></p> <p>Emphasis areas that may be declared, include: <strong>Computational Intelligence</strong>, <strong>Computer Chips and Semiconductor Engineering</strong>,<strong> Electronic Computer System Design</strong>, and <strong>Networks and Cyber Physical Systems</strong>. Note that <strong>Computational Intelligence</strong> is also a Computer Engineering emphasis area but is focused in the graduate program.</p> <p><span>For students who seek a Computer Engineering degree without a formal </span><span class=\"markjclsmc3b4\">emphasis</span><span>, these </span><span class=\"markjclsmc3b4\">emphasis </span><span class=\"markzvoh8gk07\">area</span><span>s may guide the choice of their COMP ENG Electives A, B, C, D, and E as well as their free electives. Students should consult with their advisors on such course selections. </span></p> <p><span>For students who seek a Computer Engineering degree with a declared </span><span class=\"markjclsmc3b4\">emphasis</span><span>, courses in the declared </span><span class=\"markjclsmc3b4\">emphasis</span><span class=\"markzvoh8gk07\"> area</span><span> will be applied to COMP ENG Electives A, C, and D in the degree requirements. For students who choose to have multiple </span><span class=\"markjclsmc3b4\">emphasis</span><span class=\"markzvoh8gk07\"> area</span><span>s, the additional courses will apply to COMP ENG Electives B and E and free elective requirements.  Students should seek guidance from their advisors on </span><span class=\"markjclsmc3b4\">emphasis </span><span class=\"markzvoh8gk07\">area</span><span>s and on courses that are relevant to more than one </span><span class=\"markjclsmc3b4\">emphasis </span><span class=\"markzvoh8gk07\">area</span><span>. Students may have an </span><span class=\"markjclsmc3b4\">emphasis </span><span class=\"markzvoh8gk07\">area</span><span> or </span><span class=\"markjclsmc3b4\">emphasis </span><span class=\"markzvoh8gk07\">area</span><span>s listed on their transcript by completing </span><strong>three three-credit-hour courses </strong><span>in computer engineering from the designated lists. For a single </span><span class=\"markjclsmc3b4\">emphasis </span><span class=\"markzvoh8gk07\">area</span><span>, this requirement will be satisfied by completing the relevant 4XXX-level or above course for Elective A and 3XXX-level or above courses for Electives C and D from the designated </span><span class=\"markjclsmc3b4\">emphasis </span><span class=\"markzvoh8gk07\">area</span><span> course list.  For a second </span><span class=\"markjclsmc3b4\">emphasis </span><span class=\"markzvoh8gk07\">area</span><span>, this requirement will be satisfied by completing the relevant 4XXX-level or above course for Elective B, a 3XXX-level or above course for Electives E, and a 3XXX-level or above course for the free elective from the designated second </span><span class=\"markjclsmc3b4\">emphasis </span><span class=\"markzvoh8gk07\">area</span><span> course list. Courses not on the </span><span class=\"markjclsmc3b4\">emphasis </span><span class=\"markzvoh8gk07\">area</span><span> list, including experimental courses (5001) require departmental approval to apply toward the designated </span><span class=\"markjclsmc3b4\">emphasis </span><span class=\"markzvoh8gk07\">area</span><span>. </span></p> <p><u>Computer Engineering Course List Designations</u>:</p> <table class=\"sc_courselist\" width=\"100%\"><tbody><tr class=\"even areaheader firstrow\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Computational Intelligence</span></td><td class=\"hourscol\">9</td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">COMP ENG 53XX Courses</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Computer Chips and Semiconductor Engineering</span></td><td class=\"hourscol\">9</td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">COMP ENG 32XX/42XX/52XX, COMP ENG 51XX, ELEC ENG 3100, ELEC ENG 3250</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Electronic Computer System Design</span></td><td class=\"hourscol\">9</td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">COMP ENG 51XX, ELEC ENG 36XX, ELEC ENG 56XX</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Networks and Cyber Physical Systems</span></td><td class=\"hourscol\">9</td></tr> <tr class=\"odd lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">COMP ENG 44XX, COMP ENG 54XX (except COMP ENG 5410), ELEC ENG 5160, ELEC ENG 53XX</span></td><td class=\"hourscol\"></td></tr> </tbody></table>\n</div>"
+}

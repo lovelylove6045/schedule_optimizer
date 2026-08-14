@@ -1,0 +1,93 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/chemistry/#minorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/chemistry/",
+        "fragment": "minorstext",
+        "page_slug": "chemistry",
+        "page_title": "Chemistry < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 468,
+        "html_character_count": 1879,
+        "heading_count": 1,
+        "paragraph_count": 1,
+        "list_count": 0,
+        "table_count": 0,
+        "link_count": 8,
+        "superscript_count": 0,
+        "text_sha256": "7e0a07dc91a16ec80419fa008644d7715b0a4dda6e820b13e2c1e08b0e7da8c3",
+        "html_sha256": "914e646bfe8fada849f369e2614db491e362510e24339de581ad4aec05d6c359"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Minor in Chemistry",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "CHEM 1100",
+            "href": "/search/?P=CHEM%201100",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201100",
+            "resolved_course": "CHEM 1100"
+        },
+        {
+            "number": 2,
+            "text": "CHEM 1310",
+            "href": "/search/?P=CHEM%201310",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201310",
+            "resolved_course": "CHEM 1310"
+        },
+        {
+            "number": 3,
+            "text": "CHEM 1319",
+            "href": "/search/?P=CHEM%201319",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201319",
+            "resolved_course": "CHEM 1319"
+        },
+        {
+            "number": 4,
+            "text": "CHEM 1320",
+            "href": "/search/?P=CHEM%201320",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201320",
+            "resolved_course": "CHEM 1320"
+        },
+        {
+            "number": 5,
+            "text": "CHEM 2210",
+            "href": "/search/?P=CHEM%202210",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%202210",
+            "resolved_course": "CHEM 2210"
+        },
+        {
+            "number": 6,
+            "text": "CHEM 2219",
+            "href": "/search/?P=CHEM%202219",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%202219",
+            "resolved_course": "CHEM 2219"
+        },
+        {
+            "number": 7,
+            "text": "CHEM 2289",
+            "href": "/search/?P=CHEM%202289",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%202289",
+            "resolved_course": "CHEM 2289"
+        },
+        {
+            "number": 8,
+            "text": "CHEM 1510",
+            "href": "/search/?P=CHEM%201510",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201510",
+            "resolved_course": "CHEM 1510"
+        }
+    ],
+    "tables": [],
+    "section_text": "Minor in Chemistry A minor in chemistry requires a minimum of 18 hours of chemistry course work selected in conjunction with a chemistry faculty advisor. The required courses are CHEM 1100 , CHEM 1310 , CHEM 1319 , CHEM 1320 , CHEM 2210 and either CHEM 2219 or CHEM 2289 . Five additional hours of chemistry are to be selected from CHEM 1510 or other Chem 2000, 3000, and 4000-level courses. A minimum grade of \"C\" is required for each course counted toward the minor.",
+    "section_html": "<div class=\"tab_content\" id=\"minorstextcontainer\">\n<a name=\"minorstext\"></a><h2>Minor in Chemistry</h2> <p>A minor in chemistry requires a minimum of 18 hours of chemistry course work selected in conjunction with a chemistry faculty advisor. The required courses are <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201100\" onclick=\"return showCourse(this, 'CHEM 1100');\" title=\"CHEM 1100\">CHEM 1100</a></span> , <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201310\" onclick=\"return showCourse(this, 'CHEM 1310');\" title=\"CHEM 1310\">CHEM 1310</a></span> , <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201319\" onclick=\"return showCourse(this, 'CHEM 1319');\" title=\"CHEM 1319\">CHEM 1319</a></span> , <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201320\" onclick=\"return showCourse(this, 'CHEM 1320');\" title=\"CHEM 1320\">CHEM 1320</a></span> , <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%202210\" onclick=\"return showCourse(this, 'CHEM 2210');\" title=\"CHEM 2210\">CHEM 2210</a></span> and either <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%202219\" onclick=\"return showCourse(this, 'CHEM 2219');\" title=\"CHEM 2219\">CHEM 2219</a></span> or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%202289\" onclick=\"return showCourse(this, 'CHEM 2289');\" title=\"CHEM 2289\">CHEM 2289</a></span> . Five additional hours of chemistry are to be selected from <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201510\" onclick=\"return showCourse(this, 'CHEM 1510');\" title=\"CHEM 1510\">CHEM 1510</a></span> or other Chem 2000, 3000, and 4000-level courses. A minimum grade of \"C\" is required for each course counted toward the minor.</p>\n</div>"
+}

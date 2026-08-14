@@ -1,0 +1,2579 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/engineeringmanagement/#bachelorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/engineeringmanagement/",
+        "fragment": "bachelorstext",
+        "page_slug": "engineeringmanagement",
+        "page_title": "Engineering Management < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=bachelorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 11804,
+        "html_character_count": 28270,
+        "heading_count": 10,
+        "paragraph_count": 23,
+        "list_count": 1,
+        "table_count": 5,
+        "link_count": 63,
+        "superscript_count": 26,
+        "text_sha256": "dec1bd7b36524e7401ecd4b4cbe4b0c26c6073b538ac07a504a6c5fd2b3d6144",
+        "html_sha256": "a916ffff3ac158bb6177d8f1b4b82a07f6db2385af03d7ba7ff17095065dec76"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Bachelor’s Degree Components",
+            "id": null
+        },
+        {
+            "number": 2,
+            "level": "h2",
+            "text": "Engineering Management Core",
+            "id": null
+        },
+        {
+            "number": 3,
+            "level": "h2",
+            "text": "Emphasis Areas in Engineering Management",
+            "id": null
+        },
+        {
+            "number": 4,
+            "level": "h2",
+            "text": "Bachelor of Science Engineering Management",
+            "id": null
+        },
+        {
+            "number": 5,
+            "level": "h2",
+            "text": "Example Emphasis Area Programs for Engineering Management Students",
+            "id": null
+        },
+        {
+            "number": 6,
+            "level": "h3",
+            "text": "Management of Technology",
+            "id": null
+        },
+        {
+            "number": 7,
+            "level": "h3",
+            "text": "Industrial Engineering",
+            "id": null
+        },
+        {
+            "number": 8,
+            "level": "h3",
+            "text": "ROTC",
+            "id": null
+        },
+        {
+            "number": 9,
+            "level": "h3",
+            "text": "General",
+            "id": null
+        },
+        {
+            "number": 10,
+            "level": "h3",
+            "text": "Accelerated BS/MS Program Option for Engineering Management",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "CHEM 1100",
+            "href": "/search/?P=CHEM%201100",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201100",
+            "resolved_course": "CHEM 1100"
+        },
+        {
+            "number": 2,
+            "text": "HISTORY 1200",
+            "href": "/search/?P=HISTORY%201200",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201200",
+            "resolved_course": "HISTORY 1200"
+        },
+        {
+            "number": 3,
+            "text": "1300",
+            "href": "/search/?P=HISTORY%201300",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201300",
+            "resolved_course": "HISTORY 1300"
+        },
+        {
+            "number": 4,
+            "text": "1310",
+            "href": "/search/?P=HISTORY%201310",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201310",
+            "resolved_course": "HISTORY 1310"
+        },
+        {
+            "number": 5,
+            "text": "POL SCI 1200",
+            "href": "/search/?P=POL%20SCI%201200",
+            "url": "https://catalog.mst.edu/search/?P=POL%20SCI%201200",
+            "resolved_course": "POL SCI 1200"
+        },
+        {
+            "number": 6,
+            "text": "CHEM 1305",
+            "href": "/search/?P=CHEM%201305",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201305",
+            "resolved_course": "CHEM 1305"
+        },
+        {
+            "number": 7,
+            "text": "1310",
+            "href": "/search/?P=CHEM%201310",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201310",
+            "resolved_course": "CHEM 1310"
+        },
+        {
+            "number": 8,
+            "text": "MATH 1215",
+            "href": "/search/?P=MATH%201215",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201215",
+            "resolved_course": "MATH 1215"
+        },
+        {
+            "number": 9,
+            "text": "CHEM 1319",
+            "href": "/search/?P=CHEM%201319",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201319",
+            "resolved_course": "CHEM 1319"
+        },
+        {
+            "number": 10,
+            "text": "MECH ENG 1720",
+            "href": "/search/?P=MECH%20ENG%201720",
+            "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%201720",
+            "resolved_course": "MECH ENG 1720"
+        },
+        {
+            "number": 11,
+            "text": "ENGLISH 1120",
+            "href": "/search/?P=ENGLISH%201120",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201120",
+            "resolved_course": "ENGLISH 1120"
+        },
+        {
+            "number": 12,
+            "text": "PHYSICS 1135",
+            "href": "/search/?P=PHYSICS%201135",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%201135",
+            "resolved_course": "PHYSICS 1135"
+        },
+        {
+            "number": 13,
+            "text": "FR ENG 1100",
+            "href": "/search/?P=FR%20ENG%201100",
+            "url": "https://catalog.mst.edu/search/?P=FR%20ENG%201100",
+            "resolved_course": "FR ENG 1100"
+        },
+        {
+            "number": 14,
+            "text": "MATH 1214",
+            "href": "/search/?P=MATH%201214",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201214",
+            "resolved_course": "MATH 1214"
+        },
+        {
+            "number": 15,
+            "text": "1211",
+            "href": "/search/?P=MATH%201211",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201211",
+            "resolved_course": "MATH 1211"
+        },
+        {
+            "number": 16,
+            "text": "CIV ENG 2200",
+            "href": "/search/?P=CIV%20ENG%202200",
+            "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%202200",
+            "resolved_course": "CIV ENG 2200"
+        },
+        {
+            "number": 17,
+            "text": "ENG MGT 2110",
+            "href": "/search/?P=ENG%20MGT%202110",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%202110",
+            "resolved_course": "ENG MGT 2110"
+        },
+        {
+            "number": 18,
+            "text": "ENG MGT 1210",
+            "href": "/search/?P=ENG%20MGT%201210",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%201210",
+            "resolved_course": "ENG MGT 1210"
+        },
+        {
+            "number": 19,
+            "text": "ENG MGT 2211",
+            "href": "/search/?P=ENG%20MGT%202211",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%202211",
+            "resolved_course": "ENG MGT 2211"
+        },
+        {
+            "number": 20,
+            "text": "ENG MGT 2310",
+            "href": "/search/?P=ENG%20MGT%202310",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%202310",
+            "resolved_course": "ENG MGT 2310"
+        },
+        {
+            "number": 21,
+            "text": "MATH 3304",
+            "href": "/search/?P=MATH%203304",
+            "url": "https://catalog.mst.edu/search/?P=MATH%203304",
+            "resolved_course": "MATH 3304"
+        },
+        {
+            "number": 22,
+            "text": "MATH 2222",
+            "href": "/search/?P=MATH%202222",
+            "url": "https://catalog.mst.edu/search/?P=MATH%202222",
+            "resolved_course": "MATH 2222"
+        },
+        {
+            "number": 23,
+            "text": "PHYSICS 2135",
+            "href": "/search/?P=PHYSICS%202135",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202135",
+            "resolved_course": "PHYSICS 2135"
+        },
+        {
+            "number": 24,
+            "text": "STAT 3117",
+            "href": "/search/?P=STAT%203117",
+            "url": "https://catalog.mst.edu/search/?P=STAT%203117",
+            "resolved_course": "STAT 3117"
+        },
+        {
+            "number": 25,
+            "text": "3113",
+            "href": "/search/?P=STAT%203113",
+            "url": "https://catalog.mst.edu/search/?P=STAT%203113",
+            "resolved_course": "STAT 3113"
+        },
+        {
+            "number": 26,
+            "text": "CIV ENG 2210",
+            "href": "/search/?P=CIV%20ENG%202210",
+            "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%202210",
+            "resolved_course": "CIV ENG 2210"
+        },
+        {
+            "number": 27,
+            "text": "ENGLISH 3560",
+            "href": "/search/?P=ENGLISH%203560",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%203560",
+            "resolved_course": "ENGLISH 3560"
+        },
+        {
+            "number": 28,
+            "text": "1160",
+            "href": "/search/?P=ENGLISH%201160",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201160",
+            "resolved_course": "ENGLISH 1160"
+        },
+        {
+            "number": 29,
+            "text": "ENG MGT 3310",
+            "href": "/search/?P=ENG%20MGT%203310",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%203310",
+            "resolved_course": "ENG MGT 3310"
+        },
+        {
+            "number": 30,
+            "text": "ENG MGT 3320",
+            "href": "/search/?P=ENG%20MGT%203320",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%203320",
+            "resolved_course": "ENG MGT 3320"
+        },
+        {
+            "number": 31,
+            "text": "ENG MGT 3510",
+            "href": "/search/?P=ENG%20MGT%203510",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%203510",
+            "resolved_course": "ENG MGT 3510"
+        },
+        {
+            "number": 32,
+            "text": "ENG MGT 4710",
+            "href": "/search/?P=ENG%20MGT%204710",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%204710",
+            "resolved_course": "ENG MGT 4710"
+        },
+        {
+            "number": 33,
+            "text": "PSYCH 1101",
+            "href": "/search/?P=PSYCH%201101",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%201101",
+            "resolved_course": "PSYCH 1101"
+        },
+        {
+            "number": 34,
+            "text": "SP&M S 1185",
+            "href": "/search/?P=SP%26M%20S%201185",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%201185",
+            "resolved_course": "SP&M S 1185"
+        },
+        {
+            "number": 35,
+            "text": "MECH ENG 2350",
+            "href": "/search/?P=MECH%20ENG%202350",
+            "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%202350",
+            "resolved_course": "MECH ENG 2350"
+        },
+        {
+            "number": 36,
+            "text": "MECH ENG 2527",
+            "href": "/search/?P=MECH%20ENG%202527",
+            "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%202527",
+            "resolved_course": "MECH ENG 2527"
+        },
+        {
+            "number": 37,
+            "text": "ELEC ENG 2800",
+            "href": "/search/?P=ELEC%20ENG%202800",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202800",
+            "resolved_course": "ELEC ENG 2800"
+        },
+        {
+            "number": 38,
+            "text": "ENG MGT 4907",
+            "href": "/search/?P=ENG%20MGT%204907",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%204907",
+            "resolved_course": "ENG MGT 4907"
+        },
+        {
+            "number": 39,
+            "text": "ENG MGT 4110",
+            "href": "/search/?P=ENG%20MGT%204110",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%204110",
+            "resolved_course": "ENG MGT 4110"
+        },
+        {
+            "number": 40,
+            "text": "ENG MGT 5410",
+            "href": "/search/?P=ENG%20MGT%205410",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205410",
+            "resolved_course": "ENG MGT 5410"
+        },
+        {
+            "number": 41,
+            "text": "ENG MGT 5511",
+            "href": "/search/?P=ENG%20MGT%205511",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205511",
+            "resolved_course": "ENG MGT 5511"
+        },
+        {
+            "number": 42,
+            "text": "ENG MGT 5512",
+            "href": "/search/?P=ENG%20MGT%205512",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205512",
+            "resolved_course": "ENG MGT 5512"
+        },
+        {
+            "number": 43,
+            "text": "ENG MGT 5614",
+            "href": "/search/?P=ENG%20MGT%205614",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205614",
+            "resolved_course": "ENG MGT 5614"
+        },
+        {
+            "number": 44,
+            "text": "ENG MGT 4310",
+            "href": "/search/?P=ENG%20MGT%204310",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%204310",
+            "resolved_course": "ENG MGT 4310"
+        },
+        {
+            "number": 45,
+            "text": "ENG MGT 4330",
+            "href": "/search/?P=ENG%20MGT%204330",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%204330",
+            "resolved_course": "ENG MGT 4330"
+        },
+        {
+            "number": 46,
+            "text": "ENG MGT 5410",
+            "href": "/search/?P=ENG%20MGT%205410",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205410",
+            "resolved_course": "ENG MGT 5410"
+        },
+        {
+            "number": 47,
+            "text": "ENG MGT 5414",
+            "href": "/search/?P=ENG%20MGT%205414",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205414",
+            "resolved_course": "ENG MGT 5414"
+        },
+        {
+            "number": 48,
+            "text": "MIL ARMY 3250",
+            "href": "/search/?P=MIL%20ARMY%203250",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20ARMY%203250",
+            "resolved_course": "MIL ARMY 3250"
+        },
+        {
+            "number": 49,
+            "text": "MIL AIR 3110",
+            "href": "/search/?P=MIL%20AIR%203110",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20AIR%203110",
+            "resolved_course": "MIL AIR 3110"
+        },
+        {
+            "number": 50,
+            "text": "MIL ARMY 3500",
+            "href": "/search/?P=MIL%20ARMY%203500",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20ARMY%203500",
+            "resolved_course": "MIL ARMY 3500"
+        },
+        {
+            "number": 51,
+            "text": "MIL AIR 3120",
+            "href": "/search/?P=MIL%20AIR%203120",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20AIR%203120",
+            "resolved_course": "MIL AIR 3120"
+        },
+        {
+            "number": 52,
+            "text": "MIL ARMY 4250",
+            "href": "/search/?P=MIL%20ARMY%204250",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20ARMY%204250",
+            "resolved_course": "MIL ARMY 4250"
+        },
+        {
+            "number": 53,
+            "text": "MIL AIR 4110",
+            "href": "/search/?P=MIL%20AIR%204110",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20AIR%204110",
+            "resolved_course": "MIL AIR 4110"
+        },
+        {
+            "number": 54,
+            "text": "MIL ARMY 4500",
+            "href": "/search/?P=MIL%20ARMY%204500",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20ARMY%204500",
+            "resolved_course": "MIL ARMY 4500"
+        },
+        {
+            "number": 55,
+            "text": "MIL AIR 4120",
+            "href": "/search/?P=MIL%20AIR%204120",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20AIR%204120",
+            "resolved_course": "MIL AIR 4120"
+        },
+        {
+            "number": 56,
+            "text": "COMP SCI 1971",
+            "href": "/search/?P=COMP%20SCI%201971",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201971",
+            "resolved_course": "COMP SCI 1971"
+        },
+        {
+            "number": 57,
+            "text": "COMP SCI 1981",
+            "href": "/search/?P=COMP%20SCI%201981",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201981",
+            "resolved_course": "COMP SCI 1981"
+        },
+        {
+            "number": 58,
+            "text": "COMP SCI 1972",
+            "href": "/search/?P=COMP%20SCI%201972",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201972",
+            "resolved_course": "COMP SCI 1972"
+        },
+        {
+            "number": 59,
+            "text": "COMP SCI 1982",
+            "href": "/search/?P=COMP%20SCI%201982",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201982",
+            "resolved_course": "COMP SCI 1982"
+        },
+        {
+            "number": 60,
+            "text": "COMP SCI 1570",
+            "href": "/search/?P=COMP%20SCI%201570",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201570",
+            "resolved_course": "COMP SCI 1570"
+        },
+        {
+            "number": 61,
+            "text": "COMP SCI 1580",
+            "href": "/search/?P=COMP%20SCI%201580",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201580",
+            "resolved_course": "COMP SCI 1580"
+        },
+        {
+            "number": 62,
+            "text": "COMP SCI 1570",
+            "href": "/search/?P=COMP%20SCI%201570",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201570",
+            "resolved_course": "COMP SCI 1570"
+        },
+        {
+            "number": 63,
+            "text": "COMP SCI 1580",
+            "href": "/search/?P=COMP%20SCI%201580",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201580",
+            "resolved_course": "COMP SCI 1580"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "Freshman Year First Semester Credits Second Semester Credits CHEM 1100 1 HISTORY 1200 , or 1300 , or 1310 , or POL SCI 1200 3 CHEM 1305 or 1310 4 MATH 1215 4 CHEM 1319 1 MECH ENG 1720 3 ENGLISH 1120 3 PHYSICS 1135 1 4 FR ENG 1100 1 MATH 1214 or 1211 1 4 14 14 Sophomore Year First Semester Credits Second Semester Credits CIV ENG 2200 1 3 ENG MGT 2110 1 3 ENG MGT 1210 1 2 ENG MGT 2211 1 3 ENG MGT 2310 1 3 MATH 3304 1 3 MATH 2222 1 4 Programming Elective 3 3 PHYSICS 2135 1 4 STAT 3117 or 3113 1 3 16 15 Junior Year First Semester Credits Second Semester Credits CIV ENG 2210 3 ENGLISH 3560 or 1160 3 ENG MGT 3310 1 3 ENG MGT 3320 1 3 ENG MGT 3510 1 3 ENG MGT 4710 1 3 PSYCH 1101 3 General Education Elective 2 3 SP&M S 1185 4 3 MECH ENG 2350 2 MECH ENG 2527 3 15 17 Senior Year First Semester Credits Second Semester Credits ELEC ENG 2800 3 Emphasis Area Required Course 3 Emphasis Area Required Course 3 Emphasis Area Required Course 3 Emphasis Area Required Course 3 ENG MGT 4907 1 3 ENG MGT 4110 1 3 ENG MGT Technical Elective 3 General Education Elective 2 3 General Education Elective 2 3 15 15 Total Credits: 121",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Freshman Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CHEM 1100",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CHEM 1100",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%201100",
+                                    "resolved_course": "CHEM 1100"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "HISTORY 1200 , or 1300 , or 1310 , or POL SCI 1200",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "HISTORY 1200",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201200",
+                                    "resolved_course": "HISTORY 1200"
+                                },
+                                {
+                                    "text": "1300",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201300",
+                                    "resolved_course": "HISTORY 1300"
+                                },
+                                {
+                                    "text": "1310",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201310",
+                                    "resolved_course": "HISTORY 1310"
+                                },
+                                {
+                                    "text": "POL SCI 1200",
+                                    "url": "https://catalog.mst.edu/search/?P=POL%20SCI%201200",
+                                    "resolved_course": "POL SCI 1200"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CHEM 1305 or 1310",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CHEM 1305",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%201305",
+                                    "resolved_course": "CHEM 1305"
+                                },
+                                {
+                                    "text": "1310",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%201310",
+                                    "resolved_course": "CHEM 1310"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MATH 1215",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 1215",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201215",
+                                    "resolved_course": "MATH 1215"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CHEM 1319",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CHEM 1319",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%201319",
+                                    "resolved_course": "CHEM 1319"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MECH ENG 1720",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MECH ENG 1720",
+                                    "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%201720",
+                                    "resolved_course": "MECH ENG 1720"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENGLISH 1120",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENGLISH 1120",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%201120",
+                                    "resolved_course": "ENGLISH 1120"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "PHYSICS 1135 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 1135",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%201135",
+                                    "resolved_course": "PHYSICS 1135"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "FR ENG 1100",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "FR ENG 1100",
+                                    "url": "https://catalog.mst.edu/search/?P=FR%20ENG%201100",
+                                    "resolved_course": "FR ENG 1100"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MATH 1214 or 1211 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 1214",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201214",
+                                    "resolved_course": "MATH 1214"
+                                },
+                                {
+                                    "text": "1211",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201211",
+                                    "resolved_course": "MATH 1211"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "14",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "14",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 10,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Sophomore Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 11,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 12,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CIV ENG 2200 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CIV ENG 2200",
+                                    "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%202200",
+                                    "resolved_course": "CIV ENG 2200"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "ENG MGT 2110 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 2110",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%202110",
+                                    "resolved_course": "ENG MGT 2110"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 13,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 1210 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 1210",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%201210",
+                                    "resolved_course": "ENG MGT 1210"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "ENG MGT 2211 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 2211",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%202211",
+                                    "resolved_course": "ENG MGT 2211"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 14,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 2310 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 2310",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%202310",
+                                    "resolved_course": "ENG MGT 2310"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MATH 3304 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 3304",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%203304",
+                                    "resolved_course": "MATH 3304"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 15,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MATH 2222 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 2222",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%202222",
+                                    "resolved_course": "MATH 2222"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Programming Elective 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 16,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHYSICS 2135 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 2135",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%202135",
+                                    "resolved_course": "PHYSICS 2135"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "STAT 3117 or 3113 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "STAT 3117",
+                                    "url": "https://catalog.mst.edu/search/?P=STAT%203117",
+                                    "resolved_course": "STAT 3117"
+                                },
+                                {
+                                    "text": "3113",
+                                    "url": "https://catalog.mst.edu/search/?P=STAT%203113",
+                                    "resolved_course": "STAT 3113"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 17,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "16",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 18,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Junior Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 19,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 20,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CIV ENG 2210",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CIV ENG 2210",
+                                    "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%202210",
+                                    "resolved_course": "CIV ENG 2210"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "ENGLISH 3560 or 1160",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENGLISH 3560",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%203560",
+                                    "resolved_course": "ENGLISH 3560"
+                                },
+                                {
+                                    "text": "1160",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%201160",
+                                    "resolved_course": "ENGLISH 1160"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 21,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 3310 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 3310",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%203310",
+                                    "resolved_course": "ENG MGT 3310"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "ENG MGT 3320 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 3320",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%203320",
+                                    "resolved_course": "ENG MGT 3320"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 22,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 3510 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 3510",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%203510",
+                                    "resolved_course": "ENG MGT 3510"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "ENG MGT 4710 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 4710",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%204710",
+                                    "resolved_course": "ENG MGT 4710"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 23,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 1101",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 1101",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%201101",
+                                    "resolved_course": "PSYCH 1101"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "General Education Elective 2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 24,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 1185 4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 1185",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%201185",
+                                    "resolved_course": "SP&M S 1185"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MECH ENG 2350",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MECH ENG 2350",
+                                    "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%202350",
+                                    "resolved_course": "MECH ENG 2350"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 25,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "MECH ENG 2527",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MECH ENG 2527",
+                                    "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%202527",
+                                    "resolved_course": "MECH ENG 2527"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 26,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "17",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 27,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Senior Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 28,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 29,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ELEC ENG 2800",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ELEC ENG 2800",
+                                    "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202800",
+                                    "resolved_course": "ELEC ENG 2800"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Emphasis Area Required Course",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 30,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Emphasis Area Required Course",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Emphasis Area Required Course",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 31,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Emphasis Area Required Course",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "ENG MGT 4907 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 4907",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%204907",
+                                    "resolved_course": "ENG MGT 4907"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 32,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 4110 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 4110",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%204110",
+                                    "resolved_course": "ENG MGT 4110"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "ENG MGT Technical Elective",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 33,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "General Education Elective 2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "General Education Elective 2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 34,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 35,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Total Credits: 121",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_plangrid\"><tr class=\"plangridyear firstrow\"><th colspan=\"4\">Freshman Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201100\" onclick=\"return showCourse(this, 'CHEM 1100');\" title=\"CHEM 1100\">CHEM 1100</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201200\" onclick=\"return showCourse(this, 'HISTORY 1200');\" title=\"HISTORY 1200\">HISTORY 1200</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201300\" onclick=\"return showCourse(this, 'HISTORY 1300');\" title=\"HISTORY 1300\"> 1300</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201310\" onclick=\"return showCourse(this, 'HISTORY 1310');\" title=\"HISTORY 1310\"> 1310</a>, or <a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%201200\" onclick=\"return showCourse(this, 'POL SCI 1200');\" title=\"POL SCI 1200\">POL SCI  1200</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201305\" onclick=\"return showCourse(this, 'CHEM 1305');\" title=\"CHEM 1305\">CHEM 1305</a> or <a class=\"bubblelink code\" href=\"/search/?P=CHEM%201310\" onclick=\"return showCourse(this, 'CHEM 1310');\" title=\"CHEM 1310\"> 1310</a></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201215\" onclick=\"return showCourse(this, 'MATH 1215');\" title=\"MATH 1215\">MATH 1215</a></td><td class=\"hourscol\">4</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201319\" onclick=\"return showCourse(this, 'CHEM 1319');\" title=\"CHEM 1319\">CHEM 1319</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%201720\" onclick=\"return showCourse(this, 'MECH ENG 1720');\" title=\"MECH ENG 1720\">MECH ENG 1720</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201120\" onclick=\"return showCourse(this, 'ENGLISH 1120');\" title=\"ENGLISH 1120\">ENGLISH 1120</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201135\" onclick=\"return showCourse(this, 'PHYSICS 1135');\" title=\"PHYSICS 1135\">PHYSICS 1135</a><sup>1</sup></td><td class=\"hourscol\">4</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=FR%20ENG%201100\" onclick=\"return showCourse(this, 'FR ENG 1100');\" title=\"FR ENG 1100\">FR ENG 1100</a></td><td class=\"hourscol\">1</td><td colspan=\"2\"> </td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201214\" onclick=\"return showCourse(this, 'MATH 1214');\" title=\"MATH 1214\">MATH 1214</a> or <a class=\"bubblelink code\" href=\"/search/?P=MATH%201211\" onclick=\"return showCourse(this, 'MATH 1211');\" title=\"MATH 1211\"> 1211</a><sup>1</sup></td><td class=\"hourscol\">4</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">14</td><td> </td><td class=\"hourscol\">14</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Sophomore Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%202200\" onclick=\"return showCourse(this, 'CIV ENG 2200');\" title=\"CIV ENG 2200\">CIV ENG 2200</a><sup>1</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%202110\" onclick=\"return showCourse(this, 'ENG MGT 2110');\" title=\"ENG MGT 2110\">ENG MGT 2110</a><sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%201210\" onclick=\"return showCourse(this, 'ENG MGT 1210');\" title=\"ENG MGT 1210\">ENG MGT 1210</a><sup>1</sup></td><td class=\"hourscol\">2</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%202211\" onclick=\"return showCourse(this, 'ENG MGT 2211');\" title=\"ENG MGT 2211\">ENG MGT 2211</a><sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%202310\" onclick=\"return showCourse(this, 'ENG MGT 2310');\" title=\"ENG MGT 2310\">ENG MGT 2310</a><sup>1</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%203304\" onclick=\"return showCourse(this, 'MATH 3304');\" title=\"MATH 3304\">MATH 3304</a><sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%202222\" onclick=\"return showCourse(this, 'MATH 2222');\" title=\"MATH 2222\">MATH 2222</a><sup>1</sup></td><td class=\"hourscol\">4</td><td class=\"codecol\">Programming Elective<sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202135\" onclick=\"return showCourse(this, 'PHYSICS 2135');\" title=\"PHYSICS 2135\">PHYSICS 2135</a><sup>1</sup></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%203117\" onclick=\"return showCourse(this, 'STAT 3117');\" title=\"STAT 3117\">STAT 3117</a> or <a class=\"bubblelink code\" href=\"/search/?P=STAT%203113\" onclick=\"return showCourse(this, 'STAT 3113');\" title=\"STAT 3113\"> 3113</a><sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">16</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Junior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%202210\" onclick=\"return showCourse(this, 'CIV ENG 2210');\" title=\"CIV ENG 2210\">CIV ENG 2210</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%203560\" onclick=\"return showCourse(this, 'ENGLISH 3560');\" title=\"ENGLISH 3560\">ENGLISH 3560</a> or <a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201160\" onclick=\"return showCourse(this, 'ENGLISH 1160');\" title=\"ENGLISH 1160\"> 1160</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%203310\" onclick=\"return showCourse(this, 'ENG MGT 3310');\" title=\"ENG MGT 3310\">ENG MGT 3310</a><sup>1</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%203320\" onclick=\"return showCourse(this, 'ENG MGT 3320');\" title=\"ENG MGT 3320\">ENG MGT 3320</a><sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%203510\" onclick=\"return showCourse(this, 'ENG MGT 3510');\" title=\"ENG MGT 3510\">ENG MGT 3510</a><sup>1</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%204710\" onclick=\"return showCourse(this, 'ENG MGT 4710');\" title=\"ENG MGT 4710\">ENG MGT 4710</a><sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%201101\" onclick=\"return showCourse(this, 'PSYCH 1101');\" title=\"PSYCH 1101\">PSYCH 1101</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">General Education Elective<sup>2</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%201185\" onclick=\"return showCourse(this, 'SP&amp;M S 1185');\" title=\"SP&amp;M S 1185\">SP&amp;M S 1185</a><sup>4</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%202350\" onclick=\"return showCourse(this, 'MECH ENG 2350');\" title=\"MECH ENG 2350\">MECH ENG 2350</a></td><td class=\"hourscol\">2</td></tr><tr class=\"odd\"> <td colspan=\"2\"> </td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%202527\" onclick=\"return showCourse(this, 'MECH ENG 2527');\" title=\"MECH ENG 2527\">MECH ENG 2527</a></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">17</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Senior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202800\" onclick=\"return showCourse(this, 'ELEC ENG 2800');\" title=\"ELEC ENG 2800\">ELEC ENG 2800</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">Emphasis Area Required Course</td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Emphasis Area Required Course</td><td class=\"hourscol\">3</td><td class=\"codecol\">Emphasis Area Required Course</td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Emphasis Area Required Course</td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%204907\" onclick=\"return showCourse(this, 'ENG MGT 4907');\" title=\"ENG MGT 4907\">ENG MGT 4907</a><sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%204110\" onclick=\"return showCourse(this, 'ENG MGT 4110');\" title=\"ENG MGT 4110\">ENG MGT 4110</a><sup>1</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">ENG MGT Technical Elective</td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">General Education Elective<sup>2</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">General Education Elective<sup>2</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridtotal lastrow\"><td colspan=\"4\">Total Credits: 121</td></tr></table>"
+        },
+        {
+            "table_number": 2,
+            "text": "ENG MGT 5410 Industrial System Simulation 3 ENG MGT 5511 Technical Entrepreneurship 3 ENG MGT 5512 Legal Environment 3 ENG MGT 5614 Supply Chain Management Systems 3 ENG MGT Technical Elective (in consultation with your advisor) 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 5410",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 5410",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205410",
+                                    "resolved_course": "ENG MGT 5410"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Industrial System Simulation",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 5511",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 5511",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205511",
+                                    "resolved_course": "ENG MGT 5511"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Technical Entrepreneurship",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 5512",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 5512",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205512",
+                                    "resolved_course": "ENG MGT 5512"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Legal Environment",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 5614",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 5614",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205614",
+                                    "resolved_course": "ENG MGT 5614"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Supply Chain Management Systems",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT Technical Elective (in consultation with your advisor)",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205410\" onclick=\"return showCourse(this, 'ENG MGT 5410');\" title=\"ENG MGT 5410\">ENG MGT 5410</a></td><td>Industrial System Simulation</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205511\" onclick=\"return showCourse(this, 'ENG MGT 5511');\" title=\"ENG MGT 5511\">ENG MGT 5511</a></td><td>Technical Entrepreneurship</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205512\" onclick=\"return showCourse(this, 'ENG MGT 5512');\" title=\"ENG MGT 5512\">ENG MGT 5512</a></td><td>Legal Environment</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205614\" onclick=\"return showCourse(this, 'ENG MGT 5614');\" title=\"ENG MGT 5614\">ENG MGT 5614</a></td><td>Supply Chain Management Systems</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">ENG MGT Technical Elective (in consultation with your advisor)</span></td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        },
+        {
+            "table_number": 3,
+            "text": "ENG MGT 4310 Materials Handling and Plant Layout 3 ENG MGT 4330 Human Factors 3 ENG MGT 5410 Industrial System Simulation 3 ENG MGT 5414 Introduction To Operations Research 3 ENG MGT Technical Elective (in consultation with your advisor) 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 4310",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 4310",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%204310",
+                                    "resolved_course": "ENG MGT 4310"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Materials Handling and Plant Layout",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 4330",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 4330",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%204330",
+                                    "resolved_course": "ENG MGT 4330"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Human Factors",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 5410",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 5410",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205410",
+                                    "resolved_course": "ENG MGT 5410"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Industrial System Simulation",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 5414",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 5414",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205414",
+                                    "resolved_course": "ENG MGT 5414"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Introduction To Operations Research",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT Technical Elective (in consultation with your advisor)",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%204310\" onclick=\"return showCourse(this, 'ENG MGT 4310');\" title=\"ENG MGT 4310\">ENG MGT 4310</a></td><td>Materials Handling and Plant Layout</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%204330\" onclick=\"return showCourse(this, 'ENG MGT 4330');\" title=\"ENG MGT 4330\">ENG MGT 4330</a></td><td>Human Factors</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205410\" onclick=\"return showCourse(this, 'ENG MGT 5410');\" title=\"ENG MGT 5410\">ENG MGT 5410</a></td><td>Industrial System Simulation</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205414\" onclick=\"return showCourse(this, 'ENG MGT 5414');\" title=\"ENG MGT 5414\">ENG MGT 5414</a></td><td>Introduction To Operations Research</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">ENG MGT Technical Elective (in consultation with your advisor)</span></td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        },
+        {
+            "table_number": 4,
+            "text": "ENG MGT Technical Elective (in consultation with advisor) 3 MIL ARMY 3250 Adaptive Tactical Leadership 3 or MIL AIR 3110 Leading People & Effective Communication I MIL ARMY 3500 Leadership in Changing Environments 3 or MIL AIR 3120 Leading People & Effective Communication II MIL ARMY 4250 Developing Adaptive Leaders 3 or MIL AIR 4110 National Security, Leadership Responsibilities & Commissioning Preparation I MIL ARMY 4500 Leadership in a Complex World 3 or MIL AIR 4120 National Security, Leadership Responsibilities & Commissioning Preparation II",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT Technical Elective (in consultation with advisor)",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MIL ARMY 3250",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MIL ARMY 3250",
+                                    "url": "https://catalog.mst.edu/search/?P=MIL%20ARMY%203250",
+                                    "resolved_course": "MIL ARMY 3250"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Adaptive Tactical Leadership",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "or MIL AIR 3110",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MIL AIR 3110",
+                                    "url": "https://catalog.mst.edu/search/?P=MIL%20AIR%203110",
+                                    "resolved_course": "MIL AIR 3110"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Leading People & Effective Communication I",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MIL ARMY 3500",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MIL ARMY 3500",
+                                    "url": "https://catalog.mst.edu/search/?P=MIL%20ARMY%203500",
+                                    "resolved_course": "MIL ARMY 3500"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Leadership in Changing Environments",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "or MIL AIR 3120",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MIL AIR 3120",
+                                    "url": "https://catalog.mst.edu/search/?P=MIL%20AIR%203120",
+                                    "resolved_course": "MIL AIR 3120"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Leading People & Effective Communication II",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MIL ARMY 4250",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MIL ARMY 4250",
+                                    "url": "https://catalog.mst.edu/search/?P=MIL%20ARMY%204250",
+                                    "resolved_course": "MIL ARMY 4250"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Developing Adaptive Leaders",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "or MIL AIR 4110",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MIL AIR 4110",
+                                    "url": "https://catalog.mst.edu/search/?P=MIL%20AIR%204110",
+                                    "resolved_course": "MIL AIR 4110"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "National Security, Leadership Responsibilities & Commissioning Preparation I",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MIL ARMY 4500",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MIL ARMY 4500",
+                                    "url": "https://catalog.mst.edu/search/?P=MIL%20ARMY%204500",
+                                    "resolved_course": "MIL ARMY 4500"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Leadership in a Complex World",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "or MIL AIR 4120",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MIL AIR 4120",
+                                    "url": "https://catalog.mst.edu/search/?P=MIL%20AIR%204120",
+                                    "resolved_course": "MIL AIR 4120"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "National Security, Leadership Responsibilities & Commissioning Preparation II",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td colspan=\"2\"><span class=\"courselistcomment\">ENG MGT Technical Elective (in consultation with advisor)</span></td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20ARMY%203250\" onclick=\"return showCourse(this, 'MIL ARMY 3250');\" title=\"MIL ARMY 3250\">MIL ARMY 3250</a></td><td>Adaptive Tactical Leadership</td><td class=\"hourscol\">3</td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=MIL%20AIR%203110\" onclick=\"return showCourse(this, 'MIL AIR 3110');\" title=\"MIL AIR 3110\">MIL AIR 3110</a></td><td colspan=\"2\"> Leading People &amp; Effective Communication I</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20ARMY%203500\" onclick=\"return showCourse(this, 'MIL ARMY 3500');\" title=\"MIL ARMY 3500\">MIL ARMY 3500</a></td><td>Leadership in Changing Environments</td><td class=\"hourscol\">3</td></tr> <tr class=\"orclass even\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=MIL%20AIR%203120\" onclick=\"return showCourse(this, 'MIL AIR 3120');\" title=\"MIL AIR 3120\">MIL AIR 3120</a></td><td colspan=\"2\"> Leading People &amp; Effective Communication II</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20ARMY%204250\" onclick=\"return showCourse(this, 'MIL ARMY 4250');\" title=\"MIL ARMY 4250\">MIL ARMY 4250</a></td><td>Developing Adaptive Leaders</td><td class=\"hourscol\">3</td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=MIL%20AIR%204110\" onclick=\"return showCourse(this, 'MIL AIR 4110');\" title=\"MIL AIR 4110\">MIL AIR 4110</a></td><td colspan=\"2\"> National Security, Leadership Responsibilities &amp; Commissioning Preparation I</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20ARMY%204500\" onclick=\"return showCourse(this, 'MIL ARMY 4500');\" title=\"MIL ARMY 4500\">MIL ARMY 4500</a></td><td>Leadership in a Complex World</td><td class=\"hourscol\">3</td></tr> <tr class=\"orclass even lastrow\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=MIL%20AIR%204120\" onclick=\"return showCourse(this, 'MIL AIR 4120');\" title=\"MIL AIR 4120\">MIL AIR 4120</a></td><td colspan=\"2\"> National Security, Leadership Responsibilities &amp; Commissioning Preparation II</td></tr> </tbody></table>"
+        },
+        {
+            "table_number": 5,
+            "text": "Engineering Area Courses (Engineering Discipline) 12 ENG MGT-Technical Elective (in consultation with your advisor) 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Engineering Area Courses (Engineering Discipline)",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "12",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT-Technical Elective (in consultation with your advisor)",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"> <tbody> <tr class=\"even firstrow\"> <td colspan=\"2\"><span class=\"courselistcomment\">Engineering Area Courses (Engineering Discipline)</span></td> <td class=\"hourscol\">12</td> </tr> <tr class=\"odd lastrow\"> <td colspan=\"2\"><span class=\"courselistcomment\">ENG MGT-Technical Elective (in consultation with your advisor)</span></td> <td class=\"hourscol\">3</td> </tr> </tbody> </table>"
+        }
+    ],
+    "section_text": "Bachelor’s Degree Components The bachelor’s program includes the basic chemistry, physics, mathematics and engineering science courses required by all engineering disciplines at Missouri S&T. These courses are followed by required core engineering management courses and students then specialize in focused emphasis areas with 15 hours of course work. Engineering Management Core Economic Analysis of Engineering Projects Managing Engineering & Technology Engineering Accounting and Finance Introduction to System Engineering Marketing Management Operations and Production Management Introduction to Project Management Quality General Management Design & Integration Engineering Management Senior Design Seniors will take a capstone design course that integrates the technical and managerial skills acquired. Students complete their bachelor of science (B.S.) degree requirements by taking the Fundamentals of Engineering (FE) exam, and fulfilling Experiential Learning requirements. All engineering management students must take the FE exam prior to graduation. A passing grade on this examination is not required to earn the B.S. degree. This requirement is part of the Missouri S&T assessment process as described in assessment requirements found elsewhere in this catalog. Emphasis Areas in Engineering Management Management of Technology focuses on the management aspects of system design, logistics, scheduling, budgeting, information development, legal aspects of technology management, managing people, and decision making for positions in supply chain logistics, project engineering/scheduling, operations management, cost control/estimating, technical marketing/procurement, sales engineering, engineering administration, information systems, and finance economic analysis. Industrial Engineering focuses on productivity analysis and system optimization for manufacturing and service organizations. Industrial engineering includes a variety of quantitative and qualitative techniques to identify potential improvements in productivity, quality, safety, and other areas. This emphasis area prepares students for positions such as process engineer, manufacturing engineer, project manager, quality engineer, safety engineer, supply chain manager, operations manager and consulting. General Option Area focus on the convergence of engineering, management, and innovation in high technology environments. A general engineering emphasis allows students to customize their degree program and create a unique engineering emphasis area that focuses on a traditional engineering field or even a unique combination of engineering courses. Students are required to select an emphasis area and maintain a minimum 2.0 GPA for these courses. Bachelor of Science Engineering Management The engineering management program at Missouri S&T is characterized by its focus on the scientific basics of engineering and its innovative application; indeed, the underlying theme of this educational program is the application of the scientific basics to engineering practice through attention to problems and needs of the public. The necessary interrelations among the various topics, the engineering disciplines, and the other professions as they naturally come together in the solution of real world problems are emphasized as research, analysis, synthesis, and design are presented and discussed through classroom and laboratory instruction. The bachelor of science degree in engineering management requires a minimum of 121 credit hours. These requirements are in addition to credit received for algebra, trigonometry, and basic ROTC courses. An average of at least two grade points per credit hour must be attained. At least two grade points per credit hour must also be attained in all courses taken in engineering management. Freshman Year First Semester Credits Second Semester Credits CHEM 1100 1 HISTORY 1200 , or 1300 , or 1310 , or POL SCI 1200 3 CHEM 1305 or 1310 4 MATH 1215 4 CHEM 1319 1 MECH ENG 1720 3 ENGLISH 1120 3 PHYSICS 1135 1 4 FR ENG 1100 1 MATH 1214 or 1211 1 4 14 14 Sophomore Year First Semester Credits Second Semester Credits CIV ENG 2200 1 3 ENG MGT 2110 1 3 ENG MGT 1210 1 2 ENG MGT 2211 1 3 ENG MGT 2310 1 3 MATH 3304 1 3 MATH 2222 1 4 Programming Elective 3 3 PHYSICS 2135 1 4 STAT 3117 or 3113 1 3 16 15 Junior Year First Semester Credits Second Semester Credits CIV ENG 2210 3 ENGLISH 3560 or 1160 3 ENG MGT 3310 1 3 ENG MGT 3320 1 3 ENG MGT 3510 1 3 ENG MGT 4710 1 3 PSYCH 1101 3 General Education Elective 2 3 SP&M S 1185 4 3 MECH ENG 2350 2 MECH ENG 2527 3 15 17 Senior Year First Semester Credits Second Semester Credits ELEC ENG 2800 3 Emphasis Area Required Course 3 Emphasis Area Required Course 3 Emphasis Area Required Course 3 Emphasis Area Required Course 3 ENG MGT 4907 1 3 ENG MGT 4110 1 3 ENG MGT Technical Elective 3 General Education Elective 2 3 General Education Elective 2 3 15 15 Total Credits: 121 Example Emphasis Area Programs for Engineering Management Students One unique aspect of the engineering management degree is the student's ability to select an established emphasis area or create a specialized emphasis. Two examples of established emphasis areas are shown below. Management of Technology ENG MGT 5410 Industrial System Simulation 3 ENG MGT 5511 Technical Entrepreneurship 3 ENG MGT 5512 Legal Environment 3 ENG MGT 5614 Supply Chain Management Systems 3 ENG MGT Technical Elective (in consultation with your advisor) 3 Industrial Engineering ENG MGT 4310 Materials Handling and Plant Layout 3 ENG MGT 4330 Human Factors 3 ENG MGT 5410 Industrial System Simulation 3 ENG MGT 5414 Introduction To Operations Research 3 ENG MGT Technical Elective (in consultation with your advisor) 3 ROTC ENG MGT Technical Elective (in consultation with advisor) 3 MIL ARMY 3250 Adaptive Tactical Leadership 3 or MIL AIR 3110 Leading People & Effective Communication I MIL ARMY 3500 Leadership in Changing Environments 3 or MIL AIR 3120 Leading People & Effective Communication II MIL ARMY 4250 Developing Adaptive Leaders 3 or MIL AIR 4110 National Security, Leadership Responsibilities & Commissioning Preparation I MIL ARMY 4500 Leadership in a Complex World 3 or MIL AIR 4120 National Security, Leadership Responsibilities & Commissioning Preparation II General Engineering Area Courses (Engineering Discipline) 12 ENG MGT-Technical Elective (in consultation with your advisor) 3 Note: All electives must be chosen in consultation with the student's advisor. Students must satisfy the common freshman year academic requirements in addition to the sophomore, junior, and senior year requirements listed above with a minimum of 121 hours. 1 Must have a grade of \"C\" or better in these courses for graduation. 2 General Education Elective must fulfill the Missouri S&T general education requirements applicable to the students catalog year. 3 The programming elective consists of a lecture and lab combination, and may be selected from COMP SCI 1971 / COMP SCI 1981 , COMP SCI 1972 / COMP SCI 1982 , or COMP SCI 1570 / COMP SCI 1580 . Note that COMP SCI 1570 / COMP SCI 1580 requires one more credit hour than the other options. The lecture component must be completed with a grade of \"C\" or better. 4 General Education discipline specific required course. Accelerated BS/MS Program Option for Engineering Management Undergraduates currently majoring in Engineering Management at Missouri S&T may opt to apply for a Graduate Track Pathway, which allows students to transfer nine credit hours from their Missouri S&T Engineering Management bachelor's degree to their Engineering Management or Systems Engineering master's degree. In this pathway, a student can achieve both degrees faster than if pursuing the degrees separately. The benefits of the pathway for admitted students include: 1. Nine hours of 5000 graduate-level or above EMSE courses may be transferred from their Missouri S&T bachelor's degree to their EMSE master's degree, 2. The classes taken for shared BS/MS credit may be taken at the lower undergraduate tuition rate, 3. The GRE is not required for admission into the master's degree, and 4. Work on a thesis project may begin before the bachelor's degree requirements are completed (if thesis option is chosen) No M.S. degree requirements are changed. The MS degree may be either a thesis or non-thesis option. To be admitted, the student must complete the Grad Track Pathway Admission and Course Approval Form. To be admitted to the student must have approval of their EMSE academic advisor. The program may be combined with existing honors research and emphasis area options. Admitted students will only have an undergraduate record in the Registrar's Office. Once they complete the bachelor's degree, and apply and are admitted into the master's degree then they will have a graduate record in the Registrar’s Office. The Grad Track Pathway Admission and Course Approval Form must be completed when the student has one year left in the bachelor's program. Courses to be transferred will be identified on this form, and on Graduate Form 1, which is submitted after the student has been accepted to the master's program. Students must apply for admission to the master’s program but will not be fully accepted until meeting all undergraduate degree requirements and earning their bachelor’s degree. The nine hours of transferred coursework that will be taken as undergraduate credit must be approved by the student's academic advisor, and may not be undergraduate research, special problems, or courses transferred to the bachelor’s degree. To be eligible for the Grad Track Pathway, an EMSE undergraduate student must be: •One year from graduation of their bachelor’s degree (excluding the semester they are currently enrolled) •Have at least a 3.50 GPA in all EMSE courses taken at Missouri S&T, •Have a 3.0 cumulative GPA. Students will be admitted into the master's degree, so long as they meet EMSE graduate student academic performance requirements: To remain in the pathway, the student must maintain good standing within the undergraduate EMSE program, and must maintain continuous enrollment at Missouri S&T. Students must maintain a cumulative GPA of at least 3.00 until they receive their bachelor’s degree. Students must receive grades of B or better in the graduate courses they enroll in as part of the pathway course sequence. The semester admit term for the master’s degree immediately follows the semester that the bachelor’s degree is awarded. If the student exits the pathway before completion of the MS degree requirements, or fails to maintain continuous enrollment at Missouri S&T, the courses taken as part of the pathway may not apply toward graduate requirements in the event of future readmission. Credits earned in graduate-level courses will be posted according to established registrar procedures to the undergraduate transcript and will apply toward the student’s undergraduate degree hours as needed to obtain the undergraduate degree and thus ensure all stated degree requirements are met. Once the bachelor’s degree is awarded, the student is fully admitted to the master’s program, Form 1 is approved, the courses from the pathway will be included on the student’s graduate degree audit. The student applicant is responsible for checking on how graduate coursework will affect scholarships and other financial aid. Once a student becomes a graduate student, they are not eligible for Federal Pell Grants, though are still eligible for Federal Financial Aid, and will be eligible for fellowships and teaching/research assistantships. International students should check with international affairs during completion of a Grad Track Pathway, to ensure immigration status will be maintained throughout the program.",
+    "section_html": "<div class=\"tab_content\" id=\"bachelorstextcontainer\">\n<a name=\"bachelorstext\"></a><h2>Bachelor’s Degree Components</h2>\n<p>The bachelor’s program includes the basic chemistry, physics, mathematics and engineering science courses required by all engineering disciplines at Missouri S&amp;T. These courses are followed by required core engineering management courses and students then specialize in focused emphasis areas with 15 hours of course work.</p>\n<h2>Engineering Management Core</h2>\n<ul>\n<li>Economic Analysis of Engineering Projects</li>\n<li>Managing Engineering &amp; Technology</li>\n<li>Engineering Accounting and Finance</li>\n<li>Introduction to System Engineering</li>\n<li>Marketing Management</li>\n<li>Operations and Production Management</li>\n<li>Introduction to Project Management</li>\n<li>Quality</li>\n<li>General Management Design &amp; Integration</li>\n<li>Engineering Management Senior Design</li>\n</ul>\n<p>Seniors will take a capstone design course that integrates the technical and managerial skills acquired. Students complete their bachelor of science (B.S.) degree requirements by taking the Fundamentals of Engineering (FE) exam, and fulfilling Experiential Learning requirements.  All engineering management students must take the FE exam prior to graduation.  A passing grade on this examination is not required to earn the B.S. degree.  This requirement is part of the Missouri S&amp;T assessment process as described in assessment requirements found elsewhere in this catalog.</p>\n<h2>Emphasis Areas in Engineering Management</h2>\n<p><strong>Management of Technology</strong> focuses on the management aspects of system design, logistics, scheduling, budgeting, information development, legal aspects of technology management, managing people, and decision making for positions in supply chain logistics, project engineering/scheduling, operations management, cost control/estimating, technical marketing/procurement, sales engineering, engineering administration, information systems, and finance economic analysis.</p>\n<p><strong>Industrial Engineering</strong> focuses on productivity analysis and system optimization for manufacturing and service organizations. Industrial engineering includes a variety of quantitative and qualitative techniques to identify potential improvements in productivity, quality, safety, and other areas. This emphasis area prepares students for positions such as process engineer, manufacturing engineer, project manager, quality engineer, safety engineer, supply chain manager, operations manager and consulting.</p>\n<p><strong>General Option Area</strong> focus on the convergence of engineering, management, and innovation in high technology environments. A general engineering emphasis allows students to customize their degree program and create a unique engineering emphasis area that focuses on a traditional engineering field or even a unique combination of engineering courses.</p>\n<p>Students are required to select an emphasis area and maintain a minimum 2.0 GPA for these courses.</p>\n<h2>Bachelor of Science<br/> Engineering Management</h2> <p>The engineering management program at Missouri S&amp;T is characterized by its focus on the scientific basics of engineering and its innovative application; indeed, the underlying theme of this educational program is the application of the scientific basics to engineering practice through attention to problems and needs of the public. The necessary interrelations among the various topics, the engineering disciplines, and the other professions as they naturally come together in the solution of real world problems are emphasized as research, analysis, synthesis, and design are presented and discussed through classroom and laboratory instruction.</p> <p>The bachelor of science degree in engineering management requires a minimum of 121 credit hours. These requirements are in addition to credit received for algebra, trigonometry, and basic ROTC courses. An average of at least two grade points per credit hour must be attained. At least two grade points per credit hour must also be attained in all courses taken in engineering management.</p> <table class=\"sc_plangrid\"><tr class=\"plangridyear firstrow\"><th colspan=\"4\">Freshman Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201100\" onclick=\"return showCourse(this, 'CHEM 1100');\" title=\"CHEM 1100\">CHEM 1100</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201200\" onclick=\"return showCourse(this, 'HISTORY 1200');\" title=\"HISTORY 1200\">HISTORY 1200</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201300\" onclick=\"return showCourse(this, 'HISTORY 1300');\" title=\"HISTORY 1300\"> 1300</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201310\" onclick=\"return showCourse(this, 'HISTORY 1310');\" title=\"HISTORY 1310\"> 1310</a>, or <a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%201200\" onclick=\"return showCourse(this, 'POL SCI 1200');\" title=\"POL SCI 1200\">POL SCI  1200</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201305\" onclick=\"return showCourse(this, 'CHEM 1305');\" title=\"CHEM 1305\">CHEM 1305</a> or <a class=\"bubblelink code\" href=\"/search/?P=CHEM%201310\" onclick=\"return showCourse(this, 'CHEM 1310');\" title=\"CHEM 1310\"> 1310</a></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201215\" onclick=\"return showCourse(this, 'MATH 1215');\" title=\"MATH 1215\">MATH 1215</a></td><td class=\"hourscol\">4</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201319\" onclick=\"return showCourse(this, 'CHEM 1319');\" title=\"CHEM 1319\">CHEM 1319</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%201720\" onclick=\"return showCourse(this, 'MECH ENG 1720');\" title=\"MECH ENG 1720\">MECH ENG 1720</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201120\" onclick=\"return showCourse(this, 'ENGLISH 1120');\" title=\"ENGLISH 1120\">ENGLISH 1120</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201135\" onclick=\"return showCourse(this, 'PHYSICS 1135');\" title=\"PHYSICS 1135\">PHYSICS 1135</a><sup>1</sup></td><td class=\"hourscol\">4</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=FR%20ENG%201100\" onclick=\"return showCourse(this, 'FR ENG 1100');\" title=\"FR ENG 1100\">FR ENG 1100</a></td><td class=\"hourscol\">1</td><td colspan=\"2\"> </td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201214\" onclick=\"return showCourse(this, 'MATH 1214');\" title=\"MATH 1214\">MATH 1214</a> or <a class=\"bubblelink code\" href=\"/search/?P=MATH%201211\" onclick=\"return showCourse(this, 'MATH 1211');\" title=\"MATH 1211\"> 1211</a><sup>1</sup></td><td class=\"hourscol\">4</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">14</td><td> </td><td class=\"hourscol\">14</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Sophomore Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%202200\" onclick=\"return showCourse(this, 'CIV ENG 2200');\" title=\"CIV ENG 2200\">CIV ENG 2200</a><sup>1</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%202110\" onclick=\"return showCourse(this, 'ENG MGT 2110');\" title=\"ENG MGT 2110\">ENG MGT 2110</a><sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%201210\" onclick=\"return showCourse(this, 'ENG MGT 1210');\" title=\"ENG MGT 1210\">ENG MGT 1210</a><sup>1</sup></td><td class=\"hourscol\">2</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%202211\" onclick=\"return showCourse(this, 'ENG MGT 2211');\" title=\"ENG MGT 2211\">ENG MGT 2211</a><sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%202310\" onclick=\"return showCourse(this, 'ENG MGT 2310');\" title=\"ENG MGT 2310\">ENG MGT 2310</a><sup>1</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%203304\" onclick=\"return showCourse(this, 'MATH 3304');\" title=\"MATH 3304\">MATH 3304</a><sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%202222\" onclick=\"return showCourse(this, 'MATH 2222');\" title=\"MATH 2222\">MATH 2222</a><sup>1</sup></td><td class=\"hourscol\">4</td><td class=\"codecol\">Programming Elective<sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202135\" onclick=\"return showCourse(this, 'PHYSICS 2135');\" title=\"PHYSICS 2135\">PHYSICS 2135</a><sup>1</sup></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%203117\" onclick=\"return showCourse(this, 'STAT 3117');\" title=\"STAT 3117\">STAT 3117</a> or <a class=\"bubblelink code\" href=\"/search/?P=STAT%203113\" onclick=\"return showCourse(this, 'STAT 3113');\" title=\"STAT 3113\"> 3113</a><sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">16</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Junior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%202210\" onclick=\"return showCourse(this, 'CIV ENG 2210');\" title=\"CIV ENG 2210\">CIV ENG 2210</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%203560\" onclick=\"return showCourse(this, 'ENGLISH 3560');\" title=\"ENGLISH 3560\">ENGLISH 3560</a> or <a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201160\" onclick=\"return showCourse(this, 'ENGLISH 1160');\" title=\"ENGLISH 1160\"> 1160</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%203310\" onclick=\"return showCourse(this, 'ENG MGT 3310');\" title=\"ENG MGT 3310\">ENG MGT 3310</a><sup>1</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%203320\" onclick=\"return showCourse(this, 'ENG MGT 3320');\" title=\"ENG MGT 3320\">ENG MGT 3320</a><sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%203510\" onclick=\"return showCourse(this, 'ENG MGT 3510');\" title=\"ENG MGT 3510\">ENG MGT 3510</a><sup>1</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%204710\" onclick=\"return showCourse(this, 'ENG MGT 4710');\" title=\"ENG MGT 4710\">ENG MGT 4710</a><sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%201101\" onclick=\"return showCourse(this, 'PSYCH 1101');\" title=\"PSYCH 1101\">PSYCH 1101</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">General Education Elective<sup>2</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%201185\" onclick=\"return showCourse(this, 'SP&amp;M S 1185');\" title=\"SP&amp;M S 1185\">SP&amp;M S 1185</a><sup>4</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%202350\" onclick=\"return showCourse(this, 'MECH ENG 2350');\" title=\"MECH ENG 2350\">MECH ENG 2350</a></td><td class=\"hourscol\">2</td></tr><tr class=\"odd\"> <td colspan=\"2\"> </td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%202527\" onclick=\"return showCourse(this, 'MECH ENG 2527');\" title=\"MECH ENG 2527\">MECH ENG 2527</a></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">17</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Senior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202800\" onclick=\"return showCourse(this, 'ELEC ENG 2800');\" title=\"ELEC ENG 2800\">ELEC ENG 2800</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">Emphasis Area Required Course</td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Emphasis Area Required Course</td><td class=\"hourscol\">3</td><td class=\"codecol\">Emphasis Area Required Course</td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Emphasis Area Required Course</td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%204907\" onclick=\"return showCourse(this, 'ENG MGT 4907');\" title=\"ENG MGT 4907\">ENG MGT 4907</a><sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%204110\" onclick=\"return showCourse(this, 'ENG MGT 4110');\" title=\"ENG MGT 4110\">ENG MGT 4110</a><sup>1</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">ENG MGT Technical Elective</td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">General Education Elective<sup>2</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">General Education Elective<sup>2</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridtotal lastrow\"><td colspan=\"4\">Total Credits: 121</td></tr></table> <h2>Example Emphasis Area Programs for Engineering Management Students</h2> <p>One unique aspect of the engineering management degree is the student's ability to select an established emphasis area or create a specialized emphasis. Two examples of established emphasis areas are shown below.</p> <h3>Management of Technology</h3> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205410\" onclick=\"return showCourse(this, 'ENG MGT 5410');\" title=\"ENG MGT 5410\">ENG MGT 5410</a></td><td>Industrial System Simulation</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205511\" onclick=\"return showCourse(this, 'ENG MGT 5511');\" title=\"ENG MGT 5511\">ENG MGT 5511</a></td><td>Technical Entrepreneurship</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205512\" onclick=\"return showCourse(this, 'ENG MGT 5512');\" title=\"ENG MGT 5512\">ENG MGT 5512</a></td><td>Legal Environment</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205614\" onclick=\"return showCourse(this, 'ENG MGT 5614');\" title=\"ENG MGT 5614\">ENG MGT 5614</a></td><td>Supply Chain Management Systems</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">ENG MGT Technical Elective (in consultation with your advisor)</span></td><td class=\"hourscol\">3</td></tr> </tbody></table> <h3>Industrial Engineering</h3> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%204310\" onclick=\"return showCourse(this, 'ENG MGT 4310');\" title=\"ENG MGT 4310\">ENG MGT 4310</a></td><td>Materials Handling and Plant Layout</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%204330\" onclick=\"return showCourse(this, 'ENG MGT 4330');\" title=\"ENG MGT 4330\">ENG MGT 4330</a></td><td>Human Factors</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205410\" onclick=\"return showCourse(this, 'ENG MGT 5410');\" title=\"ENG MGT 5410\">ENG MGT 5410</a></td><td>Industrial System Simulation</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205414\" onclick=\"return showCourse(this, 'ENG MGT 5414');\" title=\"ENG MGT 5414\">ENG MGT 5414</a></td><td>Introduction To Operations Research</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">ENG MGT Technical Elective (in consultation with your advisor)</span></td><td class=\"hourscol\">3</td></tr> </tbody></table> <h3>ROTC </h3> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td colspan=\"2\"><span class=\"courselistcomment\">ENG MGT Technical Elective (in consultation with advisor)</span></td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20ARMY%203250\" onclick=\"return showCourse(this, 'MIL ARMY 3250');\" title=\"MIL ARMY 3250\">MIL ARMY 3250</a></td><td>Adaptive Tactical Leadership</td><td class=\"hourscol\">3</td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=MIL%20AIR%203110\" onclick=\"return showCourse(this, 'MIL AIR 3110');\" title=\"MIL AIR 3110\">MIL AIR 3110</a></td><td colspan=\"2\"> Leading People &amp; Effective Communication I</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20ARMY%203500\" onclick=\"return showCourse(this, 'MIL ARMY 3500');\" title=\"MIL ARMY 3500\">MIL ARMY 3500</a></td><td>Leadership in Changing Environments</td><td class=\"hourscol\">3</td></tr> <tr class=\"orclass even\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=MIL%20AIR%203120\" onclick=\"return showCourse(this, 'MIL AIR 3120');\" title=\"MIL AIR 3120\">MIL AIR 3120</a></td><td colspan=\"2\"> Leading People &amp; Effective Communication II</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20ARMY%204250\" onclick=\"return showCourse(this, 'MIL ARMY 4250');\" title=\"MIL ARMY 4250\">MIL ARMY 4250</a></td><td>Developing Adaptive Leaders</td><td class=\"hourscol\">3</td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=MIL%20AIR%204110\" onclick=\"return showCourse(this, 'MIL AIR 4110');\" title=\"MIL AIR 4110\">MIL AIR 4110</a></td><td colspan=\"2\"> National Security, Leadership Responsibilities &amp; Commissioning Preparation I</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20ARMY%204500\" onclick=\"return showCourse(this, 'MIL ARMY 4500');\" title=\"MIL ARMY 4500\">MIL ARMY 4500</a></td><td>Leadership in a Complex World</td><td class=\"hourscol\">3</td></tr> <tr class=\"orclass even lastrow\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=MIL%20AIR%204120\" onclick=\"return showCourse(this, 'MIL AIR 4120');\" title=\"MIL AIR 4120\">MIL AIR 4120</a></td><td colspan=\"2\"> National Security, Leadership Responsibilities &amp; Commissioning Preparation II</td></tr> </tbody></table> <h3><span>General</span></h3> <table class=\"sc_courselist\" width=\"100%\"> <tbody> <tr class=\"even firstrow\"> <td colspan=\"2\"><span class=\"courselistcomment\">Engineering Area Courses (Engineering Discipline)</span></td> <td class=\"hourscol\">12</td> </tr> <tr class=\"odd lastrow\"> <td colspan=\"2\"><span class=\"courselistcomment\">ENG MGT-Technical Elective (in consultation with your advisor)</span></td> <td class=\"hourscol\">3</td> </tr> </tbody> </table> <p><strong>Note:</strong> All electives must be chosen in consultation with the student's advisor. Students must satisfy the common freshman year academic requirements in addition to the sophomore, junior, and senior year requirements listed above with a minimum of 121 hours.</p> <dl aria-label=\"Footnotes\" class=\"sc_footnotes\"><dt> <sup> 1 </sup> </dt><dd><p class=\"noindent\">Must have a grade of \"C\" or better in these courses for graduation.</p></dd><dt> <sup> 2 </sup> </dt><dd><p class=\"noindent\">General Education Elective must fulfill the Missouri S&amp;T general education requirements applicable to the students catalog year.</p></dd><dt> <sup> 3 </sup> </dt><dd><p class=\"noindent\">The programming elective consists of a lecture and lab combination, and may be selected from <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201971\" onclick=\"return showCourse(this, 'COMP SCI 1971');\" title=\"COMP SCI 1971\">COMP SCI 1971</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201981\" onclick=\"return showCourse(this, 'COMP SCI 1981');\" title=\"COMP SCI 1981\">COMP SCI 1981</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201972\" onclick=\"return showCourse(this, 'COMP SCI 1972');\" title=\"COMP SCI 1972\">COMP SCI 1972</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201982\" onclick=\"return showCourse(this, 'COMP SCI 1982');\" title=\"COMP SCI 1982\">COMP SCI 1982</a></span>, or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201570\" onclick=\"return showCourse(this, 'COMP SCI 1570');\" title=\"COMP SCI 1570\">COMP SCI 1570</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201580\" onclick=\"return showCourse(this, 'COMP SCI 1580');\" title=\"COMP SCI 1580\">COMP SCI 1580</a></span>. Note that <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201570\" onclick=\"return showCourse(this, 'COMP SCI 1570');\" title=\"COMP SCI 1570\">COMP SCI 1570</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201580\" onclick=\"return showCourse(this, 'COMP SCI 1580');\" title=\"COMP SCI 1580\">COMP SCI 1580</a></span> requires one more credit hour than the other options. The lecture component must be completed with a grade of \"C\" or better.</p></dd><dt> <sup> 4 </sup> </dt><dd><p class=\"noindent\">General Education discipline specific required course.</p></dd></dl> <h3><strong>Accelerated BS/MS Program Option for Engineering Management</strong></h3> <p>Undergraduates currently majoring in Engineering Management at Missouri S&amp;T may opt to apply for a Graduate Track Pathway, which allows students to transfer nine credit hours from their Missouri S&amp;T Engineering Management bachelor's degree to their Engineering Management or Systems Engineering master's degree. In this pathway, a student can achieve both degrees faster than if pursuing the degrees separately. The benefits of the pathway for admitted students include:</p> <p>1. Nine hours of 5000 graduate-level or above EMSE courses may be transferred from their Missouri S&amp;T bachelor's degree to their EMSE master's degree,<br/> 2. The classes taken for shared BS/MS credit may be taken at the lower undergraduate tuition rate,<br/> 3. The GRE is not required for admission into the master's degree, and<br/> 4. Work on a thesis project may begin before the bachelor's degree requirements are completed (if thesis option is chosen)</p> <p>No M.S. degree requirements are changed. The MS degree may be either a thesis or non-thesis option. To be admitted, the student must complete the Grad Track Pathway Admission and Course Approval Form. To be admitted to the student must have approval of their EMSE academic advisor. The program may be combined with existing honors research and emphasis area options. Admitted students will only have an undergraduate record in the Registrar's Office. Once they complete the bachelor's degree, and apply and are admitted into the master's degree then they will have a graduate record in the Registrar’s Office. The Grad Track Pathway Admission and Course Approval Form must be completed when the student has one year left in the bachelor's program. Courses to be transferred will be identified on this form, and on Graduate Form 1, which is submitted after the student has been accepted to the master's program. Students must apply for admission to the master’s program but will not be fully accepted until meeting all undergraduate degree requirements and earning their bachelor’s degree. The nine hours of transferred coursework that will be taken as undergraduate credit must be approved by the student's academic advisor, and may not be undergraduate research, special problems, or courses transferred to the bachelor’s degree.</p> <p>To be eligible for the Grad Track Pathway, an EMSE undergraduate student must be:</p> <p>•One year from graduation of their bachelor’s degree (excluding the semester they are currently enrolled)</p> <p>•Have at least a 3.50 GPA in all EMSE courses taken at Missouri S&amp;T,</p> <p>•Have a 3.0 cumulative GPA.</p> <p>Students will be admitted into the master's degree, so long as they meet EMSE graduate student academic performance requirements: To remain in the pathway, the student must maintain good standing within the undergraduate EMSE program, and must maintain continuous enrollment at Missouri S&amp;T. Students must maintain a cumulative GPA of at least 3.00 until they receive their bachelor’s degree. Students must receive grades of B or better in the graduate courses they enroll in as part of the pathway course sequence. The semester admit term for the master’s degree immediately follows the semester that the bachelor’s degree is awarded. If the student exits the pathway before completion of the MS degree requirements, or fails to maintain continuous enrollment at Missouri S&amp;T, the courses taken as part of the pathway may not apply toward graduate requirements in the event of future readmission. Credits earned in graduate-level courses will be posted according to established registrar procedures to the undergraduate transcript and will apply toward the student’s undergraduate degree hours as needed to obtain the undergraduate degree and thus ensure all stated degree requirements are met. Once the bachelor’s degree is awarded, the student is fully admitted to the master’s program, Form 1 is approved, the courses from the pathway will be included on the student’s graduate degree audit.</p> <p>The student applicant is responsible for checking on how graduate coursework will affect scholarships and other financial aid. Once a student becomes a graduate student, they are not eligible for Federal Pell Grants, though are still eligible for Federal Financial Aid, and will be eligible for fellowships and teaching/research assistantships. International students should check with international affairs during completion of a Grad Track Pathway, to ensure immigration status will be maintained throughout the program.</p>\n</div>"
+}

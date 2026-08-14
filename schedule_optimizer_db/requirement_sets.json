@@ -56,19 +56,1267 @@
     "is_active": true
   },
   {
-    "requirement_set_id": 8,
-    "requirement_set_code": "MST_GEN_ED_2026",
-    "requirement_set_name": "Missouri S&T General Education",
-    "requirement_set_type": "GENERAL_EDUCATION",
-    "description": "Reusable 2026-2027 university general education requirements.",
-    "is_active": true
-  },
-  {
     "requirement_set_id": 9,
     "requirement_set_code": "AERO_MINOR_2026_CORE",
     "requirement_set_name": "Aerospace Engineering Minor Requirements",
     "requirement_set_type": "MINOR",
     "description": "Fifteen-credit Aerospace Engineering minor: four fixed 3-credit courses plus one additional 3000-level 3-credit AERO ENG lecture course.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 10,
+    "requirement_set_code": "ARCH_BS_2026_CORE",
+    "requirement_set_name": "Architectural Engineering BS Core",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Fixed 129-credit Architectural Engineering curriculum requirements excluding reusable General Education and technical-elective choice logic.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 11,
+    "requirement_set_code": "ARCH_BS_2026_TECH",
+    "requirement_set_name": "Architectural Engineering Technical Electives",
+    "requirement_set_type": "PROGRAM_ELECTIVES",
+    "description": "Nine credits of technical electives chosen from approved Architectural Engineering emphasis-area lists. Catalog permits at most 3 credits of ARCH ENG 5000 or 4099 independent study.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 12,
+    "requirement_set_code": "ARCH_EMP_STRUCT_2026_REQ",
+    "requirement_set_name": "Structural Engineering Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "For the prototype, complete 9 technical-elective credits from the catalog Structural Engineering emphasis list.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 13,
+    "requirement_set_code": "ARCH_EMP_CONSTR_2026_REQ",
+    "requirement_set_name": "Construction Engineering and Project Management Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "For the prototype, complete 9 technical-elective credits from the catalog Construction Engineering and Project Management emphasis list.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 14,
+    "requirement_set_code": "ARCH_EMP_ENVBLDG_2026_REQ",
+    "requirement_set_name": "Environmental Systems for Buildings Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "For the prototype, complete 9 technical-elective credits from the Environmental Systems for Buildings list, including its Mechanical and Electrical emphasis-course sublists.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 15,
+    "requirement_set_code": "ARCH_EMP_MATERIALS_2026_REQ",
+    "requirement_set_name": "Construction Materials Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "For the prototype, complete 9 technical-elective credits from the catalog Construction Materials emphasis list.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 8,
+    "requirement_set_code": "MST_GEN_ED_2026",
+    "requirement_set_name": "Missouri S&T University General Education Requirements",
+    "requirement_set_type": "GENERAL_EDUCATION",
+    "description": "Reusable Missouri S&T general education requirement set. Existing Aerospace setup may already have populated this set.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 17,
+    "requirement_set_code": "ART_MINOR_2026_REQ",
+    "requirement_set_name": "Art Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "15 credits. ART 1180 required. At least 6 credits at or above 3000 level. Up to 6 studio-art credits.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 18,
+    "requirement_set_code": "FILM_LIT_MINOR_2026_REQ",
+    "requirement_set_name": "Film and Literature Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "12 credits. ART 1185 and ENGLISH 2230 required, plus 6 credits of literature/film electives.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 19,
+    "requirement_set_code": "STUDIO_ART_MINOR_2026_REQ",
+    "requirement_set_name": "Studio Art Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "15 credits. ART 1180 required, plus 12 credits from listed studio-art offerings; at least 6 credits at or above 3000 level.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 21,
+    "requirement_set_code": "BIOCHEM_BS_2026_CORE",
+    "requirement_set_name": "Biochemistry BS Core",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Fixed Biochemistry BS curriculum and explicit catalog choices.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 22,
+    "requirement_set_code": "BIOINFO_MINOR_2026_REQ",
+    "requirement_set_name": "Bioinformatics Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "Bioinformatics minor required courses and approved choice rules.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 23,
+    "requirement_set_code": "BIOSCI_BA_2026_CORE",
+    "requirement_set_name": "Biological Sciences BA Core",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Biological Sciences BA major requirements.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 24,
+    "requirement_set_code": "BIOSCI_BA_2026_GENERAL",
+    "requirement_set_name": "Biological Sciences BA General Requirements",
+    "requirement_set_type": "DEGREE_CORE",
+    "description": "BA-specific foreign language, humanities, social science and composition requirements.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 25,
+    "requirement_set_code": "BIOSCI_BS_2026_CORE",
+    "requirement_set_name": "Biological Sciences BS Core",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Biological Sciences BS major requirements.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 26,
+    "requirement_set_code": "BIOSCI_PREMED_BA_2026_REQ",
+    "requirement_set_name": "Biological Sciences Pre-Medicine Emphasis",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Additional required pre-medicine emphasis courses.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 27,
+    "requirement_set_code": "BIOSCI_SECED_BA_2026_REQ",
+    "requirement_set_name": "Biological Sciences Secondary Education Emphasis",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Secondary Education emphasis curriculum.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 28,
+    "requirement_set_code": "BIOSCI_MLS_BS_2026_REQ",
+    "requirement_set_name": "Biological Sciences Medical Laboratory Scientist Emphasis",
+    "requirement_set_type": "EMPHASIS",
+    "description": "MLS 3+1 emphasis requirements.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 29,
+    "requirement_set_code": "BIOSCI_MINOR_2026_REQ",
+    "requirement_set_name": "Biological Sciences Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "20 hours of Biological Sciences coursework with upper-level and lab/field expectations.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 30,
+    "requirement_set_code": "BME_BS_2026_BASE",
+    "requirement_set_name": "Biomedical Engineering BS Base",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Biomedical Engineering degree shell; detailed curriculum is selected through one of two tracks.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 31,
+    "requirement_set_code": "BME_BIOMAN_2026_REQ",
+    "requirement_set_name": "Biomedical Engineering Biomanufacturing Track",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Biomanufacturing track curriculum and track electives.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 32,
+    "requirement_set_code": "BME_BIOMAT_2026_REQ",
+    "requirement_set_name": "Biomedical Engineering Biomaterials Track",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Biomaterials track curriculum and track electives.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 33,
+    "requirement_set_code": "BMS_BS_2026_CORE",
+    "requirement_set_name": "Business and Management Systems BS Core",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Business and Management Systems fixed curriculum and business electives.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 34,
+    "requirement_set_code": "BMS_MIL_EMPH_2026_REQ",
+    "requirement_set_name": "BMS Military Science and Leadership Emphasis",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Requires completion of Military Aerospace Minor or Adaptive Leadership Minor; uploaded source does not include those minor course lists.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 35,
+    "requirement_set_code": "BMS_SECED_EMPH_2026_REQ",
+    "requirement_set_name": "BMS Secondary Education Emphasis",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Required professional education coursework for the BMS Secondary Education emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 48,
+    "requirement_set_code": "CER_BS_2026_CORE",
+    "requirement_set_name": "Ceramic Engineering BS Core",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Fixed Ceramic Engineering BS curriculum and explicit choices.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 49,
+    "requirement_set_code": "CER_BS_2026_TECH",
+    "requirement_set_name": "Ceramic Engineering Technical Electives",
+    "requirement_set_type": "PROGRAM_ELECTIVES",
+    "description": "Nine technical-elective credits from eligible upper-level approved disciplines.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 50,
+    "requirement_set_code": "CER_BIOMAT_EMPH_2026_REQ",
+    "requirement_set_name": "Ceramic Engineering Biomaterials Emphasis",
+    "requirement_set_type": "EMPHASIS",
+    "description": "At least 9 credits from the approved catalog emphasis list.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 51,
+    "requirement_set_code": "CER_COMP_MSE_EMPH_2026_REQ",
+    "requirement_set_name": "Ceramic Engineering Computational MSE Emphasis",
+    "requirement_set_type": "EMPHASIS",
+    "description": "At least 9 credits from the approved catalog emphasis list.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 52,
+    "requirement_set_code": "CER_ENERGY_EMPH_2026_REQ",
+    "requirement_set_name": "Ceramic Engineering Energy Materials Emphasis",
+    "requirement_set_type": "EMPHASIS",
+    "description": "At least 9 credits from the approved catalog emphasis list.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 53,
+    "requirement_set_code": "CER_FUNCTIONAL_EMPH_2026_REQ",
+    "requirement_set_name": "Ceramic Engineering Functional Materials Emphasis",
+    "requirement_set_type": "EMPHASIS",
+    "description": "At least 9 credits from the approved catalog emphasis list.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 54,
+    "requirement_set_code": "CER_CHAR_EMPH_2026_REQ",
+    "requirement_set_name": "Ceramic Engineering Materials Characterization and Analysis Emphasis",
+    "requirement_set_type": "EMPHASIS",
+    "description": "At least 9 credits from the approved catalog emphasis list.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 55,
+    "requirement_set_code": "CER_EXTREME_EMPH_2026_REQ",
+    "requirement_set_name": "Ceramic Engineering Materials for Extreme Environments Emphasis",
+    "requirement_set_type": "EMPHASIS",
+    "description": "At least 9 credits from the approved catalog emphasis list.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 57,
+    "requirement_set_code": "CHEMENG_BS_2026_CORE",
+    "requirement_set_name": "Bachelor of Science in Chemical Engineering Requirements",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Catalog-derived program requirements for Bachelor of Science in Chemical Engineering.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 58,
+    "requirement_set_code": "CHEM_BA_2026_CORE",
+    "requirement_set_name": "Bachelor of Arts in Chemistry Requirements",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Catalog-derived program requirements for Bachelor of Arts in Chemistry.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 59,
+    "requirement_set_code": "CHEM_BS_2026_CORE",
+    "requirement_set_name": "Bachelor of Science in Chemistry Requirements",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Catalog-derived program requirements for Bachelor of Science in Chemistry.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 60,
+    "requirement_set_code": "CIVENG_BS_2026_CORE",
+    "requirement_set_name": "Bachelor of Science in Civil Engineering Requirements",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Catalog-derived program requirements for Bachelor of Science in Civil Engineering.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 61,
+    "requirement_set_code": "COMPENG_BS_2026_CORE",
+    "requirement_set_name": "Bachelor of Science in Computer Engineering Requirements",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Catalog-derived program requirements for Bachelor of Science in Computer Engineering.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 62,
+    "requirement_set_code": "COMPSCI_BS_2026_CORE",
+    "requirement_set_name": "Bachelor of Science in Computer Science Requirements",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Catalog-derived program requirements for Bachelor of Science in Computer Science.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 63,
+    "requirement_set_code": "ECON_BS_2026_CORE",
+    "requirement_set_name": "Bachelor of Science in Economics Requirements",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Catalog-derived program requirements for Bachelor of Science in Economics.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 64,
+    "requirement_set_code": "EE_BS_2026_CORE",
+    "requirement_set_name": "Bachelor of Science in Electrical Engineering Requirements",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Catalog-derived program requirements for Bachelor of Science in Electrical Engineering.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 65,
+    "requirement_set_code": "ENGMGT_BS_2026_CORE",
+    "requirement_set_name": "Bachelor of Science in Engineering Management Requirements",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Catalog-derived program requirements for Bachelor of Science in Engineering Management.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 66,
+    "requirement_set_code": "ENVENG_BS_2026_CORE",
+    "requirement_set_name": "Bachelor of Science in Environmental Engineering Requirements",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Catalog-derived program requirements for Bachelor of Science in Environmental Engineering.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 67,
+    "requirement_set_code": "ENVSCI_BS_2026_CORE",
+    "requirement_set_name": "Bachelor of Science in Environmental Science Requirements",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Catalog-derived program requirements for Bachelor of Science in Environmental Science.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 68,
+    "requirement_set_code": "CHEMENG_BIOCHEM_EMPH_2026_REQ",
+    "requirement_set_name": "Chemical Engineering - Biochemical Engineering Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Chemical Engineering - Biochemical Engineering Emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 69,
+    "requirement_set_code": "CHEM_SECED_BA_EMPH_2026_REQ",
+    "requirement_set_name": "Chemistry - Secondary Education Emphasis (BA) Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Chemistry - Secondary Education Emphasis (BA).",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 70,
+    "requirement_set_code": "CHEM_BIOCHEM_BS_EMPH_2026_REQ",
+    "requirement_set_name": "Chemistry - Biochemistry Emphasis (BS) Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Chemistry - Biochemistry Emphasis (BS).",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 71,
+    "requirement_set_code": "CHEM_POLYMER_BS_EMPH_2026_REQ",
+    "requirement_set_name": "Chemistry - Polymer & Coatings Science Emphasis (BS) Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Chemistry - Polymer & Coatings Science Emphasis (BS).",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 72,
+    "requirement_set_code": "CHEM_PREMED_BS_EMPH_2026_REQ",
+    "requirement_set_name": "Chemistry - Pre-Medicine Emphasis (BS) Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Chemistry - Pre-Medicine Emphasis (BS).",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 73,
+    "requirement_set_code": "COMPENG_CI_EMPH_2026_REQ",
+    "requirement_set_name": "Computer Engineering - Computational Intelligence Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Computer Engineering - Computational Intelligence Emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 74,
+    "requirement_set_code": "COMPENG_CHIPS_EMPH_2026_REQ",
+    "requirement_set_name": "Computer Engineering - Computer Chips and Semiconductor Engineering Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Computer Engineering - Computer Chips and Semiconductor Engineering Emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 75,
+    "requirement_set_code": "COMPENG_ECSD_EMPH_2026_REQ",
+    "requirement_set_name": "Computer Engineering - Electronic Computer System Design Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Computer Engineering - Electronic Computer System Design Emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 76,
+    "requirement_set_code": "COMPENG_NETWORKS_EMPH_2026_REQ",
+    "requirement_set_name": "Computer Engineering - Networks and Cyber Physical Systems Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Computer Engineering - Networks and Cyber Physical Systems Emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 77,
+    "requirement_set_code": "COMPSCI_AI_EMPH_2026_REQ",
+    "requirement_set_name": "Computer Science - Artificial Intelligence Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Computer Science - Artificial Intelligence Emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 78,
+    "requirement_set_code": "COMPSCI_CYBER_EMPH_2026_REQ",
+    "requirement_set_name": "Computer Science - Cybersecurity Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Computer Science - Cybersecurity Emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 79,
+    "requirement_set_code": "ECON_DDA_EMPH_2026_REQ",
+    "requirement_set_name": "Economics - Decision Data Analytics Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Economics - Decision Data Analytics Emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 80,
+    "requirement_set_code": "ECON_ENERGY_EMPH_2026_REQ",
+    "requirement_set_name": "Economics - Energy Economics Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Economics - Energy Economics Emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 81,
+    "requirement_set_code": "ECON_FINTECH_EMPH_2026_REQ",
+    "requirement_set_name": "Economics - Financial Economics and Technology Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Economics - Financial Economics and Technology Emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 82,
+    "requirement_set_code": "EE_CIRCUITS_EMPH_2026_REQ",
+    "requirement_set_name": "Electrical Engineering - Circuits and Electronics Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Electrical Engineering - Circuits and Electronics Emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 83,
+    "requirement_set_code": "EE_COMM_EMPH_2026_REQ",
+    "requirement_set_name": "Electrical Engineering - Communications and Signal Processing Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Electrical Engineering - Communications and Signal Processing Emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 84,
+    "requirement_set_code": "EE_COMPENG_EMPH_2026_REQ",
+    "requirement_set_name": "Electrical Engineering - Computer Engineering Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Electrical Engineering - Computer Engineering Emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 85,
+    "requirement_set_code": "EE_CONTROLS_EMPH_2026_REQ",
+    "requirement_set_name": "Electrical Engineering - Controls and Systems Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Electrical Engineering - Controls and Systems Emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 86,
+    "requirement_set_code": "EE_EMAG_EMPH_2026_REQ",
+    "requirement_set_name": "Electrical Engineering - Electromagnetics Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Electrical Engineering - Electromagnetics Emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 87,
+    "requirement_set_code": "EE_OPTICS_EMPH_2026_REQ",
+    "requirement_set_name": "Electrical Engineering - Optics and Devices Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Electrical Engineering - Optics and Devices Emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 88,
+    "requirement_set_code": "EE_POWER_EMPH_2026_REQ",
+    "requirement_set_name": "Electrical Engineering - Power and Energy Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Electrical Engineering - Power and Energy Emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 89,
+    "requirement_set_code": "ENGMGT_MOT_EMPH_2026_REQ",
+    "requirement_set_name": "Engineering Management - Management of Technology Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Engineering Management - Management of Technology Emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 90,
+    "requirement_set_code": "ENGMGT_IE_EMPH_2026_REQ",
+    "requirement_set_name": "Engineering Management - Industrial Engineering Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Engineering Management - Industrial Engineering Emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 91,
+    "requirement_set_code": "ENGMGT_ROTC_EMPH_2026_REQ",
+    "requirement_set_name": "Engineering Management - ROTC Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Engineering Management - ROTC Emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 92,
+    "requirement_set_code": "ENGMGT_GENERAL_EMPH_2026_REQ",
+    "requirement_set_name": "Engineering Management - General Engineering Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Engineering Management - General Engineering Emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 93,
+    "requirement_set_code": "ENVSCI_SECED_EMPH_2026_REQ",
+    "requirement_set_name": "Environmental Science - Secondary Education Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Catalog-derived requirements for Environmental Science - Secondary Education Emphasis.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 94,
+    "requirement_set_code": "CHEM_MINOR_2026_REQ",
+    "requirement_set_name": "Chemistry Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "Catalog-derived requirements for Chemistry Minor.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 95,
+    "requirement_set_code": "CONSTR_ENG_MGMT_MINOR_2026_REQ",
+    "requirement_set_name": "Construction Engineering & Management Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "Catalog-derived requirements for Construction Engineering & Management Minor.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 96,
+    "requirement_set_code": "COMPENG_MINOR_2026_REQ",
+    "requirement_set_name": "Computer Engineering Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "Catalog-derived requirements for Computer Engineering Minor.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 97,
+    "requirement_set_code": "COMPSCI_MINOR_2026_REQ",
+    "requirement_set_name": "Computer Science Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "Catalog-derived requirements for Computer Science Minor.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 98,
+    "requirement_set_code": "QUANT_ECON_MINOR_2026_REQ",
+    "requirement_set_name": "Quantitative Economics Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "Catalog-derived requirements for Quantitative Economics Minor.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 99,
+    "requirement_set_code": "EE_MINOR_2026_REQ",
+    "requirement_set_name": "Electrical Engineering Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "Catalog-derived requirements for Electrical Engineering Minor.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 100,
+    "requirement_set_code": "AUTOMATION_ENG_MINOR_2026_REQ",
+    "requirement_set_name": "Automation Engineering Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "Catalog-derived requirements for Automation Engineering Minor.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 101,
+    "requirement_set_code": "ENGMGT_MINOR_2026_REQ",
+    "requirement_set_name": "Engineering Management Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "Catalog-derived requirements for Engineering Management Minor.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 103,
+    "requirement_set_code": "EXPENG_MINOR_2026_REQ",
+    "requirement_set_name": "Explosives Engineering Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "15-credit Explosives Engineering minor.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 104,
+    "requirement_set_code": "FR_MINOR_2026_REQ",
+    "requirement_set_name": "French Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "18 total French credits: six hours beyond the 12-hour BA foreign-language requirement, with six hours at 3000+ and at least one course at 4000+.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 105,
+    "requirement_set_code": "GER_MINOR_2026_REQ",
+    "requirement_set_name": "German Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "18 total German credits: six hours beyond the 12-hour BA foreign-language requirement, with six hours at 3000+ and at least one course at 4000+.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 106,
+    "requirement_set_code": "RUS_MINOR_2026_REQ",
+    "requirement_set_name": "Russian Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "18 total Russian credits: six hours beyond the 12-hour BA foreign-language requirement, with six hours at 3000+ and at least one course at 4000+.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 107,
+    "requirement_set_code": "SPA_MINOR_2026_REQ",
+    "requirement_set_name": "Spanish Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "18 total Spanish credits: six hours beyond the 12-hour BA foreign-language requirement, with six hours at 3000+ and at least one course at 4000+.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 108,
+    "requirement_set_code": "GEOENG_BS_2026_CORE",
+    "requirement_set_name": "Geological Engineering BS Core",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Fixed Geological Engineering curriculum and explicit alternatives.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 109,
+    "requirement_set_code": "GEOENG_BS_2026_ELECTIVES",
+    "requirement_set_name": "Geological Engineering BS Electives",
+    "requirement_set_type": "PROGRAM_ELECTIVES",
+    "description": "Technical, field, geophysics, geological engineering, engineering economics, and statistics electives.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 110,
+    "requirement_set_code": "GEOENG_MINOR_2026_REQ",
+    "requirement_set_name": "Geological Engineering Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "15-credit Geological Engineering minor.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 111,
+    "requirement_set_code": "GG_BS_2026_CORE",
+    "requirement_set_name": "Geology and Geophysics BS Core",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Fixed Geology and Geophysics curriculum and explicit alternatives.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 112,
+    "requirement_set_code": "GG_BS_2026_ELECTIVES",
+    "requirement_set_name": "Geology and Geophysics BS Electives",
+    "requirement_set_type": "PROGRAM_ELECTIVES",
+    "description": "18 science/math/engineering elective hours and 21 geology/geophysics elective hours.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 113,
+    "requirement_set_code": "CES_MINOR_2026_REQ",
+    "requirement_set_name": "Computational Earth Sciences Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "18-credit Computational Earth Sciences minor.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 114,
+    "requirement_set_code": "GEOLOGY_MINOR_2026_REQ",
+    "requirement_set_name": "Geology Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "18-credit Geology minor.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 115,
+    "requirement_set_code": "HISTORY_MINOR_2026_REQ",
+    "requirement_set_name": "History Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "15-credit History minor.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 116,
+    "requirement_set_code": "IST_BS_2026_CORE",
+    "requirement_set_name": "Information Science and Technology BS Core",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Fixed Information Science and Technology BS curriculum.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 117,
+    "requirement_set_code": "IST_BS_2026_ELECTIVES",
+    "requirement_set_name": "Information Science and Technology BS Electives",
+    "requirement_set_type": "PROGRAM_ELECTIVES",
+    "description": "15 hours of IS&T electives; 11 free-elective hours are satisfied through total degree credits.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 36,
+    "requirement_set_code": "AI_ML_BUS_MINOR_2026_REQ",
+    "requirement_set_name": "AI and Machine Learning in Business Minor",
+    "requirement_set_type": "MINOR",
+    "description": "AI and Machine Learning in Business Minor from the Information Science and Technology minors page.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 37,
+    "requirement_set_code": "BUS_MINOR_2026_REQ",
+    "requirement_set_name": "Business Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "Business Minor Requirements from the Information Science and Technology minors page.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 38,
+    "requirement_set_code": "BUS_ANALYTICS_MINOR_2026_REQ",
+    "requirement_set_name": "Business Analytics and Data Science Minor",
+    "requirement_set_type": "MINOR",
+    "description": "Business Analytics and Data Science Minor from the Information Science and Technology minors page.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 39,
+    "requirement_set_code": "CYBER_MGMT_MINOR_2026_REQ",
+    "requirement_set_name": "Cybersecurity Management and Information Assurance Minor",
+    "requirement_set_type": "MINOR",
+    "description": "Cybersecurity Management and Information Assurance Minor from the Information Science and Technology minors page.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 40,
+    "requirement_set_code": "DIGITAL_SC_MINOR_2026_REQ",
+    "requirement_set_name": "Digital Supply Chain Management Minor",
+    "requirement_set_type": "MINOR",
+    "description": "Digital Supply Chain Management Minor from the Information Science and Technology minors page.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 41,
+    "requirement_set_code": "ERP_MINOR_2026_REQ",
+    "requirement_set_name": "Enterprise Resource Planning Minor",
+    "requirement_set_type": "MINOR",
+    "description": "Enterprise Resource Planning Minor from the Information Science and Technology minors page.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 42,
+    "requirement_set_code": "ENTRE_MINOR_2026_REQ",
+    "requirement_set_name": "Entrepreneurship Minor",
+    "requirement_set_type": "MINOR",
+    "description": "Entrepreneurship Minor from the Information Science and Technology minors page.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 43,
+    "requirement_set_code": "FINANCE_MINOR_2026_REQ",
+    "requirement_set_name": "Finance Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "Finance Minor Requirements from the Information Science and Technology minors page.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 44,
+    "requirement_set_code": "FINTECH_MINOR_2026_REQ",
+    "requirement_set_name": "Financial Technology, Analytics and Transformation Minor",
+    "requirement_set_type": "MINOR",
+    "description": "Financial Technology, Analytics and Transformation Minor from the Information Science and Technology minors page.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 45,
+    "requirement_set_code": "IST_MINOR_2026_REQ",
+    "requirement_set_name": "Information Science and Technology Minor",
+    "requirement_set_type": "MINOR",
+    "description": "Information Science and Technology Minor from the Information Science and Technology minors page.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 46,
+    "requirement_set_code": "MGMT_MINOR_2026_REQ",
+    "requirement_set_name": "Management Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "Management Minor Requirements from the Information Science and Technology minors page.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 47,
+    "requirement_set_code": "MKT_MINOR_2026_REQ",
+    "requirement_set_name": "Marketing Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "Marketing Minor Requirements from the Information Science and Technology minors page.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 130,
+    "requirement_set_code": "MATH_BS_2026_CORE",
+    "requirement_set_name": "Applied Mathematics BS Core",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Applied Mathematics fixed curriculum and discipline-specific requirements.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 131,
+    "requirement_set_code": "MATH_BS_2026_ELECTIVES",
+    "requirement_set_name": "Applied Mathematics BS Electives",
+    "requirement_set_type": "PROGRAM_ELECTIVES",
+    "description": "Mathematics, statistics, capstone, and 15 technical-elective credits for the base major.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 132,
+    "requirement_set_code": "MATH_ACTUARIAL_2026_REQ",
+    "requirement_set_name": "Actuarial Science Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Actuarial Science emphasis requirements; actuarial exam is not enforced by the optimizer.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 133,
+    "requirement_set_code": "MATH_COMP_2026_REQ",
+    "requirement_set_name": "Computational Mathematics Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Computational Mathematics emphasis requirements.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 134,
+    "requirement_set_code": "MATH_SECED_2026_REQ",
+    "requirement_set_name": "Applied Mathematics Secondary Education Emphasis",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Secondary Education emphasis coursework; GPA/licensure requirements are not enforced.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 135,
+    "requirement_set_code": "MATH_DS_2026_REQ",
+    "requirement_set_name": "Data Science and Statistics Emphasis Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Data Science and Statistics emphasis requirements.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 136,
+    "requirement_set_code": "MATH_MINOR_2026_REQ",
+    "requirement_set_name": "Mathematics Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "12 hours of MATH/STAT lecture courses at 3000+, including 3 hours at 4000+, with at most one of STAT 3111/3113/3115/3117.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 137,
+    "requirement_set_code": "MECH_BS_2026_CORE",
+    "requirement_set_name": "Mechanical Engineering BS Core",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Fixed Mechanical Engineering BS curriculum and explicit course alternatives.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 138,
+    "requirement_set_code": "MECH_BS_2026_ELECTIVES",
+    "requirement_set_name": "Mechanical Engineering BS Electives",
+    "requirement_set_type": "PROGRAM_ELECTIVES",
+    "description": "Programming, advanced math/stat, department technical, general technical, and breadth electives.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 139,
+    "requirement_set_code": "MECH_ENERGY_2026_REQ",
+    "requirement_set_name": "Mechanical Engineering Energy Conversion Emphasis",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Four-course Energy Conversion emphasis constraints.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 140,
+    "requirement_set_code": "MECH_MANUF_2026_REQ",
+    "requirement_set_name": "Mechanical Engineering Manufacturing Processes Emphasis",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Manufacturing Processes emphasis constraints.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 141,
+    "requirement_set_code": "MECH_DESIGN_2026_REQ",
+    "requirement_set_name": "Mechanical Engineering Mechanical Design and Analysis Emphasis",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Mechanical Design and Analysis emphasis constraints.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 142,
+    "requirement_set_code": "MECH_SYSINT_2026_REQ",
+    "requirement_set_name": "Mechanical Engineering Systems Integration Emphasis",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Systems Integration emphasis additions/substitutions for the Missouri State cooperative program. This is a replacement-style emphasis; see SQL comments.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 143,
+    "requirement_set_code": "MET_BS_2026_CORE",
+    "requirement_set_name": "Metallurgical Engineering BS Core",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Fixed Metallurgical Engineering BS curriculum and explicit alternatives.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 144,
+    "requirement_set_code": "MET_BS_2026_ELECTIVES",
+    "requirement_set_name": "Metallurgical Engineering BS Electives",
+    "requirement_set_type": "PROGRAM_ELECTIVES",
+    "description": "Metallurgical, steel, out-of-department, and out-of-program technical electives.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 145,
+    "requirement_set_code": "MIN_BS_2026_CORE",
+    "requirement_set_name": "Mining Engineering BS Core",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Fixed Mining Engineering BS curriculum and explicit alternatives.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 146,
+    "requirement_set_code": "MIN_BS_2026_ELECTIVES",
+    "requirement_set_name": "Mining Engineering BS Technical Electives",
+    "requirement_set_type": "PROGRAM_ELECTIVES",
+    "description": "Two 3-credit technical-elective slots, conservatively materialized from the published emphasis course lists.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 147,
+    "requirement_set_code": "MIN_COAL_2026_REQ",
+    "requirement_set_name": "Mining Engineering Coal Emphasis",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Mining Engineering Coal Emphasis requirements occupy the Mining Engineering technical-elective slots.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 148,
+    "requirement_set_code": "MIN_EXPLOSIVES_2026_REQ",
+    "requirement_set_name": "Mining Engineering Explosives Engineering Emphasis",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Mining Engineering Explosives Engineering Emphasis requirements occupy the Mining Engineering technical-elective slots.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 149,
+    "requirement_set_code": "MIN_ENV_2026_REQ",
+    "requirement_set_name": "Mining Engineering Mining and the Environment Emphasis",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Mining Engineering Mining and the Environment Emphasis requirements occupy the Mining Engineering technical-elective slots.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 150,
+    "requirement_set_code": "MIN_SAFETY_2026_REQ",
+    "requirement_set_name": "Mining Engineering Mining Health and Safety Emphasis",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Mining Engineering Mining Health and Safety Emphasis requirements occupy the Mining Engineering technical-elective slots.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 151,
+    "requirement_set_code": "MIN_QUARRY_2026_REQ",
+    "requirement_set_name": "Mining Engineering Quarrying Engineering Emphasis",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Mining Engineering Quarrying Engineering Emphasis requirements occupy the Mining Engineering technical-elective slots.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 152,
+    "requirement_set_code": "MIN_SUSTAIN_2026_REQ",
+    "requirement_set_name": "Mining Engineering Sustainable Development Emphasis",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Mining Engineering Sustainable Development Emphasis requirements occupy the Mining Engineering technical-elective slots.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 153,
+    "requirement_set_code": "MINENG_MINOR_2026_REQ",
+    "requirement_set_name": "Mining Engineering Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "15-credit Mining Engineering minor.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 154,
+    "requirement_set_code": "MINPROC_MINOR_2026_REQ",
+    "requirement_set_name": "Mineral Processing Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "15-credit Mineral Processing minor.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 156,
+    "requirement_set_code": "MUSIC_MINOR_2026_REQ",
+    "requirement_set_name": "Music Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "Three ensemble courses plus 12 credits from the published Music minor list.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 157,
+    "requirement_set_code": "NUC_BS_2026_CORE",
+    "requirement_set_name": "Nuclear Engineering BS Core",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Fixed Nuclear Engineering BS curriculum and explicit alternatives.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 158,
+    "requirement_set_code": "NUC_BS_2026_ELECTIVES",
+    "requirement_set_name": "Nuclear Engineering BS Electives",
+    "requirement_set_type": "PROGRAM_ELECTIVES",
+    "description": "Nuclear Engineering and technical elective requirements.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 159,
+    "requirement_set_code": "NUC_MINOR_2026_REQ",
+    "requirement_set_name": "Nuclear Engineering Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "15-credit Nuclear Engineering minor.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 160,
+    "requirement_set_code": "PET_BS_2026_CORE",
+    "requirement_set_name": "Petroleum Engineering BS Core",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "Fixed Petroleum Engineering BS curriculum and explicit alternatives.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 161,
+    "requirement_set_code": "PET_BS_2026_ELECTIVES",
+    "requirement_set_name": "Petroleum Engineering BS Electives",
+    "requirement_set_type": "PROGRAM_ELECTIVES",
+    "description": "Programming and Petroleum Engineering elective requirements.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 163,
+    "requirement_set_code": "PETENG_MINOR_2026_REQ",
+    "requirement_set_name": "Petroleum Engineering Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "15 credits: three fixed PET ENG courses plus two additional 3-credit electives from PET ENG and/or GEOLOGY 5513.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 164,
+    "requirement_set_code": "ETHICS_MINOR_2026_REQ",
+    "requirement_set_name": "Ethics Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "15 credits from the catalog ethics list, including at least 6 credits at the 4000 level.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 165,
+    "requirement_set_code": "PHILOS_MINOR_2026_REQ",
+    "requirement_set_name": "Philosophy Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "PHILOS 1105 plus 12 additional PHILOS credits, including 6 credits at the 4000 level or above.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 166,
+    "requirement_set_code": "PHILOS_TECH_MINOR_2026_REQ",
+    "requirement_set_name": "Philosophy of Technology Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "15 credits with PHILOS 1115 mandatory, at least two primary technology/philosophy courses with at least one PHILOS course, and at least 9 total PHILOS credits.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 167,
+    "requirement_set_code": "PHYSICS_BS_2026_REQ",
+    "requirement_set_name": "Physics BS Requirements",
+    "requirement_set_type": "PROGRAM_CORE",
+    "description": "120-credit Physics BS core plus mathematics/statistics, physics-focus and advanced-physics elective requirements. The remaining 30 credits are degree/general electives governed by total degree credits and the shared GenEd set.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 168,
+    "requirement_set_code": "PHYSICS_SECED_2026_REQ",
+    "requirement_set_name": "Physics Secondary Education Emphasis Replacement Requirements",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Replacement curriculum for the Physics Secondary Education emphasis. Fifteen professional-education credits may substitute for 6 math elective credits, 6 physics elective credits, and 3 computer-science credits.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 169,
+    "requirement_set_code": "PHYSICS_MINOR_2026_REQ",
+    "requirement_set_name": "Physics Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "Introductory physics sequence, one modern-physics course, and 12 additional PHYSICS credits at 2000 level or above.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 170,
+    "requirement_set_code": "POLSCI_MINOR_2026_REQ",
+    "requirement_set_name": "Political Science Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "POL SCI 1200 plus 12 credits of approved upper-level Political Science. The catalog does not provide a numeric definition of upper-level; this prototype materializes POL SCI courses at 2000 level or above.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 171,
+    "requirement_set_code": "PREMED_MINOR_2026_REQ",
+    "requirement_set_name": "Pre-Medicine Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "Required biology, chemistry, physics and calculus preparation plus one advanced biology/biochemistry course. PREMED 3010 is suggested but not required and is not enforced.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 172,
+    "requirement_set_code": "PSYCH_MINOR_2026_REQ",
+    "requirement_set_name": "Psychology Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "15 PSYCH credits with at least 9 credits at 3000 level or above.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 173,
+    "requirement_set_code": "PSYCH_HUMAN_FACTORS_MINOR_2026_REQ",
+    "requirement_set_name": "Human Factors Psychology Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "15-credit Human Factors Psychology minor.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 174,
+    "requirement_set_code": "PSYCH_IO_MINOR_2026_REQ",
+    "requirement_set_name": "Industrial/Organizational Psychology Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "15-credit Industrial/Organizational Psychology minor.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 175,
+    "requirement_set_code": "PSYCH_HEALTHCARE_MINOR_2026_REQ",
+    "requirement_set_name": "Psychology for Health Care Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "15-credit Psychology for Health Care minor.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 176,
+    "requirement_set_code": "PSYCH_LEADERSHIP_MINOR_2026_REQ",
+    "requirement_set_name": "Psychology of Leadership Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "15-credit Psychology of Leadership minor.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 177,
+    "requirement_set_code": "PSYCH_COGNEURO_MINOR_2026_REQ",
+    "requirement_set_name": "Cognitive Neuroscience Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "15-credit Cognitive Neuroscience minor.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 155,
+    "requirement_set_code": "MCD_MINOR_2026_REQ",
+    "requirement_set_name": "Multiculturalism and Diversity Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "15 hours across at least three of four catalog HSS department categories. Reuses the same stable program/set codes as the earlier Multiculturalism & Diversity source.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 179,
+    "requirement_set_code": "SEMIENG_DEVICE_2026_REQ",
+    "requirement_set_name": "Semiconductor Device Engineering Emphasis Curriculum",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Complete 127-credit Semiconductor Device Engineering emphasis curriculum. Parent Semiconductor Engineering major is metadata/relationship-only because the two emphasis curricula have different totals.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 180,
+    "requirement_set_code": "SEMIENG_PROCESS_2026_REQ",
+    "requirement_set_name": "Semiconductor Process Engineering Emphasis Curriculum",
+    "requirement_set_type": "EMPHASIS",
+    "description": "Complete 128-credit Semiconductor Process Engineering emphasis curriculum. Parent Semiconductor Engineering major is metadata/relationship-only because the two emphasis curricula have different totals.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 181,
+    "requirement_set_code": "COMM_STUDIES_MINOR_2026_REQ",
+    "requirement_set_name": "Communication Studies Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "SP&M S 2181 plus four courses / 12 credits from the published Communication Studies elective list.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 182,
+    "requirement_set_code": "LEAD_COMM_MINOR_2026_REQ",
+    "requirement_set_name": "Leadership Communication Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "SP&M S 2181 plus 12 credits from the five published Leadership Communication courses.",
+    "is_active": true
+  },
+  {
+    "requirement_set_id": 183,
+    "requirement_set_code": "SYSENG_MINOR_2026_REQ",
+    "requirement_set_name": "Systems Engineering Minor Requirements",
+    "requirement_set_type": "MINOR",
+    "description": "15 fixed credits in Systems Engineering and Engineering Management.",
     "is_active": true
   }
 ]

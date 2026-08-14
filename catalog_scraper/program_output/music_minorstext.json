@@ -1,0 +1,381 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/music/#minorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/music/",
+        "fragment": "minorstext",
+        "page_slug": "music",
+        "page_title": "Music < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 747,
+        "html_character_count": 2751,
+        "heading_count": 1,
+        "paragraph_count": 1,
+        "list_count": 1,
+        "table_count": 1,
+        "link_count": 8,
+        "superscript_count": 0,
+        "text_sha256": "fe0950b30a7c36ce75f03deb39a9c32a959dba816814ccb584e33c95e75f03bd",
+        "html_sha256": "6b1e998858ab4f37f64f1df9a1c01c470a791db5e13740af47b1f4255b001f3f"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Music Minor Curriculum",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "MUSIC 1150",
+            "href": "/search/?P=MUSIC%201150",
+            "url": "https://catalog.mst.edu/search/?P=MUSIC%201150",
+            "resolved_course": "MUSIC 1150"
+        },
+        {
+            "number": 2,
+            "text": "MUSIC 1151",
+            "href": "/search/?P=MUSIC%201151",
+            "url": "https://catalog.mst.edu/search/?P=MUSIC%201151",
+            "resolved_course": "MUSIC 1151"
+        },
+        {
+            "number": 3,
+            "text": "MUSIC 2161",
+            "href": "/search/?P=MUSIC%202161",
+            "url": "https://catalog.mst.edu/search/?P=MUSIC%202161",
+            "resolved_course": "MUSIC 2161"
+        },
+        {
+            "number": 4,
+            "text": "MUSIC 2162",
+            "href": "/search/?P=MUSIC%202162",
+            "url": "https://catalog.mst.edu/search/?P=MUSIC%202162",
+            "resolved_course": "MUSIC 2162"
+        },
+        {
+            "number": 5,
+            "text": "MUSIC 2163",
+            "href": "/search/?P=MUSIC%202163",
+            "url": "https://catalog.mst.edu/search/?P=MUSIC%202163",
+            "resolved_course": "MUSIC 2163"
+        },
+        {
+            "number": 6,
+            "text": "MUSIC 3251",
+            "href": "/search/?P=MUSIC%203251",
+            "url": "https://catalog.mst.edu/search/?P=MUSIC%203251",
+            "resolved_course": "MUSIC 3251"
+        },
+        {
+            "number": 7,
+            "text": "MUSIC 3252",
+            "href": "/search/?P=MUSIC%203252",
+            "url": "https://catalog.mst.edu/search/?P=MUSIC%203252",
+            "resolved_course": "MUSIC 3252"
+        },
+        {
+            "number": 8,
+            "text": "MUSIC 3253",
+            "href": "/search/?P=MUSIC%203253",
+            "url": "https://catalog.mst.edu/search/?P=MUSIC%203253",
+            "resolved_course": "MUSIC 3253"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "MUSIC 1150 Music Appreciation: Music of Latin America 3 MUSIC 1151 Music of Latin America 3 MUSIC 2161 Theory of Music I 3 MUSIC 2162 Theory of Music II 3 MUSIC 2163 Introduction to Composition and Arranging 3 MUSIC 3251 From the Church to the Palace: Music of the Middle Ages and Renaissance 3 MUSIC 3252 Kings, Queens, and Guillotines: History of Music in the Enlightenment and Beyond 3 MUSIC 3253 History of Music in Film 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MUSIC 1150",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MUSIC 1150",
+                                    "url": "https://catalog.mst.edu/search/?P=MUSIC%201150",
+                                    "resolved_course": "MUSIC 1150"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Music Appreciation: Music of Latin America",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MUSIC 1151",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MUSIC 1151",
+                                    "url": "https://catalog.mst.edu/search/?P=MUSIC%201151",
+                                    "resolved_course": "MUSIC 1151"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Music of Latin America",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MUSIC 2161",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MUSIC 2161",
+                                    "url": "https://catalog.mst.edu/search/?P=MUSIC%202161",
+                                    "resolved_course": "MUSIC 2161"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Theory of Music I",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MUSIC 2162",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MUSIC 2162",
+                                    "url": "https://catalog.mst.edu/search/?P=MUSIC%202162",
+                                    "resolved_course": "MUSIC 2162"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Theory of Music II",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MUSIC 2163",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MUSIC 2163",
+                                    "url": "https://catalog.mst.edu/search/?P=MUSIC%202163",
+                                    "resolved_course": "MUSIC 2163"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Introduction to Composition and Arranging",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MUSIC 3251",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MUSIC 3251",
+                                    "url": "https://catalog.mst.edu/search/?P=MUSIC%203251",
+                                    "resolved_course": "MUSIC 3251"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "From the Church to the Palace: Music of the Middle Ages and Renaissance",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MUSIC 3252",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MUSIC 3252",
+                                    "url": "https://catalog.mst.edu/search/?P=MUSIC%203252",
+                                    "resolved_course": "MUSIC 3252"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Kings, Queens, and Guillotines: History of Music in the Enlightenment and Beyond",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MUSIC 3253",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MUSIC 3253",
+                                    "url": "https://catalog.mst.edu/search/?P=MUSIC%203253",
+                                    "resolved_course": "MUSIC 3253"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "History of Music in Film",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MUSIC%201150\" onclick=\"return showCourse(this, 'MUSIC 1150');\" title=\"MUSIC 1150\">MUSIC 1150</a></td><td>Music Appreciation:  Music of Latin America</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MUSIC%201151\" onclick=\"return showCourse(this, 'MUSIC 1151');\" title=\"MUSIC 1151\">MUSIC 1151</a></td><td>Music of Latin America</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MUSIC%202161\" onclick=\"return showCourse(this, 'MUSIC 2161');\" title=\"MUSIC 2161\">MUSIC 2161</a></td><td>Theory of Music I</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MUSIC%202162\" onclick=\"return showCourse(this, 'MUSIC 2162');\" title=\"MUSIC 2162\">MUSIC 2162</a></td><td>Theory of Music II</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MUSIC%202163\" onclick=\"return showCourse(this, 'MUSIC 2163');\" title=\"MUSIC 2163\">MUSIC 2163</a></td><td>Introduction to Composition and Arranging</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MUSIC%203251\" onclick=\"return showCourse(this, 'MUSIC 3251');\" title=\"MUSIC 3251\">MUSIC 3251</a></td><td>From the Church to the Palace:  Music of the Middle Ages and Renaissance</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MUSIC%203252\" onclick=\"return showCourse(this, 'MUSIC 3252');\" title=\"MUSIC 3252\">MUSIC 3252</a></td><td>Kings, Queens, and Guillotines: History of Music in the Enlightenment and Beyond</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MUSIC%203253\" onclick=\"return showCourse(this, 'MUSIC 3253');\" title=\"MUSIC 3253\">MUSIC 3253</a></td><td>History of Music in Film</td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        }
+    ],
+    "section_text": "Music Minor Curriculum Students will take three ensemble courses, to be chosen from Band, Choir, Orchestra. Students will take twelve credits of courses chosen from the following list: MUSIC 1150 Music Appreciation: Music of Latin America 3 MUSIC 1151 Music of Latin America 3 MUSIC 2161 Theory of Music I 3 MUSIC 2162 Theory of Music II 3 MUSIC 2163 Introduction to Composition and Arranging 3 MUSIC 3251 From the Church to the Palace: Music of the Middle Ages and Renaissance 3 MUSIC 3252 Kings, Queens, and Guillotines: History of Music in the Enlightenment and Beyond 3 MUSIC 3253 History of Music in Film 3 3. Other courses may be substituted with written permission from the Music Minor Advisor and approval from the Department Chair of ALP.",
+    "section_html": "<div class=\"tab_content\" id=\"minorstextcontainer\">\n<a name=\"minorstext\"></a><h2>Music Minor Curriculum</h2> <ol> <li> Students will take three ensemble courses, to be chosen from Band, Choir, Orchestra.</li> <li>Students will take twelve credits of courses chosen from the following list:</li> </ol> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MUSIC%201150\" onclick=\"return showCourse(this, 'MUSIC 1150');\" title=\"MUSIC 1150\">MUSIC 1150</a></td><td>Music Appreciation:  Music of Latin America</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MUSIC%201151\" onclick=\"return showCourse(this, 'MUSIC 1151');\" title=\"MUSIC 1151\">MUSIC 1151</a></td><td>Music of Latin America</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MUSIC%202161\" onclick=\"return showCourse(this, 'MUSIC 2161');\" title=\"MUSIC 2161\">MUSIC 2161</a></td><td>Theory of Music I</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MUSIC%202162\" onclick=\"return showCourse(this, 'MUSIC 2162');\" title=\"MUSIC 2162\">MUSIC 2162</a></td><td>Theory of Music II</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MUSIC%202163\" onclick=\"return showCourse(this, 'MUSIC 2163');\" title=\"MUSIC 2163\">MUSIC 2163</a></td><td>Introduction to Composition and Arranging</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MUSIC%203251\" onclick=\"return showCourse(this, 'MUSIC 3251');\" title=\"MUSIC 3251\">MUSIC 3251</a></td><td>From the Church to the Palace:  Music of the Middle Ages and Renaissance</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MUSIC%203252\" onclick=\"return showCourse(this, 'MUSIC 3252');\" title=\"MUSIC 3252\">MUSIC 3252</a></td><td>Kings, Queens, and Guillotines: History of Music in the Enlightenment and Beyond</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MUSIC%203253\" onclick=\"return showCourse(this, 'MUSIC 3253');\" title=\"MUSIC 3253\">MUSIC 3253</a></td><td>History of Music in Film</td><td class=\"hourscol\">3</td></tr> </tbody></table> <p>   3. Other courses may be substituted with written permission from the Music Minor Advisor and approval from the Department Chair of ALP.</p>\n</div>"
+}

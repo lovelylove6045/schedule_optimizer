@@ -1,0 +1,869 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/prehealthprofessions/#minortext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/prehealthprofessions/",
+        "fragment": "minortext",
+        "page_slug": "prehealthprofessions",
+        "page_title": "Prehealth Professions < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minortextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 1866,
+        "html_character_count": 8487,
+        "heading_count": 1,
+        "paragraph_count": 1,
+        "list_count": 0,
+        "table_count": 1,
+        "link_count": 26,
+        "superscript_count": 0,
+        "text_sha256": "6f1f3d234fe4ef89f628b256be5ec049d96dbbfb37c50c005ebfa1cfa6b98c7d",
+        "html_sha256": "0f66ebd46d5e2e1b83741bd167d26fc53ed725b9721110206ef309d8ac36c1f2"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Premedicine Minor",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "BIO SCI 1213",
+            "href": "/search/?P=BIO%20SCI%201213",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201213",
+            "resolved_course": "BIO SCI 1213"
+        },
+        {
+            "number": 2,
+            "text": "BIO SCI 1219",
+            "href": "/search/?P=BIO%20SCI%201219",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201219",
+            "resolved_course": "BIO SCI 1219"
+        },
+        {
+            "number": 3,
+            "text": "BIO SCI 1113",
+            "href": "/search/?P=BIO%20SCI%201113",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201113",
+            "resolved_course": "BIO SCI 1113"
+        },
+        {
+            "number": 4,
+            "text": "BIO SCI 1219",
+            "href": "/search/?P=BIO%20SCI%201219",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201219",
+            "resolved_course": "BIO SCI 1219"
+        },
+        {
+            "number": 5,
+            "text": "BIO SCI 2213",
+            "href": "/search/?P=BIO%20SCI%202213",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%202213",
+            "resolved_course": "BIO SCI 2213"
+        },
+        {
+            "number": 6,
+            "text": "BIO SCI 2219",
+            "href": "/search/?P=BIO%20SCI%202219",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%202219",
+            "resolved_course": "BIO SCI 2219"
+        },
+        {
+            "number": 7,
+            "text": "CHEM 1310",
+            "href": "/search/?P=CHEM%201310",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201310",
+            "resolved_course": "CHEM 1310"
+        },
+        {
+            "number": 8,
+            "text": "CHEM 1319",
+            "href": "/search/?P=CHEM%201319",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201319",
+            "resolved_course": "CHEM 1319"
+        },
+        {
+            "number": 9,
+            "text": "CHEM 1320",
+            "href": "/search/?P=CHEM%201320",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201320",
+            "resolved_course": "CHEM 1320"
+        },
+        {
+            "number": 10,
+            "text": "CHEM 1100",
+            "href": "/search/?P=CHEM%201100",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201100",
+            "resolved_course": "CHEM 1100"
+        },
+        {
+            "number": 11,
+            "text": "CHEM 2210",
+            "href": "/search/?P=CHEM%202210",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%202210",
+            "resolved_course": "CHEM 2210"
+        },
+        {
+            "number": 12,
+            "text": "CHEM 2219",
+            "href": "/search/?P=CHEM%202219",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%202219",
+            "resolved_course": "CHEM 2219"
+        },
+        {
+            "number": 13,
+            "text": "CHEM 2220",
+            "href": "/search/?P=CHEM%202220",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%202220",
+            "resolved_course": "CHEM 2220"
+        },
+        {
+            "number": 14,
+            "text": "CHEM 2229",
+            "href": "/search/?P=CHEM%202229",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%202229",
+            "resolved_course": "CHEM 2229"
+        },
+        {
+            "number": 15,
+            "text": "PHYSICS 1145",
+            "href": "/search/?P=PHYSICS%201145",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%201145",
+            "resolved_course": "PHYSICS 1145"
+        },
+        {
+            "number": 16,
+            "text": "PHYSICS 1135",
+            "href": "/search/?P=PHYSICS%201135",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%201135",
+            "resolved_course": "PHYSICS 1135"
+        },
+        {
+            "number": 17,
+            "text": "PHYSICS 2145",
+            "href": "/search/?P=PHYSICS%202145",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202145",
+            "resolved_course": "PHYSICS 2145"
+        },
+        {
+            "number": 18,
+            "text": "PHYSICS 2135",
+            "href": "/search/?P=PHYSICS%202135",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202135",
+            "resolved_course": "PHYSICS 2135"
+        },
+        {
+            "number": 19,
+            "text": "MATH 1211",
+            "href": "/search/?P=MATH%201211",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201211",
+            "resolved_course": "MATH 1211"
+        },
+        {
+            "number": 20,
+            "text": "MATH 1212",
+            "href": "/search/?P=MATH%201212",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201212",
+            "resolved_course": "MATH 1212"
+        },
+        {
+            "number": 21,
+            "text": "MATH 1214",
+            "href": "/search/?P=MATH%201214",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201214",
+            "resolved_course": "MATH 1214"
+        },
+        {
+            "number": 22,
+            "text": "BIO SCI 2223",
+            "href": "/search/?P=BIO%20SCI%202223",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%202223",
+            "resolved_course": "BIO SCI 2223"
+        },
+        {
+            "number": 23,
+            "text": "BIO SCI 3333",
+            "href": "/search/?P=BIO%20SCI%203333",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%203333",
+            "resolved_course": "BIO SCI 3333"
+        },
+        {
+            "number": 24,
+            "text": "BIO SCI 3343",
+            "href": "/search/?P=BIO%20SCI%203343",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%203343",
+            "resolved_course": "BIO SCI 3343"
+        },
+        {
+            "number": 25,
+            "text": "CHEM 4610",
+            "href": "/search/?P=CHEM%204610",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%204610",
+            "resolved_course": "CHEM 4610"
+        },
+        {
+            "number": 26,
+            "text": "PREMED 3010",
+            "href": "/search/?P=PREMED%203010",
+            "url": "https://catalog.mst.edu/search/?P=PREMED%203010",
+            "resolved_course": "PREMED 3010"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "BIO SCI 1213 & BIO SCI 1219 Principles of Biology and General Biology Lab 4 or BIO SCI 1113 & BIO SCI 1219 General Biology and General Biology Lab BIO SCI 2213 & BIO SCI 2219 Cell Biology and Cell Biology Laboratory 4 CHEM 1310 & CHEM 1319 & CHEM 1320 & CHEM 1100 General Chemistry I and General Chemistry Laboratory and General Chemistry II and Introduction To Laboratory Safety & Hazardous Materials 9 CHEM 2210 & CHEM 2219 & CHEM 2220 & CHEM 2229 Organic Chemistry I and Organic Chemistry I Lab and Organic Chemistry II and Organic Chemistry II Lab 8 PHYSICS 1145 College Physics I 4 or PHYSICS 1135 Engineering Physics I PHYSICS 2145 College Physics II 4 or PHYSICS 2135 Engineering Physics II MATH 1211 Calculus I-B 4 or MATH 1212 Survey of Calculus or MATH 1214 Calculus I One of the following courses (taking all four courses is strongly encouraged): BIO SCI 2223 General Genetics BIO SCI 3333 Human Anatomy and Physiology I BIO SCI 3343 Human Anatomy and Physiology II CHEM 4610 General Biochemistry PREMED 3010 Communication Workshop for the Pre-Health Student (Suggested but not required) 1",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "BIO SCI 1213 & BIO SCI 1219",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BIO SCI 1213",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201213",
+                                    "resolved_course": "BIO SCI 1213"
+                                },
+                                {
+                                    "text": "BIO SCI 1219",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201219",
+                                    "resolved_course": "BIO SCI 1219"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Principles of Biology and General Biology Lab",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "or BIO SCI 1113 & BIO SCI 1219",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BIO SCI 1113",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201113",
+                                    "resolved_course": "BIO SCI 1113"
+                                },
+                                {
+                                    "text": "BIO SCI 1219",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201219",
+                                    "resolved_course": "BIO SCI 1219"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "General Biology and General Biology Lab",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "BIO SCI 2213 & BIO SCI 2219",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BIO SCI 2213",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%202213",
+                                    "resolved_course": "BIO SCI 2213"
+                                },
+                                {
+                                    "text": "BIO SCI 2219",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%202219",
+                                    "resolved_course": "BIO SCI 2219"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Cell Biology and Cell Biology Laboratory",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CHEM 1310 & CHEM 1319 & CHEM 1320 & CHEM 1100",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CHEM 1310",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%201310",
+                                    "resolved_course": "CHEM 1310"
+                                },
+                                {
+                                    "text": "CHEM 1319",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%201319",
+                                    "resolved_course": "CHEM 1319"
+                                },
+                                {
+                                    "text": "CHEM 1320",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%201320",
+                                    "resolved_course": "CHEM 1320"
+                                },
+                                {
+                                    "text": "CHEM 1100",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%201100",
+                                    "resolved_course": "CHEM 1100"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "General Chemistry I and General Chemistry Laboratory and General Chemistry II and Introduction To Laboratory Safety & Hazardous Materials",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "9",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CHEM 2210 & CHEM 2219 & CHEM 2220 & CHEM 2229",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CHEM 2210",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%202210",
+                                    "resolved_course": "CHEM 2210"
+                                },
+                                {
+                                    "text": "CHEM 2219",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%202219",
+                                    "resolved_course": "CHEM 2219"
+                                },
+                                {
+                                    "text": "CHEM 2220",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%202220",
+                                    "resolved_course": "CHEM 2220"
+                                },
+                                {
+                                    "text": "CHEM 2229",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%202229",
+                                    "resolved_course": "CHEM 2229"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Organic Chemistry I and Organic Chemistry I Lab and Organic Chemistry II and Organic Chemistry II Lab",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "8",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHYSICS 1145",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 1145",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%201145",
+                                    "resolved_course": "PHYSICS 1145"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "College Physics I",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "or PHYSICS 1135",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 1135",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%201135",
+                                    "resolved_course": "PHYSICS 1135"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Engineering Physics I",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHYSICS 2145",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 2145",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%202145",
+                                    "resolved_course": "PHYSICS 2145"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "College Physics II",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "or PHYSICS 2135",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 2135",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%202135",
+                                    "resolved_course": "PHYSICS 2135"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Engineering Physics II",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 10,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 11,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MATH 1211",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 1211",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201211",
+                                    "resolved_course": "MATH 1211"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Calculus I-B",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 12,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "or MATH 1212",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 1212",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201212",
+                                    "resolved_course": "MATH 1212"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Survey of Calculus",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 13,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "or MATH 1214",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 1214",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201214",
+                                    "resolved_course": "MATH 1214"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Calculus I",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 14,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "One of the following courses (taking all four courses is strongly encouraged):",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 15,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "BIO SCI 2223",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BIO SCI 2223",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%202223",
+                                    "resolved_course": "BIO SCI 2223"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "General Genetics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 16,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "BIO SCI 3333",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BIO SCI 3333",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%203333",
+                                    "resolved_course": "BIO SCI 3333"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Human Anatomy and Physiology I",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 17,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "BIO SCI 3343",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BIO SCI 3343",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%203343",
+                                    "resolved_course": "BIO SCI 3343"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Human Anatomy and Physiology II",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 18,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CHEM 4610",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CHEM 4610",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%204610",
+                                    "resolved_course": "CHEM 4610"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "General Biochemistry",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 19,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PREMED 3010",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PREMED 3010",
+                                    "url": "https://catalog.mst.edu/search/?P=PREMED%203010",
+                                    "resolved_course": "PREMED 3010"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Communication Workshop for the Pre-Health Student (Suggested but not required)",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201213\" onclick=\"return showCourse(this, 'BIO SCI 1213');\" title=\"BIO SCI 1213\">BIO SCI 1213</a><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201219\" onclick=\"return showCourse(this, 'BIO SCI 1219');\" title=\"BIO SCI 1219\">BIO SCI 1219</a></span></td><td>Principles of Biology<br/><span class=\"blockindent\" style=\"margin-left:20px;\">and General Biology Lab</span></td><td class=\"hourscol\">4</td></tr> <tr class=\"orclass even firstrow\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201113\" onclick=\"return showCourse(this, 'BIO SCI 1113');\" title=\"BIO SCI 1113\">BIO SCI 1113</a><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201219\" onclick=\"return showCourse(this, 'BIO SCI 1219');\" title=\"BIO SCI 1219\">BIO SCI 1219</a></span></td><td colspan=\"2\"> General Biology<br/><span class=\"blockindent\" style=\"margin-left:20px;\">and General Biology Lab</span></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%202213\" onclick=\"return showCourse(this, 'BIO SCI 2213');\" title=\"BIO SCI 2213\">BIO SCI 2213</a><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%202219\" onclick=\"return showCourse(this, 'BIO SCI 2219');\" title=\"BIO SCI 2219\">BIO SCI 2219</a></span></td><td>Cell Biology<br/><span class=\"blockindent\" style=\"margin-left:20px;\">and Cell Biology Laboratory</span></td><td class=\"hourscol\">4</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201310\" onclick=\"return showCourse(this, 'CHEM 1310');\" title=\"CHEM 1310\">CHEM 1310</a><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=CHEM%201319\" onclick=\"return showCourse(this, 'CHEM 1319');\" title=\"CHEM 1319\">CHEM 1319</a></span><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=CHEM%201320\" onclick=\"return showCourse(this, 'CHEM 1320');\" title=\"CHEM 1320\">CHEM 1320</a></span><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=CHEM%201100\" onclick=\"return showCourse(this, 'CHEM 1100');\" title=\"CHEM 1100\">CHEM 1100</a></span></td><td>General Chemistry I<br/><span class=\"blockindent\" style=\"margin-left:20px;\">and General Chemistry Laboratory</span><br/><span class=\"blockindent\" style=\"margin-left:20px;\">and General Chemistry II</span><br/><span class=\"blockindent\" style=\"margin-left:20px;\">and Introduction To Laboratory Safety &amp; Hazardous Materials</span></td><td class=\"hourscol\">9</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%202210\" onclick=\"return showCourse(this, 'CHEM 2210');\" title=\"CHEM 2210\">CHEM 2210</a><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=CHEM%202219\" onclick=\"return showCourse(this, 'CHEM 2219');\" title=\"CHEM 2219\">CHEM 2219</a></span><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=CHEM%202220\" onclick=\"return showCourse(this, 'CHEM 2220');\" title=\"CHEM 2220\">CHEM 2220</a></span><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=CHEM%202229\" onclick=\"return showCourse(this, 'CHEM 2229');\" title=\"CHEM 2229\">CHEM 2229</a></span></td><td>Organic Chemistry I<br/><span class=\"blockindent\" style=\"margin-left:20px;\">and Organic Chemistry I Lab</span><br/><span class=\"blockindent\" style=\"margin-left:20px;\">and Organic Chemistry II</span><br/><span class=\"blockindent\" style=\"margin-left:20px;\">and Organic Chemistry II Lab</span></td><td class=\"hourscol\">8</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201145\" onclick=\"return showCourse(this, 'PHYSICS 1145');\" title=\"PHYSICS 1145\">PHYSICS 1145</a></td><td>College Physics I</td><td class=\"hourscol\">4</td></tr> <tr class=\"orclass even\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201135\" onclick=\"return showCourse(this, 'PHYSICS 1135');\" title=\"PHYSICS 1135\">PHYSICS 1135</a></td><td colspan=\"2\"> Engineering Physics I</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202145\" onclick=\"return showCourse(this, 'PHYSICS 2145');\" title=\"PHYSICS 2145\">PHYSICS 2145</a></td><td>College Physics II</td><td class=\"hourscol\">4</td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202135\" onclick=\"return showCourse(this, 'PHYSICS 2135');\" title=\"PHYSICS 2135\">PHYSICS 2135</a></td><td colspan=\"2\"> Engineering Physics II</td></tr> <tr class=\"even\"><td colspan=\"2\"></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201211\" onclick=\"return showCourse(this, 'MATH 1211');\" title=\"MATH 1211\">MATH 1211</a></td><td>Calculus I-B</td><td class=\"hourscol\">4</td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=MATH%201212\" onclick=\"return showCourse(this, 'MATH 1212');\" title=\"MATH 1212\">MATH 1212</a></td><td colspan=\"2\"> Survey of Calculus</td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=MATH%201214\" onclick=\"return showCourse(this, 'MATH 1214');\" title=\"MATH 1214\">MATH 1214</a></td><td colspan=\"2\"> Calculus I</td></tr> <tr class=\"even\"><td colspan=\"2\"><span class=\"courselistcomment\">One of the following courses (taking all four courses is strongly encouraged):</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%202223\" onclick=\"return showCourse(this, 'BIO SCI 2223');\" title=\"BIO SCI 2223\">BIO SCI 2223</a></div></td><td>General Genetics</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%203333\" onclick=\"return showCourse(this, 'BIO SCI 3333');\" title=\"BIO SCI 3333\">BIO SCI 3333</a></div></td><td>Human Anatomy and Physiology I</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%203343\" onclick=\"return showCourse(this, 'BIO SCI 3343');\" title=\"BIO SCI 3343\">BIO SCI 3343</a></div></td><td>Human Anatomy and Physiology II</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%204610\" onclick=\"return showCourse(this, 'CHEM 4610');\" title=\"CHEM 4610\">CHEM 4610</a></div></td><td>General Biochemistry</td><td class=\"hourscol\"></td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PREMED%203010\" onclick=\"return showCourse(this, 'PREMED 3010');\" title=\"PREMED 3010\">PREMED 3010</a></td><td>Communication Workshop for the Pre-Health Student (Suggested but not required)</td><td class=\"hourscol\">1</td></tr> </tbody></table>"
+        }
+    ],
+    "section_text": "Premedicine Minor It is recommended that students seeking the Pre-Medicine minor declare their intentions as soon as possible. Students completing the Pre-Medicine minor curriculum in addition to their BA/BS curriculum will have completed all requirements for admission to most Medical, Dental, Veterinary or other health profession programs. However, it is important to consult with a member of the Pre-Health Professions Advisory Committee to ensure you are completing the necessary coursework for your desired profession. The Pre-Medicine minor is not intended for a student majoring in Chemistry, Biological Sciences or Chemical and Biochemical Engineering which already offer a Pre-Medicine approved curriculum. Required courses for the Pre-Medicine minor are: BIO SCI 1213 & BIO SCI 1219 Principles of Biology and General Biology Lab 4 or BIO SCI 1113 & BIO SCI 1219 General Biology and General Biology Lab BIO SCI 2213 & BIO SCI 2219 Cell Biology and Cell Biology Laboratory 4 CHEM 1310 & CHEM 1319 & CHEM 1320 & CHEM 1100 General Chemistry I and General Chemistry Laboratory and General Chemistry II and Introduction To Laboratory Safety & Hazardous Materials 9 CHEM 2210 & CHEM 2219 & CHEM 2220 & CHEM 2229 Organic Chemistry I and Organic Chemistry I Lab and Organic Chemistry II and Organic Chemistry II Lab 8 PHYSICS 1145 College Physics I 4 or PHYSICS 1135 Engineering Physics I PHYSICS 2145 College Physics II 4 or PHYSICS 2135 Engineering Physics II MATH 1211 Calculus I-B 4 or MATH 1212 Survey of Calculus or MATH 1214 Calculus I One of the following courses (taking all four courses is strongly encouraged): BIO SCI 2223 General Genetics BIO SCI 3333 Human Anatomy and Physiology I BIO SCI 3343 Human Anatomy and Physiology II CHEM 4610 General Biochemistry PREMED 3010 Communication Workshop for the Pre-Health Student (Suggested but not required) 1",
+    "section_html": "<div class=\"tab_content\" id=\"minortextcontainer\">\n<a name=\"minortext\"></a><h2>Premedicine Minor</h2> <p>It is recommended that students seeking the Pre-Medicine minor declare their intentions as soon as possible. Students completing the Pre-Medicine minor curriculum in addition to their BA/BS curriculum will have completed all requirements for admission to most Medical, Dental, Veterinary or other health profession programs. However, it is important to consult with a member of the Pre-Health Professions Advisory Committee to ensure you are completing the necessary coursework for your desired profession. The Pre-Medicine minor is not intended for a student majoring in Chemistry, Biological Sciences or Chemical and Biochemical Engineering which already offer a Pre-Medicine approved curriculum. Required courses for the Pre-Medicine minor are:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201213\" onclick=\"return showCourse(this, 'BIO SCI 1213');\" title=\"BIO SCI 1213\">BIO SCI 1213</a><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201219\" onclick=\"return showCourse(this, 'BIO SCI 1219');\" title=\"BIO SCI 1219\">BIO SCI 1219</a></span></td><td>Principles of Biology<br/><span class=\"blockindent\" style=\"margin-left:20px;\">and General Biology Lab</span></td><td class=\"hourscol\">4</td></tr> <tr class=\"orclass even firstrow\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201113\" onclick=\"return showCourse(this, 'BIO SCI 1113');\" title=\"BIO SCI 1113\">BIO SCI 1113</a><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201219\" onclick=\"return showCourse(this, 'BIO SCI 1219');\" title=\"BIO SCI 1219\">BIO SCI 1219</a></span></td><td colspan=\"2\"> General Biology<br/><span class=\"blockindent\" style=\"margin-left:20px;\">and General Biology Lab</span></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%202213\" onclick=\"return showCourse(this, 'BIO SCI 2213');\" title=\"BIO SCI 2213\">BIO SCI 2213</a><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%202219\" onclick=\"return showCourse(this, 'BIO SCI 2219');\" title=\"BIO SCI 2219\">BIO SCI 2219</a></span></td><td>Cell Biology<br/><span class=\"blockindent\" style=\"margin-left:20px;\">and Cell Biology Laboratory</span></td><td class=\"hourscol\">4</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201310\" onclick=\"return showCourse(this, 'CHEM 1310');\" title=\"CHEM 1310\">CHEM 1310</a><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=CHEM%201319\" onclick=\"return showCourse(this, 'CHEM 1319');\" title=\"CHEM 1319\">CHEM 1319</a></span><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=CHEM%201320\" onclick=\"return showCourse(this, 'CHEM 1320');\" title=\"CHEM 1320\">CHEM 1320</a></span><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=CHEM%201100\" onclick=\"return showCourse(this, 'CHEM 1100');\" title=\"CHEM 1100\">CHEM 1100</a></span></td><td>General Chemistry I<br/><span class=\"blockindent\" style=\"margin-left:20px;\">and General Chemistry Laboratory</span><br/><span class=\"blockindent\" style=\"margin-left:20px;\">and General Chemistry II</span><br/><span class=\"blockindent\" style=\"margin-left:20px;\">and Introduction To Laboratory Safety &amp; Hazardous Materials</span></td><td class=\"hourscol\">9</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%202210\" onclick=\"return showCourse(this, 'CHEM 2210');\" title=\"CHEM 2210\">CHEM 2210</a><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=CHEM%202219\" onclick=\"return showCourse(this, 'CHEM 2219');\" title=\"CHEM 2219\">CHEM 2219</a></span><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=CHEM%202220\" onclick=\"return showCourse(this, 'CHEM 2220');\" title=\"CHEM 2220\">CHEM 2220</a></span><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=CHEM%202229\" onclick=\"return showCourse(this, 'CHEM 2229');\" title=\"CHEM 2229\">CHEM 2229</a></span></td><td>Organic Chemistry I<br/><span class=\"blockindent\" style=\"margin-left:20px;\">and Organic Chemistry I Lab</span><br/><span class=\"blockindent\" style=\"margin-left:20px;\">and Organic Chemistry II</span><br/><span class=\"blockindent\" style=\"margin-left:20px;\">and Organic Chemistry II Lab</span></td><td class=\"hourscol\">8</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201145\" onclick=\"return showCourse(this, 'PHYSICS 1145');\" title=\"PHYSICS 1145\">PHYSICS 1145</a></td><td>College Physics I</td><td class=\"hourscol\">4</td></tr> <tr class=\"orclass even\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201135\" onclick=\"return showCourse(this, 'PHYSICS 1135');\" title=\"PHYSICS 1135\">PHYSICS 1135</a></td><td colspan=\"2\"> Engineering Physics I</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202145\" onclick=\"return showCourse(this, 'PHYSICS 2145');\" title=\"PHYSICS 2145\">PHYSICS 2145</a></td><td>College Physics II</td><td class=\"hourscol\">4</td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202135\" onclick=\"return showCourse(this, 'PHYSICS 2135');\" title=\"PHYSICS 2135\">PHYSICS 2135</a></td><td colspan=\"2\"> Engineering Physics II</td></tr> <tr class=\"even\"><td colspan=\"2\"></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201211\" onclick=\"return showCourse(this, 'MATH 1211');\" title=\"MATH 1211\">MATH 1211</a></td><td>Calculus I-B</td><td class=\"hourscol\">4</td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=MATH%201212\" onclick=\"return showCourse(this, 'MATH 1212');\" title=\"MATH 1212\">MATH 1212</a></td><td colspan=\"2\"> Survey of Calculus</td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=MATH%201214\" onclick=\"return showCourse(this, 'MATH 1214');\" title=\"MATH 1214\">MATH 1214</a></td><td colspan=\"2\"> Calculus I</td></tr> <tr class=\"even\"><td colspan=\"2\"><span class=\"courselistcomment\">One of the following courses (taking all four courses is strongly encouraged):</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%202223\" onclick=\"return showCourse(this, 'BIO SCI 2223');\" title=\"BIO SCI 2223\">BIO SCI 2223</a></div></td><td>General Genetics</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%203333\" onclick=\"return showCourse(this, 'BIO SCI 3333');\" title=\"BIO SCI 3333\">BIO SCI 3333</a></div></td><td>Human Anatomy and Physiology I</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%203343\" onclick=\"return showCourse(this, 'BIO SCI 3343');\" title=\"BIO SCI 3343\">BIO SCI 3343</a></div></td><td>Human Anatomy and Physiology II</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%204610\" onclick=\"return showCourse(this, 'CHEM 4610');\" title=\"CHEM 4610\">CHEM 4610</a></div></td><td>General Biochemistry</td><td class=\"hourscol\"></td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PREMED%203010\" onclick=\"return showCourse(this, 'PREMED 3010');\" title=\"PREMED 3010\">PREMED 3010</a></td><td>Communication Workshop for the Pre-Health Student (Suggested but not required)</td><td class=\"hourscol\">1</td></tr> </tbody></table>\n</div>"
+}

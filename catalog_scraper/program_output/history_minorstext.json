@@ -1,0 +1,218 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/history/#minorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/history/",
+        "fragment": "minorstext",
+        "page_slug": "history",
+        "page_title": "History < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 425,
+        "html_character_count": 1704,
+        "heading_count": 1,
+        "paragraph_count": 1,
+        "list_count": 0,
+        "table_count": 1,
+        "link_count": 4,
+        "superscript_count": 0,
+        "text_sha256": "43872a6c823f0369d16d1a54011dfa387bf66f42409412989b611cdad3c7405b",
+        "html_sha256": "bcc6f04185ae1e03774c82cf720881182d72cce9ab636661799a8cb767a18c6b"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "History Minor Curriculum",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "HISTORY 1100",
+            "href": "/search/?P=HISTORY%201100",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201100",
+            "resolved_course": "HISTORY 1100"
+        },
+        {
+            "number": 2,
+            "text": "HISTORY 1200",
+            "href": "/search/?P=HISTORY%201200",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201200",
+            "resolved_course": "HISTORY 1200"
+        },
+        {
+            "number": 3,
+            "text": "HISTORY 1300",
+            "href": "/search/?P=HISTORY%201300",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201300",
+            "resolved_course": "HISTORY 1300"
+        },
+        {
+            "number": 4,
+            "text": "HISTORY 1310",
+            "href": "/search/?P=HISTORY%201310",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201310",
+            "resolved_course": "HISTORY 1310"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "HISTORY 1100 Early Western Civilization 3 or HISTORY 1200 Modern Western Civilization HISTORY 1300 American History To 1877 3 or HISTORY 1310 American History Since 1877 An additional 9 hours of an approved sequence of 2000 or higher level courses. 9",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "HISTORY 1100",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "HISTORY 1100",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201100",
+                                    "resolved_course": "HISTORY 1100"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Early Western Civilization",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "or HISTORY 1200",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "HISTORY 1200",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201200",
+                                    "resolved_course": "HISTORY 1200"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Modern Western Civilization",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "HISTORY 1300",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "HISTORY 1300",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201300",
+                                    "resolved_course": "HISTORY 1300"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "American History To 1877",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "or HISTORY 1310",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "HISTORY 1310",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201310",
+                                    "resolved_course": "HISTORY 1310"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "American History Since 1877",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "An additional 9 hours of an approved sequence of 2000 or higher level courses.",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "9",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201100\" onclick=\"return showCourse(this, 'HISTORY 1100');\" title=\"HISTORY 1100\">HISTORY 1100</a></td><td>Early Western Civilization</td><td class=\"hourscol\">3</td></tr> <tr class=\"orclass even firstrow\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201200\" onclick=\"return showCourse(this, 'HISTORY 1200');\" title=\"HISTORY 1200\">HISTORY 1200</a></td><td colspan=\"2\"> Modern Western Civilization</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201300\" onclick=\"return showCourse(this, 'HISTORY 1300');\" title=\"HISTORY 1300\">HISTORY 1300</a></td><td>American History To 1877</td><td class=\"hourscol\">3</td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201310\" onclick=\"return showCourse(this, 'HISTORY 1310');\" title=\"HISTORY 1310\">HISTORY 1310</a></td><td colspan=\"2\"> American History Since 1877</td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">An additional 9 hours of an approved sequence of 2000 or higher level courses.</span></td><td class=\"hourscol\">9</td></tr> </tbody></table>"
+        }
+    ],
+    "section_text": "History Minor Curriculum The history/political science department offers a minor in history. To qualify, all students must take 15 hours of course work in history to include: HISTORY 1100 Early Western Civilization 3 or HISTORY 1200 Modern Western Civilization HISTORY 1300 American History To 1877 3 or HISTORY 1310 American History Since 1877 An additional 9 hours of an approved sequence of 2000 or higher level courses. 9",
+    "section_html": "<div class=\"tab_content\" id=\"minorstextcontainer\">\n<a name=\"minorstext\"></a><h2>History Minor Curriculum</h2> <p>The history/political science department offers a minor in history. To qualify, all students must take 15 hours of course work in history to include:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201100\" onclick=\"return showCourse(this, 'HISTORY 1100');\" title=\"HISTORY 1100\">HISTORY 1100</a></td><td>Early Western Civilization</td><td class=\"hourscol\">3</td></tr> <tr class=\"orclass even firstrow\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201200\" onclick=\"return showCourse(this, 'HISTORY 1200');\" title=\"HISTORY 1200\">HISTORY 1200</a></td><td colspan=\"2\"> Modern Western Civilization</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201300\" onclick=\"return showCourse(this, 'HISTORY 1300');\" title=\"HISTORY 1300\">HISTORY 1300</a></td><td>American History To 1877</td><td class=\"hourscol\">3</td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201310\" onclick=\"return showCourse(this, 'HISTORY 1310');\" title=\"HISTORY 1310\">HISTORY 1310</a></td><td colspan=\"2\"> American History Since 1877</td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">An additional 9 hours of an approved sequence of 2000 or higher level courses.</span></td><td class=\"hourscol\">9</td></tr> </tbody></table>\n</div>"
+}

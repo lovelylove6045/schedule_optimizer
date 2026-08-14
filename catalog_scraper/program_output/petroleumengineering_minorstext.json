@@ -1,0 +1,220 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/petroleumengineering/#minorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/petroleumengineering/",
+        "fragment": "minorstext",
+        "page_slug": "petroleumengineering",
+        "page_title": "Petroleum Engineering < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 695,
+        "html_character_count": 1999,
+        "heading_count": 1,
+        "paragraph_count": 2,
+        "list_count": 0,
+        "table_count": 1,
+        "link_count": 4,
+        "superscript_count": 0,
+        "text_sha256": "3015f567467d739a44b54c3db870b1a3c7c0ca384f4256a4519c25f1a94f6d88",
+        "html_sha256": "df6f4e2871ce3d6545c6970995b1f129952cefb337a3c86f9dce6b6c527afbfd"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Minor Curriculum in Petroleum Engineering",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "PET ENG 3520",
+            "href": "/search/?P=PET%20ENG%203520",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%203520",
+            "resolved_course": "PET ENG 3520"
+        },
+        {
+            "number": 2,
+            "text": "PET ENG 4210",
+            "href": "/search/?P=PET%20ENG%204210",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204210",
+            "resolved_course": "PET ENG 4210"
+        },
+        {
+            "number": 3,
+            "text": "PET ENG 4410",
+            "href": "/search/?P=PET%20ENG%204410",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204410",
+            "resolved_course": "PET ENG 4410"
+        },
+        {
+            "number": 4,
+            "text": "GEOLOGY 5513",
+            "href": "/search/?P=GEOLOGY%205513",
+            "url": "https://catalog.mst.edu/search/?P=GEOLOGY%205513",
+            "resolved_course": "GEOLOGY 5513"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "PET ENG 3520 Petroleum Reservoir Engineering 3 PET ENG 4210 Drilling and Well Integrity 3 PET ENG 4410 Production Engineering 3 Two elective courses* 6 Total Credits 15",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PET ENG 3520",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PET ENG 3520",
+                                    "url": "https://catalog.mst.edu/search/?P=PET%20ENG%203520",
+                                    "resolved_course": "PET ENG 3520"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Petroleum Reservoir Engineering",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PET ENG 4210",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PET ENG 4210",
+                                    "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204210",
+                                    "resolved_course": "PET ENG 4210"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Drilling and Well Integrity",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PET ENG 4410",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PET ENG 4410",
+                                    "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204410",
+                                    "resolved_course": "PET ENG 4410"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Production Engineering",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Two elective courses*",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "6",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Total Credits",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%203520\" onclick=\"return showCourse(this, 'PET ENG 3520');\" title=\"PET ENG 3520\">PET ENG 3520</a></td><td>Petroleum Reservoir Engineering</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204210\" onclick=\"return showCourse(this, 'PET ENG 4210');\" title=\"PET ENG 4210\">PET ENG 4210</a></td><td>Drilling and Well Integrity</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204410\" onclick=\"return showCourse(this, 'PET ENG 4410');\" title=\"PET ENG 4410\">PET ENG 4410</a></td><td>Production Engineering</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">Two elective courses*</span></td><td class=\"hourscol\">6</td></tr> <tr class=\"listsum\"><td colspan=\"2\">Total Credits</td><td class=\"hourscol\">15</td></tr></tbody></table>"
+        }
+    ],
+    "section_text": "Minor Curriculum in Petroleum Engineering The petroleum industry employs not only petroleum but also civil, electrical, chemical, geological, mechanical and other engineers. A petroleum engineering minor, therefore, enhances the academic credentials of a student and broadens their employment choices. A minor in petroleum engineering requires 15 hours of Missouri S&T credit to include the following: PET ENG 3520 Petroleum Reservoir Engineering 3 PET ENG 4210 Drilling and Well Integrity 3 PET ENG 4410 Production Engineering 3 Two elective courses* 6 Total Credits 15 *The two elective courses are to be chosen from any petroleum engineering course and/or Petroleum Geology ( GEOLOGY 5513 ) .",
+    "section_html": "<div class=\"tab_content\" id=\"minorstextcontainer\">\n<a name=\"minorstext\"></a><h2>Minor Curriculum in Petroleum Engineering</h2> <p>The petroleum industry employs not only petroleum but also civil, electrical, chemical, geological, mechanical and other engineers. A petroleum engineering minor, therefore, enhances the academic credentials of a student and broadens their employment choices. A minor in petroleum engineering requires 15 hours of Missouri S&amp;T credit to include the following:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%203520\" onclick=\"return showCourse(this, 'PET ENG 3520');\" title=\"PET ENG 3520\">PET ENG 3520</a></td><td>Petroleum Reservoir Engineering</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204210\" onclick=\"return showCourse(this, 'PET ENG 4210');\" title=\"PET ENG 4210\">PET ENG 4210</a></td><td>Drilling and Well Integrity</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204410\" onclick=\"return showCourse(this, 'PET ENG 4410');\" title=\"PET ENG 4410\">PET ENG 4410</a></td><td>Production Engineering</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">Two elective courses*</span></td><td class=\"hourscol\">6</td></tr> <tr class=\"listsum\"><td colspan=\"2\">Total Credits</td><td class=\"hourscol\">15</td></tr></tbody></table> <p>*The two elective courses are to be chosen from any petroleum engineering course and/or <span class=\"sc_courseinline\">Petroleum Geology (<a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%205513\" onclick=\"return showCourse(this, 'GEOLOGY 5513');\" title=\"GEOLOGY 5513\">GEOLOGY 5513</a>)</span> .</p>\n</div>"
+}

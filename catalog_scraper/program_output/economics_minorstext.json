@@ -1,0 +1,997 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/economics/#minorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/economics/",
+        "fragment": "minorstext",
+        "page_slug": "economics",
+        "page_title": "Economics < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 2455,
+        "html_character_count": 9356,
+        "heading_count": 1,
+        "paragraph_count": 3,
+        "list_count": 0,
+        "table_count": 1,
+        "link_count": 32,
+        "superscript_count": 2,
+        "text_sha256": "04f52dae9496985909889961e73789999097b7af5700d0a0d9eea44821617787",
+        "html_sha256": "98e46b2f8753553d8b3083b073f5d4b49060a1b3a23d5d9a91263c6403877cab"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Quantitative Economics Minor",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "ECON 1100",
+            "href": "/search/?P=ECON%201100",
+            "url": "https://catalog.mst.edu/search/?P=ECON%201100",
+            "resolved_course": "ECON 1100"
+        },
+        {
+            "number": 2,
+            "text": "ECON 1200",
+            "href": "/search/?P=ECON%201200",
+            "url": "https://catalog.mst.edu/search/?P=ECON%201200",
+            "resolved_course": "ECON 1200"
+        },
+        {
+            "number": 3,
+            "text": "ECON 3300",
+            "href": "/search/?P=ECON%203300",
+            "url": "https://catalog.mst.edu/search/?P=ECON%203300",
+            "resolved_course": "ECON 3300"
+        },
+        {
+            "number": 4,
+            "text": "ECON 5380",
+            "href": "/search/?P=ECON%205380",
+            "url": "https://catalog.mst.edu/search/?P=ECON%205380",
+            "resolved_course": "ECON 5380"
+        },
+        {
+            "number": 5,
+            "text": "ECON 5360",
+            "href": "/search/?P=ECON%205360",
+            "url": "https://catalog.mst.edu/search/?P=ECON%205360",
+            "resolved_course": "ECON 5360"
+        },
+        {
+            "number": 6,
+            "text": "ENG MGT 1210",
+            "href": "/search/?P=ENG%20MGT%201210",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%201210",
+            "resolved_course": "ENG MGT 1210"
+        },
+        {
+            "number": 7,
+            "text": "ECON 2100",
+            "href": "/search/?P=ECON%202100",
+            "url": "https://catalog.mst.edu/search/?P=ECON%202100",
+            "resolved_course": "ECON 2100"
+        },
+        {
+            "number": 8,
+            "text": "ECON 2200",
+            "href": "/search/?P=ECON%202200",
+            "url": "https://catalog.mst.edu/search/?P=ECON%202200",
+            "resolved_course": "ECON 2200"
+        },
+        {
+            "number": 9,
+            "text": "ECON 1100",
+            "href": "/search/?P=ECON%201100",
+            "url": "https://catalog.mst.edu/search/?P=ECON%201100",
+            "resolved_course": "ECON 1100"
+        },
+        {
+            "number": 10,
+            "text": "ECON 1200",
+            "href": "/search/?P=ECON%201200",
+            "url": "https://catalog.mst.edu/search/?P=ECON%201200",
+            "resolved_course": "ECON 1200"
+        },
+        {
+            "number": 11,
+            "text": "ECON 3300",
+            "href": "/search/?P=ECON%203300",
+            "url": "https://catalog.mst.edu/search/?P=ECON%203300",
+            "resolved_course": "ECON 3300"
+        },
+        {
+            "number": 12,
+            "text": "ECON 5360",
+            "href": "/search/?P=ECON%205360",
+            "url": "https://catalog.mst.edu/search/?P=ECON%205360",
+            "resolved_course": "ECON 5360"
+        },
+        {
+            "number": 13,
+            "text": "ECON 5380",
+            "href": "/search/?P=ECON%205380",
+            "url": "https://catalog.mst.edu/search/?P=ECON%205380",
+            "resolved_course": "ECON 5380"
+        },
+        {
+            "number": 14,
+            "text": "ENG MGT 1210",
+            "href": "/search/?P=ENG%20MGT%201210",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%201210",
+            "resolved_course": "ENG MGT 1210"
+        },
+        {
+            "number": 15,
+            "text": "ECON 2100",
+            "href": "/search/?P=ECON%202100",
+            "url": "https://catalog.mst.edu/search/?P=ECON%202100",
+            "resolved_course": "ECON 2100"
+        },
+        {
+            "number": 16,
+            "text": "ECON 2200",
+            "href": "/search/?P=ECON%202200",
+            "url": "https://catalog.mst.edu/search/?P=ECON%202200",
+            "resolved_course": "ECON 2200"
+        },
+        {
+            "number": 17,
+            "text": "ECON 3333",
+            "href": "/search/?P=ECON%203333",
+            "url": "https://catalog.mst.edu/search/?P=ECON%203333",
+            "resolved_course": "ECON 3333"
+        },
+        {
+            "number": 18,
+            "text": "ECON 3512",
+            "href": "/search/?P=ECON%203512",
+            "url": "https://catalog.mst.edu/search/?P=ECON%203512",
+            "resolved_course": "ECON 3512"
+        },
+        {
+            "number": 19,
+            "text": "ECON 3880",
+            "href": "/search/?P=ECON%203880",
+            "url": "https://catalog.mst.edu/search/?P=ECON%203880",
+            "resolved_course": "ECON 3880"
+        },
+        {
+            "number": 20,
+            "text": "ECON 4383",
+            "href": "/search/?P=ECON%204383",
+            "url": "https://catalog.mst.edu/search/?P=ECON%204383",
+            "resolved_course": "ECON 4383"
+        },
+        {
+            "number": 21,
+            "text": "ECON 4430",
+            "href": "/search/?P=ECON%204430",
+            "url": "https://catalog.mst.edu/search/?P=ECON%204430",
+            "resolved_course": "ECON 4430"
+        },
+        {
+            "number": 22,
+            "text": "ECON 4440",
+            "href": "/search/?P=ECON%204440",
+            "url": "https://catalog.mst.edu/search/?P=ECON%204440",
+            "resolved_course": "ECON 4440"
+        },
+        {
+            "number": 23,
+            "text": "ECON 4538",
+            "href": "/search/?P=ECON%204538",
+            "url": "https://catalog.mst.edu/search/?P=ECON%204538",
+            "resolved_course": "ECON 4538"
+        },
+        {
+            "number": 24,
+            "text": "ECON 4540",
+            "href": "/search/?P=ECON%204540",
+            "url": "https://catalog.mst.edu/search/?P=ECON%204540",
+            "resolved_course": "ECON 4540"
+        },
+        {
+            "number": 25,
+            "text": "ECON 4720",
+            "href": "/search/?P=ECON%204720",
+            "url": "https://catalog.mst.edu/search/?P=ECON%204720",
+            "resolved_course": "ECON 4720"
+        },
+        {
+            "number": 26,
+            "text": "ECON 5532",
+            "href": "/search/?P=ECON%205532",
+            "url": "https://catalog.mst.edu/search/?P=ECON%205532",
+            "resolved_course": "ECON 5532"
+        },
+        {
+            "number": 27,
+            "text": "ECON 5337",
+            "href": "/search/?P=ECON%205337",
+            "url": "https://catalog.mst.edu/search/?P=ECON%205337",
+            "resolved_course": "ECON 5337"
+        },
+        {
+            "number": 28,
+            "text": "ECON 5360",
+            "href": "/search/?P=ECON%205360",
+            "url": "https://catalog.mst.edu/search/?P=ECON%205360",
+            "resolved_course": "ECON 5360"
+        },
+        {
+            "number": 29,
+            "text": "ECON 5380",
+            "href": "/search/?P=ECON%205380",
+            "url": "https://catalog.mst.edu/search/?P=ECON%205380",
+            "resolved_course": "ECON 5380"
+        },
+        {
+            "number": 30,
+            "text": "ENG MGT 1210",
+            "href": "/search/?P=ENG%20MGT%201210",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%201210",
+            "resolved_course": "ENG MGT 1210"
+        },
+        {
+            "number": 31,
+            "text": "ECON 2100",
+            "href": "/search/?P=ECON%202100",
+            "url": "https://catalog.mst.edu/search/?P=ECON%202100",
+            "resolved_course": "ECON 2100"
+        },
+        {
+            "number": 32,
+            "text": "ECON 2200",
+            "href": "/search/?P=ECON%202200",
+            "url": "https://catalog.mst.edu/search/?P=ECON%202200",
+            "resolved_course": "ECON 2200"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "ECON 1100 Principles Of Microeconomics 3 ECON 1200 Principles Of Macroeconomics 3 ECON 3300 Introduction to Econometrics 3 Choose One or Both: 1 ECON 5360 Data Driven Strategic Insights 3 ECON 5380 Data Intelligence using Case Studies 3 Choose One or Two Courses to Make a Total of 17-18 Credits: ENG MGT 1210 Economic Analysis of Engineering Projects 2 ECON 2100 Intermediate Microeconomic Theory 3 ECON 2200 Intermediate Macroeconomic Theory 3 ECON 3333 Computational Economics 3 ECON 3512 Mining Industry Economics 3 ECON 3880 Introduction to Sports Economics 3 ECON 4383 Financial Economics 3 ECON 4430 Cost-Benefit Analysis 3 ECON 4440 Environmental And Natural Resource Economics 3 ECON 4538 Advanced Econometrics 3 ECON 4540 Energy Economics 3 ECON 4720 International Finance 3 ECON 5532 Advanced Mining Economics 3 ECON 5337 Financial Mathematics 3 Total Credits: 17 - 18",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 1100",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 1100",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%201100",
+                                    "resolved_course": "ECON 1100"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Principles Of Microeconomics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 1200",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 1200",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%201200",
+                                    "resolved_course": "ECON 1200"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Principles Of Macroeconomics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 3300",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 3300",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%203300",
+                                    "resolved_course": "ECON 3300"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Introduction to Econometrics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Choose One or Both: 1",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 5360",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 5360",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%205360",
+                                    "resolved_course": "ECON 5360"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Data Driven Strategic Insights",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 5380",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 5380",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%205380",
+                                    "resolved_course": "ECON 5380"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Data Intelligence using Case Studies",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Choose One or Two Courses to Make a Total of 17-18 Credits:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 1210",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 1210",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%201210",
+                                    "resolved_course": "ENG MGT 1210"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Economic Analysis of Engineering Projects",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 2100",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 2100",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%202100",
+                                    "resolved_course": "ECON 2100"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Intermediate Microeconomic Theory",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 10,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 2200",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 2200",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%202200",
+                                    "resolved_course": "ECON 2200"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Intermediate Macroeconomic Theory",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 11,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 3333",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 3333",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%203333",
+                                    "resolved_course": "ECON 3333"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Computational Economics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 12,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 3512",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 3512",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%203512",
+                                    "resolved_course": "ECON 3512"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Mining Industry Economics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 13,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 3880",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 3880",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%203880",
+                                    "resolved_course": "ECON 3880"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Introduction to Sports Economics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 14,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 4383",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 4383",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%204383",
+                                    "resolved_course": "ECON 4383"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Financial Economics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 15,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 4430",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 4430",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%204430",
+                                    "resolved_course": "ECON 4430"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Cost-Benefit Analysis",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 16,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 4440",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 4440",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%204440",
+                                    "resolved_course": "ECON 4440"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Environmental And Natural Resource Economics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 17,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 4538",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 4538",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%204538",
+                                    "resolved_course": "ECON 4538"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Advanced Econometrics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 18,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 4540",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 4540",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%204540",
+                                    "resolved_course": "ECON 4540"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Energy Economics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 19,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 4720",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 4720",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%204720",
+                                    "resolved_course": "ECON 4720"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "International Finance",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 20,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 5532",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 5532",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%205532",
+                                    "resolved_course": "ECON 5532"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Advanced Mining Economics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 21,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 5337",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 5337",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%205337",
+                                    "resolved_course": "ECON 5337"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Financial Mathematics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 22,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Total Credits: 17 - 18",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%201100\" onclick=\"return showCourse(this, 'ECON 1100');\" title=\"ECON 1100\">ECON 1100</a></td><td>Principles Of Microeconomics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%201200\" onclick=\"return showCourse(this, 'ECON 1200');\" title=\"ECON 1200\">ECON 1200</a></td><td>Principles Of Macroeconomics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%203300\" onclick=\"return showCourse(this, 'ECON 3300');\" title=\"ECON 3300\">ECON 3300</a></td><td>Introduction to Econometrics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td colspan=\"2\"><div style=\"margin-left: 20px;\"><span class=\"courselistcomment commentindent\">Choose One or Both:</span> <sup>1</sup></div></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205360\" onclick=\"return showCourse(this, 'ECON 5360');\" title=\"ECON 5360\">ECON 5360</a></td><td>Data Driven Strategic Insights</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205380\" onclick=\"return showCourse(this, 'ECON 5380');\" title=\"ECON 5380\">ECON 5380</a></td><td>Data Intelligence using Case Studies</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td colspan=\"2\"><span class=\"courselistcomment\">Choose One or Two Courses to Make a Total of 17-18 Credits:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%201210\" onclick=\"return showCourse(this, 'ENG MGT 1210');\" title=\"ENG MGT 1210\">ENG MGT 1210</a></td><td>Economic Analysis of Engineering Projects</td><td class=\"hourscol\">2</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%202100\" onclick=\"return showCourse(this, 'ECON 2100');\" title=\"ECON 2100\">ECON 2100</a></td><td>Intermediate Microeconomic Theory</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%202200\" onclick=\"return showCourse(this, 'ECON 2200');\" title=\"ECON 2200\">ECON 2200</a></td><td>Intermediate Macroeconomic Theory</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%203333\" onclick=\"return showCourse(this, 'ECON 3333');\" title=\"ECON 3333\">ECON 3333</a></td><td>Computational Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%203512\" onclick=\"return showCourse(this, 'ECON 3512');\" title=\"ECON 3512\">ECON 3512</a></td><td>Mining Industry Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%203880\" onclick=\"return showCourse(this, 'ECON 3880');\" title=\"ECON 3880\">ECON 3880</a></td><td>Introduction to Sports Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%204383\" onclick=\"return showCourse(this, 'ECON 4383');\" title=\"ECON 4383\">ECON 4383</a></td><td>Financial Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%204430\" onclick=\"return showCourse(this, 'ECON 4430');\" title=\"ECON 4430\">ECON 4430</a></td><td>Cost-Benefit Analysis</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%204440\" onclick=\"return showCourse(this, 'ECON 4440');\" title=\"ECON 4440\">ECON 4440</a></td><td>Environmental And Natural Resource Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%204538\" onclick=\"return showCourse(this, 'ECON 4538');\" title=\"ECON 4538\">ECON 4538</a></td><td>Advanced Econometrics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%204540\" onclick=\"return showCourse(this, 'ECON 4540');\" title=\"ECON 4540\">ECON 4540</a></td><td>Energy Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%204720\" onclick=\"return showCourse(this, 'ECON 4720');\" title=\"ECON 4720\">ECON 4720</a></td><td>International Finance</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205532\" onclick=\"return showCourse(this, 'ECON 5532');\" title=\"ECON 5532\">ECON 5532</a></td><td>Advanced Mining Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205337\" onclick=\"return showCourse(this, 'ECON 5337');\" title=\"ECON 5337\">ECON 5337</a></td><td>Financial Mathematics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">Total Credits: 17 - 18</span></td><td class=\"hourscol\"></td></tr> </tbody></table>"
+        }
+    ],
+    "section_text": "Quantitative Economics Minor The Quantitative Economics minor aims to increase job prospects for students across the campus. This minor is designed to prepare business, engineering, or science students to become future business and industry professionals who can apply the core economics principles and quantitative methods to articulate and make policy recommendations aligned with the current and projected economic environment. The minor provides foundational knowledge of market structure, the global business environment, data analytics, and public policies necessary for strategic corporate and government decision-making. The Quantitative Economics minor requires completing of a minimum of 17 to 18 hours of coursework with a grade of “C” or better. Required courses in the minor program include both Principles of Microeconomics ( ECON 1100 ) and Macroeconomics ( ECON 1200 ), Introduction to Econometrics ECON 3300 ), one course between Data Intelligence using Case Studies ECON 5380 ) and Data-Driven Strategic Insights ( ECON 5360 ), and two courses among Economic Analysis of Engineering Projects ( ENG MGT 1210 ), ECON 2100 , ECON 2200 , or any 3000 and above economic electives of the student’s choices in consultation with the department’s minor advisor. ECON 1100 Principles Of Microeconomics 3 ECON 1200 Principles Of Macroeconomics 3 ECON 3300 Introduction to Econometrics 3 Choose One or Both: 1 ECON 5360 Data Driven Strategic Insights 3 ECON 5380 Data Intelligence using Case Studies 3 Choose One or Two Courses to Make a Total of 17-18 Credits: ENG MGT 1210 Economic Analysis of Engineering Projects 2 ECON 2100 Intermediate Microeconomic Theory 3 ECON 2200 Intermediate Macroeconomic Theory 3 ECON 3333 Computational Economics 3 ECON 3512 Mining Industry Economics 3 ECON 3880 Introduction to Sports Economics 3 ECON 4383 Financial Economics 3 ECON 4430 Cost-Benefit Analysis 3 ECON 4440 Environmental And Natural Resource Economics 3 ECON 4538 Advanced Econometrics 3 ECON 4540 Energy Economics 3 ECON 4720 International Finance 3 ECON 5532 Advanced Mining Economics 3 ECON 5337 Financial Mathematics 3 Total Credits: 17 - 18 1 Both data analytics courses can be counted as a total of six credit hours for this minor. When students choose to take both ECON 5360 and ECON 5380 , they must only choose one course from ENG MGT 1210 , ECON 2100 , ECON 2200 , or any other 3000-level and above economic electives to complete the minor.",
+    "section_html": "<div class=\"tab_content\" id=\"minorstextcontainer\">\n<a name=\"minorstext\"></a><h2><span class=\"course_number\">Quantitative Economics Minor</span></h2> <p>The Quantitative Economics minor aims to increase job prospects for students across the campus. This minor is designed to prepare business, engineering, or science students to become future business and industry professionals who can apply the core economics principles and quantitative methods to articulate and make policy recommendations aligned with the current and projected economic environment. The minor provides foundational knowledge of market structure, the global business environment, data analytics, and public policies necessary for strategic corporate and government decision-making.</p> <p>The Quantitative Economics minor requires completing of a minimum of 17 to 18 hours of coursework with a grade of “C” or better. Required courses in the minor program include both Principles of Microeconomics (<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%201100\" onclick=\"return showCourse(this, 'ECON 1100');\" title=\"ECON 1100\">ECON 1100</a></span>) and Macroeconomics (<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%201200\" onclick=\"return showCourse(this, 'ECON 1200');\" title=\"ECON 1200\">ECON 1200</a></span>), Introduction to Econometrics <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%203300\" onclick=\"return showCourse(this, 'ECON 3300');\" title=\"ECON 3300\">ECON 3300</a></span>), one course between Data Intelligence using Case Studies <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205380\" onclick=\"return showCourse(this, 'ECON 5380');\" title=\"ECON 5380\">ECON 5380</a></span>) and Data-Driven Strategic Insights (<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205360\" onclick=\"return showCourse(this, 'ECON 5360');\" title=\"ECON 5360\">ECON 5360</a></span>), and two courses among Economic Analysis of Engineering Projects (<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%201210\" onclick=\"return showCourse(this, 'ENG MGT 1210');\" title=\"ENG MGT 1210\">ENG MGT 1210</a></span>), <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%202100\" onclick=\"return showCourse(this, 'ECON 2100');\" title=\"ECON 2100\">ECON 2100</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%202200\" onclick=\"return showCourse(this, 'ECON 2200');\" title=\"ECON 2200\">ECON 2200</a></span>, or any 3000 and above economic electives of the student’s choices in consultation with the department’s minor advisor.</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%201100\" onclick=\"return showCourse(this, 'ECON 1100');\" title=\"ECON 1100\">ECON 1100</a></td><td>Principles Of Microeconomics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%201200\" onclick=\"return showCourse(this, 'ECON 1200');\" title=\"ECON 1200\">ECON 1200</a></td><td>Principles Of Macroeconomics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%203300\" onclick=\"return showCourse(this, 'ECON 3300');\" title=\"ECON 3300\">ECON 3300</a></td><td>Introduction to Econometrics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td colspan=\"2\"><div style=\"margin-left: 20px;\"><span class=\"courselistcomment commentindent\">Choose One or Both:</span> <sup>1</sup></div></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205360\" onclick=\"return showCourse(this, 'ECON 5360');\" title=\"ECON 5360\">ECON 5360</a></td><td>Data Driven Strategic Insights</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205380\" onclick=\"return showCourse(this, 'ECON 5380');\" title=\"ECON 5380\">ECON 5380</a></td><td>Data Intelligence using Case Studies</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td colspan=\"2\"><span class=\"courselistcomment\">Choose One or Two Courses to Make a Total of 17-18 Credits:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%201210\" onclick=\"return showCourse(this, 'ENG MGT 1210');\" title=\"ENG MGT 1210\">ENG MGT 1210</a></td><td>Economic Analysis of Engineering Projects</td><td class=\"hourscol\">2</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%202100\" onclick=\"return showCourse(this, 'ECON 2100');\" title=\"ECON 2100\">ECON 2100</a></td><td>Intermediate Microeconomic Theory</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%202200\" onclick=\"return showCourse(this, 'ECON 2200');\" title=\"ECON 2200\">ECON 2200</a></td><td>Intermediate Macroeconomic Theory</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%203333\" onclick=\"return showCourse(this, 'ECON 3333');\" title=\"ECON 3333\">ECON 3333</a></td><td>Computational Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%203512\" onclick=\"return showCourse(this, 'ECON 3512');\" title=\"ECON 3512\">ECON 3512</a></td><td>Mining Industry Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%203880\" onclick=\"return showCourse(this, 'ECON 3880');\" title=\"ECON 3880\">ECON 3880</a></td><td>Introduction to Sports Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%204383\" onclick=\"return showCourse(this, 'ECON 4383');\" title=\"ECON 4383\">ECON 4383</a></td><td>Financial Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%204430\" onclick=\"return showCourse(this, 'ECON 4430');\" title=\"ECON 4430\">ECON 4430</a></td><td>Cost-Benefit Analysis</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%204440\" onclick=\"return showCourse(this, 'ECON 4440');\" title=\"ECON 4440\">ECON 4440</a></td><td>Environmental And Natural Resource Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%204538\" onclick=\"return showCourse(this, 'ECON 4538');\" title=\"ECON 4538\">ECON 4538</a></td><td>Advanced Econometrics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%204540\" onclick=\"return showCourse(this, 'ECON 4540');\" title=\"ECON 4540\">ECON 4540</a></td><td>Energy Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%204720\" onclick=\"return showCourse(this, 'ECON 4720');\" title=\"ECON 4720\">ECON 4720</a></td><td>International Finance</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205532\" onclick=\"return showCourse(this, 'ECON 5532');\" title=\"ECON 5532\">ECON 5532</a></td><td>Advanced Mining Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205337\" onclick=\"return showCourse(this, 'ECON 5337');\" title=\"ECON 5337\">ECON 5337</a></td><td>Financial Mathematics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">Total Credits: 17 - 18</span></td><td class=\"hourscol\"></td></tr> </tbody></table> <dl aria-label=\"Footnotes\" class=\"sc_footnotes\"><dt> <sup> 1 </sup> </dt><dd><p class=\"noindent\">Both data analytics courses can be counted as a total of six credit hours for this minor. When students choose to take both <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205360\" onclick=\"return showCourse(this, 'ECON 5360');\" title=\"ECON 5360\">ECON 5360</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205380\" onclick=\"return showCourse(this, 'ECON 5380');\" title=\"ECON 5380\">ECON 5380</a></span>, they must only choose one course from <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%201210\" onclick=\"return showCourse(this, 'ENG MGT 1210');\" title=\"ENG MGT 1210\">ENG MGT 1210</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%202100\" onclick=\"return showCourse(this, 'ECON 2100');\" title=\"ECON 2100\">ECON 2100</a></span>,<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%202200\" onclick=\"return showCourse(this, 'ECON 2200');\" title=\"ECON 2200\">ECON 2200</a></span>, or any other 3000-level and above economic electives to complete the minor.</p></dd></dl>\n</div>"
+}

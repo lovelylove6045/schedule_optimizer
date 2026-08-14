@@ -1,0 +1,1933 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/petroleumengineering/#bachelorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/petroleumengineering/",
+        "fragment": "bachelorstext",
+        "page_slug": "petroleumengineering",
+        "page_title": "Petroleum Engineering < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=bachelorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 7147,
+        "html_character_count": 19906,
+        "heading_count": 2,
+        "paragraph_count": 14,
+        "list_count": 1,
+        "table_count": 1,
+        "link_count": 56,
+        "superscript_count": 11,
+        "text_sha256": "3c0406ee3de5eaac37a5c265b450bba265325a0feb5506b5bb9e08618b614e97",
+        "html_sha256": "ae10a043b5355d3bf856b578c6ebb9d9839a95b66a37b0128a9b168c99910189"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Bachelor of Science Petroleum Engineering",
+            "id": null
+        },
+        {
+            "number": 2,
+            "level": "h2",
+            "text": "Accelerated BS/MS Program Option for Petroleum Engineering Majors",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "CHEM 1100",
+            "href": "/search/?P=CHEM%201100",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201100",
+            "resolved_course": "CHEM 1100"
+        },
+        {
+            "number": 2,
+            "text": "COMP SCI 1500",
+            "href": "/search/?P=COMP%20SCI%201500",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201500",
+            "resolved_course": "COMP SCI 1500"
+        },
+        {
+            "number": 3,
+            "text": "CHEM 1305",
+            "href": "/search/?P=CHEM%201305",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201305",
+            "resolved_course": "CHEM 1305"
+        },
+        {
+            "number": 4,
+            "text": "GEO ENG 1150",
+            "href": "/search/?P=GEO%20ENG%201150",
+            "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%201150",
+            "resolved_course": "GEO ENG 1150"
+        },
+        {
+            "number": 5,
+            "text": "GEOLOGY 1110",
+            "href": "/search/?P=GEOLOGY%201110",
+            "url": "https://catalog.mst.edu/search/?P=GEOLOGY%201110",
+            "resolved_course": "GEOLOGY 1110"
+        },
+        {
+            "number": 6,
+            "text": "CHEM 1319",
+            "href": "/search/?P=CHEM%201319",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201319",
+            "resolved_course": "CHEM 1319"
+        },
+        {
+            "number": 7,
+            "text": "MATH 1215",
+            "href": "/search/?P=MATH%201215",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201215",
+            "resolved_course": "MATH 1215"
+        },
+        {
+            "number": 8,
+            "text": "ENGLISH 1120",
+            "href": "/search/?P=ENGLISH%201120",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201120",
+            "resolved_course": "ENGLISH 1120"
+        },
+        {
+            "number": 9,
+            "text": "PET ENG 1120",
+            "href": "/search/?P=PET%20ENG%201120",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%201120",
+            "resolved_course": "PET ENG 1120"
+        },
+        {
+            "number": 10,
+            "text": "FR ENG 1100",
+            "href": "/search/?P=FR%20ENG%201100",
+            "url": "https://catalog.mst.edu/search/?P=FR%20ENG%201100",
+            "resolved_course": "FR ENG 1100"
+        },
+        {
+            "number": 11,
+            "text": "PHYSICS 1135",
+            "href": "/search/?P=PHYSICS%201135",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%201135",
+            "resolved_course": "PHYSICS 1135"
+        },
+        {
+            "number": 12,
+            "text": "HISTORY 1200",
+            "href": "/search/?P=HISTORY%201200",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201200",
+            "resolved_course": "HISTORY 1200"
+        },
+        {
+            "number": 13,
+            "text": "1300",
+            "href": "/search/?P=HISTORY%201300",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201300",
+            "resolved_course": "HISTORY 1300"
+        },
+        {
+            "number": 14,
+            "text": "1310",
+            "href": "/search/?P=HISTORY%201310",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201310",
+            "resolved_course": "HISTORY 1310"
+        },
+        {
+            "number": 15,
+            "text": "POL SCI 1200",
+            "href": "/search/?P=POL%20SCI%201200",
+            "url": "https://catalog.mst.edu/search/?P=POL%20SCI%201200",
+            "resolved_course": "POL SCI 1200"
+        },
+        {
+            "number": 16,
+            "text": "MATH 1214",
+            "href": "/search/?P=MATH%201214",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201214",
+            "resolved_course": "MATH 1214"
+        },
+        {
+            "number": 17,
+            "text": "1211",
+            "href": "/search/?P=MATH%201211",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201211",
+            "resolved_course": "MATH 1211"
+        },
+        {
+            "number": 18,
+            "text": "CIV ENG 2200",
+            "href": "/search/?P=CIV%20ENG%202200",
+            "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%202200",
+            "resolved_course": "CIV ENG 2200"
+        },
+        {
+            "number": 19,
+            "text": "CIV ENG 2210",
+            "href": "/search/?P=CIV%20ENG%202210",
+            "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%202210",
+            "resolved_course": "CIV ENG 2210"
+        },
+        {
+            "number": 20,
+            "text": "MATH 2222",
+            "href": "/search/?P=MATH%202222",
+            "url": "https://catalog.mst.edu/search/?P=MATH%202222",
+            "resolved_course": "MATH 2222"
+        },
+        {
+            "number": 21,
+            "text": "MATH 3304",
+            "href": "/search/?P=MATH%203304",
+            "url": "https://catalog.mst.edu/search/?P=MATH%203304",
+            "resolved_course": "MATH 3304"
+        },
+        {
+            "number": 22,
+            "text": "PET ENG 3320",
+            "href": "/search/?P=PET%20ENG%203320",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%203320",
+            "resolved_course": "PET ENG 3320"
+        },
+        {
+            "number": 23,
+            "text": "MECH ENG 2350",
+            "href": "/search/?P=MECH%20ENG%202350",
+            "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%202350",
+            "resolved_course": "MECH ENG 2350"
+        },
+        {
+            "number": 24,
+            "text": "PHYSICS 2135",
+            "href": "/search/?P=PHYSICS%202135",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202135",
+            "resolved_course": "PHYSICS 2135"
+        },
+        {
+            "number": 25,
+            "text": "PET ENG 3330",
+            "href": "/search/?P=PET%20ENG%203330",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%203330",
+            "resolved_course": "PET ENG 3330"
+        },
+        {
+            "number": 26,
+            "text": "PET ENG 3520",
+            "href": "/search/?P=PET%20ENG%203520",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%203520",
+            "resolved_course": "PET ENG 3520"
+        },
+        {
+            "number": 27,
+            "text": "CIV ENG 3330",
+            "href": "/search/?P=CIV%20ENG%203330",
+            "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%203330",
+            "resolved_course": "CIV ENG 3330"
+        },
+        {
+            "number": 28,
+            "text": "ENGLISH 1160",
+            "href": "/search/?P=ENGLISH%201160",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201160",
+            "resolved_course": "ENGLISH 1160"
+        },
+        {
+            "number": 29,
+            "text": "1600",
+            "href": "/search/?P=ENGLISH%201600",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201600",
+            "resolved_course": "ENGLISH 1600"
+        },
+        {
+            "number": 30,
+            "text": "3560",
+            "href": "/search/?P=ENGLISH%203560",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%203560",
+            "resolved_course": "ENGLISH 3560"
+        },
+        {
+            "number": 31,
+            "text": "GEOLOGY 3310",
+            "href": "/search/?P=GEOLOGY%203310",
+            "url": "https://catalog.mst.edu/search/?P=GEOLOGY%203310",
+            "resolved_course": "GEOLOGY 3310"
+        },
+        {
+            "number": 32,
+            "text": "MECH ENG 2527",
+            "href": "/search/?P=MECH%20ENG%202527",
+            "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%202527",
+            "resolved_course": "MECH ENG 2527"
+        },
+        {
+            "number": 33,
+            "text": "GEOLOGY 3319",
+            "href": "/search/?P=GEOLOGY%203319",
+            "url": "https://catalog.mst.edu/search/?P=GEOLOGY%203319",
+            "resolved_course": "GEOLOGY 3319"
+        },
+        {
+            "number": 34,
+            "text": "PET ENG 4410",
+            "href": "/search/?P=PET%20ENG%204410",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204410",
+            "resolved_course": "PET ENG 4410"
+        },
+        {
+            "number": 35,
+            "text": "GEOLOGY 5513",
+            "href": "/search/?P=GEOLOGY%205513",
+            "url": "https://catalog.mst.edu/search/?P=GEOLOGY%205513",
+            "resolved_course": "GEOLOGY 5513"
+        },
+        {
+            "number": 36,
+            "text": "PET ENG 4631",
+            "href": "/search/?P=PET%20ENG%204631",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204631",
+            "resolved_course": "PET ENG 4631"
+        },
+        {
+            "number": 37,
+            "text": "PET ENG 4210",
+            "href": "/search/?P=PET%20ENG%204210",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204210",
+            "resolved_course": "PET ENG 4210"
+        },
+        {
+            "number": 38,
+            "text": "PET ENG 4520",
+            "href": "/search/?P=PET%20ENG%204520",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204520",
+            "resolved_course": "PET ENG 4520"
+        },
+        {
+            "number": 39,
+            "text": "GEO ENG 4115",
+            "href": "/search/?P=GEO%20ENG%204115",
+            "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%204115",
+            "resolved_course": "GEO ENG 4115"
+        },
+        {
+            "number": 40,
+            "text": "STAT 3113",
+            "href": "/search/?P=STAT%203113",
+            "url": "https://catalog.mst.edu/search/?P=STAT%203113",
+            "resolved_course": "STAT 3113"
+        },
+        {
+            "number": 41,
+            "text": "STAT 3117",
+            "href": "/search/?P=STAT%203117",
+            "url": "https://catalog.mst.edu/search/?P=STAT%203117",
+            "resolved_course": "STAT 3117"
+        },
+        {
+            "number": 42,
+            "text": "PET ENG 4590",
+            "href": "/search/?P=PET%20ENG%204590",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204590",
+            "resolved_course": "PET ENG 4590"
+        },
+        {
+            "number": 43,
+            "text": "PET ENG 4720",
+            "href": "/search/?P=PET%20ENG%204720",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204720",
+            "resolved_course": "PET ENG 4720"
+        },
+        {
+            "number": 44,
+            "text": "PET ENG 4097",
+            "href": "/search/?P=PET%20ENG%204097",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204097",
+            "resolved_course": "PET ENG 4097"
+        },
+        {
+            "number": 45,
+            "text": "PET ENG 5801",
+            "href": "/search/?P=PET%20ENG%205801",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%205801",
+            "resolved_course": "PET ENG 5801"
+        },
+        {
+            "number": 46,
+            "text": "PET ENG 4531",
+            "href": "/search/?P=PET%20ENG%204531",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204531",
+            "resolved_course": "PET ENG 4531"
+        },
+        {
+            "number": 47,
+            "text": "PET ENG 5050",
+            "href": "/search/?P=PET%20ENG%205050",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%205050",
+            "resolved_course": "PET ENG 5050"
+        },
+        {
+            "number": 48,
+            "text": "MATH 1211",
+            "href": "/search/?P=MATH%201211",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201211",
+            "resolved_course": "MATH 1211"
+        },
+        {
+            "number": 49,
+            "text": "MATH 1214",
+            "href": "/search/?P=MATH%201214",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201214",
+            "resolved_course": "MATH 1214"
+        },
+        {
+            "number": 50,
+            "text": "PET ENG 4211",
+            "href": "/search/?P=PET%20ENG%204211",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204211",
+            "resolved_course": "PET ENG 4211"
+        },
+        {
+            "number": 51,
+            "text": "PET ENG 4421",
+            "href": "/search/?P=PET%20ENG%204421",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204421",
+            "resolved_course": "PET ENG 4421"
+        },
+        {
+            "number": 52,
+            "text": "PET ENG 4431",
+            "href": "/search/?P=PET%20ENG%204431",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204431",
+            "resolved_course": "PET ENG 4431"
+        },
+        {
+            "number": 53,
+            "text": "PET ENG 4611",
+            "href": "/search/?P=PET%20ENG%204611",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204611",
+            "resolved_course": "PET ENG 4611"
+        },
+        {
+            "number": 54,
+            "text": "COMP SCI 1972",
+            "href": "/search/?P=COMP%20SCI%201972",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201972",
+            "resolved_course": "COMP SCI 1972"
+        },
+        {
+            "number": 55,
+            "text": "COMP SCI 1982",
+            "href": "/search/?P=COMP%20SCI%201982",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201982",
+            "resolved_course": "COMP SCI 1982"
+        },
+        {
+            "number": 56,
+            "text": "COMP SCI 2300",
+            "href": "/search/?P=COMP%20SCI%202300",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%202300",
+            "resolved_course": "COMP SCI 2300"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "Freshman Year First Semester Credits Second Semester Credits CHEM 1100 1 COMP SCI 1500 3 CHEM 1305 4 GEO ENG 1150 or GEOLOGY 1110 3 CHEM 1319 1 MATH 1215 4 ENGLISH 1120 3 PET ENG 1120 1 FR ENG 1100 1 PHYSICS 1135 4 HISTORY 1200 , or 1300 , or 1310 , or POL SCI 1200 3 MATH 1214 or 1211 1 4 17 15 Sophomore Year First Semester Credits Second Semester Credits CIV ENG 2200 3 CIV ENG 2210 3 General Education Elective 2 3 General Education Elective 2 3 MATH 2222 4 MATH 3304 3 PET ENG 3320 3 MECH ENG 2350 2 PHYSICS 2135 4 PET ENG 3330 3 PET ENG 3520 3 17 17 Junior Year First Semester Credits Second Semester Credits CIV ENG 3330 3 ENGLISH 1160 , or 1600 , or 3560 3 CS Programming Elective 4 3 General Education Elective 2 3 GEOLOGY 3310 3 MECH ENG 2527 3 GEOLOGY 3319 1 PET ENG 4410 3 GEOLOGY 5513 3 PET ENG 4631 3 PET ENG 4210 3 16 15 Senior Year First Semester Credits Second Semester Credits PET ENG 4520 3 GEO ENG 4115 , or STAT 3113 , or STAT 3117 3 PET ENG 4590 3 General Education Elective 2 3 PET ENG 4720 3 PET ENG 4097 3 PET ENG 5801 3 PET ENG 4531 3 PET ENG Elective 3 3 PET ENG 5050 3 15 15 Total Credits: 127",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Freshman Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CHEM 1100",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CHEM 1100",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%201100",
+                                    "resolved_course": "CHEM 1100"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "COMP SCI 1500",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 1500",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201500",
+                                    "resolved_course": "COMP SCI 1500"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CHEM 1305",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CHEM 1305",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%201305",
+                                    "resolved_course": "CHEM 1305"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "GEO ENG 1150 or GEOLOGY 1110",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "GEO ENG 1150",
+                                    "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%201150",
+                                    "resolved_course": "GEO ENG 1150"
+                                },
+                                {
+                                    "text": "GEOLOGY 1110",
+                                    "url": "https://catalog.mst.edu/search/?P=GEOLOGY%201110",
+                                    "resolved_course": "GEOLOGY 1110"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CHEM 1319",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CHEM 1319",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%201319",
+                                    "resolved_course": "CHEM 1319"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MATH 1215",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 1215",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201215",
+                                    "resolved_course": "MATH 1215"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENGLISH 1120",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENGLISH 1120",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%201120",
+                                    "resolved_course": "ENGLISH 1120"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "PET ENG 1120",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PET ENG 1120",
+                                    "url": "https://catalog.mst.edu/search/?P=PET%20ENG%201120",
+                                    "resolved_course": "PET ENG 1120"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "FR ENG 1100",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "FR ENG 1100",
+                                    "url": "https://catalog.mst.edu/search/?P=FR%20ENG%201100",
+                                    "resolved_course": "FR ENG 1100"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "PHYSICS 1135",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 1135",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%201135",
+                                    "resolved_course": "PHYSICS 1135"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "HISTORY 1200 , or 1300 , or 1310 , or POL SCI 1200",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "HISTORY 1200",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201200",
+                                    "resolved_course": "HISTORY 1200"
+                                },
+                                {
+                                    "text": "1300",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201300",
+                                    "resolved_course": "HISTORY 1300"
+                                },
+                                {
+                                    "text": "1310",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201310",
+                                    "resolved_course": "HISTORY 1310"
+                                },
+                                {
+                                    "text": "POL SCI 1200",
+                                    "url": "https://catalog.mst.edu/search/?P=POL%20SCI%201200",
+                                    "resolved_course": "POL SCI 1200"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MATH 1214 or 1211 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 1214",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201214",
+                                    "resolved_course": "MATH 1214"
+                                },
+                                {
+                                    "text": "1211",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201211",
+                                    "resolved_course": "MATH 1211"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 10,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "17",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 11,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Sophomore Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 12,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 13,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CIV ENG 2200",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CIV ENG 2200",
+                                    "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%202200",
+                                    "resolved_course": "CIV ENG 2200"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "CIV ENG 2210",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CIV ENG 2210",
+                                    "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%202210",
+                                    "resolved_course": "CIV ENG 2210"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 14,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "General Education Elective 2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "General Education Elective 2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 15,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MATH 2222",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 2222",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%202222",
+                                    "resolved_course": "MATH 2222"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MATH 3304",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 3304",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%203304",
+                                    "resolved_course": "MATH 3304"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 16,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PET ENG 3320",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PET ENG 3320",
+                                    "url": "https://catalog.mst.edu/search/?P=PET%20ENG%203320",
+                                    "resolved_course": "PET ENG 3320"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MECH ENG 2350",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MECH ENG 2350",
+                                    "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%202350",
+                                    "resolved_course": "MECH ENG 2350"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 17,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHYSICS 2135",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 2135",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%202135",
+                                    "resolved_course": "PHYSICS 2135"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "PET ENG 3330",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PET ENG 3330",
+                                    "url": "https://catalog.mst.edu/search/?P=PET%20ENG%203330",
+                                    "resolved_course": "PET ENG 3330"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 18,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "PET ENG 3520",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PET ENG 3520",
+                                    "url": "https://catalog.mst.edu/search/?P=PET%20ENG%203520",
+                                    "resolved_course": "PET ENG 3520"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 19,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "17",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "17",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 20,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Junior Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 21,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 22,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CIV ENG 3330",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CIV ENG 3330",
+                                    "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%203330",
+                                    "resolved_course": "CIV ENG 3330"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "ENGLISH 1160 , or 1600 , or 3560",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENGLISH 1160",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%201160",
+                                    "resolved_course": "ENGLISH 1160"
+                                },
+                                {
+                                    "text": "1600",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%201600",
+                                    "resolved_course": "ENGLISH 1600"
+                                },
+                                {
+                                    "text": "3560",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%203560",
+                                    "resolved_course": "ENGLISH 3560"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 23,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CS Programming Elective 4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "General Education Elective 2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 24,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "GEOLOGY 3310",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "GEOLOGY 3310",
+                                    "url": "https://catalog.mst.edu/search/?P=GEOLOGY%203310",
+                                    "resolved_course": "GEOLOGY 3310"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MECH ENG 2527",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MECH ENG 2527",
+                                    "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%202527",
+                                    "resolved_course": "MECH ENG 2527"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 25,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "GEOLOGY 3319",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "GEOLOGY 3319",
+                                    "url": "https://catalog.mst.edu/search/?P=GEOLOGY%203319",
+                                    "resolved_course": "GEOLOGY 3319"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "PET ENG 4410",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PET ENG 4410",
+                                    "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204410",
+                                    "resolved_course": "PET ENG 4410"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 26,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "GEOLOGY 5513",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "GEOLOGY 5513",
+                                    "url": "https://catalog.mst.edu/search/?P=GEOLOGY%205513",
+                                    "resolved_course": "GEOLOGY 5513"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "PET ENG 4631",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PET ENG 4631",
+                                    "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204631",
+                                    "resolved_course": "PET ENG 4631"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 27,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PET ENG 4210",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PET ENG 4210",
+                                    "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204210",
+                                    "resolved_course": "PET ENG 4210"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 28,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "16",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 29,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Senior Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 30,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 31,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PET ENG 4520",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PET ENG 4520",
+                                    "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204520",
+                                    "resolved_course": "PET ENG 4520"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "GEO ENG 4115 , or STAT 3113 , or STAT 3117",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "GEO ENG 4115",
+                                    "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%204115",
+                                    "resolved_course": "GEO ENG 4115"
+                                },
+                                {
+                                    "text": "STAT 3113",
+                                    "url": "https://catalog.mst.edu/search/?P=STAT%203113",
+                                    "resolved_course": "STAT 3113"
+                                },
+                                {
+                                    "text": "STAT 3117",
+                                    "url": "https://catalog.mst.edu/search/?P=STAT%203117",
+                                    "resolved_course": "STAT 3117"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 32,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PET ENG 4590",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PET ENG 4590",
+                                    "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204590",
+                                    "resolved_course": "PET ENG 4590"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "General Education Elective 2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 33,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PET ENG 4720",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PET ENG 4720",
+                                    "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204720",
+                                    "resolved_course": "PET ENG 4720"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "PET ENG 4097",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PET ENG 4097",
+                                    "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204097",
+                                    "resolved_course": "PET ENG 4097"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 34,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PET ENG 5801",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PET ENG 5801",
+                                    "url": "https://catalog.mst.edu/search/?P=PET%20ENG%205801",
+                                    "resolved_course": "PET ENG 5801"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "PET ENG 4531",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PET ENG 4531",
+                                    "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204531",
+                                    "resolved_course": "PET ENG 4531"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 35,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PET ENG Elective 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "PET ENG 5050",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PET ENG 5050",
+                                    "url": "https://catalog.mst.edu/search/?P=PET%20ENG%205050",
+                                    "resolved_course": "PET ENG 5050"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 36,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 37,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Total Credits: 127",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_plangrid\"><tr class=\"plangridyear firstrow\"><th colspan=\"4\">Freshman Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201100\" onclick=\"return showCourse(this, 'CHEM 1100');\" title=\"CHEM 1100\">CHEM 1100</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201500\" onclick=\"return showCourse(this, 'COMP SCI 1500');\" title=\"COMP SCI 1500\">COMP SCI 1500</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201305\" onclick=\"return showCourse(this, 'CHEM 1305');\" title=\"CHEM 1305\">CHEM 1305</a></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%201150\" onclick=\"return showCourse(this, 'GEO ENG 1150');\" title=\"GEO ENG 1150\">GEO ENG 1150</a> or <a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%201110\" onclick=\"return showCourse(this, 'GEOLOGY 1110');\" title=\"GEOLOGY 1110\">GEOLOGY  1110</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201319\" onclick=\"return showCourse(this, 'CHEM 1319');\" title=\"CHEM 1319\">CHEM 1319</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201215\" onclick=\"return showCourse(this, 'MATH 1215');\" title=\"MATH 1215\">MATH 1215</a></td><td class=\"hourscol\">4</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201120\" onclick=\"return showCourse(this, 'ENGLISH 1120');\" title=\"ENGLISH 1120\">ENGLISH 1120</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%201120\" onclick=\"return showCourse(this, 'PET ENG 1120');\" title=\"PET ENG 1120\">PET ENG 1120</a></td><td class=\"hourscol\">1</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=FR%20ENG%201100\" onclick=\"return showCourse(this, 'FR ENG 1100');\" title=\"FR ENG 1100\">FR ENG 1100</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201135\" onclick=\"return showCourse(this, 'PHYSICS 1135');\" title=\"PHYSICS 1135\">PHYSICS 1135</a></td><td class=\"hourscol\">4</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201200\" onclick=\"return showCourse(this, 'HISTORY 1200');\" title=\"HISTORY 1200\">HISTORY 1200</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201300\" onclick=\"return showCourse(this, 'HISTORY 1300');\" title=\"HISTORY 1300\"> 1300</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201310\" onclick=\"return showCourse(this, 'HISTORY 1310');\" title=\"HISTORY 1310\"> 1310</a>, or <a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%201200\" onclick=\"return showCourse(this, 'POL SCI 1200');\" title=\"POL SCI 1200\">POL SCI  1200</a></td><td class=\"hourscol\">3</td><td colspan=\"2\"> </td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201214\" onclick=\"return showCourse(this, 'MATH 1214');\" title=\"MATH 1214\">MATH 1214</a> or <a class=\"bubblelink code\" href=\"/search/?P=MATH%201211\" onclick=\"return showCourse(this, 'MATH 1211');\" title=\"MATH 1211\"> 1211</a><sup>1</sup></td><td class=\"hourscol\">4</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">17</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Sophomore Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%202200\" onclick=\"return showCourse(this, 'CIV ENG 2200');\" title=\"CIV ENG 2200\">CIV ENG 2200</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%202210\" onclick=\"return showCourse(this, 'CIV ENG 2210');\" title=\"CIV ENG 2210\">CIV ENG 2210</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">General Education Elective<sup>2</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">General Education Elective<sup>2</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%202222\" onclick=\"return showCourse(this, 'MATH 2222');\" title=\"MATH 2222\">MATH 2222</a></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%203304\" onclick=\"return showCourse(this, 'MATH 3304');\" title=\"MATH 3304\">MATH 3304</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%203320\" onclick=\"return showCourse(this, 'PET ENG 3320');\" title=\"PET ENG 3320\">PET ENG 3320</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%202350\" onclick=\"return showCourse(this, 'MECH ENG 2350');\" title=\"MECH ENG 2350\">MECH ENG 2350</a></td><td class=\"hourscol\">2</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202135\" onclick=\"return showCourse(this, 'PHYSICS 2135');\" title=\"PHYSICS 2135\">PHYSICS 2135</a></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%203330\" onclick=\"return showCourse(this, 'PET ENG 3330');\" title=\"PET ENG 3330\">PET ENG 3330</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td colspan=\"2\"> </td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%203520\" onclick=\"return showCourse(this, 'PET ENG 3520');\" title=\"PET ENG 3520\">PET ENG 3520</a></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">17</td><td> </td><td class=\"hourscol\">17</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Junior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%203330\" onclick=\"return showCourse(this, 'CIV ENG 3330');\" title=\"CIV ENG 3330\">CIV ENG 3330</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201160\" onclick=\"return showCourse(this, 'ENGLISH 1160');\" title=\"ENGLISH 1160\">ENGLISH 1160</a>, or <a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201600\" onclick=\"return showCourse(this, 'ENGLISH 1600');\" title=\"ENGLISH 1600\"> 1600</a>, or <a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%203560\" onclick=\"return showCourse(this, 'ENGLISH 3560');\" title=\"ENGLISH 3560\"> 3560</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">CS Programming Elective<sup>4</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">General Education Elective<sup>2</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%203310\" onclick=\"return showCourse(this, 'GEOLOGY 3310');\" title=\"GEOLOGY 3310\">GEOLOGY 3310</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%202527\" onclick=\"return showCourse(this, 'MECH ENG 2527');\" title=\"MECH ENG 2527\">MECH ENG 2527</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%203319\" onclick=\"return showCourse(this, 'GEOLOGY 3319');\" title=\"GEOLOGY 3319\">GEOLOGY 3319</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204410\" onclick=\"return showCourse(this, 'PET ENG 4410');\" title=\"PET ENG 4410\">PET ENG 4410</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%205513\" onclick=\"return showCourse(this, 'GEOLOGY 5513');\" title=\"GEOLOGY 5513\">GEOLOGY 5513</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204631\" onclick=\"return showCourse(this, 'PET ENG 4631');\" title=\"PET ENG 4631\">PET ENG 4631</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204210\" onclick=\"return showCourse(this, 'PET ENG 4210');\" title=\"PET ENG 4210\">PET ENG 4210</a></td><td class=\"hourscol\">3</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">16</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Senior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204520\" onclick=\"return showCourse(this, 'PET ENG 4520');\" title=\"PET ENG 4520\">PET ENG 4520</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%204115\" onclick=\"return showCourse(this, 'GEO ENG 4115');\" title=\"GEO ENG 4115\">GEO ENG 4115</a>, or <a class=\"bubblelink code\" href=\"/search/?P=STAT%203113\" onclick=\"return showCourse(this, 'STAT 3113');\" title=\"STAT 3113\">STAT  3113</a>, or <a class=\"bubblelink code\" href=\"/search/?P=STAT%203117\" onclick=\"return showCourse(this, 'STAT 3117');\" title=\"STAT 3117\">STAT  3117</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204590\" onclick=\"return showCourse(this, 'PET ENG 4590');\" title=\"PET ENG 4590\">PET ENG 4590</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">General Education Elective<sup>2</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204720\" onclick=\"return showCourse(this, 'PET ENG 4720');\" title=\"PET ENG 4720\">PET ENG 4720</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204097\" onclick=\"return showCourse(this, 'PET ENG 4097');\" title=\"PET ENG 4097\">PET ENG 4097</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%205801\" onclick=\"return showCourse(this, 'PET ENG 5801');\" title=\"PET ENG 5801\">PET ENG 5801</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204531\" onclick=\"return showCourse(this, 'PET ENG 4531');\" title=\"PET ENG 4531\">PET ENG 4531</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">PET ENG Elective<sup>3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%205050\" onclick=\"return showCourse(this, 'PET ENG 5050');\" title=\"PET ENG 5050\">PET ENG 5050</a></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridtotal lastrow\"><td colspan=\"4\">Total Credits: 127</td></tr></table>"
+        }
+    ],
+    "section_text": "Bachelor of Science Petroleum Engineering For the Bachelor of Science degree in Petroleum Engineering a minimum of 127 credit hours is required. These requirements are in addition to credit received for algebra, trigonometry, and basic ROTC courses. A student must maintain at least two grade points per credit hour for all courses taken in Petroleum Engineering. The Petroleum Engineering program at Missouri S&T consists of a strong foundation in math, sciences and engineering fundamentals, plus strong content in the traditional Petroleum Engineering core areas of drilling, production and reservoir engineering. S&T Petroleum Engineering students are prepared to solve today’s problems and tomorrow’s. Students learn theory, have ample hands-on experiences in laboratories, and they learn many modern software packages used by the petroleum industry. Freshman Year First Semester Credits Second Semester Credits CHEM 1100 1 COMP SCI 1500 3 CHEM 1305 4 GEO ENG 1150 or GEOLOGY 1110 3 CHEM 1319 1 MATH 1215 4 ENGLISH 1120 3 PET ENG 1120 1 FR ENG 1100 1 PHYSICS 1135 4 HISTORY 1200 , or 1300 , or 1310 , or POL SCI 1200 3 MATH 1214 or 1211 1 4 17 15 Sophomore Year First Semester Credits Second Semester Credits CIV ENG 2200 3 CIV ENG 2210 3 General Education Elective 2 3 General Education Elective 2 3 MATH 2222 4 MATH 3304 3 PET ENG 3320 3 MECH ENG 2350 2 PHYSICS 2135 4 PET ENG 3330 3 PET ENG 3520 3 17 17 Junior Year First Semester Credits Second Semester Credits CIV ENG 3330 3 ENGLISH 1160 , or 1600 , or 3560 3 CS Programming Elective 4 3 General Education Elective 2 3 GEOLOGY 3310 3 MECH ENG 2527 3 GEOLOGY 3319 1 PET ENG 4410 3 GEOLOGY 5513 3 PET ENG 4631 3 PET ENG 4210 3 16 15 Senior Year First Semester Credits Second Semester Credits PET ENG 4520 3 GEO ENG 4115 , or STAT 3113 , or STAT 3117 3 PET ENG 4590 3 General Education Elective 2 3 PET ENG 4720 3 PET ENG 4097 3 PET ENG 5801 3 PET ENG 4531 3 PET ENG Elective 3 3 PET ENG 5050 3 15 15 Total Credits: 127 1 MATH 1211 may be substituted for MATH 1214 . 2 General Education Requirement. General education electives must fulfill the Missouri S&T general education requirements applicable to the student's catalog year. 3 Select Petroleum Engineering electives in accordance with interest and availability of courses. Courses include PET ENG 4211 , PET ENG 4421 , PET ENG 4431 , and PET ENG 4611 . 4 Selection can be COMP SCI 1972 and COMP SCI 1982 , or COMP SCI 2300 , or be replaced by formal online program course credits. The total number of credit hours required for a degree in Petroleum Engineering is 127. Petroleum Engineering students must earn the grade of “C” or better in all Petroleum Engineering courses to receive credit toward graduation. Note: All Petroleum Engineering students must take the Fundamentals of Engineering Examination prior to graduation. A passing grade on this examination is not required to earn a B.S. degree, however, it is the first step to becoming a registered professional engineer. This requirement is part of Missouri S&T assessment process as described in Assessment Requirements found elsewhere in this catalog. Students must sign a release form giving the University access to their Fundamentals of Engineering Examination score. Accelerated BS/MS Program Option for Petroleum Engineering Majors Missouri S&T Petroleum Engineering undergraduate students may opt to apply for an accelerated BS/MS program where a student can earn both the BS and MS degrees in Petroleum Engineering faster than if pursuing the degrees separately. The degrees awarded will be a BS & MS (non-thesis or thesis) in Petroleum Engineering. The benefits for undergraduate students admitted to the program are: Undergraduate and graduate courses may be chosen with greater flexibility, Up to nine hours of 5000-level or above Petroleum Engineering coursework may apply to both the BS and MS requirements, The classes taken for shared BS/MS credit may be taken at the lower undergraduate tuition rate, The GRE is not required for admission, Other graduate courses can be taken any time after entering the program as a dual enrolled student, Work on a thesis project may begin before the BS requirements are completed. To be eligible for the accelerated BS/MS Petroleum Engineering program, a Petroleum Engineering undergraduate must be at or beyond the junior level standing with a minimum of 48 credit hours. They must have successfully completed the Chemistry and Math requirements and have completed 21 credit hours of Petroleum Engineering courses at Missouri S&T with at least a 3.2 GPA in the Petroleum Engineering courses. To be admitted, the student must complete the program application and non-thesis MS students must have the recommendation of a Petroleum Engineering faculty member, while thesis MS students must have the recommendation of a Petroleum Engineering faculty member who agrees to serve as the graduate thesis advisor. All other MS degree requirements remain the same. The program may be combined with existing honors research, emphasis areas, and certificate options. The Accelerated Program application must be completed within one semester after shared-credit courses are completed. Courses taken for shared credit will be identified on the application form. These courses will also be listed on the student’s Graduate Form 1 to be submitted after the student enters the graduate program. The nine hours of shared-credit coursework, to be taken as undergraduate credit, must be approved by the academic advisor, and may not be undergraduate research, special problems, or transfer courses. An additional six credit hours of coursework for graduate credit (beyond the shared BS/MS credits) can be taken while in the undergraduate program by applying for dual undergraduate/graduate enrollment. Taking additional courses for graduate credit as a dual enrolled student will require formal application to the graduate program. Upon application, acceptance to the Petroleum Engineering MS degree from the Accelerated Program is automatic so long as the student remains in good standing (GPA above 3.0 and B’s or better in all graduate courses) within the program. To remain in the Accelerated Program, the student must meet Petroleum Engineering graduate student academic performance requirements and must maintain continuous enrollment at Missouri S&T. If the student exits the program before completion of the MS degree requirements, or fails to maintain continuous enrollment at Missouri S&T, the shared-credit courses may not apply toward graduate requirements in the event of future readmission. It is the student’s responsibility to check on how dual-enrollment status and graduate coursework affects scholarships and other financial aid. As a graduate student, you are not eligible for Federal Pell Grants. You are still eligible for Federal Financial Aid. You may be eligible for fellowships and teaching/research assistantships. It is the International student’s responsibility to check with international affairs during completion of an accelerated BS/MS to ensure immigration status will be maintained throughout the program.",
+    "section_html": "<div class=\"tab_content\" id=\"bachelorstextcontainer\">\n<a name=\"bachelorstext\"></a><h2>Bachelor of Science<br/> Petroleum Engineering</h2> <p>For the Bachelor of Science degree in Petroleum Engineering a minimum of 127 credit hours is required. These requirements are in addition to credit received for algebra, trigonometry, and basic ROTC courses. A student must maintain at least two grade points per credit hour for all courses taken in Petroleum Engineering.</p> <p>The Petroleum Engineering program at Missouri S&amp;T consists of a strong foundation in math, sciences and engineering fundamentals, plus strong content in the traditional Petroleum Engineering core areas of drilling, production and reservoir engineering.  S&amp;T Petroleum Engineering students are prepared to solve today’s problems and tomorrow’s.  Students learn theory, have ample hands-on experiences in laboratories, and they learn many modern software packages used by the petroleum industry.</p> <table class=\"sc_plangrid\"><tr class=\"plangridyear firstrow\"><th colspan=\"4\">Freshman Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201100\" onclick=\"return showCourse(this, 'CHEM 1100');\" title=\"CHEM 1100\">CHEM 1100</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201500\" onclick=\"return showCourse(this, 'COMP SCI 1500');\" title=\"COMP SCI 1500\">COMP SCI 1500</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201305\" onclick=\"return showCourse(this, 'CHEM 1305');\" title=\"CHEM 1305\">CHEM 1305</a></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%201150\" onclick=\"return showCourse(this, 'GEO ENG 1150');\" title=\"GEO ENG 1150\">GEO ENG 1150</a> or <a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%201110\" onclick=\"return showCourse(this, 'GEOLOGY 1110');\" title=\"GEOLOGY 1110\">GEOLOGY  1110</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201319\" onclick=\"return showCourse(this, 'CHEM 1319');\" title=\"CHEM 1319\">CHEM 1319</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201215\" onclick=\"return showCourse(this, 'MATH 1215');\" title=\"MATH 1215\">MATH 1215</a></td><td class=\"hourscol\">4</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201120\" onclick=\"return showCourse(this, 'ENGLISH 1120');\" title=\"ENGLISH 1120\">ENGLISH 1120</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%201120\" onclick=\"return showCourse(this, 'PET ENG 1120');\" title=\"PET ENG 1120\">PET ENG 1120</a></td><td class=\"hourscol\">1</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=FR%20ENG%201100\" onclick=\"return showCourse(this, 'FR ENG 1100');\" title=\"FR ENG 1100\">FR ENG 1100</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201135\" onclick=\"return showCourse(this, 'PHYSICS 1135');\" title=\"PHYSICS 1135\">PHYSICS 1135</a></td><td class=\"hourscol\">4</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201200\" onclick=\"return showCourse(this, 'HISTORY 1200');\" title=\"HISTORY 1200\">HISTORY 1200</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201300\" onclick=\"return showCourse(this, 'HISTORY 1300');\" title=\"HISTORY 1300\"> 1300</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201310\" onclick=\"return showCourse(this, 'HISTORY 1310');\" title=\"HISTORY 1310\"> 1310</a>, or <a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%201200\" onclick=\"return showCourse(this, 'POL SCI 1200');\" title=\"POL SCI 1200\">POL SCI  1200</a></td><td class=\"hourscol\">3</td><td colspan=\"2\"> </td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201214\" onclick=\"return showCourse(this, 'MATH 1214');\" title=\"MATH 1214\">MATH 1214</a> or <a class=\"bubblelink code\" href=\"/search/?P=MATH%201211\" onclick=\"return showCourse(this, 'MATH 1211');\" title=\"MATH 1211\"> 1211</a><sup>1</sup></td><td class=\"hourscol\">4</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">17</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Sophomore Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%202200\" onclick=\"return showCourse(this, 'CIV ENG 2200');\" title=\"CIV ENG 2200\">CIV ENG 2200</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%202210\" onclick=\"return showCourse(this, 'CIV ENG 2210');\" title=\"CIV ENG 2210\">CIV ENG 2210</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">General Education Elective<sup>2</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">General Education Elective<sup>2</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%202222\" onclick=\"return showCourse(this, 'MATH 2222');\" title=\"MATH 2222\">MATH 2222</a></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%203304\" onclick=\"return showCourse(this, 'MATH 3304');\" title=\"MATH 3304\">MATH 3304</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%203320\" onclick=\"return showCourse(this, 'PET ENG 3320');\" title=\"PET ENG 3320\">PET ENG 3320</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%202350\" onclick=\"return showCourse(this, 'MECH ENG 2350');\" title=\"MECH ENG 2350\">MECH ENG 2350</a></td><td class=\"hourscol\">2</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202135\" onclick=\"return showCourse(this, 'PHYSICS 2135');\" title=\"PHYSICS 2135\">PHYSICS 2135</a></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%203330\" onclick=\"return showCourse(this, 'PET ENG 3330');\" title=\"PET ENG 3330\">PET ENG 3330</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td colspan=\"2\"> </td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%203520\" onclick=\"return showCourse(this, 'PET ENG 3520');\" title=\"PET ENG 3520\">PET ENG 3520</a></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">17</td><td> </td><td class=\"hourscol\">17</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Junior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%203330\" onclick=\"return showCourse(this, 'CIV ENG 3330');\" title=\"CIV ENG 3330\">CIV ENG 3330</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201160\" onclick=\"return showCourse(this, 'ENGLISH 1160');\" title=\"ENGLISH 1160\">ENGLISH 1160</a>, or <a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201600\" onclick=\"return showCourse(this, 'ENGLISH 1600');\" title=\"ENGLISH 1600\"> 1600</a>, or <a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%203560\" onclick=\"return showCourse(this, 'ENGLISH 3560');\" title=\"ENGLISH 3560\"> 3560</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">CS Programming Elective<sup>4</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">General Education Elective<sup>2</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%203310\" onclick=\"return showCourse(this, 'GEOLOGY 3310');\" title=\"GEOLOGY 3310\">GEOLOGY 3310</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%202527\" onclick=\"return showCourse(this, 'MECH ENG 2527');\" title=\"MECH ENG 2527\">MECH ENG 2527</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%203319\" onclick=\"return showCourse(this, 'GEOLOGY 3319');\" title=\"GEOLOGY 3319\">GEOLOGY 3319</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204410\" onclick=\"return showCourse(this, 'PET ENG 4410');\" title=\"PET ENG 4410\">PET ENG 4410</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%205513\" onclick=\"return showCourse(this, 'GEOLOGY 5513');\" title=\"GEOLOGY 5513\">GEOLOGY 5513</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204631\" onclick=\"return showCourse(this, 'PET ENG 4631');\" title=\"PET ENG 4631\">PET ENG 4631</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204210\" onclick=\"return showCourse(this, 'PET ENG 4210');\" title=\"PET ENG 4210\">PET ENG 4210</a></td><td class=\"hourscol\">3</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">16</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Senior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204520\" onclick=\"return showCourse(this, 'PET ENG 4520');\" title=\"PET ENG 4520\">PET ENG 4520</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%204115\" onclick=\"return showCourse(this, 'GEO ENG 4115');\" title=\"GEO ENG 4115\">GEO ENG 4115</a>, or <a class=\"bubblelink code\" href=\"/search/?P=STAT%203113\" onclick=\"return showCourse(this, 'STAT 3113');\" title=\"STAT 3113\">STAT  3113</a>, or <a class=\"bubblelink code\" href=\"/search/?P=STAT%203117\" onclick=\"return showCourse(this, 'STAT 3117');\" title=\"STAT 3117\">STAT  3117</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204590\" onclick=\"return showCourse(this, 'PET ENG 4590');\" title=\"PET ENG 4590\">PET ENG 4590</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">General Education Elective<sup>2</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204720\" onclick=\"return showCourse(this, 'PET ENG 4720');\" title=\"PET ENG 4720\">PET ENG 4720</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204097\" onclick=\"return showCourse(this, 'PET ENG 4097');\" title=\"PET ENG 4097\">PET ENG 4097</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%205801\" onclick=\"return showCourse(this, 'PET ENG 5801');\" title=\"PET ENG 5801\">PET ENG 5801</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204531\" onclick=\"return showCourse(this, 'PET ENG 4531');\" title=\"PET ENG 4531\">PET ENG 4531</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">PET ENG Elective<sup>3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%205050\" onclick=\"return showCourse(this, 'PET ENG 5050');\" title=\"PET ENG 5050\">PET ENG 5050</a></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridtotal lastrow\"><td colspan=\"4\">Total Credits: 127</td></tr></table> <dl aria-label=\"Footnotes\" class=\"sc_footnotes\"><dt> <sup> 1 </sup> </dt><dd><p class=\"noindent\"><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201211\" onclick=\"return showCourse(this, 'MATH 1211');\" title=\"MATH 1211\">MATH 1211</a></span> may be substituted for <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201214\" onclick=\"return showCourse(this, 'MATH 1214');\" title=\"MATH 1214\">MATH 1214</a></span>.</p></dd><dt> <sup> 2 </sup> </dt><dd><p class=\"noindent\">General Education Requirement. General education electives must fulfill the Missouri S&amp;T general education requirements applicable to the student's catalog year.</p></dd><dt> <sup> 3 </sup> </dt><dd><p class=\"noindent\">Select Petroleum Engineering electives in accordance with interest and availability of courses. Courses include <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204211\" onclick=\"return showCourse(this, 'PET ENG 4211');\" title=\"PET ENG 4211\">PET ENG 4211</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204421\" onclick=\"return showCourse(this, 'PET ENG 4421');\" title=\"PET ENG 4421\">PET ENG 4421</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204431\" onclick=\"return showCourse(this, 'PET ENG 4431');\" title=\"PET ENG 4431\">PET ENG 4431</a></span>, and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204611\" onclick=\"return showCourse(this, 'PET ENG 4611');\" title=\"PET ENG 4611\">PET ENG 4611</a></span>.</p></dd><dt> <sup> 4 </sup> </dt><dd><p class=\"noindent\">Selection can be <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201972\" onclick=\"return showCourse(this, 'COMP SCI 1972');\" title=\"COMP SCI 1972\">COMP SCI 1972</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201982\" onclick=\"return showCourse(this, 'COMP SCI 1982');\" title=\"COMP SCI 1982\">COMP SCI 1982</a></span>, or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%202300\" onclick=\"return showCourse(this, 'COMP SCI 2300');\" title=\"COMP SCI 2300\">COMP SCI 2300</a></span>, or be replaced by formal online program course credits.</p></dd></dl> <p>The total number of credit hours required for a degree in Petroleum Engineering is 127.</p> <p>Petroleum Engineering students must earn the grade of “C” or better in all Petroleum Engineering courses to receive credit toward graduation.</p> <p>Note: All Petroleum Engineering students must take the Fundamentals of Engineering Examination prior to graduation. A passing grade on this examination is not required to earn a B.S. degree, however, it is the first step to becoming a registered professional engineer. This requirement is part of Missouri S&amp;T assessment process as described in Assessment Requirements found elsewhere in this catalog. Students must sign a release form giving the University access to their Fundamentals of Engineering Examination score.</p> <h2>Accelerated BS/MS Program Option for Petroleum Engineering Majors</h2> <p>Missouri S&amp;T Petroleum Engineering undergraduate students may opt to apply for an accelerated BS/MS program where a student can earn both the BS and MS degrees in Petroleum Engineering faster than if pursuing the degrees separately.  The degrees awarded will be a BS &amp; MS (non-thesis or thesis) in Petroleum Engineering.</p> <p>The benefits for undergraduate students admitted to the program are:</p> <ul> <li>Undergraduate and graduate courses may be chosen with greater flexibility,</li> <li>Up to nine hours of 5000-level or above Petroleum Engineering coursework may apply to both the BS and MS requirements,</li> <li>The classes taken for shared BS/MS credit may be taken at the lower undergraduate tuition rate,</li> <li>The GRE is not required for admission,</li> <li>Other graduate courses can be taken any time after entering the program as a dual enrolled student,</li> <li>Work on a thesis project may begin before the BS requirements are completed.</li> </ul> <p>To be eligible for the accelerated BS/MS Petroleum Engineering program, a Petroleum Engineering undergraduate must be at or beyond the junior level standing with a minimum of 48 credit hours. They must have successfully completed the Chemistry and Math requirements and have completed 21 credit hours of Petroleum Engineering courses at Missouri S&amp;T with at least a 3.2 GPA in the Petroleum Engineering courses. To be admitted, the student must complete the program application and non-thesis MS students must have the recommendation of a Petroleum Engineering faculty member, while thesis MS students must have the recommendation of a Petroleum Engineering faculty member who agrees to serve as the graduate thesis advisor.  All other MS degree requirements remain the same. The program may be combined with existing honors research, emphasis areas, and certificate options.</p> <p>The Accelerated Program application must be completed within one semester after shared-credit courses are completed. Courses taken for shared credit will be identified on the application form. These courses will also be listed on the student’s Graduate Form 1 to be submitted after the student enters the graduate program. The nine hours of shared-credit coursework, to be taken as undergraduate credit, must be approved by the academic advisor, and may not be undergraduate research, special problems, or transfer courses. An additional six credit hours of coursework for graduate credit (beyond the shared BS/MS credits) can be taken while in the undergraduate program by applying for dual undergraduate/graduate enrollment. Taking additional courses for graduate credit as a dual enrolled student will require formal application to the graduate program. Upon application, acceptance to the Petroleum Engineering MS degree from the Accelerated Program is automatic so long as the student remains in good standing (GPA above 3.0 and B’s or better in all graduate courses) within the program. To remain in the Accelerated Program, the student must meet Petroleum Engineering graduate student academic performance requirements and must maintain continuous enrollment at Missouri S&amp;T.  If the student exits the program before completion of the MS degree requirements, or fails to maintain continuous enrollment at Missouri S&amp;T, the shared-credit courses may not apply toward graduate requirements in the event of future readmission. </p> <p>It is the student’s responsibility to check on how dual-enrollment status and graduate coursework affects scholarships and other financial aid. As a graduate student, you <strong><u>are not</u></strong> eligible for Federal Pell Grants. You are still eligible for Federal Financial Aid. You may be eligible for fellowships and teaching/research assistantships. It is the International student’s responsibility to check with international affairs during completion of an accelerated BS/MS to ensure immigration status will be maintained throughout the program.</p>\n</div>"
+}

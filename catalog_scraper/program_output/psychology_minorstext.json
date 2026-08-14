@@ -1,0 +1,3159 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/psychology/#minorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/psychology/",
+        "fragment": "minorstext",
+        "page_slug": "psychology",
+        "page_title": "Psychological Science < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 4652,
+        "html_character_count": 23095,
+        "heading_count": 7,
+        "paragraph_count": 8,
+        "list_count": 0,
+        "table_count": 7,
+        "link_count": 67,
+        "superscript_count": 1,
+        "text_sha256": "41413a60e6f10c1f524e00f5e0b9f06abdab0baea9ec112de1992c20dc8d338e",
+        "html_sha256": "26d8a3a079e082e7413bb86d7396070aa084ebbdd6bc2292b02c133efad02ddf"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h4",
+            "text": "Psychology Minor",
+            "id": null
+        },
+        {
+            "number": 2,
+            "level": "h4",
+            "text": "Human Factors Psychology Minor",
+            "id": null
+        },
+        {
+            "number": 3,
+            "level": "h4",
+            "text": "Industrial/Organizational Psychology Minor",
+            "id": null
+        },
+        {
+            "number": 4,
+            "level": "h3",
+            "text": "Psychology for Health Care Minor",
+            "id": null
+        },
+        {
+            "number": 5,
+            "level": "h4",
+            "text": "Psychology of Leadership",
+            "id": null
+        },
+        {
+            "number": 6,
+            "level": "h4",
+            "text": "Cognitive Neuroscience Minor",
+            "id": null
+        },
+        {
+            "number": 7,
+            "level": "h4",
+            "text": "Multiculturalism & Diversity Minor",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "PSYCH 1101",
+            "href": "/search/?P=PSYCH%201101",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%201101",
+            "resolved_course": "PSYCH 1101"
+        },
+        {
+            "number": 2,
+            "text": "PSYCH 4710",
+            "href": "/search/?P=PSYCH%204710",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204710",
+            "resolved_course": "PSYCH 4710"
+        },
+        {
+            "number": 3,
+            "text": "ENG MGT 4330",
+            "href": "/search/?P=ENG%20MGT%204330",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%204330",
+            "resolved_course": "ENG MGT 4330"
+        },
+        {
+            "number": 4,
+            "text": "PSYCH 4400",
+            "href": "/search/?P=PSYCH%204400",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204400",
+            "resolved_course": "PSYCH 4400"
+        },
+        {
+            "number": 5,
+            "text": "PSYCH 4411",
+            "href": "/search/?P=PSYCH%204411",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204411",
+            "resolved_course": "PSYCH 4411"
+        },
+        {
+            "number": 6,
+            "text": "PSYCH 4720",
+            "href": "/search/?P=PSYCH%204720",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204720",
+            "resolved_course": "PSYCH 4720"
+        },
+        {
+            "number": 7,
+            "text": "PSYCH 4700",
+            "href": "/search/?P=PSYCH%204700",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204700",
+            "resolved_course": "PSYCH 4700"
+        },
+        {
+            "number": 8,
+            "text": "PSYCH 1101",
+            "href": "/search/?P=PSYCH%201101",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%201101",
+            "resolved_course": "PSYCH 1101"
+        },
+        {
+            "number": 9,
+            "text": "PSYCH 4700",
+            "href": "/search/?P=PSYCH%204700",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204700",
+            "resolved_course": "PSYCH 4700"
+        },
+        {
+            "number": 10,
+            "text": "PSYCH 4602",
+            "href": "/search/?P=PSYCH%204602",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204602",
+            "resolved_course": "PSYCH 4602"
+        },
+        {
+            "number": 11,
+            "text": "PSYCH 4600",
+            "href": "/search/?P=PSYCH%204600",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204600",
+            "resolved_course": "PSYCH 4600"
+        },
+        {
+            "number": 12,
+            "text": "PSYCH 4500",
+            "href": "/search/?P=PSYCH%204500",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204500",
+            "resolved_course": "PSYCH 4500"
+        },
+        {
+            "number": 13,
+            "text": "PSYCH 4601",
+            "href": "/search/?P=PSYCH%204601",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204601",
+            "resolved_course": "PSYCH 4601"
+        },
+        {
+            "number": 14,
+            "text": "PSYCH 4610",
+            "href": "/search/?P=PSYCH%204610",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204610",
+            "resolved_course": "PSYCH 4610"
+        },
+        {
+            "number": 15,
+            "text": "PSYCH 1101",
+            "href": "/search/?P=PSYCH%201101",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%201101",
+            "resolved_course": "PSYCH 1101"
+        },
+        {
+            "number": 16,
+            "text": "PSYCH 4590",
+            "href": "/search/?P=PSYCH%204590",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204590",
+            "resolved_course": "PSYCH 4590"
+        },
+        {
+            "number": 17,
+            "text": "PSYCH 4410",
+            "href": "/search/?P=PSYCH%204410",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204410",
+            "resolved_course": "PSYCH 4410"
+        },
+        {
+            "number": 18,
+            "text": "PSYCH 4501",
+            "href": "/search/?P=PSYCH%204501",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204501",
+            "resolved_course": "PSYCH 4501"
+        },
+        {
+            "number": 19,
+            "text": "PSYCH 3501",
+            "href": "/search/?P=PSYCH%203501",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%203501",
+            "resolved_course": "PSYCH 3501"
+        },
+        {
+            "number": 20,
+            "text": "PSYCH 4510",
+            "href": "/search/?P=PSYCH%204510",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204510",
+            "resolved_course": "PSYCH 4510"
+        },
+        {
+            "number": 21,
+            "text": "PSYCH 4990",
+            "href": "/search/?P=PSYCH%204990",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204990",
+            "resolved_course": "PSYCH 4990"
+        },
+        {
+            "number": 22,
+            "text": "PSYCH 1101",
+            "href": "/search/?P=PSYCH%201101",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%201101",
+            "resolved_course": "PSYCH 1101"
+        },
+        {
+            "number": 23,
+            "text": "PSYCH 4610",
+            "href": "/search/?P=PSYCH%204610",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204610",
+            "resolved_course": "PSYCH 4610"
+        },
+        {
+            "number": 24,
+            "text": "PSYCH 4600",
+            "href": "/search/?P=PSYCH%204600",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204600",
+            "resolved_course": "PSYCH 4600"
+        },
+        {
+            "number": 25,
+            "text": "PSYCH 4601",
+            "href": "/search/?P=PSYCH%204601",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204601",
+            "resolved_course": "PSYCH 4601"
+        },
+        {
+            "number": 26,
+            "text": "PSYCH 4602",
+            "href": "/search/?P=PSYCH%204602",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204602",
+            "resolved_course": "PSYCH 4602"
+        },
+        {
+            "number": 27,
+            "text": "PSYCH 4992",
+            "href": "/search/?P=PSYCH%204992",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204992",
+            "resolved_course": "PSYCH 4992"
+        },
+        {
+            "number": 28,
+            "text": "PSYCH 4993",
+            "href": "/search/?P=PSYCH%204993",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204993",
+            "resolved_course": "PSYCH 4993"
+        },
+        {
+            "number": 29,
+            "text": "PSYCH 1101",
+            "href": "/search/?P=PSYCH%201101",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%201101",
+            "resolved_course": "PSYCH 1101"
+        },
+        {
+            "number": 30,
+            "text": "PSYCH 4400",
+            "href": "/search/?P=PSYCH%204400",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204400",
+            "resolved_course": "PSYCH 4400"
+        },
+        {
+            "number": 31,
+            "text": "PSYCH 4410",
+            "href": "/search/?P=PSYCH%204410",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204410",
+            "resolved_course": "PSYCH 4410"
+        },
+        {
+            "number": 32,
+            "text": "PSYCH 4411",
+            "href": "/search/?P=PSYCH%204411",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204411",
+            "resolved_course": "PSYCH 4411"
+        },
+        {
+            "number": 33,
+            "text": "PSYCH 4501",
+            "href": "/search/?P=PSYCH%204501",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204501",
+            "resolved_course": "PSYCH 4501"
+        },
+        {
+            "number": 34,
+            "text": "PSYCH 3501",
+            "href": "/search/?P=PSYCH%203501",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%203501",
+            "resolved_course": "PSYCH 3501"
+        },
+        {
+            "number": 35,
+            "text": "PHILOS 4340",
+            "href": "/search/?P=PHILOS%204340",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%204340",
+            "resolved_course": "PHILOS 4340"
+        },
+        {
+            "number": 36,
+            "text": "RUSSIAN 4360",
+            "href": "/search/?P=RUSSIAN%204360",
+            "url": "https://catalog.mst.edu/search/?P=RUSSIAN%204360",
+            "resolved_course": "RUSSIAN 4360"
+        },
+        {
+            "number": 37,
+            "text": "SP&M S 3235",
+            "href": "/search/?P=SP%26M%20S%203235",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203235",
+            "resolved_course": "SP&M S 3235"
+        },
+        {
+            "number": 38,
+            "text": "ENGLISH 1231",
+            "href": "/search/?P=ENGLISH%201231",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201231",
+            "resolved_course": "ENGLISH 1231"
+        },
+        {
+            "number": 39,
+            "text": "HISTORY 3280",
+            "href": "/search/?P=HISTORY%203280",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%203280",
+            "resolved_course": "HISTORY 3280"
+        },
+        {
+            "number": 40,
+            "text": "HISTORY 3660",
+            "href": "/search/?P=HISTORY%203660",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%203660",
+            "resolved_course": "HISTORY 3660"
+        },
+        {
+            "number": 41,
+            "text": "HISTORY 3665",
+            "href": "/search/?P=HISTORY%203665",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%203665",
+            "resolved_course": "HISTORY 3665"
+        },
+        {
+            "number": 42,
+            "text": "POL SCI 2500",
+            "href": "/search/?P=POL%20SCI%202500",
+            "url": "https://catalog.mst.edu/search/?P=POL%20SCI%202500",
+            "resolved_course": "POL SCI 2500"
+        },
+        {
+            "number": 43,
+            "text": "POL SCI 4510",
+            "href": "/search/?P=POL%20SCI%204510",
+            "url": "https://catalog.mst.edu/search/?P=POL%20SCI%204510",
+            "resolved_course": "POL SCI 4510"
+        },
+        {
+            "number": 44,
+            "text": "PSYCH 4993",
+            "href": "/search/?P=PSYCH%204993",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204993",
+            "resolved_course": "PSYCH 4993"
+        },
+        {
+            "number": 45,
+            "text": "PSYCH 4992",
+            "href": "/search/?P=PSYCH%204992",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%204992",
+            "resolved_course": "PSYCH 4992"
+        },
+        {
+            "number": 46,
+            "text": "FRENCH 1180",
+            "href": "/search/?P=FRENCH%201180",
+            "url": "https://catalog.mst.edu/search/?P=FRENCH%201180",
+            "resolved_course": "FRENCH 1180"
+        },
+        {
+            "number": 47,
+            "text": "FRENCH 2110",
+            "href": "/search/?P=FRENCH%202110",
+            "url": "https://catalog.mst.edu/search/?P=FRENCH%202110",
+            "resolved_course": "FRENCH 2110"
+        },
+        {
+            "number": 48,
+            "text": "FRENCH 2170",
+            "href": "/search/?P=FRENCH%202170",
+            "url": "https://catalog.mst.edu/search/?P=FRENCH%202170",
+            "resolved_course": "FRENCH 2170"
+        },
+        {
+            "number": 49,
+            "text": "FRENCH 2180",
+            "href": "/search/?P=FRENCH%202180",
+            "url": "https://catalog.mst.edu/search/?P=FRENCH%202180",
+            "resolved_course": "FRENCH 2180"
+        },
+        {
+            "number": 50,
+            "text": "FRENCH 4311",
+            "href": "/search/?P=FRENCH%204311",
+            "url": "https://catalog.mst.edu/search/?P=FRENCH%204311",
+            "resolved_course": "FRENCH 4311"
+        },
+        {
+            "number": 51,
+            "text": "FRENCH 4320",
+            "href": "/search/?P=FRENCH%204320",
+            "url": "https://catalog.mst.edu/search/?P=FRENCH%204320",
+            "resolved_course": "FRENCH 4320"
+        },
+        {
+            "number": 52,
+            "text": "GERMAN 1180",
+            "href": "/search/?P=GERMAN%201180",
+            "url": "https://catalog.mst.edu/search/?P=GERMAN%201180",
+            "resolved_course": "GERMAN 1180"
+        },
+        {
+            "number": 53,
+            "text": "GERMAN 2110",
+            "href": "/search/?P=GERMAN%202110",
+            "url": "https://catalog.mst.edu/search/?P=GERMAN%202110",
+            "resolved_course": "GERMAN 2110"
+        },
+        {
+            "number": 54,
+            "text": "GERMAN 2170",
+            "href": "/search/?P=GERMAN%202170",
+            "url": "https://catalog.mst.edu/search/?P=GERMAN%202170",
+            "resolved_course": "GERMAN 2170"
+        },
+        {
+            "number": 55,
+            "text": "RUSSIAN 1180",
+            "href": "/search/?P=RUSSIAN%201180",
+            "url": "https://catalog.mst.edu/search/?P=RUSSIAN%201180",
+            "resolved_course": "RUSSIAN 1180"
+        },
+        {
+            "number": 56,
+            "text": "RUSSIAN 2110",
+            "href": "/search/?P=RUSSIAN%202110",
+            "url": "https://catalog.mst.edu/search/?P=RUSSIAN%202110",
+            "resolved_course": "RUSSIAN 2110"
+        },
+        {
+            "number": 57,
+            "text": "RUSSIAN 2170",
+            "href": "/search/?P=RUSSIAN%202170",
+            "url": "https://catalog.mst.edu/search/?P=RUSSIAN%202170",
+            "resolved_course": "RUSSIAN 2170"
+        },
+        {
+            "number": 58,
+            "text": "RUSSIAN 4320",
+            "href": "/search/?P=RUSSIAN%204320",
+            "url": "https://catalog.mst.edu/search/?P=RUSSIAN%204320",
+            "resolved_course": "RUSSIAN 4320"
+        },
+        {
+            "number": 59,
+            "text": "RUSSIAN 4360",
+            "href": "/search/?P=RUSSIAN%204360",
+            "url": "https://catalog.mst.edu/search/?P=RUSSIAN%204360",
+            "resolved_course": "RUSSIAN 4360"
+        },
+        {
+            "number": 60,
+            "text": "RUSSIAN 4370",
+            "href": "/search/?P=RUSSIAN%204370",
+            "url": "https://catalog.mst.edu/search/?P=RUSSIAN%204370",
+            "resolved_course": "RUSSIAN 4370"
+        },
+        {
+            "number": 61,
+            "text": "SPANISH 1180",
+            "href": "/search/?P=SPANISH%201180",
+            "url": "https://catalog.mst.edu/search/?P=SPANISH%201180",
+            "resolved_course": "SPANISH 1180"
+        },
+        {
+            "number": 62,
+            "text": "SPANISH 2110",
+            "href": "/search/?P=SPANISH%202110",
+            "url": "https://catalog.mst.edu/search/?P=SPANISH%202110",
+            "resolved_course": "SPANISH 2110"
+        },
+        {
+            "number": 63,
+            "text": "SPANISH 2160",
+            "href": "/search/?P=SPANISH%202160",
+            "url": "https://catalog.mst.edu/search/?P=SPANISH%202160",
+            "resolved_course": "SPANISH 2160"
+        },
+        {
+            "number": 64,
+            "text": "SPANISH 2170",
+            "href": "/search/?P=SPANISH%202170",
+            "url": "https://catalog.mst.edu/search/?P=SPANISH%202170",
+            "resolved_course": "SPANISH 2170"
+        },
+        {
+            "number": 65,
+            "text": "SPANISH 2180",
+            "href": "/search/?P=SPANISH%202180",
+            "url": "https://catalog.mst.edu/search/?P=SPANISH%202180",
+            "resolved_course": "SPANISH 2180"
+        },
+        {
+            "number": 66,
+            "text": "SPANISH 4311",
+            "href": "/search/?P=SPANISH%204311",
+            "url": "https://catalog.mst.edu/search/?P=SPANISH%204311",
+            "resolved_course": "SPANISH 4311"
+        },
+        {
+            "number": 67,
+            "text": "SPANISH 4302",
+            "href": "/search/?P=SPANISH%204302",
+            "url": "https://catalog.mst.edu/search/?P=SPANISH%204302",
+            "resolved_course": "SPANISH 4302"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "PSYCH 1101 General Psychology 3 PSYCH 4710 /​ ENG MGT 4330 Human Factors 3 PSYCH 4400 Cognitive Psychology 3 And two of the following courses: PSYCH 4411 Sensation and Perception 3 PSYCH 4720 Psychology of Social Technology 3 PSYCH 4700 Industrial Psychology 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 1101",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 1101",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%201101",
+                                    "resolved_course": "PSYCH 1101"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "General Psychology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4710 /​ ENG MGT 4330",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4710",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204710",
+                                    "resolved_course": "PSYCH 4710"
+                                },
+                                {
+                                    "text": "ENG MGT 4330",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%204330",
+                                    "resolved_course": "ENG MGT 4330"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Human Factors",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4400",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4400",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204400",
+                                    "resolved_course": "PSYCH 4400"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Cognitive Psychology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "And two of the following courses:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4411",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4411",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204411",
+                                    "resolved_course": "PSYCH 4411"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Sensation and Perception",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4720",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4720",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204720",
+                                    "resolved_course": "PSYCH 4720"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Psychology of Social Technology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4700",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4700",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204700",
+                                    "resolved_course": "PSYCH 4700"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Industrial Psychology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%201101\" onclick=\"return showCourse(this, 'PSYCH 1101');\" title=\"PSYCH 1101\">PSYCH 1101</a></td><td>General Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204710\" onclick=\"return showCourse(this, 'PSYCH 4710');\" title=\"PSYCH 4710\">PSYCH 4710</a>/​<a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%204330\" onclick=\"return showCourse(this, 'ENG MGT 4330');\" title=\"ENG MGT 4330\">ENG MGT 4330</a></td><td>Human Factors</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204400\" onclick=\"return showCourse(this, 'PSYCH 4400');\" title=\"PSYCH 4400\">PSYCH 4400</a></td><td>Cognitive Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">And two of the following courses:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204411\" onclick=\"return showCourse(this, 'PSYCH 4411');\" title=\"PSYCH 4411\">PSYCH 4411</a></td><td>Sensation and Perception</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204720\" onclick=\"return showCourse(this, 'PSYCH 4720');\" title=\"PSYCH 4720\">PSYCH 4720</a></td><td>Psychology of Social Technology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204700\" onclick=\"return showCourse(this, 'PSYCH 4700');\" title=\"PSYCH 4700\">PSYCH 4700</a></td><td>Industrial Psychology</td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        },
+        {
+            "table_number": 2,
+            "text": "PSYCH 1101 General Psychology 3 PSYCH 4700 Industrial Psychology 3 PSYCH 4602 Organizational Psychology 3 and 2 of the following PSYCH 4600 Social Psychology 3 PSYCH 4500 Personality Theory 3 PSYCH 4601 Group Dynamics 3 PSYCH 4610 Psychology of Leadership in Organizations 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 1101",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 1101",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%201101",
+                                    "resolved_course": "PSYCH 1101"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "General Psychology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4700",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4700",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204700",
+                                    "resolved_course": "PSYCH 4700"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Industrial Psychology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4602",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4602",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204602",
+                                    "resolved_course": "PSYCH 4602"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Organizational Psychology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "and 2 of the following",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4600",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4600",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204600",
+                                    "resolved_course": "PSYCH 4600"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Social Psychology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4500",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4500",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204500",
+                                    "resolved_course": "PSYCH 4500"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Personality Theory",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4601",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4601",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204601",
+                                    "resolved_course": "PSYCH 4601"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Group Dynamics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4610",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4610",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204610",
+                                    "resolved_course": "PSYCH 4610"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Psychology of Leadership in Organizations",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%201101\" onclick=\"return showCourse(this, 'PSYCH 1101');\" title=\"PSYCH 1101\">PSYCH 1101</a></td><td>General Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204700\" onclick=\"return showCourse(this, 'PSYCH 4700');\" title=\"PSYCH 4700\">PSYCH 4700</a></td><td>Industrial Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204602\" onclick=\"return showCourse(this, 'PSYCH 4602');\" title=\"PSYCH 4602\">PSYCH 4602</a></td><td>Organizational Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">and 2 of the following</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204600\" onclick=\"return showCourse(this, 'PSYCH 4600');\" title=\"PSYCH 4600\">PSYCH 4600</a></td><td>Social Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204500\" onclick=\"return showCourse(this, 'PSYCH 4500');\" title=\"PSYCH 4500\">PSYCH 4500</a></td><td>Personality Theory</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204601\" onclick=\"return showCourse(this, 'PSYCH 4601');\" title=\"PSYCH 4601\">PSYCH 4601</a></td><td>Group Dynamics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204610\" onclick=\"return showCourse(this, 'PSYCH 4610');\" title=\"PSYCH 4610\">PSYCH 4610</a></td><td>Psychology of Leadership in Organizations</td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        },
+        {
+            "table_number": 3,
+            "text": "Required Courses: PSYCH 1101 General Psychology 3 PSYCH 4590 Health Psychology 3 Choose 3 of the Following Courses: PSYCH 4410 Neuroscience 3 PSYCH 4501 Abnormal Psychology 3 PSYCH 3501 Drugs and Behavior 3 PSYCH 4510 Clinical Psychology 3 PSYCH 4990 Internship 0-6",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Required Courses:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 1101",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 1101",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%201101",
+                                    "resolved_course": "PSYCH 1101"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "General Psychology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4590",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4590",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204590",
+                                    "resolved_course": "PSYCH 4590"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Health Psychology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Choose 3 of the Following Courses:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4410",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4410",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204410",
+                                    "resolved_course": "PSYCH 4410"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Neuroscience",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4501",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4501",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204501",
+                                    "resolved_course": "PSYCH 4501"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Abnormal Psychology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 3501",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 3501",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%203501",
+                                    "resolved_course": "PSYCH 3501"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Drugs and Behavior",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4510",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4510",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204510",
+                                    "resolved_course": "PSYCH 4510"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Clinical Psychology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4990",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4990",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204990",
+                                    "resolved_course": "PSYCH 4990"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Internship",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "0-6",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td colspan=\"2\"><span class=\"courselistcomment\">Required Courses: </span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%201101\" onclick=\"return showCourse(this, 'PSYCH 1101');\" title=\"PSYCH 1101\">PSYCH 1101</a></td><td>General Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204590\" onclick=\"return showCourse(this, 'PSYCH 4590');\" title=\"PSYCH 4590\">PSYCH 4590</a></td><td>Health Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">Choose 3 of the Following Courses:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204410\" onclick=\"return showCourse(this, 'PSYCH 4410');\" title=\"PSYCH 4410\">PSYCH 4410</a></td><td>Neuroscience</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204501\" onclick=\"return showCourse(this, 'PSYCH 4501');\" title=\"PSYCH 4501\">PSYCH 4501</a></td><td>Abnormal Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%203501\" onclick=\"return showCourse(this, 'PSYCH 3501');\" title=\"PSYCH 3501\">PSYCH 3501</a></td><td>Drugs and Behavior</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204510\" onclick=\"return showCourse(this, 'PSYCH 4510');\" title=\"PSYCH 4510\">PSYCH 4510</a></td><td>Clinical Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204990\" onclick=\"return showCourse(this, 'PSYCH 4990');\" title=\"PSYCH 4990\">PSYCH 4990</a></td><td>Internship</td><td class=\"hourscol\">0-6</td></tr> </tbody></table>"
+        },
+        {
+            "table_number": 4,
+            "text": "PSYCH 1101 General Psychology 3 PSYCH 4610 Psychology of Leadership in Organizations 3 and 3 of the following 5 courses are required: PSYCH 4600 Social Psychology 3 PSYCH 4601 Group Dynamics 3 PSYCH 4602 Organizational Psychology 3 PSYCH 4992 Cross-Cultural Psychology 3 PSYCH 4993 Psychology of Gender 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 1101",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 1101",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%201101",
+                                    "resolved_course": "PSYCH 1101"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "General Psychology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4610",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4610",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204610",
+                                    "resolved_course": "PSYCH 4610"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Psychology of Leadership in Organizations",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "and 3 of the following 5 courses are required:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4600",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4600",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204600",
+                                    "resolved_course": "PSYCH 4600"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Social Psychology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4601",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4601",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204601",
+                                    "resolved_course": "PSYCH 4601"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Group Dynamics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4602",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4602",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204602",
+                                    "resolved_course": "PSYCH 4602"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Organizational Psychology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4992",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4992",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204992",
+                                    "resolved_course": "PSYCH 4992"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Cross-Cultural Psychology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4993",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4993",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204993",
+                                    "resolved_course": "PSYCH 4993"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Psychology of Gender",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%201101\" onclick=\"return showCourse(this, 'PSYCH 1101');\" title=\"PSYCH 1101\">PSYCH 1101</a></td><td>General Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204610\" onclick=\"return showCourse(this, 'PSYCH 4610');\" title=\"PSYCH 4610\">PSYCH 4610</a></td><td>Psychology of Leadership in Organizations</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td colspan=\"2\"><span class=\"courselistcomment\">and 3 of the following 5 courses are required:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204600\" onclick=\"return showCourse(this, 'PSYCH 4600');\" title=\"PSYCH 4600\">PSYCH 4600</a></td><td>Social Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204601\" onclick=\"return showCourse(this, 'PSYCH 4601');\" title=\"PSYCH 4601\">PSYCH 4601</a></td><td>Group Dynamics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204602\" onclick=\"return showCourse(this, 'PSYCH 4602');\" title=\"PSYCH 4602\">PSYCH 4602</a></td><td>Organizational Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204992\" onclick=\"return showCourse(this, 'PSYCH 4992');\" title=\"PSYCH 4992\">PSYCH 4992</a></td><td>Cross-Cultural Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204993\" onclick=\"return showCourse(this, 'PSYCH 4993');\" title=\"PSYCH 4993\">PSYCH 4993</a></td><td>Psychology of Gender</td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        },
+        {
+            "table_number": 5,
+            "text": "PSYCH 1101 General Psychology 3 PSYCH 4400 Cognitive Psychology 3 PSYCH 4410 Neuroscience 3 and two of the following courses: PSYCH 4411 Sensation and Perception 3 PSYCH 4501 Abnormal Psychology 3 PSYCH 3501 Drugs and Behavior 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 1101",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 1101",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%201101",
+                                    "resolved_course": "PSYCH 1101"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "General Psychology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4400",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4400",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204400",
+                                    "resolved_course": "PSYCH 4400"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Cognitive Psychology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4410",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4410",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204410",
+                                    "resolved_course": "PSYCH 4410"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Neuroscience",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "and two of the following courses:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4411",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4411",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204411",
+                                    "resolved_course": "PSYCH 4411"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Sensation and Perception",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4501",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4501",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204501",
+                                    "resolved_course": "PSYCH 4501"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Abnormal Psychology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 3501",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 3501",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%203501",
+                                    "resolved_course": "PSYCH 3501"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Drugs and Behavior",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%201101\" onclick=\"return showCourse(this, 'PSYCH 1101');\" title=\"PSYCH 1101\">PSYCH 1101</a></td><td>General Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204400\" onclick=\"return showCourse(this, 'PSYCH 4400');\" title=\"PSYCH 4400\">PSYCH 4400</a></td><td>Cognitive Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204410\" onclick=\"return showCourse(this, 'PSYCH 4410');\" title=\"PSYCH 4410\">PSYCH 4410</a></td><td>Neuroscience</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">and two of the following courses:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204411\" onclick=\"return showCourse(this, 'PSYCH 4411');\" title=\"PSYCH 4411\">PSYCH 4411</a></td><td>Sensation and Perception</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204501\" onclick=\"return showCourse(this, 'PSYCH 4501');\" title=\"PSYCH 4501\">PSYCH 4501</a></td><td>Abnormal Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%203501\" onclick=\"return showCourse(this, 'PSYCH 3501');\" title=\"PSYCH 3501\">PSYCH 3501</a></td><td>Drugs and Behavior</td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        },
+        {
+            "table_number": 6,
+            "text": "Arts, Languages & Philosophy: One language course at the third semester or above in a foreign language (German, Spanish, French, or Russian) * PHILOS 4340 From Activism to Zoos: Issues in Social Ethics RUSSIAN 4360 Russian Civilization SP&M S 3235 Intercultural Communication English and Technical Communication: ENGLISH 1231 World Literature I: From The Beginnings To The Renaissance History and Political Science: HISTORY 3280 European Migrations and Nationalism Formation HISTORY 3660 Modern East Asia HISTORY 3665 History of Japan POL SCI 2500 International Relations POL SCI 4510 The Politics of the Global South Psychology: PSYCH 4993 Psychology of Gender PSYCH 4992 Cross-Cultural Psychology",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Arts, Languages & Philosophy:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "One language course at the third semester or above in a foreign language (German, Spanish, French, or Russian) *",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHILOS 4340",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHILOS 4340",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%204340",
+                                    "resolved_course": "PHILOS 4340"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "From Activism to Zoos: Issues in Social Ethics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "RUSSIAN 4360",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "RUSSIAN 4360",
+                                    "url": "https://catalog.mst.edu/search/?P=RUSSIAN%204360",
+                                    "resolved_course": "RUSSIAN 4360"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Russian Civilization",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 3235",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 3235",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203235",
+                                    "resolved_course": "SP&M S 3235"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Intercultural Communication",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "English and Technical Communication:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENGLISH 1231",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENGLISH 1231",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%201231",
+                                    "resolved_course": "ENGLISH 1231"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "World Literature I: From The Beginnings To The Renaissance",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "History and Political Science:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "HISTORY 3280",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "HISTORY 3280",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%203280",
+                                    "resolved_course": "HISTORY 3280"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "European Migrations and Nationalism Formation",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 10,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "HISTORY 3660",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "HISTORY 3660",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%203660",
+                                    "resolved_course": "HISTORY 3660"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Modern East Asia",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 11,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "HISTORY 3665",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "HISTORY 3665",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%203665",
+                                    "resolved_course": "HISTORY 3665"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "History of Japan",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 12,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "POL SCI 2500",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "POL SCI 2500",
+                                    "url": "https://catalog.mst.edu/search/?P=POL%20SCI%202500",
+                                    "resolved_course": "POL SCI 2500"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "International Relations",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 13,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "POL SCI 4510",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "POL SCI 4510",
+                                    "url": "https://catalog.mst.edu/search/?P=POL%20SCI%204510",
+                                    "resolved_course": "POL SCI 4510"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "The Politics of the Global South",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 14,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Psychology:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 15,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4993",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4993",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204993",
+                                    "resolved_course": "PSYCH 4993"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Psychology of Gender",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 16,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 4992",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 4992",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%204992",
+                                    "resolved_course": "PSYCH 4992"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Cross-Cultural Psychology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even areaheader firstrow\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Arts, Languages &amp; Philosophy:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td colspan=\"2\"><div style=\"margin-left: 20px;\"><span class=\"courselistcomment commentindent\">One language course at the third semester or above in a foreign language (German, Spanish, French, or Russian)</span> <sup>*</sup></div></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204340\" onclick=\"return showCourse(this, 'PHILOS 4340');\" title=\"PHILOS 4340\">PHILOS 4340</a></div></td><td>From Activism to Zoos: Issues in Social Ethics</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=RUSSIAN%204360\" onclick=\"return showCourse(this, 'RUSSIAN 4360');\" title=\"RUSSIAN 4360\">RUSSIAN 4360</a></div></td><td>Russian Civilization</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203235\" onclick=\"return showCourse(this, 'SP&amp;M S 3235');\" title=\"SP&amp;M S 3235\">SP&amp;M S 3235</a></div></td><td>Intercultural Communication</td><td class=\"hourscol\"></td></tr> <tr class=\"odd areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">English and Technical Communication:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201231\" onclick=\"return showCourse(this, 'ENGLISH 1231');\" title=\"ENGLISH 1231\">ENGLISH 1231</a></div></td><td>World Literature I: From The Beginnings To The Renaissance</td><td class=\"hourscol\"></td></tr> <tr class=\"odd areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">History and Political Science:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%203280\" onclick=\"return showCourse(this, 'HISTORY 3280');\" title=\"HISTORY 3280\">HISTORY 3280</a></div></td><td>European Migrations and Nationalism Formation</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%203660\" onclick=\"return showCourse(this, 'HISTORY 3660');\" title=\"HISTORY 3660\">HISTORY 3660</a></div></td><td>Modern East Asia</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%203665\" onclick=\"return showCourse(this, 'HISTORY 3665');\" title=\"HISTORY 3665\">HISTORY 3665</a></div></td><td>History of Japan</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%202500\" onclick=\"return showCourse(this, 'POL SCI 2500');\" title=\"POL SCI 2500\">POL SCI 2500</a></div></td><td>International Relations</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%204510\" onclick=\"return showCourse(this, 'POL SCI 4510');\" title=\"POL SCI 4510\">POL SCI 4510</a></div></td><td>The Politics of the Global South</td><td class=\"hourscol\"></td></tr> <tr class=\"odd areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Psychology:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204993\" onclick=\"return showCourse(this, 'PSYCH 4993');\" title=\"PSYCH 4993\">PSYCH 4993</a></div></td><td>Psychology of Gender</td><td class=\"hourscol\"></td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204992\" onclick=\"return showCourse(this, 'PSYCH 4992');\" title=\"PSYCH 4992\">PSYCH 4992</a></div></td><td>Cross-Cultural Psychology</td><td class=\"hourscol\"></td></tr> </tbody></table>"
+        },
+        {
+            "table_number": 7,
+            "text": "* Language Courses at the 3rd Semester or above that qualify for the minor: FRENCH 1180 Intermediate French FRENCH 2110 Basic French Conversation FRENCH 2170 Masterpieces Of French Literature FRENCH 2180 Basic French Composition FRENCH 4311 Advanced French Conversation FRENCH 4320 French and Francophone Cinema GERMAN 1180 Classical And Modern German Readings GERMAN 2110 Basic German Conversation GERMAN 2170 Masterpieces Of German Literature RUSSIAN 1180 Readings In Science And Literature RUSSIAN 2110 Basic Russian Conversation RUSSIAN 2170 Masterpieces Of Russian Literature RUSSIAN 4320 Russian Phonetics and Intonation RUSSIAN 4360 Russian Civilization RUSSIAN 4370 Survey Of Russian Literature I (Early Period) SPANISH 1180 Intermediate Spanish SPANISH 2110 Basic Spanish Conversation SPANISH 2160 Hispanic Culture SPANISH 2170 Masterpieces Of Hispanic Literature SPANISH 2180 Intermediate Spanish Composition SPANISH 4311 Advanced Spanish Conversation SPANISH 4302 Phonetics and Phonology of Spanish",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "* Language Courses at the 3rd Semester or above that qualify for the minor:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "FRENCH 1180",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "FRENCH 1180",
+                                    "url": "https://catalog.mst.edu/search/?P=FRENCH%201180",
+                                    "resolved_course": "FRENCH 1180"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Intermediate French",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "FRENCH 2110",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "FRENCH 2110",
+                                    "url": "https://catalog.mst.edu/search/?P=FRENCH%202110",
+                                    "resolved_course": "FRENCH 2110"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Basic French Conversation",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "FRENCH 2170",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "FRENCH 2170",
+                                    "url": "https://catalog.mst.edu/search/?P=FRENCH%202170",
+                                    "resolved_course": "FRENCH 2170"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Masterpieces Of French Literature",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "FRENCH 2180",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "FRENCH 2180",
+                                    "url": "https://catalog.mst.edu/search/?P=FRENCH%202180",
+                                    "resolved_course": "FRENCH 2180"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Basic French Composition",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "FRENCH 4311",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "FRENCH 4311",
+                                    "url": "https://catalog.mst.edu/search/?P=FRENCH%204311",
+                                    "resolved_course": "FRENCH 4311"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Advanced French Conversation",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "FRENCH 4320",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "FRENCH 4320",
+                                    "url": "https://catalog.mst.edu/search/?P=FRENCH%204320",
+                                    "resolved_course": "FRENCH 4320"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "French and Francophone Cinema",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "GERMAN 1180",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "GERMAN 1180",
+                                    "url": "https://catalog.mst.edu/search/?P=GERMAN%201180",
+                                    "resolved_course": "GERMAN 1180"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Classical And Modern German Readings",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "GERMAN 2110",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "GERMAN 2110",
+                                    "url": "https://catalog.mst.edu/search/?P=GERMAN%202110",
+                                    "resolved_course": "GERMAN 2110"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Basic German Conversation",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 10,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "GERMAN 2170",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "GERMAN 2170",
+                                    "url": "https://catalog.mst.edu/search/?P=GERMAN%202170",
+                                    "resolved_course": "GERMAN 2170"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Masterpieces Of German Literature",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 11,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "RUSSIAN 1180",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "RUSSIAN 1180",
+                                    "url": "https://catalog.mst.edu/search/?P=RUSSIAN%201180",
+                                    "resolved_course": "RUSSIAN 1180"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Readings In Science And Literature",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 12,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "RUSSIAN 2110",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "RUSSIAN 2110",
+                                    "url": "https://catalog.mst.edu/search/?P=RUSSIAN%202110",
+                                    "resolved_course": "RUSSIAN 2110"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Basic Russian Conversation",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 13,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "RUSSIAN 2170",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "RUSSIAN 2170",
+                                    "url": "https://catalog.mst.edu/search/?P=RUSSIAN%202170",
+                                    "resolved_course": "RUSSIAN 2170"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Masterpieces Of Russian Literature",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 14,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "RUSSIAN 4320",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "RUSSIAN 4320",
+                                    "url": "https://catalog.mst.edu/search/?P=RUSSIAN%204320",
+                                    "resolved_course": "RUSSIAN 4320"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Russian Phonetics and Intonation",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 15,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "RUSSIAN 4360",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "RUSSIAN 4360",
+                                    "url": "https://catalog.mst.edu/search/?P=RUSSIAN%204360",
+                                    "resolved_course": "RUSSIAN 4360"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Russian Civilization",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 16,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "RUSSIAN 4370",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "RUSSIAN 4370",
+                                    "url": "https://catalog.mst.edu/search/?P=RUSSIAN%204370",
+                                    "resolved_course": "RUSSIAN 4370"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Survey Of Russian Literature I (Early Period)",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 17,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SPANISH 1180",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SPANISH 1180",
+                                    "url": "https://catalog.mst.edu/search/?P=SPANISH%201180",
+                                    "resolved_course": "SPANISH 1180"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Intermediate Spanish",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 18,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SPANISH 2110",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SPANISH 2110",
+                                    "url": "https://catalog.mst.edu/search/?P=SPANISH%202110",
+                                    "resolved_course": "SPANISH 2110"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Basic Spanish Conversation",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 19,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SPANISH 2160",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SPANISH 2160",
+                                    "url": "https://catalog.mst.edu/search/?P=SPANISH%202160",
+                                    "resolved_course": "SPANISH 2160"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Hispanic Culture",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 20,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SPANISH 2170",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SPANISH 2170",
+                                    "url": "https://catalog.mst.edu/search/?P=SPANISH%202170",
+                                    "resolved_course": "SPANISH 2170"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Masterpieces Of Hispanic Literature",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 21,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SPANISH 2180",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SPANISH 2180",
+                                    "url": "https://catalog.mst.edu/search/?P=SPANISH%202180",
+                                    "resolved_course": "SPANISH 2180"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Intermediate Spanish Composition",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 22,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SPANISH 4311",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SPANISH 4311",
+                                    "url": "https://catalog.mst.edu/search/?P=SPANISH%204311",
+                                    "resolved_course": "SPANISH 4311"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Advanced Spanish Conversation",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 23,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SPANISH 4302",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SPANISH 4302",
+                                    "url": "https://catalog.mst.edu/search/?P=SPANISH%204302",
+                                    "resolved_course": "SPANISH 4302"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Phonetics and Phonology of Spanish",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td colspan=\"2\"><span class=\"courselistcomment\">* Language Courses at the 3rd Semester or above that qualify for the minor:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=FRENCH%201180\" onclick=\"return showCourse(this, 'FRENCH 1180');\" title=\"FRENCH 1180\">FRENCH 1180</a></div></td><td>Intermediate French</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=FRENCH%202110\" onclick=\"return showCourse(this, 'FRENCH 2110');\" title=\"FRENCH 2110\">FRENCH 2110</a></div></td><td>Basic French Conversation</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=FRENCH%202170\" onclick=\"return showCourse(this, 'FRENCH 2170');\" title=\"FRENCH 2170\">FRENCH 2170</a></div></td><td>Masterpieces Of French Literature</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=FRENCH%202180\" onclick=\"return showCourse(this, 'FRENCH 2180');\" title=\"FRENCH 2180\">FRENCH 2180</a></div></td><td>Basic French Composition</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=FRENCH%204311\" onclick=\"return showCourse(this, 'FRENCH 4311');\" title=\"FRENCH 4311\">FRENCH 4311</a></div></td><td>Advanced French Conversation</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=FRENCH%204320\" onclick=\"return showCourse(this, 'FRENCH 4320');\" title=\"FRENCH 4320\">FRENCH 4320</a></div></td><td>French and Francophone Cinema</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=GERMAN%201180\" onclick=\"return showCourse(this, 'GERMAN 1180');\" title=\"GERMAN 1180\">GERMAN 1180</a></div></td><td>Classical And Modern German Readings</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=GERMAN%202110\" onclick=\"return showCourse(this, 'GERMAN 2110');\" title=\"GERMAN 2110\">GERMAN 2110</a></div></td><td>Basic German Conversation</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=GERMAN%202170\" onclick=\"return showCourse(this, 'GERMAN 2170');\" title=\"GERMAN 2170\">GERMAN 2170</a></div></td><td>Masterpieces Of German Literature</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=RUSSIAN%201180\" onclick=\"return showCourse(this, 'RUSSIAN 1180');\" title=\"RUSSIAN 1180\">RUSSIAN 1180</a></div></td><td>Readings In Science And Literature</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=RUSSIAN%202110\" onclick=\"return showCourse(this, 'RUSSIAN 2110');\" title=\"RUSSIAN 2110\">RUSSIAN 2110</a></div></td><td>Basic Russian Conversation</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=RUSSIAN%202170\" onclick=\"return showCourse(this, 'RUSSIAN 2170');\" title=\"RUSSIAN 2170\">RUSSIAN 2170</a></div></td><td>Masterpieces Of Russian Literature</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=RUSSIAN%204320\" onclick=\"return showCourse(this, 'RUSSIAN 4320');\" title=\"RUSSIAN 4320\">RUSSIAN 4320</a></div></td><td>Russian Phonetics and Intonation</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=RUSSIAN%204360\" onclick=\"return showCourse(this, 'RUSSIAN 4360');\" title=\"RUSSIAN 4360\">RUSSIAN 4360</a></div></td><td>Russian Civilization</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=RUSSIAN%204370\" onclick=\"return showCourse(this, 'RUSSIAN 4370');\" title=\"RUSSIAN 4370\">RUSSIAN 4370</a></div></td><td>Survey Of Russian Literature I (Early Period)</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SPANISH%201180\" onclick=\"return showCourse(this, 'SPANISH 1180');\" title=\"SPANISH 1180\">SPANISH 1180</a></div></td><td>Intermediate Spanish</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SPANISH%202110\" onclick=\"return showCourse(this, 'SPANISH 2110');\" title=\"SPANISH 2110\">SPANISH 2110</a></div></td><td>Basic Spanish Conversation</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SPANISH%202160\" onclick=\"return showCourse(this, 'SPANISH 2160');\" title=\"SPANISH 2160\">SPANISH 2160</a></div></td><td>Hispanic Culture</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SPANISH%202170\" onclick=\"return showCourse(this, 'SPANISH 2170');\" title=\"SPANISH 2170\">SPANISH 2170</a></div></td><td>Masterpieces Of Hispanic Literature</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SPANISH%202180\" onclick=\"return showCourse(this, 'SPANISH 2180');\" title=\"SPANISH 2180\">SPANISH 2180</a></div></td><td>Intermediate Spanish Composition</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SPANISH%204311\" onclick=\"return showCourse(this, 'SPANISH 4311');\" title=\"SPANISH 4311\">SPANISH 4311</a></div></td><td>Advanced Spanish Conversation</td><td class=\"hourscol\"></td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SPANISH%204302\" onclick=\"return showCourse(this, 'SPANISH 4302');\" title=\"SPANISH 4302\">SPANISH 4302</a></div></td><td>Phonetics and Phonology of Spanish</td><td class=\"hourscol\"></td></tr> </tbody></table>"
+        }
+    ],
+    "section_text": "The department of psychological science offers seven minors: a general psychology minor, industrial-organizational psychology, psychology for health care, human factors psychology, psychology of leadership, cognitive neuroscience, and a minor in multiculturalism and diversity. Nine (9) hours of work in any of these minors in psychology must be completed in residence at Missouri S&T. A student may only receive one of the seven minors. Psychology Minor General psychology minor requires 15 hours of courses in psychology. At least nine of these hours must be at the 3000-level or above. Human Factors Psychology Minor PSYCH 1101 General Psychology 3 PSYCH 4710 /​ ENG MGT 4330 Human Factors 3 PSYCH 4400 Cognitive Psychology 3 And two of the following courses: PSYCH 4411 Sensation and Perception 3 PSYCH 4720 Psychology of Social Technology 3 PSYCH 4700 Industrial Psychology 3 Industrial/Organizational Psychology Minor Requirements include: PSYCH 1101 General Psychology 3 PSYCH 4700 Industrial Psychology 3 PSYCH 4602 Organizational Psychology 3 and 2 of the following PSYCH 4600 Social Psychology 3 PSYCH 4500 Personality Theory 3 PSYCH 4601 Group Dynamics 3 PSYCH 4610 Psychology of Leadership in Organizations 3 Psychology for Health Care Minor Minor requires a minimum of 15 hours. Required Courses: PSYCH 1101 General Psychology 3 PSYCH 4590 Health Psychology 3 Choose 3 of the Following Courses: PSYCH 4410 Neuroscience 3 PSYCH 4501 Abnormal Psychology 3 PSYCH 3501 Drugs and Behavior 3 PSYCH 4510 Clinical Psychology 3 PSYCH 4990 Internship 0-6 Psychology of Leadership Requirements include the following: PSYCH 1101 General Psychology 3 PSYCH 4610 Psychology of Leadership in Organizations 3 and 3 of the following 5 courses are required: PSYCH 4600 Social Psychology 3 PSYCH 4601 Group Dynamics 3 PSYCH 4602 Organizational Psychology 3 PSYCH 4992 Cross-Cultural Psychology 3 PSYCH 4993 Psychology of Gender 3 Cognitive Neuroscience Minor Requirements include: PSYCH 1101 General Psychology 3 PSYCH 4400 Cognitive Psychology 3 PSYCH 4410 Neuroscience 3 and two of the following courses: PSYCH 4411 Sensation and Perception 3 PSYCH 4501 Abnormal Psychology 3 PSYCH 3501 Drugs and Behavior 3 Multiculturalism & Diversity Minor The Multiculturalism and Diversity Minor prepares students to function more effectively in a global society as well as enhances Missouri S&T graduates' employment options by providing knowledge, skills, and strategies for appreciating and understanding diverse cultural practices. The minor requires 15 hours in a minimum of 3 of 4 humanities and social sciences (HSS) departments: the departments of arts, languages and philosophy; English and technical communication; history and political science; and psychological science. The academic home for this minor will be the arts, languages and philosophy department. Courses offered by these departments that can be included in the minor are listed below. Arts, Languages & Philosophy: One language course at the third semester or above in a foreign language (German, Spanish, French, or Russian) * PHILOS 4340 From Activism to Zoos: Issues in Social Ethics RUSSIAN 4360 Russian Civilization SP&M S 3235 Intercultural Communication English and Technical Communication: ENGLISH 1231 World Literature I: From The Beginnings To The Renaissance History and Political Science: HISTORY 3280 European Migrations and Nationalism Formation HISTORY 3660 Modern East Asia HISTORY 3665 History of Japan POL SCI 2500 International Relations POL SCI 4510 The Politics of the Global South Psychology: PSYCH 4993 Psychology of Gender PSYCH 4992 Cross-Cultural Psychology * Language Courses at the 3rd Semester or above that qualify for the minor: FRENCH 1180 Intermediate French FRENCH 2110 Basic French Conversation FRENCH 2170 Masterpieces Of French Literature FRENCH 2180 Basic French Composition FRENCH 4311 Advanced French Conversation FRENCH 4320 French and Francophone Cinema GERMAN 1180 Classical And Modern German Readings GERMAN 2110 Basic German Conversation GERMAN 2170 Masterpieces Of German Literature RUSSIAN 1180 Readings In Science And Literature RUSSIAN 2110 Basic Russian Conversation RUSSIAN 2170 Masterpieces Of Russian Literature RUSSIAN 4320 Russian Phonetics and Intonation RUSSIAN 4360 Russian Civilization RUSSIAN 4370 Survey Of Russian Literature I (Early Period) SPANISH 1180 Intermediate Spanish SPANISH 2110 Basic Spanish Conversation SPANISH 2160 Hispanic Culture SPANISH 2170 Masterpieces Of Hispanic Literature SPANISH 2180 Intermediate Spanish Composition SPANISH 4311 Advanced Spanish Conversation SPANISH 4302 Phonetics and Phonology of Spanish",
+    "section_html": "<div class=\"tab_content\" id=\"minorstextcontainer\">\n<a name=\"minorstext\"></a><p>The department of psychological science offers seven minors: a general psychology minor, industrial-organizational psychology, psychology for health care, human factors psychology, psychology of leadership, cognitive neuroscience, and a minor in multiculturalism and diversity. Nine (9) hours of work in any of these minors in psychology must be completed in residence at Missouri S&amp;T. A student may only receive one of the seven minors.</p>\n<h4>Psychology Minor</h4> <p>General psychology minor requires 15 hours of courses in psychology. At least nine of these hours must be at the 3000-level or above.</p>\n<h4>Human Factors Psychology Minor</h4> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%201101\" onclick=\"return showCourse(this, 'PSYCH 1101');\" title=\"PSYCH 1101\">PSYCH 1101</a></td><td>General Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204710\" onclick=\"return showCourse(this, 'PSYCH 4710');\" title=\"PSYCH 4710\">PSYCH 4710</a>/​<a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%204330\" onclick=\"return showCourse(this, 'ENG MGT 4330');\" title=\"ENG MGT 4330\">ENG MGT 4330</a></td><td>Human Factors</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204400\" onclick=\"return showCourse(this, 'PSYCH 4400');\" title=\"PSYCH 4400\">PSYCH 4400</a></td><td>Cognitive Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">And two of the following courses:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204411\" onclick=\"return showCourse(this, 'PSYCH 4411');\" title=\"PSYCH 4411\">PSYCH 4411</a></td><td>Sensation and Perception</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204720\" onclick=\"return showCourse(this, 'PSYCH 4720');\" title=\"PSYCH 4720\">PSYCH 4720</a></td><td>Psychology of Social Technology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204700\" onclick=\"return showCourse(this, 'PSYCH 4700');\" title=\"PSYCH 4700\">PSYCH 4700</a></td><td>Industrial Psychology</td><td class=\"hourscol\">3</td></tr> </tbody></table>\n<h4>Industrial/Organizational Psychology Minor</h4> <p>Requirements include:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%201101\" onclick=\"return showCourse(this, 'PSYCH 1101');\" title=\"PSYCH 1101\">PSYCH 1101</a></td><td>General Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204700\" onclick=\"return showCourse(this, 'PSYCH 4700');\" title=\"PSYCH 4700\">PSYCH 4700</a></td><td>Industrial Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204602\" onclick=\"return showCourse(this, 'PSYCH 4602');\" title=\"PSYCH 4602\">PSYCH 4602</a></td><td>Organizational Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">and 2 of the following</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204600\" onclick=\"return showCourse(this, 'PSYCH 4600');\" title=\"PSYCH 4600\">PSYCH 4600</a></td><td>Social Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204500\" onclick=\"return showCourse(this, 'PSYCH 4500');\" title=\"PSYCH 4500\">PSYCH 4500</a></td><td>Personality Theory</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204601\" onclick=\"return showCourse(this, 'PSYCH 4601');\" title=\"PSYCH 4601\">PSYCH 4601</a></td><td>Group Dynamics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204610\" onclick=\"return showCourse(this, 'PSYCH 4610');\" title=\"PSYCH 4610\">PSYCH 4610</a></td><td>Psychology of Leadership in Organizations</td><td class=\"hourscol\">3</td></tr> </tbody></table>\n<h3>Psychology for Health Care Minor</h3>\n<p>Minor requires a minimum of 15 hours.</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td colspan=\"2\"><span class=\"courselistcomment\">Required Courses: </span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%201101\" onclick=\"return showCourse(this, 'PSYCH 1101');\" title=\"PSYCH 1101\">PSYCH 1101</a></td><td>General Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204590\" onclick=\"return showCourse(this, 'PSYCH 4590');\" title=\"PSYCH 4590\">PSYCH 4590</a></td><td>Health Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">Choose 3 of the Following Courses:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204410\" onclick=\"return showCourse(this, 'PSYCH 4410');\" title=\"PSYCH 4410\">PSYCH 4410</a></td><td>Neuroscience</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204501\" onclick=\"return showCourse(this, 'PSYCH 4501');\" title=\"PSYCH 4501\">PSYCH 4501</a></td><td>Abnormal Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%203501\" onclick=\"return showCourse(this, 'PSYCH 3501');\" title=\"PSYCH 3501\">PSYCH 3501</a></td><td>Drugs and Behavior</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204510\" onclick=\"return showCourse(this, 'PSYCH 4510');\" title=\"PSYCH 4510\">PSYCH 4510</a></td><td>Clinical Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204990\" onclick=\"return showCourse(this, 'PSYCH 4990');\" title=\"PSYCH 4990\">PSYCH 4990</a></td><td>Internship</td><td class=\"hourscol\">0-6</td></tr> </tbody></table>\n<h4>Psychology of Leadership</h4> <p>Requirements include the following:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%201101\" onclick=\"return showCourse(this, 'PSYCH 1101');\" title=\"PSYCH 1101\">PSYCH 1101</a></td><td>General Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204610\" onclick=\"return showCourse(this, 'PSYCH 4610');\" title=\"PSYCH 4610\">PSYCH 4610</a></td><td>Psychology of Leadership in Organizations</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td colspan=\"2\"><span class=\"courselistcomment\">and 3 of the following 5 courses are required:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204600\" onclick=\"return showCourse(this, 'PSYCH 4600');\" title=\"PSYCH 4600\">PSYCH 4600</a></td><td>Social Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204601\" onclick=\"return showCourse(this, 'PSYCH 4601');\" title=\"PSYCH 4601\">PSYCH 4601</a></td><td>Group Dynamics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204602\" onclick=\"return showCourse(this, 'PSYCH 4602');\" title=\"PSYCH 4602\">PSYCH 4602</a></td><td>Organizational Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204992\" onclick=\"return showCourse(this, 'PSYCH 4992');\" title=\"PSYCH 4992\">PSYCH 4992</a></td><td>Cross-Cultural Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204993\" onclick=\"return showCourse(this, 'PSYCH 4993');\" title=\"PSYCH 4993\">PSYCH 4993</a></td><td>Psychology of Gender</td><td class=\"hourscol\">3</td></tr> </tbody></table>\n<h4>Cognitive Neuroscience Minor</h4> <p>Requirements include:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%201101\" onclick=\"return showCourse(this, 'PSYCH 1101');\" title=\"PSYCH 1101\">PSYCH 1101</a></td><td>General Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204400\" onclick=\"return showCourse(this, 'PSYCH 4400');\" title=\"PSYCH 4400\">PSYCH 4400</a></td><td>Cognitive Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204410\" onclick=\"return showCourse(this, 'PSYCH 4410');\" title=\"PSYCH 4410\">PSYCH 4410</a></td><td>Neuroscience</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">and two of the following courses:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204411\" onclick=\"return showCourse(this, 'PSYCH 4411');\" title=\"PSYCH 4411\">PSYCH 4411</a></td><td>Sensation and Perception</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204501\" onclick=\"return showCourse(this, 'PSYCH 4501');\" title=\"PSYCH 4501\">PSYCH 4501</a></td><td>Abnormal Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%203501\" onclick=\"return showCourse(this, 'PSYCH 3501');\" title=\"PSYCH 3501\">PSYCH 3501</a></td><td>Drugs and Behavior</td><td class=\"hourscol\">3</td></tr> </tbody></table>\n<h4>Multiculturalism &amp; Diversity Minor</h4> <p>The Multiculturalism and Diversity Minor prepares students to function more effectively in a global society as well as enhances Missouri S&amp;T graduates' employment options by providing knowledge, skills, and strategies for appreciating and understanding diverse cultural practices.</p> <p>The minor requires 15 hours in a minimum of 3 of 4 humanities and social sciences (HSS) departments: the departments of arts, languages and philosophy; English and technical communication; history and political science; and psychological science. The academic home for this minor will be the arts, languages and philosophy department. Courses offered by these departments that can be included in the minor are listed below.</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even areaheader firstrow\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Arts, Languages &amp; Philosophy:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td colspan=\"2\"><div style=\"margin-left: 20px;\"><span class=\"courselistcomment commentindent\">One language course at the third semester or above in a foreign language (German, Spanish, French, or Russian)</span> <sup>*</sup></div></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204340\" onclick=\"return showCourse(this, 'PHILOS 4340');\" title=\"PHILOS 4340\">PHILOS 4340</a></div></td><td>From Activism to Zoos: Issues in Social Ethics</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=RUSSIAN%204360\" onclick=\"return showCourse(this, 'RUSSIAN 4360');\" title=\"RUSSIAN 4360\">RUSSIAN 4360</a></div></td><td>Russian Civilization</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203235\" onclick=\"return showCourse(this, 'SP&amp;M S 3235');\" title=\"SP&amp;M S 3235\">SP&amp;M S 3235</a></div></td><td>Intercultural Communication</td><td class=\"hourscol\"></td></tr> <tr class=\"odd areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">English and Technical Communication:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201231\" onclick=\"return showCourse(this, 'ENGLISH 1231');\" title=\"ENGLISH 1231\">ENGLISH 1231</a></div></td><td>World Literature I: From The Beginnings To The Renaissance</td><td class=\"hourscol\"></td></tr> <tr class=\"odd areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">History and Political Science:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%203280\" onclick=\"return showCourse(this, 'HISTORY 3280');\" title=\"HISTORY 3280\">HISTORY 3280</a></div></td><td>European Migrations and Nationalism Formation</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%203660\" onclick=\"return showCourse(this, 'HISTORY 3660');\" title=\"HISTORY 3660\">HISTORY 3660</a></div></td><td>Modern East Asia</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%203665\" onclick=\"return showCourse(this, 'HISTORY 3665');\" title=\"HISTORY 3665\">HISTORY 3665</a></div></td><td>History of Japan</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%202500\" onclick=\"return showCourse(this, 'POL SCI 2500');\" title=\"POL SCI 2500\">POL SCI 2500</a></div></td><td>International Relations</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%204510\" onclick=\"return showCourse(this, 'POL SCI 4510');\" title=\"POL SCI 4510\">POL SCI 4510</a></div></td><td>The Politics of the Global South</td><td class=\"hourscol\"></td></tr> <tr class=\"odd areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Psychology:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204993\" onclick=\"return showCourse(this, 'PSYCH 4993');\" title=\"PSYCH 4993\">PSYCH 4993</a></div></td><td>Psychology of Gender</td><td class=\"hourscol\"></td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%204992\" onclick=\"return showCourse(this, 'PSYCH 4992');\" title=\"PSYCH 4992\">PSYCH 4992</a></div></td><td>Cross-Cultural Psychology</td><td class=\"hourscol\"></td></tr> </tbody></table> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td colspan=\"2\"><span class=\"courselistcomment\">* Language Courses at the 3rd Semester or above that qualify for the minor:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=FRENCH%201180\" onclick=\"return showCourse(this, 'FRENCH 1180');\" title=\"FRENCH 1180\">FRENCH 1180</a></div></td><td>Intermediate French</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=FRENCH%202110\" onclick=\"return showCourse(this, 'FRENCH 2110');\" title=\"FRENCH 2110\">FRENCH 2110</a></div></td><td>Basic French Conversation</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=FRENCH%202170\" onclick=\"return showCourse(this, 'FRENCH 2170');\" title=\"FRENCH 2170\">FRENCH 2170</a></div></td><td>Masterpieces Of French Literature</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=FRENCH%202180\" onclick=\"return showCourse(this, 'FRENCH 2180');\" title=\"FRENCH 2180\">FRENCH 2180</a></div></td><td>Basic French Composition</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=FRENCH%204311\" onclick=\"return showCourse(this, 'FRENCH 4311');\" title=\"FRENCH 4311\">FRENCH 4311</a></div></td><td>Advanced French Conversation</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=FRENCH%204320\" onclick=\"return showCourse(this, 'FRENCH 4320');\" title=\"FRENCH 4320\">FRENCH 4320</a></div></td><td>French and Francophone Cinema</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=GERMAN%201180\" onclick=\"return showCourse(this, 'GERMAN 1180');\" title=\"GERMAN 1180\">GERMAN 1180</a></div></td><td>Classical And Modern German Readings</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=GERMAN%202110\" onclick=\"return showCourse(this, 'GERMAN 2110');\" title=\"GERMAN 2110\">GERMAN 2110</a></div></td><td>Basic German Conversation</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=GERMAN%202170\" onclick=\"return showCourse(this, 'GERMAN 2170');\" title=\"GERMAN 2170\">GERMAN 2170</a></div></td><td>Masterpieces Of German Literature</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=RUSSIAN%201180\" onclick=\"return showCourse(this, 'RUSSIAN 1180');\" title=\"RUSSIAN 1180\">RUSSIAN 1180</a></div></td><td>Readings In Science And Literature</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=RUSSIAN%202110\" onclick=\"return showCourse(this, 'RUSSIAN 2110');\" title=\"RUSSIAN 2110\">RUSSIAN 2110</a></div></td><td>Basic Russian Conversation</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=RUSSIAN%202170\" onclick=\"return showCourse(this, 'RUSSIAN 2170');\" title=\"RUSSIAN 2170\">RUSSIAN 2170</a></div></td><td>Masterpieces Of Russian Literature</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=RUSSIAN%204320\" onclick=\"return showCourse(this, 'RUSSIAN 4320');\" title=\"RUSSIAN 4320\">RUSSIAN 4320</a></div></td><td>Russian Phonetics and Intonation</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=RUSSIAN%204360\" onclick=\"return showCourse(this, 'RUSSIAN 4360');\" title=\"RUSSIAN 4360\">RUSSIAN 4360</a></div></td><td>Russian Civilization</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=RUSSIAN%204370\" onclick=\"return showCourse(this, 'RUSSIAN 4370');\" title=\"RUSSIAN 4370\">RUSSIAN 4370</a></div></td><td>Survey Of Russian Literature I (Early Period)</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SPANISH%201180\" onclick=\"return showCourse(this, 'SPANISH 1180');\" title=\"SPANISH 1180\">SPANISH 1180</a></div></td><td>Intermediate Spanish</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SPANISH%202110\" onclick=\"return showCourse(this, 'SPANISH 2110');\" title=\"SPANISH 2110\">SPANISH 2110</a></div></td><td>Basic Spanish Conversation</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SPANISH%202160\" onclick=\"return showCourse(this, 'SPANISH 2160');\" title=\"SPANISH 2160\">SPANISH 2160</a></div></td><td>Hispanic Culture</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SPANISH%202170\" onclick=\"return showCourse(this, 'SPANISH 2170');\" title=\"SPANISH 2170\">SPANISH 2170</a></div></td><td>Masterpieces Of Hispanic Literature</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SPANISH%202180\" onclick=\"return showCourse(this, 'SPANISH 2180');\" title=\"SPANISH 2180\">SPANISH 2180</a></div></td><td>Intermediate Spanish Composition</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SPANISH%204311\" onclick=\"return showCourse(this, 'SPANISH 4311');\" title=\"SPANISH 4311\">SPANISH 4311</a></div></td><td>Advanced Spanish Conversation</td><td class=\"hourscol\"></td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SPANISH%204302\" onclick=\"return showCourse(this, 'SPANISH 4302');\" title=\"SPANISH 4302\">SPANISH 4302</a></div></td><td>Phonetics and Phonology of Spanish</td><td class=\"hourscol\"></td></tr> </tbody></table>\n</div>"
+}

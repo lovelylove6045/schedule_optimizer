@@ -1,0 +1,150 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/nuclearengineering/#minorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/nuclearengineering/",
+        "fragment": "minorstext",
+        "page_slug": "nuclearengineering",
+        "page_title": "Nuclear Engineering < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 606,
+        "html_character_count": 1860,
+        "heading_count": 1,
+        "paragraph_count": 3,
+        "list_count": 0,
+        "table_count": 1,
+        "link_count": 5,
+        "superscript_count": 0,
+        "text_sha256": "fd06f30881a3914c18cba1a0e86b79446bb2b17d94a331b892aca15dafe6d2a7",
+        "html_sha256": "98a22734a5eea593bfb79c566038944fb69d3b0eed2d45463e7d82b3ab861b98"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Nuclear Engineering Minor Curriculum",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "MATH 3304",
+            "href": "/search/?P=MATH%203304",
+            "url": "https://catalog.mst.edu/search/?P=MATH%203304",
+            "resolved_course": "MATH 3304"
+        },
+        {
+            "number": 2,
+            "text": "PHYSICS 2305",
+            "href": "/search/?P=PHYSICS%202305",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202305",
+            "resolved_course": "PHYSICS 2305"
+        },
+        {
+            "number": 3,
+            "text": "NUC ENG 3103",
+            "href": "/search/?P=NUC%20ENG%203103",
+            "url": "https://catalog.mst.edu/search/?P=NUC%20ENG%203103",
+            "resolved_course": "NUC ENG 3103"
+        },
+        {
+            "number": 4,
+            "text": "NUC ENG 3205",
+            "href": "/search/?P=NUC%20ENG%203205",
+            "url": "https://catalog.mst.edu/search/?P=NUC%20ENG%203205",
+            "resolved_course": "NUC ENG 3205"
+        },
+        {
+            "number": 5,
+            "text": "NUC ENG 4312",
+            "href": "/search/?P=NUC%20ENG%204312",
+            "url": "https://catalog.mst.edu/search/?P=NUC%20ENG%204312",
+            "resolved_course": "NUC ENG 4312"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "NUC ENG 3205 Fundamentals of Nuclear Engineering 3 NUC ENG 4312 Nuclear Radiation Measurements and Spectroscopy 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "NUC ENG 3205",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "NUC ENG 3205",
+                                    "url": "https://catalog.mst.edu/search/?P=NUC%20ENG%203205",
+                                    "resolved_course": "NUC ENG 3205"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Fundamentals of Nuclear Engineering",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "NUC ENG 4312",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "NUC ENG 4312",
+                                    "url": "https://catalog.mst.edu/search/?P=NUC%20ENG%204312",
+                                    "resolved_course": "NUC ENG 4312"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Nuclear Radiation Measurements and Spectroscopy",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=NUC%20ENG%203205\" onclick=\"return showCourse(this, 'NUC ENG 3205');\" title=\"NUC ENG 3205\">NUC ENG 3205</a></td><td>Fundamentals of Nuclear Engineering</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=NUC%20ENG%204312\" onclick=\"return showCourse(this, 'NUC ENG 4312');\" title=\"NUC ENG 4312\">NUC ENG 4312</a></td><td>Nuclear Radiation Measurements and Spectroscopy</td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        }
+    ],
+    "section_text": "Nuclear Engineering Minor Curriculum A nuclear engineering minor enhances the academic credentials of a student and broadens his/her employment choices. A minimum of 15 hours is required for a minor in nuclear engineering. Before the courses listed below can be taken, the student should have completed MATH 3304 (or equivalent) and PHYSICS 2305 (or NUC ENG 3103 or equivalent). Required courses are: NUC ENG 3205 Fundamentals of Nuclear Engineering 3 NUC ENG 4312 Nuclear Radiation Measurements and Spectroscopy 3 The other 9 hours should be selected from nuclear engineering 3000 or higher level courses.",
+    "section_html": "<div class=\"tab_content\" id=\"minorstextcontainer\">\n<a name=\"minorstext\"></a><h2>Nuclear Engineering Minor Curriculum</h2> <p>A nuclear engineering minor enhances the academic credentials of a student and broadens his/her employment choices. A minimum of 15 hours is required for a minor in nuclear engineering.</p> <p>Before the courses listed below can be taken, the student should have completed <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%203304\" onclick=\"return showCourse(this, 'MATH 3304');\" title=\"MATH 3304\">MATH 3304</a></span> (or equivalent) and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202305\" onclick=\"return showCourse(this, 'PHYSICS 2305');\" title=\"PHYSICS 2305\">PHYSICS 2305</a></span> (or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=NUC%20ENG%203103\" onclick=\"return showCourse(this, 'NUC ENG 3103');\" title=\"NUC ENG 3103\">NUC ENG 3103</a></span> or equivalent). Required courses are:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=NUC%20ENG%203205\" onclick=\"return showCourse(this, 'NUC ENG 3205');\" title=\"NUC ENG 3205\">NUC ENG 3205</a></td><td>Fundamentals of Nuclear Engineering</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=NUC%20ENG%204312\" onclick=\"return showCourse(this, 'NUC ENG 4312');\" title=\"NUC ENG 4312\">NUC ENG 4312</a></td><td>Nuclear Radiation Measurements and Spectroscopy</td><td class=\"hourscol\">3</td></tr> </tbody></table> <p>The other 9 hours should be selected from nuclear engineering 3000 or higher level courses.</p>\n</div>"
+}

@@ -1,0 +1,344 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/engineeringmanagement/#minorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/engineeringmanagement/",
+        "fragment": "minorstext",
+        "page_slug": "engineeringmanagement",
+        "page_title": "Engineering Management < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 678,
+        "html_character_count": 2734,
+        "heading_count": 1,
+        "paragraph_count": 2,
+        "list_count": 0,
+        "table_count": 1,
+        "link_count": 7,
+        "superscript_count": 2,
+        "text_sha256": "d74fe7b0c95f2833ba6e36ab0a39c75abf00903af4d019477f065567b60b09f9",
+        "html_sha256": "9ac3c02c63fb3e465b95405c6ca4ada76780015b7555109a1049a8425e7bc1b2"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Minor in Engineering Management",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "ENG MGT 1210",
+            "href": "/search/?P=ENG%20MGT%201210",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%201210",
+            "resolved_course": "ENG MGT 1210"
+        },
+        {
+            "number": 2,
+            "text": "ENG MGT 2110",
+            "href": "/search/?P=ENG%20MGT%202110",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%202110",
+            "resolved_course": "ENG MGT 2110"
+        },
+        {
+            "number": 3,
+            "text": "ENG MGT 5110",
+            "href": "/search/?P=ENG%20MGT%205110",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205110",
+            "resolved_course": "ENG MGT 5110"
+        },
+        {
+            "number": 4,
+            "text": "ENG MGT 2211",
+            "href": "/search/?P=ENG%20MGT%202211",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%202211",
+            "resolved_course": "ENG MGT 2211"
+        },
+        {
+            "number": 5,
+            "text": "ENG MGT 3310",
+            "href": "/search/?P=ENG%20MGT%203310",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%203310",
+            "resolved_course": "ENG MGT 3310"
+        },
+        {
+            "number": 6,
+            "text": "ENG MGT 3320",
+            "href": "/search/?P=ENG%20MGT%203320",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%203320",
+            "resolved_course": "ENG MGT 3320"
+        },
+        {
+            "number": 7,
+            "text": "ENG MGT 5320",
+            "href": "/search/?P=ENG%20MGT%205320",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205320",
+            "resolved_course": "ENG MGT 5320"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "ENG MGT 1210 Economic Analysis of Engineering Projects 1 2-3 ENG MGT 2110 Managing Engineering And Technology 3 or ENG MGT 5110 Managerial Decision Making ENG MGT 2211 Engineering Accounting and Finance 3 ENG MGT 3310 Operations and Production Management 3 ENG MGT 3320 Introduction to Project Management 3 or ENG MGT 5320 Project Management Total Credits 14-15",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 1210",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 1210",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%201210",
+                                    "resolved_course": "ENG MGT 1210"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Economic Analysis of Engineering Projects 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "2-3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 2110",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 2110",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%202110",
+                                    "resolved_course": "ENG MGT 2110"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Managing Engineering And Technology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "or ENG MGT 5110",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 5110",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205110",
+                                    "resolved_course": "ENG MGT 5110"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Managerial Decision Making",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 2211",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 2211",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%202211",
+                                    "resolved_course": "ENG MGT 2211"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Engineering Accounting and Finance",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 3310",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 3310",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%203310",
+                                    "resolved_course": "ENG MGT 3310"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Operations and Production Management",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 3320",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 3320",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%203320",
+                                    "resolved_course": "ENG MGT 3320"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Introduction to Project Management",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "or ENG MGT 5320",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 5320",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205320",
+                                    "resolved_course": "ENG MGT 5320"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Project Management",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Total Credits",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "14-15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%201210\" onclick=\"return showCourse(this, 'ENG MGT 1210');\" title=\"ENG MGT 1210\">ENG MGT 1210</a></td><td>Economic Analysis of Engineering Projects <sup>1</sup></td><td class=\"hourscol\">2-3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%202110\" onclick=\"return showCourse(this, 'ENG MGT 2110');\" title=\"ENG MGT 2110\">ENG MGT 2110</a></td><td>Managing Engineering And Technology</td><td class=\"hourscol\">3</td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205110\" onclick=\"return showCourse(this, 'ENG MGT 5110');\" title=\"ENG MGT 5110\">ENG MGT 5110</a></td><td colspan=\"2\"> Managerial Decision Making</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%202211\" onclick=\"return showCourse(this, 'ENG MGT 2211');\" title=\"ENG MGT 2211\">ENG MGT 2211</a></td><td>Engineering Accounting and Finance</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%203310\" onclick=\"return showCourse(this, 'ENG MGT 3310');\" title=\"ENG MGT 3310\">ENG MGT 3310</a></td><td>Operations and Production Management</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%203320\" onclick=\"return showCourse(this, 'ENG MGT 3320');\" title=\"ENG MGT 3320\">ENG MGT 3320</a></td><td>Introduction to Project Management</td><td class=\"hourscol\">3</td></tr> <tr class=\"orclass even lastrow\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205320\" onclick=\"return showCourse(this, 'ENG MGT 5320');\" title=\"ENG MGT 5320\">ENG MGT 5320</a></td><td colspan=\"2\"> Project Management</td></tr> <tr class=\"listsum\"><td colspan=\"2\">Total Credits</td><td class=\"hourscol\">14-15</td></tr></tbody></table>"
+        }
+    ],
+    "section_text": "Minor in Engineering Management A student who receives a bachelor of science degree in an accredited program from Missouri S&T may receive a minor in engineering management by completing 14-15 hours of the courses listed below . ENG MGT 1210 Economic Analysis of Engineering Projects 1 2-3 ENG MGT 2110 Managing Engineering And Technology 3 or ENG MGT 5110 Managerial Decision Making ENG MGT 2211 Engineering Accounting and Finance 3 ENG MGT 3310 Operations and Production Management 3 ENG MGT 3320 Introduction to Project Management 3 or ENG MGT 5320 Project Management Total Credits 14-15 1 Or Eng Mgt 1000, 2000, 3000, 4000, or 5000-level course, not to include Eng Mgt 1100.",
+    "section_html": "<div class=\"tab_content\" id=\"minorstextcontainer\">\n<a name=\"minorstext\"></a><h2>Minor in Engineering Management</h2> <p><span data-teams=\"true\">A student who receives a bachelor of science degree in an accredited program from Missouri S&amp;T may receive a minor in engineering management by completing 14-15 hours of the courses listed below</span>.</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%201210\" onclick=\"return showCourse(this, 'ENG MGT 1210');\" title=\"ENG MGT 1210\">ENG MGT 1210</a></td><td>Economic Analysis of Engineering Projects <sup>1</sup></td><td class=\"hourscol\">2-3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%202110\" onclick=\"return showCourse(this, 'ENG MGT 2110');\" title=\"ENG MGT 2110\">ENG MGT 2110</a></td><td>Managing Engineering And Technology</td><td class=\"hourscol\">3</td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205110\" onclick=\"return showCourse(this, 'ENG MGT 5110');\" title=\"ENG MGT 5110\">ENG MGT 5110</a></td><td colspan=\"2\"> Managerial Decision Making</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%202211\" onclick=\"return showCourse(this, 'ENG MGT 2211');\" title=\"ENG MGT 2211\">ENG MGT 2211</a></td><td>Engineering Accounting and Finance</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%203310\" onclick=\"return showCourse(this, 'ENG MGT 3310');\" title=\"ENG MGT 3310\">ENG MGT 3310</a></td><td>Operations and Production Management</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%203320\" onclick=\"return showCourse(this, 'ENG MGT 3320');\" title=\"ENG MGT 3320\">ENG MGT 3320</a></td><td>Introduction to Project Management</td><td class=\"hourscol\">3</td></tr> <tr class=\"orclass even lastrow\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205320\" onclick=\"return showCourse(this, 'ENG MGT 5320');\" title=\"ENG MGT 5320\">ENG MGT 5320</a></td><td colspan=\"2\"> Project Management</td></tr> <tr class=\"listsum\"><td colspan=\"2\">Total Credits</td><td class=\"hourscol\">14-15</td></tr></tbody></table> <dl aria-label=\"Footnotes\" class=\"sc_footnotes\"><dt> <sup> 1 </sup> </dt><dd><p class=\"noindent\">Or Eng Mgt 1000, 2000, 3000, 4000, or 5000-level course, not to include Eng Mgt 1100.</p></dd></dl>\n</div>"
+}

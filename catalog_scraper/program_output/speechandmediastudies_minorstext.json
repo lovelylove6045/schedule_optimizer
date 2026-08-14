@@ -1,0 +1,898 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/speechandmediastudies/#minorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/speechandmediastudies/",
+        "fragment": "minorstext",
+        "page_slug": "speechandmediastudies",
+        "page_title": "Speech and Media Studies < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 948,
+        "html_character_count": 6825,
+        "heading_count": 2,
+        "paragraph_count": 1,
+        "list_count": 0,
+        "table_count": 2,
+        "link_count": 17,
+        "superscript_count": 0,
+        "text_sha256": "e9470914fdada0828b29a3c76085dfcf0fa39d4bc6b2a23c7d8b7b82ccfabee3",
+        "html_sha256": "7480bf3a21fc26648ccb1e12d919249dd0fe9c00040de01572502426325d3ab6"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h3",
+            "text": "Communication Studies",
+            "id": null
+        },
+        {
+            "number": 2,
+            "level": "h3",
+            "text": "Leadership Communication",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "SP&M S 2181",
+            "href": "/search/?P=SP%26M%20S%202181",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%202181",
+            "resolved_course": "SP&M S 2181"
+        },
+        {
+            "number": 2,
+            "text": "SP&M S 1185",
+            "href": "/search/?P=SP%26M%20S%201185",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%201185",
+            "resolved_course": "SP&M S 1185"
+        },
+        {
+            "number": 3,
+            "text": "SP&M S 2000",
+            "href": "/search/?P=SP%26M%20S%202000",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%202000",
+            "resolved_course": "SP&M S 2000"
+        },
+        {
+            "number": 4,
+            "text": "SP&M S 2001",
+            "href": "/search/?P=SP%26M%20S%202001",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%202001",
+            "resolved_course": "SP&M S 2001"
+        },
+        {
+            "number": 5,
+            "text": "SP&M S 3000",
+            "href": "/search/?P=SP%26M%20S%203000",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203000",
+            "resolved_course": "SP&M S 3000"
+        },
+        {
+            "number": 6,
+            "text": "SP&M S 3001",
+            "href": "/search/?P=SP%26M%20S%203001",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203001",
+            "resolved_course": "SP&M S 3001"
+        },
+        {
+            "number": 7,
+            "text": "SP&M S 3235",
+            "href": "/search/?P=SP%26M%20S%203235",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203235",
+            "resolved_course": "SP&M S 3235"
+        },
+        {
+            "number": 8,
+            "text": "SP&M S 3250",
+            "href": "/search/?P=SP%26M%20S%203250",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203250",
+            "resolved_course": "SP&M S 3250"
+        },
+        {
+            "number": 9,
+            "text": "SP&M S 3255",
+            "href": "/search/?P=SP%26M%20S%203255",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203255",
+            "resolved_course": "SP&M S 3255"
+        },
+        {
+            "number": 10,
+            "text": "SP&M S 3275",
+            "href": "/search/?P=SP%26M%20S%203275",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203275",
+            "resolved_course": "SP&M S 3275"
+        },
+        {
+            "number": 11,
+            "text": "SP&M S 3283",
+            "href": "/search/?P=SP%26M%20S%203283",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203283",
+            "resolved_course": "SP&M S 3283"
+        },
+        {
+            "number": 12,
+            "text": "SP&M S 2181",
+            "href": "/search/?P=SP%26M%20S%202181",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%202181",
+            "resolved_course": "SP&M S 2181"
+        },
+        {
+            "number": 13,
+            "text": "SP&M S 3235",
+            "href": "/search/?P=SP%26M%20S%203235",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203235",
+            "resolved_course": "SP&M S 3235"
+        },
+        {
+            "number": 14,
+            "text": "SP&M S 3250",
+            "href": "/search/?P=SP%26M%20S%203250",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203250",
+            "resolved_course": "SP&M S 3250"
+        },
+        {
+            "number": 15,
+            "text": "SP&M S 3255",
+            "href": "/search/?P=SP%26M%20S%203255",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203255",
+            "resolved_course": "SP&M S 3255"
+        },
+        {
+            "number": 16,
+            "text": "SP&M S 3265",
+            "href": "/search/?P=SP%26M%20S%203265",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203265",
+            "resolved_course": "SP&M S 3265"
+        },
+        {
+            "number": 17,
+            "text": "SP&M S 3270",
+            "href": "/search/?P=SP%26M%20S%203270",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203270",
+            "resolved_course": "SP&M S 3270"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "Core Requirements: 3 SP&M S 2181 Communication Theory Elective requirements, select four of the following: 12 SP&M S 1185 Principles Of Speech SP&M S 2000 Special Problems SP&M S 2001 Special Topics SP&M S 3000 Special Problems SP&M S 3001 Special Topics SP&M S 3235 Intercultural Communication SP&M S 3250 Interpersonal Communication SP&M S 3255 Discussion And Conference Methods SP&M S 3275 Foundations of Media Communication SP&M S 3283 Business And Professional Communication Advisor or approved substitute for one of the above.",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Core Requirements:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 2181",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 2181",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%202181",
+                                    "resolved_course": "SP&M S 2181"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Communication Theory",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Elective requirements, select four of the following:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "12",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 1185",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 1185",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%201185",
+                                    "resolved_course": "SP&M S 1185"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Principles Of Speech",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 2000",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 2000",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%202000",
+                                    "resolved_course": "SP&M S 2000"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Special Problems",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 2001",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 2001",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%202001",
+                                    "resolved_course": "SP&M S 2001"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Special Topics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 3000",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 3000",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203000",
+                                    "resolved_course": "SP&M S 3000"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Special Problems",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 3001",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 3001",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203001",
+                                    "resolved_course": "SP&M S 3001"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Special Topics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 3235",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 3235",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203235",
+                                    "resolved_course": "SP&M S 3235"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Intercultural Communication",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 10,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 3250",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 3250",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203250",
+                                    "resolved_course": "SP&M S 3250"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Interpersonal Communication",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 11,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 3255",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 3255",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203255",
+                                    "resolved_course": "SP&M S 3255"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Discussion And Conference Methods",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 12,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 3275",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 3275",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203275",
+                                    "resolved_course": "SP&M S 3275"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Foundations of Media Communication",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 13,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 3283",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 3283",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203283",
+                                    "resolved_course": "SP&M S 3283"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Business And Professional Communication",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 14,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Advisor or approved substitute for one of the above.",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even areaheader firstrow\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Core Requirements:</span></td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%202181\" onclick=\"return showCourse(this, 'SP&amp;M S 2181');\" title=\"SP&amp;M S 2181\">SP&amp;M S 2181</a></div></td><td>Communication Theory</td><td class=\"hourscol\"></td></tr> <tr class=\"even areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Elective requirements, select four of the following:</span></td><td class=\"hourscol\">12</td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%201185\" onclick=\"return showCourse(this, 'SP&amp;M S 1185');\" title=\"SP&amp;M S 1185\">SP&amp;M S 1185</a></div></td><td>Principles Of Speech</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%202000\" onclick=\"return showCourse(this, 'SP&amp;M S 2000');\" title=\"SP&amp;M S 2000\">SP&amp;M S 2000</a></div></td><td>Special Problems</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%202001\" onclick=\"return showCourse(this, 'SP&amp;M S 2001');\" title=\"SP&amp;M S 2001\">SP&amp;M S 2001</a></div></td><td>Special Topics</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203000\" onclick=\"return showCourse(this, 'SP&amp;M S 3000');\" title=\"SP&amp;M S 3000\">SP&amp;M S 3000</a></div></td><td>Special Problems</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203001\" onclick=\"return showCourse(this, 'SP&amp;M S 3001');\" title=\"SP&amp;M S 3001\">SP&amp;M S 3001</a></div></td><td>Special Topics</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203235\" onclick=\"return showCourse(this, 'SP&amp;M S 3235');\" title=\"SP&amp;M S 3235\">SP&amp;M S 3235</a></div></td><td>Intercultural Communication</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203250\" onclick=\"return showCourse(this, 'SP&amp;M S 3250');\" title=\"SP&amp;M S 3250\">SP&amp;M S 3250</a></div></td><td>Interpersonal Communication</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203255\" onclick=\"return showCourse(this, 'SP&amp;M S 3255');\" title=\"SP&amp;M S 3255\">SP&amp;M S 3255</a></div></td><td>Discussion And Conference Methods</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203275\" onclick=\"return showCourse(this, 'SP&amp;M S 3275');\" title=\"SP&amp;M S 3275\">SP&amp;M S 3275</a></div></td><td>Foundations of Media Communication</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203283\" onclick=\"return showCourse(this, 'SP&amp;M S 3283');\" title=\"SP&amp;M S 3283\">SP&amp;M S 3283</a></div></td><td>Business And Professional Communication</td><td class=\"hourscol\"></td></tr> <tr class=\"odd lastrow\"><td colspan=\"2\"><div style=\"margin-left: 20px;\"><span class=\"courselistcomment commentindent\">Advisor or approved substitute for one of the above.</span></div></td><td class=\"hourscol\"></td></tr> </tbody></table>"
+        },
+        {
+            "table_number": 2,
+            "text": "Core Requirement: 3 SP&M S 2181 Communication Theory Additional Requirements: 12 SP&M S 3235 Intercultural Communication SP&M S 3250 Interpersonal Communication SP&M S 3255 Discussion And Conference Methods SP&M S 3265 Leadership Communication SP&M S 3270 Leadership Practices Advisor or approved substitute for one of the above.",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Core Requirement:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 2181",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 2181",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%202181",
+                                    "resolved_course": "SP&M S 2181"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Communication Theory",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Additional Requirements:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "12",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 3235",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 3235",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203235",
+                                    "resolved_course": "SP&M S 3235"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Intercultural Communication",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 3250",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 3250",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203250",
+                                    "resolved_course": "SP&M S 3250"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Interpersonal Communication",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 3255",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 3255",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203255",
+                                    "resolved_course": "SP&M S 3255"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Discussion And Conference Methods",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 3265",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 3265",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203265",
+                                    "resolved_course": "SP&M S 3265"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Leadership Communication",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 3270",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 3270",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%203270",
+                                    "resolved_course": "SP&M S 3270"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Leadership Practices",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Advisor or approved substitute for one of the above.",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even areaheader firstrow\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Core Requirement:</span></td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%202181\" onclick=\"return showCourse(this, 'SP&amp;M S 2181');\" title=\"SP&amp;M S 2181\">SP&amp;M S 2181</a></div></td><td>Communication Theory</td><td class=\"hourscol\"></td></tr> <tr class=\"even areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Additional Requirements:</span></td><td class=\"hourscol\">12</td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203235\" onclick=\"return showCourse(this, 'SP&amp;M S 3235');\" title=\"SP&amp;M S 3235\">SP&amp;M S 3235</a></div></td><td>Intercultural Communication</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203250\" onclick=\"return showCourse(this, 'SP&amp;M S 3250');\" title=\"SP&amp;M S 3250\">SP&amp;M S 3250</a></div></td><td>Interpersonal Communication</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203255\" onclick=\"return showCourse(this, 'SP&amp;M S 3255');\" title=\"SP&amp;M S 3255\">SP&amp;M S 3255</a></div></td><td>Discussion And Conference Methods</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203265\" onclick=\"return showCourse(this, 'SP&amp;M S 3265');\" title=\"SP&amp;M S 3265\">SP&amp;M S 3265</a></div></td><td>Leadership Communication</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203270\" onclick=\"return showCourse(this, 'SP&amp;M S 3270');\" title=\"SP&amp;M S 3270\">SP&amp;M S 3270</a></div></td><td>Leadership Practices</td><td class=\"hourscol\"></td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><div style=\"margin-left: 20px;\"><span class=\"courselistcomment commentindent\">Advisor or approved substitute for one of the above.</span></div></td><td class=\"hourscol\"></td></tr> </tbody></table>"
+        }
+    ],
+    "section_text": "Each minor requires 15 hours of study. Communication Studies Core Requirements: 3 SP&M S 2181 Communication Theory Elective requirements, select four of the following: 12 SP&M S 1185 Principles Of Speech SP&M S 2000 Special Problems SP&M S 2001 Special Topics SP&M S 3000 Special Problems SP&M S 3001 Special Topics SP&M S 3235 Intercultural Communication SP&M S 3250 Interpersonal Communication SP&M S 3255 Discussion And Conference Methods SP&M S 3275 Foundations of Media Communication SP&M S 3283 Business And Professional Communication Advisor or approved substitute for one of the above. Leadership Communication Core Requirement: 3 SP&M S 2181 Communication Theory Additional Requirements: 12 SP&M S 3235 Intercultural Communication SP&M S 3250 Interpersonal Communication SP&M S 3255 Discussion And Conference Methods SP&M S 3265 Leadership Communication SP&M S 3270 Leadership Practices Advisor or approved substitute for one of the above.",
+    "section_html": "<div class=\"tab_content\" id=\"minorstextcontainer\">\n<a name=\"minorstext\"></a><p>Each minor requires 15 hours of study.</p>\n<h3>Communication Studies</h3> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even areaheader firstrow\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Core Requirements:</span></td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%202181\" onclick=\"return showCourse(this, 'SP&amp;M S 2181');\" title=\"SP&amp;M S 2181\">SP&amp;M S 2181</a></div></td><td>Communication Theory</td><td class=\"hourscol\"></td></tr> <tr class=\"even areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Elective requirements, select four of the following:</span></td><td class=\"hourscol\">12</td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%201185\" onclick=\"return showCourse(this, 'SP&amp;M S 1185');\" title=\"SP&amp;M S 1185\">SP&amp;M S 1185</a></div></td><td>Principles Of Speech</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%202000\" onclick=\"return showCourse(this, 'SP&amp;M S 2000');\" title=\"SP&amp;M S 2000\">SP&amp;M S 2000</a></div></td><td>Special Problems</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%202001\" onclick=\"return showCourse(this, 'SP&amp;M S 2001');\" title=\"SP&amp;M S 2001\">SP&amp;M S 2001</a></div></td><td>Special Topics</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203000\" onclick=\"return showCourse(this, 'SP&amp;M S 3000');\" title=\"SP&amp;M S 3000\">SP&amp;M S 3000</a></div></td><td>Special Problems</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203001\" onclick=\"return showCourse(this, 'SP&amp;M S 3001');\" title=\"SP&amp;M S 3001\">SP&amp;M S 3001</a></div></td><td>Special Topics</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203235\" onclick=\"return showCourse(this, 'SP&amp;M S 3235');\" title=\"SP&amp;M S 3235\">SP&amp;M S 3235</a></div></td><td>Intercultural Communication</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203250\" onclick=\"return showCourse(this, 'SP&amp;M S 3250');\" title=\"SP&amp;M S 3250\">SP&amp;M S 3250</a></div></td><td>Interpersonal Communication</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203255\" onclick=\"return showCourse(this, 'SP&amp;M S 3255');\" title=\"SP&amp;M S 3255\">SP&amp;M S 3255</a></div></td><td>Discussion And Conference Methods</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203275\" onclick=\"return showCourse(this, 'SP&amp;M S 3275');\" title=\"SP&amp;M S 3275\">SP&amp;M S 3275</a></div></td><td>Foundations of Media Communication</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203283\" onclick=\"return showCourse(this, 'SP&amp;M S 3283');\" title=\"SP&amp;M S 3283\">SP&amp;M S 3283</a></div></td><td>Business And Professional Communication</td><td class=\"hourscol\"></td></tr> <tr class=\"odd lastrow\"><td colspan=\"2\"><div style=\"margin-left: 20px;\"><span class=\"courselistcomment commentindent\">Advisor or approved substitute for one of the above.</span></div></td><td class=\"hourscol\"></td></tr> </tbody></table>\n<h3>Leadership Communication</h3> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even areaheader firstrow\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Core Requirement:</span></td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%202181\" onclick=\"return showCourse(this, 'SP&amp;M S 2181');\" title=\"SP&amp;M S 2181\">SP&amp;M S 2181</a></div></td><td>Communication Theory</td><td class=\"hourscol\"></td></tr> <tr class=\"even areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Additional Requirements:</span></td><td class=\"hourscol\">12</td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203235\" onclick=\"return showCourse(this, 'SP&amp;M S 3235');\" title=\"SP&amp;M S 3235\">SP&amp;M S 3235</a></div></td><td>Intercultural Communication</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203250\" onclick=\"return showCourse(this, 'SP&amp;M S 3250');\" title=\"SP&amp;M S 3250\">SP&amp;M S 3250</a></div></td><td>Interpersonal Communication</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203255\" onclick=\"return showCourse(this, 'SP&amp;M S 3255');\" title=\"SP&amp;M S 3255\">SP&amp;M S 3255</a></div></td><td>Discussion And Conference Methods</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203265\" onclick=\"return showCourse(this, 'SP&amp;M S 3265');\" title=\"SP&amp;M S 3265\">SP&amp;M S 3265</a></div></td><td>Leadership Communication</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%203270\" onclick=\"return showCourse(this, 'SP&amp;M S 3270');\" title=\"SP&amp;M S 3270\">SP&amp;M S 3270</a></div></td><td>Leadership Practices</td><td class=\"hourscol\"></td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><div style=\"margin-left: 20px;\"><span class=\"courselistcomment commentindent\">Advisor or approved substitute for one of the above.</span></div></td><td class=\"hourscol\"></td></tr> </tbody></table>\n</div>"
+}

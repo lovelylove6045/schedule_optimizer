@@ -78,5 +78,1861 @@
     "course_group_type": "ELECTIVE",
     "description": "Prototype pool for the minor requirement: one additional active STANDARD AERO ENG 3000-level 3-credit course, excluding the fixed minor courses.",
     "is_active": true
+  },
+  {
+    "course_group_id": 11,
+    "course_group_code": "ARCH_TECH_ALL_2026",
+    "course_group_name": "Architectural Engineering Approved Technical Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Union of all four Architectural Engineering emphasis-area approved lists, with independent study included only when stored credit_hours <= 3.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 12,
+    "course_group_code": "ARCH_EMP_STRUCT_POOL_2026",
+    "course_group_name": "Architectural Engineering Structural Engineering Emphasis Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog Area I, Structural Engineering.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 13,
+    "course_group_code": "ARCH_EMP_CONSTR_POOL_2026",
+    "course_group_name": "Architectural Engineering Construction Engineering and Project Management Emphasis Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog Area II, Construction Engineering and Project Management.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 14,
+    "course_group_code": "ARCH_EMP_ENVBLDG_POOL_2026",
+    "course_group_name": "Architectural Engineering Environmental Systems for Buildings Emphasis Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog Area III plus listed Mechanical Emphasis Courses and Electrical Emphasis Courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 15,
+    "course_group_code": "ARCH_EMP_MATERIALS_POOL_2026",
+    "course_group_name": "Architectural Engineering Construction Materials Emphasis Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog Area IV, Construction Materials.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 16,
+    "course_group_code": "ART_MINOR_ALL_ELECTIVES_2026",
+    "course_group_name": "Art Minor Approved Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Broad Art Minor pool: listed non-studio options, any active 3000-level PHILOS course, and listed studio-art courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 17,
+    "course_group_code": "ART_MINOR_NONSTUDIO_2026",
+    "course_group_name": "Art Minor Non-Studio Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Non-studio subset. Requiring at least 6 elective credits from this group enforces the catalog maximum of 6 studio-art credits.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 18,
+    "course_group_code": "ART_MINOR_UPPER_2026",
+    "course_group_name": "Art Minor 3000-Level-or-Higher Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Eligible Art Minor electives at 3000 level or above.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 19,
+    "course_group_code": "FILM_LIT_ELECTIVES_2026",
+    "course_group_name": "Film and Literature Minor Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Finite prototype pool using the two explicitly listed examples ENGLISH 2248 and ART 3250. Catalog says choices can include but are not limited to these.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 20,
+    "course_group_code": "STUDIO_ART_ELECTIVES_2026",
+    "course_group_name": "Studio Art Minor Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Eight explicitly listed Studio Art Minor courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 21,
+    "course_group_code": "STUDIO_ART_UPPER_2026",
+    "course_group_name": "Studio Art Minor 3000-Level-or-Higher Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "3000-level-or-higher subset of Studio Art Minor electives.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 22,
+    "course_group_code": "BIOINFO_EXTRA_2026",
+    "course_group_name": "Bioinformatics Additional Approved Course",
+    "course_group_type": "ELECTIVE",
+    "description": "MATH/COMP SCI 2000+ or BIO SCI 3000+ candidate pool; student's major-area exclusion and advisor approval are application-level checks.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 23,
+    "course_group_code": "BIOSCI_BA_ADV_2026",
+    "course_group_name": "Biological Sciences BA Advanced Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "Active BIO SCI courses at 2000 level or above.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 24,
+    "course_group_code": "BIOSCI_BA_MATH_PHYS_GEO_2026",
+    "course_group_name": "Biological Sciences BA Math/Physical Science",
+    "course_group_type": "ELECTIVE",
+    "description": "Active MATH, PHYSICS, or GEOLOGY courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 25,
+    "course_group_code": "BIOSCI_BA_LANGUAGE_2026",
+    "course_group_name": "Biological Sciences BA Foreign Language",
+    "course_group_type": "ELECTIVE",
+    "description": "Active FRENCH, GERMAN, RUSSIAN, or SPANISH courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 26,
+    "course_group_code": "BIOSCI_BA_HUM_2026",
+    "course_group_name": "Biological Sciences BA Humanities",
+    "course_group_type": "ELECTIVE",
+    "description": "Prototype humanities pool using ENGLISH, PHILOS, ART, MUSIC, and THEATRE.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 27,
+    "course_group_code": "BIOSCI_BA_SOCSCI_2026",
+    "course_group_name": "Biological Sciences BA Social Sciences",
+    "course_group_type": "ELECTIVE",
+    "description": "ECON, POL SCI, and PSYCH pool.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 28,
+    "course_group_code": "BIOSCI_BS_ADV_2026",
+    "course_group_name": "Biological Sciences BS Advanced Biology",
+    "course_group_type": "ELECTIVE",
+    "description": "Active BIO SCI courses at 2000 level or above.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 29,
+    "course_group_code": "BIOSCI_BS_LAB_2026",
+    "course_group_name": "Biological Sciences BS Approved Lab Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "Explicit laboratory-course list published in the BS requirements.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 30,
+    "course_group_code": "BIOSCI_MLS_ADV_2026",
+    "course_group_name": "MLS Additional Advanced Biology",
+    "course_group_type": "ELECTIVE",
+    "description": "Suggested advanced biological sciences courses from the MLS catalog list.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 31,
+    "course_group_code": "BIOSCI_MLS_CLINICAL_2026",
+    "course_group_name": "MLS Clinical Program Coursework",
+    "course_group_type": "ELECTIVE",
+    "description": "BIO SCI 4900-4906 clinical coursework.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 32,
+    "course_group_code": "BIOSCI_MINOR_ALL_2026",
+    "course_group_name": "Biological Sciences Minor Course Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "All active positive-credit BIO SCI courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 33,
+    "course_group_code": "BIOSCI_MINOR_UPPER_2026",
+    "course_group_name": "Biological Sciences Minor Upper-Level Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "Active BIO SCI courses at 3000 level or above.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 34,
+    "course_group_code": "BIOSCI_MINOR_LABFIELD_2026",
+    "course_group_name": "Biological Sciences Minor Lab/Field Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "BIO SCI courses whose titles indicate laboratory or field coursework.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 35,
+    "course_group_code": "BME_BIOMAN_TRACK_ELEC_2026",
+    "course_group_name": "BME Biomanufacturing Track Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Explicit track-elective candidates from the catalog footnote.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 36,
+    "course_group_code": "BME_BIOMAT_TRACK_ALL_2026",
+    "course_group_name": "BME Biomaterials Track Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Explicit Biomaterials track-elective candidate pool.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 37,
+    "course_group_code": "BME_BIOMAT_TRACK_MIN3_2026",
+    "course_group_name": "BME Biomaterials Required Track Subset",
+    "course_group_type": "ELECTIVE",
+    "description": "Candidates satisfying the catalog's at-least-3-credit special subset.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 38,
+    "course_group_code": "BMS_BUS_ELEC_2026",
+    "course_group_name": "BMS Business Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Active BUS, ERP, FINANCE, MKT, or IS&T courses at 3000 level or above.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 54,
+    "course_group_code": "CER_TECH_2026",
+    "course_group_name": "Ceramic Engineering Technical Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Allowed upper-level courses in catalog-listed science/engineering disciplines; 2000-level courses included only when a prerequisite rule exists.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 55,
+    "course_group_code": "CER_BIOMAT_POOL_2026",
+    "course_group_name": "Ceramic Biomaterials Emphasis Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "Explicit approved emphasis list from the uploaded Ceramic Engineering catalog scrape.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 56,
+    "course_group_code": "CER_COMP_MSE_POOL_2026",
+    "course_group_name": "Ceramic Computational MSE Emphasis Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "Explicit approved emphasis list from the uploaded Ceramic Engineering catalog scrape.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 57,
+    "course_group_code": "CER_ENERGY_POOL_2026",
+    "course_group_name": "Ceramic Energy Materials Emphasis Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "Explicit approved emphasis list from the uploaded Ceramic Engineering catalog scrape.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 58,
+    "course_group_code": "CER_FUNCTIONAL_POOL_2026",
+    "course_group_name": "Ceramic Functional Materials Emphasis Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "Explicit approved emphasis list from the uploaded Ceramic Engineering catalog scrape.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 59,
+    "course_group_code": "CER_CHAR_POOL_2026",
+    "course_group_name": "Ceramic Materials Characterization Emphasis Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "Explicit approved emphasis list from the uploaded Ceramic Engineering catalog scrape.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 60,
+    "course_group_code": "CER_EXTREME_POOL_2026",
+    "course_group_name": "Ceramic Extreme Environments Emphasis Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "Explicit approved emphasis list from the uploaded Ceramic Engineering catalog scrape.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 61,
+    "course_group_code": "CHEMENG_5XXX_ELECTIVES_2026",
+    "course_group_name": "Chemical Engineering Senior Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "12 credits from CHEM ENG 5XXX or BME 5XXX; catalog permits certain additional approved courses and limits research/special problems.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 62,
+    "course_group_code": "CHEMENG_BIOCHEM_SCI_LECTURES_2026",
+    "course_group_name": "Biochemical Engineering Science Lecture Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Choose three lecture courses from the catalog list.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 63,
+    "course_group_code": "CHEMENG_BIOCHEM_SCI_LABS_2026",
+    "course_group_name": "Biochemical Engineering Science Laboratory Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Choose at least two laboratory courses from the catalog list.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 64,
+    "course_group_code": "CHEM_BA_BIO_ELECTIVE_2026",
+    "course_group_name": "Chemistry BA Biological Science Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "Active positive-credit BIO SCI courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 65,
+    "course_group_code": "CHEM_BA_HFA_2026",
+    "course_group_name": "Chemistry BA Humanities and Fine Arts Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Prototype pool for the BA humanities/fine-arts elective requirement.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 66,
+    "course_group_code": "CHEM_BA_SOCSCI_2026",
+    "course_group_name": "Chemistry BA Behavioral and Social Science Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Prototype pool for the BA behavioral/social-science elective requirement.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 67,
+    "course_group_code": "CHEM_BA_LANGUAGE_2026",
+    "course_group_name": "Chemistry BA Foreign Language",
+    "course_group_type": "ELECTIVE",
+    "description": "Active courses in the catalog language subjects.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 68,
+    "course_group_code": "CHEM_BA_UPPER_CHEM_2026",
+    "course_group_name": "Chemistry BA Chemistry Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "CHEM courses at 3000-level or above.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 69,
+    "course_group_code": "CHEM_BIOCHEM_TECH_2026",
+    "course_group_name": "Chemistry Biochemistry Upper Technical Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "Conservative chemistry-only pool for the catalog's upper technical elective; other technical areas require department permission.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 70,
+    "course_group_code": "CHEM_MINOR_EXTRA_2026",
+    "course_group_name": "Chemistry Minor Additional Coursework",
+    "course_group_type": "ELECTIVE",
+    "description": "CHEM 1510 or additional CHEM 2000/3000/4000-level courses, excluding the minor's required core.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 71,
+    "course_group_code": "CIV_DEPTH_CONSTRUCTION_2026",
+    "course_group_name": "Civil Engineering - Construction Area",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog course listing by Civil Engineering area; useful for depth planning.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 72,
+    "course_group_code": "CIV_DEPTH_MATERIALS_2026",
+    "course_group_name": "Civil Engineering - Materials Area",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog course listing by Civil Engineering area; useful for depth planning.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 73,
+    "course_group_code": "CIV_DEPTH_ENVIRONMENTAL_2026",
+    "course_group_name": "Civil Engineering - Environmental Area",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog course listing by Civil Engineering area; useful for depth planning.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 74,
+    "course_group_code": "CIV_DEPTH_GEOTECH_2026",
+    "course_group_name": "Civil Engineering - Geotechnical Area",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog course listing by Civil Engineering area; useful for depth planning.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 75,
+    "course_group_code": "CIV_DEPTH_WATER_2026",
+    "course_group_name": "Civil Engineering - Water Resources Area",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog course listing by Civil Engineering area; useful for depth planning.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 76,
+    "course_group_code": "CIV_DEPTH_STRUCTURAL_2026",
+    "course_group_name": "Civil Engineering - Structural Area",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog course listing by Civil Engineering area; useful for depth planning.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 77,
+    "course_group_code": "CIV_DEPTH_TRANSPORT_2026",
+    "course_group_name": "Civil Engineering - Transportation Area",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog course listing by Civil Engineering area; useful for depth planning.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 78,
+    "course_group_code": "CIV_DEPTH_ALL_2026",
+    "course_group_name": "Civil Engineering Depth Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Union of all catalog-listed Civil Engineering areas.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 79,
+    "course_group_code": "CIV_TECH_CONSERVATIVE_2026",
+    "course_group_name": "Civil Engineering Technical Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Conservative prototype pool using the catalog's listed Civil Engineering area courses because the source defers detailed technical-elective approval to advising.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 80,
+    "course_group_code": "CEM_MINOR_BLOCK1_2026",
+    "course_group_name": "Construction Engineering & Management Minor - 3 Credit Block",
+    "course_group_type": "ELECTIVE",
+    "description": "Choose 3 credits from the first catalog list.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 81,
+    "course_group_code": "CEM_MINOR_BLOCK2_2026",
+    "course_group_name": "Construction Engineering & Management Minor - 6 Credit Block A",
+    "course_group_type": "ELECTIVE",
+    "description": "Choose 6 credits from the second catalog list.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 82,
+    "course_group_code": "CEM_MINOR_BLOCK3_2026",
+    "course_group_name": "Construction Engineering & Management Minor - 6 Credit Block B",
+    "course_group_type": "ELECTIVE",
+    "description": "Choose 6 credits from the third catalog list.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 83,
+    "course_group_code": "COMPENG_MATH_ELECTIVES_2026",
+    "course_group_name": "Computer Engineering Mathematics Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-approved mathematics/statistics list.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 84,
+    "course_group_code": "COMPENG_AB_ELECTIVES_2026",
+    "course_group_name": "Computer Engineering Electives A/B",
+    "course_group_type": "ELECTIVE",
+    "description": "4XXX/5XXX COMP ENG courses excluding design, research, special problems and other catalog exclusions; two courses should be from different emphasis areas.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 85,
+    "course_group_code": "COMPENG_C_ELECTIVES_2026",
+    "course_group_name": "Computer Engineering Elective C",
+    "course_group_type": "ELECTIVE",
+    "description": "3XXX+ COMP ENG, ELEC ENG, or COMP SCI with catalog exclusions.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 86,
+    "course_group_code": "COMPENG_DE_ELECTIVES_2026",
+    "course_group_name": "Computer Engineering Electives D/E",
+    "course_group_type": "ELECTIVE",
+    "description": "Conservative STEM 3XXX+ pool; catalog says most approved 3XXX-5XXX science, mathematics, and engineering courses, subject to exclusions/approval.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 87,
+    "course_group_code": "COMPENG_PRODEV_2026",
+    "course_group_name": "Computer Engineering Professional Development Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-approved professional-development courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 88,
+    "course_group_code": "COMPENG_CI_POOL_2026",
+    "course_group_name": "Computer Engineering Computational Intelligence Emphasis",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog range-based emphasis course pool.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 89,
+    "course_group_code": "COMPENG_CHIPS_POOL_2026",
+    "course_group_name": "Computer Engineering Chips/Semiconductor Emphasis",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog range-based emphasis course pool.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 90,
+    "course_group_code": "COMPENG_ECSD_POOL_2026",
+    "course_group_name": "Computer Engineering Electronic Computer System Design Emphasis",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog range-based emphasis course pool.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 91,
+    "course_group_code": "COMPENG_NETWORKS_POOL_2026",
+    "course_group_name": "Computer Engineering Networks/Cyber Physical Systems Emphasis",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog range-based emphasis course pool.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 92,
+    "course_group_code": "COMPENG_MINOR_EXTRA_2026",
+    "course_group_name": "Computer Engineering Minor Additional Upper-Level Course",
+    "course_group_type": "ELECTIVE",
+    "description": "Additional 4XXX+ COMP ENG, ELEC ENG, or COMP SCI course excluding senior design, special problems and undergraduate research.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 93,
+    "course_group_code": "COMPSCI_NATSCI_2026",
+    "course_group_name": "Computer Science Natural Science Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "Conservative natural-science pool in BIO SCI, CHEM, GEOLOGY, GEOPHYS, and PHYSICS.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 94,
+    "course_group_code": "COMPSCI_SCIENG_2026",
+    "course_group_name": "Computer Science Science/Engineering Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Conservative science/engineering pool matching the catalog's department-level rule.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 95,
+    "course_group_code": "COMPSCI_ELECTIVES_2026",
+    "course_group_name": "Computer Science Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Eligible COMP SCI electives excluding catalog-disallowed courses and x9xx courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 96,
+    "course_group_code": "COMPSCI_ELECTIVES_5000_2026",
+    "course_group_name": "Computer Science 5000-Level Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Eligible COMP SCI electives at 5000-level or higher.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 97,
+    "course_group_code": "COMPSCI_AI_CHOICE_2026",
+    "course_group_name": "Computer Science AI Emphasis Advanced Choices",
+    "course_group_type": "ELECTIVE",
+    "description": "COMP SCI 44XX/54XX except 5405/5406/5407, plus department-approved COMP SCI 5001.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 98,
+    "course_group_code": "COMPSCI_MINOR_EXTRA_2026",
+    "course_group_name": "Computer Science Minor Additional Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "Additional COMP SCI coursework excluding the listed disallowed courses and all x9xx courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 99,
+    "course_group_code": "ECON_MAJOR_ELECTIVES_2026",
+    "course_group_name": "Economics Major Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "ECON courses at 2000+ excluding the required core.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 100,
+    "course_group_code": "ECON_SCIENCE_LAB_2026",
+    "course_group_name": "Economics Science Laboratory",
+    "course_group_type": "ELECTIVE",
+    "description": "Prototype one-credit or higher laboratory pool in living/physical sciences.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 101,
+    "course_group_code": "ECON_CHEM_GEOL_PHYS_2026",
+    "course_group_name": "Economics Chemistry/Geology/Physics Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "Active positive-credit CHEM, GEOLOGY, or PHYSICS courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 102,
+    "course_group_code": "QUANT_ECON_ANALYTICS_2026",
+    "course_group_name": "Quantitative Economics Analytics Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "ECON 5360 and ECON 5380.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 103,
+    "course_group_code": "QUANT_ECON_FLEX_2026",
+    "course_group_name": "Quantitative Economics Flexible Coursework",
+    "course_group_type": "ELECTIVE",
+    "description": "Analytics courses plus ENG MGT 1210, ECON 2100/2200, and ECON 3000+ electives used to reach 17-18 credits.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 104,
+    "course_group_code": "EE_ABC_ELECTIVES_2026",
+    "course_group_name": "Electrical Engineering Electives A/B/C",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-approved A/B/C pool; at most one 56XX course may be used.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 105,
+    "course_group_code": "EE_D_ELECTIVE_2026",
+    "course_group_name": "Electrical Engineering Elective D",
+    "course_group_type": "ELECTIVE",
+    "description": "4XXX+ ELEC ENG or COMP ENG lecture-oriented pool with catalog exclusions.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 106,
+    "course_group_code": "EE_E_ELECTIVE_2026",
+    "course_group_name": "Electrical Engineering Elective E",
+    "course_group_type": "ELECTIVE",
+    "description": "3XXX+ ELEC ENG or COMP ENG pool with catalog exclusions.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 107,
+    "course_group_code": "EE_PRODEV_2026",
+    "course_group_name": "Electrical Engineering Professional Development Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-approved professional-development courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 108,
+    "course_group_code": "EE_CIRCUITS_POOL_2026",
+    "course_group_name": "EE Circuits and Electronics Emphasis",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog range-based Electrical Engineering emphasis pool.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 109,
+    "course_group_code": "EE_COMM_POOL_2026",
+    "course_group_name": "EE Communications and Signal Processing Emphasis",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog range-based Electrical Engineering emphasis pool.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 110,
+    "course_group_code": "EE_COMPENG_POOL_2026",
+    "course_group_name": "EE Computer Engineering Emphasis",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog range-based Electrical Engineering emphasis pool.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 111,
+    "course_group_code": "EE_CONTROLS_POOL_2026",
+    "course_group_name": "EE Controls and Systems Emphasis",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog range-based Electrical Engineering emphasis pool.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 112,
+    "course_group_code": "EE_EMAG_POOL_2026",
+    "course_group_name": "EE Electromagnetics Emphasis",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog range-based Electrical Engineering emphasis pool.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 113,
+    "course_group_code": "EE_OPTICS_POOL_2026",
+    "course_group_name": "EE Optics and Devices Emphasis",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog range-based Electrical Engineering emphasis pool.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 114,
+    "course_group_code": "EE_POWER_POOL_2026",
+    "course_group_name": "EE Power and Energy Emphasis",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog range-based Electrical Engineering emphasis pool.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 115,
+    "course_group_code": "EE_MINOR_ALL_2026",
+    "course_group_name": "Electrical Engineering Minor Additional Coursework",
+    "course_group_type": "ELECTIVE",
+    "description": "12 additional hours of eligible ELEC ENG coursework.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 116,
+    "course_group_code": "EE_MINOR_3000_LECTURE_2026",
+    "course_group_name": "Electrical Engineering Minor 3000+ Lecture Coursework",
+    "course_group_type": "ELECTIVE",
+    "description": "Eligible 3000+ ELEC ENG courses with laboratory-titled courses excluded as a prototype lecture proxy.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 117,
+    "course_group_code": "EE_MINOR_4000_LECTURE_2026",
+    "course_group_name": "Electrical Engineering Minor 4000+ Lecture Coursework",
+    "course_group_type": "ELECTIVE",
+    "description": "Eligible 4000+ ELEC ENG courses with laboratory-titled courses excluded as a prototype lecture proxy.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 118,
+    "course_group_code": "AUTOMATION_ELECTIVES_2026",
+    "course_group_name": "Automation Engineering Minor Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-listed automation electives.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 119,
+    "course_group_code": "ENGMGT_TECH_2026",
+    "course_group_name": "Engineering Management Technical Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Active ENG MGT 3000+ courses excluding core courses where practical.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 120,
+    "course_group_code": "ENGMGT_ENGINEERING_AREA_2026",
+    "course_group_name": "Engineering Management General Emphasis Engineering Area",
+    "course_group_type": "ELECTIVE",
+    "description": "Engineering-discipline courses used for the customizable General emphasis.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 121,
+    "course_group_code": "ENGMGT_MINOR_FIRST_2026",
+    "course_group_name": "Engineering Management Minor First Requirement",
+    "course_group_type": "ELECTIVE",
+    "description": "ENG MGT 1210 or another ENG MGT 1000-5000-level course other than ENG MGT 1100.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 122,
+    "course_group_code": "ENVENG_DEPTH_2026",
+    "course_group_name": "Environmental Engineering Depth Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-listed depth electives.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 123,
+    "course_group_code": "ENVENG_TECH_2026",
+    "course_group_name": "Environmental Engineering Technical Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-listed technical electives.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 124,
+    "course_group_code": "ENVENG_AIR_2026",
+    "course_group_name": "Environmental Engineering Air Pollution Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "ENV ENG 5660, 5662, or 5665.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 125,
+    "course_group_code": "ENVSCI_UPPER_2026",
+    "course_group_name": "Environmental Science Upper Division Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog upper-division elective list.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 126,
+    "course_group_code": "FR_MINOR_ALL_2026",
+    "course_group_name": "French Minor Course Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "All active positive-credit FRENCH courses usable toward the 18-credit minor.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 127,
+    "course_group_code": "FR_MINOR_3000_2026",
+    "course_group_name": "French Minor 3000+ Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "FRENCH courses at the 3000 level or above; minimum six hours required.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 128,
+    "course_group_code": "FR_MINOR_4000_2026",
+    "course_group_name": "French Minor 4000+ Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "FRENCH courses at the 4000 level or above; at least one course required.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 129,
+    "course_group_code": "GER_MINOR_ALL_2026",
+    "course_group_name": "German Minor Course Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "All active positive-credit GERMAN courses usable toward the 18-credit minor.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 130,
+    "course_group_code": "GER_MINOR_3000_2026",
+    "course_group_name": "German Minor 3000+ Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "GERMAN courses at the 3000 level or above; minimum six hours required.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 131,
+    "course_group_code": "GER_MINOR_4000_2026",
+    "course_group_name": "German Minor 4000+ Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "GERMAN courses at the 4000 level or above; at least one course required.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 132,
+    "course_group_code": "RUS_MINOR_ALL_2026",
+    "course_group_name": "Russian Minor Course Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "All active positive-credit RUSSIAN courses usable toward the 18-credit minor.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 133,
+    "course_group_code": "RUS_MINOR_3000_2026",
+    "course_group_name": "Russian Minor 3000+ Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "RUSSIAN courses at the 3000 level or above; minimum six hours required.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 134,
+    "course_group_code": "RUS_MINOR_4000_2026",
+    "course_group_name": "Russian Minor 4000+ Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "RUSSIAN courses at the 4000 level or above; at least one course required.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 135,
+    "course_group_code": "SPA_MINOR_ALL_2026",
+    "course_group_name": "Spanish Minor Course Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "All active positive-credit SPANISH courses usable toward the 18-credit minor.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 136,
+    "course_group_code": "SPA_MINOR_3000_2026",
+    "course_group_name": "Spanish Minor 3000+ Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "SPANISH courses at the 3000 level or above; minimum six hours required.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 137,
+    "course_group_code": "SPA_MINOR_4000_2026",
+    "course_group_name": "Spanish Minor 4000+ Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "SPANISH courses at the 4000 level or above; at least one course required.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 138,
+    "course_group_code": "EXPENG_MINOR_OTHER_2026",
+    "course_group_name": "Explosives Engineering Minor Approved Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Prototype pool for the three additional explosives-related courses. Includes EXP ENG 3000+ and MIN ENG courses whose catalog text indicates explosives, blasting, or tunneling; coordinator approval remains an administrative check.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 139,
+    "course_group_code": "GEOENG_TECH_2026",
+    "course_group_name": "Geological Engineering Technical Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Advanced engineering courses approved by the advisor. Prototype materializes active 3000+ engineering courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 140,
+    "course_group_code": "GEOENG_GEOPHYS_2026",
+    "course_group_name": "Geological Engineering Geophysics Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-listed geophysics elective choices.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 141,
+    "course_group_code": "GEOENG_FIELD_2026",
+    "course_group_name": "Geological Engineering Field Technical Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-listed field technical electives; additional advisor-approved field courses are not enumerated.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 142,
+    "course_group_code": "GEOENG_PROGRAM_ELEC_2026",
+    "course_group_name": "Geological Engineering Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-listed Geological Engineering elective choices.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 143,
+    "course_group_code": "GEOENG_FOCUS_GEOTECH_2026",
+    "course_group_name": "Geoeng Focus Geotech",
+    "course_group_type": "ELECTIVE",
+    "description": "Advisory Geological Engineering focus-area course list. The source says these lists guide elective selection rather than create a separate degree requirement.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 144,
+    "course_group_code": "GEOENG_FOCUS_GEOPHYS_2026",
+    "course_group_name": "Geoeng Focus Geophys",
+    "course_group_type": "ELECTIVE",
+    "description": "Advisory Geological Engineering focus-area course list. The source says these lists guide elective selection rather than create a separate degree requirement.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 145,
+    "course_group_code": "GEOENG_FOCUS_GROUNDWATER_2026",
+    "course_group_name": "Geoeng Focus Groundwater",
+    "course_group_type": "ELECTIVE",
+    "description": "Advisory Geological Engineering focus-area course list. The source says these lists guide elective selection rather than create a separate degree requirement.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 146,
+    "course_group_code": "GEOENG_FOCUS_QUARRY_2026",
+    "course_group_name": "Geoeng Focus Quarry",
+    "course_group_type": "ELECTIVE",
+    "description": "Advisory Geological Engineering focus-area course list. The source says these lists guide elective selection rather than create a separate degree requirement.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 147,
+    "course_group_code": "GEOENG_FOCUS_ENERGY_2026",
+    "course_group_name": "Geoeng Focus Energy",
+    "course_group_type": "ELECTIVE",
+    "description": "Advisory Geological Engineering focus-area course list. The source says these lists guide elective selection rather than create a separate degree requirement.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 148,
+    "course_group_code": "GG_SCIENG_ALL_2026",
+    "course_group_name": "Geology and Geophysics Science/Math/Engineering Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "At least 18 elective hours in science, mathematics, and/or engineering, in addition to the basic program.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 149,
+    "course_group_code": "GG_SCIENG_2000_2026",
+    "course_group_name": "Geology and Geophysics 2000+ Science/Math/Engineering Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Subset of the science/math/engineering elective pool numbered 2000 or above; at least 12 hours.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 150,
+    "course_group_code": "GG_GEO_GEOPHYS_ELEC_2026",
+    "course_group_name": "Geology and Geophysics Major Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Geology/Geophysics courses numbered 2000+ in addition to the required core; 21 hours required.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 151,
+    "course_group_code": "GG_FOCUS_GEOCHEM_2026",
+    "course_group_name": "Gg Focus Geochem",
+    "course_group_type": "ELECTIVE",
+    "description": "Advisory Geology and Geophysics focus-area course list. Focus areas guide elective selection and are not created as separate academic_program rows.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 152,
+    "course_group_code": "GG_FOCUS_GENERAL_2026",
+    "course_group_name": "Gg Focus General",
+    "course_group_type": "ELECTIVE",
+    "description": "Advisory Geology and Geophysics focus-area course list. Focus areas guide elective selection and are not created as separate academic_program rows.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 153,
+    "course_group_code": "GG_FOCUS_GEOPHYS_2026",
+    "course_group_name": "Gg Focus Geophys",
+    "course_group_type": "ELECTIVE",
+    "description": "Advisory Geology and Geophysics focus-area course list. Focus areas guide elective selection and are not created as separate academic_program rows.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 154,
+    "course_group_code": "GG_FOCUS_GROUNDWATER_2026",
+    "course_group_name": "Gg Focus Groundwater",
+    "course_group_type": "ELECTIVE",
+    "description": "Advisory Geology and Geophysics focus-area course list. Focus areas guide elective selection and are not created as separate academic_program rows.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 155,
+    "course_group_code": "GG_FOCUS_PETROLEUM_2026",
+    "course_group_name": "Gg Focus Petroleum",
+    "course_group_type": "ELECTIVE",
+    "description": "Advisory Geology and Geophysics focus-area course list. Focus areas guide elective selection and are not created as separate academic_program rows.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 156,
+    "course_group_code": "GEOLOGY_MINOR_1000_3000_2026",
+    "course_group_name": "Geology Minor 1000-3000 Geology Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "Six additional hours from GEOLOGY courses at the 1000, 2000, or 3000 level, excluding the specifically required introductory/mineralogy courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 157,
+    "course_group_code": "GEOLOGY_MINOR_RELATED_2026",
+    "course_group_name": "Geology Minor Approved Related Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-listed geology-related courses approved for the remaining six hours.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 158,
+    "course_group_code": "HISTORY_MINOR_UPPER_2026",
+    "course_group_name": "History Minor 2000+ Sequence Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "Approved HISTORY courses at the 2000 level or above; source requires nine additional hours in an approved sequence.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 159,
+    "course_group_code": "IST_BS_ELECTIVES_2026",
+    "course_group_name": "Information Science and Technology Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "15 hours of advanced IS&T electives. Catalog permits BUS 5730, BUS 5910, COMP SCI 4700, COMP SCI 5601, or any IS&T/ERP course at 3000+.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 39,
+    "course_group_code": "AI_ML_BUS_CHOICES_2026",
+    "course_group_name": "Ai Ml Bus Choices",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-defined candidate pool for the corresponding business-school minor requirement.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 40,
+    "course_group_code": "BUS_ANALYTICS_CHOICES_2026",
+    "course_group_name": "Bus Analytics Choices",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-defined candidate pool for the corresponding business-school minor requirement.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 41,
+    "course_group_code": "DIGITAL_SC_ONE1_2026",
+    "course_group_name": "Digital Sc One1",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-defined candidate pool for the corresponding business-school minor requirement.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 42,
+    "course_group_code": "DIGITAL_SC_ONE2_2026",
+    "course_group_name": "Digital Sc One2",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-defined candidate pool for the corresponding business-school minor requirement.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 43,
+    "course_group_code": "DIGITAL_SC_TWO_2026",
+    "course_group_name": "Digital Sc Two",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-defined candidate pool for the corresponding business-school minor requirement.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 44,
+    "course_group_code": "ERP_ACCOUNTING_2026",
+    "course_group_name": "Erp Accounting",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-defined candidate pool for the corresponding business-school minor requirement.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 45,
+    "course_group_code": "ERP_SYSTEMS_2026",
+    "course_group_name": "Erp Systems",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-defined candidate pool for the corresponding business-school minor requirement.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 47,
+    "course_group_code": "ENTRE_CHOICES_2026",
+    "course_group_name": "Entre Choices",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-defined candidate pool for the corresponding business-school minor requirement.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 48,
+    "course_group_code": "FINANCE_CHOICES_2026",
+    "course_group_name": "Finance Choices",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-defined candidate pool for the corresponding business-school minor requirement.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 49,
+    "course_group_code": "FINTECH_BLOCK2_2026",
+    "course_group_name": "Fintech Block2",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-defined candidate pool for the corresponding business-school minor requirement.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 50,
+    "course_group_code": "FINTECH_BLOCK3_2026",
+    "course_group_name": "Fintech Block3",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-defined candidate pool for the corresponding business-school minor requirement.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 52,
+    "course_group_code": "MGMT_CHOICES_2026",
+    "course_group_name": "Mgmt Choices",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-defined candidate pool for the corresponding business-school minor requirement.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 46,
+    "course_group_code": "ERP_REMAINDER_2026",
+    "course_group_name": "ERP Remaining Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Remainder needed to reach 15 credits from ERP 3XXX/4XXX/5XXX or IS&T 4444.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 51,
+    "course_group_code": "IST_EXTRA_2026",
+    "course_group_name": "IST/ERP 2000+ Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "One additional IS&T or ERP course at the 2000 level or above.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 53,
+    "course_group_code": "MKT_CHOICES_2026",
+    "course_group_name": "Marketing Choice Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "Explicit marketing electives plus any other department-approved MKT 3000+ course.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 175,
+    "course_group_code": "MATH_SCIENCE_2026",
+    "course_group_name": "Applied Mathematics Science Requirement",
+    "course_group_type": "ELECTIVE",
+    "description": "One science course from BIO SCI 1113+, CHEM 1301+, or GEOLOGY 1110+.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 176,
+    "course_group_code": "MATH_BEHAVIORAL_2026",
+    "course_group_name": "Applied Mathematics Behavioral and Social Sciences",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-listed Behavioral and Social Sciences choices.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 177,
+    "course_group_code": "MATH_HFA_2026",
+    "course_group_name": "Applied Mathematics Humanities and Fine Arts",
+    "course_group_type": "ELECTIVE",
+    "description": "Two courses / six credits from two different listed disciplines.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 178,
+    "course_group_code": "MATH_HASS_2026",
+    "course_group_name": "Applied Mathematics Additional HASS",
+    "course_group_type": "ELECTIVE",
+    "description": "Three additional HASS credits from the catalog-listed humanities, arts and social-science disciplines.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 179,
+    "course_group_code": "MATH_MATH_ELECTIVE_2026",
+    "course_group_name": "Applied Mathematics Mathematics Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "One course from MATH 4211, 5105, 5215, or 5585.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 180,
+    "course_group_code": "MATH_STAT_ELECTIVE_2026",
+    "course_group_name": "Applied Mathematics Statistics Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "Any STAT lecture course at the 4000 or 5000 level, excluding research. Lecture status is approximated using course_type.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 181,
+    "course_group_code": "MATH_MATHSTAT_ELECTIVE_2026",
+    "course_group_name": "Applied Mathematics Math/Stat Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Three 4000/5000-level MATH or STAT lecture courses; research and seminars are excluded.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 182,
+    "course_group_code": "MATH_CAPSTONE_2026",
+    "course_group_name": "Applied Mathematics Capstone Choices",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-listed capstone courses for Applied Mathematics, excluding the Secondary Education special case.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 183,
+    "course_group_code": "MATH_TECH_2026",
+    "course_group_name": "Applied Mathematics Technical Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Advisor-approved technical electives in catalog-listed disciplines. Base major requires 15 hours.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 184,
+    "course_group_code": "MATH_ACTUARIAL_CHOICES_2026",
+    "course_group_name": "Actuarial Science Additional Statistics",
+    "course_group_type": "ELECTIVE",
+    "description": "Six hours from the catalog-listed actuarial statistics courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 185,
+    "course_group_code": "MATH_COMP_THREE_2026",
+    "course_group_name": "Computational Mathematics Three-Course Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "Select three courses from this computational mathematics list.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 186,
+    "course_group_code": "MATH_COMP_REQUIRED_SUBSET_2026",
+    "course_group_name": "Computational Mathematics Required Subset",
+    "course_group_type": "ELECTIVE",
+    "description": "At least one of MATH 5602 or MATH 5604 must be among the selected three.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 187,
+    "course_group_code": "MATH_SECED_ELECTIVES_2026",
+    "course_group_name": "Applied Mathematics Secondary Education Math/Stat Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Two three-hour courses from the advisor-approved Secondary Education list.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 188,
+    "course_group_code": "MATH_DS_COMP_STATS_2026",
+    "course_group_name": "Data Science and Statistics Computational Statistics",
+    "course_group_type": "ELECTIVE",
+    "description": "Six credits from STAT 5260, 5290, 5814, or another approved computational statistics course; only the explicit catalog list is materialized.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 189,
+    "course_group_code": "MATH_DS_CS_CHOICE_2026",
+    "course_group_name": "Data Science and Statistics Advanced CS Choice",
+    "course_group_type": "ELECTIVE",
+    "description": "One of COMP SCI 5400 or 5402.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 190,
+    "course_group_code": "MATH_MINOR_BASE_EXCL_SPECIAL_2026",
+    "course_group_name": "Mathematics Minor Base Pool Excluding Special STAT Set",
+    "course_group_type": "ELECTIVE",
+    "description": "MATH/STAT lecture courses at 3000+ excluding STAT 3111/3113/3115/3117; used to encode the at-most-one restriction.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 191,
+    "course_group_code": "MATH_MINOR_SPECIAL_STAT_2026",
+    "course_group_name": "Mathematics Minor Special STAT Choices",
+    "course_group_type": "ELECTIVE",
+    "description": "At most one of STAT 3111, 3113, 3115, 3117 may count toward the minor.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 192,
+    "course_group_code": "MATH_MINOR_4000_2026",
+    "course_group_name": "Mathematics Minor 4000+ Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "At least three hours of the minor must be at the 4000 level or above.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 193,
+    "course_group_code": "MECH_ADV_MATHSTAT_2026",
+    "course_group_name": "Mechanical Engineering Advanced Math/Stat Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "MATH 3108, STAT 3113, or any advisor-approved 5000-level MATH/STAT course.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 194,
+    "course_group_code": "MECH_MAE_TECH_2026",
+    "course_group_name": "Mechanical Engineering Department Technical Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Six hours from Mechanical/Aerospace Engineering, excluding co-op, special problems, and research.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 195,
+    "course_group_code": "MECH_MAE_5000_2026",
+    "course_group_name": "Mechanical Engineering 5000-Level Technical Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "At least three of the six department technical-elective hours must be at the 5000 level.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 196,
+    "course_group_code": "MECH_TECH_BROAD_2026",
+    "course_group_name": "Mechanical Engineering General Technical Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "One 3-credit course at 3000+ in math, statistics, science, engineering, or computer science; special problems/research/co-op excluded.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 197,
+    "course_group_code": "MECH_BREADTH_2026",
+    "course_group_name": "Mechanical Engineering Breadth Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "Prototype pool for the 3-credit breadth elective: active 3000+ courses in math/stat/science/engineering/CS/business/IST. Special-problem combinations are not materialized.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 198,
+    "course_group_code": "MECH_ENERGY_A_2026",
+    "course_group_name": "Mechanical Engineering Energy Conversion List A",
+    "course_group_type": "ELECTIVE",
+    "description": "Two courses required from list A.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 199,
+    "course_group_code": "MECH_ENERGY_B_2026",
+    "course_group_name": "Mechanical Engineering Energy Conversion List B",
+    "course_group_type": "ELECTIVE",
+    "description": "One course required from list B.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 200,
+    "course_group_code": "MECH_ENERGY_ABC_2026",
+    "course_group_name": "Mechanical Engineering Energy Conversion Additional Course",
+    "course_group_type": "ELECTIVE",
+    "description": "One additional course from list A, list B, or the catalog's additional energy list.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 201,
+    "course_group_code": "MECH_MANUF_CHOICES_2026",
+    "course_group_name": "Mechanical Engineering Manufacturing Processes Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Three courses required from the catalog list.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 202,
+    "course_group_code": "MECH_DESIGN_LIST_2026",
+    "course_group_name": "Mechanical Design and Analysis - Design Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "One design course required.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 203,
+    "course_group_code": "MECH_ANALYSIS_LIST_2026",
+    "course_group_name": "Mechanical Design and Analysis - Analysis Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "One analysis course required.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 204,
+    "course_group_code": "MECH_DESIGN_ANALYSIS_UNION_2026",
+    "course_group_name": "Mechanical Design and Analysis - Additional Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "Two additional courses from the design or analysis lists.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 205,
+    "course_group_code": "MECH_SYS_MGMT_2026",
+    "course_group_name": "Mechanical Engineering Systems Management Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "One systems-management course.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 206,
+    "course_group_code": "MECH_SYS_TECH_2026",
+    "course_group_name": "Mechanical Engineering Systems Integration Technical Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "One systems-integration technical course.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 207,
+    "course_group_code": "MET_OUTDEPT_TECH_2026",
+    "course_group_name": "Metallurgical Engineering Out-of-Department Technical Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-listed out-of-department technical elective choices.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 208,
+    "course_group_code": "MET_OUTPROGRAM_TECH_2026",
+    "course_group_name": "Metallurgical Engineering Out-of-Program Technical Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "Any out-of-department technical elective or eligible CER ENG/MS&E/SEMI ENG course at 2000 with prerequisites or at 3000+.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 209,
+    "course_group_code": "MET_STEEL_2026",
+    "course_group_name": "Metallurgical Engineering Steel Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "One of Steelmaking or Steels and Their Treatment.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 210,
+    "course_group_code": "MET_TECH_2026",
+    "course_group_name": "Metallurgical Engineering Technical Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Six credits from other active MET ENG courses at the 3000 level or above.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 211,
+    "course_group_code": "MINENG_TECH_2026",
+    "course_group_name": "Mining Engineering Technical Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Six technical-elective credits. The catalog associates these slots with the listed emphasis requirements; this conservative pool is the union of published emphasis courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 212,
+    "course_group_code": "MINENG_MINOR_ELECTIVES_2026",
+    "course_group_name": "Mining Engineering Minor Additional Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "Two additional MIN ENG 3000/4000/5000-level lecture courses, or other advisor-approved relevant courses. Prototype materializes MIN ENG courses only.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 218,
+    "course_group_code": "MUSIC_MINOR_ENSEMBLE_2026",
+    "course_group_name": "Music Minor Ensemble Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "Band, choir, and orchestra ensemble courses; three ensemble course enrollments are required.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 219,
+    "course_group_code": "MUSIC_MINOR_ACADEMIC_2026",
+    "course_group_name": "Music Minor Academic Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "Twelve credits from the catalog-listed Music minor courses. Advisor substitutions are not materialized.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 220,
+    "course_group_code": "NUC_PROG_MATHSTAT_2026",
+    "course_group_name": "Nuclear Engineering Computing/Math/Statistics Choice",
+    "course_group_type": "ELECTIVE",
+    "description": "COMP SCI 3200, a 3000+ MATH course, or a 5000+ STAT course.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 221,
+    "course_group_code": "NUCENG_ELECTIVES_2026",
+    "course_group_name": "Nuclear Engineering Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Six credits from NUC ENG courses at the 4000 level or above, excluding courses already explicitly required/used as required alternatives.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 222,
+    "course_group_code": "NUC_TECH_3000_2026",
+    "course_group_name": "Nuclear Engineering Technical Electives 3000+",
+    "course_group_type": "ELECTIVE",
+    "description": "Two technical electives (six credits) in Math, Science, or Engineering; both are modeled at 3000+ and one must also meet the 4000+ subset.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 223,
+    "course_group_code": "NUC_TECH_4000_2026",
+    "course_group_name": "Nuclear Engineering Technical Elective 4000+",
+    "course_group_type": "ELECTIVE",
+    "description": "At least one of the technical electives must be at the 4000 level or above.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 224,
+    "course_group_code": "NUC_MINOR_ELECTIVES_2026",
+    "course_group_name": "Nuclear Engineering Minor Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Nine additional hours from NUC ENG courses at the 3000 level or above, excluding the two explicitly required minor courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 225,
+    "course_group_code": "PETENG_ELECTIVES_2026",
+    "course_group_name": "Petroleum Engineering Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-listed Petroleum Engineering elective choices.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 226,
+    "course_group_code": "GEOENG_MINOR_ELECT_2026",
+    "course_group_name": "Geological Engineering Minor Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "One advisor-approved GEO ENG elective; prototype materializes active GEO ENG 3000+ courses excluding the fixed minor requirements.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 227,
+    "course_group_code": "MINENG_QUARRY_CHOICES_2026",
+    "course_group_name": "Mining Engineering Quarrying Emphasis Choices",
+    "course_group_type": "ELECTIVE",
+    "description": "Choose two of CIV ENG 3116, MIN ENG 5212, MIN ENG 5412 for the Quarrying Engineering emphasis.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 228,
+    "course_group_code": "MATH_SECED_HFA_2026",
+    "course_group_name": "Applied Mathematics Secondary Education Humanities and Fine Arts",
+    "course_group_type": "ELECTIVE",
+    "description": "One 3-credit course from ART 1180, MUSIC 1150, THEATRE 1150, or listed ENGLISH literature courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 229,
+    "course_group_code": "PETENG_MINOR_ELECTIVES_2026",
+    "course_group_name": "Petroleum Engineering Minor Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Two additional elective courses totaling 6 credits from PET ENG and/or GEOLOGY 5513; fixed minor courses are excluded from double use.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 230,
+    "course_group_code": "ETHICS_MINOR_ALL_2026",
+    "course_group_name": "Ethics Minor Approved Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-listed Ethics Minor courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 231,
+    "course_group_code": "ETHICS_MINOR_4000_2026",
+    "course_group_name": "Ethics Minor 4000-Level Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "4000-level subset of the catalog Ethics Minor list.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 232,
+    "course_group_code": "PHILOS_MINOR_ALL_2026",
+    "course_group_name": "Philosophy Minor Additional Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "Active positive-credit PHILOS courses other than PHILOS 1105.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 233,
+    "course_group_code": "PHILOS_MINOR_4000_2026",
+    "course_group_name": "Philosophy Minor 4000-Level Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "Active positive-credit PHILOS courses at 4000 level or above.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 234,
+    "course_group_code": "PHILOS_TECH_PRIMARY_2026",
+    "course_group_name": "Philosophy of Technology Primary Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "Primary choose-at-least-two list from the catalog.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 235,
+    "course_group_code": "PHILOS_TECH_PRIMARY_PHILOS_2026",
+    "course_group_name": "Philosophy of Technology Primary Philosophy Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "PHILOS subset of the primary list; at least one is required.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 236,
+    "course_group_code": "PHILOS_TECH_ALL_2026",
+    "course_group_name": "Philosophy of Technology Approved Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "Union of mandatory, primary, and additional published courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 237,
+    "course_group_code": "PHILOS_TECH_PHILOS_2026",
+    "course_group_name": "Philosophy of Technology Philosophy Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "PHILOS subset of all approved courses; at least 9 credits are required.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 238,
+    "course_group_code": "PHYSICS_BS_HUMANITIES_2026",
+    "course_group_name": "Physics BS Humanities Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "Prototype subject-based humanities pool for the Physics requirement of 12 humanities credits, exclusive of foreign language. The supplied Physics scrape does not enumerate the full approved course list.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 239,
+    "course_group_code": "PHYSICS_BS_SOCSCI_2026",
+    "course_group_name": "Physics BS Social Sciences Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "Prototype subject-based social-science pool for the Physics requirement of 9 social-science credits. HISTORY and POL SCI are included because the supplied Physics scrape explicitly places the Williams-law choice inside this social-science requirement.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 240,
+    "course_group_code": "PHYSICS_BS_MATHSTAT_2026",
+    "course_group_name": "Physics BS Mathematics/Statistics Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "MATH/STAT courses at 3000 level or above excluding MATH 3304.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 241,
+    "course_group_code": "PHYSICS_BS_FOCUS_2026",
+    "course_group_name": "Physics BS Area Focus Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "PHYSICS 4323, 4553, 4333, and 4343.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 242,
+    "course_group_code": "PHYSICS_BS_OTHER_PHYS_2026",
+    "course_group_name": "Physics BS Additional Advanced Physics",
+    "course_group_type": "ELECTIVE",
+    "description": "PHYSICS courses at 3000 level or above excluding the fixed advanced core and focus courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 243,
+    "course_group_code": "PHYSICS_SECED_REMAIN_PHYS_2026",
+    "course_group_name": "Physics Secondary Education Remaining Physics Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "Advanced physics candidates remaining after the catalog substitution of six physics elective hours.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 244,
+    "course_group_code": "PHYSICS_SECED_ART_2026",
+    "course_group_name": "Physics Secondary Education Art/Music/Theater Elective",
+    "course_group_type": "ELECTIVE",
+    "description": "Active positive-credit ART, MUSIC, or THEATRE courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 245,
+    "course_group_code": "PHYSICS_SECED_REQUIRED_ENVPHYS_2026",
+    "course_group_name": "Physics Secondary Education Required Environmental Physics",
+    "course_group_type": "ELECTIVE",
+    "description": "Dedicated group for required PHYSICS 1605. It remains empty until PHYSICS 1605 exists in courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 246,
+    "course_group_code": "PHYSICS_MINOR_2000PLUS_2026",
+    "course_group_name": "Physics Minor Additional 2000+ Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "Additional active positive-credit PHYSICS courses at 2000 level or above, excluding the introductory and modern-physics requirement options.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 247,
+    "course_group_code": "POLSCI_MINOR_UPPER_2026",
+    "course_group_name": "Political Science Minor Upper-Level Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "Prototype upper-level pool: active positive-credit POL SCI courses at 2000 level or above.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 248,
+    "course_group_code": "PREMED_ONE_OF_2026",
+    "course_group_name": "Pre-Medicine Minor Advanced Choice",
+    "course_group_type": "ELECTIVE",
+    "description": "One of BIO SCI 2223, BIO SCI 3333, BIO SCI 3343, or CHEM 4610.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 249,
+    "course_group_code": "PSYCH_MINOR_ALL_2026",
+    "course_group_name": "Psychology Minor Course Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "All active positive-credit PSYCH courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 250,
+    "course_group_code": "PSYCH_MINOR_3000PLUS_2026",
+    "course_group_name": "Psychology Minor 3000+ Course Pool",
+    "course_group_type": "ELECTIVE",
+    "description": "Active positive-credit PSYCH courses at 3000 level or above.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 251,
+    "course_group_code": "PSYCH_HF_TWO_2026",
+    "course_group_name": "Human Factors Psychology Choose Two",
+    "course_group_type": "ELECTIVE",
+    "description": "PSYCH 4411, 4720, or 4700.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 252,
+    "course_group_code": "PSYCH_IO_TWO_2026",
+    "course_group_name": "Industrial/Organizational Psychology Choose Two",
+    "course_group_type": "ELECTIVE",
+    "description": "PSYCH 4600, 4500, 4601, or 4610.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 253,
+    "course_group_code": "PSYCH_HEALTH_THREE_2026",
+    "course_group_name": "Psychology for Health Care Choose Three",
+    "course_group_type": "ELECTIVE",
+    "description": "PSYCH 4410, 4501, 3501, 4510, or 4990.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 254,
+    "course_group_code": "PSYCH_LEAD_THREE_2026",
+    "course_group_name": "Psychology of Leadership Choose Three",
+    "course_group_type": "ELECTIVE",
+    "description": "PSYCH 4600, 4601, 4602, 4992, or 4993.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 255,
+    "course_group_code": "PSYCH_COGNEURO_TWO_2026",
+    "course_group_name": "Cognitive Neuroscience Choose Two",
+    "course_group_type": "ELECTIVE",
+    "description": "PSYCH 4411, 4501, or 3501.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 213,
+    "course_group_code": "MCD_ALP_2026",
+    "course_group_name": "Multiculturalism & Diversity - Arts, Languages & Philosophy",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-listed courses from this HSS category.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 214,
+    "course_group_code": "MCD_ETC_2026",
+    "course_group_name": "Multiculturalism & Diversity - English & Technical Communication",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-listed courses from this HSS category.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 215,
+    "course_group_code": "MCD_HISTPOL_2026",
+    "course_group_name": "Multiculturalism & Diversity - History & Political Science",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-listed courses from this HSS category.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 216,
+    "course_group_code": "MCD_PSYCH_2026",
+    "course_group_name": "Multiculturalism & Diversity - Psychological Science",
+    "course_group_type": "ELECTIVE",
+    "description": "Catalog-listed courses from this HSS category.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 217,
+    "course_group_code": "MCD_ALL_2026",
+    "course_group_name": "Multiculturalism & Diversity Approved Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "Union of all catalog-listed Multiculturalism & Diversity courses.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 261,
+    "course_group_code": "COMM_STUDIES_ELECTIVES_2026",
+    "course_group_name": "Communication Studies Minor Electives",
+    "course_group_type": "ELECTIVE",
+    "description": "Published Communication Studies elective list.",
+    "is_active": true
+  },
+  {
+    "course_group_id": 262,
+    "course_group_code": "LEAD_COMM_ELECTIVES_2026",
+    "course_group_name": "Leadership Communication Minor Courses",
+    "course_group_type": "ELECTIVE",
+    "description": "Five published Leadership Communication courses; 12 credits are required.",
+    "is_active": true
   }
 ]

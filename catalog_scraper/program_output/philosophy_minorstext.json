@@ -1,0 +1,1065 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/philosophy/#minorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/philosophy/",
+        "fragment": "minorstext",
+        "page_slug": "philosophy",
+        "page_title": "Philosophy < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 2067,
+        "html_character_count": 8104,
+        "heading_count": 3,
+        "paragraph_count": 2,
+        "list_count": 2,
+        "table_count": 2,
+        "link_count": 24,
+        "superscript_count": 0,
+        "text_sha256": "edff9e53872584453221d0e50a988c51fb8a0277b88561a946883e685b8c56ac",
+        "html_sha256": "35fd567f97c8e1b2aaae1fe5ed31eb7d132621e7214b00a814728e3e7047c204"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Ethics Minor",
+            "id": null
+        },
+        {
+            "number": 2,
+            "level": "h2",
+            "text": "Philosophy Minor",
+            "id": null
+        },
+        {
+            "number": 3,
+            "level": "h2",
+            "text": "Philosophy of Technology Minor",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "PHILOS 1105",
+            "href": "/search/?P=PHILOS%201105",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%201105",
+            "resolved_course": "PHILOS 1105"
+        },
+        {
+            "number": 2,
+            "text": "PHILOS 1115",
+            "href": "/search/?P=PHILOS%201115",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%201115",
+            "resolved_course": "PHILOS 1115"
+        },
+        {
+            "number": 3,
+            "text": "PHILOS 1130",
+            "href": "/search/?P=PHILOS%201130",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%201130",
+            "resolved_course": "PHILOS 1130"
+        },
+        {
+            "number": 4,
+            "text": "PHILOS 1175",
+            "href": "/search/?P=PHILOS%201175",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%201175",
+            "resolved_course": "PHILOS 1175"
+        },
+        {
+            "number": 5,
+            "text": "PHILOS 3223",
+            "href": "/search/?P=PHILOS%203223",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%203223",
+            "resolved_course": "PHILOS 3223"
+        },
+        {
+            "number": 6,
+            "text": "PHILOS 3225",
+            "href": "/search/?P=PHILOS%203225",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%203225",
+            "resolved_course": "PHILOS 3225"
+        },
+        {
+            "number": 7,
+            "text": "PHILOS 3235",
+            "href": "/search/?P=PHILOS%203235",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%203235",
+            "resolved_course": "PHILOS 3235"
+        },
+        {
+            "number": 8,
+            "text": "PHILOS 4335",
+            "href": "/search/?P=PHILOS%204335",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%204335",
+            "resolved_course": "PHILOS 4335"
+        },
+        {
+            "number": 9,
+            "text": "PHILOS 4340",
+            "href": "/search/?P=PHILOS%204340",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%204340",
+            "resolved_course": "PHILOS 4340"
+        },
+        {
+            "number": 10,
+            "text": "PHILOS 4350",
+            "href": "/search/?P=PHILOS%204350",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%204350",
+            "resolved_course": "PHILOS 4350"
+        },
+        {
+            "number": 11,
+            "text": "PHILOS 4360",
+            "href": "/search/?P=PHILOS%204360",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%204360",
+            "resolved_course": "PHILOS 4360"
+        },
+        {
+            "number": 12,
+            "text": "PHILOS 4368",
+            "href": "/search/?P=PHILOS%204368",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%204368",
+            "resolved_course": "PHILOS 4368"
+        },
+        {
+            "number": 13,
+            "text": "PHILOS 1105",
+            "href": "/search/?P=PHILOS%201105",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%201105",
+            "resolved_course": "PHILOS 1105"
+        },
+        {
+            "number": 14,
+            "text": "PHILOS 1105",
+            "href": "/search/?P=PHILOS%201105",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%201105",
+            "resolved_course": "PHILOS 1105"
+        },
+        {
+            "number": 15,
+            "text": "PHILOS 1115",
+            "href": "/search/?P=PHILOS%201115",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%201115",
+            "resolved_course": "PHILOS 1115"
+        },
+        {
+            "number": 16,
+            "text": "PHILOS 3277",
+            "href": "/search/?P=PHILOS%203277",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%203277",
+            "resolved_course": "PHILOS 3277"
+        },
+        {
+            "number": 17,
+            "text": "PHILOS 4320",
+            "href": "/search/?P=PHILOS%204320",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%204320",
+            "resolved_course": "PHILOS 4320"
+        },
+        {
+            "number": 18,
+            "text": "PHILOS 4345",
+            "href": "/search/?P=PHILOS%204345",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%204345",
+            "resolved_course": "PHILOS 4345"
+        },
+        {
+            "number": 19,
+            "text": "HISTORY 4550",
+            "href": "/search/?P=HISTORY%204550",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%204550",
+            "resolved_course": "HISTORY 4550"
+        },
+        {
+            "number": 20,
+            "text": "PHILOS 1105",
+            "href": "/search/?P=PHILOS%201105",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%201105",
+            "resolved_course": "PHILOS 1105"
+        },
+        {
+            "number": 21,
+            "text": "BIO SCI 1163",
+            "href": "/search/?P=BIO%20SCI%201163",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201163",
+            "resolved_course": "BIO SCI 1163"
+        },
+        {
+            "number": 22,
+            "text": "PHILOS 3223",
+            "href": "/search/?P=PHILOS%203223",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%203223",
+            "resolved_course": "PHILOS 3223"
+        },
+        {
+            "number": 23,
+            "text": "HISTORY 2510",
+            "href": "/search/?P=HISTORY%202510",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%202510",
+            "resolved_course": "HISTORY 2510"
+        },
+        {
+            "number": 24,
+            "text": "HISTORY 3510",
+            "href": "/search/?P=HISTORY%203510",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%203510",
+            "resolved_course": "HISTORY 3510"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "PHILOS 1105 Self and World: Introduction To Philosophy 3 PHILOS 1115 Logic and Reasoning: An Introduction 3 PHILOS 1130 How Should I Live? An Introduction to Ethics 3 PHILOS 1175 Religion and the Idea of God: Diverse Perspectives 3 PHILOS 3223 Bioethics 3 PHILOS 3225 Engineering Ethics 3 PHILOS 3235 Business Ethics 3 PHILOS 4335 Philosophy Of Religion 3 PHILOS 4340 From Activism to Zoos: Issues in Social Ethics 3 PHILOS 4350 Environmental Ethics 3 PHILOS 4360 Who Should Rule and Why? Debates in Political Philosophy 3 PHILOS 4368 Law and Ethics in E-Commerce 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHILOS 1105",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHILOS 1105",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%201105",
+                                    "resolved_course": "PHILOS 1105"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Self and World: Introduction To Philosophy",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHILOS 1115",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHILOS 1115",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%201115",
+                                    "resolved_course": "PHILOS 1115"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Logic and Reasoning: An Introduction",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHILOS 1130",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHILOS 1130",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%201130",
+                                    "resolved_course": "PHILOS 1130"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "How Should I Live? An Introduction to Ethics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHILOS 1175",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHILOS 1175",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%201175",
+                                    "resolved_course": "PHILOS 1175"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Religion and the Idea of God: Diverse Perspectives",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHILOS 3223",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHILOS 3223",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%203223",
+                                    "resolved_course": "PHILOS 3223"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Bioethics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHILOS 3225",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHILOS 3225",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%203225",
+                                    "resolved_course": "PHILOS 3225"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Engineering Ethics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHILOS 3235",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHILOS 3235",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%203235",
+                                    "resolved_course": "PHILOS 3235"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Business Ethics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHILOS 4335",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHILOS 4335",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%204335",
+                                    "resolved_course": "PHILOS 4335"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Philosophy Of Religion",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHILOS 4340",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHILOS 4340",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%204340",
+                                    "resolved_course": "PHILOS 4340"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "From Activism to Zoos: Issues in Social Ethics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 10,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHILOS 4350",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHILOS 4350",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%204350",
+                                    "resolved_course": "PHILOS 4350"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Environmental Ethics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 11,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHILOS 4360",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHILOS 4360",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%204360",
+                                    "resolved_course": "PHILOS 4360"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Who Should Rule and Why? Debates in Political Philosophy",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 12,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHILOS 4368",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHILOS 4368",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%204368",
+                                    "resolved_course": "PHILOS 4368"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Law and Ethics in E-Commerce",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%201105\" onclick=\"return showCourse(this, 'PHILOS 1105');\" title=\"PHILOS 1105\">PHILOS 1105</a></td><td>Self and World: Introduction To Philosophy</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%201115\" onclick=\"return showCourse(this, 'PHILOS 1115');\" title=\"PHILOS 1115\">PHILOS 1115</a></td><td>Logic and Reasoning: An Introduction </td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%201130\" onclick=\"return showCourse(this, 'PHILOS 1130');\" title=\"PHILOS 1130\">PHILOS 1130</a></td><td>How Should I Live? An Introduction to Ethics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%201175\" onclick=\"return showCourse(this, 'PHILOS 1175');\" title=\"PHILOS 1175\">PHILOS 1175</a></td><td>Religion and the Idea of God: Diverse Perspectives</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%203223\" onclick=\"return showCourse(this, 'PHILOS 3223');\" title=\"PHILOS 3223\">PHILOS 3223</a></td><td>Bioethics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%203225\" onclick=\"return showCourse(this, 'PHILOS 3225');\" title=\"PHILOS 3225\">PHILOS 3225</a></td><td>Engineering Ethics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%203235\" onclick=\"return showCourse(this, 'PHILOS 3235');\" title=\"PHILOS 3235\">PHILOS 3235</a></td><td>Business Ethics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204335\" onclick=\"return showCourse(this, 'PHILOS 4335');\" title=\"PHILOS 4335\">PHILOS 4335</a></td><td>Philosophy Of Religion</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204340\" onclick=\"return showCourse(this, 'PHILOS 4340');\" title=\"PHILOS 4340\">PHILOS 4340</a></td><td>From Activism to Zoos: Issues in Social Ethics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204350\" onclick=\"return showCourse(this, 'PHILOS 4350');\" title=\"PHILOS 4350\">PHILOS 4350</a></td><td>Environmental Ethics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204360\" onclick=\"return showCourse(this, 'PHILOS 4360');\" title=\"PHILOS 4360\">PHILOS 4360</a></td><td>Who Should Rule and Why? Debates in Political Philosophy</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204368\" onclick=\"return showCourse(this, 'PHILOS 4368');\" title=\"PHILOS 4368\">PHILOS 4368</a></td><td>Law and Ethics in E-Commerce</td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        },
+        {
+            "table_number": 2,
+            "text": "Mandatory: PHILOS 1115 Logic and Reasoning: An Introduction 3 At least two of the following, one of which must be a philosophy class: PHILOS 3277 Wilderness and Its Critics 3 PHILOS 4320 Minds And Machines 3 PHILOS 4345 Philosophy Of Science 3 HISTORY 4550 Architecture, Technology and Society; 1750 to Present 3 Additional courses from: PHILOS 1105 Self and World: Introduction To Philosophy 3 BIO SCI 1163 Biotechnology in Film 3 PHILOS 3223 Bioethics 3 HISTORY 2510 History of Technology 3 HISTORY 3510 Twentieth Century Technology And Society 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Mandatory:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHILOS 1115",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHILOS 1115",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%201115",
+                                    "resolved_course": "PHILOS 1115"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Logic and Reasoning: An Introduction",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "At least two of the following, one of which must be a philosophy class:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHILOS 3277",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHILOS 3277",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%203277",
+                                    "resolved_course": "PHILOS 3277"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Wilderness and Its Critics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHILOS 4320",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHILOS 4320",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%204320",
+                                    "resolved_course": "PHILOS 4320"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Minds And Machines",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHILOS 4345",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHILOS 4345",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%204345",
+                                    "resolved_course": "PHILOS 4345"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Philosophy Of Science",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "HISTORY 4550",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "HISTORY 4550",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%204550",
+                                    "resolved_course": "HISTORY 4550"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Architecture, Technology and Society; 1750 to Present",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Additional courses from:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHILOS 1105",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHILOS 1105",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%201105",
+                                    "resolved_course": "PHILOS 1105"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Self and World: Introduction To Philosophy",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 10,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "BIO SCI 1163",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BIO SCI 1163",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201163",
+                                    "resolved_course": "BIO SCI 1163"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Biotechnology in Film",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 11,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHILOS 3223",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHILOS 3223",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%203223",
+                                    "resolved_course": "PHILOS 3223"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Bioethics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 12,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "HISTORY 2510",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "HISTORY 2510",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%202510",
+                                    "resolved_course": "HISTORY 2510"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "History of Technology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 13,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "HISTORY 3510",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "HISTORY 3510",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%203510",
+                                    "resolved_course": "HISTORY 3510"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Twentieth Century Technology And Society",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even areaheader firstrow\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Mandatory:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%201115\" onclick=\"return showCourse(this, 'PHILOS 1115');\" title=\"PHILOS 1115\">PHILOS 1115</a></td><td>Logic and Reasoning: An Introduction</td><td class=\"hourscol\">3</td></tr> <tr class=\"even areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">At least two of the following, one of which must be a philosophy class:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%203277\" onclick=\"return showCourse(this, 'PHILOS 3277');\" title=\"PHILOS 3277\">PHILOS 3277</a></td><td>Wilderness and Its Critics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204320\" onclick=\"return showCourse(this, 'PHILOS 4320');\" title=\"PHILOS 4320\">PHILOS 4320</a></td><td>Minds And Machines</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204345\" onclick=\"return showCourse(this, 'PHILOS 4345');\" title=\"PHILOS 4345\">PHILOS 4345</a></td><td>Philosophy Of Science</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%204550\" onclick=\"return showCourse(this, 'HISTORY 4550');\" title=\"HISTORY 4550\">HISTORY 4550</a></td><td>Architecture, Technology and Society; 1750 to Present</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Additional courses from:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%201105\" onclick=\"return showCourse(this, 'PHILOS 1105');\" title=\"PHILOS 1105\">PHILOS 1105</a></td><td>Self and World: Introduction To Philosophy</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201163\" onclick=\"return showCourse(this, 'BIO SCI 1163');\" title=\"BIO SCI 1163\">BIO SCI 1163</a></td><td>Biotechnology in Film</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%203223\" onclick=\"return showCourse(this, 'PHILOS 3223');\" title=\"PHILOS 3223\">PHILOS 3223</a></td><td>Bioethics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%202510\" onclick=\"return showCourse(this, 'HISTORY 2510');\" title=\"HISTORY 2510\">HISTORY 2510</a></td><td>History of Technology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%203510\" onclick=\"return showCourse(this, 'HISTORY 3510');\" title=\"HISTORY 3510\">HISTORY 3510</a></td><td>Twentieth Century Technology And Society</td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        }
+    ],
+    "section_text": "Ethics Minor To qualify, all students must take 15 hours of course work from the following list of which at least 6 hours are from the 4000-level: PHILOS 1105 Self and World: Introduction To Philosophy 3 PHILOS 1115 Logic and Reasoning: An Introduction 3 PHILOS 1130 How Should I Live? An Introduction to Ethics 3 PHILOS 1175 Religion and the Idea of God: Diverse Perspectives 3 PHILOS 3223 Bioethics 3 PHILOS 3225 Engineering Ethics 3 PHILOS 3235 Business Ethics 3 PHILOS 4335 Philosophy Of Religion 3 PHILOS 4340 From Activism to Zoos: Issues in Social Ethics 3 PHILOS 4350 Environmental Ethics 3 PHILOS 4360 Who Should Rule and Why? Debates in Political Philosophy 3 PHILOS 4368 Law and Ethics in E-Commerce 3 Philosophy Minor A student with a minor in philosophy must meet the following requirements: Twelve hours in Philosophy course beyond PHILOS 1105 ( PHILOS 1105 is a prerequisite to a minor in philosophy). Six of the twelve hours must be completed in philosophy courses numbered 4000 or above. A student should declare his or her intention to minor in philosophy by his or her junior year. A member of the philosophy staff will act as the student’s minor advisor. The student and his or her minor advisor will plan a course of study to meet the specific interests and needs of the student. Philosophy of Technology Minor To qualify, all students must take 15 hours of course work in the following areas of philosophy, political science and history. Nine or more of these hours will need to be in philosophy. Mandatory: PHILOS 1115 Logic and Reasoning: An Introduction 3 At least two of the following, one of which must be a philosophy class: PHILOS 3277 Wilderness and Its Critics 3 PHILOS 4320 Minds And Machines 3 PHILOS 4345 Philosophy Of Science 3 HISTORY 4550 Architecture, Technology and Society; 1750 to Present 3 Additional courses from: PHILOS 1105 Self and World: Introduction To Philosophy 3 BIO SCI 1163 Biotechnology in Film 3 PHILOS 3223 Bioethics 3 HISTORY 2510 History of Technology 3 HISTORY 3510 Twentieth Century Technology And Society 3",
+    "section_html": "<div class=\"tab_content\" id=\"minorstextcontainer\">\n<a name=\"minorstext\"></a><h2>Ethics Minor</h2> <p>To qualify, all students must take 15 hours of course work from the following list of which at least 6 hours are from the 4000-level:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%201105\" onclick=\"return showCourse(this, 'PHILOS 1105');\" title=\"PHILOS 1105\">PHILOS 1105</a></td><td>Self and World: Introduction To Philosophy</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%201115\" onclick=\"return showCourse(this, 'PHILOS 1115');\" title=\"PHILOS 1115\">PHILOS 1115</a></td><td>Logic and Reasoning: An Introduction </td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%201130\" onclick=\"return showCourse(this, 'PHILOS 1130');\" title=\"PHILOS 1130\">PHILOS 1130</a></td><td>How Should I Live? An Introduction to Ethics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%201175\" onclick=\"return showCourse(this, 'PHILOS 1175');\" title=\"PHILOS 1175\">PHILOS 1175</a></td><td>Religion and the Idea of God: Diverse Perspectives</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%203223\" onclick=\"return showCourse(this, 'PHILOS 3223');\" title=\"PHILOS 3223\">PHILOS 3223</a></td><td>Bioethics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%203225\" onclick=\"return showCourse(this, 'PHILOS 3225');\" title=\"PHILOS 3225\">PHILOS 3225</a></td><td>Engineering Ethics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%203235\" onclick=\"return showCourse(this, 'PHILOS 3235');\" title=\"PHILOS 3235\">PHILOS 3235</a></td><td>Business Ethics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204335\" onclick=\"return showCourse(this, 'PHILOS 4335');\" title=\"PHILOS 4335\">PHILOS 4335</a></td><td>Philosophy Of Religion</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204340\" onclick=\"return showCourse(this, 'PHILOS 4340');\" title=\"PHILOS 4340\">PHILOS 4340</a></td><td>From Activism to Zoos: Issues in Social Ethics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204350\" onclick=\"return showCourse(this, 'PHILOS 4350');\" title=\"PHILOS 4350\">PHILOS 4350</a></td><td>Environmental Ethics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204360\" onclick=\"return showCourse(this, 'PHILOS 4360');\" title=\"PHILOS 4360\">PHILOS 4360</a></td><td>Who Should Rule and Why? Debates in Political Philosophy</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204368\" onclick=\"return showCourse(this, 'PHILOS 4368');\" title=\"PHILOS 4368\">PHILOS 4368</a></td><td>Law and Ethics in E-Commerce</td><td class=\"hourscol\">3</td></tr> </tbody></table>\n<h2>Philosophy Minor</h2> <ol> <li>A student with a minor in philosophy must meet the following requirements: \t<ol> <li>Twelve hours in Philosophy course beyond <span class=\"sc_courseinline\"><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%201105\" onclick=\"return showCourse(this, 'PHILOS 1105');\" title=\"PHILOS 1105\">PHILOS 1105</a></span></span>  (<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%201105\" onclick=\"return showCourse(this, 'PHILOS 1105');\" title=\"PHILOS 1105\">PHILOS 1105</a></span> is a prerequisite to a minor in philosophy).</li> <li>Six of the twelve hours must be completed in philosophy courses numbered 4000 or above.</li> </ol> </li> <li>A student should declare his or her intention to minor in philosophy by his or her junior year.</li> <li>A member of the philosophy staff will act as the student’s minor advisor. The student and his or her minor advisor will plan a course of study to meet the specific interests and needs of the student.</li> </ol>\n<h2>Philosophy of Technology Minor</h2> <p>To qualify, all students must take 15 hours of course work in the following areas of philosophy, political science and history. Nine or more of these hours will need to be in philosophy.</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even areaheader firstrow\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Mandatory:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%201115\" onclick=\"return showCourse(this, 'PHILOS 1115');\" title=\"PHILOS 1115\">PHILOS 1115</a></td><td>Logic and Reasoning: An Introduction</td><td class=\"hourscol\">3</td></tr> <tr class=\"even areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">At least two of the following, one of which must be a philosophy class:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%203277\" onclick=\"return showCourse(this, 'PHILOS 3277');\" title=\"PHILOS 3277\">PHILOS 3277</a></td><td>Wilderness and Its Critics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204320\" onclick=\"return showCourse(this, 'PHILOS 4320');\" title=\"PHILOS 4320\">PHILOS 4320</a></td><td>Minds And Machines</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204345\" onclick=\"return showCourse(this, 'PHILOS 4345');\" title=\"PHILOS 4345\">PHILOS 4345</a></td><td>Philosophy Of Science</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%204550\" onclick=\"return showCourse(this, 'HISTORY 4550');\" title=\"HISTORY 4550\">HISTORY 4550</a></td><td>Architecture, Technology and Society; 1750 to Present</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Additional courses from:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%201105\" onclick=\"return showCourse(this, 'PHILOS 1105');\" title=\"PHILOS 1105\">PHILOS 1105</a></td><td>Self and World: Introduction To Philosophy</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201163\" onclick=\"return showCourse(this, 'BIO SCI 1163');\" title=\"BIO SCI 1163\">BIO SCI 1163</a></td><td>Biotechnology in Film</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%203223\" onclick=\"return showCourse(this, 'PHILOS 3223');\" title=\"PHILOS 3223\">PHILOS 3223</a></td><td>Bioethics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%202510\" onclick=\"return showCourse(this, 'HISTORY 2510');\" title=\"HISTORY 2510\">HISTORY 2510</a></td><td>History of Technology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%203510\" onclick=\"return showCourse(this, 'HISTORY 3510');\" title=\"HISTORY 3510\">HISTORY 3510</a></td><td>Twentieth Century Technology And Society</td><td class=\"hourscol\">3</td></tr> </tbody></table>\n</div>"
+}

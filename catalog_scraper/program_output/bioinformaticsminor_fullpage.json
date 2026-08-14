@@ -1,0 +1,540 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/bioinformaticsminor/",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/bioinformaticsminor/",
+        "fragment": null,
+        "page_slug": "bioinformaticsminor",
+        "page_title": "Bioinformatics Minor Curriculum < Missouri University of Science and Technology",
+        "capture_type": "full_program_page",
+        "selection_method": "primary content id=content"
+    },
+    "inventory": {
+        "text_character_count": 1626,
+        "html_character_count": 5114,
+        "heading_count": 1,
+        "paragraph_count": 3,
+        "list_count": 0,
+        "table_count": 1,
+        "link_count": 14,
+        "superscript_count": 0,
+        "text_sha256": "37d7c8c82432eab4a62208f0511d29c2cdbcf4b588fa17a08ce9e65cf8bf5df6",
+        "html_sha256": "0cf48c83fbc53822c8e680774b2ea21a9e60deec4fed5c240d008104697a502d"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h1",
+            "text": "Bioinformatics Minor Curriculum",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "BIO SCI 1113",
+            "href": "/search/?P=BIO%20SCI%201113",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201113",
+            "resolved_course": "BIO SCI 1113"
+        },
+        {
+            "number": 2,
+            "text": "COMP SCI 1570",
+            "href": "/search/?P=COMP%20SCI%201570",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201570",
+            "resolved_course": "COMP SCI 1570"
+        },
+        {
+            "number": 3,
+            "text": "COMP SCI 1580",
+            "href": "/search/?P=COMP%20SCI%201580",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201580",
+            "resolved_course": "COMP SCI 1580"
+        },
+        {
+            "number": 4,
+            "text": "COMP SCI 1575",
+            "href": "/search/?P=COMP%20SCI%201575",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201575",
+            "resolved_course": "COMP SCI 1575"
+        },
+        {
+            "number": 5,
+            "text": "COMP SCI 1585",
+            "href": "/search/?P=COMP%20SCI%201585",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201585",
+            "resolved_course": "COMP SCI 1585"
+        },
+        {
+            "number": 6,
+            "text": "BIO SCI 2213",
+            "href": "/search/?P=BIO%20SCI%202213",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%202213",
+            "resolved_course": "BIO SCI 2213"
+        },
+        {
+            "number": 7,
+            "text": "BIO SCI 2223",
+            "href": "/search/?P=BIO%20SCI%202223",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%202223",
+            "resolved_course": "BIO SCI 2223"
+        },
+        {
+            "number": 8,
+            "text": "COMP SCI 2300",
+            "href": "/search/?P=COMP%20SCI%202300",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%202300",
+            "resolved_course": "COMP SCI 2300"
+        },
+        {
+            "number": 9,
+            "text": "BIO SCI 4323",
+            "href": "/search/?P=BIO%20SCI%204323",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%204323",
+            "resolved_course": "BIO SCI 4323"
+        },
+        {
+            "number": 10,
+            "text": "BIO SCI 5323",
+            "href": "/search/?P=BIO%20SCI%205323",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%205323",
+            "resolved_course": "BIO SCI 5323"
+        },
+        {
+            "number": 11,
+            "text": "COMP SCI 5700",
+            "href": "/search/?P=COMP%20SCI%205700",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205700",
+            "resolved_course": "COMP SCI 5700"
+        },
+        {
+            "number": 12,
+            "text": "STAT 3425",
+            "href": "/search/?P=STAT%203425",
+            "url": "https://catalog.mst.edu/search/?P=STAT%203425",
+            "resolved_course": "STAT 3425"
+        },
+        {
+            "number": 13,
+            "text": "STAT 5346",
+            "href": "/search/?P=STAT%205346",
+            "url": "https://catalog.mst.edu/search/?P=STAT%205346",
+            "resolved_course": "STAT 5346"
+        },
+        {
+            "number": 14,
+            "text": "STAT 5353",
+            "href": "/search/?P=STAT%205353",
+            "url": "https://catalog.mst.edu/search/?P=STAT%205353",
+            "resolved_course": "STAT 5353"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "BIO SCI 1113 General Biology 3 COMP SCI 1570 & COMP SCI 1580 Introduction To C++ Programming and Introduction To Programming Laboratory 4 COMP SCI 1575 & COMP SCI 1585 Data Structures and Data Structures Laboratory 4 BIO SCI 2213 Cell Biology 3 or BIO SCI 2223 General Genetics COMP SCI 2300 File Structures and Introduction to Database Systems 3 BIO SCI 4323 Molecular Genetics 3 One additional course, either at the 2000-level or above in MATH or COMP SCI, or at the 3000-level or above in BIO SCI, outside of the major area of study, and as agreed upon by the minor advisor. 3+ BIO SCI 5323 /​ COMP SCI 5700 Bioinformatics (It is strongly recommended that this course be taken after the other BIO SCI and COMP SCI requirements.) 3 STAT 3425 Introduction to Biostatistics 4 or STAT 5346 Regression Analysis or STAT 5353 Statistical Data Analysis",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "BIO SCI 1113",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BIO SCI 1113",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201113",
+                                    "resolved_course": "BIO SCI 1113"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "General Biology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 1570 & COMP SCI 1580",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 1570",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201570",
+                                    "resolved_course": "COMP SCI 1570"
+                                },
+                                {
+                                    "text": "COMP SCI 1580",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201580",
+                                    "resolved_course": "COMP SCI 1580"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Introduction To C++ Programming and Introduction To Programming Laboratory",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 1575 & COMP SCI 1585",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 1575",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201575",
+                                    "resolved_course": "COMP SCI 1575"
+                                },
+                                {
+                                    "text": "COMP SCI 1585",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201585",
+                                    "resolved_course": "COMP SCI 1585"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Data Structures and Data Structures Laboratory",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "BIO SCI 2213",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BIO SCI 2213",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%202213",
+                                    "resolved_course": "BIO SCI 2213"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Cell Biology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "or BIO SCI 2223",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BIO SCI 2223",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%202223",
+                                    "resolved_course": "BIO SCI 2223"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "General Genetics",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 2300",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 2300",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%202300",
+                                    "resolved_course": "COMP SCI 2300"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "File Structures and Introduction to Database Systems",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "BIO SCI 4323",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BIO SCI 4323",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%204323",
+                                    "resolved_course": "BIO SCI 4323"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Molecular Genetics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "One additional course, either at the 2000-level or above in MATH or COMP SCI, or at the 3000-level or above in BIO SCI, outside of the major area of study, and as agreed upon by the minor advisor.",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3+",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "BIO SCI 5323 /​ COMP SCI 5700",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BIO SCI 5323",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%205323",
+                                    "resolved_course": "BIO SCI 5323"
+                                },
+                                {
+                                    "text": "COMP SCI 5700",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205700",
+                                    "resolved_course": "COMP SCI 5700"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Bioinformatics (It is strongly recommended that this course be taken after the other BIO SCI and COMP SCI requirements.)",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 10,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "STAT 3425",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "STAT 3425",
+                                    "url": "https://catalog.mst.edu/search/?P=STAT%203425",
+                                    "resolved_course": "STAT 3425"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Introduction to Biostatistics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 11,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "or STAT 5346",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "STAT 5346",
+                                    "url": "https://catalog.mst.edu/search/?P=STAT%205346",
+                                    "resolved_course": "STAT 5346"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Regression Analysis",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 12,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "or STAT 5353",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "STAT 5353",
+                                    "url": "https://catalog.mst.edu/search/?P=STAT%205353",
+                                    "resolved_course": "STAT 5353"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Statistical Data Analysis",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201113\" onclick=\"return showCourse(this, 'BIO SCI 1113');\" title=\"BIO SCI 1113\">BIO SCI 1113</a></td><td>General Biology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201570\" onclick=\"return showCourse(this, 'COMP SCI 1570');\" title=\"COMP SCI 1570\">COMP SCI 1570</a><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201580\" onclick=\"return showCourse(this, 'COMP SCI 1580');\" title=\"COMP SCI 1580\">COMP SCI 1580</a></span></td><td>Introduction To C++ Programming<br/><span class=\"blockindent\" style=\"margin-left:20px;\">and Introduction To Programming Laboratory</span></td><td class=\"hourscol\">4</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201575\" onclick=\"return showCourse(this, 'COMP SCI 1575');\" title=\"COMP SCI 1575\">COMP SCI 1575</a><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201585\" onclick=\"return showCourse(this, 'COMP SCI 1585');\" title=\"COMP SCI 1585\">COMP SCI 1585</a></span></td><td>Data Structures<br/><span class=\"blockindent\" style=\"margin-left:20px;\">and Data Structures Laboratory</span></td><td class=\"hourscol\">4</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%202213\" onclick=\"return showCourse(this, 'BIO SCI 2213');\" title=\"BIO SCI 2213\">BIO SCI 2213</a></td><td>Cell Biology</td><td class=\"hourscol\">3</td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%202223\" onclick=\"return showCourse(this, 'BIO SCI 2223');\" title=\"BIO SCI 2223\">BIO SCI 2223</a></td><td colspan=\"2\"> General Genetics</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%202300\" onclick=\"return showCourse(this, 'COMP SCI 2300');\" title=\"COMP SCI 2300\">COMP SCI 2300</a></td><td>File Structures and Introduction to Database Systems</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%204323\" onclick=\"return showCourse(this, 'BIO SCI 4323');\" title=\"BIO SCI 4323\">BIO SCI 4323</a></td><td>Molecular Genetics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td colspan=\"2\"><span class=\"courselistcomment\">One additional course, either at the 2000-level or above in MATH or COMP SCI, or at the 3000-level or above in BIO SCI, outside of the major area of study, and as agreed upon by the minor advisor.</span></td><td class=\"hourscol\">3+</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%205323\" onclick=\"return showCourse(this, 'BIO SCI 5323');\" title=\"BIO SCI 5323\">BIO SCI 5323</a>/​<a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205700\" onclick=\"return showCourse(this, 'COMP SCI 5700');\" title=\"COMP SCI 5700\">COMP SCI 5700</a></td><td>Bioinformatics (It is strongly recommended that this course be taken after the other BIO SCI and COMP SCI requirements.)</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%203425\" onclick=\"return showCourse(this, 'STAT 3425');\" title=\"STAT 3425\">STAT 3425</a></td><td>Introduction to Biostatistics</td><td class=\"hourscol\">4</td></tr> <tr class=\"orclass even lastrow\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=STAT%205346\" onclick=\"return showCourse(this, 'STAT 5346');\" title=\"STAT 5346\">STAT 5346</a></td><td colspan=\"2\"> Regression Analysis</td></tr> <tr class=\"orclass even lastrow\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=STAT%205353\" onclick=\"return showCourse(this, 'STAT 5353');\" title=\"STAT 5353\">STAT 5353</a></td><td colspan=\"2\"> Statistical Data Analysis</td></tr> </tbody></table>"
+        }
+    ],
+    "section_text": "Bioinformatics Minor Curriculum Bioinformatics is the rapidly-developing field that applies computational methods to address biological questions, and includes new advances in computer science, mathematics, and biology. Students entering the field of bioinformatics should have some training in each of these fields. The minor is designed for students pursuing a B.S. who would have the necessary prerequisites for the required courses. Students pursuing a B.A. may participate if the prerequisites for the required courses are fulfilled. Each department (biological sciences, computer science, mathematics) will designate a minor advisor. The student’s minor advisor will be chosen from outside of their major area of study. Required courses (in approximate recommended order): BIO SCI 1113 General Biology 3 COMP SCI 1570 & COMP SCI 1580 Introduction To C++ Programming and Introduction To Programming Laboratory 4 COMP SCI 1575 & COMP SCI 1585 Data Structures and Data Structures Laboratory 4 BIO SCI 2213 Cell Biology 3 or BIO SCI 2223 General Genetics COMP SCI 2300 File Structures and Introduction to Database Systems 3 BIO SCI 4323 Molecular Genetics 3 One additional course, either at the 2000-level or above in MATH or COMP SCI, or at the 3000-level or above in BIO SCI, outside of the major area of study, and as agreed upon by the minor advisor. 3+ BIO SCI 5323 /​ COMP SCI 5700 Bioinformatics (It is strongly recommended that this course be taken after the other BIO SCI and COMP SCI requirements.) 3 STAT 3425 Introduction to Biostatistics 4 or STAT 5346 Regression Analysis or STAT 5353 Statistical Data Analysis",
+    "section_html": "<div id=\"content\">\n<h1>Bioinformatics Minor Curriculum</h1>\n<div class=\"tab_content\" id=\"textcontainer\">\n<p>Bioinformatics is the rapidly-developing field that applies computational methods to address biological questions, and includes new advances in computer science, mathematics, and biology. Students entering the field of bioinformatics should have some training in each of these fields.</p>\n<p>The minor is designed for students pursuing a B.S. who would have the necessary prerequisites for the required courses. Students pursuing a B.A. may participate if the prerequisites for the required courses are fulfilled. Each department (biological sciences, computer science, mathematics) will designate a minor advisor. The student’s minor advisor will be chosen from outside of their major area of study.</p>\n<p>Required courses (in approximate recommended order):</p>\n<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201113\" onclick=\"return showCourse(this, 'BIO SCI 1113');\" title=\"BIO SCI 1113\">BIO SCI 1113</a></td><td>General Biology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201570\" onclick=\"return showCourse(this, 'COMP SCI 1570');\" title=\"COMP SCI 1570\">COMP SCI 1570</a><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201580\" onclick=\"return showCourse(this, 'COMP SCI 1580');\" title=\"COMP SCI 1580\">COMP SCI 1580</a></span></td><td>Introduction To C++ Programming<br/><span class=\"blockindent\" style=\"margin-left:20px;\">and Introduction To Programming Laboratory</span></td><td class=\"hourscol\">4</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201575\" onclick=\"return showCourse(this, 'COMP SCI 1575');\" title=\"COMP SCI 1575\">COMP SCI 1575</a><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201585\" onclick=\"return showCourse(this, 'COMP SCI 1585');\" title=\"COMP SCI 1585\">COMP SCI 1585</a></span></td><td>Data Structures<br/><span class=\"blockindent\" style=\"margin-left:20px;\">and Data Structures Laboratory</span></td><td class=\"hourscol\">4</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%202213\" onclick=\"return showCourse(this, 'BIO SCI 2213');\" title=\"BIO SCI 2213\">BIO SCI 2213</a></td><td>Cell Biology</td><td class=\"hourscol\">3</td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%202223\" onclick=\"return showCourse(this, 'BIO SCI 2223');\" title=\"BIO SCI 2223\">BIO SCI 2223</a></td><td colspan=\"2\"> General Genetics</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%202300\" onclick=\"return showCourse(this, 'COMP SCI 2300');\" title=\"COMP SCI 2300\">COMP SCI 2300</a></td><td>File Structures and Introduction to Database Systems</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%204323\" onclick=\"return showCourse(this, 'BIO SCI 4323');\" title=\"BIO SCI 4323\">BIO SCI 4323</a></td><td>Molecular Genetics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td colspan=\"2\"><span class=\"courselistcomment\">One additional course, either at the 2000-level or above in MATH or COMP SCI, or at the 3000-level or above in BIO SCI, outside of the major area of study, and as agreed upon by the minor advisor.</span></td><td class=\"hourscol\">3+</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%205323\" onclick=\"return showCourse(this, 'BIO SCI 5323');\" title=\"BIO SCI 5323\">BIO SCI 5323</a>/​<a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205700\" onclick=\"return showCourse(this, 'COMP SCI 5700');\" title=\"COMP SCI 5700\">COMP SCI 5700</a></td><td>Bioinformatics (It is strongly recommended that this course be taken after the other BIO SCI and COMP SCI requirements.)</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%203425\" onclick=\"return showCourse(this, 'STAT 3425');\" title=\"STAT 3425\">STAT 3425</a></td><td>Introduction to Biostatistics</td><td class=\"hourscol\">4</td></tr> <tr class=\"orclass even lastrow\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=STAT%205346\" onclick=\"return showCourse(this, 'STAT 5346');\" title=\"STAT 5346\">STAT 5346</a></td><td colspan=\"2\"> Regression Analysis</td></tr> <tr class=\"orclass even lastrow\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=STAT%205353\" onclick=\"return showCourse(this, 'STAT 5353');\" title=\"STAT 5353\">STAT 5353</a></td><td colspan=\"2\"> Statistical Data Analysis</td></tr> </tbody></table>\n\n</div>\n</div>"
+}

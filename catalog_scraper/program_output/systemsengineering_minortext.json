@@ -1,0 +1,255 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/systemsengineering/#minortext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/systemsengineering/",
+        "fragment": "minortext",
+        "page_slug": "systemsengineering",
+        "page_title": "Systems Engineering < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minortextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 497,
+        "html_character_count": 1911,
+        "heading_count": 1,
+        "paragraph_count": 1,
+        "list_count": 0,
+        "table_count": 1,
+        "link_count": 5,
+        "superscript_count": 0,
+        "text_sha256": "2e5149aae5451fb80e15d9e4145e5ae9ff510ee8739fb2b433e26b4d6ce86e01",
+        "html_sha256": "eb4c686d571ab5b3a7dbd185a239cee05331bdea7c43fc64466ce0d50dda81db"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Systems Engineering Minor",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "ENG MGT 2310",
+            "href": "/search/?P=ENG%20MGT%202310",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%202310",
+            "resolved_course": "ENG MGT 2310"
+        },
+        {
+            "number": 2,
+            "text": "ENG MGT 3320",
+            "href": "/search/?P=ENG%20MGT%203320",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%203320",
+            "resolved_course": "ENG MGT 3320"
+        },
+        {
+            "number": 3,
+            "text": "SYS ENG 5101",
+            "href": "/search/?P=SYS%20ENG%205101",
+            "url": "https://catalog.mst.edu/search/?P=SYS%20ENG%205101",
+            "resolved_course": "SYS ENG 5101"
+        },
+        {
+            "number": 4,
+            "text": "SYS ENG 5211",
+            "href": "/search/?P=SYS%20ENG%205211",
+            "url": "https://catalog.mst.edu/search/?P=SYS%20ENG%205211",
+            "resolved_course": "SYS ENG 5211"
+        },
+        {
+            "number": 5,
+            "text": "SYS ENG 5281",
+            "href": "/search/?P=SYS%20ENG%205281",
+            "url": "https://catalog.mst.edu/search/?P=SYS%20ENG%205281",
+            "resolved_course": "SYS ENG 5281"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "ENG MGT 2310 Introduction to System Engineering 3 ENG MGT 3320 Introduction to Project Management 3 SYS ENG 5101 System Engineering and Analysis 3 SYS ENG 5211 Computational Intelligence 3 SYS ENG 5281 Introduction to Probabilistic Risk Assessment 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 2310",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 2310",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%202310",
+                                    "resolved_course": "ENG MGT 2310"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Introduction to System Engineering",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 3320",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 3320",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%203320",
+                                    "resolved_course": "ENG MGT 3320"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Introduction to Project Management",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SYS ENG 5101",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SYS ENG 5101",
+                                    "url": "https://catalog.mst.edu/search/?P=SYS%20ENG%205101",
+                                    "resolved_course": "SYS ENG 5101"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "System Engineering and Analysis",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SYS ENG 5211",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SYS ENG 5211",
+                                    "url": "https://catalog.mst.edu/search/?P=SYS%20ENG%205211",
+                                    "resolved_course": "SYS ENG 5211"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Computational Intelligence",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SYS ENG 5281",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SYS ENG 5281",
+                                    "url": "https://catalog.mst.edu/search/?P=SYS%20ENG%205281",
+                                    "resolved_course": "SYS ENG 5281"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Introduction to Probabilistic Risk Assessment",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%202310\" onclick=\"return showCourse(this, 'ENG MGT 2310');\" title=\"ENG MGT 2310\">ENG MGT 2310</a></td><td>Introduction to System Engineering</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%203320\" onclick=\"return showCourse(this, 'ENG MGT 3320');\" title=\"ENG MGT 3320\">ENG MGT 3320</a></td><td>Introduction to Project Management</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=SYS%20ENG%205101\" onclick=\"return showCourse(this, 'SYS ENG 5101');\" title=\"SYS ENG 5101\">SYS ENG 5101</a></td><td>System Engineering and Analysis</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=SYS%20ENG%205211\" onclick=\"return showCourse(this, 'SYS ENG 5211');\" title=\"SYS ENG 5211\">SYS ENG 5211</a></td><td>Computational Intelligence</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=SYS%20ENG%205281\" onclick=\"return showCourse(this, 'SYS ENG 5281');\" title=\"SYS ENG 5281\">SYS ENG 5281</a></td><td>Introduction to Probabilistic Risk Assessment</td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        }
+    ],
+    "section_text": "Systems Engineering Minor A student who receives a bachelor of science degree in an accredited engineering program or Computer Science from Missouri S&T may receive a minor in Systems Engineering by completing 15 hours of the courses listed below: ENG MGT 2310 Introduction to System Engineering 3 ENG MGT 3320 Introduction to Project Management 3 SYS ENG 5101 System Engineering and Analysis 3 SYS ENG 5211 Computational Intelligence 3 SYS ENG 5281 Introduction to Probabilistic Risk Assessment 3",
+    "section_html": "<div class=\"tab_content\" id=\"minortextcontainer\">\n<a name=\"minortext\"></a><h2>Systems Engineering Minor</h2> <p><span data-teams=\"true\">A student who receives a bachelor of science degree in an accredited engineering program or Computer Science from Missouri S&amp;T may receive a minor in Systems Engineering by completing 15 hours of the courses listed below:</span></p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%202310\" onclick=\"return showCourse(this, 'ENG MGT 2310');\" title=\"ENG MGT 2310\">ENG MGT 2310</a></td><td>Introduction to System Engineering</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%203320\" onclick=\"return showCourse(this, 'ENG MGT 3320');\" title=\"ENG MGT 3320\">ENG MGT 3320</a></td><td>Introduction to Project Management</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=SYS%20ENG%205101\" onclick=\"return showCourse(this, 'SYS ENG 5101');\" title=\"SYS ENG 5101\">SYS ENG 5101</a></td><td>System Engineering and Analysis</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=SYS%20ENG%205211\" onclick=\"return showCourse(this, 'SYS ENG 5211');\" title=\"SYS ENG 5211\">SYS ENG 5211</a></td><td>Computational Intelligence</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=SYS%20ENG%205281\" onclick=\"return showCourse(this, 'SYS ENG 5281');\" title=\"SYS ENG 5281\">SYS ENG 5281</a></td><td>Introduction to Probabilistic Risk Assessment</td><td class=\"hourscol\">3</td></tr> </tbody></table>\n</div>"
+}

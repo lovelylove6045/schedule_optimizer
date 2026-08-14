@@ -1,0 +1,368 @@
+[
+  {
+    "academic_program_relationship_id": 1,
+    "parent_program_id": 3,
+    "child_program_id": 4,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 2,
+    "parent_program_id": 3,
+    "child_program_id": 5,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 3,
+    "parent_program_id": 3,
+    "child_program_id": 6,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 4,
+    "parent_program_id": 3,
+    "child_program_id": 7,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 5,
+    "parent_program_id": 13,
+    "child_program_id": 15,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 6,
+    "parent_program_id": 13,
+    "child_program_id": 16,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 7,
+    "parent_program_id": 14,
+    "child_program_id": 17,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 8,
+    "parent_program_id": 19,
+    "child_program_id": 20,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 9,
+    "parent_program_id": 19,
+    "child_program_id": 21,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 10,
+    "parent_program_id": 22,
+    "child_program_id": 23,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 11,
+    "parent_program_id": 22,
+    "child_program_id": 24,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 12,
+    "parent_program_id": 37,
+    "child_program_id": 38,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 13,
+    "parent_program_id": 37,
+    "child_program_id": 39,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 14,
+    "parent_program_id": 37,
+    "child_program_id": 40,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 15,
+    "parent_program_id": 37,
+    "child_program_id": 41,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 16,
+    "parent_program_id": 37,
+    "child_program_id": 42,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 17,
+    "parent_program_id": 37,
+    "child_program_id": 43,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 18,
+    "parent_program_id": 44,
+    "child_program_id": 45,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 19,
+    "parent_program_id": 46,
+    "child_program_id": 47,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 20,
+    "parent_program_id": 48,
+    "child_program_id": 49,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 21,
+    "parent_program_id": 48,
+    "child_program_id": 50,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 22,
+    "parent_program_id": 48,
+    "child_program_id": 51,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 23,
+    "parent_program_id": 55,
+    "child_program_id": 56,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 24,
+    "parent_program_id": 55,
+    "child_program_id": 57,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 25,
+    "parent_program_id": 55,
+    "child_program_id": 58,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 26,
+    "parent_program_id": 55,
+    "child_program_id": 59,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 27,
+    "parent_program_id": 61,
+    "child_program_id": 62,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 28,
+    "parent_program_id": 61,
+    "child_program_id": 63,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 29,
+    "parent_program_id": 65,
+    "child_program_id": 66,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 30,
+    "parent_program_id": 65,
+    "child_program_id": 67,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 31,
+    "parent_program_id": 65,
+    "child_program_id": 68,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 32,
+    "parent_program_id": 70,
+    "child_program_id": 71,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 33,
+    "parent_program_id": 70,
+    "child_program_id": 72,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 34,
+    "parent_program_id": 70,
+    "child_program_id": 73,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 35,
+    "parent_program_id": 70,
+    "child_program_id": 74,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 36,
+    "parent_program_id": 70,
+    "child_program_id": 75,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 37,
+    "parent_program_id": 70,
+    "child_program_id": 76,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 38,
+    "parent_program_id": 70,
+    "child_program_id": 77,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 39,
+    "parent_program_id": 80,
+    "child_program_id": 81,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 40,
+    "parent_program_id": 80,
+    "child_program_id": 82,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 41,
+    "parent_program_id": 80,
+    "child_program_id": 83,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 42,
+    "parent_program_id": 80,
+    "child_program_id": 84,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 43,
+    "parent_program_id": 87,
+    "child_program_id": 88,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 44,
+    "parent_program_id": 113,
+    "child_program_id": 114,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 45,
+    "parent_program_id": 113,
+    "child_program_id": 115,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 46,
+    "parent_program_id": 113,
+    "child_program_id": 116,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 47,
+    "parent_program_id": 113,
+    "child_program_id": 117,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 48,
+    "parent_program_id": 119,
+    "child_program_id": 120,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 49,
+    "parent_program_id": 119,
+    "child_program_id": 121,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 50,
+    "parent_program_id": 119,
+    "child_program_id": 122,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 51,
+    "parent_program_id": 119,
+    "child_program_id": 123,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 52,
+    "parent_program_id": 125,
+    "child_program_id": 126,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 53,
+    "parent_program_id": 125,
+    "child_program_id": 127,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 54,
+    "parent_program_id": 125,
+    "child_program_id": 128,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 55,
+    "parent_program_id": 125,
+    "child_program_id": 129,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 56,
+    "parent_program_id": 125,
+    "child_program_id": 130,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 57,
+    "parent_program_id": 125,
+    "child_program_id": 131,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 58,
+    "parent_program_id": 113,
+    "child_program_id": 12,
+    "relationship_type": "RELATED_TO"
+  },
+  {
+    "academic_program_relationship_id": 59,
+    "parent_program_id": 143,
+    "child_program_id": 144,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 60,
+    "parent_program_id": 155,
+    "child_program_id": 156,
+    "relationship_type": "HAS_EMPHASIS"
+  },
+  {
+    "academic_program_relationship_id": 61,
+    "parent_program_id": 155,
+    "child_program_id": 157,
+    "relationship_type": "HAS_EMPHASIS"
+  }
+]

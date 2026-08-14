@@ -1,0 +1,162 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/explosivesengineering/#minorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/explosivesengineering/",
+        "fragment": "minorstext",
+        "page_slug": "explosivesengineering",
+        "page_title": "Explosives Engineering < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 1693,
+        "html_character_count": 2694,
+        "heading_count": 1,
+        "paragraph_count": 4,
+        "list_count": 0,
+        "table_count": 1,
+        "link_count": 3,
+        "superscript_count": 0,
+        "text_sha256": "42b3ebf445f7ffd94b94bd21e0c3c959ab3016dc3f54b111ce76535df1c5a852",
+        "html_sha256": "1f7436d5356f998963a3ae08d7df5fc01ab03759c53622f658efda8db09f1663"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h3",
+            "text": "Minor in Explosives Engineering",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "EXP ENG 5612",
+            "href": "/search/?P=EXP%20ENG%205612",
+            "url": "https://catalog.mst.edu/search/?P=EXP%20ENG%205612",
+            "resolved_course": "EXP ENG 5612"
+        },
+        {
+            "number": 2,
+            "text": "MIN ENG 5612",
+            "href": "/search/?P=MIN%20ENG%205612",
+            "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%205612",
+            "resolved_course": "MIN ENG 5612"
+        },
+        {
+            "number": 3,
+            "text": "EXP ENG 5622",
+            "href": "/search/?P=EXP%20ENG%205622",
+            "url": "https://catalog.mst.edu/search/?P=EXP%20ENG%205622",
+            "resolved_course": "EXP ENG 5622"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "EXP ENG 5612 /​ MIN ENG 5612 Principles of Explosives Engineering 3 EXP ENG 5622 Blasting Design And Technology 3 Three other explosives related courses as approved by program coordinator.",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "EXP ENG 5612 /​ MIN ENG 5612",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "EXP ENG 5612",
+                                    "url": "https://catalog.mst.edu/search/?P=EXP%20ENG%205612",
+                                    "resolved_course": "EXP ENG 5612"
+                                },
+                                {
+                                    "text": "MIN ENG 5612",
+                                    "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%205612",
+                                    "resolved_course": "MIN ENG 5612"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Principles of Explosives Engineering",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "EXP ENG 5622",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "EXP ENG 5622",
+                                    "url": "https://catalog.mst.edu/search/?P=EXP%20ENG%205622",
+                                    "resolved_course": "EXP ENG 5622"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Blasting Design And Technology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Three other explosives related courses as approved by program coordinator.",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EXP%20ENG%205612\" onclick=\"return showCourse(this, 'EXP ENG 5612');\" title=\"EXP ENG 5612\">EXP ENG 5612</a>/​<a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%205612\" onclick=\"return showCourse(this, 'MIN ENG 5612');\" title=\"MIN ENG 5612\">MIN ENG 5612</a></td><td>Principles of Explosives Engineering</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EXP%20ENG%205622\" onclick=\"return showCourse(this, 'EXP ENG 5622');\" title=\"EXP ENG 5622\">EXP ENG 5622</a></td><td>Blasting Design And Technology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">Three other explosives related courses as approved by program coordinator.</span></td><td class=\"hourscol\"></td></tr> </tbody></table>"
+        }
+    ],
+    "section_text": "Minor in Explosives Engineering The department of mining & explosives engineering, mining engineering program, realizing the attractiveness of explosives engineering to students, the potential for jobs in the area (post 9-11), and the use of over 6 billion pounds of explosives in mining, tunneling, construction, and other areas, is offering a minor in explosives engineering so that students interested in explosives engineering have a chance to attain in-depth knowledge of the sub-discipline. A student who received a bachelor of science degree in an accredited engineering program from Missouri S&T may receive the minor in explosives engineering by completing 15 credit hours from the courses listed below. Non-engineering students who have a strong background in mathematics and the physical sciences may also qualify for the minor in explosives engineering, with the approval of the department and based on an individually designed program of study. Students need to consult with the chair of the explosives engineering program to determine pre-requisite requirements for each course. The program granting the bachelor of science degree shall determine whether or not courses taken for the explosives engineering minor may also be used to fulfill the requirements of the B.S. degree from that program. The following courses are required for the minor in explosives engineering: EXP ENG 5612 /​ MIN ENG 5612 Principles of Explosives Engineering 3 EXP ENG 5622 Blasting Design And Technology 3 Three other explosives related courses as approved by program coordinator. The minor in explosives engineering is not accredited by the Accreditation Board of Engineering and Technology (ABET).",
+    "section_html": "<div class=\"tab_content\" id=\"minorstextcontainer\">\n<a name=\"minorstext\"></a><h3>Minor in Explosives Engineering</h3> <p>The department of mining &amp; explosives engineering, mining engineering program, realizing the attractiveness of explosives engineering to students, the potential for jobs in the area (post 9-11), and the use of over 6 billion pounds of explosives in mining, tunneling, construction, and other areas, is offering a minor in explosives engineering so that students interested in explosives engineering have a chance to attain in-depth knowledge of the sub-discipline.</p> <p>A student who received a bachelor of science degree in an accredited engineering program from Missouri S&amp;T may receive the minor in explosives engineering by completing 15 credit hours from the courses listed below. Non-engineering students who have a strong background in mathematics and the physical sciences may also qualify for the minor in explosives engineering, with the approval of the department and based on an individually designed program of study. Students need to consult with the chair of the explosives engineering program to determine pre-requisite requirements for each course. The program granting the bachelor of science degree shall determine whether or not courses taken for the explosives engineering minor may also be used to fulfill the requirements of the B.S. degree from that program.</p> <p>The following courses are required for the minor in explosives engineering:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EXP%20ENG%205612\" onclick=\"return showCourse(this, 'EXP ENG 5612');\" title=\"EXP ENG 5612\">EXP ENG 5612</a>/​<a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%205612\" onclick=\"return showCourse(this, 'MIN ENG 5612');\" title=\"MIN ENG 5612\">MIN ENG 5612</a></td><td>Principles of Explosives Engineering</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EXP%20ENG%205622\" onclick=\"return showCourse(this, 'EXP ENG 5622');\" title=\"EXP ENG 5622\">EXP ENG 5622</a></td><td>Blasting Design And Technology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">Three other explosives related courses as approved by program coordinator.</span></td><td class=\"hourscol\"></td></tr> </tbody></table> <p>The minor in explosives engineering is not accredited by the Accreditation Board of Engineering and Technology (ABET).</p>\n</div>"
+}

@@ -242,3 +242,37 @@ All three sanity-check queries were run and checked by hand against the
 original catalog text — see `sanity_checks.sql` for the queries and
 `docs/PHASES.md` (Phase 1.3) for the full checklist and results.
 
+## 8. Known limitation: `fall_offered`/`spring_offered`/`summer_offered` are placeholders, not real data
+
+This isn't something the loader got wrong — it's a gap in the *source*
+data that's worth flagging loudly before Phase 3 builds on top of it.
+
+`courses.fall_offered`, `courses.spring_offered`, and `courses.summer_offered`
+are real columns, and `load_catalog.py` does load them (same generic
+pass-through as every other course field). But the *values* behind them
+aren't real per-course data: every single one of the 2,120 courses in
+`schedule_optimizer_db/courses.json` — not just the 1,012 we loaded — has
+the exact same three flags: `fall_offered: true, spring_offered: true,
+summer_offered: false`. Not one course differs. The scraped catalog text in
+`catalog_scraper/output/*.json` never mentions term availability either
+(only descriptions/prerequisites), so there's currently no source anywhere
+in this repo with genuine per-course fall/spring/summer offering patterns.
+It looks like a blanket default applied when that JSON file was generated,
+well before this data-loading phase.
+
+**Why this matters later, not now:** `docs/PHASES.md` Phase 3.1 (the CP-SAT
+optimizer) plans to use exactly these three flags to decide which terms a
+course is eligible for. Left as-is, the solver would currently believe every
+course runs both fall and spring every single year and never in summer —
+which isn't true in real life (some upper-level/capstone courses genuinely
+only run once a year), and makes the `MIN_SUMMER_ENROLLMENT` objective
+meaningless (nothing is ever eligible in summer, so there's nothing for that
+objective to actually optimize against).
+
+**Decision:** rather than hand-fixing or re-scraping this now, we're
+explicitly deferring it — flagged here and in `docs/PHASES.md` (Phase 3.1)
+so it isn't silently forgotten, and to be revisited when Phase 3 actually
+starts building term-eligibility constraints (at which point it'll be clear
+whether the uniform placeholder is "good enough for a prototype" or needs
+real data first).
+

@@ -1,0 +1,718 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/civilengineering/#minortext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/civilengineering/",
+        "fragment": "minortext",
+        "page_slug": "civilengineering",
+        "page_title": "Civil Engineering < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minortextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 1408,
+        "html_character_count": 5488,
+        "heading_count": 1,
+        "paragraph_count": 4,
+        "list_count": 0,
+        "table_count": 3,
+        "link_count": 15,
+        "superscript_count": 0,
+        "text_sha256": "183de424850a7cbac0f1622a4698335127c6ff1fd6143241b67133aed79c1a9a",
+        "html_sha256": "f3beed46ad156378ef9e80e251219abe9723d86f53c93a5cd9ce36650676efed"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h3",
+            "text": "Minor in Construction Engineering & Management",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "CIV ENG 2451",
+            "href": "/search/?P=CIV%20ENG%202451",
+            "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%202451",
+            "resolved_course": "CIV ENG 2451"
+        },
+        {
+            "number": 2,
+            "text": "CIV ENG 4448",
+            "href": "/search/?P=CIV%20ENG%204448",
+            "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%204448",
+            "resolved_course": "CIV ENG 4448"
+        },
+        {
+            "number": 3,
+            "text": "ENG MGT 3320",
+            "href": "/search/?P=ENG%20MGT%203320",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%203320",
+            "resolved_course": "ENG MGT 3320"
+        },
+        {
+            "number": 4,
+            "text": "CIV ENG 5442",
+            "href": "/search/?P=CIV%20ENG%205442",
+            "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%205442",
+            "resolved_course": "CIV ENG 5442"
+        },
+        {
+            "number": 5,
+            "text": "CIV ENG 5445",
+            "href": "/search/?P=CIV%20ENG%205445",
+            "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%205445",
+            "resolved_course": "CIV ENG 5445"
+        },
+        {
+            "number": 6,
+            "text": "CIV ENG 5446",
+            "href": "/search/?P=CIV%20ENG%205446",
+            "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%205446",
+            "resolved_course": "CIV ENG 5446"
+        },
+        {
+            "number": 7,
+            "text": "CIV ENG 5449",
+            "href": "/search/?P=CIV%20ENG%205449",
+            "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%205449",
+            "resolved_course": "CIV ENG 5449"
+        },
+        {
+            "number": 8,
+            "text": "ENG MGT 5316",
+            "href": "/search/?P=ENG%20MGT%205316",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205316",
+            "resolved_course": "ENG MGT 5316"
+        },
+        {
+            "number": 9,
+            "text": "ENG MGT 5610",
+            "href": "/search/?P=ENG%20MGT%205610",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205610",
+            "resolved_course": "ENG MGT 5610"
+        },
+        {
+            "number": 10,
+            "text": "CIV ENG 5451",
+            "href": "/search/?P=CIV%20ENG%205451",
+            "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%205451",
+            "resolved_course": "CIV ENG 5451"
+        },
+        {
+            "number": 11,
+            "text": "CIV ENG 5452",
+            "href": "/search/?P=CIV%20ENG%205452",
+            "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%205452",
+            "resolved_course": "CIV ENG 5452"
+        },
+        {
+            "number": 12,
+            "text": "CIV ENG 5453",
+            "href": "/search/?P=CIV%20ENG%205453",
+            "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%205453",
+            "resolved_course": "CIV ENG 5453"
+        },
+        {
+            "number": 13,
+            "text": "CIV ENG 5454",
+            "href": "/search/?P=CIV%20ENG%205454",
+            "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%205454",
+            "resolved_course": "CIV ENG 5454"
+        },
+        {
+            "number": 14,
+            "text": "CIV ENG 5455",
+            "href": "/search/?P=CIV%20ENG%205455",
+            "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%205455",
+            "resolved_course": "CIV ENG 5455"
+        },
+        {
+            "number": 15,
+            "text": "ARCH ENG 2103",
+            "href": "/search/?P=ARCH%20ENG%202103",
+            "url": "https://catalog.mst.edu/search/?P=ARCH%20ENG%202103",
+            "resolved_course": "ARCH ENG 2103"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "CIV ENG 2451 Engineering Drawings and Tools 3 CIV ENG 4448 Fundamentals Of Construction Engineering & Management 3 ENG MGT 3320 Introduction to Project Management 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CIV ENG 2451",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CIV ENG 2451",
+                                    "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%202451",
+                                    "resolved_course": "CIV ENG 2451"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Engineering Drawings and Tools",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CIV ENG 4448",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CIV ENG 4448",
+                                    "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%204448",
+                                    "resolved_course": "CIV ENG 4448"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Fundamentals Of Construction Engineering & Management",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 3320",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 3320",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%203320",
+                                    "resolved_course": "ENG MGT 3320"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Introduction to Project Management",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%202451\" onclick=\"return showCourse(this, 'CIV ENG 2451');\" title=\"CIV ENG 2451\">CIV ENG 2451</a></td><td>Engineering Drawings and Tools</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%204448\" onclick=\"return showCourse(this, 'CIV ENG 4448');\" title=\"CIV ENG 4448\">CIV ENG 4448</a></td><td>Fundamentals Of Construction Engineering &amp; Management</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%203320\" onclick=\"return showCourse(this, 'ENG MGT 3320');\" title=\"ENG MGT 3320\">ENG MGT 3320</a></td><td>Introduction to Project Management</td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        },
+        {
+            "table_number": 2,
+            "text": "CIV ENG 5442 Construction Planning and Scheduling Strategies 3 CIV ENG 5445 Construction Methods 3 CIV ENG 5446 Management Of Construction Costs 3 CIV ENG 5449 Engineering and Construction Contract Specifications 3 ENG MGT 5316 Safety Engineering Management 3 ENG MGT 5610 Advanced Facilities Planning & Design 3 BUS 3205 1.5",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CIV ENG 5442",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CIV ENG 5442",
+                                    "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%205442",
+                                    "resolved_course": "CIV ENG 5442"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Construction Planning and Scheduling Strategies",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CIV ENG 5445",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CIV ENG 5445",
+                                    "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%205445",
+                                    "resolved_course": "CIV ENG 5445"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Construction Methods",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CIV ENG 5446",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CIV ENG 5446",
+                                    "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%205446",
+                                    "resolved_course": "CIV ENG 5446"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Management Of Construction Costs",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CIV ENG 5449",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CIV ENG 5449",
+                                    "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%205449",
+                                    "resolved_course": "CIV ENG 5449"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Engineering and Construction Contract Specifications",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 5316",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 5316",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205316",
+                                    "resolved_course": "ENG MGT 5316"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Safety Engineering Management",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 5610",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 5610",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205610",
+                                    "resolved_course": "ENG MGT 5610"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Advanced Facilities Planning & Design",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "BUS 3205",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "1.5",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%205442\" onclick=\"return showCourse(this, 'CIV ENG 5442');\" title=\"CIV ENG 5442\">CIV ENG 5442</a></td><td>Construction Planning and Scheduling Strategies</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%205445\" onclick=\"return showCourse(this, 'CIV ENG 5445');\" title=\"CIV ENG 5445\">CIV ENG 5445</a></td><td>Construction Methods</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%205446\" onclick=\"return showCourse(this, 'CIV ENG 5446');\" title=\"CIV ENG 5446\">CIV ENG 5446</a></td><td>Management Of Construction Costs</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%205449\" onclick=\"return showCourse(this, 'CIV ENG 5449');\" title=\"CIV ENG 5449\">CIV ENG 5449</a></td><td>Engineering and Construction Contract Specifications</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205316\" onclick=\"return showCourse(this, 'ENG MGT 5316');\" title=\"ENG MGT 5316\">ENG MGT 5316</a></td><td>Safety Engineering Management</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205610\" onclick=\"return showCourse(this, 'ENG MGT 5610');\" title=\"ENG MGT 5610\">ENG MGT 5610</a></td><td>Advanced Facilities Planning &amp; Design</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\">BUS 3205</td><td></td><td class=\"hourscol\">1.5</td></tr> </tbody></table>"
+        },
+        {
+            "table_number": 3,
+            "text": "CIV ENG 5451 Information Technology Applications in the Construction Industry 3 CIV ENG 5452 Pre-Project Planning and Feasibility Studies 3 CIV ENG 5453 Logistics for Construction Industry 3 CIV ENG 5454 Construction Technology for High-Rise Buildings 3 CIV ENG 5455 Construction Industry Best Practices 3 ARCH ENG 2103 Architectural Materials And Methods Of Construction 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CIV ENG 5451",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CIV ENG 5451",
+                                    "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%205451",
+                                    "resolved_course": "CIV ENG 5451"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Information Technology Applications in the Construction Industry",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CIV ENG 5452",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CIV ENG 5452",
+                                    "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%205452",
+                                    "resolved_course": "CIV ENG 5452"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Pre-Project Planning and Feasibility Studies",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CIV ENG 5453",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CIV ENG 5453",
+                                    "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%205453",
+                                    "resolved_course": "CIV ENG 5453"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Logistics for Construction Industry",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CIV ENG 5454",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CIV ENG 5454",
+                                    "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%205454",
+                                    "resolved_course": "CIV ENG 5454"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Construction Technology for High-Rise Buildings",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CIV ENG 5455",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CIV ENG 5455",
+                                    "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%205455",
+                                    "resolved_course": "CIV ENG 5455"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Construction Industry Best Practices",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ARCH ENG 2103",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ARCH ENG 2103",
+                                    "url": "https://catalog.mst.edu/search/?P=ARCH%20ENG%202103",
+                                    "resolved_course": "ARCH ENG 2103"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Architectural Materials And Methods Of Construction",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%205451\" onclick=\"return showCourse(this, 'CIV ENG 5451');\" title=\"CIV ENG 5451\">CIV ENG 5451</a></td><td>Information Technology Applications in the Construction Industry</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%205452\" onclick=\"return showCourse(this, 'CIV ENG 5452');\" title=\"CIV ENG 5452\">CIV ENG 5452</a></td><td>Pre-Project Planning and Feasibility Studies</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%205453\" onclick=\"return showCourse(this, 'CIV ENG 5453');\" title=\"CIV ENG 5453\">CIV ENG 5453</a></td><td>Logistics for Construction Industry</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%205454\" onclick=\"return showCourse(this, 'CIV ENG 5454');\" title=\"CIV ENG 5454\">CIV ENG 5454</a></td><td>Construction Technology for High-Rise Buildings</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%205455\" onclick=\"return showCourse(this, 'CIV ENG 5455');\" title=\"CIV ENG 5455\">CIV ENG 5455</a></td><td>Construction Industry Best Practices</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ARCH%20ENG%202103\" onclick=\"return showCourse(this, 'ARCH ENG 2103');\" title=\"ARCH ENG 2103\">ARCH ENG 2103</a></td><td>Architectural Materials And Methods Of Construction</td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        }
+    ],
+    "section_text": "Minor in Construction Engineering & Management The minor in Construction Engineering and Management will require 15 credits of coursework from the following lists. Some courses may also count toward the students’ undergraduate degree. To maintain the value of the minor, we require students to complete a minimum of 9 credits in addition to any classes counting towards the students undergraduate and/or graduate degree(s). 3 Credit Hours from the following List: CIV ENG 2451 Engineering Drawings and Tools 3 CIV ENG 4448 Fundamentals Of Construction Engineering & Management 3 ENG MGT 3320 Introduction to Project Management 3 6 Credit Hours from the following List: CIV ENG 5442 Construction Planning and Scheduling Strategies 3 CIV ENG 5445 Construction Methods 3 CIV ENG 5446 Management Of Construction Costs 3 CIV ENG 5449 Engineering and Construction Contract Specifications 3 ENG MGT 5316 Safety Engineering Management 3 ENG MGT 5610 Advanced Facilities Planning & Design 3 BUS 3205 1.5 6 Credit Hours from the following List: CIV ENG 5451 Information Technology Applications in the Construction Industry 3 CIV ENG 5452 Pre-Project Planning and Feasibility Studies 3 CIV ENG 5453 Logistics for Construction Industry 3 CIV ENG 5454 Construction Technology for High-Rise Buildings 3 CIV ENG 5455 Construction Industry Best Practices 3 ARCH ENG 2103 Architectural Materials And Methods Of Construction 3",
+    "section_html": "<div class=\"tab_content\" id=\"minortextcontainer\">\n<a name=\"minortext\"></a><h3>Minor in Construction Engineering &amp; Management</h3> <p>The minor in Construction Engineering and Management will require 15 credits of coursework from the following lists. Some courses may also count toward the students’ undergraduate degree. To maintain the value of the minor, we require students to complete a minimum of 9 credits in addition to any classes counting towards the students undergraduate and/or graduate degree(s).</p> <p><u>3 Credit Hours from the following List:</u></p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%202451\" onclick=\"return showCourse(this, 'CIV ENG 2451');\" title=\"CIV ENG 2451\">CIV ENG 2451</a></td><td>Engineering Drawings and Tools</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%204448\" onclick=\"return showCourse(this, 'CIV ENG 4448');\" title=\"CIV ENG 4448\">CIV ENG 4448</a></td><td>Fundamentals Of Construction Engineering &amp; Management</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%203320\" onclick=\"return showCourse(this, 'ENG MGT 3320');\" title=\"ENG MGT 3320\">ENG MGT 3320</a></td><td>Introduction to Project Management</td><td class=\"hourscol\">3</td></tr> </tbody></table> <p><u>6 Credit Hours from the following List:</u></p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%205442\" onclick=\"return showCourse(this, 'CIV ENG 5442');\" title=\"CIV ENG 5442\">CIV ENG 5442</a></td><td>Construction Planning and Scheduling Strategies</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%205445\" onclick=\"return showCourse(this, 'CIV ENG 5445');\" title=\"CIV ENG 5445\">CIV ENG 5445</a></td><td>Construction Methods</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%205446\" onclick=\"return showCourse(this, 'CIV ENG 5446');\" title=\"CIV ENG 5446\">CIV ENG 5446</a></td><td>Management Of Construction Costs</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%205449\" onclick=\"return showCourse(this, 'CIV ENG 5449');\" title=\"CIV ENG 5449\">CIV ENG 5449</a></td><td>Engineering and Construction Contract Specifications</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205316\" onclick=\"return showCourse(this, 'ENG MGT 5316');\" title=\"ENG MGT 5316\">ENG MGT 5316</a></td><td>Safety Engineering Management</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205610\" onclick=\"return showCourse(this, 'ENG MGT 5610');\" title=\"ENG MGT 5610\">ENG MGT 5610</a></td><td>Advanced Facilities Planning &amp; Design</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\">BUS 3205</td><td></td><td class=\"hourscol\">1.5</td></tr> </tbody></table> <p><u>6 Credit Hours from the following List:</u></p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%205451\" onclick=\"return showCourse(this, 'CIV ENG 5451');\" title=\"CIV ENG 5451\">CIV ENG 5451</a></td><td>Information Technology Applications in the Construction Industry</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%205452\" onclick=\"return showCourse(this, 'CIV ENG 5452');\" title=\"CIV ENG 5452\">CIV ENG 5452</a></td><td>Pre-Project Planning and Feasibility Studies</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%205453\" onclick=\"return showCourse(this, 'CIV ENG 5453');\" title=\"CIV ENG 5453\">CIV ENG 5453</a></td><td>Logistics for Construction Industry</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%205454\" onclick=\"return showCourse(this, 'CIV ENG 5454');\" title=\"CIV ENG 5454\">CIV ENG 5454</a></td><td>Construction Technology for High-Rise Buildings</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%205455\" onclick=\"return showCourse(this, 'CIV ENG 5455');\" title=\"CIV ENG 5455\">CIV ENG 5455</a></td><td>Construction Industry Best Practices</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ARCH%20ENG%202103\" onclick=\"return showCourse(this, 'ARCH ENG 2103');\" title=\"ARCH ENG 2103\">ARCH ENG 2103</a></td><td>Architectural Materials And Methods Of Construction</td><td class=\"hourscol\">3</td></tr> </tbody></table>\n</div>"
+}

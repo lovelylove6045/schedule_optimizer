@@ -1,0 +1,284 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/physics/#minorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/physics/",
+        "fragment": "minorstext",
+        "page_slug": "physics",
+        "page_title": "Physics < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 1003,
+        "html_character_count": 3034,
+        "heading_count": 1,
+        "paragraph_count": 3,
+        "list_count": 0,
+        "table_count": 1,
+        "link_count": 6,
+        "superscript_count": 0,
+        "text_sha256": "f05afeb88607b49aa81e155b543391e2e771226eb2d59bf4a78d5203855eec4e",
+        "html_sha256": "f627e78a12af62bb6728f35545a0d7edf2966e69915f13354454de6b5f18e093"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Physics Minor Curriculum",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "PHYSICS 1111",
+            "href": "/search/?P=PHYSICS%201111",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%201111",
+            "resolved_course": "PHYSICS 1111"
+        },
+        {
+            "number": 2,
+            "text": "PHYSICS 2111",
+            "href": "/search/?P=PHYSICS%202111",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202111",
+            "resolved_course": "PHYSICS 2111"
+        },
+        {
+            "number": 3,
+            "text": "PHYSICS 1135",
+            "href": "/search/?P=PHYSICS%201135",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%201135",
+            "resolved_course": "PHYSICS 1135"
+        },
+        {
+            "number": 4,
+            "text": "PHYSICS 2135",
+            "href": "/search/?P=PHYSICS%202135",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202135",
+            "resolved_course": "PHYSICS 2135"
+        },
+        {
+            "number": 5,
+            "text": "PHYSICS 2305",
+            "href": "/search/?P=PHYSICS%202305",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202305",
+            "resolved_course": "PHYSICS 2305"
+        },
+        {
+            "number": 6,
+            "text": "PHYSICS 2311",
+            "href": "/search/?P=PHYSICS%202311",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202311",
+            "resolved_course": "PHYSICS 2311"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "The introductory physics sequence: PHYSICS 1111 & PHYSICS 2111 General Physics I and General Physics II 8 or PHYSICS 1135 & PHYSICS 2135 Engineering Physics I and Engineering Physics II One course in modern physics: PHYSICS 2305 Introduction To Modern Physics 3 or PHYSICS 2311 Modern Physics I 12 additional credit hours of physics courses at the 2000 level or above.",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "The introductory physics sequence:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHYSICS 1111 & PHYSICS 2111",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 1111",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%201111",
+                                    "resolved_course": "PHYSICS 1111"
+                                },
+                                {
+                                    "text": "PHYSICS 2111",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%202111",
+                                    "resolved_course": "PHYSICS 2111"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "General Physics I and General Physics II",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "8",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "or PHYSICS 1135 & PHYSICS 2135",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 1135",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%201135",
+                                    "resolved_course": "PHYSICS 1135"
+                                },
+                                {
+                                    "text": "PHYSICS 2135",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%202135",
+                                    "resolved_course": "PHYSICS 2135"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Engineering Physics I and Engineering Physics II",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "One course in modern physics:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHYSICS 2305",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 2305",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%202305",
+                                    "resolved_course": "PHYSICS 2305"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Introduction To Modern Physics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "or PHYSICS 2311",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 2311",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%202311",
+                                    "resolved_course": "PHYSICS 2311"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Modern Physics I",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "12 additional credit hours of physics courses at the 2000 level or above.",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td colspan=\"2\"><span class=\"courselistcomment\">The introductory physics sequence:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201111\" onclick=\"return showCourse(this, 'PHYSICS 1111');\" title=\"PHYSICS 1111\">PHYSICS 1111</a><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202111\" onclick=\"return showCourse(this, 'PHYSICS 2111');\" title=\"PHYSICS 2111\">PHYSICS 2111</a></span></td><td>General Physics I<br/><span class=\"blockindent\" style=\"margin-left:20px;\">and General Physics II</span></td><td class=\"hourscol\">8</td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201135\" onclick=\"return showCourse(this, 'PHYSICS 1135');\" title=\"PHYSICS 1135\">PHYSICS 1135</a><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202135\" onclick=\"return showCourse(this, 'PHYSICS 2135');\" title=\"PHYSICS 2135\">PHYSICS 2135</a></span></td><td colspan=\"2\"> Engineering Physics I<br/><span class=\"blockindent\" style=\"margin-left:20px;\">and Engineering Physics II</span></td></tr> <tr class=\"even\"><td colspan=\"2\"><span class=\"courselistcomment\">One course in modern physics:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202305\" onclick=\"return showCourse(this, 'PHYSICS 2305');\" title=\"PHYSICS 2305\">PHYSICS 2305</a></td><td>Introduction To Modern Physics</td><td class=\"hourscol\">3</td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202311\" onclick=\"return showCourse(this, 'PHYSICS 2311');\" title=\"PHYSICS 2311\">PHYSICS 2311</a></td><td colspan=\"2\"> Modern Physics I</td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">12 additional credit hours of physics courses at the 2000 level or above.</span></td><td class=\"hourscol\"></td></tr> </tbody></table>"
+        }
+    ],
+    "section_text": "Physics Minor Curriculum The minor in physics is a flexible program whose goal is to increase the breadth and competency of science and engineering students in modern or classical physics. Science students pursuing the physics minor will be interested in a deeper understanding of fundamental physical processes. Engineering students who intend to work in research or advanced development may use a physics minor to acquire a thorough knowledge of atomic, condensed matter, and environmental physics. The physics minor consists of the following courses: The introductory physics sequence: PHYSICS 1111 & PHYSICS 2111 General Physics I and General Physics II 8 or PHYSICS 1135 & PHYSICS 2135 Engineering Physics I and Engineering Physics II One course in modern physics: PHYSICS 2305 Introduction To Modern Physics 3 or PHYSICS 2311 Modern Physics I 12 additional credit hours of physics courses at the 2000 level or above. The program will be designed to conform to the individual’s interests and needs.",
+    "section_html": "<div class=\"tab_content\" id=\"minorstextcontainer\">\n<a name=\"minorstext\"></a><h2>Physics Minor Curriculum</h2> <p>The minor in physics is a flexible program whose goal is to increase the breadth and competency of science and engineering students in modern or classical physics. Science students pursuing the physics minor will be interested in a deeper understanding of fundamental physical processes. Engineering students who intend to work in research or advanced development may use a physics minor to acquire a thorough knowledge of atomic, condensed matter, and environmental physics.</p> <p>The physics minor consists of the following courses:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td colspan=\"2\"><span class=\"courselistcomment\">The introductory physics sequence:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201111\" onclick=\"return showCourse(this, 'PHYSICS 1111');\" title=\"PHYSICS 1111\">PHYSICS 1111</a><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202111\" onclick=\"return showCourse(this, 'PHYSICS 2111');\" title=\"PHYSICS 2111\">PHYSICS 2111</a></span></td><td>General Physics I<br/><span class=\"blockindent\" style=\"margin-left:20px;\">and General Physics II</span></td><td class=\"hourscol\">8</td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201135\" onclick=\"return showCourse(this, 'PHYSICS 1135');\" title=\"PHYSICS 1135\">PHYSICS 1135</a><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202135\" onclick=\"return showCourse(this, 'PHYSICS 2135');\" title=\"PHYSICS 2135\">PHYSICS 2135</a></span></td><td colspan=\"2\"> Engineering Physics I<br/><span class=\"blockindent\" style=\"margin-left:20px;\">and Engineering Physics II</span></td></tr> <tr class=\"even\"><td colspan=\"2\"><span class=\"courselistcomment\">One course in modern physics:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202305\" onclick=\"return showCourse(this, 'PHYSICS 2305');\" title=\"PHYSICS 2305\">PHYSICS 2305</a></td><td>Introduction To Modern Physics</td><td class=\"hourscol\">3</td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202311\" onclick=\"return showCourse(this, 'PHYSICS 2311');\" title=\"PHYSICS 2311\">PHYSICS 2311</a></td><td colspan=\"2\"> Modern Physics I</td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">12 additional credit hours of physics courses at the 2000 level or above.</span></td><td class=\"hourscol\"></td></tr> </tbody></table> <p>The program will be designed to conform to the individual’s interests and needs.</p>\n</div>"
+}

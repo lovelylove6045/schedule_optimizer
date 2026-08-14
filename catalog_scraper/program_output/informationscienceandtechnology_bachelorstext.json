@@ -1,0 +1,1677 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/informationscienceandtechnology/#bachelorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/informationscienceandtechnology/",
+        "fragment": "bachelorstext",
+        "page_slug": "informationscienceandtechnology",
+        "page_title": "Information Science and Technology < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=bachelorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 3018,
+        "html_character_count": 15367,
+        "heading_count": 1,
+        "paragraph_count": 8,
+        "list_count": 0,
+        "table_count": 1,
+        "link_count": 53,
+        "superscript_count": 15,
+        "text_sha256": "86d508677bffa172a4a495bcebe42ae8897b14a9445f25bd61c7464ae349059e",
+        "html_sha256": "de34691e5370e0652594403567b18f703a6064ce18b083a5f99c54800f2497ad"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Bachelor of Science Information Science and Technology",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "BUS 1810",
+            "href": "/search/?P=BUS%201810",
+            "url": "https://catalog.mst.edu/search/?P=BUS%201810",
+            "resolved_course": "BUS 1810"
+        },
+        {
+            "number": 2,
+            "text": "BUS 1110",
+            "href": "/search/?P=BUS%201110",
+            "url": "https://catalog.mst.edu/search/?P=BUS%201110",
+            "resolved_course": "BUS 1110"
+        },
+        {
+            "number": 3,
+            "text": "IS&T 1551",
+            "href": "/search/?P=IS%26T%201551",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%201551",
+            "resolved_course": "IS&T 1551"
+        },
+        {
+            "number": 4,
+            "text": "BUS 1210",
+            "href": "/search/?P=BUS%201210",
+            "url": "https://catalog.mst.edu/search/?P=BUS%201210",
+            "resolved_course": "BUS 1210"
+        },
+        {
+            "number": 5,
+            "text": "IS&T 1750",
+            "href": "/search/?P=IS%26T%201750",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%201750",
+            "resolved_course": "IS&T 1750"
+        },
+        {
+            "number": 6,
+            "text": "IS&T 1552",
+            "href": "/search/?P=IS%26T%201552",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%201552",
+            "resolved_course": "IS&T 1552"
+        },
+        {
+            "number": 7,
+            "text": "ENGLISH 1120",
+            "href": "/search/?P=ENGLISH%201120",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201120",
+            "resolved_course": "ENGLISH 1120"
+        },
+        {
+            "number": 8,
+            "text": "MATH 1210",
+            "href": "/search/?P=MATH%201210",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201210",
+            "resolved_course": "MATH 1210"
+        },
+        {
+            "number": 9,
+            "text": "PSYCH 1101",
+            "href": "/search/?P=PSYCH%201101",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%201101",
+            "resolved_course": "PSYCH 1101"
+        },
+        {
+            "number": 10,
+            "text": "ERP 2110",
+            "href": "/search/?P=ERP%202110",
+            "url": "https://catalog.mst.edu/search/?P=ERP%202110",
+            "resolved_course": "ERP 2110"
+        },
+        {
+            "number": 11,
+            "text": "IS&T 3420",
+            "href": "/search/?P=IS%26T%203420",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%203420",
+            "resolved_course": "IS&T 3420"
+        },
+        {
+            "number": 12,
+            "text": "SP&M S 1185",
+            "href": "/search/?P=SP%26M%20S%201185",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%201185",
+            "resolved_course": "SP&M S 1185"
+        },
+        {
+            "number": 13,
+            "text": "ECON 1100",
+            "href": "/search/?P=ECON%201100",
+            "url": "https://catalog.mst.edu/search/?P=ECON%201100",
+            "resolved_course": "ECON 1100"
+        },
+        {
+            "number": 14,
+            "text": "ECON 1200",
+            "href": "/search/?P=ECON%201200",
+            "url": "https://catalog.mst.edu/search/?P=ECON%201200",
+            "resolved_course": "ECON 1200"
+        },
+        {
+            "number": 15,
+            "text": "ENGLISH 2560",
+            "href": "/search/?P=ENGLISH%202560",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%202560",
+            "resolved_course": "ENGLISH 2560"
+        },
+        {
+            "number": 16,
+            "text": "FINANCE 2150",
+            "href": "/search/?P=FINANCE%202150",
+            "url": "https://catalog.mst.edu/search/?P=FINANCE%202150",
+            "resolved_course": "FINANCE 2150"
+        },
+        {
+            "number": 17,
+            "text": "STAT 1115",
+            "href": "/search/?P=STAT%201115",
+            "url": "https://catalog.mst.edu/search/?P=STAT%201115",
+            "resolved_course": "STAT 1115"
+        },
+        {
+            "number": 18,
+            "text": "IS&T 3333",
+            "href": "/search/?P=IS%26T%203333",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%203333",
+            "resolved_course": "IS&T 3333"
+        },
+        {
+            "number": 19,
+            "text": "IS&T 3343",
+            "href": "/search/?P=IS%26T%203343",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%203343",
+            "resolved_course": "IS&T 3343"
+        },
+        {
+            "number": 20,
+            "text": "IS&T 3423",
+            "href": "/search/?P=IS%26T%203423",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%203423",
+            "resolved_course": "IS&T 3423"
+        },
+        {
+            "number": 21,
+            "text": "IS&T 4444",
+            "href": "/search/?P=IS%26T%204444",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%204444",
+            "resolved_course": "IS&T 4444"
+        },
+        {
+            "number": 22,
+            "text": "IS&T 4654",
+            "href": "/search/?P=IS%26T%204654",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%204654",
+            "resolved_course": "IS&T 4654"
+        },
+        {
+            "number": 23,
+            "text": "MKT 3110",
+            "href": "/search/?P=MKT%203110",
+            "url": "https://catalog.mst.edu/search/?P=MKT%203110",
+            "resolved_course": "MKT 3110"
+        },
+        {
+            "number": 24,
+            "text": "POL SCI 1200",
+            "href": "/search/?P=POL%20SCI%201200",
+            "url": "https://catalog.mst.edu/search/?P=POL%20SCI%201200",
+            "resolved_course": "POL SCI 1200"
+        },
+        {
+            "number": 25,
+            "text": "IS&T 5520",
+            "href": "/search/?P=IS%26T%205520",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%205520",
+            "resolved_course": "IS&T 5520"
+        },
+        {
+            "number": 26,
+            "text": "BUS 5980",
+            "href": "/search/?P=BUS%205980",
+            "url": "https://catalog.mst.edu/search/?P=BUS%205980",
+            "resolved_course": "BUS 5980"
+        },
+        {
+            "number": 27,
+            "text": "IS&T 5725",
+            "href": "/search/?P=IS%26T%205725",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%205725",
+            "resolved_course": "IS&T 5725"
+        },
+        {
+            "number": 28,
+            "text": "IS&T 5420",
+            "href": "/search/?P=IS%26T%205420",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%205420",
+            "resolved_course": "IS&T 5420"
+        },
+        {
+            "number": 29,
+            "text": "BUS 1110",
+            "href": "/search/?P=BUS%201110",
+            "url": "https://catalog.mst.edu/search/?P=BUS%201110",
+            "resolved_course": "BUS 1110"
+        },
+        {
+            "number": 30,
+            "text": "BUS 1210",
+            "href": "/search/?P=BUS%201210",
+            "url": "https://catalog.mst.edu/search/?P=BUS%201210",
+            "resolved_course": "BUS 1210"
+        },
+        {
+            "number": 31,
+            "text": "BUS 1810",
+            "href": "/search/?P=BUS%201810",
+            "url": "https://catalog.mst.edu/search/?P=BUS%201810",
+            "resolved_course": "BUS 1810"
+        },
+        {
+            "number": 32,
+            "text": "BUS 5980",
+            "href": "/search/?P=BUS%205980",
+            "url": "https://catalog.mst.edu/search/?P=BUS%205980",
+            "resolved_course": "BUS 5980"
+        },
+        {
+            "number": 33,
+            "text": "ECON 1100",
+            "href": "/search/?P=ECON%201100",
+            "url": "https://catalog.mst.edu/search/?P=ECON%201100",
+            "resolved_course": "ECON 1100"
+        },
+        {
+            "number": 34,
+            "text": "ECON 1200",
+            "href": "/search/?P=ECON%201200",
+            "url": "https://catalog.mst.edu/search/?P=ECON%201200",
+            "resolved_course": "ECON 1200"
+        },
+        {
+            "number": 35,
+            "text": "ERP 2110",
+            "href": "/search/?P=ERP%202110",
+            "url": "https://catalog.mst.edu/search/?P=ERP%202110",
+            "resolved_course": "ERP 2110"
+        },
+        {
+            "number": 36,
+            "text": "FINANCE 2150",
+            "href": "/search/?P=FINANCE%202150",
+            "url": "https://catalog.mst.edu/search/?P=FINANCE%202150",
+            "resolved_course": "FINANCE 2150"
+        },
+        {
+            "number": 37,
+            "text": "MKT 3110",
+            "href": "/search/?P=MKT%203110",
+            "url": "https://catalog.mst.edu/search/?P=MKT%203110",
+            "resolved_course": "MKT 3110"
+        },
+        {
+            "number": 38,
+            "text": "IS&T 1551",
+            "href": "/search/?P=IS%26T%201551",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%201551",
+            "resolved_course": "IS&T 1551"
+        },
+        {
+            "number": 39,
+            "text": "IS&T 1552",
+            "href": "/search/?P=IS%26T%201552",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%201552",
+            "resolved_course": "IS&T 1552"
+        },
+        {
+            "number": 40,
+            "text": "IS&T 1750",
+            "href": "/search/?P=IS%26T%201750",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%201750",
+            "resolved_course": "IS&T 1750"
+        },
+        {
+            "number": 41,
+            "text": "IS&T 3333",
+            "href": "/search/?P=IS%26T%203333",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%203333",
+            "resolved_course": "IS&T 3333"
+        },
+        {
+            "number": 42,
+            "text": "IS&T 3343",
+            "href": "/search/?P=IS%26T%203343",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%203343",
+            "resolved_course": "IS&T 3343"
+        },
+        {
+            "number": 43,
+            "text": "IS&T 3420",
+            "href": "/search/?P=IS%26T%203420",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%203420",
+            "resolved_course": "IS&T 3420"
+        },
+        {
+            "number": 44,
+            "text": "IS&T 3423",
+            "href": "/search/?P=IS%26T%203423",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%203423",
+            "resolved_course": "IS&T 3423"
+        },
+        {
+            "number": 45,
+            "text": "IS&T 4444",
+            "href": "/search/?P=IS%26T%204444",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%204444",
+            "resolved_course": "IS&T 4444"
+        },
+        {
+            "number": 46,
+            "text": "IS&T 4654",
+            "href": "/search/?P=IS%26T%204654",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%204654",
+            "resolved_course": "IS&T 4654"
+        },
+        {
+            "number": 47,
+            "text": "IS&T 5420",
+            "href": "/search/?P=IS%26T%205420",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%205420",
+            "resolved_course": "IS&T 5420"
+        },
+        {
+            "number": 48,
+            "text": "IS&T 5520",
+            "href": "/search/?P=IS%26T%205520",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%205520",
+            "resolved_course": "IS&T 5520"
+        },
+        {
+            "number": 49,
+            "text": "IS&T 5725",
+            "href": "/search/?P=IS%26T%205725",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%205725",
+            "resolved_course": "IS&T 5725"
+        },
+        {
+            "number": 50,
+            "text": "BUS 5730",
+            "href": "/search/?P=BUS%205730",
+            "url": "https://catalog.mst.edu/search/?P=BUS%205730",
+            "resolved_course": "BUS 5730"
+        },
+        {
+            "number": 51,
+            "text": "BUS 5910",
+            "href": "/search/?P=BUS%205910",
+            "url": "https://catalog.mst.edu/search/?P=BUS%205910",
+            "resolved_course": "BUS 5910"
+        },
+        {
+            "number": 52,
+            "text": "COMP SCI 4700",
+            "href": "/search/?P=COMP%20SCI%204700",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%204700",
+            "resolved_course": "COMP SCI 4700"
+        },
+        {
+            "number": 53,
+            "text": "COMP SCI 5601",
+            "href": "/search/?P=COMP%20SCI%205601",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205601",
+            "resolved_course": "COMP SCI 5601"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "Freshman Year First Semester Credits Second Semester Credits BUS 1810 1 BUS 1110 3 IS&T 1551 3 BUS 1210 3 IS&T 1750 3 IS&T 1552 3 ENGLISH 1120 3 3 MATH 1210 3 5 Science Elective 1,3 3 PSYCH 1101 3 3 Science Lab 3 1 14 17 Sophomore Year First Semester Credits Second Semester Credits ERP 2110 3 IS&T 3420 3 SP&M S 1185 3 3 ECON 1100 3 3 ECON 1200 3 3 ENGLISH 2560 (or TECHCOM 2560) 3 3 FINANCE 2150 3 STAT 1115 3 Fine Art, or Humanities Elective 2,3 3 Science Elective 1,3 3 15 15 Junior Year First Semester Credits Second Semester Credits IS&T 3333 3 IS&T 3343 3 IS&T 3423 3 IS&T 4444 3 IS&T 4654 3 IS&T Elective 3 IS&T Elective 3 MKT 3110 3 Free Elective 3 POL SCI 1200 3 3 15 15 Senior Year First Semester Credits Second Semester Credits IS&T 5520 3 BUS 5980 3 IS&T 5725 3 IS&T 5420 3 IS&T Electives 6 IS&T Elective 3 Free Elective 5 Free Electives 3 17 12 Total Credits: 120",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Freshman Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "BUS 1810",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BUS 1810",
+                                    "url": "https://catalog.mst.edu/search/?P=BUS%201810",
+                                    "resolved_course": "BUS 1810"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "BUS 1110",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BUS 1110",
+                                    "url": "https://catalog.mst.edu/search/?P=BUS%201110",
+                                    "resolved_course": "BUS 1110"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "IS&T 1551",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "IS&T 1551",
+                                    "url": "https://catalog.mst.edu/search/?P=IS%26T%201551",
+                                    "resolved_course": "IS&T 1551"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "BUS 1210",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BUS 1210",
+                                    "url": "https://catalog.mst.edu/search/?P=BUS%201210",
+                                    "resolved_course": "BUS 1210"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "IS&T 1750",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "IS&T 1750",
+                                    "url": "https://catalog.mst.edu/search/?P=IS%26T%201750",
+                                    "resolved_course": "IS&T 1750"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "IS&T 1552",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "IS&T 1552",
+                                    "url": "https://catalog.mst.edu/search/?P=IS%26T%201552",
+                                    "resolved_course": "IS&T 1552"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENGLISH 1120 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENGLISH 1120",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%201120",
+                                    "resolved_course": "ENGLISH 1120"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MATH 1210 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 1210",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201210",
+                                    "resolved_course": "MATH 1210"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "5",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Science Elective 1,3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "PSYCH 1101 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 1101",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%201101",
+                                    "resolved_course": "PSYCH 1101"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Science Lab 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "14",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "17",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 10,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Sophomore Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 11,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 12,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ERP 2110",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ERP 2110",
+                                    "url": "https://catalog.mst.edu/search/?P=ERP%202110",
+                                    "resolved_course": "ERP 2110"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "IS&T 3420",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "IS&T 3420",
+                                    "url": "https://catalog.mst.edu/search/?P=IS%26T%203420",
+                                    "resolved_course": "IS&T 3420"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 13,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 1185 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 1185",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%201185",
+                                    "resolved_course": "SP&M S 1185"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "ECON 1100 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 1100",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%201100",
+                                    "resolved_course": "ECON 1100"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 14,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 1200 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 1200",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%201200",
+                                    "resolved_course": "ECON 1200"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "ENGLISH 2560 (or TECHCOM 2560) 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENGLISH 2560",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%202560",
+                                    "resolved_course": "ENGLISH 2560"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 15,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "FINANCE 2150",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "FINANCE 2150",
+                                    "url": "https://catalog.mst.edu/search/?P=FINANCE%202150",
+                                    "resolved_course": "FINANCE 2150"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "STAT 1115",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "STAT 1115",
+                                    "url": "https://catalog.mst.edu/search/?P=STAT%201115",
+                                    "resolved_course": "STAT 1115"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 16,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Fine Art, or Humanities Elective 2,3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Science Elective 1,3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 17,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 18,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Junior Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 19,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 20,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "IS&T 3333",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "IS&T 3333",
+                                    "url": "https://catalog.mst.edu/search/?P=IS%26T%203333",
+                                    "resolved_course": "IS&T 3333"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "IS&T 3343",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "IS&T 3343",
+                                    "url": "https://catalog.mst.edu/search/?P=IS%26T%203343",
+                                    "resolved_course": "IS&T 3343"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 21,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "IS&T 3423",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "IS&T 3423",
+                                    "url": "https://catalog.mst.edu/search/?P=IS%26T%203423",
+                                    "resolved_course": "IS&T 3423"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "IS&T 4444",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "IS&T 4444",
+                                    "url": "https://catalog.mst.edu/search/?P=IS%26T%204444",
+                                    "resolved_course": "IS&T 4444"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 22,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "IS&T 4654",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "IS&T 4654",
+                                    "url": "https://catalog.mst.edu/search/?P=IS%26T%204654",
+                                    "resolved_course": "IS&T 4654"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "IS&T Elective",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 23,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "IS&T Elective",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MKT 3110",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MKT 3110",
+                                    "url": "https://catalog.mst.edu/search/?P=MKT%203110",
+                                    "resolved_course": "MKT 3110"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 24,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Free Elective",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "POL SCI 1200 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "POL SCI 1200",
+                                    "url": "https://catalog.mst.edu/search/?P=POL%20SCI%201200",
+                                    "resolved_course": "POL SCI 1200"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 25,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 26,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Senior Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 27,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 28,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "IS&T 5520",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "IS&T 5520",
+                                    "url": "https://catalog.mst.edu/search/?P=IS%26T%205520",
+                                    "resolved_course": "IS&T 5520"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "BUS 5980",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BUS 5980",
+                                    "url": "https://catalog.mst.edu/search/?P=BUS%205980",
+                                    "resolved_course": "BUS 5980"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 29,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "IS&T 5725",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "IS&T 5725",
+                                    "url": "https://catalog.mst.edu/search/?P=IS%26T%205725",
+                                    "resolved_course": "IS&T 5725"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "IS&T 5420",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "IS&T 5420",
+                                    "url": "https://catalog.mst.edu/search/?P=IS%26T%205420",
+                                    "resolved_course": "IS&T 5420"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 30,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "IS&T Electives",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "6",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "IS&T Elective",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 31,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Free Elective",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "5",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Free Electives",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 32,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "17",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "12",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 33,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Total Credits: 120",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_plangrid\"><tr class=\"plangridyear firstrow\"><th colspan=\"4\">Freshman Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BUS%201810\" onclick=\"return showCourse(this, 'BUS 1810');\" title=\"BUS 1810\">BUS 1810</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BUS%201110\" onclick=\"return showCourse(this, 'BUS 1110');\" title=\"BUS 1110\">BUS 1110</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%201551\" onclick=\"return showCourse(this, 'IS&amp;T 1551');\" title=\"IS&amp;T 1551\">IS&amp;T 1551</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BUS%201210\" onclick=\"return showCourse(this, 'BUS 1210');\" title=\"BUS 1210\">BUS 1210</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%201750\" onclick=\"return showCourse(this, 'IS&amp;T 1750');\" title=\"IS&amp;T 1750\">IS&amp;T 1750</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%201552\" onclick=\"return showCourse(this, 'IS&amp;T 1552');\" title=\"IS&amp;T 1552\">IS&amp;T 1552</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201120\" onclick=\"return showCourse(this, 'ENGLISH 1120');\" title=\"ENGLISH 1120\">ENGLISH 1120</a><sup>3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201210\" onclick=\"return showCourse(this, 'MATH 1210');\" title=\"MATH 1210\">MATH 1210</a><sup>3</sup></td><td class=\"hourscol\">5</td></tr><tr class=\"even\"> <td class=\"codecol\">Science Elective<sup>1,3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%201101\" onclick=\"return showCourse(this, 'PSYCH 1101');\" title=\"PSYCH 1101\">PSYCH 1101</a><sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Science Lab<sup>3</sup></td><td class=\"hourscol\">1</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">14</td><td> </td><td class=\"hourscol\">17</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Sophomore Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ERP%202110\" onclick=\"return showCourse(this, 'ERP 2110');\" title=\"ERP 2110\">ERP 2110</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%203420\" onclick=\"return showCourse(this, 'IS&amp;T 3420');\" title=\"IS&amp;T 3420\">IS&amp;T 3420</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%201185\" onclick=\"return showCourse(this, 'SP&amp;M S 1185');\" title=\"SP&amp;M S 1185\">SP&amp;M S 1185</a><sup>3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%201100\" onclick=\"return showCourse(this, 'ECON 1100');\" title=\"ECON 1100\">ECON 1100</a><sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%201200\" onclick=\"return showCourse(this, 'ECON 1200');\" title=\"ECON 1200\">ECON 1200</a><sup>3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%202560\" onclick=\"return showCourse(this, 'ENGLISH 2560');\" title=\"ENGLISH 2560\">ENGLISH 2560</a> (or TECHCOM 2560)<sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=FINANCE%202150\" onclick=\"return showCourse(this, 'FINANCE 2150');\" title=\"FINANCE 2150\">FINANCE 2150</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%201115\" onclick=\"return showCourse(this, 'STAT 1115');\" title=\"STAT 1115\">STAT 1115</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Fine Art, or Humanities Elective<sup>2,3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Science Elective<sup>1,3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Junior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%203333\" onclick=\"return showCourse(this, 'IS&amp;T 3333');\" title=\"IS&amp;T 3333\">IS&amp;T 3333</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%203343\" onclick=\"return showCourse(this, 'IS&amp;T 3343');\" title=\"IS&amp;T 3343\">IS&amp;T 3343</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%203423\" onclick=\"return showCourse(this, 'IS&amp;T 3423');\" title=\"IS&amp;T 3423\">IS&amp;T 3423</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%204444\" onclick=\"return showCourse(this, 'IS&amp;T 4444');\" title=\"IS&amp;T 4444\">IS&amp;T 4444</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%204654\" onclick=\"return showCourse(this, 'IS&amp;T 4654');\" title=\"IS&amp;T 4654\">IS&amp;T 4654</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">IS&amp;T Elective</td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">IS&amp;T Elective </td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MKT%203110\" onclick=\"return showCourse(this, 'MKT 3110');\" title=\"MKT 3110\">MKT 3110</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Free Elective</td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%201200\" onclick=\"return showCourse(this, 'POL SCI 1200');\" title=\"POL SCI 1200\">POL SCI 1200</a><sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Senior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%205520\" onclick=\"return showCourse(this, 'IS&amp;T 5520');\" title=\"IS&amp;T 5520\">IS&amp;T 5520</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BUS%205980\" onclick=\"return showCourse(this, 'BUS 5980');\" title=\"BUS 5980\">BUS 5980</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%205725\" onclick=\"return showCourse(this, 'IS&amp;T 5725');\" title=\"IS&amp;T 5725\">IS&amp;T 5725</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%205420\" onclick=\"return showCourse(this, 'IS&amp;T 5420');\" title=\"IS&amp;T 5420\">IS&amp;T 5420</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">IS&amp;T Electives </td><td class=\"hourscol\">6</td><td class=\"codecol\">IS&amp;T Elective</td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Free Elective</td><td class=\"hourscol\">5</td><td class=\"codecol\">Free Electives</td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">17</td><td> </td><td class=\"hourscol\">12</td></tr><tr class=\"plangridtotal lastrow\"><td colspan=\"4\">Total Credits: 120</td></tr></table>"
+        }
+    ],
+    "section_text": "Bachelor of Science Information Science and Technology In Information Science and Technology, the Bachelor of Science degree consists of 120 credit hours. All undergraduate students in Information Science and Technology are required to complete a General Education Requirements Core, including courses in Humanities, Social Sciences, Mathematics, Science, and Communication Skills. A common core of courses helps provide students with skills to succeed in a fast-changing and globalized environment. Information Science and Technology (IS&T) Core courses and IS&T Electives provide students with comprehensive knowledge of information technology utilization in businesses. These courses include business analytics & data science, database management, systems analysis, introduction to data science and management, networks and communications, and cybersecurity. The electives for this degree consist of advanced coursework in the areas introduced by the required courses. A minimum grade of \"C\" is required in the courses designated accordingly. Students have 11 credit hours for free electives. Freshman Year First Semester Credits Second Semester Credits BUS 1810 1 BUS 1110 3 IS&T 1551 3 BUS 1210 3 IS&T 1750 3 IS&T 1552 3 ENGLISH 1120 3 3 MATH 1210 3 5 Science Elective 1,3 3 PSYCH 1101 3 3 Science Lab 3 1 14 17 Sophomore Year First Semester Credits Second Semester Credits ERP 2110 3 IS&T 3420 3 SP&M S 1185 3 3 ECON 1100 3 3 ECON 1200 3 3 ENGLISH 2560 (or TECHCOM 2560) 3 3 FINANCE 2150 3 STAT 1115 3 Fine Art, or Humanities Elective 2,3 3 Science Elective 1,3 3 15 15 Junior Year First Semester Credits Second Semester Credits IS&T 3333 3 IS&T 3343 3 IS&T 3423 3 IS&T 4444 3 IS&T 4654 3 IS&T Elective 3 IS&T Elective 3 MKT 3110 3 Free Elective 3 POL SCI 1200 3 3 15 15 Senior Year First Semester Credits Second Semester Credits IS&T 5520 3 BUS 5980 3 IS&T 5725 3 IS&T 5420 3 IS&T Electives 6 IS&T Elective 3 Free Elective 5 Free Electives 3 17 12 Total Credits: 120 A grade of “C” or better is required in the following courses for graduation; BUS 1110 , BUS 1210 , BUS 1810 , BUS 5980 , ECON 1100 , ECON 1200 , ERP 2110 , FINANCE 2150 , MKT 3110 , IS&T 1551 , IS&T 1552 , IS&T 1750 , IS&T 3333 , IS&T 3343 , IS&T 3420 , IS&T 3423 , IS&T 4444 , IS&T 4654 , IS&T 5420 , IS&T 5520 , IS&T 5725 and all IS&T Electives (can include BUS 5730 , BUS 5910 , COMP SCI 4700 , COMP SCI 5601 , or any IS&T or ERP designated course at the 3000-level or above). 1 General education elective courses in two of the following areas: biology, chemistry, geology, or physics must fulfill the Missouri S&T general education requirements applicable to the students catalog year. 2 General education elective courses in two of the following areas: art, history, music, or theater must fulfill the Missouri S&T general education requirements applicable to the students catalog year. 3 General education discipline required course. These fulfill the Missouri S&T general education requirements applicable to the student’s catalog year.",
+    "section_html": "<div class=\"tab_content\" id=\"bachelorstextcontainer\">\n<a name=\"bachelorstext\"></a><h2>Bachelor of Science<br/> Information Science and Technology</h2> <p>In Information Science and Technology, the Bachelor of Science degree consists of 120 credit hours. All undergraduate students in Information Science and Technology are required to complete a General Education Requirements Core, including courses in Humanities, Social Sciences, Mathematics, Science, and Communication Skills.</p> <p>A common core of courses helps provide students with skills to succeed in a fast-changing and globalized environment.  Information Science and Technology (IS&amp;T) Core courses and IS&amp;T Electives provide students with comprehensive knowledge of information technology utilization in businesses.  These courses include business analytics &amp; data science, database management, systems analysis, introduction to data science and management, networks and communications, and cybersecurity.  The electives for this degree consist of advanced coursework in the areas introduced by the required courses.</p> <p>A minimum grade of \"C\" is required in the courses designated accordingly.</p> <p>Students have 11 credit hours for free electives.</p> <table class=\"sc_plangrid\"><tr class=\"plangridyear firstrow\"><th colspan=\"4\">Freshman Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BUS%201810\" onclick=\"return showCourse(this, 'BUS 1810');\" title=\"BUS 1810\">BUS 1810</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BUS%201110\" onclick=\"return showCourse(this, 'BUS 1110');\" title=\"BUS 1110\">BUS 1110</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%201551\" onclick=\"return showCourse(this, 'IS&amp;T 1551');\" title=\"IS&amp;T 1551\">IS&amp;T 1551</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BUS%201210\" onclick=\"return showCourse(this, 'BUS 1210');\" title=\"BUS 1210\">BUS 1210</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%201750\" onclick=\"return showCourse(this, 'IS&amp;T 1750');\" title=\"IS&amp;T 1750\">IS&amp;T 1750</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%201552\" onclick=\"return showCourse(this, 'IS&amp;T 1552');\" title=\"IS&amp;T 1552\">IS&amp;T 1552</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201120\" onclick=\"return showCourse(this, 'ENGLISH 1120');\" title=\"ENGLISH 1120\">ENGLISH 1120</a><sup>3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201210\" onclick=\"return showCourse(this, 'MATH 1210');\" title=\"MATH 1210\">MATH 1210</a><sup>3</sup></td><td class=\"hourscol\">5</td></tr><tr class=\"even\"> <td class=\"codecol\">Science Elective<sup>1,3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%201101\" onclick=\"return showCourse(this, 'PSYCH 1101');\" title=\"PSYCH 1101\">PSYCH 1101</a><sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Science Lab<sup>3</sup></td><td class=\"hourscol\">1</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">14</td><td> </td><td class=\"hourscol\">17</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Sophomore Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ERP%202110\" onclick=\"return showCourse(this, 'ERP 2110');\" title=\"ERP 2110\">ERP 2110</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%203420\" onclick=\"return showCourse(this, 'IS&amp;T 3420');\" title=\"IS&amp;T 3420\">IS&amp;T 3420</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%201185\" onclick=\"return showCourse(this, 'SP&amp;M S 1185');\" title=\"SP&amp;M S 1185\">SP&amp;M S 1185</a><sup>3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%201100\" onclick=\"return showCourse(this, 'ECON 1100');\" title=\"ECON 1100\">ECON 1100</a><sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%201200\" onclick=\"return showCourse(this, 'ECON 1200');\" title=\"ECON 1200\">ECON 1200</a><sup>3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%202560\" onclick=\"return showCourse(this, 'ENGLISH 2560');\" title=\"ENGLISH 2560\">ENGLISH 2560</a> (or TECHCOM 2560)<sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=FINANCE%202150\" onclick=\"return showCourse(this, 'FINANCE 2150');\" title=\"FINANCE 2150\">FINANCE 2150</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%201115\" onclick=\"return showCourse(this, 'STAT 1115');\" title=\"STAT 1115\">STAT 1115</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Fine Art, or Humanities Elective<sup>2,3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Science Elective<sup>1,3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Junior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%203333\" onclick=\"return showCourse(this, 'IS&amp;T 3333');\" title=\"IS&amp;T 3333\">IS&amp;T 3333</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%203343\" onclick=\"return showCourse(this, 'IS&amp;T 3343');\" title=\"IS&amp;T 3343\">IS&amp;T 3343</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%203423\" onclick=\"return showCourse(this, 'IS&amp;T 3423');\" title=\"IS&amp;T 3423\">IS&amp;T 3423</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%204444\" onclick=\"return showCourse(this, 'IS&amp;T 4444');\" title=\"IS&amp;T 4444\">IS&amp;T 4444</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%204654\" onclick=\"return showCourse(this, 'IS&amp;T 4654');\" title=\"IS&amp;T 4654\">IS&amp;T 4654</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">IS&amp;T Elective</td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">IS&amp;T Elective </td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MKT%203110\" onclick=\"return showCourse(this, 'MKT 3110');\" title=\"MKT 3110\">MKT 3110</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Free Elective</td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%201200\" onclick=\"return showCourse(this, 'POL SCI 1200');\" title=\"POL SCI 1200\">POL SCI 1200</a><sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Senior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%205520\" onclick=\"return showCourse(this, 'IS&amp;T 5520');\" title=\"IS&amp;T 5520\">IS&amp;T 5520</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BUS%205980\" onclick=\"return showCourse(this, 'BUS 5980');\" title=\"BUS 5980\">BUS 5980</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%205725\" onclick=\"return showCourse(this, 'IS&amp;T 5725');\" title=\"IS&amp;T 5725\">IS&amp;T 5725</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%205420\" onclick=\"return showCourse(this, 'IS&amp;T 5420');\" title=\"IS&amp;T 5420\">IS&amp;T 5420</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">IS&amp;T Electives </td><td class=\"hourscol\">6</td><td class=\"codecol\">IS&amp;T Elective</td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Free Elective</td><td class=\"hourscol\">5</td><td class=\"codecol\">Free Electives</td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">17</td><td> </td><td class=\"hourscol\">12</td></tr><tr class=\"plangridtotal lastrow\"><td colspan=\"4\">Total Credits: 120</td></tr></table> <p>A grade of “C” or better is required in the following courses for graduation; <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=BUS%201110\" onclick=\"return showCourse(this, 'BUS 1110');\" title=\"BUS 1110\">BUS 1110</a></span>,  <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=BUS%201210\" onclick=\"return showCourse(this, 'BUS 1210');\" title=\"BUS 1210\">BUS 1210</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=BUS%201810\" onclick=\"return showCourse(this, 'BUS 1810');\" title=\"BUS 1810\">BUS 1810</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=BUS%205980\" onclick=\"return showCourse(this, 'BUS 5980');\" title=\"BUS 5980\">BUS 5980</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%201100\" onclick=\"return showCourse(this, 'ECON 1100');\" title=\"ECON 1100\">ECON 1100</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%201200\" onclick=\"return showCourse(this, 'ECON 1200');\" title=\"ECON 1200\">ECON 1200</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ERP%202110\" onclick=\"return showCourse(this, 'ERP 2110');\" title=\"ERP 2110\">ERP 2110</a></span>,  <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=FINANCE%202150\" onclick=\"return showCourse(this, 'FINANCE 2150');\" title=\"FINANCE 2150\">FINANCE 2150</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MKT%203110\" onclick=\"return showCourse(this, 'MKT 3110');\" title=\"MKT 3110\">MKT 3110</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%201551\" onclick=\"return showCourse(this, 'IS&amp;T 1551');\" title=\"IS&amp;T 1551\">IS&amp;T 1551</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%201552\" onclick=\"return showCourse(this, 'IS&amp;T 1552');\" title=\"IS&amp;T 1552\">IS&amp;T 1552</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%201750\" onclick=\"return showCourse(this, 'IS&amp;T 1750');\" title=\"IS&amp;T 1750\">IS&amp;T 1750</a></span>,  <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%203333\" onclick=\"return showCourse(this, 'IS&amp;T 3333');\" title=\"IS&amp;T 3333\">IS&amp;T 3333</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%203343\" onclick=\"return showCourse(this, 'IS&amp;T 3343');\" title=\"IS&amp;T 3343\">IS&amp;T 3343</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%203420\" onclick=\"return showCourse(this, 'IS&amp;T 3420');\" title=\"IS&amp;T 3420\">IS&amp;T 3420</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%203423\" onclick=\"return showCourse(this, 'IS&amp;T 3423');\" title=\"IS&amp;T 3423\">IS&amp;T 3423</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%204444\" onclick=\"return showCourse(this, 'IS&amp;T 4444');\" title=\"IS&amp;T 4444\">IS&amp;T 4444</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%204654\" onclick=\"return showCourse(this, 'IS&amp;T 4654');\" title=\"IS&amp;T 4654\">IS&amp;T 4654</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%205420\" onclick=\"return showCourse(this, 'IS&amp;T 5420');\" title=\"IS&amp;T 5420\">IS&amp;T 5420</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%205520\" onclick=\"return showCourse(this, 'IS&amp;T 5520');\" title=\"IS&amp;T 5520\">IS&amp;T 5520</a></span>,<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%205725\" onclick=\"return showCourse(this, 'IS&amp;T 5725');\" title=\"IS&amp;T 5725\">IS&amp;T 5725</a></span> and all IS&amp;T Electives (can include <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=BUS%205730\" onclick=\"return showCourse(this, 'BUS 5730');\" title=\"BUS 5730\">BUS 5730</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=BUS%205910\" onclick=\"return showCourse(this, 'BUS 5910');\" title=\"BUS 5910\">BUS 5910</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%204700\" onclick=\"return showCourse(this, 'COMP SCI 4700');\" title=\"COMP SCI 4700\">COMP SCI 4700</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205601\" onclick=\"return showCourse(this, 'COMP SCI 5601');\" title=\"COMP SCI 5601\">COMP SCI 5601</a></span>, or any IS&amp;T or ERP designated course at the 3000-level or above).</p> <dl aria-label=\"Footnotes\" class=\"sc_footnotes\"><dt> <sup> 1 </sup> </dt><dd><p class=\"noindent\">General education elective courses in two of the following areas:  biology, chemistry, geology, or physics must fulfill the Missouri S&amp;T general education requirements applicable to the students catalog year.</p></dd><dt> <sup> 2 </sup> </dt><dd><p class=\"noindent\">General education elective courses in two of the following areas:  art, history, music, or theater must fulfill the Missouri S&amp;T general education requirements applicable to the students catalog year.</p></dd><dt> <sup> 3 </sup> </dt><dd><p class=\"noindent\">General education discipline required course.  These fulfill the Missouri S&amp;T general education requirements applicable to the student’s catalog year.</p></dd></dl>\n</div>"
+}

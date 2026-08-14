@@ -1,0 +1,524 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/miningengineering/#minorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/miningengineering/",
+        "fragment": "minorstext",
+        "page_slug": "miningengineering",
+        "page_title": "Mining Engineering < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 4350,
+        "html_character_count": 7555,
+        "heading_count": 3,
+        "paragraph_count": 11,
+        "list_count": 0,
+        "table_count": 3,
+        "link_count": 11,
+        "superscript_count": 0,
+        "text_sha256": "a2609a7eba1379a1105a4a34550d1137eaddb78959ba59c634f8048349ea0ab4",
+        "html_sha256": "0dba496090192398f6d2d60df200977fe64e12fbc49f39473e5bc0dc971b1733"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Minor in Mining Engineering",
+            "id": null
+        },
+        {
+            "number": 2,
+            "level": "h2",
+            "text": "Minor in Mineral Processing",
+            "id": null
+        },
+        {
+            "number": 3,
+            "level": "h3",
+            "text": "Minor in Explosives Engineering",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "MIN ENG 3913",
+            "href": "/search/?P=MIN%20ENG%203913",
+            "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%203913",
+            "resolved_course": "MIN ENG 3913"
+        },
+        {
+            "number": 2,
+            "text": "MIN ENG 5932",
+            "href": "/search/?P=MIN%20ENG%205932",
+            "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%205932",
+            "resolved_course": "MIN ENG 5932"
+        },
+        {
+            "number": 3,
+            "text": "MIN ENG 5933",
+            "href": "/search/?P=MIN%20ENG%205933",
+            "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%205933",
+            "resolved_course": "MIN ENG 5933"
+        },
+        {
+            "number": 4,
+            "text": "MIN ENG 2412",
+            "href": "/search/?P=MIN%20ENG%202412",
+            "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%202412",
+            "resolved_course": "MIN ENG 2412"
+        },
+        {
+            "number": 5,
+            "text": "MIN ENG 5412",
+            "href": "/search/?P=MIN%20ENG%205412",
+            "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%205412",
+            "resolved_course": "MIN ENG 5412"
+        },
+        {
+            "number": 6,
+            "text": "MIN ENG 5422",
+            "href": "/search/?P=MIN%20ENG%205422",
+            "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%205422",
+            "resolved_course": "MIN ENG 5422"
+        },
+        {
+            "number": 7,
+            "text": "MIN ENG 5423",
+            "href": "/search/?P=MIN%20ENG%205423",
+            "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%205423",
+            "resolved_course": "MIN ENG 5423"
+        },
+        {
+            "number": 8,
+            "text": "MIN ENG 5424",
+            "href": "/search/?P=MIN%20ENG%205424",
+            "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%205424",
+            "resolved_course": "MIN ENG 5424"
+        },
+        {
+            "number": 9,
+            "text": "EXP ENG 5612",
+            "href": "/search/?P=EXP%20ENG%205612",
+            "url": "https://catalog.mst.edu/search/?P=EXP%20ENG%205612",
+            "resolved_course": "EXP ENG 5612"
+        },
+        {
+            "number": 10,
+            "text": "MIN ENG 5612",
+            "href": "/search/?P=MIN%20ENG%205612",
+            "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%205612",
+            "resolved_course": "MIN ENG 5612"
+        },
+        {
+            "number": 11,
+            "text": "EXP ENG 5622",
+            "href": "/search/?P=EXP%20ENG%205622",
+            "url": "https://catalog.mst.edu/search/?P=EXP%20ENG%205622",
+            "resolved_course": "EXP ENG 5622"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "MIN ENG 3913 Mineral Identification and Exploration 3 MIN ENG 5932 Underground Mining Methods 3 MIN ENG 5933 Surface Mining Methods 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MIN ENG 3913",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MIN ENG 3913",
+                                    "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%203913",
+                                    "resolved_course": "MIN ENG 3913"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Mineral Identification and Exploration",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MIN ENG 5932",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MIN ENG 5932",
+                                    "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%205932",
+                                    "resolved_course": "MIN ENG 5932"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Underground Mining Methods",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MIN ENG 5933",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MIN ENG 5933",
+                                    "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%205933",
+                                    "resolved_course": "MIN ENG 5933"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Surface Mining Methods",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%203913\" onclick=\"return showCourse(this, 'MIN ENG 3913');\" title=\"MIN ENG 3913\">MIN ENG 3913</a></td><td>Mineral Identification and Exploration</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%205932\" onclick=\"return showCourse(this, 'MIN ENG 5932');\" title=\"MIN ENG 5932\">MIN ENG 5932</a></td><td>Underground Mining Methods</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%205933\" onclick=\"return showCourse(this, 'MIN ENG 5933');\" title=\"MIN ENG 5933\">MIN ENG 5933</a></td><td>Surface Mining Methods</td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        },
+        {
+            "table_number": 2,
+            "text": "MIN ENG 2412 Principles Of Mineral Processing 3 MIN ENG 5412 Aggregates Materials Sizing and Characterization 3 MIN ENG 5422 Coal Preparation 3 MIN ENG 5423 Flotation and Hydrometallurgy 3 MIN ENG 5424 Mineral Processing II Mechanics And Design 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MIN ENG 2412",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MIN ENG 2412",
+                                    "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%202412",
+                                    "resolved_course": "MIN ENG 2412"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Principles Of Mineral Processing",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MIN ENG 5412",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MIN ENG 5412",
+                                    "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%205412",
+                                    "resolved_course": "MIN ENG 5412"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Aggregates Materials Sizing and Characterization",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MIN ENG 5422",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MIN ENG 5422",
+                                    "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%205422",
+                                    "resolved_course": "MIN ENG 5422"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Coal Preparation",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MIN ENG 5423",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MIN ENG 5423",
+                                    "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%205423",
+                                    "resolved_course": "MIN ENG 5423"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Flotation and Hydrometallurgy",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MIN ENG 5424",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MIN ENG 5424",
+                                    "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%205424",
+                                    "resolved_course": "MIN ENG 5424"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Mineral Processing II Mechanics And Design",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%202412\" onclick=\"return showCourse(this, 'MIN ENG 2412');\" title=\"MIN ENG 2412\">MIN ENG 2412</a></td><td>Principles Of Mineral Processing</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%205412\" onclick=\"return showCourse(this, 'MIN ENG 5412');\" title=\"MIN ENG 5412\">MIN ENG 5412</a></td><td>Aggregates Materials Sizing and Characterization</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%205422\" onclick=\"return showCourse(this, 'MIN ENG 5422');\" title=\"MIN ENG 5422\">MIN ENG 5422</a></td><td>Coal Preparation</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%205423\" onclick=\"return showCourse(this, 'MIN ENG 5423');\" title=\"MIN ENG 5423\">MIN ENG 5423</a></td><td>Flotation and Hydrometallurgy</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%205424\" onclick=\"return showCourse(this, 'MIN ENG 5424');\" title=\"MIN ENG 5424\">MIN ENG 5424</a></td><td>Mineral Processing II Mechanics And Design</td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        },
+        {
+            "table_number": 3,
+            "text": "EXP ENG 5612 /​ MIN ENG 5612 Principles of Explosives Engineering 3 EXP ENG 5622 Blasting Design And Technology 3 Three other explosives related courses as approved by program coordinator.",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "EXP ENG 5612 /​ MIN ENG 5612",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "EXP ENG 5612",
+                                    "url": "https://catalog.mst.edu/search/?P=EXP%20ENG%205612",
+                                    "resolved_course": "EXP ENG 5612"
+                                },
+                                {
+                                    "text": "MIN ENG 5612",
+                                    "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%205612",
+                                    "resolved_course": "MIN ENG 5612"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Principles of Explosives Engineering",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "EXP ENG 5622",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "EXP ENG 5622",
+                                    "url": "https://catalog.mst.edu/search/?P=EXP%20ENG%205622",
+                                    "resolved_course": "EXP ENG 5622"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Blasting Design And Technology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Three other explosives related courses as approved by program coordinator.",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EXP%20ENG%205612\" onclick=\"return showCourse(this, 'EXP ENG 5612');\" title=\"EXP ENG 5612\">EXP ENG 5612</a>/​<a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%205612\" onclick=\"return showCourse(this, 'MIN ENG 5612');\" title=\"MIN ENG 5612\">MIN ENG 5612</a></td><td>Principles of Explosives Engineering</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EXP%20ENG%205622\" onclick=\"return showCourse(this, 'EXP ENG 5622');\" title=\"EXP ENG 5622\">EXP ENG 5622</a></td><td>Blasting Design And Technology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">Three other explosives related courses as approved by program coordinator.</span></td><td class=\"hourscol\"></td></tr> </tbody></table>"
+        }
+    ],
+    "section_text": "Minor in Mining Engineering A student who receives a Bachelor of Science degree in an accredited engineering program from Missouri S&T may receive the Minor in Mining Engineering by completing 15 credit hours from the courses listed below. Non-engineering students who have a strong background in mathematics and the physical sciences may also qualify for the Minor in Mining Engineering or Explosives Engineering with the approval of the Department and based on an individually designed program of study. Students will need to consult with the Chair of the Mining Engineering Program to determine pre-requisite requirements for each course. The program granting the Bachelor of Science degree shall determine whether or not courses taken for the Mining Engineering Minor or Explosives Engineering Minor may also be used to fulfill the requirements of the B.S. degree from that program. The following courses are required for the Minor in Mining Engineering: MIN ENG 3913 Mineral Identification and Exploration 3 MIN ENG 5932 Underground Mining Methods 3 MIN ENG 5933 Surface Mining Methods 3 Two other Mi Eng 3000-, 4000-, or 5000-level lecture courses (3 credit hours), or relevant courses from other disciplines, as approved, must be taken to match the student’s area of emphasis in Mining Engineering. The following areas of emphasis may be pursued: Explosives Engineering; Quarrying; Mineral Economics; Mining-Environmental; Mining-Equipment; Mining-Geo-technical; Mining-Health and Safety; Mining Operations Management; Mining-Tunneling; Sustainable Development; Surface Mining; Underground Mining. The Minor in Mining Engineering is not accredited by the Accreditation Board of Engineering and Technology (ABET). Minor in Mineral Processing The minor in Mineral Processing provides an in-depth study of the fundamental theories and applications of mineral and coal processing and aggregate materials sizing and classification. Any student who receives a Bachelor of Science degree in an accredited engineering program from Missouri S&T may also receive the minor in Mineral Processing by completing 15 credit hours in this specialty. The B.S. degree granting program shall determine whether or not courses taken for the minor in Mineral Processing may also be used to fulfill the requirements of the B.S. degree from that program. The following courses are required for the minor in Mineral Processing: MIN ENG 2412 Principles Of Mineral Processing 3 MIN ENG 5412 Aggregates Materials Sizing and Characterization 3 MIN ENG 5422 Coal Preparation 3 MIN ENG 5423 Flotation and Hydrometallurgy 3 MIN ENG 5424 Mineral Processing II Mechanics And Design 3 Minor in Explosives Engineering The department of mining & explosives engineering, mining engineering program, realizing the attractiveness of explosives engineering to students, the potential for jobs in the area (post 9-11), and the use of over 6 billion pounds of explosives in mining, tunneling, construction, and other areas, is offering a minor in explosives engineering so that students interested in explosives engineering have a chance to attain in-depth knowledge of the sub-discipline. A student who received a bachelor of science degree in an accredited engineering program from Missouri S&T may receive the minor in explosives engineering by completing 15 credit hours from the courses listed below. Non-engineering students who have a strong background in mathematics and the physical sciences may also qualify for the minor in explosives engineering, with the approval of the department and based on an individually designed program of study. Students need to consult with the chair of the explosives engineering program to determine pre-requisite requirements for each course. The program granting the bachelor of science degree shall determine whether or not courses taken for the explosives engineering minor may also be used to fulfill the requirements of the B.S. degree from that program. The following courses are required for the minor in explosives engineering: EXP ENG 5612 /​ MIN ENG 5612 Principles of Explosives Engineering 3 EXP ENG 5622 Blasting Design And Technology 3 Three other explosives related courses as approved by program coordinator. The minor in explosives engineering is not accredited by the Accreditation Board of Engineering and Technology (ABET).",
+    "section_html": "<div class=\"tab_content\" id=\"minorstextcontainer\">\n<a name=\"minorstext\"></a><h2>Minor in Mining Engineering</h2> <p>A student who receives a Bachelor of Science degree in an accredited engineering program from Missouri S&amp;T may receive the Minor in Mining Engineering by completing 15 credit hours from the courses listed below. Non-engineering students who have a strong background in mathematics and the physical sciences may also qualify for the Minor in Mining Engineering or Explosives Engineering with the approval of the Department and based on an individually designed program of study. Students will need to consult with the Chair of the Mining Engineering Program to determine pre-requisite requirements for each course. The program granting the Bachelor of Science degree shall determine whether or not courses taken for the Mining Engineering Minor or Explosives Engineering Minor may also be used to fulfill the requirements of the B.S. degree from that program.</p> <p>The following courses are required for the Minor in Mining Engineering:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%203913\" onclick=\"return showCourse(this, 'MIN ENG 3913');\" title=\"MIN ENG 3913\">MIN ENG 3913</a></td><td>Mineral Identification and Exploration</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%205932\" onclick=\"return showCourse(this, 'MIN ENG 5932');\" title=\"MIN ENG 5932\">MIN ENG 5932</a></td><td>Underground Mining Methods</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%205933\" onclick=\"return showCourse(this, 'MIN ENG 5933');\" title=\"MIN ENG 5933\">MIN ENG 5933</a></td><td>Surface Mining Methods</td><td class=\"hourscol\">3</td></tr> </tbody></table> <p>Two other Mi Eng 3000-, 4000-, or 5000-level lecture courses (3 credit hours), or relevant courses from other disciplines, as approved, must be taken to match the student’s area of emphasis in Mining Engineering. The following areas of emphasis may be pursued:</p> <p>Explosives Engineering; Quarrying; Mineral Economics; Mining-Environmental; Mining-Equipment; Mining-Geo-technical; Mining-Health and Safety; Mining Operations Management; Mining-Tunneling; Sustainable Development; Surface Mining; Underground Mining.</p> <p>The Minor in Mining Engineering is not accredited by the Accreditation Board of Engineering and Technology (ABET).</p>\n<h2>Minor in Mineral Processing</h2> <p>The minor in Mineral Processing provides an in-depth study of the fundamental theories and applications of mineral and coal processing and aggregate materials sizing and classification. Any student who receives a Bachelor of Science degree in an accredited engineering program from Missouri S&amp;T may also receive the minor in Mineral Processing by completing 15 credit hours in this specialty. The B.S. degree granting program shall determine whether or not courses taken for the minor in Mineral Processing may also be used to fulfill the requirements of the B.S. degree from that program.</p> <p>The following courses are required for the minor in Mineral Processing:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%202412\" onclick=\"return showCourse(this, 'MIN ENG 2412');\" title=\"MIN ENG 2412\">MIN ENG 2412</a></td><td>Principles Of Mineral Processing</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%205412\" onclick=\"return showCourse(this, 'MIN ENG 5412');\" title=\"MIN ENG 5412\">MIN ENG 5412</a></td><td>Aggregates Materials Sizing and Characterization</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%205422\" onclick=\"return showCourse(this, 'MIN ENG 5422');\" title=\"MIN ENG 5422\">MIN ENG 5422</a></td><td>Coal Preparation</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%205423\" onclick=\"return showCourse(this, 'MIN ENG 5423');\" title=\"MIN ENG 5423\">MIN ENG 5423</a></td><td>Flotation and Hydrometallurgy</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%205424\" onclick=\"return showCourse(this, 'MIN ENG 5424');\" title=\"MIN ENG 5424\">MIN ENG 5424</a></td><td>Mineral Processing II Mechanics And Design</td><td class=\"hourscol\">3</td></tr> </tbody></table>\n<h3>Minor in Explosives Engineering</h3> <p>The department of mining &amp; explosives engineering, mining engineering program, realizing the attractiveness of explosives engineering to students, the potential for jobs in the area (post 9-11), and the use of over 6 billion pounds of explosives in mining, tunneling, construction, and other areas, is offering a minor in explosives engineering so that students interested in explosives engineering have a chance to attain in-depth knowledge of the sub-discipline.</p> <p>A student who received a bachelor of science degree in an accredited engineering program from Missouri S&amp;T may receive the minor in explosives engineering by completing 15 credit hours from the courses listed below. Non-engineering students who have a strong background in mathematics and the physical sciences may also qualify for the minor in explosives engineering, with the approval of the department and based on an individually designed program of study. Students need to consult with the chair of the explosives engineering program to determine pre-requisite requirements for each course. The program granting the bachelor of science degree shall determine whether or not courses taken for the explosives engineering minor may also be used to fulfill the requirements of the B.S. degree from that program.</p> <p>The following courses are required for the minor in explosives engineering:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EXP%20ENG%205612\" onclick=\"return showCourse(this, 'EXP ENG 5612');\" title=\"EXP ENG 5612\">EXP ENG 5612</a>/​<a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%205612\" onclick=\"return showCourse(this, 'MIN ENG 5612');\" title=\"MIN ENG 5612\">MIN ENG 5612</a></td><td>Principles of Explosives Engineering</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EXP%20ENG%205622\" onclick=\"return showCourse(this, 'EXP ENG 5622');\" title=\"EXP ENG 5622\">EXP ENG 5622</a></td><td>Blasting Design And Technology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">Three other explosives related courses as approved by program coordinator.</span></td><td class=\"hourscol\"></td></tr> </tbody></table> <p>The minor in explosives engineering is not accredited by the Accreditation Board of Engineering and Technology (ABET).</p>\n</div>"
+}

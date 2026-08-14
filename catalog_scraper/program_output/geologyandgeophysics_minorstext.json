@@ -1,0 +1,1113 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/geologyandgeophysics/#minorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/geologyandgeophysics/",
+        "fragment": "minorstext",
+        "page_slug": "geologyandgeophysics",
+        "page_title": "Geology and Geophysics < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 1902,
+        "html_character_count": 9587,
+        "heading_count": 2,
+        "paragraph_count": 3,
+        "list_count": 0,
+        "table_count": 2,
+        "link_count": 35,
+        "superscript_count": 0,
+        "text_sha256": "31671d204458f2aa9e32b2027c052384821031c9c9ead080c36e90ec4500778c",
+        "html_sha256": "1310f99cfd232c1865ce09ee8a0661bd21892ae45fb1d6c110d70c91a5462e55"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Computational Earth Sciences Minor",
+            "id": null
+        },
+        {
+            "number": 2,
+            "level": "h2",
+            "text": "Minor in Geology",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "COMP SCI 1500",
+            "href": "/search/?P=COMP%20SCI%201500",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201500",
+            "resolved_course": "COMP SCI 1500"
+        },
+        {
+            "number": 2,
+            "text": "COMP SCI 1570",
+            "href": "/search/?P=COMP%20SCI%201570",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201570",
+            "resolved_course": "COMP SCI 1570"
+        },
+        {
+            "number": 3,
+            "text": "COMP SCI 1575",
+            "href": "/search/?P=COMP%20SCI%201575",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201575",
+            "resolved_course": "COMP SCI 1575"
+        },
+        {
+            "number": 4,
+            "text": "GEO ENG 1150",
+            "href": "/search/?P=GEO%20ENG%201150",
+            "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%201150",
+            "resolved_course": "GEO ENG 1150"
+        },
+        {
+            "number": 5,
+            "text": "GEOLOGY 1110",
+            "href": "/search/?P=GEOLOGY%201110",
+            "url": "https://catalog.mst.edu/search/?P=GEOLOGY%201110",
+            "resolved_course": "GEOLOGY 1110"
+        },
+        {
+            "number": 6,
+            "text": "GEO ENG 3148",
+            "href": "/search/?P=GEO%20ENG%203148",
+            "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%203148",
+            "resolved_course": "GEO ENG 3148"
+        },
+        {
+            "number": 7,
+            "text": "GEOLOGY 3811",
+            "href": "/search/?P=GEOLOGY%203811",
+            "url": "https://catalog.mst.edu/search/?P=GEOLOGY%203811",
+            "resolved_course": "GEOLOGY 3811"
+        },
+        {
+            "number": 8,
+            "text": "GEO ENG 4321",
+            "href": "/search/?P=GEO%20ENG%204321",
+            "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%204321",
+            "resolved_course": "GEO ENG 4321"
+        },
+        {
+            "number": 9,
+            "text": "GEO ENG 5144",
+            "href": "/search/?P=GEO%20ENG%205144",
+            "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%205144",
+            "resolved_course": "GEO ENG 5144"
+        },
+        {
+            "number": 10,
+            "text": "GEOPHYS 3210",
+            "href": "/search/?P=GEOPHYS%203210",
+            "url": "https://catalog.mst.edu/search/?P=GEOPHYS%203210",
+            "resolved_course": "GEOPHYS 3210"
+        },
+        {
+            "number": 11,
+            "text": "GEOPHYS 5261",
+            "href": "/search/?P=GEOPHYS%205261",
+            "url": "https://catalog.mst.edu/search/?P=GEOPHYS%205261",
+            "resolved_course": "GEOPHYS 5261"
+        },
+        {
+            "number": 12,
+            "text": "GEOLOGY 3310",
+            "href": "/search/?P=GEOLOGY%203310",
+            "url": "https://catalog.mst.edu/search/?P=GEOLOGY%203310",
+            "resolved_course": "GEOLOGY 3310"
+        },
+        {
+            "number": 13,
+            "text": "GEOLOGY 3319",
+            "href": "/search/?P=GEOLOGY%203319",
+            "url": "https://catalog.mst.edu/search/?P=GEOLOGY%203319",
+            "resolved_course": "GEOLOGY 3319"
+        },
+        {
+            "number": 14,
+            "text": "GEOLOGY 3410",
+            "href": "/search/?P=GEOLOGY%203410",
+            "url": "https://catalog.mst.edu/search/?P=GEOLOGY%203410",
+            "resolved_course": "GEOLOGY 3410"
+        },
+        {
+            "number": 15,
+            "text": "GEOLOGY 4831",
+            "href": "/search/?P=GEOLOGY%204831",
+            "url": "https://catalog.mst.edu/search/?P=GEOLOGY%204831",
+            "resolved_course": "GEOLOGY 4831"
+        },
+        {
+            "number": 16,
+            "text": "GEOLOGY 5513",
+            "href": "/search/?P=GEOLOGY%205513",
+            "url": "https://catalog.mst.edu/search/?P=GEOLOGY%205513",
+            "resolved_course": "GEOLOGY 5513"
+        },
+        {
+            "number": 17,
+            "text": "GEOLOGY 2611",
+            "href": "/search/?P=GEOLOGY%202611",
+            "url": "https://catalog.mst.edu/search/?P=GEOLOGY%202611",
+            "resolved_course": "GEOLOGY 2611"
+        },
+        {
+            "number": 18,
+            "text": "GEOLOGY 1110",
+            "href": "/search/?P=GEOLOGY%201110",
+            "url": "https://catalog.mst.edu/search/?P=GEOLOGY%201110",
+            "resolved_course": "GEOLOGY 1110"
+        },
+        {
+            "number": 19,
+            "text": "GEO ENG 1150",
+            "href": "/search/?P=GEO%20ENG%201150",
+            "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%201150",
+            "resolved_course": "GEO ENG 1150"
+        },
+        {
+            "number": 20,
+            "text": "GEOLOGY 1120",
+            "href": "/search/?P=GEOLOGY%201120",
+            "url": "https://catalog.mst.edu/search/?P=GEOLOGY%201120",
+            "resolved_course": "GEOLOGY 1120"
+        },
+        {
+            "number": 21,
+            "text": "BIO SCI 1113",
+            "href": "/search/?P=BIO%20SCI%201113",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201113",
+            "resolved_course": "BIO SCI 1113"
+        },
+        {
+            "number": 22,
+            "text": "BIO SCI 1213",
+            "href": "/search/?P=BIO%20SCI%201213",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201213",
+            "resolved_course": "BIO SCI 1213"
+        },
+        {
+            "number": 23,
+            "text": "BIO SCI 2263",
+            "href": "/search/?P=BIO%20SCI%202263",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%202263",
+            "resolved_course": "BIO SCI 2263"
+        },
+        {
+            "number": 24,
+            "text": "BIO SCI 3233",
+            "href": "/search/?P=BIO%20SCI%203233",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%203233",
+            "resolved_course": "BIO SCI 3233"
+        },
+        {
+            "number": 25,
+            "text": "ENV ENG 3603",
+            "href": "/search/?P=ENV%20ENG%203603",
+            "url": "https://catalog.mst.edu/search/?P=ENV%20ENG%203603",
+            "resolved_course": "ENV ENG 3603"
+        },
+        {
+            "number": 26,
+            "text": "ENV ENG 5630",
+            "href": "/search/?P=ENV%20ENG%205630",
+            "url": "https://catalog.mst.edu/search/?P=ENV%20ENG%205630",
+            "resolved_course": "ENV ENG 5630"
+        },
+        {
+            "number": 27,
+            "text": "ENV ENG 5605",
+            "href": "/search/?P=ENV%20ENG%205605",
+            "url": "https://catalog.mst.edu/search/?P=ENV%20ENG%205605",
+            "resolved_course": "ENV ENG 5605"
+        },
+        {
+            "number": 28,
+            "text": "GEO ENG 3175",
+            "href": "/search/?P=GEO%20ENG%203175",
+            "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%203175",
+            "resolved_course": "GEO ENG 3175"
+        },
+        {
+            "number": 29,
+            "text": "GEO ENG 4115",
+            "href": "/search/?P=GEO%20ENG%204115",
+            "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%204115",
+            "resolved_course": "GEO ENG 4115"
+        },
+        {
+            "number": 30,
+            "text": "MIN ENG 3913",
+            "href": "/search/?P=MIN%20ENG%203913",
+            "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%203913",
+            "resolved_course": "MIN ENG 3913"
+        },
+        {
+            "number": 31,
+            "text": "MIN ENG 5522",
+            "href": "/search/?P=MIN%20ENG%205522",
+            "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%205522",
+            "resolved_course": "MIN ENG 5522"
+        },
+        {
+            "number": 32,
+            "text": "MIN ENG 5823",
+            "href": "/search/?P=MIN%20ENG%205823",
+            "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%205823",
+            "resolved_course": "MIN ENG 5823"
+        },
+        {
+            "number": 33,
+            "text": "PET ENG 3330",
+            "href": "/search/?P=PET%20ENG%203330",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%203330",
+            "resolved_course": "PET ENG 3330"
+        },
+        {
+            "number": 34,
+            "text": "PET ENG 4311",
+            "href": "/search/?P=PET%20ENG%204311",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204311",
+            "resolved_course": "PET ENG 4311"
+        },
+        {
+            "number": 35,
+            "text": "PET ENG 4720",
+            "href": "/search/?P=PET%20ENG%204720",
+            "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204720",
+            "resolved_course": "PET ENG 4720"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "GEO ENG 4321 Drone Mapping and Photogrammetry 3 GEO ENG 5144 Remote Sensing Technology 3 GEOPHYS 3210 Introduction to Geophysics 3 GEOPHYS 5261 Computational Geophysics 3 GEOLOGY 3310 & GEOLOGY 3319 Structural Geology and Structural Geology Lab 4 GEOLOGY 3410 Introduction To Geochemistry 3 GEOLOGY 4831 Computational Geology 3 GEOLOGY 5513 Petroleum Geology 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "GEO ENG 4321",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "GEO ENG 4321",
+                                    "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%204321",
+                                    "resolved_course": "GEO ENG 4321"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Drone Mapping and Photogrammetry",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "GEO ENG 5144",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "GEO ENG 5144",
+                                    "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%205144",
+                                    "resolved_course": "GEO ENG 5144"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Remote Sensing Technology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "GEOPHYS 3210",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "GEOPHYS 3210",
+                                    "url": "https://catalog.mst.edu/search/?P=GEOPHYS%203210",
+                                    "resolved_course": "GEOPHYS 3210"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Introduction to Geophysics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "GEOPHYS 5261",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "GEOPHYS 5261",
+                                    "url": "https://catalog.mst.edu/search/?P=GEOPHYS%205261",
+                                    "resolved_course": "GEOPHYS 5261"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Computational Geophysics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "GEOLOGY 3310 & GEOLOGY 3319",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "GEOLOGY 3310",
+                                    "url": "https://catalog.mst.edu/search/?P=GEOLOGY%203310",
+                                    "resolved_course": "GEOLOGY 3310"
+                                },
+                                {
+                                    "text": "GEOLOGY 3319",
+                                    "url": "https://catalog.mst.edu/search/?P=GEOLOGY%203319",
+                                    "resolved_course": "GEOLOGY 3319"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Structural Geology and Structural Geology Lab",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "GEOLOGY 3410",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "GEOLOGY 3410",
+                                    "url": "https://catalog.mst.edu/search/?P=GEOLOGY%203410",
+                                    "resolved_course": "GEOLOGY 3410"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Introduction To Geochemistry",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "GEOLOGY 4831",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "GEOLOGY 4831",
+                                    "url": "https://catalog.mst.edu/search/?P=GEOLOGY%204831",
+                                    "resolved_course": "GEOLOGY 4831"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Computational Geology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "GEOLOGY 5513",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "GEOLOGY 5513",
+                                    "url": "https://catalog.mst.edu/search/?P=GEOLOGY%205513",
+                                    "resolved_course": "GEOLOGY 5513"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Petroleum Geology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%204321\" onclick=\"return showCourse(this, 'GEO ENG 4321');\" title=\"GEO ENG 4321\">GEO ENG 4321</a></td><td>Drone Mapping and Photogrammetry</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%205144\" onclick=\"return showCourse(this, 'GEO ENG 5144');\" title=\"GEO ENG 5144\">GEO ENG 5144</a></td><td>Remote Sensing Technology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEOPHYS%203210\" onclick=\"return showCourse(this, 'GEOPHYS 3210');\" title=\"GEOPHYS 3210\">GEOPHYS 3210</a></td><td>Introduction to Geophysics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEOPHYS%205261\" onclick=\"return showCourse(this, 'GEOPHYS 5261');\" title=\"GEOPHYS 5261\">GEOPHYS 5261</a></td><td>Computational Geophysics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%203310\" onclick=\"return showCourse(this, 'GEOLOGY 3310');\" title=\"GEOLOGY 3310\">GEOLOGY 3310</a><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%203319\" onclick=\"return showCourse(this, 'GEOLOGY 3319');\" title=\"GEOLOGY 3319\">GEOLOGY 3319</a></span></td><td>Structural Geology<br/><span class=\"blockindent\" style=\"margin-left:20px;\">and Structural Geology Lab</span></td><td class=\"hourscol\">4</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%203410\" onclick=\"return showCourse(this, 'GEOLOGY 3410');\" title=\"GEOLOGY 3410\">GEOLOGY 3410</a></td><td>Introduction To Geochemistry</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%204831\" onclick=\"return showCourse(this, 'GEOLOGY 4831');\" title=\"GEOLOGY 4831\">GEOLOGY 4831</a></td><td>Computational Geology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%205513\" onclick=\"return showCourse(this, 'GEOLOGY 5513');\" title=\"GEOLOGY 5513\">GEOLOGY 5513</a></td><td>Petroleum Geology</td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        },
+        {
+            "table_number": 2,
+            "text": "BIO SCI 1113 General Biology 3 BIO SCI 1213 Principles of Biology 3 BIO SCI 2263 Ecology 3 BIO SCI 3233 Evolution 3 ENV ENG 3603 Chemical Fundamentals Of Environmental Engineering 3 ENV ENG 5630 Remediation of Contaminated Groundwater And Soil 3 ENV ENG 5605 Environmental Systems Modeling 3 GEO ENG 3175 Geomorphology And Terrain Analysis 3 GEO ENG 4115 Statistical Methods in Geology and Engineering 3 MIN ENG 3913 Mineral Identification and Exploration 3 MIN ENG 5522 Ore Reserve Analysis and Geostatistics 3 MIN ENG 5823 Rock Mechanics 3 PET ENG 3330 Formation Evaluation 3 PET ENG 4311 Reservoir Characterization 3 PET ENG 4720 Reservoir Geomechanics 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "BIO SCI 1113",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BIO SCI 1113",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201113",
+                                    "resolved_course": "BIO SCI 1113"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "General Biology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "BIO SCI 1213",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BIO SCI 1213",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201213",
+                                    "resolved_course": "BIO SCI 1213"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Principles of Biology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "BIO SCI 2263",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BIO SCI 2263",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%202263",
+                                    "resolved_course": "BIO SCI 2263"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Ecology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "BIO SCI 3233",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BIO SCI 3233",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%203233",
+                                    "resolved_course": "BIO SCI 3233"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Evolution",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENV ENG 3603",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENV ENG 3603",
+                                    "url": "https://catalog.mst.edu/search/?P=ENV%20ENG%203603",
+                                    "resolved_course": "ENV ENG 3603"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Chemical Fundamentals Of Environmental Engineering",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENV ENG 5630",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENV ENG 5630",
+                                    "url": "https://catalog.mst.edu/search/?P=ENV%20ENG%205630",
+                                    "resolved_course": "ENV ENG 5630"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Remediation of Contaminated Groundwater And Soil",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENV ENG 5605",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENV ENG 5605",
+                                    "url": "https://catalog.mst.edu/search/?P=ENV%20ENG%205605",
+                                    "resolved_course": "ENV ENG 5605"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Environmental Systems Modeling",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "GEO ENG 3175",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "GEO ENG 3175",
+                                    "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%203175",
+                                    "resolved_course": "GEO ENG 3175"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Geomorphology And Terrain Analysis",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "GEO ENG 4115",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "GEO ENG 4115",
+                                    "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%204115",
+                                    "resolved_course": "GEO ENG 4115"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Statistical Methods in Geology and Engineering",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 10,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MIN ENG 3913",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MIN ENG 3913",
+                                    "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%203913",
+                                    "resolved_course": "MIN ENG 3913"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Mineral Identification and Exploration",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 11,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MIN ENG 5522",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MIN ENG 5522",
+                                    "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%205522",
+                                    "resolved_course": "MIN ENG 5522"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Ore Reserve Analysis and Geostatistics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 12,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MIN ENG 5823",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MIN ENG 5823",
+                                    "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%205823",
+                                    "resolved_course": "MIN ENG 5823"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Rock Mechanics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 13,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PET ENG 3330",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PET ENG 3330",
+                                    "url": "https://catalog.mst.edu/search/?P=PET%20ENG%203330",
+                                    "resolved_course": "PET ENG 3330"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Formation Evaluation",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 14,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PET ENG 4311",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PET ENG 4311",
+                                    "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204311",
+                                    "resolved_course": "PET ENG 4311"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Reservoir Characterization",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 15,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PET ENG 4720",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PET ENG 4720",
+                                    "url": "https://catalog.mst.edu/search/?P=PET%20ENG%204720",
+                                    "resolved_course": "PET ENG 4720"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Reservoir Geomechanics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201113\" onclick=\"return showCourse(this, 'BIO SCI 1113');\" title=\"BIO SCI 1113\">BIO SCI 1113</a></td><td>General Biology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201213\" onclick=\"return showCourse(this, 'BIO SCI 1213');\" title=\"BIO SCI 1213\">BIO SCI 1213</a></td><td>Principles of Biology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%202263\" onclick=\"return showCourse(this, 'BIO SCI 2263');\" title=\"BIO SCI 2263\">BIO SCI 2263</a></td><td>Ecology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%203233\" onclick=\"return showCourse(this, 'BIO SCI 3233');\" title=\"BIO SCI 3233\">BIO SCI 3233</a></td><td>Evolution</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENV%20ENG%203603\" onclick=\"return showCourse(this, 'ENV ENG 3603');\" title=\"ENV ENG 3603\">ENV ENG 3603</a></td><td>Chemical Fundamentals Of Environmental Engineering</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENV%20ENG%205630\" onclick=\"return showCourse(this, 'ENV ENG 5630');\" title=\"ENV ENG 5630\">ENV ENG 5630</a></td><td>Remediation of Contaminated Groundwater And Soil</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENV%20ENG%205605\" onclick=\"return showCourse(this, 'ENV ENG 5605');\" title=\"ENV ENG 5605\">ENV ENG 5605</a></td><td>Environmental Systems Modeling</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%203175\" onclick=\"return showCourse(this, 'GEO ENG 3175');\" title=\"GEO ENG 3175\">GEO ENG 3175</a></td><td>Geomorphology And Terrain Analysis</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%204115\" onclick=\"return showCourse(this, 'GEO ENG 4115');\" title=\"GEO ENG 4115\">GEO ENG 4115</a></td><td>Statistical Methods in Geology and Engineering</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%203913\" onclick=\"return showCourse(this, 'MIN ENG 3913');\" title=\"MIN ENG 3913\">MIN ENG 3913</a></td><td>Mineral Identification and Exploration</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%205522\" onclick=\"return showCourse(this, 'MIN ENG 5522');\" title=\"MIN ENG 5522\">MIN ENG 5522</a></td><td>Ore Reserve Analysis and Geostatistics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%205823\" onclick=\"return showCourse(this, 'MIN ENG 5823');\" title=\"MIN ENG 5823\">MIN ENG 5823</a></td><td>Rock Mechanics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%203330\" onclick=\"return showCourse(this, 'PET ENG 3330');\" title=\"PET ENG 3330\">PET ENG 3330</a></td><td>Formation Evaluation</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204311\" onclick=\"return showCourse(this, 'PET ENG 4311');\" title=\"PET ENG 4311\">PET ENG 4311</a></td><td>Reservoir Characterization</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204720\" onclick=\"return showCourse(this, 'PET ENG 4720');\" title=\"PET ENG 4720\">PET ENG 4720</a></td><td>Reservoir Geomechanics</td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        }
+    ],
+    "section_text": "Computational Earth Sciences Minor The minor will consist of 18 hours of course work and must include COMP SCI 1500 , COMP SCI 1570 , COMP SCI 1575 , GEO ENG 1150 or GEOLOGY 1110 , and GEO ENG 3148 or GEOLOGY 3811 . An additional three hours of coursework can be selected from a geology, geophysics, or geological engineering related course, subject to approval by the Geology and Geophysics program. Approved coursework includes: GEO ENG 4321 Drone Mapping and Photogrammetry 3 GEO ENG 5144 Remote Sensing Technology 3 GEOPHYS 3210 Introduction to Geophysics 3 GEOPHYS 5261 Computational Geophysics 3 GEOLOGY 3310 & GEOLOGY 3319 Structural Geology and Structural Geology Lab 4 GEOLOGY 3410 Introduction To Geochemistry 3 GEOLOGY 4831 Computational Geology 3 GEOLOGY 5513 Petroleum Geology 3 Minor in Geology The minor will consist of 18 hours of geology related course work and must include GEOLOGY 2611 and one of GEOLOGY 1110 or GEO ENG 1150 or GEOLOGY 1120 . Six additional hours of course work must come from any combination of 1000, 2000, 3000 geology courses. The remaining 6 hours of course work can be from any combination of geology related courses approved by the geology and geophysics program. Approved geology related course work: BIO SCI 1113 General Biology 3 BIO SCI 1213 Principles of Biology 3 BIO SCI 2263 Ecology 3 BIO SCI 3233 Evolution 3 ENV ENG 3603 Chemical Fundamentals Of Environmental Engineering 3 ENV ENG 5630 Remediation of Contaminated Groundwater And Soil 3 ENV ENG 5605 Environmental Systems Modeling 3 GEO ENG 3175 Geomorphology And Terrain Analysis 3 GEO ENG 4115 Statistical Methods in Geology and Engineering 3 MIN ENG 3913 Mineral Identification and Exploration 3 MIN ENG 5522 Ore Reserve Analysis and Geostatistics 3 MIN ENG 5823 Rock Mechanics 3 PET ENG 3330 Formation Evaluation 3 PET ENG 4311 Reservoir Characterization 3 PET ENG 4720 Reservoir Geomechanics 3",
+    "section_html": "<div class=\"tab_content\" id=\"minorstextcontainer\">\n<a name=\"minorstext\"></a><h2>Computational Earth Sciences Minor</h2> <p>The minor will consist of 18 hours of course work and must include <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201500\" onclick=\"return showCourse(this, 'COMP SCI 1500');\" title=\"COMP SCI 1500\">COMP SCI 1500</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201570\" onclick=\"return showCourse(this, 'COMP SCI 1570');\" title=\"COMP SCI 1570\">COMP SCI 1570</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201575\" onclick=\"return showCourse(this, 'COMP SCI 1575');\" title=\"COMP SCI 1575\">COMP SCI 1575</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%201150\" onclick=\"return showCourse(this, 'GEO ENG 1150');\" title=\"GEO ENG 1150\">GEO ENG 1150</a></span> or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%201110\" onclick=\"return showCourse(this, 'GEOLOGY 1110');\" title=\"GEOLOGY 1110\">GEOLOGY 1110</a></span>, and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%203148\" onclick=\"return showCourse(this, 'GEO ENG 3148');\" title=\"GEO ENG 3148\">GEO ENG 3148</a></span> or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%203811\" onclick=\"return showCourse(this, 'GEOLOGY 3811');\" title=\"GEOLOGY 3811\">GEOLOGY 3811</a></span>.</p> <p>An additional three hours of coursework can be selected from a geology, geophysics, or geological engineering related course, subject to approval by the Geology and Geophysics program. Approved coursework includes:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%204321\" onclick=\"return showCourse(this, 'GEO ENG 4321');\" title=\"GEO ENG 4321\">GEO ENG 4321</a></td><td>Drone Mapping and Photogrammetry</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%205144\" onclick=\"return showCourse(this, 'GEO ENG 5144');\" title=\"GEO ENG 5144\">GEO ENG 5144</a></td><td>Remote Sensing Technology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEOPHYS%203210\" onclick=\"return showCourse(this, 'GEOPHYS 3210');\" title=\"GEOPHYS 3210\">GEOPHYS 3210</a></td><td>Introduction to Geophysics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEOPHYS%205261\" onclick=\"return showCourse(this, 'GEOPHYS 5261');\" title=\"GEOPHYS 5261\">GEOPHYS 5261</a></td><td>Computational Geophysics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%203310\" onclick=\"return showCourse(this, 'GEOLOGY 3310');\" title=\"GEOLOGY 3310\">GEOLOGY 3310</a><br/><span class=\"blockindent\" style=\"margin-left:20px;\">&amp; <a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%203319\" onclick=\"return showCourse(this, 'GEOLOGY 3319');\" title=\"GEOLOGY 3319\">GEOLOGY 3319</a></span></td><td>Structural Geology<br/><span class=\"blockindent\" style=\"margin-left:20px;\">and Structural Geology Lab</span></td><td class=\"hourscol\">4</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%203410\" onclick=\"return showCourse(this, 'GEOLOGY 3410');\" title=\"GEOLOGY 3410\">GEOLOGY 3410</a></td><td>Introduction To Geochemistry</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%204831\" onclick=\"return showCourse(this, 'GEOLOGY 4831');\" title=\"GEOLOGY 4831\">GEOLOGY 4831</a></td><td>Computational Geology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%205513\" onclick=\"return showCourse(this, 'GEOLOGY 5513');\" title=\"GEOLOGY 5513\">GEOLOGY 5513</a></td><td>Petroleum Geology</td><td class=\"hourscol\">3</td></tr> </tbody></table>\n<h2>Minor in Geology</h2> <p>The minor will consist of 18 hours of geology related course work and must include <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%202611\" onclick=\"return showCourse(this, 'GEOLOGY 2611');\" title=\"GEOLOGY 2611\">GEOLOGY 2611</a></span> and one of <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%201110\" onclick=\"return showCourse(this, 'GEOLOGY 1110');\" title=\"GEOLOGY 1110\">GEOLOGY 1110</a></span> or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%201150\" onclick=\"return showCourse(this, 'GEO ENG 1150');\" title=\"GEO ENG 1150\">GEO ENG 1150</a></span> or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%201120\" onclick=\"return showCourse(this, 'GEOLOGY 1120');\" title=\"GEOLOGY 1120\">GEOLOGY 1120</a></span>. Six additional hours of course work must come from any combination of 1000, 2000, 3000 geology courses. The remaining 6 hours of course work can be from any combination of geology related courses approved by the geology and geophysics program. Approved geology related course work:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201113\" onclick=\"return showCourse(this, 'BIO SCI 1113');\" title=\"BIO SCI 1113\">BIO SCI 1113</a></td><td>General Biology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201213\" onclick=\"return showCourse(this, 'BIO SCI 1213');\" title=\"BIO SCI 1213\">BIO SCI 1213</a></td><td>Principles of Biology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%202263\" onclick=\"return showCourse(this, 'BIO SCI 2263');\" title=\"BIO SCI 2263\">BIO SCI 2263</a></td><td>Ecology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%203233\" onclick=\"return showCourse(this, 'BIO SCI 3233');\" title=\"BIO SCI 3233\">BIO SCI 3233</a></td><td>Evolution</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENV%20ENG%203603\" onclick=\"return showCourse(this, 'ENV ENG 3603');\" title=\"ENV ENG 3603\">ENV ENG 3603</a></td><td>Chemical Fundamentals Of Environmental Engineering</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENV%20ENG%205630\" onclick=\"return showCourse(this, 'ENV ENG 5630');\" title=\"ENV ENG 5630\">ENV ENG 5630</a></td><td>Remediation of Contaminated Groundwater And Soil</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENV%20ENG%205605\" onclick=\"return showCourse(this, 'ENV ENG 5605');\" title=\"ENV ENG 5605\">ENV ENG 5605</a></td><td>Environmental Systems Modeling</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%203175\" onclick=\"return showCourse(this, 'GEO ENG 3175');\" title=\"GEO ENG 3175\">GEO ENG 3175</a></td><td>Geomorphology And Terrain Analysis</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%204115\" onclick=\"return showCourse(this, 'GEO ENG 4115');\" title=\"GEO ENG 4115\">GEO ENG 4115</a></td><td>Statistical Methods in Geology and Engineering</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%203913\" onclick=\"return showCourse(this, 'MIN ENG 3913');\" title=\"MIN ENG 3913\">MIN ENG 3913</a></td><td>Mineral Identification and Exploration</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%205522\" onclick=\"return showCourse(this, 'MIN ENG 5522');\" title=\"MIN ENG 5522\">MIN ENG 5522</a></td><td>Ore Reserve Analysis and Geostatistics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%205823\" onclick=\"return showCourse(this, 'MIN ENG 5823');\" title=\"MIN ENG 5823\">MIN ENG 5823</a></td><td>Rock Mechanics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%203330\" onclick=\"return showCourse(this, 'PET ENG 3330');\" title=\"PET ENG 3330\">PET ENG 3330</a></td><td>Formation Evaluation</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204311\" onclick=\"return showCourse(this, 'PET ENG 4311');\" title=\"PET ENG 4311\">PET ENG 4311</a></td><td>Reservoir Characterization</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PET%20ENG%204720\" onclick=\"return showCourse(this, 'PET ENG 4720');\" title=\"PET ENG 4720\">PET ENG 4720</a></td><td>Reservoir Geomechanics</td><td class=\"hourscol\">3</td></tr> </tbody></table>\n</div>"
+}

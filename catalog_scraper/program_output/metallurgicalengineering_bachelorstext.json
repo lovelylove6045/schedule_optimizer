@@ -1,0 +1,2101 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/metallurgicalengineering/#bachelorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/metallurgicalengineering/",
+        "fragment": "bachelorstext",
+        "page_slug": "metallurgicalengineering",
+        "page_title": "Metallurgical Engineering < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=bachelorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 2839,
+        "html_character_count": 21449,
+        "heading_count": 1,
+        "paragraph_count": 9,
+        "list_count": 0,
+        "table_count": 1,
+        "link_count": 88,
+        "superscript_count": 33,
+        "text_sha256": "b2094716b7cfc6da92ce45410b48bdbab9bebdbb5d2f1eaa2d20b61a1cfd5b11",
+        "html_sha256": "11ce0a33d308cba3823e1041b884439ceb2552fe7a7a4c21dd06a2d8a7dd6680"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Bachelor of Science Metallurgical Engineering",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "CHEM 1310",
+            "href": "/search/?P=CHEM%201310",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201310",
+            "resolved_course": "CHEM 1310"
+        },
+        {
+            "number": 2,
+            "text": "CHEM 1320",
+            "href": "/search/?P=CHEM%201320",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201320",
+            "resolved_course": "CHEM 1320"
+        },
+        {
+            "number": 3,
+            "text": "CHEM 1319",
+            "href": "/search/?P=CHEM%201319",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201319",
+            "resolved_course": "CHEM 1319"
+        },
+        {
+            "number": 4,
+            "text": "MATH 1215",
+            "href": "/search/?P=MATH%201215",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201215",
+            "resolved_course": "MATH 1215"
+        },
+        {
+            "number": 5,
+            "text": "ENGLISH 1120",
+            "href": "/search/?P=ENGLISH%201120",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201120",
+            "resolved_course": "ENGLISH 1120"
+        },
+        {
+            "number": 6,
+            "text": "MECH ENG 1720",
+            "href": "/search/?P=MECH%20ENG%201720",
+            "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%201720",
+            "resolved_course": "MECH ENG 1720"
+        },
+        {
+            "number": 7,
+            "text": "FR ENG 1100",
+            "href": "/search/?P=FR%20ENG%201100",
+            "url": "https://catalog.mst.edu/search/?P=FR%20ENG%201100",
+            "resolved_course": "FR ENG 1100"
+        },
+        {
+            "number": 8,
+            "text": "MET ENG 2110",
+            "href": "/search/?P=MET%20ENG%202110",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%202110",
+            "resolved_course": "MET ENG 2110"
+        },
+        {
+            "number": 9,
+            "text": "HISTORY 1200",
+            "href": "/search/?P=HISTORY%201200",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201200",
+            "resolved_course": "HISTORY 1200"
+        },
+        {
+            "number": 10,
+            "text": "1300",
+            "href": "/search/?P=HISTORY%201300",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201300",
+            "resolved_course": "HISTORY 1300"
+        },
+        {
+            "number": 11,
+            "text": "1310",
+            "href": "/search/?P=HISTORY%201310",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201310",
+            "resolved_course": "HISTORY 1310"
+        },
+        {
+            "number": 12,
+            "text": "POL SCI 1200",
+            "href": "/search/?P=POL%20SCI%201200",
+            "url": "https://catalog.mst.edu/search/?P=POL%20SCI%201200",
+            "resolved_course": "POL SCI 1200"
+        },
+        {
+            "number": 13,
+            "text": "PHYSICS 1135",
+            "href": "/search/?P=PHYSICS%201135",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%201135",
+            "resolved_course": "PHYSICS 1135"
+        },
+        {
+            "number": 14,
+            "text": "MATH 1214",
+            "href": "/search/?P=MATH%201214",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201214",
+            "resolved_course": "MATH 1214"
+        },
+        {
+            "number": 15,
+            "text": "1211",
+            "href": "/search/?P=MATH%201211",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201211",
+            "resolved_course": "MATH 1211"
+        },
+        {
+            "number": 16,
+            "text": "CIV ENG 2200",
+            "href": "/search/?P=CIV%20ENG%202200",
+            "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%202200",
+            "resolved_course": "CIV ENG 2200"
+        },
+        {
+            "number": 17,
+            "text": "CIV ENG 2210",
+            "href": "/search/?P=CIV%20ENG%202210",
+            "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%202210",
+            "resolved_course": "CIV ENG 2210"
+        },
+        {
+            "number": 18,
+            "text": "MATH 2222",
+            "href": "/search/?P=MATH%202222",
+            "url": "https://catalog.mst.edu/search/?P=MATH%202222",
+            "resolved_course": "MATH 2222"
+        },
+        {
+            "number": 19,
+            "text": "MATH 3304",
+            "href": "/search/?P=MATH%203304",
+            "url": "https://catalog.mst.edu/search/?P=MATH%203304",
+            "resolved_course": "MATH 3304"
+        },
+        {
+            "number": 20,
+            "text": "MET ENG 2125",
+            "href": "/search/?P=MET%20ENG%202125",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%202125",
+            "resolved_course": "MET ENG 2125"
+        },
+        {
+            "number": 21,
+            "text": "MET ENG 3420",
+            "href": "/search/?P=MET%20ENG%203420",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%203420",
+            "resolved_course": "MET ENG 3420"
+        },
+        {
+            "number": 22,
+            "text": "MECH ENG 2653",
+            "href": "/search/?P=MECH%20ENG%202653",
+            "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%202653",
+            "resolved_course": "MECH ENG 2653"
+        },
+        {
+            "number": 23,
+            "text": "MET ENG 3130",
+            "href": "/search/?P=MET%20ENG%203130",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%203130",
+            "resolved_course": "MET ENG 3130"
+        },
+        {
+            "number": 24,
+            "text": "MET ENG 3425",
+            "href": "/search/?P=MET%20ENG%203425",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%203425",
+            "resolved_course": "MET ENG 3425"
+        },
+        {
+            "number": 25,
+            "text": "MET ENG 3230",
+            "href": "/search/?P=MET%20ENG%203230",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%203230",
+            "resolved_course": "MET ENG 3230"
+        },
+        {
+            "number": 26,
+            "text": "PHYSICS 2135",
+            "href": "/search/?P=PHYSICS%202135",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202135",
+            "resolved_course": "PHYSICS 2135"
+        },
+        {
+            "number": 27,
+            "text": "ENGLISH 1160",
+            "href": "/search/?P=ENGLISH%201160",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201160",
+            "resolved_course": "ENGLISH 1160"
+        },
+        {
+            "number": 28,
+            "text": "3560",
+            "href": "/search/?P=ENGLISH%203560",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%203560",
+            "resolved_course": "ENGLISH 3560"
+        },
+        {
+            "number": 29,
+            "text": "SPM S 1185",
+            "href": "/search/?P=SP%26M%20S%201185",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%201185",
+            "resolved_course": "SP&M S 1185"
+        },
+        {
+            "number": 30,
+            "text": "CER ENG 3410",
+            "href": "/search/?P=CER%20ENG%203410",
+            "url": "https://catalog.mst.edu/search/?P=CER%20ENG%203410",
+            "resolved_course": "CER ENG 3410"
+        },
+        {
+            "number": 31,
+            "text": "MET ENG 3120",
+            "href": "/search/?P=MET%20ENG%203120",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%203120",
+            "resolved_course": "MET ENG 3120"
+        },
+        {
+            "number": 32,
+            "text": "MET ENG 3125",
+            "href": "/search/?P=MET%20ENG%203125",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%203125",
+            "resolved_course": "MET ENG 3125"
+        },
+        {
+            "number": 33,
+            "text": "MET ENG 3220",
+            "href": "/search/?P=MET%20ENG%203220",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%203220",
+            "resolved_course": "MET ENG 3220"
+        },
+        {
+            "number": 34,
+            "text": "MET ENG 3225",
+            "href": "/search/?P=MET%20ENG%203225",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%203225",
+            "resolved_course": "MET ENG 3225"
+        },
+        {
+            "number": 35,
+            "text": "STAT 3113",
+            "href": "/search/?P=STAT%203113",
+            "url": "https://catalog.mst.edu/search/?P=STAT%203113",
+            "resolved_course": "STAT 3113"
+        },
+        {
+            "number": 36,
+            "text": "3117",
+            "href": "/search/?P=STAT%203117",
+            "url": "https://catalog.mst.edu/search/?P=STAT%203117",
+            "resolved_course": "STAT 3117"
+        },
+        {
+            "number": 37,
+            "text": "MET ENG 3320",
+            "href": "/search/?P=MET%20ENG%203320",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%203320",
+            "resolved_course": "MET ENG 3320"
+        },
+        {
+            "number": 38,
+            "text": "MET ENG 4096",
+            "href": "/search/?P=MET%20ENG%204096",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%204096",
+            "resolved_course": "MET ENG 4096"
+        },
+        {
+            "number": 39,
+            "text": "MET ENG 4350",
+            "href": "/search/?P=MET%20ENG%204350",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%204350",
+            "resolved_course": "MET ENG 4350"
+        },
+        {
+            "number": 40,
+            "text": "MET ENG 4097",
+            "href": "/search/?P=MET%20ENG%204097",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%204097",
+            "resolved_course": "MET ENG 4097"
+        },
+        {
+            "number": 41,
+            "text": "MET ENG 4420",
+            "href": "/search/?P=MET%20ENG%204420",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%204420",
+            "resolved_course": "MET ENG 4420"
+        },
+        {
+            "number": 42,
+            "text": "MET ENG 4637",
+            "href": "/search/?P=MET%20ENG%204637",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%204637",
+            "resolved_course": "MET ENG 4637"
+        },
+        {
+            "number": 43,
+            "text": "CHEM 1310",
+            "href": "/search/?P=CHEM%201310",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201310",
+            "resolved_course": "CHEM 1310"
+        },
+        {
+            "number": 44,
+            "text": "CHEM 1320",
+            "href": "/search/?P=CHEM%201320",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201320",
+            "resolved_course": "CHEM 1320"
+        },
+        {
+            "number": 45,
+            "text": "CIV ENG 2200",
+            "href": "/search/?P=CIV%20ENG%202200",
+            "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%202200",
+            "resolved_course": "CIV ENG 2200"
+        },
+        {
+            "number": 46,
+            "text": "CIV ENG 2210",
+            "href": "/search/?P=CIV%20ENG%202210",
+            "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%202210",
+            "resolved_course": "CIV ENG 2210"
+        },
+        {
+            "number": 47,
+            "text": "MATH 1214",
+            "href": "/search/?P=MATH%201214",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201214",
+            "resolved_course": "MATH 1214"
+        },
+        {
+            "number": 48,
+            "text": "MATH 1215",
+            "href": "/search/?P=MATH%201215",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201215",
+            "resolved_course": "MATH 1215"
+        },
+        {
+            "number": 49,
+            "text": "MET ENG 2110",
+            "href": "/search/?P=MET%20ENG%202110",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%202110",
+            "resolved_course": "MET ENG 2110"
+        },
+        {
+            "number": 50,
+            "text": "MET ENG 2125",
+            "href": "/search/?P=MET%20ENG%202125",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%202125",
+            "resolved_course": "MET ENG 2125"
+        },
+        {
+            "number": 51,
+            "text": "MET ENG 3125",
+            "href": "/search/?P=MET%20ENG%203125",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%203125",
+            "resolved_course": "MET ENG 3125"
+        },
+        {
+            "number": 52,
+            "text": "MET ENG 3130",
+            "href": "/search/?P=MET%20ENG%203130",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%203130",
+            "resolved_course": "MET ENG 3130"
+        },
+        {
+            "number": 53,
+            "text": "MET ENG 3230",
+            "href": "/search/?P=MET%20ENG%203230",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%203230",
+            "resolved_course": "MET ENG 3230"
+        },
+        {
+            "number": 54,
+            "text": "MET ENG 3420",
+            "href": "/search/?P=MET%20ENG%203420",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%203420",
+            "resolved_course": "MET ENG 3420"
+        },
+        {
+            "number": 55,
+            "text": "MECH ENG 2653",
+            "href": "/search/?P=MECH%20ENG%202653",
+            "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%202653",
+            "resolved_course": "MECH ENG 2653"
+        },
+        {
+            "number": 56,
+            "text": "MET ENG 4096",
+            "href": "/search/?P=MET%20ENG%204096",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%204096",
+            "resolved_course": "MET ENG 4096"
+        },
+        {
+            "number": 57,
+            "text": "PHYSICS 1135",
+            "href": "/search/?P=PHYSICS%201135",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%201135",
+            "resolved_course": "PHYSICS 1135"
+        },
+        {
+            "number": 58,
+            "text": "COMP SCI 1972",
+            "href": "/search/?P=COMP%20SCI%201972",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201972",
+            "resolved_course": "COMP SCI 1972"
+        },
+        {
+            "number": 59,
+            "text": "COMP SCI 1982",
+            "href": "/search/?P=COMP%20SCI%201982",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201982",
+            "resolved_course": "COMP SCI 1982"
+        },
+        {
+            "number": 60,
+            "text": "COMP SCI 1973",
+            "href": "/search/?P=COMP%20SCI%201973",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201973",
+            "resolved_course": "COMP SCI 1973"
+        },
+        {
+            "number": 61,
+            "text": "COMP SCI 1983",
+            "href": "/search/?P=COMP%20SCI%201983",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201983",
+            "resolved_course": "COMP SCI 1983"
+        },
+        {
+            "number": 62,
+            "text": "CHEM ENG 5320",
+            "href": "/search/?P=CHEM%20ENG%205320",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%20ENG%205320",
+            "resolved_course": "CHEM ENG 5320"
+        },
+        {
+            "number": 63,
+            "text": "CHEM 2210",
+            "href": "/search/?P=CHEM%202210",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%202210",
+            "resolved_course": "CHEM 2210"
+        },
+        {
+            "number": 64,
+            "text": "CHEM 3310",
+            "href": "/search/?P=CHEM%203310",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%203310",
+            "resolved_course": "CHEM 3310"
+        },
+        {
+            "number": 65,
+            "text": "CHEM 4810",
+            "href": "/search/?P=CHEM%204810",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%204810",
+            "resolved_course": "CHEM 4810"
+        },
+        {
+            "number": 66,
+            "text": "ELEC ENG 2100",
+            "href": "/search/?P=ELEC%20ENG%202100",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202100",
+            "resolved_course": "ELEC ENG 2100"
+        },
+        {
+            "number": 67,
+            "text": "ELEC ENG 2101",
+            "href": "/search/?P=ELEC%20ENG%202101",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202101",
+            "resolved_course": "ELEC ENG 2101"
+        },
+        {
+            "number": 68,
+            "text": "ELEC ENG 2800",
+            "href": "/search/?P=ELEC%20ENG%202800",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202800",
+            "resolved_course": "ELEC ENG 2800"
+        },
+        {
+            "number": 69,
+            "text": "GEOLOGY 2610",
+            "href": "/search/?P=GEOLOGY%202610",
+            "url": "https://catalog.mst.edu/search/?P=GEOLOGY%202610",
+            "resolved_course": "GEOLOGY 2610"
+        },
+        {
+            "number": 70,
+            "text": "MATH 5603",
+            "href": "/search/?P=MATH%205603",
+            "url": "https://catalog.mst.edu/search/?P=MATH%205603",
+            "resolved_course": "MATH 5603"
+        },
+        {
+            "number": 71,
+            "text": "MATH 5325",
+            "href": "/search/?P=MATH%205325",
+            "url": "https://catalog.mst.edu/search/?P=MATH%205325",
+            "resolved_course": "MATH 5325"
+        },
+        {
+            "number": 72,
+            "text": "MECH ENG 5212",
+            "href": "/search/?P=MECH%20ENG%205212",
+            "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%205212",
+            "resolved_course": "MECH ENG 5212"
+        },
+        {
+            "number": 73,
+            "text": "MECH ENG 5220",
+            "href": "/search/?P=MECH%20ENG%205220",
+            "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%205220",
+            "resolved_course": "MECH ENG 5220"
+        },
+        {
+            "number": 74,
+            "text": "MECH ENG 5236",
+            "href": "/search/?P=MECH%20ENG%205236",
+            "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%205236",
+            "resolved_course": "MECH ENG 5236"
+        },
+        {
+            "number": 75,
+            "text": "MECH ENG 5238",
+            "href": "/search/?P=MECH%20ENG%205238",
+            "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%205238",
+            "resolved_course": "MECH ENG 5238"
+        },
+        {
+            "number": 76,
+            "text": "MECH ENG 5282",
+            "href": "/search/?P=MECH%20ENG%205282",
+            "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%205282",
+            "resolved_course": "MECH ENG 5282"
+        },
+        {
+            "number": 77,
+            "text": "MIN ENG 2412",
+            "href": "/search/?P=MIN%20ENG%202412",
+            "url": "https://catalog.mst.edu/search/?P=MIN%20ENG%202412",
+            "resolved_course": "MIN ENG 2412"
+        },
+        {
+            "number": 78,
+            "text": "PHYSICS 2305",
+            "href": "/search/?P=PHYSICS%202305",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202305",
+            "resolved_course": "PHYSICS 2305"
+        },
+        {
+            "number": 79,
+            "text": "PHYSICS 2311",
+            "href": "/search/?P=PHYSICS%202311",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202311",
+            "resolved_course": "PHYSICS 2311"
+        },
+        {
+            "number": 80,
+            "text": "STAT 5346",
+            "href": "/search/?P=STAT%205346",
+            "url": "https://catalog.mst.edu/search/?P=STAT%205346",
+            "resolved_course": "STAT 5346"
+        },
+        {
+            "number": 81,
+            "text": "STAT 5353",
+            "href": "/search/?P=STAT%205353",
+            "url": "https://catalog.mst.edu/search/?P=STAT%205353",
+            "resolved_course": "STAT 5353"
+        },
+        {
+            "number": 82,
+            "text": "MET ENG 4450",
+            "href": "/search/?P=MET%20ENG%204450",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%204450",
+            "resolved_course": "MET ENG 4450"
+        },
+        {
+            "number": 83,
+            "text": "MET ENG 4320",
+            "href": "/search/?P=MET%20ENG%204320",
+            "url": "https://catalog.mst.edu/search/?P=MET%20ENG%204320",
+            "resolved_course": "MET ENG 4320"
+        },
+        {
+            "number": 84,
+            "text": "SP&M S 1185",
+            "href": "/search/?P=SP%26M%20S%201185",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%201185",
+            "resolved_course": "SP&M S 1185"
+        },
+        {
+            "number": 85,
+            "text": "MIL ARMY 4250",
+            "href": "/search/?P=MIL%20ARMY%204250",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20ARMY%204250",
+            "resolved_course": "MIL ARMY 4250"
+        },
+        {
+            "number": 86,
+            "text": "MIL ARMY 4500",
+            "href": "/search/?P=MIL%20ARMY%204500",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20ARMY%204500",
+            "resolved_course": "MIL ARMY 4500"
+        },
+        {
+            "number": 87,
+            "text": "MIL AIR 4110",
+            "href": "/search/?P=MIL%20AIR%204110",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20AIR%204110",
+            "resolved_course": "MIL AIR 4110"
+        },
+        {
+            "number": 88,
+            "text": "MIL AIR 4120",
+            "href": "/search/?P=MIL%20AIR%204120",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20AIR%204120",
+            "resolved_course": "MIL AIR 4120"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "Freshman Year First Semester Credits Second Semester Credits CHEM 1310 1 4 CHEM 1320 1 3 CHEM 1319 1 MATH 1215 1 4 ENGLISH 1120 3 MECH ENG 1720 3 FR ENG 1100 1 MET ENG 2110 1 3 HISTORY 1200 , or 1300 , or 1310 , or POL SCI 1200 3 PHYSICS 1135 1 4 MATH 1214 or 1211 1 4 16 17 Sophomore Year First Semester Credits Second Semester Credits CIV ENG 2200 1 3 CIV ENG 2210 1 3 MATH 2222 4 MATH 3304 3 MET ENG 2125 1 2 MET ENG 3420 or MECH ENG 2653 1 3 MET ENG 3130 1 3 MET ENG 3425 1 MET ENG 3230 1 3 PHYSICS 2135 4 Programming Elective 2 3 15 17 Junior Year First Semester Credits Second Semester Credits ENGLISH 1160 , or 3560 , or SPM S 1185 8 3 CER ENG 3410 3 General Education Elective 3 3 General Education Elective 3 3 MET ENG 3120 3 General Education Elective 3 3 MET ENG 3125 1 2 MET ENG 3220 3 Out of Department Technical Elective 4 3 MET ENG 3225 1 STAT 3113 or 3117 3 MET ENG 3320 3 17 16 Senior Year First Semester Credits Second Semester Credits MET ENG 4096 1 3 General Education Elective 3 3 MET ENG 4350 3 MET ENG 4097 3 MET ENG 4420 3 MET ENG 4637 3 Met Technical Elective 7 3 Met Technical Elective 7 3 Steel Elective 6 3 Out of Program Technical Elective 5 3 15 15 Total Credits: 128",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Freshman Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CHEM 1310 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CHEM 1310",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%201310",
+                                    "resolved_course": "CHEM 1310"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "CHEM 1320 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CHEM 1320",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%201320",
+                                    "resolved_course": "CHEM 1320"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CHEM 1319",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CHEM 1319",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%201319",
+                                    "resolved_course": "CHEM 1319"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MATH 1215 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 1215",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201215",
+                                    "resolved_course": "MATH 1215"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENGLISH 1120",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENGLISH 1120",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%201120",
+                                    "resolved_course": "ENGLISH 1120"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MECH ENG 1720",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MECH ENG 1720",
+                                    "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%201720",
+                                    "resolved_course": "MECH ENG 1720"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "FR ENG 1100",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "FR ENG 1100",
+                                    "url": "https://catalog.mst.edu/search/?P=FR%20ENG%201100",
+                                    "resolved_course": "FR ENG 1100"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MET ENG 2110 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MET ENG 2110",
+                                    "url": "https://catalog.mst.edu/search/?P=MET%20ENG%202110",
+                                    "resolved_course": "MET ENG 2110"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "HISTORY 1200 , or 1300 , or 1310 , or POL SCI 1200",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "HISTORY 1200",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201200",
+                                    "resolved_course": "HISTORY 1200"
+                                },
+                                {
+                                    "text": "1300",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201300",
+                                    "resolved_course": "HISTORY 1300"
+                                },
+                                {
+                                    "text": "1310",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201310",
+                                    "resolved_course": "HISTORY 1310"
+                                },
+                                {
+                                    "text": "POL SCI 1200",
+                                    "url": "https://catalog.mst.edu/search/?P=POL%20SCI%201200",
+                                    "resolved_course": "POL SCI 1200"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "PHYSICS 1135 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 1135",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%201135",
+                                    "resolved_course": "PHYSICS 1135"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MATH 1214 or 1211 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 1214",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201214",
+                                    "resolved_course": "MATH 1214"
+                                },
+                                {
+                                    "text": "1211",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201211",
+                                    "resolved_course": "MATH 1211"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "16",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "17",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 10,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Sophomore Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 11,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 12,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CIV ENG 2200 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CIV ENG 2200",
+                                    "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%202200",
+                                    "resolved_course": "CIV ENG 2200"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "CIV ENG 2210 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CIV ENG 2210",
+                                    "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%202210",
+                                    "resolved_course": "CIV ENG 2210"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 13,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MATH 2222",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 2222",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%202222",
+                                    "resolved_course": "MATH 2222"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MATH 3304",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 3304",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%203304",
+                                    "resolved_course": "MATH 3304"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 14,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MET ENG 2125 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MET ENG 2125",
+                                    "url": "https://catalog.mst.edu/search/?P=MET%20ENG%202125",
+                                    "resolved_course": "MET ENG 2125"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MET ENG 3420 or MECH ENG 2653 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MET ENG 3420",
+                                    "url": "https://catalog.mst.edu/search/?P=MET%20ENG%203420",
+                                    "resolved_course": "MET ENG 3420"
+                                },
+                                {
+                                    "text": "MECH ENG 2653",
+                                    "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%202653",
+                                    "resolved_course": "MECH ENG 2653"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 15,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MET ENG 3130 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MET ENG 3130",
+                                    "url": "https://catalog.mst.edu/search/?P=MET%20ENG%203130",
+                                    "resolved_course": "MET ENG 3130"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MET ENG 3425",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MET ENG 3425",
+                                    "url": "https://catalog.mst.edu/search/?P=MET%20ENG%203425",
+                                    "resolved_course": "MET ENG 3425"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 16,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MET ENG 3230 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MET ENG 3230",
+                                    "url": "https://catalog.mst.edu/search/?P=MET%20ENG%203230",
+                                    "resolved_course": "MET ENG 3230"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "PHYSICS 2135",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 2135",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%202135",
+                                    "resolved_course": "PHYSICS 2135"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 17,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Programming Elective 2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 18,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "17",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 19,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Junior Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 20,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 21,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENGLISH 1160 , or 3560 , or SPM S 1185 8",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENGLISH 1160",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%201160",
+                                    "resolved_course": "ENGLISH 1160"
+                                },
+                                {
+                                    "text": "3560",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%203560",
+                                    "resolved_course": "ENGLISH 3560"
+                                },
+                                {
+                                    "text": "SPM S 1185",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%201185",
+                                    "resolved_course": "SP&M S 1185"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "CER ENG 3410",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CER ENG 3410",
+                                    "url": "https://catalog.mst.edu/search/?P=CER%20ENG%203410",
+                                    "resolved_course": "CER ENG 3410"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 22,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "General Education Elective 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "General Education Elective 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 23,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MET ENG 3120",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MET ENG 3120",
+                                    "url": "https://catalog.mst.edu/search/?P=MET%20ENG%203120",
+                                    "resolved_course": "MET ENG 3120"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "General Education Elective 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 24,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MET ENG 3125 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MET ENG 3125",
+                                    "url": "https://catalog.mst.edu/search/?P=MET%20ENG%203125",
+                                    "resolved_course": "MET ENG 3125"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MET ENG 3220",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MET ENG 3220",
+                                    "url": "https://catalog.mst.edu/search/?P=MET%20ENG%203220",
+                                    "resolved_course": "MET ENG 3220"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 25,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Out of Department Technical Elective 4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MET ENG 3225",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MET ENG 3225",
+                                    "url": "https://catalog.mst.edu/search/?P=MET%20ENG%203225",
+                                    "resolved_course": "MET ENG 3225"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 26,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "STAT 3113 or 3117",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "STAT 3113",
+                                    "url": "https://catalog.mst.edu/search/?P=STAT%203113",
+                                    "resolved_course": "STAT 3113"
+                                },
+                                {
+                                    "text": "3117",
+                                    "url": "https://catalog.mst.edu/search/?P=STAT%203117",
+                                    "resolved_course": "STAT 3117"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MET ENG 3320",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MET ENG 3320",
+                                    "url": "https://catalog.mst.edu/search/?P=MET%20ENG%203320",
+                                    "resolved_course": "MET ENG 3320"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 27,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "17",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "16",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 28,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Senior Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 29,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 30,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MET ENG 4096 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MET ENG 4096",
+                                    "url": "https://catalog.mst.edu/search/?P=MET%20ENG%204096",
+                                    "resolved_course": "MET ENG 4096"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "General Education Elective 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 31,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MET ENG 4350",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MET ENG 4350",
+                                    "url": "https://catalog.mst.edu/search/?P=MET%20ENG%204350",
+                                    "resolved_course": "MET ENG 4350"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MET ENG 4097",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MET ENG 4097",
+                                    "url": "https://catalog.mst.edu/search/?P=MET%20ENG%204097",
+                                    "resolved_course": "MET ENG 4097"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 32,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MET ENG 4420",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MET ENG 4420",
+                                    "url": "https://catalog.mst.edu/search/?P=MET%20ENG%204420",
+                                    "resolved_course": "MET ENG 4420"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MET ENG 4637",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MET ENG 4637",
+                                    "url": "https://catalog.mst.edu/search/?P=MET%20ENG%204637",
+                                    "resolved_course": "MET ENG 4637"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 33,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Met Technical Elective 7",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Met Technical Elective 7",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 34,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Steel Elective 6",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Out of Program Technical Elective 5",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 35,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 36,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Total Credits: 128",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_plangrid\"><tr class=\"plangridyear firstrow\"><th colspan=\"4\">Freshman Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201310\" onclick=\"return showCourse(this, 'CHEM 1310');\" title=\"CHEM 1310\">CHEM 1310</a><sup>1</sup></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201320\" onclick=\"return showCourse(this, 'CHEM 1320');\" title=\"CHEM 1320\">CHEM 1320</a><sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201319\" onclick=\"return showCourse(this, 'CHEM 1319');\" title=\"CHEM 1319\">CHEM 1319</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201215\" onclick=\"return showCourse(this, 'MATH 1215');\" title=\"MATH 1215\">MATH 1215</a><sup>1</sup></td><td class=\"hourscol\">4</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201120\" onclick=\"return showCourse(this, 'ENGLISH 1120');\" title=\"ENGLISH 1120\">ENGLISH 1120</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%201720\" onclick=\"return showCourse(this, 'MECH ENG 1720');\" title=\"MECH ENG 1720\">MECH ENG 1720</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=FR%20ENG%201100\" onclick=\"return showCourse(this, 'FR ENG 1100');\" title=\"FR ENG 1100\">FR ENG 1100</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%202110\" onclick=\"return showCourse(this, 'MET ENG 2110');\" title=\"MET ENG 2110\">MET ENG 2110</a><sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201200\" onclick=\"return showCourse(this, 'HISTORY 1200');\" title=\"HISTORY 1200\">HISTORY 1200</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201300\" onclick=\"return showCourse(this, 'HISTORY 1300');\" title=\"HISTORY 1300\"> 1300</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201310\" onclick=\"return showCourse(this, 'HISTORY 1310');\" title=\"HISTORY 1310\"> 1310</a>, or <a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%201200\" onclick=\"return showCourse(this, 'POL SCI 1200');\" title=\"POL SCI 1200\">POL SCI  1200</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201135\" onclick=\"return showCourse(this, 'PHYSICS 1135');\" title=\"PHYSICS 1135\">PHYSICS 1135</a><sup>1</sup></td><td class=\"hourscol\">4</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201214\" onclick=\"return showCourse(this, 'MATH 1214');\" title=\"MATH 1214\">MATH 1214</a> or <a class=\"bubblelink code\" href=\"/search/?P=MATH%201211\" onclick=\"return showCourse(this, 'MATH 1211');\" title=\"MATH 1211\"> 1211</a><sup>1</sup></td><td class=\"hourscol\">4</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">16</td><td> </td><td class=\"hourscol\">17</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Sophomore Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%202200\" onclick=\"return showCourse(this, 'CIV ENG 2200');\" title=\"CIV ENG 2200\">CIV ENG 2200</a><sup>1</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%202210\" onclick=\"return showCourse(this, 'CIV ENG 2210');\" title=\"CIV ENG 2210\">CIV ENG 2210</a><sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%202222\" onclick=\"return showCourse(this, 'MATH 2222');\" title=\"MATH 2222\">MATH 2222</a></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%203304\" onclick=\"return showCourse(this, 'MATH 3304');\" title=\"MATH 3304\">MATH 3304</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%202125\" onclick=\"return showCourse(this, 'MET ENG 2125');\" title=\"MET ENG 2125\">MET ENG 2125</a><sup>1</sup></td><td class=\"hourscol\">2</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%203420\" onclick=\"return showCourse(this, 'MET ENG 3420');\" title=\"MET ENG 3420\">MET ENG 3420</a> or <a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%202653\" onclick=\"return showCourse(this, 'MECH ENG 2653');\" title=\"MECH ENG 2653\">MECH ENG  2653</a><sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%203130\" onclick=\"return showCourse(this, 'MET ENG 3130');\" title=\"MET ENG 3130\">MET ENG 3130</a><sup>1</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%203425\" onclick=\"return showCourse(this, 'MET ENG 3425');\" title=\"MET ENG 3425\">MET ENG 3425</a></td><td class=\"hourscol\">1</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%203230\" onclick=\"return showCourse(this, 'MET ENG 3230');\" title=\"MET ENG 3230\">MET ENG 3230</a><sup>1</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202135\" onclick=\"return showCourse(this, 'PHYSICS 2135');\" title=\"PHYSICS 2135\">PHYSICS 2135</a></td><td class=\"hourscol\">4</td></tr><tr class=\"odd\"> <td colspan=\"2\"> </td><td class=\"codecol\">Programming Elective<sup>2</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">17</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Junior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201160\" onclick=\"return showCourse(this, 'ENGLISH 1160');\" title=\"ENGLISH 1160\">ENGLISH 1160</a>, or <a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%203560\" onclick=\"return showCourse(this, 'ENGLISH 3560');\" title=\"ENGLISH 3560\"> 3560</a>, or <a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%201185\" onclick=\"return showCourse(this, 'SP&amp;M S 1185');\" title=\"SP&amp;M S 1185\">SPM S  1185</a><sup>8</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CER%20ENG%203410\" onclick=\"return showCourse(this, 'CER ENG 3410');\" title=\"CER ENG 3410\">CER ENG 3410</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">General Education Elective<sup>3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">General Education Elective<sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%203120\" onclick=\"return showCourse(this, 'MET ENG 3120');\" title=\"MET ENG 3120\">MET ENG 3120</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">General Education Elective<sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%203125\" onclick=\"return showCourse(this, 'MET ENG 3125');\" title=\"MET ENG 3125\">MET ENG 3125</a><sup>1</sup></td><td class=\"hourscol\">2</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%203220\" onclick=\"return showCourse(this, 'MET ENG 3220');\" title=\"MET ENG 3220\">MET ENG 3220</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Out of Department Technical Elective<sup>4</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%203225\" onclick=\"return showCourse(this, 'MET ENG 3225');\" title=\"MET ENG 3225\">MET ENG 3225</a></td><td class=\"hourscol\">1</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%203113\" onclick=\"return showCourse(this, 'STAT 3113');\" title=\"STAT 3113\">STAT 3113</a> or <a class=\"bubblelink code\" href=\"/search/?P=STAT%203117\" onclick=\"return showCourse(this, 'STAT 3117');\" title=\"STAT 3117\"> 3117</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%203320\" onclick=\"return showCourse(this, 'MET ENG 3320');\" title=\"MET ENG 3320\">MET ENG 3320</a></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">17</td><td> </td><td class=\"hourscol\">16</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Senior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%204096\" onclick=\"return showCourse(this, 'MET ENG 4096');\" title=\"MET ENG 4096\">MET ENG 4096</a><sup>1</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">General Education Elective<sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%204350\" onclick=\"return showCourse(this, 'MET ENG 4350');\" title=\"MET ENG 4350\">MET ENG 4350</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%204097\" onclick=\"return showCourse(this, 'MET ENG 4097');\" title=\"MET ENG 4097\">MET ENG 4097</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%204420\" onclick=\"return showCourse(this, 'MET ENG 4420');\" title=\"MET ENG 4420\">MET ENG 4420</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%204637\" onclick=\"return showCourse(this, 'MET ENG 4637');\" title=\"MET ENG 4637\">MET ENG 4637</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Met Technical Elective<sup>7</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Met Technical Elective<sup>7</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Steel Elective<sup>6</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Out of Program Technical Elective<sup>5</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridtotal lastrow\"><td colspan=\"4\">Total Credits: 128</td></tr></table>"
+        }
+    ],
+    "section_text": "Bachelor of Science Metallurgical Engineering For the Bachelor of Science degree in Metallurgical Engineering a minimum of 128 credit hours is required. A cumulative grade point average of at least 2.0 is required for all courses applied toward the degree, as well as for all required courses in the major field of study. Freshman Year First Semester Credits Second Semester Credits CHEM 1310 1 4 CHEM 1320 1 3 CHEM 1319 1 MATH 1215 1 4 ENGLISH 1120 3 MECH ENG 1720 3 FR ENG 1100 1 MET ENG 2110 1 3 HISTORY 1200 , or 1300 , or 1310 , or POL SCI 1200 3 PHYSICS 1135 1 4 MATH 1214 or 1211 1 4 16 17 Sophomore Year First Semester Credits Second Semester Credits CIV ENG 2200 1 3 CIV ENG 2210 1 3 MATH 2222 4 MATH 3304 3 MET ENG 2125 1 2 MET ENG 3420 or MECH ENG 2653 1 3 MET ENG 3130 1 3 MET ENG 3425 1 MET ENG 3230 1 3 PHYSICS 2135 4 Programming Elective 2 3 15 17 Junior Year First Semester Credits Second Semester Credits ENGLISH 1160 , or 3560 , or SPM S 1185 8 3 CER ENG 3410 3 General Education Elective 3 3 General Education Elective 3 3 MET ENG 3120 3 General Education Elective 3 3 MET ENG 3125 1 2 MET ENG 3220 3 Out of Department Technical Elective 4 3 MET ENG 3225 1 STAT 3113 or 3117 3 MET ENG 3320 3 17 16 Senior Year First Semester Credits Second Semester Credits MET ENG 4096 1 3 General Education Elective 3 3 MET ENG 4350 3 MET ENG 4097 3 MET ENG 4420 3 MET ENG 4637 3 Met Technical Elective 7 3 Met Technical Elective 7 3 Steel Elective 6 3 Out of Program Technical Elective 5 3 15 15 Total Credits: 128 1 A grade of “C” or better is required in the following courses to satisfy prerequisite requirements for subsequent coursework and to meet graduation criteria: CHEM 1310 , CHEM 1320 , CIV ENG 2200 , CIV ENG 2210 , MATH 1214 , MATH 1215 , MET ENG 2110 , MET ENG 2125 , MET ENG 3125 , MET ENG 3130 , MET ENG 3230 , MET ENG 3420 , or MECH ENG 2653 , MET ENG 4096 , PHYSICS 1135 . 2 Both COMP SCI 1972 and COMP SCI 1982 , or both COMP SCI 1973 and COMP SCI 1983 . 3 Gen Ed electives must fulfill the Missouri S&T general education requirements applicable to the student's catalog year. 4 CHEM ENG 5320 , CHEM 2210 , CHEM 3310 , CHEM 4810 , ELEC ENG 2100 & ELEC ENG 2101 , ELEC ENG 2800 , GEOLOGY 2610 , MATH 5603 , MATH 5325 , MECH ENG 5212 , MECH ENG 5220 , MECH ENG 5236 , MECH ENG 5238 , MECH ENG 5282 , MIN ENG 2412 , PHYSICS 2305 , PHYSICS 2311 , STAT 5346 , STAT 5353 . 5 Any approved course listed under Out of Department Technical Elective (see footnote 4) or any CER ENG, MS&E, or SEMI ENG course at 2000-level with pre-requisite or at 3000-level or higher. 6 Steelmaking ( MET ENG 4450 ) or Steels And Their Treatment ( MET ENG 4320 ) . 7 Any other 3000-level or higher MET ENG course. 8 Students may replace SP&M S 1185 with the ROTC sequence of MIL ARMY 4250 and MIL ARMY 4500 or MIL AIR 4110 and MIL AIR 4120 .",
+    "section_html": "<div class=\"tab_content\" id=\"bachelorstextcontainer\">\n<a name=\"bachelorstext\"></a><h2>Bachelor of Science<br/> Metallurgical Engineering</h2> <p>For the Bachelor of Science degree in Metallurgical Engineering a minimum of 128 credit hours is required. A cumulative grade point average of at least 2.0 is required for all courses applied toward the degree, as well as for all required courses in the major field of study.</p> <table class=\"sc_plangrid\"><tr class=\"plangridyear firstrow\"><th colspan=\"4\">Freshman Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201310\" onclick=\"return showCourse(this, 'CHEM 1310');\" title=\"CHEM 1310\">CHEM 1310</a><sup>1</sup></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201320\" onclick=\"return showCourse(this, 'CHEM 1320');\" title=\"CHEM 1320\">CHEM 1320</a><sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201319\" onclick=\"return showCourse(this, 'CHEM 1319');\" title=\"CHEM 1319\">CHEM 1319</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201215\" onclick=\"return showCourse(this, 'MATH 1215');\" title=\"MATH 1215\">MATH 1215</a><sup>1</sup></td><td class=\"hourscol\">4</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201120\" onclick=\"return showCourse(this, 'ENGLISH 1120');\" title=\"ENGLISH 1120\">ENGLISH 1120</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%201720\" onclick=\"return showCourse(this, 'MECH ENG 1720');\" title=\"MECH ENG 1720\">MECH ENG 1720</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=FR%20ENG%201100\" onclick=\"return showCourse(this, 'FR ENG 1100');\" title=\"FR ENG 1100\">FR ENG 1100</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%202110\" onclick=\"return showCourse(this, 'MET ENG 2110');\" title=\"MET ENG 2110\">MET ENG 2110</a><sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201200\" onclick=\"return showCourse(this, 'HISTORY 1200');\" title=\"HISTORY 1200\">HISTORY 1200</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201300\" onclick=\"return showCourse(this, 'HISTORY 1300');\" title=\"HISTORY 1300\"> 1300</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201310\" onclick=\"return showCourse(this, 'HISTORY 1310');\" title=\"HISTORY 1310\"> 1310</a>, or <a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%201200\" onclick=\"return showCourse(this, 'POL SCI 1200');\" title=\"POL SCI 1200\">POL SCI  1200</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201135\" onclick=\"return showCourse(this, 'PHYSICS 1135');\" title=\"PHYSICS 1135\">PHYSICS 1135</a><sup>1</sup></td><td class=\"hourscol\">4</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201214\" onclick=\"return showCourse(this, 'MATH 1214');\" title=\"MATH 1214\">MATH 1214</a> or <a class=\"bubblelink code\" href=\"/search/?P=MATH%201211\" onclick=\"return showCourse(this, 'MATH 1211');\" title=\"MATH 1211\"> 1211</a><sup>1</sup></td><td class=\"hourscol\">4</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">16</td><td> </td><td class=\"hourscol\">17</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Sophomore Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%202200\" onclick=\"return showCourse(this, 'CIV ENG 2200');\" title=\"CIV ENG 2200\">CIV ENG 2200</a><sup>1</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%202210\" onclick=\"return showCourse(this, 'CIV ENG 2210');\" title=\"CIV ENG 2210\">CIV ENG 2210</a><sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%202222\" onclick=\"return showCourse(this, 'MATH 2222');\" title=\"MATH 2222\">MATH 2222</a></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%203304\" onclick=\"return showCourse(this, 'MATH 3304');\" title=\"MATH 3304\">MATH 3304</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%202125\" onclick=\"return showCourse(this, 'MET ENG 2125');\" title=\"MET ENG 2125\">MET ENG 2125</a><sup>1</sup></td><td class=\"hourscol\">2</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%203420\" onclick=\"return showCourse(this, 'MET ENG 3420');\" title=\"MET ENG 3420\">MET ENG 3420</a> or <a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%202653\" onclick=\"return showCourse(this, 'MECH ENG 2653');\" title=\"MECH ENG 2653\">MECH ENG  2653</a><sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%203130\" onclick=\"return showCourse(this, 'MET ENG 3130');\" title=\"MET ENG 3130\">MET ENG 3130</a><sup>1</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%203425\" onclick=\"return showCourse(this, 'MET ENG 3425');\" title=\"MET ENG 3425\">MET ENG 3425</a></td><td class=\"hourscol\">1</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%203230\" onclick=\"return showCourse(this, 'MET ENG 3230');\" title=\"MET ENG 3230\">MET ENG 3230</a><sup>1</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202135\" onclick=\"return showCourse(this, 'PHYSICS 2135');\" title=\"PHYSICS 2135\">PHYSICS 2135</a></td><td class=\"hourscol\">4</td></tr><tr class=\"odd\"> <td colspan=\"2\"> </td><td class=\"codecol\">Programming Elective<sup>2</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">17</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Junior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201160\" onclick=\"return showCourse(this, 'ENGLISH 1160');\" title=\"ENGLISH 1160\">ENGLISH 1160</a>, or <a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%203560\" onclick=\"return showCourse(this, 'ENGLISH 3560');\" title=\"ENGLISH 3560\"> 3560</a>, or <a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%201185\" onclick=\"return showCourse(this, 'SP&amp;M S 1185');\" title=\"SP&amp;M S 1185\">SPM S  1185</a><sup>8</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CER%20ENG%203410\" onclick=\"return showCourse(this, 'CER ENG 3410');\" title=\"CER ENG 3410\">CER ENG 3410</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">General Education Elective<sup>3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">General Education Elective<sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%203120\" onclick=\"return showCourse(this, 'MET ENG 3120');\" title=\"MET ENG 3120\">MET ENG 3120</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">General Education Elective<sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%203125\" onclick=\"return showCourse(this, 'MET ENG 3125');\" title=\"MET ENG 3125\">MET ENG 3125</a><sup>1</sup></td><td class=\"hourscol\">2</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%203220\" onclick=\"return showCourse(this, 'MET ENG 3220');\" title=\"MET ENG 3220\">MET ENG 3220</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Out of Department Technical Elective<sup>4</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%203225\" onclick=\"return showCourse(this, 'MET ENG 3225');\" title=\"MET ENG 3225\">MET ENG 3225</a></td><td class=\"hourscol\">1</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%203113\" onclick=\"return showCourse(this, 'STAT 3113');\" title=\"STAT 3113\">STAT 3113</a> or <a class=\"bubblelink code\" href=\"/search/?P=STAT%203117\" onclick=\"return showCourse(this, 'STAT 3117');\" title=\"STAT 3117\"> 3117</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%203320\" onclick=\"return showCourse(this, 'MET ENG 3320');\" title=\"MET ENG 3320\">MET ENG 3320</a></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">17</td><td> </td><td class=\"hourscol\">16</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Senior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%204096\" onclick=\"return showCourse(this, 'MET ENG 4096');\" title=\"MET ENG 4096\">MET ENG 4096</a><sup>1</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">General Education Elective<sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%204350\" onclick=\"return showCourse(this, 'MET ENG 4350');\" title=\"MET ENG 4350\">MET ENG 4350</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%204097\" onclick=\"return showCourse(this, 'MET ENG 4097');\" title=\"MET ENG 4097\">MET ENG 4097</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%204420\" onclick=\"return showCourse(this, 'MET ENG 4420');\" title=\"MET ENG 4420\">MET ENG 4420</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%204637\" onclick=\"return showCourse(this, 'MET ENG 4637');\" title=\"MET ENG 4637\">MET ENG 4637</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Met Technical Elective<sup>7</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Met Technical Elective<sup>7</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Steel Elective<sup>6</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Out of Program Technical Elective<sup>5</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridtotal lastrow\"><td colspan=\"4\">Total Credits: 128</td></tr></table> <dl aria-label=\"Footnotes\" class=\"sc_footnotes\"><dt> <sup> 1 </sup> </dt><dd><p class=\"noindent\">A grade of “C” or better is required in the following courses to satisfy prerequisite requirements for subsequent coursework and to meet graduation criteria: <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201310\" onclick=\"return showCourse(this, 'CHEM 1310');\" title=\"CHEM 1310\">CHEM 1310</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201320\" onclick=\"return showCourse(this, 'CHEM 1320');\" title=\"CHEM 1320\">CHEM 1320</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%202200\" onclick=\"return showCourse(this, 'CIV ENG 2200');\" title=\"CIV ENG 2200\">CIV ENG 2200</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%202210\" onclick=\"return showCourse(this, 'CIV ENG 2210');\" title=\"CIV ENG 2210\">CIV ENG 2210</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201214\" onclick=\"return showCourse(this, 'MATH 1214');\" title=\"MATH 1214\">MATH 1214</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201215\" onclick=\"return showCourse(this, 'MATH 1215');\" title=\"MATH 1215\">MATH 1215</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%202110\" onclick=\"return showCourse(this, 'MET ENG 2110');\" title=\"MET ENG 2110\">MET ENG 2110</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%202125\" onclick=\"return showCourse(this, 'MET ENG 2125');\" title=\"MET ENG 2125\">MET ENG 2125</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%203125\" onclick=\"return showCourse(this, 'MET ENG 3125');\" title=\"MET ENG 3125\">MET ENG 3125</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%203130\" onclick=\"return showCourse(this, 'MET ENG 3130');\" title=\"MET ENG 3130\">MET ENG 3130</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%203230\" onclick=\"return showCourse(this, 'MET ENG 3230');\" title=\"MET ENG 3230\">MET ENG 3230</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%203420\" onclick=\"return showCourse(this, 'MET ENG 3420');\" title=\"MET ENG 3420\">MET ENG 3420</a></span>, or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%202653\" onclick=\"return showCourse(this, 'MECH ENG 2653');\" title=\"MECH ENG 2653\">MECH ENG 2653</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%204096\" onclick=\"return showCourse(this, 'MET ENG 4096');\" title=\"MET ENG 4096\">MET ENG 4096</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201135\" onclick=\"return showCourse(this, 'PHYSICS 1135');\" title=\"PHYSICS 1135\">PHYSICS 1135</a></span>.</p></dd><dt> <sup> 2 </sup> </dt><dd><p class=\"noindent\">Both <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201972\" onclick=\"return showCourse(this, 'COMP SCI 1972');\" title=\"COMP SCI 1972\">COMP SCI 1972</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201982\" onclick=\"return showCourse(this, 'COMP SCI 1982');\" title=\"COMP SCI 1982\">COMP SCI 1982</a></span>, or both <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201973\" onclick=\"return showCourse(this, 'COMP SCI 1973');\" title=\"COMP SCI 1973\">COMP SCI 1973</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201983\" onclick=\"return showCourse(this, 'COMP SCI 1983');\" title=\"COMP SCI 1983\">COMP SCI 1983</a></span>.</p></dd><dt> <sup> 3 </sup> </dt><dd><p class=\"noindent\">Gen Ed electives must fulfill the Missouri S&amp;T general education requirements applicable to the student's catalog year.</p></dd><dt> <sup> 4 </sup> </dt><dd><p class=\"noindent\"><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%20ENG%205320\" onclick=\"return showCourse(this, 'CHEM ENG 5320');\" title=\"CHEM ENG 5320\">CHEM ENG 5320</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%202210\" onclick=\"return showCourse(this, 'CHEM 2210');\" title=\"CHEM 2210\">CHEM 2210</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%203310\" onclick=\"return showCourse(this, 'CHEM 3310');\" title=\"CHEM 3310\">CHEM 3310</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%204810\" onclick=\"return showCourse(this, 'CHEM 4810');\" title=\"CHEM 4810\">CHEM 4810</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202100\" onclick=\"return showCourse(this, 'ELEC ENG 2100');\" title=\"ELEC ENG 2100\">ELEC ENG 2100</a></span> &amp; <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202101\" onclick=\"return showCourse(this, 'ELEC ENG 2101');\" title=\"ELEC ENG 2101\">ELEC ENG 2101</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202800\" onclick=\"return showCourse(this, 'ELEC ENG 2800');\" title=\"ELEC ENG 2800\">ELEC ENG 2800</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%202610\" onclick=\"return showCourse(this, 'GEOLOGY 2610');\" title=\"GEOLOGY 2610\">GEOLOGY 2610</a></span>,  <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%205603\" onclick=\"return showCourse(this, 'MATH 5603');\" title=\"MATH 5603\">MATH 5603</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%205325\" onclick=\"return showCourse(this, 'MATH 5325');\" title=\"MATH 5325\">MATH 5325</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%205212\" onclick=\"return showCourse(this, 'MECH ENG 5212');\" title=\"MECH ENG 5212\">MECH ENG 5212</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%205220\" onclick=\"return showCourse(this, 'MECH ENG 5220');\" title=\"MECH ENG 5220\">MECH ENG 5220</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%205236\" onclick=\"return showCourse(this, 'MECH ENG 5236');\" title=\"MECH ENG 5236\">MECH ENG 5236</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%205238\" onclick=\"return showCourse(this, 'MECH ENG 5238');\" title=\"MECH ENG 5238\">MECH ENG 5238</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%205282\" onclick=\"return showCourse(this, 'MECH ENG 5282');\" title=\"MECH ENG 5282\">MECH ENG 5282</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MIN%20ENG%202412\" onclick=\"return showCourse(this, 'MIN ENG 2412');\" title=\"MIN ENG 2412\">MIN ENG 2412</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202305\" onclick=\"return showCourse(this, 'PHYSICS 2305');\" title=\"PHYSICS 2305\">PHYSICS 2305</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202311\" onclick=\"return showCourse(this, 'PHYSICS 2311');\" title=\"PHYSICS 2311\">PHYSICS 2311</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%205346\" onclick=\"return showCourse(this, 'STAT 5346');\" title=\"STAT 5346\">STAT 5346</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%205353\" onclick=\"return showCourse(this, 'STAT 5353');\" title=\"STAT 5353\">STAT 5353</a></span>.</p></dd><dt> <sup> 5 </sup> </dt><dd><p class=\"noindent\">Any approved course listed under Out of Department Technical Elective (see footnote 4) or any CER ENG, MS&amp;E, or SEMI ENG course at 2000-level with pre-requisite or at 3000-level or higher.</p></dd><dt> <sup> 6 </sup> </dt><dd><p class=\"noindent\"><span class=\"sc_courseinline\">Steelmaking (<a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%204450\" onclick=\"return showCourse(this, 'MET ENG 4450');\" title=\"MET ENG 4450\">MET ENG 4450</a>)</span> or <span class=\"sc_courseinline\">Steels And Their Treatment (<a class=\"bubblelink code\" href=\"/search/?P=MET%20ENG%204320\" onclick=\"return showCourse(this, 'MET ENG 4320');\" title=\"MET ENG 4320\">MET ENG 4320</a>)</span>.</p></dd><dt> <sup> 7 </sup> </dt><dd><p class=\"noindent\">Any other 3000-level or higher MET ENG course.</p></dd><dt> <sup> 8 </sup> </dt><dd><p class=\"noindent\">Students may replace <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%201185\" onclick=\"return showCourse(this, 'SP&amp;M S 1185');\" title=\"SP&amp;M S 1185\">SP&amp;M S 1185</a></span> with the ROTC sequence of <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20ARMY%204250\" onclick=\"return showCourse(this, 'MIL ARMY 4250');\" title=\"MIL ARMY 4250\">MIL ARMY 4250</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20ARMY%204500\" onclick=\"return showCourse(this, 'MIL ARMY 4500');\" title=\"MIL ARMY 4500\">MIL ARMY 4500</a></span> or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20AIR%204110\" onclick=\"return showCourse(this, 'MIL AIR 4110');\" title=\"MIL AIR 4110\">MIL AIR 4110</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20AIR%204120\" onclick=\"return showCourse(this, 'MIL AIR 4120');\" title=\"MIL AIR 4120\">MIL AIR 4120</a></span>.</p></dd></dl>\n</div>"
+}

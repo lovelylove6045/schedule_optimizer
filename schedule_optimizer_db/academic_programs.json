@@ -16,5 +16,1310 @@
     "program_type": "MINOR",
     "total_credit_hours": "15.0",
     "is_active": true
+  },
+  {
+    "academic_program_id": 3,
+    "department_id": 12,
+    "program_code": "ARCH_BS_2026",
+    "program_name": "Bachelor of Science in Architectural Engineering",
+    "program_type": "MAJOR",
+    "total_credit_hours": "129.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 4,
+    "department_id": 12,
+    "program_code": "ARCH_EMP_STRUCT_2026",
+    "program_name": "Architectural Engineering - Structural Engineering Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "9.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 5,
+    "department_id": 12,
+    "program_code": "ARCH_EMP_CONSTR_2026",
+    "program_name": "Architectural Engineering - Construction Engineering and Project Management Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "9.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 6,
+    "department_id": 12,
+    "program_code": "ARCH_EMP_ENVBLDG_2026",
+    "program_name": "Architectural Engineering - Environmental Systems for Buildings Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "9.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 7,
+    "department_id": 12,
+    "program_code": "ARCH_EMP_MATERIALS_2026",
+    "program_name": "Architectural Engineering - Construction Materials Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "9.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 8,
+    "department_id": 1,
+    "program_code": "ART_MINOR_2026",
+    "program_name": "Art Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 9,
+    "department_id": 1,
+    "program_code": "FILM_LIT_MINOR_2026",
+    "program_name": "Film and Literature Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "12.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 10,
+    "department_id": 1,
+    "program_code": "STUDIO_ART_MINOR_2026",
+    "program_name": "Studio Art Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 11,
+    "department_id": 3,
+    "program_code": "BIOCHEM_BS_2026",
+    "program_name": "Bachelor of Science in Biochemistry",
+    "program_type": "MAJOR",
+    "total_credit_hours": "120.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 12,
+    "department_id": 2,
+    "program_code": "BIOINFO_MINOR_2026",
+    "program_name": "Bioinformatics Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "30.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 13,
+    "department_id": 2,
+    "program_code": "BIOSCI_BA_2026",
+    "program_name": "Bachelor of Arts in Biological Sciences",
+    "program_type": "MAJOR",
+    "total_credit_hours": "120.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 14,
+    "department_id": 2,
+    "program_code": "BIOSCI_BS_2026",
+    "program_name": "Bachelor of Science in Biological Sciences",
+    "program_type": "MAJOR",
+    "total_credit_hours": "120.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 15,
+    "department_id": 2,
+    "program_code": "BIOSCI_PREMED_BA_2026",
+    "program_name": "Biological Sciences - Pre-Medicine Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": null,
+    "is_active": true
+  },
+  {
+    "academic_program_id": 16,
+    "department_id": 2,
+    "program_code": "BIOSCI_SECED_BA_2026",
+    "program_name": "Biological Sciences - Secondary Education Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": null,
+    "is_active": true
+  },
+  {
+    "academic_program_id": 17,
+    "department_id": 2,
+    "program_code": "BIOSCI_MLS_BS_2026",
+    "program_name": "Biological Sciences - Medical Laboratory Scientist Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": null,
+    "is_active": true
+  },
+  {
+    "academic_program_id": 18,
+    "department_id": 2,
+    "program_code": "BIOSCI_MINOR_2026",
+    "program_name": "Biological Sciences Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "20.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 19,
+    "department_id": 11,
+    "program_code": "BME_BS_2026",
+    "program_name": "Bachelor of Science in Biomedical Engineering",
+    "program_type": "MAJOR",
+    "total_credit_hours": "129.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 20,
+    "department_id": 11,
+    "program_code": "BME_BIOMAN_TRACK_2026",
+    "program_name": "Biomedical Engineering - Biomanufacturing Track",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": null,
+    "is_active": true
+  },
+  {
+    "academic_program_id": 21,
+    "department_id": 11,
+    "program_code": "BME_BIOMAT_TRACK_2026",
+    "program_name": "Biomedical Engineering - Biomaterials Track",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": null,
+    "is_active": true
+  },
+  {
+    "academic_program_id": 22,
+    "department_id": 20,
+    "program_code": "BMS_BS_2026",
+    "program_name": "Bachelor of Science in Business and Management Systems",
+    "program_type": "MAJOR",
+    "total_credit_hours": "120.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 23,
+    "department_id": 20,
+    "program_code": "BMS_MIL_EMPH_2026",
+    "program_name": "Business and Management Systems - Military Science and Leadership Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": null,
+    "is_active": true
+  },
+  {
+    "academic_program_id": 24,
+    "department_id": 20,
+    "program_code": "BMS_SECED_EMPH_2026",
+    "program_name": "Business and Management Systems - Secondary Education Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": null,
+    "is_active": true
+  },
+  {
+    "academic_program_id": 37,
+    "department_id": 16,
+    "program_code": "CER_BS_2026",
+    "program_name": "Bachelor of Science in Ceramic Engineering",
+    "program_type": "MAJOR",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 38,
+    "department_id": 16,
+    "program_code": "CER_BIOMAT_EMPH_2026",
+    "program_name": "Ceramic Engineering - Biomaterials Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": null,
+    "is_active": true
+  },
+  {
+    "academic_program_id": 39,
+    "department_id": 16,
+    "program_code": "CER_COMP_MSE_EMPH_2026",
+    "program_name": "Ceramic Engineering - Computational Materials Science and Engineering Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": null,
+    "is_active": true
+  },
+  {
+    "academic_program_id": 40,
+    "department_id": 16,
+    "program_code": "CER_ENERGY_EMPH_2026",
+    "program_name": "Ceramic Engineering - Energy Materials Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": null,
+    "is_active": true
+  },
+  {
+    "academic_program_id": 41,
+    "department_id": 16,
+    "program_code": "CER_FUNCTIONAL_EMPH_2026",
+    "program_name": "Ceramic Engineering - Functional Materials Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": null,
+    "is_active": true
+  },
+  {
+    "academic_program_id": 42,
+    "department_id": 16,
+    "program_code": "CER_CHAR_EMPH_2026",
+    "program_name": "Ceramic Engineering - Materials Characterization and Analysis Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": null,
+    "is_active": true
+  },
+  {
+    "academic_program_id": 43,
+    "department_id": 16,
+    "program_code": "CER_EXTREME_EMPH_2026",
+    "program_name": "Ceramic Engineering - Materials for Extreme Environments Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": null,
+    "is_active": true
+  },
+  {
+    "academic_program_id": 44,
+    "department_id": 11,
+    "program_code": "CHEMENG_BS_2026",
+    "program_name": "Bachelor of Science in Chemical Engineering",
+    "program_type": "MAJOR",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 45,
+    "department_id": 11,
+    "program_code": "CHEMENG_BIOCHEM_EMPH_2026",
+    "program_name": "Chemical Engineering - Biochemical Engineering Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "130.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 46,
+    "department_id": 3,
+    "program_code": "CHEM_BA_2026",
+    "program_name": "Bachelor of Arts in Chemistry",
+    "program_type": "MAJOR",
+    "total_credit_hours": "120.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 47,
+    "department_id": 3,
+    "program_code": "CHEM_SECED_BA_EMPH_2026",
+    "program_name": "Chemistry - Secondary Education Emphasis (BA)",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "121.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 48,
+    "department_id": 3,
+    "program_code": "CHEM_BS_2026",
+    "program_name": "Bachelor of Science in Chemistry",
+    "program_type": "MAJOR",
+    "total_credit_hours": "120.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 49,
+    "department_id": 3,
+    "program_code": "CHEM_BIOCHEM_BS_EMPH_2026",
+    "program_name": "Chemistry - Biochemistry Emphasis (BS)",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "120.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 50,
+    "department_id": 3,
+    "program_code": "CHEM_POLYMER_BS_EMPH_2026",
+    "program_name": "Chemistry - Polymer & Coatings Science Emphasis (BS)",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "120.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 51,
+    "department_id": 3,
+    "program_code": "CHEM_PREMED_BS_EMPH_2026",
+    "program_name": "Chemistry - Pre-Medicine Emphasis (BS)",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "120.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 52,
+    "department_id": 3,
+    "program_code": "CHEM_MINOR_2026",
+    "program_name": "Chemistry Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "18.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 53,
+    "department_id": 12,
+    "program_code": "CIVENG_BS_2026",
+    "program_name": "Bachelor of Science in Civil Engineering",
+    "program_type": "MAJOR",
+    "total_credit_hours": "130.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 54,
+    "department_id": 12,
+    "program_code": "CONSTR_ENG_MGMT_MINOR_2026",
+    "program_name": "Construction Engineering & Management Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 55,
+    "department_id": 14,
+    "program_code": "COMPENG_BS_2026",
+    "program_name": "Bachelor of Science in Computer Engineering",
+    "program_type": "MAJOR",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 56,
+    "department_id": 14,
+    "program_code": "COMPENG_CI_EMPH_2026",
+    "program_name": "Computer Engineering - Computational Intelligence Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 57,
+    "department_id": 14,
+    "program_code": "COMPENG_CHIPS_EMPH_2026",
+    "program_name": "Computer Engineering - Computer Chips and Semiconductor Engineering Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 58,
+    "department_id": 14,
+    "program_code": "COMPENG_ECSD_EMPH_2026",
+    "program_name": "Computer Engineering - Electronic Computer System Design Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 59,
+    "department_id": 14,
+    "program_code": "COMPENG_NETWORKS_EMPH_2026",
+    "program_name": "Computer Engineering - Networks and Cyber Physical Systems Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 60,
+    "department_id": 14,
+    "program_code": "COMPENG_MINOR_2026",
+    "program_name": "Computer Engineering Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "18.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 61,
+    "department_id": 13,
+    "program_code": "COMPSCI_BS_2026",
+    "program_name": "Bachelor of Science in Computer Science",
+    "program_type": "MAJOR",
+    "total_credit_hours": "127.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 62,
+    "department_id": 13,
+    "program_code": "COMPSCI_AI_EMPH_2026",
+    "program_name": "Computer Science - Artificial Intelligence Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "127.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 63,
+    "department_id": 13,
+    "program_code": "COMPSCI_CYBER_EMPH_2026",
+    "program_name": "Computer Science - Cybersecurity Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "127.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 64,
+    "department_id": 13,
+    "program_code": "COMPSCI_MINOR_2026",
+    "program_name": "Computer Science Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "20.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 65,
+    "department_id": 21,
+    "program_code": "ECON_BS_2026",
+    "program_name": "Bachelor of Science in Economics",
+    "program_type": "MAJOR",
+    "total_credit_hours": "120.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 66,
+    "department_id": 21,
+    "program_code": "ECON_DDA_EMPH_2026",
+    "program_name": "Economics - Decision Data Analytics Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "120.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 67,
+    "department_id": 21,
+    "program_code": "ECON_ENERGY_EMPH_2026",
+    "program_name": "Economics - Energy Economics Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "120.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 68,
+    "department_id": 21,
+    "program_code": "ECON_FINTECH_EMPH_2026",
+    "program_name": "Economics - Financial Economics and Technology Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "120.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 69,
+    "department_id": 21,
+    "program_code": "QUANT_ECON_MINOR_2026",
+    "program_name": "Quantitative Economics Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "17.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 70,
+    "department_id": 14,
+    "program_code": "EE_BS_2026",
+    "program_name": "Bachelor of Science in Electrical Engineering",
+    "program_type": "MAJOR",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 71,
+    "department_id": 14,
+    "program_code": "EE_CIRCUITS_EMPH_2026",
+    "program_name": "Electrical Engineering - Circuits and Electronics Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 72,
+    "department_id": 14,
+    "program_code": "EE_COMM_EMPH_2026",
+    "program_name": "Electrical Engineering - Communications and Signal Processing Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 73,
+    "department_id": 14,
+    "program_code": "EE_COMPENG_EMPH_2026",
+    "program_name": "Electrical Engineering - Computer Engineering Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 74,
+    "department_id": 14,
+    "program_code": "EE_CONTROLS_EMPH_2026",
+    "program_name": "Electrical Engineering - Controls and Systems Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 75,
+    "department_id": 14,
+    "program_code": "EE_EMAG_EMPH_2026",
+    "program_name": "Electrical Engineering - Electromagnetics Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 76,
+    "department_id": 14,
+    "program_code": "EE_OPTICS_EMPH_2026",
+    "program_name": "Electrical Engineering - Optics and Devices Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 77,
+    "department_id": 14,
+    "program_code": "EE_POWER_EMPH_2026",
+    "program_name": "Electrical Engineering - Power and Energy Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 78,
+    "department_id": 14,
+    "program_code": "EE_MINOR_2026",
+    "program_name": "Electrical Engineering Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "18.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 79,
+    "department_id": 14,
+    "program_code": "AUTOMATION_ENG_MINOR_2026",
+    "program_name": "Automation Engineering Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 80,
+    "department_id": 22,
+    "program_code": "ENGMGT_BS_2026",
+    "program_name": "Bachelor of Science in Engineering Management",
+    "program_type": "MAJOR",
+    "total_credit_hours": "121.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 81,
+    "department_id": 22,
+    "program_code": "ENGMGT_MOT_EMPH_2026",
+    "program_name": "Engineering Management - Management of Technology Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "121.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 82,
+    "department_id": 22,
+    "program_code": "ENGMGT_IE_EMPH_2026",
+    "program_name": "Engineering Management - Industrial Engineering Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "121.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 83,
+    "department_id": 22,
+    "program_code": "ENGMGT_ROTC_EMPH_2026",
+    "program_name": "Engineering Management - ROTC Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "121.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 84,
+    "department_id": 22,
+    "program_code": "ENGMGT_GENERAL_EMPH_2026",
+    "program_name": "Engineering Management - General Engineering Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "121.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 85,
+    "department_id": 22,
+    "program_code": "ENGMGT_MINOR_2026",
+    "program_name": "Engineering Management Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "14.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 86,
+    "department_id": 12,
+    "program_code": "ENVENG_BS_2026",
+    "program_name": "Bachelor of Science in Environmental Engineering",
+    "program_type": "MAJOR",
+    "total_credit_hours": "129.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 87,
+    "department_id": 6,
+    "program_code": "ENVSCI_BS_2026",
+    "program_name": "Bachelor of Science in Environmental Science",
+    "program_type": "MAJOR",
+    "total_credit_hours": "120.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 88,
+    "department_id": 6,
+    "program_code": "ENVSCI_SECED_EMPH_2026",
+    "program_name": "Environmental Science - Secondary Education Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "127.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 89,
+    "department_id": 18,
+    "program_code": "EXPENG_MINOR_2026",
+    "program_name": "Explosives Engineering Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 90,
+    "department_id": 1,
+    "program_code": "FRENCH_MINOR_2026",
+    "program_name": "French Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "18.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 91,
+    "department_id": 1,
+    "program_code": "GERMAN_MINOR_2026",
+    "program_name": "German Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "18.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 92,
+    "department_id": 1,
+    "program_code": "RUSSIAN_MINOR_2026",
+    "program_name": "Russian Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "18.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 93,
+    "department_id": 1,
+    "program_code": "SPANISH_MINOR_2026",
+    "program_name": "Spanish Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "18.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 94,
+    "department_id": 15,
+    "program_code": "GEOENG_BS_2026",
+    "program_name": "Bachelor of Science in Geological Engineering",
+    "program_type": "MAJOR",
+    "total_credit_hours": "124.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 95,
+    "department_id": 15,
+    "program_code": "GEOENG_MINOR_2026",
+    "program_name": "Geological Engineering Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 96,
+    "department_id": 15,
+    "program_code": "GEOLGEOPHYS_BS_2026",
+    "program_name": "Bachelor of Science in Geology and Geophysics",
+    "program_type": "MAJOR",
+    "total_credit_hours": "121.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 97,
+    "department_id": 15,
+    "program_code": "COMP_EARTH_SCI_MINOR_2026",
+    "program_name": "Computational Earth Sciences Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "18.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 98,
+    "department_id": 15,
+    "program_code": "GEOLOGY_MINOR_2026",
+    "program_name": "Geology Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "18.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 99,
+    "department_id": 7,
+    "program_code": "HISTORY_MINOR_2026",
+    "program_name": "History Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 100,
+    "department_id": 20,
+    "program_code": "IST_BS_2026",
+    "program_name": "Bachelor of Science in Information Science and Technology",
+    "program_type": "MAJOR",
+    "total_credit_hours": "120.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 25,
+    "department_id": 20,
+    "program_code": "AI_ML_BUS_MINOR_2026",
+    "program_name": "Artificial Intelligence and Machine Learning in Business Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 26,
+    "department_id": 20,
+    "program_code": "BUS_MINOR_2026",
+    "program_name": "Business Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 27,
+    "department_id": 20,
+    "program_code": "BUS_ANALYTICS_MINOR_2026",
+    "program_name": "Business Analytics and Data Science Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 28,
+    "department_id": 20,
+    "program_code": "CYBER_MGMT_MINOR_2026",
+    "program_name": "Cybersecurity Management and Information Assurance Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 29,
+    "department_id": 20,
+    "program_code": "DIGITAL_SC_MINOR_2026",
+    "program_name": "Digital Supply Chain Management Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 30,
+    "department_id": 20,
+    "program_code": "ERP_MINOR_2026",
+    "program_name": "Enterprise Resource Planning (ERP) Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 31,
+    "department_id": 20,
+    "program_code": "ENTRE_MINOR_2026",
+    "program_name": "Entrepreneurship Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 32,
+    "department_id": 20,
+    "program_code": "FINANCE_MINOR_2026",
+    "program_name": "Finance Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 33,
+    "department_id": 20,
+    "program_code": "FINTECH_MINOR_2026",
+    "program_name": "Financial Technology, Analytics and Transformation Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 34,
+    "department_id": 20,
+    "program_code": "IST_MINOR_2026",
+    "program_name": "Information Science and Technology Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 35,
+    "department_id": 20,
+    "program_code": "MGMT_MINOR_2026",
+    "program_name": "Management Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 36,
+    "department_id": 20,
+    "program_code": "MKT_MINOR_2026",
+    "program_name": "Marketing Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 113,
+    "department_id": 8,
+    "program_code": "MATH_BS_2026",
+    "program_name": "Bachelor of Science in Applied Mathematics",
+    "program_type": "MAJOR",
+    "total_credit_hours": "120.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 114,
+    "department_id": 8,
+    "program_code": "MATH_ACTUARIAL_EMPH_2026",
+    "program_name": "Applied Mathematics - Actuarial Science Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "120.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 115,
+    "department_id": 8,
+    "program_code": "MATH_COMPUTATIONAL_EMPH_2026",
+    "program_name": "Applied Mathematics - Computational Mathematics Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "120.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 116,
+    "department_id": 8,
+    "program_code": "MATH_SECED_EMPH_2026",
+    "program_name": "Applied Mathematics - Secondary Education Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "120.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 117,
+    "department_id": 8,
+    "program_code": "MATH_DATA_STATS_EMPH_2026",
+    "program_name": "Applied Mathematics - Data Science and Statistics Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "120.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 118,
+    "department_id": 8,
+    "program_code": "MATH_MINOR_2026",
+    "program_name": "Mathematics Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "12.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 119,
+    "department_id": 17,
+    "program_code": "MECHENG_BS_2026",
+    "program_name": "Bachelor of Science in Mechanical Engineering",
+    "program_type": "MAJOR",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 120,
+    "department_id": 17,
+    "program_code": "MECHENG_ENERGY_EMPH_2026",
+    "program_name": "Mechanical Engineering - Energy Conversion Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 121,
+    "department_id": 17,
+    "program_code": "MECHENG_MANUF_EMPH_2026",
+    "program_name": "Mechanical Engineering - Manufacturing Processes Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 122,
+    "department_id": 17,
+    "program_code": "MECHENG_DESIGN_EMPH_2026",
+    "program_name": "Mechanical Engineering - Mechanical Design and Analysis Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 123,
+    "department_id": 17,
+    "program_code": "MECHENG_SYSINT_EMPH_2026",
+    "program_name": "Mechanical Engineering - Systems Integration Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 124,
+    "department_id": 16,
+    "program_code": "METENG_BS_2026",
+    "program_name": "Bachelor of Science in Metallurgical Engineering",
+    "program_type": "MAJOR",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 125,
+    "department_id": 18,
+    "program_code": "MINENG_BS_2026",
+    "program_name": "Bachelor of Science in Mining Engineering",
+    "program_type": "MAJOR",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 126,
+    "department_id": 18,
+    "program_code": "MINENG_COAL_EMPH_2026",
+    "program_name": "Mining Engineering - Coal Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 127,
+    "department_id": 18,
+    "program_code": "MINENG_EXPLOSIVES_EMPH_2026",
+    "program_name": "Mining Engineering - Explosives Engineering Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 128,
+    "department_id": 18,
+    "program_code": "MINENG_ENV_EMPH_2026",
+    "program_name": "Mining Engineering - Mining and the Environment Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 129,
+    "department_id": 18,
+    "program_code": "MINENG_SAFETY_EMPH_2026",
+    "program_name": "Mining Engineering - Mining Health and Safety Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 130,
+    "department_id": 18,
+    "program_code": "MINENG_QUARRY_EMPH_2026",
+    "program_name": "Mining Engineering - Quarrying Engineering Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 131,
+    "department_id": 18,
+    "program_code": "MINENG_SUSTAIN_EMPH_2026",
+    "program_name": "Mining Engineering - Sustainable Development Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 132,
+    "department_id": 18,
+    "program_code": "MINENG_MINOR_2026",
+    "program_name": "Mining Engineering Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 133,
+    "department_id": 18,
+    "program_code": "MINPROC_MINOR_2026",
+    "program_name": "Mineral Processing Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 135,
+    "department_id": 1,
+    "program_code": "MUSIC_MINOR_2026",
+    "program_name": "Music Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 136,
+    "department_id": 19,
+    "program_code": "NUCENG_BS_2026",
+    "program_name": "Bachelor of Science in Nuclear Engineering",
+    "program_type": "MAJOR",
+    "total_credit_hours": "129.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 137,
+    "department_id": 19,
+    "program_code": "NUCENG_MINOR_2026",
+    "program_name": "Nuclear Engineering Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 138,
+    "department_id": 15,
+    "program_code": "PETENG_BS_2026",
+    "program_name": "Bachelor of Science in Petroleum Engineering",
+    "program_type": "MAJOR",
+    "total_credit_hours": "127.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 139,
+    "department_id": 15,
+    "program_code": "PETENG_MINOR_2026",
+    "program_name": "Petroleum Engineering Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 140,
+    "department_id": 1,
+    "program_code": "ETHICS_MINOR_2026",
+    "program_name": "Ethics Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 141,
+    "department_id": 1,
+    "program_code": "PHILOS_MINOR_2026",
+    "program_name": "Philosophy Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 142,
+    "department_id": 1,
+    "program_code": "PHILOS_TECH_MINOR_2026",
+    "program_name": "Philosophy of Technology Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 143,
+    "department_id": 9,
+    "program_code": "PHYSICS_BS_2026",
+    "program_name": "Bachelor of Science in Physics",
+    "program_type": "MAJOR",
+    "total_credit_hours": "120.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 144,
+    "department_id": 9,
+    "program_code": "PHYSICS_SECED_EMPH_2026",
+    "program_name": "Physics - Secondary Education Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": null,
+    "is_active": true
+  },
+  {
+    "academic_program_id": 145,
+    "department_id": 9,
+    "program_code": "PHYSICS_MINOR_2026",
+    "program_name": "Physics Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "23.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 146,
+    "department_id": 7,
+    "program_code": "POLSCI_MINOR_2026",
+    "program_name": "Political Science Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 147,
+    "department_id": 24,
+    "program_code": "PREMED_MINOR_2026",
+    "program_name": "Pre-Medicine Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "40.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 148,
+    "department_id": 10,
+    "program_code": "PSYCH_MINOR_2026",
+    "program_name": "Psychology Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 149,
+    "department_id": 10,
+    "program_code": "PSYCH_HUMAN_FACTORS_MINOR_2026",
+    "program_name": "Human Factors Psychology Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 150,
+    "department_id": 10,
+    "program_code": "PSYCH_IO_MINOR_2026",
+    "program_name": "Industrial/Organizational Psychology Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 151,
+    "department_id": 10,
+    "program_code": "PSYCH_HEALTHCARE_MINOR_2026",
+    "program_name": "Psychology for Health Care Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 152,
+    "department_id": 10,
+    "program_code": "PSYCH_LEADERSHIP_MINOR_2026",
+    "program_name": "Psychology of Leadership Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 153,
+    "department_id": 10,
+    "program_code": "PSYCH_COGNEURO_MINOR_2026",
+    "program_name": "Cognitive Neuroscience Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 134,
+    "department_id": 1,
+    "program_code": "MCD_MINOR_2026",
+    "program_name": "Multiculturalism and Diversity Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 155,
+    "department_id": 16,
+    "program_code": "SEMIENG_BS_2026",
+    "program_name": "Bachelor of Science in Semiconductor Engineering",
+    "program_type": "MAJOR",
+    "total_credit_hours": null,
+    "is_active": true
+  },
+  {
+    "academic_program_id": 156,
+    "department_id": 16,
+    "program_code": "SEMIENG_DEVICE_EMPH_2026",
+    "program_name": "Semiconductor Engineering - Semiconductor Device Engineering Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "127.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 157,
+    "department_id": 16,
+    "program_code": "SEMIENG_PROCESS_EMPH_2026",
+    "program_name": "Semiconductor Engineering - Semiconductor Process Engineering Emphasis",
+    "program_type": "EMPHASIS",
+    "total_credit_hours": "128.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 158,
+    "department_id": 5,
+    "program_code": "COMM_STUDIES_MINOR_2026",
+    "program_name": "Communication Studies Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 159,
+    "department_id": 5,
+    "program_code": "LEAD_COMM_MINOR_2026",
+    "program_name": "Leadership Communication Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
+  },
+  {
+    "academic_program_id": 160,
+    "department_id": 22,
+    "program_code": "SYSENG_MINOR_2026",
+    "program_name": "Systems Engineering Minor",
+    "program_type": "MINOR",
+    "total_credit_hours": "15.0",
+    "is_active": true
   }
 ]

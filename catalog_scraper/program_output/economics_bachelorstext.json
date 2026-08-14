@@ -1,0 +1,2220 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/economics/#bachelorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/economics/",
+        "fragment": "bachelorstext",
+        "page_slug": "economics",
+        "page_title": "Economics < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=bachelorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 2801,
+        "html_character_count": 18172,
+        "heading_count": 4,
+        "paragraph_count": 6,
+        "list_count": 1,
+        "table_count": 4,
+        "link_count": 66,
+        "superscript_count": 16,
+        "text_sha256": "f2c1bcafba3f79a18da79844fb3de4117de59d5c9d1272081c847cef9e016b06",
+        "html_sha256": "566f3641d0f2fb75dbe36994516fe52a24a68a01663ede5c6f67d8f8f07e766c"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Bachelor of Science Economics",
+            "id": null
+        },
+        {
+            "number": 2,
+            "level": "h4",
+            "text": "Decision Data Analytics Emphasis",
+            "id": null
+        },
+        {
+            "number": 3,
+            "level": "h4",
+            "text": "Energy Economics Emphasis",
+            "id": null
+        },
+        {
+            "number": 4,
+            "level": "h4",
+            "text": "Financial Economics and Technology Emphasis",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "ECON 1100",
+            "href": "/search/?P=ECON%201100",
+            "url": "https://catalog.mst.edu/search/?P=ECON%201100",
+            "resolved_course": "ECON 1100"
+        },
+        {
+            "number": 2,
+            "text": "ECON 1200",
+            "href": "/search/?P=ECON%201200",
+            "url": "https://catalog.mst.edu/search/?P=ECON%201200",
+            "resolved_course": "ECON 1200"
+        },
+        {
+            "number": 3,
+            "text": "ECON 2100",
+            "href": "/search/?P=ECON%202100",
+            "url": "https://catalog.mst.edu/search/?P=ECON%202100",
+            "resolved_course": "ECON 2100"
+        },
+        {
+            "number": 4,
+            "text": "ECON 2200",
+            "href": "/search/?P=ECON%202200",
+            "url": "https://catalog.mst.edu/search/?P=ECON%202200",
+            "resolved_course": "ECON 2200"
+        },
+        {
+            "number": 5,
+            "text": "ECON 3300",
+            "href": "/search/?P=ECON%203300",
+            "url": "https://catalog.mst.edu/search/?P=ECON%203300",
+            "resolved_course": "ECON 3300"
+        },
+        {
+            "number": 6,
+            "text": "ECON 3333",
+            "href": "/search/?P=ECON%203333",
+            "url": "https://catalog.mst.edu/search/?P=ECON%203333",
+            "resolved_course": "ECON 3333"
+        },
+        {
+            "number": 7,
+            "text": "ECON 5360",
+            "href": "/search/?P=ECON%205360",
+            "url": "https://catalog.mst.edu/search/?P=ECON%205360",
+            "resolved_course": "ECON 5360"
+        },
+        {
+            "number": 8,
+            "text": "BUS 1210",
+            "href": "/search/?P=BUS%201210",
+            "url": "https://catalog.mst.edu/search/?P=BUS%201210",
+            "resolved_course": "BUS 1210"
+        },
+        {
+            "number": 9,
+            "text": "ENG MGT 2110",
+            "href": "/search/?P=ENG%20MGT%202110",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%202110",
+            "resolved_course": "ENG MGT 2110"
+        },
+        {
+            "number": 10,
+            "text": "STAT 3111",
+            "href": "/search/?P=STAT%203111",
+            "url": "https://catalog.mst.edu/search/?P=STAT%203111",
+            "resolved_course": "STAT 3111"
+        },
+        {
+            "number": 11,
+            "text": "BIO SCI 1113",
+            "href": "/search/?P=BIO%20SCI%201113",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201113",
+            "resolved_course": "BIO SCI 1113"
+        },
+        {
+            "number": 12,
+            "text": "1173",
+            "href": "/search/?P=BIO%20SCI%201173",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201173",
+            "resolved_course": "BIO SCI 1173"
+        },
+        {
+            "number": 13,
+            "text": "1223",
+            "href": "/search/?P=BIO%20SCI%201223",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201223",
+            "resolved_course": "BIO SCI 1223"
+        },
+        {
+            "number": 14,
+            "text": "ECON 1200",
+            "href": "/search/?P=ECON%201200",
+            "url": "https://catalog.mst.edu/search/?P=ECON%201200",
+            "resolved_course": "ECON 1200"
+        },
+        {
+            "number": 15,
+            "text": "HISTORY 1200",
+            "href": "/search/?P=HISTORY%201200",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201200",
+            "resolved_course": "HISTORY 1200"
+        },
+        {
+            "number": 16,
+            "text": "1300",
+            "href": "/search/?P=HISTORY%201300",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201300",
+            "resolved_course": "HISTORY 1300"
+        },
+        {
+            "number": 17,
+            "text": "1310",
+            "href": "/search/?P=HISTORY%201310",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201310",
+            "resolved_course": "HISTORY 1310"
+        },
+        {
+            "number": 18,
+            "text": "ECON 1100",
+            "href": "/search/?P=ECON%201100",
+            "url": "https://catalog.mst.edu/search/?P=ECON%201100",
+            "resolved_course": "ECON 1100"
+        },
+        {
+            "number": 19,
+            "text": "IS&T 1551",
+            "href": "/search/?P=IS%26T%201551",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%201551",
+            "resolved_course": "IS&T 1551"
+        },
+        {
+            "number": 20,
+            "text": "1561",
+            "href": "/search/?P=IS%26T%201561",
+            "url": "https://catalog.mst.edu/search/?P=IS%26T%201561",
+            "resolved_course": "IS&T 1561"
+        },
+        {
+            "number": 21,
+            "text": "COMP SCI 1971",
+            "href": "/search/?P=COMP%20SCI%201971",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201971",
+            "resolved_course": "COMP SCI 1971"
+        },
+        {
+            "number": 22,
+            "text": "ENGLISH 1120",
+            "href": "/search/?P=ENGLISH%201120",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201120",
+            "resolved_course": "ENGLISH 1120"
+        },
+        {
+            "number": 23,
+            "text": "MATH 1212",
+            "href": "/search/?P=MATH%201212",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201212",
+            "resolved_course": "MATH 1212"
+        },
+        {
+            "number": 24,
+            "text": "MATH 1140",
+            "href": "/search/?P=MATH%201140",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201140",
+            "resolved_course": "MATH 1140"
+        },
+        {
+            "number": 25,
+            "text": "PSYCH 1101",
+            "href": "/search/?P=PSYCH%201101",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%201101",
+            "resolved_course": "PSYCH 1101"
+        },
+        {
+            "number": 26,
+            "text": "ECON 2100",
+            "href": "/search/?P=ECON%202100",
+            "url": "https://catalog.mst.edu/search/?P=ECON%202100",
+            "resolved_course": "ECON 2100"
+        },
+        {
+            "number": 27,
+            "text": "ART 1180",
+            "href": "/search/?P=ART%201180",
+            "url": "https://catalog.mst.edu/search/?P=ART%201180",
+            "resolved_course": "ART 1180"
+        },
+        {
+            "number": 28,
+            "text": "1185",
+            "href": "/search/?P=ART%201185",
+            "url": "https://catalog.mst.edu/search/?P=ART%201185",
+            "resolved_course": "ART 1185"
+        },
+        {
+            "number": 29,
+            "text": "MUSIC 1150",
+            "href": "/search/?P=MUSIC%201150",
+            "url": "https://catalog.mst.edu/search/?P=MUSIC%201150",
+            "resolved_course": "MUSIC 1150"
+        },
+        {
+            "number": 30,
+            "text": "THEATRE 1190",
+            "href": "/search/?P=THEATRE%201190",
+            "url": "https://catalog.mst.edu/search/?P=THEATRE%201190",
+            "resolved_course": "THEATRE 1190"
+        },
+        {
+            "number": 31,
+            "text": "ENGLISH 1211",
+            "href": "/search/?P=ENGLISH%201211",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201211",
+            "resolved_course": "ENGLISH 1211"
+        },
+        {
+            "number": 32,
+            "text": "1212",
+            "href": "/search/?P=ENGLISH%201212",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201212",
+            "resolved_course": "ENGLISH 1212"
+        },
+        {
+            "number": 33,
+            "text": "1231",
+            "href": "/search/?P=ENGLISH%201231",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201231",
+            "resolved_course": "ENGLISH 1231"
+        },
+        {
+            "number": 34,
+            "text": "1221",
+            "href": "/search/?P=ENGLISH%201221",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201221",
+            "resolved_course": "ENGLISH 1221"
+        },
+        {
+            "number": 35,
+            "text": "1222",
+            "href": "/search/?P=ENGLISH%201222",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201222",
+            "resolved_course": "ENGLISH 1222"
+        },
+        {
+            "number": 36,
+            "text": "2230",
+            "href": "/search/?P=ENGLISH%202230",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%202230",
+            "resolved_course": "ENGLISH 2230"
+        },
+        {
+            "number": 37,
+            "text": "BUS 1210",
+            "href": "/search/?P=BUS%201210",
+            "url": "https://catalog.mst.edu/search/?P=BUS%201210",
+            "resolved_course": "BUS 1210"
+        },
+        {
+            "number": 38,
+            "text": "SP&M S 1185",
+            "href": "/search/?P=SP%26M%20S%201185",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%201185",
+            "resolved_course": "SP&M S 1185"
+        },
+        {
+            "number": 39,
+            "text": "ECON 2200",
+            "href": "/search/?P=ECON%202200",
+            "url": "https://catalog.mst.edu/search/?P=ECON%202200",
+            "resolved_course": "ECON 2200"
+        },
+        {
+            "number": 40,
+            "text": "STAT 3111",
+            "href": "/search/?P=STAT%203111",
+            "url": "https://catalog.mst.edu/search/?P=STAT%203111",
+            "resolved_course": "STAT 3111"
+        },
+        {
+            "number": 41,
+            "text": "ECON 3300",
+            "href": "/search/?P=ECON%203300",
+            "url": "https://catalog.mst.edu/search/?P=ECON%203300",
+            "resolved_course": "ECON 3300"
+        },
+        {
+            "number": 42,
+            "text": "ECON 3333",
+            "href": "/search/?P=ECON%203333",
+            "url": "https://catalog.mst.edu/search/?P=ECON%203333",
+            "resolved_course": "ECON 3333"
+        },
+        {
+            "number": 43,
+            "text": "ENGLISH 1600",
+            "href": "/search/?P=ENGLISH%201600",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201600",
+            "resolved_course": "ENGLISH 1600"
+        },
+        {
+            "number": 44,
+            "text": "ENG MGT 2110",
+            "href": "/search/?P=ENG%20MGT%202110",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%202110",
+            "resolved_course": "ENG MGT 2110"
+        },
+        {
+            "number": 45,
+            "text": "POL SCI 1200",
+            "href": "/search/?P=POL%20SCI%201200",
+            "url": "https://catalog.mst.edu/search/?P=POL%20SCI%201200",
+            "resolved_course": "POL SCI 1200"
+        },
+        {
+            "number": 46,
+            "text": "ECON 5360",
+            "href": "/search/?P=ECON%205360",
+            "url": "https://catalog.mst.edu/search/?P=ECON%205360",
+            "resolved_course": "ECON 5360"
+        },
+        {
+            "number": 47,
+            "text": "ECON 1100",
+            "href": "/search/?P=ECON%201100",
+            "url": "https://catalog.mst.edu/search/?P=ECON%201100",
+            "resolved_course": "ECON 1100"
+        },
+        {
+            "number": 48,
+            "text": "ECON 1200",
+            "href": "/search/?P=ECON%201200",
+            "url": "https://catalog.mst.edu/search/?P=ECON%201200",
+            "resolved_course": "ECON 1200"
+        },
+        {
+            "number": 49,
+            "text": "ECON 2100",
+            "href": "/search/?P=ECON%202100",
+            "url": "https://catalog.mst.edu/search/?P=ECON%202100",
+            "resolved_course": "ECON 2100"
+        },
+        {
+            "number": 50,
+            "text": "ECON 2200",
+            "href": "/search/?P=ECON%202200",
+            "url": "https://catalog.mst.edu/search/?P=ECON%202200",
+            "resolved_course": "ECON 2200"
+        },
+        {
+            "number": 51,
+            "text": "ECON 3300",
+            "href": "/search/?P=ECON%203300",
+            "url": "https://catalog.mst.edu/search/?P=ECON%203300",
+            "resolved_course": "ECON 3300"
+        },
+        {
+            "number": 52,
+            "text": "ECON 3333",
+            "href": "/search/?P=ECON%203333",
+            "url": "https://catalog.mst.edu/search/?P=ECON%203333",
+            "resolved_course": "ECON 3333"
+        },
+        {
+            "number": 53,
+            "text": "ECON 5360",
+            "href": "/search/?P=ECON%205360",
+            "url": "https://catalog.mst.edu/search/?P=ECON%205360",
+            "resolved_course": "ECON 5360"
+        },
+        {
+            "number": 54,
+            "text": "COMP SCI 1971",
+            "href": "/search/?P=COMP%20SCI%201971",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201971",
+            "resolved_course": "COMP SCI 1971"
+        },
+        {
+            "number": 55,
+            "text": "COMP SCI 1981",
+            "href": "/search/?P=COMP%20SCI%201981",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201981",
+            "resolved_course": "COMP SCI 1981"
+        },
+        {
+            "number": 56,
+            "text": "ECON 5360",
+            "href": "/search/?P=ECON%205360",
+            "url": "https://catalog.mst.edu/search/?P=ECON%205360",
+            "resolved_course": "ECON 5360"
+        },
+        {
+            "number": 57,
+            "text": "ECON 5380",
+            "href": "/search/?P=ECON%205380",
+            "url": "https://catalog.mst.edu/search/?P=ECON%205380",
+            "resolved_course": "ECON 5380"
+        },
+        {
+            "number": 58,
+            "text": "ECON 4440",
+            "href": "/search/?P=ECON%204440",
+            "url": "https://catalog.mst.edu/search/?P=ECON%204440",
+            "resolved_course": "ECON 4440"
+        },
+        {
+            "number": 59,
+            "text": "ECON 4540",
+            "href": "/search/?P=ECON%204540",
+            "url": "https://catalog.mst.edu/search/?P=ECON%204540",
+            "resolved_course": "ECON 4540"
+        },
+        {
+            "number": 60,
+            "text": "ECON 3512",
+            "href": "/search/?P=ECON%203512",
+            "url": "https://catalog.mst.edu/search/?P=ECON%203512",
+            "resolved_course": "ECON 3512"
+        },
+        {
+            "number": 61,
+            "text": "ECON 5532",
+            "href": "/search/?P=ECON%205532",
+            "url": "https://catalog.mst.edu/search/?P=ECON%205532",
+            "resolved_course": "ECON 5532"
+        },
+        {
+            "number": 62,
+            "text": "CIV ENG 5642",
+            "href": "/search/?P=CIV%20ENG%205642",
+            "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%205642",
+            "resolved_course": "CIV ENG 5642"
+        },
+        {
+            "number": 63,
+            "text": "ENG MGT 5513",
+            "href": "/search/?P=ENG%20MGT%205513",
+            "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205513",
+            "resolved_course": "ENG MGT 5513"
+        },
+        {
+            "number": 64,
+            "text": "ECON 4383",
+            "href": "/search/?P=ECON%204383",
+            "url": "https://catalog.mst.edu/search/?P=ECON%204383",
+            "resolved_course": "ECON 4383"
+        },
+        {
+            "number": 65,
+            "text": "ECON 5337",
+            "href": "/search/?P=ECON%205337",
+            "url": "https://catalog.mst.edu/search/?P=ECON%205337",
+            "resolved_course": "ECON 5337"
+        },
+        {
+            "number": 66,
+            "text": "ECON 5360",
+            "href": "/search/?P=ECON%205360",
+            "url": "https://catalog.mst.edu/search/?P=ECON%205360",
+            "resolved_course": "ECON 5360"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "Freshman Year First Semester Credits Second Semester Credits BIO SCI 1113 , or 1173 , or 1223 3 ECON 1200 2 3 Lab w/Living or Physical Science Course 1 HISTORY 1200 , or 1300 , or 1310 3 ECON 1100 2 3 IS&T 1551 , or 1561 , or COMP SCI 1971 3 3 ENGLISH 1120 3 MATH 1212 4 MATH 1140 3 PSYCH 1101 3 13 16 Sophomore Year First Semester Credits Second Semester Credits ECON 2100 2 3 ART 1180 , or 1185 , or MUSIC 1150 , or THEATRE 1190 3 ENGLISH 1211 , or 1212 , or 1231 , or 1221 , or 1222 , or 2230 3 BUS 1210 3 Free Elective 3 Chemistry, Geology, or Physics 3 SP&M S 1185 3 ECON 2200 2 3 STAT 3111 3 Free Electives 3 15 15 Junior Year First Semester Credits Second Semester Credits ECON 3300 2 3 ECON 3333 2 3 Economics Elective 4 3 Economics Electives 4 3 ENGLISH 1600 3 Free Elective 6 ENG MGT 2110 3 Gen Ed. Elective 1 3 POL SCI 1200 3 15 15 Senior Year First Semester Credits Second Semester Credits ECON 5360 2 3 Economics Elective 4 3 Free Electives 12 Free Electives 13 15 16 Total Credits: 120",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Freshman Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "BIO SCI 1113 , or 1173 , or 1223",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BIO SCI 1113",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201113",
+                                    "resolved_course": "BIO SCI 1113"
+                                },
+                                {
+                                    "text": "1173",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201173",
+                                    "resolved_course": "BIO SCI 1173"
+                                },
+                                {
+                                    "text": "1223",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201223",
+                                    "resolved_course": "BIO SCI 1223"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "ECON 1200 2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 1200",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%201200",
+                                    "resolved_course": "ECON 1200"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Lab w/Living or Physical Science Course",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "HISTORY 1200 , or 1300 , or 1310",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "HISTORY 1200",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201200",
+                                    "resolved_course": "HISTORY 1200"
+                                },
+                                {
+                                    "text": "1300",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201300",
+                                    "resolved_course": "HISTORY 1300"
+                                },
+                                {
+                                    "text": "1310",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201310",
+                                    "resolved_course": "HISTORY 1310"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 1100 2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 1100",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%201100",
+                                    "resolved_course": "ECON 1100"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "IS&T 1551 , or 1561 , or COMP SCI 1971 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "IS&T 1551",
+                                    "url": "https://catalog.mst.edu/search/?P=IS%26T%201551",
+                                    "resolved_course": "IS&T 1551"
+                                },
+                                {
+                                    "text": "1561",
+                                    "url": "https://catalog.mst.edu/search/?P=IS%26T%201561",
+                                    "resolved_course": "IS&T 1561"
+                                },
+                                {
+                                    "text": "COMP SCI 1971",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201971",
+                                    "resolved_course": "COMP SCI 1971"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENGLISH 1120",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENGLISH 1120",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%201120",
+                                    "resolved_course": "ENGLISH 1120"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MATH 1212",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 1212",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201212",
+                                    "resolved_course": "MATH 1212"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MATH 1140",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 1140",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201140",
+                                    "resolved_course": "MATH 1140"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "PSYCH 1101",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 1101",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%201101",
+                                    "resolved_course": "PSYCH 1101"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "13",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "16",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Sophomore Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 10,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 11,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 2100 2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 2100",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%202100",
+                                    "resolved_course": "ECON 2100"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "ART 1180 , or 1185 , or MUSIC 1150 , or THEATRE 1190",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ART 1180",
+                                    "url": "https://catalog.mst.edu/search/?P=ART%201180",
+                                    "resolved_course": "ART 1180"
+                                },
+                                {
+                                    "text": "1185",
+                                    "url": "https://catalog.mst.edu/search/?P=ART%201185",
+                                    "resolved_course": "ART 1185"
+                                },
+                                {
+                                    "text": "MUSIC 1150",
+                                    "url": "https://catalog.mst.edu/search/?P=MUSIC%201150",
+                                    "resolved_course": "MUSIC 1150"
+                                },
+                                {
+                                    "text": "THEATRE 1190",
+                                    "url": "https://catalog.mst.edu/search/?P=THEATRE%201190",
+                                    "resolved_course": "THEATRE 1190"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 12,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENGLISH 1211 , or 1212 , or 1231 , or 1221 , or 1222 , or 2230",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENGLISH 1211",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%201211",
+                                    "resolved_course": "ENGLISH 1211"
+                                },
+                                {
+                                    "text": "1212",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%201212",
+                                    "resolved_course": "ENGLISH 1212"
+                                },
+                                {
+                                    "text": "1231",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%201231",
+                                    "resolved_course": "ENGLISH 1231"
+                                },
+                                {
+                                    "text": "1221",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%201221",
+                                    "resolved_course": "ENGLISH 1221"
+                                },
+                                {
+                                    "text": "1222",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%201222",
+                                    "resolved_course": "ENGLISH 1222"
+                                },
+                                {
+                                    "text": "2230",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%202230",
+                                    "resolved_course": "ENGLISH 2230"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "BUS 1210",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BUS 1210",
+                                    "url": "https://catalog.mst.edu/search/?P=BUS%201210",
+                                    "resolved_course": "BUS 1210"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 13,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Free Elective",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Chemistry, Geology, or Physics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 14,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 1185",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 1185",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%201185",
+                                    "resolved_course": "SP&M S 1185"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "ECON 2200 2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 2200",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%202200",
+                                    "resolved_course": "ECON 2200"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 15,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "STAT 3111",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "STAT 3111",
+                                    "url": "https://catalog.mst.edu/search/?P=STAT%203111",
+                                    "resolved_course": "STAT 3111"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Free Electives",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 16,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 17,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Junior Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 18,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 19,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 3300 2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 3300",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%203300",
+                                    "resolved_course": "ECON 3300"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "ECON 3333 2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 3333",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%203333",
+                                    "resolved_course": "ECON 3333"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 20,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Economics Elective 4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Economics Electives 4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 21,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENGLISH 1600",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENGLISH 1600",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%201600",
+                                    "resolved_course": "ENGLISH 1600"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Free Elective",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "6",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 22,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 2110",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 2110",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%202110",
+                                    "resolved_course": "ENG MGT 2110"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Gen Ed. Elective 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 23,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "POL SCI 1200",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "POL SCI 1200",
+                                    "url": "https://catalog.mst.edu/search/?P=POL%20SCI%201200",
+                                    "resolved_course": "POL SCI 1200"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 24,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 25,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Senior Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 26,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 27,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 5360 2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 5360",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%205360",
+                                    "resolved_course": "ECON 5360"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Economics Elective 4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 28,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Free Electives",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "12",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Free Electives",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "13",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 29,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "16",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 30,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Total Credits: 120",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_plangrid\"><tr class=\"plangridyear firstrow\"><th colspan=\"4\">Freshman Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201113\" onclick=\"return showCourse(this, 'BIO SCI 1113');\" title=\"BIO SCI 1113\">BIO SCI 1113</a>, or <a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201173\" onclick=\"return showCourse(this, 'BIO SCI 1173');\" title=\"BIO SCI 1173\"> 1173</a>, or <a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201223\" onclick=\"return showCourse(this, 'BIO SCI 1223');\" title=\"BIO SCI 1223\"> 1223</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%201200\" onclick=\"return showCourse(this, 'ECON 1200');\" title=\"ECON 1200\">ECON 1200</a><sup>2</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Lab w/Living or Physical Science Course</td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201200\" onclick=\"return showCourse(this, 'HISTORY 1200');\" title=\"HISTORY 1200\">HISTORY 1200</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201300\" onclick=\"return showCourse(this, 'HISTORY 1300');\" title=\"HISTORY 1300\"> 1300</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201310\" onclick=\"return showCourse(this, 'HISTORY 1310');\" title=\"HISTORY 1310\"> 1310</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%201100\" onclick=\"return showCourse(this, 'ECON 1100');\" title=\"ECON 1100\">ECON 1100</a><sup>2</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%201551\" onclick=\"return showCourse(this, 'IS&amp;T 1551');\" title=\"IS&amp;T 1551\">IS&amp;T 1551</a>, or <a class=\"bubblelink code\" href=\"/search/?P=IS%26T%201561\" onclick=\"return showCourse(this, 'IS&amp;T 1561');\" title=\"IS&amp;T 1561\"> 1561</a>, or <a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201971\" onclick=\"return showCourse(this, 'COMP SCI 1971');\" title=\"COMP SCI 1971\">COMP SCI  1971</a><sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201120\" onclick=\"return showCourse(this, 'ENGLISH 1120');\" title=\"ENGLISH 1120\">ENGLISH 1120</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201212\" onclick=\"return showCourse(this, 'MATH 1212');\" title=\"MATH 1212\">MATH 1212</a></td><td class=\"hourscol\">4</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201140\" onclick=\"return showCourse(this, 'MATH 1140');\" title=\"MATH 1140\">MATH 1140</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%201101\" onclick=\"return showCourse(this, 'PSYCH 1101');\" title=\"PSYCH 1101\">PSYCH 1101</a></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">13</td><td> </td><td class=\"hourscol\">16</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Sophomore Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%202100\" onclick=\"return showCourse(this, 'ECON 2100');\" title=\"ECON 2100\">ECON 2100</a><sup>2</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201180\" onclick=\"return showCourse(this, 'ART 1180');\" title=\"ART 1180\">ART 1180</a>, or <a class=\"bubblelink code\" href=\"/search/?P=ART%201185\" onclick=\"return showCourse(this, 'ART 1185');\" title=\"ART 1185\"> 1185</a>, or <a class=\"bubblelink code\" href=\"/search/?P=MUSIC%201150\" onclick=\"return showCourse(this, 'MUSIC 1150');\" title=\"MUSIC 1150\">MUSIC  1150</a>, or <a class=\"bubblelink code\" href=\"/search/?P=THEATRE%201190\" onclick=\"return showCourse(this, 'THEATRE 1190');\" title=\"THEATRE 1190\">THEATRE  1190</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201211\" onclick=\"return showCourse(this, 'ENGLISH 1211');\" title=\"ENGLISH 1211\">ENGLISH 1211</a>, or <a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201212\" onclick=\"return showCourse(this, 'ENGLISH 1212');\" title=\"ENGLISH 1212\"> 1212</a>, or <a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201231\" onclick=\"return showCourse(this, 'ENGLISH 1231');\" title=\"ENGLISH 1231\"> 1231</a>, or <a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201221\" onclick=\"return showCourse(this, 'ENGLISH 1221');\" title=\"ENGLISH 1221\"> 1221</a>, or <a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201222\" onclick=\"return showCourse(this, 'ENGLISH 1222');\" title=\"ENGLISH 1222\"> 1222</a>, or <a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%202230\" onclick=\"return showCourse(this, 'ENGLISH 2230');\" title=\"ENGLISH 2230\"> 2230</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BUS%201210\" onclick=\"return showCourse(this, 'BUS 1210');\" title=\"BUS 1210\">BUS 1210</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Free Elective</td><td class=\"hourscol\">3</td><td class=\"codecol\">Chemistry, Geology, or Physics</td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%201185\" onclick=\"return showCourse(this, 'SP&amp;M S 1185');\" title=\"SP&amp;M S 1185\">SP&amp;M S 1185</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%202200\" onclick=\"return showCourse(this, 'ECON 2200');\" title=\"ECON 2200\">ECON 2200</a><sup>2</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%203111\" onclick=\"return showCourse(this, 'STAT 3111');\" title=\"STAT 3111\">STAT 3111</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">Free Electives</td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Junior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%203300\" onclick=\"return showCourse(this, 'ECON 3300');\" title=\"ECON 3300\">ECON 3300</a><sup>2</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%203333\" onclick=\"return showCourse(this, 'ECON 3333');\" title=\"ECON 3333\">ECON 3333</a><sup>2</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Economics Elective<sup>4</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Economics Electives<sup>4</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201600\" onclick=\"return showCourse(this, 'ENGLISH 1600');\" title=\"ENGLISH 1600\">ENGLISH 1600</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">Free Elective</td><td class=\"hourscol\">6</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%202110\" onclick=\"return showCourse(this, 'ENG MGT 2110');\" title=\"ENG MGT 2110\">ENG MGT 2110</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">Gen Ed. Elective<sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%201200\" onclick=\"return showCourse(this, 'POL SCI 1200');\" title=\"POL SCI 1200\">POL SCI 1200</a></td><td class=\"hourscol\">3</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Senior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205360\" onclick=\"return showCourse(this, 'ECON 5360');\" title=\"ECON 5360\">ECON 5360</a><sup>2</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Economics Elective<sup>4</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Free Electives</td><td class=\"hourscol\">12</td><td class=\"codecol\">Free Electives</td><td class=\"hourscol\">13</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">16</td></tr><tr class=\"plangridtotal lastrow\"><td colspan=\"4\">Total Credits: 120</td></tr></table>"
+        },
+        {
+            "table_number": 2,
+            "text": "Junior and Senior Years ECON 5360 Data Driven Strategic Insights 3 ECON 5380 Data Intelligence using Case Studies 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Junior and Senior Years",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 5360",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 5360",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%205360",
+                                    "resolved_course": "ECON 5360"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Data Driven Strategic Insights",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 5380",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 5380",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%205380",
+                                    "resolved_course": "ECON 5380"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Data Intelligence using Case Studies",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td colspan=\"2\"><span class=\"courselistcomment\">Junior and Senior Years</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205360\" onclick=\"return showCourse(this, 'ECON 5360');\" title=\"ECON 5360\">ECON 5360</a></td><td>Data Driven Strategic Insights</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205380\" onclick=\"return showCourse(this, 'ECON 5380');\" title=\"ECON 5380\">ECON 5380</a></td><td>Data Intelligence using Case Studies</td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        },
+        {
+            "table_number": 3,
+            "text": "Junior and Senior Years ECON 4440 Environmental And Natural Resource Economics 3 ECON 4540 Energy Economics 3 Choose one of the following courses: ECON 3512 Mining Industry Economics 3 ECON 5532 Advanced Mining Economics 3 Choose one of the following courses: CIV ENG 5642 Sustainability, Population, Energy, Water, and Materials 3 ENG MGT 5513 Energy and Sustainability Management Engineering 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Junior and Senior Years",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 4440",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 4440",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%204440",
+                                    "resolved_course": "ECON 4440"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Environmental And Natural Resource Economics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 4540",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 4540",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%204540",
+                                    "resolved_course": "ECON 4540"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Energy Economics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Choose one of the following courses:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 3512",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 3512",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%203512",
+                                    "resolved_course": "ECON 3512"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Mining Industry Economics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 5532",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 5532",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%205532",
+                                    "resolved_course": "ECON 5532"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Advanced Mining Economics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Choose one of the following courses:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CIV ENG 5642",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CIV ENG 5642",
+                                    "url": "https://catalog.mst.edu/search/?P=CIV%20ENG%205642",
+                                    "resolved_course": "CIV ENG 5642"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Sustainability, Population, Energy, Water, and Materials",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENG MGT 5513",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENG MGT 5513",
+                                    "url": "https://catalog.mst.edu/search/?P=ENG%20MGT%205513",
+                                    "resolved_course": "ENG MGT 5513"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Energy and Sustainability Management Engineering",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td colspan=\"2\"><span class=\"courselistcomment\">Junior and Senior Years</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%204440\" onclick=\"return showCourse(this, 'ECON 4440');\" title=\"ECON 4440\">ECON 4440</a></td><td>Environmental And Natural Resource Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%204540\" onclick=\"return showCourse(this, 'ECON 4540');\" title=\"ECON 4540\">ECON 4540</a></td><td>Energy Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">Choose one of the following courses:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%203512\" onclick=\"return showCourse(this, 'ECON 3512');\" title=\"ECON 3512\">ECON 3512</a></td><td>Mining Industry Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205532\" onclick=\"return showCourse(this, 'ECON 5532');\" title=\"ECON 5532\">ECON 5532</a></td><td>Advanced Mining Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td colspan=\"2\"><span class=\"courselistcomment\">Choose one of the following courses:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%205642\" onclick=\"return showCourse(this, 'CIV ENG 5642');\" title=\"CIV ENG 5642\">CIV ENG 5642</a></td><td>Sustainability, Population, Energy, Water, and Materials</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205513\" onclick=\"return showCourse(this, 'ENG MGT 5513');\" title=\"ENG MGT 5513\">ENG MGT 5513</a></td><td>Energy and Sustainability Management Engineering</td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        },
+        {
+            "table_number": 4,
+            "text": "Junior and Senior Years ECON 4383 Financial Economics 3 ECON 5337 Financial Mathematics 3 ECON 5360 Data Driven Strategic Insights 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Junior and Senior Years",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 4383",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 4383",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%204383",
+                                    "resolved_course": "ECON 4383"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Financial Economics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 5337",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 5337",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%205337",
+                                    "resolved_course": "ECON 5337"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Financial Mathematics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ECON 5360",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ECON 5360",
+                                    "url": "https://catalog.mst.edu/search/?P=ECON%205360",
+                                    "resolved_course": "ECON 5360"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Data Driven Strategic Insights",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td colspan=\"2\"><span class=\"courselistcomment\">Junior and Senior Years</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%204383\" onclick=\"return showCourse(this, 'ECON 4383');\" title=\"ECON 4383\">ECON 4383</a></td><td>Financial Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205337\" onclick=\"return showCourse(this, 'ECON 5337');\" title=\"ECON 5337\">ECON 5337</a></td><td>Financial Mathematics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205360\" onclick=\"return showCourse(this, 'ECON 5360');\" title=\"ECON 5360\">ECON 5360</a></td><td>Data Driven Strategic Insights</td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        }
+    ],
+    "section_text": "Bachelor of Science Economics In addition to the general university requirements for a bachelor of science degree and the required general education requirements, a student must complete: ECON 1100 , ECON 1200 , ECON 2100 , ECON 2200 , ECON 3300 , ECON 3333 , and ECON 5360 with a minimum grade of “C” in each. At least 9 additional hours of economics electives, at or above the 2000 level, with a minimum grade of “C” in each. BUS 1210 , ENG MGT 2110 , and STAT 3111 . Specific requirements for the Bachelor of Science degree are outlined in the sample program listed below. Note: no more than 25% of total credit hours may be taken in BUS, ERP, FINANCE, IS&T, or MKT course designations. Freshman Year First Semester Credits Second Semester Credits BIO SCI 1113 , or 1173 , or 1223 3 ECON 1200 2 3 Lab w/Living or Physical Science Course 1 HISTORY 1200 , or 1300 , or 1310 3 ECON 1100 2 3 IS&T 1551 , or 1561 , or COMP SCI 1971 3 3 ENGLISH 1120 3 MATH 1212 4 MATH 1140 3 PSYCH 1101 3 13 16 Sophomore Year First Semester Credits Second Semester Credits ECON 2100 2 3 ART 1180 , or 1185 , or MUSIC 1150 , or THEATRE 1190 3 ENGLISH 1211 , or 1212 , or 1231 , or 1221 , or 1222 , or 2230 3 BUS 1210 3 Free Elective 3 Chemistry, Geology, or Physics 3 SP&M S 1185 3 ECON 2200 2 3 STAT 3111 3 Free Electives 3 15 15 Junior Year First Semester Credits Second Semester Credits ECON 3300 2 3 ECON 3333 2 3 Economics Elective 4 3 Economics Electives 4 3 ENGLISH 1600 3 Free Elective 6 ENG MGT 2110 3 Gen Ed. Elective 1 3 POL SCI 1200 3 15 15 Senior Year First Semester Credits Second Semester Credits ECON 5360 2 3 Economics Elective 4 3 Free Electives 12 Free Electives 13 15 16 Total Credits: 120 1 Gen Ed electives must fulfill the Missouri S&T general education requirements as applicable to the students catalog year. 2 A Grade of \"C\" or better is required for ECON 1100 , ECON 1200 , ECON 2100 , ECON 2200 , ECON 3300 , ECON 3333 , and ECON 5360 . 3 COMP SCI 1971 must also include COMP SCI 1981 . 4 Must be 2000 level or higher, with a minimum grade of C. Decision Data Analytics Emphasis Junior and Senior Years ECON 5360 Data Driven Strategic Insights 3 ECON 5380 Data Intelligence using Case Studies 3 Energy Economics Emphasis Junior and Senior Years ECON 4440 Environmental And Natural Resource Economics 3 ECON 4540 Energy Economics 3 Choose one of the following courses: ECON 3512 Mining Industry Economics 3 ECON 5532 Advanced Mining Economics 3 Choose one of the following courses: CIV ENG 5642 Sustainability, Population, Energy, Water, and Materials 3 ENG MGT 5513 Energy and Sustainability Management Engineering 3 Financial Economics and Technology Emphasis Junior and Senior Years ECON 4383 Financial Economics 3 ECON 5337 Financial Mathematics 3 ECON 5360 Data Driven Strategic Insights 3",
+    "section_html": "<div class=\"tab_content\" id=\"bachelorstextcontainer\">\n<a name=\"bachelorstext\"></a><h2>Bachelor of Science<br/> Economics</h2> <p>In addition to the general university requirements for a bachelor of science degree and the required general education requirements, a student must complete:</p> <ol> <li><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%201100\" onclick=\"return showCourse(this, 'ECON 1100');\" title=\"ECON 1100\">ECON 1100</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%201200\" onclick=\"return showCourse(this, 'ECON 1200');\" title=\"ECON 1200\">ECON 1200</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%202100\" onclick=\"return showCourse(this, 'ECON 2100');\" title=\"ECON 2100\">ECON 2100</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%202200\" onclick=\"return showCourse(this, 'ECON 2200');\" title=\"ECON 2200\">ECON 2200</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%203300\" onclick=\"return showCourse(this, 'ECON 3300');\" title=\"ECON 3300\">ECON 3300</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%203333\" onclick=\"return showCourse(this, 'ECON 3333');\" title=\"ECON 3333\">ECON 3333</a></span>, and  <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205360\" onclick=\"return showCourse(this, 'ECON 5360');\" title=\"ECON 5360\">ECON 5360</a></span> with a minimum grade of “C” in each.</li> <li>At least 9 additional hours of economics electives, at or above the 2000 level, with a minimum grade of “C” in each.</li> <li><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=BUS%201210\" onclick=\"return showCourse(this, 'BUS 1210');\" title=\"BUS 1210\">BUS 1210</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%202110\" onclick=\"return showCourse(this, 'ENG MGT 2110');\" title=\"ENG MGT 2110\">ENG MGT 2110</a></span>, and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%203111\" onclick=\"return showCourse(this, 'STAT 3111');\" title=\"STAT 3111\">STAT 3111</a></span>.</li> </ol> <p>Specific requirements for the Bachelor of Science degree are outlined in the sample program listed below.<strong>  Note: </strong>no more than 25% of total credit hours may be taken in BUS, ERP, FINANCE, IS&amp;T, or MKT course designations.</p> <table class=\"sc_plangrid\"><tr class=\"plangridyear firstrow\"><th colspan=\"4\">Freshman Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201113\" onclick=\"return showCourse(this, 'BIO SCI 1113');\" title=\"BIO SCI 1113\">BIO SCI 1113</a>, or <a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201173\" onclick=\"return showCourse(this, 'BIO SCI 1173');\" title=\"BIO SCI 1173\"> 1173</a>, or <a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201223\" onclick=\"return showCourse(this, 'BIO SCI 1223');\" title=\"BIO SCI 1223\"> 1223</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%201200\" onclick=\"return showCourse(this, 'ECON 1200');\" title=\"ECON 1200\">ECON 1200</a><sup>2</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Lab w/Living or Physical Science Course</td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201200\" onclick=\"return showCourse(this, 'HISTORY 1200');\" title=\"HISTORY 1200\">HISTORY 1200</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201300\" onclick=\"return showCourse(this, 'HISTORY 1300');\" title=\"HISTORY 1300\"> 1300</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201310\" onclick=\"return showCourse(this, 'HISTORY 1310');\" title=\"HISTORY 1310\"> 1310</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%201100\" onclick=\"return showCourse(this, 'ECON 1100');\" title=\"ECON 1100\">ECON 1100</a><sup>2</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=IS%26T%201551\" onclick=\"return showCourse(this, 'IS&amp;T 1551');\" title=\"IS&amp;T 1551\">IS&amp;T 1551</a>, or <a class=\"bubblelink code\" href=\"/search/?P=IS%26T%201561\" onclick=\"return showCourse(this, 'IS&amp;T 1561');\" title=\"IS&amp;T 1561\"> 1561</a>, or <a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201971\" onclick=\"return showCourse(this, 'COMP SCI 1971');\" title=\"COMP SCI 1971\">COMP SCI  1971</a><sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201120\" onclick=\"return showCourse(this, 'ENGLISH 1120');\" title=\"ENGLISH 1120\">ENGLISH 1120</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201212\" onclick=\"return showCourse(this, 'MATH 1212');\" title=\"MATH 1212\">MATH 1212</a></td><td class=\"hourscol\">4</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201140\" onclick=\"return showCourse(this, 'MATH 1140');\" title=\"MATH 1140\">MATH 1140</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%201101\" onclick=\"return showCourse(this, 'PSYCH 1101');\" title=\"PSYCH 1101\">PSYCH 1101</a></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">13</td><td> </td><td class=\"hourscol\">16</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Sophomore Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%202100\" onclick=\"return showCourse(this, 'ECON 2100');\" title=\"ECON 2100\">ECON 2100</a><sup>2</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201180\" onclick=\"return showCourse(this, 'ART 1180');\" title=\"ART 1180\">ART 1180</a>, or <a class=\"bubblelink code\" href=\"/search/?P=ART%201185\" onclick=\"return showCourse(this, 'ART 1185');\" title=\"ART 1185\"> 1185</a>, or <a class=\"bubblelink code\" href=\"/search/?P=MUSIC%201150\" onclick=\"return showCourse(this, 'MUSIC 1150');\" title=\"MUSIC 1150\">MUSIC  1150</a>, or <a class=\"bubblelink code\" href=\"/search/?P=THEATRE%201190\" onclick=\"return showCourse(this, 'THEATRE 1190');\" title=\"THEATRE 1190\">THEATRE  1190</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201211\" onclick=\"return showCourse(this, 'ENGLISH 1211');\" title=\"ENGLISH 1211\">ENGLISH 1211</a>, or <a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201212\" onclick=\"return showCourse(this, 'ENGLISH 1212');\" title=\"ENGLISH 1212\"> 1212</a>, or <a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201231\" onclick=\"return showCourse(this, 'ENGLISH 1231');\" title=\"ENGLISH 1231\"> 1231</a>, or <a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201221\" onclick=\"return showCourse(this, 'ENGLISH 1221');\" title=\"ENGLISH 1221\"> 1221</a>, or <a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201222\" onclick=\"return showCourse(this, 'ENGLISH 1222');\" title=\"ENGLISH 1222\"> 1222</a>, or <a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%202230\" onclick=\"return showCourse(this, 'ENGLISH 2230');\" title=\"ENGLISH 2230\"> 2230</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BUS%201210\" onclick=\"return showCourse(this, 'BUS 1210');\" title=\"BUS 1210\">BUS 1210</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Free Elective</td><td class=\"hourscol\">3</td><td class=\"codecol\">Chemistry, Geology, or Physics</td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%201185\" onclick=\"return showCourse(this, 'SP&amp;M S 1185');\" title=\"SP&amp;M S 1185\">SP&amp;M S 1185</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%202200\" onclick=\"return showCourse(this, 'ECON 2200');\" title=\"ECON 2200\">ECON 2200</a><sup>2</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%203111\" onclick=\"return showCourse(this, 'STAT 3111');\" title=\"STAT 3111\">STAT 3111</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">Free Electives</td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Junior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%203300\" onclick=\"return showCourse(this, 'ECON 3300');\" title=\"ECON 3300\">ECON 3300</a><sup>2</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%203333\" onclick=\"return showCourse(this, 'ECON 3333');\" title=\"ECON 3333\">ECON 3333</a><sup>2</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Economics Elective<sup>4</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Economics Electives<sup>4</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201600\" onclick=\"return showCourse(this, 'ENGLISH 1600');\" title=\"ENGLISH 1600\">ENGLISH 1600</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">Free Elective</td><td class=\"hourscol\">6</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%202110\" onclick=\"return showCourse(this, 'ENG MGT 2110');\" title=\"ENG MGT 2110\">ENG MGT 2110</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">Gen Ed. Elective<sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%201200\" onclick=\"return showCourse(this, 'POL SCI 1200');\" title=\"POL SCI 1200\">POL SCI 1200</a></td><td class=\"hourscol\">3</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Senior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205360\" onclick=\"return showCourse(this, 'ECON 5360');\" title=\"ECON 5360\">ECON 5360</a><sup>2</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Economics Elective<sup>4</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Free Electives</td><td class=\"hourscol\">12</td><td class=\"codecol\">Free Electives</td><td class=\"hourscol\">13</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">16</td></tr><tr class=\"plangridtotal lastrow\"><td colspan=\"4\">Total Credits: 120</td></tr></table> <dl aria-label=\"Footnotes\" class=\"sc_footnotes\"><dt> <sup> 1 </sup> </dt><dd><p class=\"noindent\">Gen Ed electives must fulfill the Missouri S&amp;T general education requirements as applicable to the students catalog year.</p></dd><dt> <sup> 2 </sup> </dt><dd><p class=\"noindent\">A Grade of \"C\" or better is required for <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%201100\" onclick=\"return showCourse(this, 'ECON 1100');\" title=\"ECON 1100\">ECON 1100</a></span>,<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%201200\" onclick=\"return showCourse(this, 'ECON 1200');\" title=\"ECON 1200\">ECON 1200</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%202100\" onclick=\"return showCourse(this, 'ECON 2100');\" title=\"ECON 2100\">ECON 2100</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%202200\" onclick=\"return showCourse(this, 'ECON 2200');\" title=\"ECON 2200\">ECON 2200</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%203300\" onclick=\"return showCourse(this, 'ECON 3300');\" title=\"ECON 3300\">ECON 3300</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%203333\" onclick=\"return showCourse(this, 'ECON 3333');\" title=\"ECON 3333\">ECON 3333</a></span>, and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205360\" onclick=\"return showCourse(this, 'ECON 5360');\" title=\"ECON 5360\">ECON 5360</a></span>.</p></dd><dt> <sup> 3 </sup> </dt><dd><p class=\"noindent\"><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201971\" onclick=\"return showCourse(this, 'COMP SCI 1971');\" title=\"COMP SCI 1971\">COMP SCI 1971</a></span> must also include <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201981\" onclick=\"return showCourse(this, 'COMP SCI 1981');\" title=\"COMP SCI 1981\">COMP SCI 1981</a></span>.</p></dd><dt> <sup> 4 </sup> </dt><dd><p class=\"noindent\">Must be 2000 level or higher, with a minimum grade of C.</p></dd></dl> <h4>Decision Data Analytics Emphasis</h4> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td colspan=\"2\"><span class=\"courselistcomment\">Junior and Senior Years</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205360\" onclick=\"return showCourse(this, 'ECON 5360');\" title=\"ECON 5360\">ECON 5360</a></td><td>Data Driven Strategic Insights</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205380\" onclick=\"return showCourse(this, 'ECON 5380');\" title=\"ECON 5380\">ECON 5380</a></td><td>Data Intelligence using Case Studies</td><td class=\"hourscol\">3</td></tr> </tbody></table> <h4> Energy Economics Emphasis</h4> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td colspan=\"2\"><span class=\"courselistcomment\">Junior and Senior Years</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%204440\" onclick=\"return showCourse(this, 'ECON 4440');\" title=\"ECON 4440\">ECON 4440</a></td><td>Environmental And Natural Resource Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%204540\" onclick=\"return showCourse(this, 'ECON 4540');\" title=\"ECON 4540\">ECON 4540</a></td><td>Energy Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">Choose one of the following courses:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%203512\" onclick=\"return showCourse(this, 'ECON 3512');\" title=\"ECON 3512\">ECON 3512</a></td><td>Mining Industry Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205532\" onclick=\"return showCourse(this, 'ECON 5532');\" title=\"ECON 5532\">ECON 5532</a></td><td>Advanced Mining Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td colspan=\"2\"><span class=\"courselistcomment\">Choose one of the following courses:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CIV%20ENG%205642\" onclick=\"return showCourse(this, 'CIV ENG 5642');\" title=\"CIV ENG 5642\">CIV ENG 5642</a></td><td>Sustainability, Population, Energy, Water, and Materials</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENG%20MGT%205513\" onclick=\"return showCourse(this, 'ENG MGT 5513');\" title=\"ENG MGT 5513\">ENG MGT 5513</a></td><td>Energy and Sustainability Management Engineering</td><td class=\"hourscol\">3</td></tr> </tbody></table> <h4>Financial Economics and Technology Emphasis</h4> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td colspan=\"2\"><span class=\"courselistcomment\">Junior and Senior Years</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%204383\" onclick=\"return showCourse(this, 'ECON 4383');\" title=\"ECON 4383\">ECON 4383</a></td><td>Financial Economics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205337\" onclick=\"return showCourse(this, 'ECON 5337');\" title=\"ECON 5337\">ECON 5337</a></td><td>Financial Mathematics</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ECON%205360\" onclick=\"return showCourse(this, 'ECON 5360');\" title=\"ECON 5360\">ECON 5360</a></td><td>Data Driven Strategic Insights</td><td class=\"hourscol\">3</td></tr> </tbody></table>\n</div>"
+}

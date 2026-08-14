@@ -1,0 +1,246 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/electricalengineering/#minorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/electricalengineering/",
+        "fragment": "minorstext",
+        "page_slug": "electricalengineering",
+        "page_title": "Electrical Engineering < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 2109,
+        "html_character_count": 7593,
+        "heading_count": 2,
+        "paragraph_count": 4,
+        "list_count": 3,
+        "table_count": 0,
+        "link_count": 29,
+        "superscript_count": 0,
+        "text_sha256": "354e66dd6dcb2140c5f237d987b847696ef1c12c7d8694157d6e69974c8b94b5",
+        "html_sha256": "77cfe7462691e21e32b078a388e95587051c5d10822d3cf40084909156bbb278"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Minor in Electrical Engineering",
+            "id": null
+        },
+        {
+            "number": 2,
+            "level": "h2",
+            "text": "Minor in Automation Engineering",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "ELEC ENG 2100",
+            "href": "/search/?P=ELEC%20ENG%202100",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202100",
+            "resolved_course": "ELEC ENG 2100"
+        },
+        {
+            "number": 2,
+            "text": "ELEC ENG 2100",
+            "href": "/search/?P=ELEC%20ENG%202100",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202100",
+            "resolved_course": "ELEC ENG 2100"
+        },
+        {
+            "number": 3,
+            "text": "ELEC ENG 2120",
+            "href": "/search/?P=ELEC%20ENG%202120",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202120",
+            "resolved_course": "ELEC ENG 2120"
+        },
+        {
+            "number": 4,
+            "text": "ELEC ENG 4096",
+            "href": "/search/?P=ELEC%20ENG%204096",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%204096",
+            "resolved_course": "ELEC ENG 4096"
+        },
+        {
+            "number": 5,
+            "text": "ELEC ENG 4097",
+            "href": "/search/?P=ELEC%20ENG%204097",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%204097",
+            "resolved_course": "ELEC ENG 4097"
+        },
+        {
+            "number": 6,
+            "text": "ELEC ENG 4099",
+            "href": "/search/?P=ELEC%20ENG%204099",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%204099",
+            "resolved_course": "ELEC ENG 4099"
+        },
+        {
+            "number": 7,
+            "text": "ELEC ENG 3000",
+            "href": "/search/?P=ELEC%20ENG%203000",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%203000",
+            "resolved_course": "ELEC ENG 3000"
+        },
+        {
+            "number": 8,
+            "text": "ELEC ENG 4000",
+            "href": "/search/?P=ELEC%20ENG%204000",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%204000",
+            "resolved_course": "ELEC ENG 4000"
+        },
+        {
+            "number": 9,
+            "text": "ELEC ENG 5000",
+            "href": "/search/?P=ELEC%20ENG%205000",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%205000",
+            "resolved_course": "ELEC ENG 5000"
+        },
+        {
+            "number": 10,
+            "text": "ELEC ENG 2100",
+            "href": "/search/?P=ELEC%20ENG%202100",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202100",
+            "resolved_course": "ELEC ENG 2100"
+        },
+        {
+            "number": 11,
+            "text": "ELEC ENG 2100",
+            "href": "/search/?P=ELEC%20ENG%202100",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202100",
+            "resolved_course": "ELEC ENG 2100"
+        },
+        {
+            "number": 12,
+            "text": "ELEC ENG 3340",
+            "href": "/search/?P=ELEC%20ENG%203340",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%203340",
+            "resolved_course": "ELEC ENG 3340"
+        },
+        {
+            "number": 13,
+            "text": "CHEM ENG 4110",
+            "href": "/search/?P=CHEM%20ENG%204110",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%20ENG%204110",
+            "resolved_course": "CHEM ENG 4110"
+        },
+        {
+            "number": 14,
+            "text": "ELEC ENG 3320",
+            "href": "/search/?P=ELEC%20ENG%203320",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%203320",
+            "resolved_course": "ELEC ENG 3320"
+        },
+        {
+            "number": 15,
+            "text": "MECH ENG 4479",
+            "href": "/search/?P=MECH%20ENG%204479",
+            "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%204479",
+            "resolved_course": "MECH ENG 4479"
+        },
+        {
+            "number": 16,
+            "text": "CHEM ENG 4241",
+            "href": "/search/?P=CHEM%20ENG%204241",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%20ENG%204241",
+            "resolved_course": "CHEM ENG 4241"
+        },
+        {
+            "number": 17,
+            "text": "CHEM ENG 4310",
+            "href": "/search/?P=CHEM%20ENG%204310",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%20ENG%204310",
+            "resolved_course": "CHEM ENG 4310"
+        },
+        {
+            "number": 18,
+            "text": "MECH ENG 5644",
+            "href": "/search/?P=MECH%20ENG%205644",
+            "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%205644",
+            "resolved_course": "MECH ENG 5644"
+        },
+        {
+            "number": 19,
+            "text": "CHEM ENG 5190",
+            "href": "/search/?P=CHEM%20ENG%205190",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%20ENG%205190",
+            "resolved_course": "CHEM ENG 5190"
+        },
+        {
+            "number": 20,
+            "text": "ELEC ENG 5350",
+            "href": "/search/?P=ELEC%20ENG%205350",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%205350",
+            "resolved_course": "ELEC ENG 5350"
+        },
+        {
+            "number": 21,
+            "text": "CHEM ENG 5355",
+            "href": "/search/?P=CHEM%20ENG%205355",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%20ENG%205355",
+            "resolved_course": "CHEM ENG 5355"
+        },
+        {
+            "number": 22,
+            "text": "ELEC ENG 5355",
+            "href": "/search/?P=ELEC%20ENG%205355",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%205355",
+            "resolved_course": "ELEC ENG 5355"
+        },
+        {
+            "number": 23,
+            "text": "ELEC ENG 4380",
+            "href": "/search/?P=ELEC%20ENG%204380",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%204380",
+            "resolved_course": "ELEC ENG 4380"
+        },
+        {
+            "number": 24,
+            "text": "ELEC ENG 5340",
+            "href": "/search/?P=ELEC%20ENG%205340",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%205340",
+            "resolved_course": "ELEC ENG 5340"
+        },
+        {
+            "number": 25,
+            "text": "ELEC ENG 5345",
+            "href": "/search/?P=ELEC%20ENG%205345",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%205345",
+            "resolved_course": "ELEC ENG 5345"
+        },
+        {
+            "number": 26,
+            "text": "ELEC ENG 5870",
+            "href": "/search/?P=ELEC%20ENG%205870",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%205870",
+            "resolved_course": "ELEC ENG 5870"
+        },
+        {
+            "number": 27,
+            "text": "MECH ENG 5478",
+            "href": "/search/?P=MECH%20ENG%205478",
+            "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%205478",
+            "resolved_course": "MECH ENG 5478"
+        },
+        {
+            "number": 28,
+            "text": "MECH ENG 5420",
+            "href": "/search/?P=MECH%20ENG%205420",
+            "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%205420",
+            "resolved_course": "MECH ENG 5420"
+        },
+        {
+            "number": 29,
+            "text": "MECH ENG 5449",
+            "href": "/search/?P=MECH%20ENG%205449",
+            "url": "https://catalog.mst.edu/search/?P=MECH%20ENG%205449",
+            "resolved_course": "MECH ENG 5449"
+        }
+    ],
+    "tables": [],
+    "section_text": "Minor in Electrical Engineering A minor in electrical engineering will require the following: Pass ELEC ENG 2100 with a \"C\" or better grade or pass the ELEC ENG 2100 final exam with a \"C\" grade or better. * Pass ELEC ENG 2120 with a \"C\" grade or better. Pass 12 additional hours of ELEC ENG coursework excluding ELEC ENG 28XX, 38XX, ELEC ENG 4096 , ELEC ENG 4097 , and ELEC ENG 4099 . At least 6 lecture hours at the 3XXX level and 3 lecture hours at the 4XXX level or above are required. A \"C\" grade or better is required for all 12 hours. No transfer courses and no more than 3 hours of ELEC ENG 3000 , ELEC ENG 4000 , or ELEC ENG 5000 may be used to meet the requirements. The course choice for the 12 additional hours are subject to the approval of the minor advisor. *One opportunity will be given to pass the ELEC ENG 2100 final exam if a student has prior circuit coursework or experience. Otherwise, the student must pass ELEC ENG 2100 with a \"C\" grade or better. Minor in Automation Engineering A minor in automation engineering will require the following: Pass ELEC ENG 3340 Basic Programmable Logic Controllers with a grade of \"C\" or better Pass one of the following courses with a grade of \"C\" or better: CHEM ENG 4110 Chemical Engineering Process Dynamics And Control ELEC ENG 3320 Control Systems MECH ENG 4479 Automatic Control Of Dynamic Systems Pass 9 additional hours of coursework from the following list. A grade of \"C\" or better is required for all 9 hours. CHEM ENG 4241 Process Safety in the Chemical and Biochemical Industries CHEM ENG 4310 / MECH ENG 5644 Interdisciplinary Problems In Manufacturing Automation CHEM ENG 5190 / ELEC ENG 5350 Plantwide Process Control CHEM ENG 5355 / ELEC ENG 5355 Process Control System Safety, Security and Alarms ELEC ENG 4380 Practicum in Automation Engineering (no more than one can be applied to the Automation Engineering Minor) ELEC ENG 5340 Advanced PLC ELEC ENG 5345 PLC Motion Control ELEC ENG 5870 / MECH ENG 5478 Mechatronics MECH ENG 5420 Signal Processing for Instrumentation and Control MECH ENG 5449 Robotic Manipulators and Mechanisms",
+    "section_html": "<div class=\"tab_content\" id=\"minorstextcontainer\">\n<a name=\"minorstext\"></a><h2>Minor in Electrical Engineering</h2> <p>A minor in electrical engineering will require the following:</p> <p>Pass <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202100\" onclick=\"return showCourse(this, 'ELEC ENG 2100');\" title=\"ELEC ENG 2100\">ELEC ENG 2100</a></span> with a \"C\" or better grade or pass the <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202100\" onclick=\"return showCourse(this, 'ELEC ENG 2100');\" title=\"ELEC ENG 2100\">ELEC ENG 2100</a></span> final exam with a \"C\" grade or better. *<br/> Pass <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202120\" onclick=\"return showCourse(this, 'ELEC ENG 2120');\" title=\"ELEC ENG 2120\">ELEC ENG 2120</a></span> with a \"C\" grade or better.<br/> Pass 12 additional hours of ELEC ENG coursework excluding ELEC ENG 28XX, 38XX, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%204096\" onclick=\"return showCourse(this, 'ELEC ENG 4096');\" title=\"ELEC ENG 4096\">ELEC ENG 4096</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%204097\" onclick=\"return showCourse(this, 'ELEC ENG 4097');\" title=\"ELEC ENG 4097\">ELEC ENG 4097</a></span>, and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%204099\" onclick=\"return showCourse(this, 'ELEC ENG 4099');\" title=\"ELEC ENG 4099\">ELEC ENG 4099</a></span>. At least 6 lecture hours at the 3XXX level and 3 lecture hours at the 4XXX level or above are required. A \"C\" grade or better is required for all 12 hours. No transfer courses and no more than 3 hours of <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%203000\" onclick=\"return showCourse(this, 'ELEC ENG 3000');\" title=\"ELEC ENG 3000\">ELEC ENG 3000</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%204000\" onclick=\"return showCourse(this, 'ELEC ENG 4000');\" title=\"ELEC ENG 4000\">ELEC ENG 4000</a></span>, or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%205000\" onclick=\"return showCourse(this, 'ELEC ENG 5000');\" title=\"ELEC ENG 5000\">ELEC ENG 5000</a></span> may be used to meet the requirements. The course choice for the 12 additional hours are subject to the approval of the minor advisor.</p> <p>*One opportunity will be given to pass the <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202100\" onclick=\"return showCourse(this, 'ELEC ENG 2100');\" title=\"ELEC ENG 2100\">ELEC ENG 2100</a></span> final exam if a student has prior circuit coursework or experience. Otherwise, the student must pass <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202100\" onclick=\"return showCourse(this, 'ELEC ENG 2100');\" title=\"ELEC ENG 2100\">ELEC ENG 2100</a></span> with a \"C\" grade or better.</p>\n<h2>Minor in Automation Engineering</h2> <p>A minor in automation engineering will require the following:</p> <ul> <li>Pass <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%203340\" onclick=\"return showCourse(this, 'ELEC ENG 3340');\" title=\"ELEC ENG 3340\">ELEC ENG 3340</a> Basic Programmable Logic Controllers</span> with a grade of \"C\" or better</li> <li>Pass one of the following courses with a grade of \"C\" or better: \t<ul> <li><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%20ENG%204110\" onclick=\"return showCourse(this, 'CHEM ENG 4110');\" title=\"CHEM ENG 4110\">CHEM ENG 4110</a></span> Chemical Engineering Process Dynamics And Control</li> <li><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%203320\" onclick=\"return showCourse(this, 'ELEC ENG 3320');\" title=\"ELEC ENG 3320\">ELEC ENG 3320</a> Control Systems</span></li> <li><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%204479\" onclick=\"return showCourse(this, 'MECH ENG 4479');\" title=\"MECH ENG 4479\">MECH ENG 4479</a> Automatic Control Of Dynamic Systems</span></li> </ul> </li> <li>Pass 9 additional hours of coursework from the following list. A grade of \"C\" or better is required for all 9 hours. \t<ul> <li><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%20ENG%204241\" onclick=\"return showCourse(this, 'CHEM ENG 4241');\" title=\"CHEM ENG 4241\">CHEM ENG 4241</a> Process Safety in the Chemical and Biochemical Industries</span></li> <li><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%20ENG%204310\" onclick=\"return showCourse(this, 'CHEM ENG 4310');\" title=\"CHEM ENG 4310\">CHEM ENG 4310</a></span> / <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%205644\" onclick=\"return showCourse(this, 'MECH ENG 5644');\" title=\"MECH ENG 5644\">MECH ENG 5644</a></span> Interdisciplinary Problems In Manufacturing Automation</li> <li><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%20ENG%205190\" onclick=\"return showCourse(this, 'CHEM ENG 5190');\" title=\"CHEM ENG 5190\">CHEM ENG 5190</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%205350\" onclick=\"return showCourse(this, 'ELEC ENG 5350');\" title=\"ELEC ENG 5350\">ELEC ENG 5350</a> Plantwide Process Control</span></li> <li><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%20ENG%205355\" onclick=\"return showCourse(this, 'CHEM ENG 5355');\" title=\"CHEM ENG 5355\">CHEM ENG 5355</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%205355\" onclick=\"return showCourse(this, 'ELEC ENG 5355');\" title=\"ELEC ENG 5355\">ELEC ENG 5355</a> Process Control System Safety, Security and Alarms</span></li> <li><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%204380\" onclick=\"return showCourse(this, 'ELEC ENG 4380');\" title=\"ELEC ENG 4380\">ELEC ENG 4380</a></span> Practicum in Automation Engineering<span> (no more than one can be applied to the Automation Engineering Minor)</span></li> <li><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%205340\" onclick=\"return showCourse(this, 'ELEC ENG 5340');\" title=\"ELEC ENG 5340\">ELEC ENG 5340</a> Advanced PLC</span></li> <li><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%205345\" onclick=\"return showCourse(this, 'ELEC ENG 5345');\" title=\"ELEC ENG 5345\">ELEC ENG 5345</a> PLC Motion Control</span></li> <li><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%205870\" onclick=\"return showCourse(this, 'ELEC ENG 5870');\" title=\"ELEC ENG 5870\">ELEC ENG 5870</a></span>/<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%205478\" onclick=\"return showCourse(this, 'MECH ENG 5478');\" title=\"MECH ENG 5478\">MECH ENG 5478</a> Mechatronics</span></li> <li><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%205420\" onclick=\"return showCourse(this, 'MECH ENG 5420');\" title=\"MECH ENG 5420\">MECH ENG 5420</a> Signal Processing for Instrumentation and Control</span></li> <li><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MECH%20ENG%205449\" onclick=\"return showCourse(this, 'MECH ENG 5449');\" title=\"MECH ENG 5449\">MECH ENG 5449</a> Robotic Manipulators and Mechanisms</span></li> </ul> </li> </ul>\n</div>"
+}

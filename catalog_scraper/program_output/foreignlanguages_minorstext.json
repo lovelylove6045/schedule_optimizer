@@ -1,0 +1,54 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/foreignlanguages/#minorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/foreignlanguages/",
+        "fragment": "minorstext",
+        "page_slug": "foreignlanguages",
+        "page_title": "Foreign Languages < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 1083,
+        "html_character_count": 1230,
+        "heading_count": 4,
+        "paragraph_count": 4,
+        "list_count": 0,
+        "table_count": 0,
+        "link_count": 0,
+        "superscript_count": 0,
+        "text_sha256": "55e48a4a5cf8afab0fee0f3604d3d3ffa9d541160f562781b45e0edc9d7f8502",
+        "html_sha256": "ba598dc8976856e49666f13a72693be88103c1ea343b91777f6680a04fff663e"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "French Minor",
+            "id": null
+        },
+        {
+            "number": 2,
+            "level": "h2",
+            "text": "German Minor",
+            "id": null
+        },
+        {
+            "number": 3,
+            "level": "h2",
+            "text": "Russian Minor",
+            "id": null
+        },
+        {
+            "number": 4,
+            "level": "h2",
+            "text": "Spanish Minor",
+            "id": null
+        }
+    ],
+    "links": [],
+    "tables": [],
+    "section_text": "French Minor A French minor will consist of six hours beyond the 12 hours B.A. foreign language requirement selected in consultation with a faculty advisor. The additional six hours must be at or above the 3000-level, with at least one of the courses at the 4000-level. German Minor A German minor will consist of six hours beyond the 12 hours B.A. foreign language requirement selected in consultation with a faculty advisor. The additional six hours must be at or above the 3000-level, with at least one of the courses at the 4000-level. Russian Minor A Russian minor will consist of six hours beyond the 12 hours B.A. foreign language requirement selected in consultation with a faculty advisor. The additional six hours must be at or above the 3000-level, with at least one of the courses at the 4000-level. Spanish Minor A Spanish minor will consist of six hours beyond the 12 hours B.A. foreign language requirement selected in consultation with a faculty advisor. The additional six hours must be at or above the 3000-level, with at least one of the courses at the 4000-level.",
+    "section_html": "<div class=\"tab_content\" id=\"minorstextcontainer\">\n<a name=\"minorstext\"></a><h2>French Minor</h2> <p>A French minor will consist of six hours beyond the 12 hours B.A. foreign language requirement selected in consultation with a faculty advisor. The additional six hours must be at or above the 3000-level, with at least one of the courses at the 4000-level.</p>\n<h2>German Minor</h2> <p>A German minor will consist of six hours beyond the 12 hours B.A. foreign language requirement selected in consultation with a faculty advisor. The additional six hours must be at or above the 3000-level, with at least one of the courses at the 4000-level.</p>\n<h2>Russian Minor</h2> <p>A Russian minor will consist of six hours beyond the 12 hours B.A. foreign language requirement selected in consultation with a faculty advisor. The additional six hours must be at or above the 3000-level, with at least one of the courses at the 4000-level.</p>\n<h2>Spanish Minor</h2> <p>A Spanish minor will consist of six hours beyond the 12 hours B.A. foreign language requirement selected in consultation with a faculty advisor. The additional six hours must be at or above the 3000-level, with at least one of the courses at the 4000-level.</p>\n</div>"
+}

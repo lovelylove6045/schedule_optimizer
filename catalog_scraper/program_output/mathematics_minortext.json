@@ -1,0 +1,78 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/mathematics/#minortext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/mathematics/",
+        "fragment": "minortext",
+        "page_slug": "mathematics",
+        "page_title": "Mathematics < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minortextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 591,
+        "html_character_count": 1700,
+        "heading_count": 2,
+        "paragraph_count": 2,
+        "list_count": 0,
+        "table_count": 0,
+        "link_count": 5,
+        "superscript_count": 0,
+        "text_sha256": "53bfc319054a3a524a1d490e01e5cab670543ca6565d1b4369b8122ed5eca45f",
+        "html_sha256": "3616b9cc67016cf394affed8d72519729ad56b2d4344deb1e0170eedcdcb8d8b"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Bioinformatics Minor",
+            "id": null
+        },
+        {
+            "number": 2,
+            "level": "h2",
+            "text": "Mathematics Minor Curriculum",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "bioinformatics minor",
+            "href": "/undergraduate/degreeprogramsandcourses/bioinformaticsminor",
+            "url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/bioinformaticsminor",
+            "resolved_course": null
+        },
+        {
+            "number": 2,
+            "text": "STAT 3111",
+            "href": "/search/?P=STAT%203111",
+            "url": "https://catalog.mst.edu/search/?P=STAT%203111",
+            "resolved_course": "STAT 3111"
+        },
+        {
+            "number": 3,
+            "text": "STAT 3113",
+            "href": "/search/?P=STAT%203113",
+            "url": "https://catalog.mst.edu/search/?P=STAT%203113",
+            "resolved_course": "STAT 3113"
+        },
+        {
+            "number": 4,
+            "text": "STAT 3115",
+            "href": "/search/?P=STAT%203115",
+            "url": "https://catalog.mst.edu/search/?P=STAT%203115",
+            "resolved_course": "STAT 3115"
+        },
+        {
+            "number": 5,
+            "text": "STAT 3117",
+            "href": "/search/?P=STAT%203117",
+            "url": "https://catalog.mst.edu/search/?P=STAT%203117",
+            "resolved_course": "STAT 3117"
+        }
+    ],
+    "tables": [],
+    "section_text": "Bioinformatics Minor Students majoring in mathematics are eligible to pursue a minor in bioinformatics. See the description of the bioinformatics minor . Mathematics Minor Curriculum The minor will consist of at least 12 hours of MATH and/or STAT lecture courses at the 3000 or higher level, 9 hours of which must be completed in residence at Missouri S&T, and 3 hours of which must be at the 4000 or higher level. All courses counted towards the minor must be completed with a grade of “C” or better. Further, at most one of STAT 3111 , STAT 3113 , STAT 3115 , and STAT 3117 may be counted.",
+    "section_html": "<div class=\"tab_content\" id=\"minortextcontainer\">\n<a name=\"minortext\"></a><h2>Bioinformatics Minor</h2>\n<p>Students majoring in mathematics are eligible to pursue a minor in bioinformatics. See the description of the <a href=\"/undergraduate/degreeprogramsandcourses/bioinformaticsminor\">bioinformatics minor</a>.</p>\n<h2>Mathematics Minor Curriculum</h2> <p>The minor will consist of at least 12 hours of MATH and/or STAT lecture courses at the 3000 or higher level, 9 hours of which must be completed in residence at Missouri S&amp;T, and 3 hours of which must be at the 4000 or higher level. All courses counted towards the minor must be completed with a grade of “C” or better. Further, <span class=\"sc_courseinline\"><span class=\"sc_courseinline\"><span class=\"sc_courseinline\"><span class=\"sc_courseinline\">at most one of <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%203111\" onclick=\"return showCourse(this, 'STAT 3111');\" title=\"STAT 3111\">STAT 3111</a></span>, <span class=\"sc_courseinline\"><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%203113\" onclick=\"return showCourse(this, 'STAT 3113');\" title=\"STAT 3113\">STAT 3113</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%203115\" onclick=\"return showCourse(this, 'STAT 3115');\" title=\"STAT 3115\">STAT 3115</a></span>, <span class=\"sc_courseinline\">and <span class=\"sc_courseinline\"><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%203117\" onclick=\"return showCourse(this, 'STAT 3117');\" title=\"STAT 3117\">STAT 3117</a></span> may be counted.</span> </span> </span> </span> </span> </span> </span> </p>\n</div>"
+}

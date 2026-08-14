@@ -1,0 +1,44 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/politicalscience/#minorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/politicalscience/",
+        "fragment": "minorstext",
+        "page_slug": "politicalscience",
+        "page_title": "Political Science < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 264,
+        "html_character_count": 537,
+        "heading_count": 1,
+        "paragraph_count": 1,
+        "list_count": 0,
+        "table_count": 0,
+        "link_count": 1,
+        "superscript_count": 0,
+        "text_sha256": "ef140262525aad0be2f15397520a2e047ca3a29ee6b99f234193ee1173b569f2",
+        "html_sha256": "4c6e1a15dc62706228fa0ec59bec25cb1e2760ae92bf0d4db99da280aa294388"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Political Science Minor Curriculum",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "POL SCI 1200",
+            "href": "/search/?P=POL%20SCI%201200",
+            "url": "https://catalog.mst.edu/search/?P=POL%20SCI%201200",
+            "resolved_course": "POL SCI 1200"
+        }
+    ],
+    "tables": [],
+    "section_text": "Political Science Minor Curriculum The department of history and political science offers a minor degree in political science which must include 15 hours divided as follows: completion of POL SCI 1200 , plus an approved sequence of 12 hours of upper level courses.",
+    "section_html": "<div class=\"tab_content\" id=\"minorstextcontainer\">\n<a name=\"minorstext\"></a><h2>Political Science Minor Curriculum</h2> <p>The department of history and political science offers a minor degree in political science which must include 15 hours divided as follows: completion of <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%201200\" onclick=\"return showCourse(this, 'POL SCI 1200');\" title=\"POL SCI 1200\">POL SCI 1200</a></span>, plus an approved sequence of 12 hours of upper level courses.</p>\n</div>"
+}

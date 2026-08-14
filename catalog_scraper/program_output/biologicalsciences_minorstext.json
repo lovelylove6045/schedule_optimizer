@@ -1,0 +1,50 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/biologicalsciences/#minorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/biologicalsciences/",
+        "fragment": "minorstext",
+        "page_slug": "biologicalsciences",
+        "page_title": "Biological Sciences < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 492,
+        "html_character_count": 682,
+        "heading_count": 2,
+        "paragraph_count": 2,
+        "list_count": 0,
+        "table_count": 0,
+        "link_count": 1,
+        "superscript_count": 0,
+        "text_sha256": "0dd74e07d4e1817a879563e740e886d5cd1f7d2fa86f47bf39ad75191be21c3c",
+        "html_sha256": "e1d346f25dad879fba0d5838b29a3a36fc2d35100328278294f9c5572c6ec2a8"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Biological Sciences Minor Curriculum",
+            "id": null
+        },
+        {
+            "number": 2,
+            "level": "h2",
+            "text": "Bioinformatics Minor",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "bioinformatics minor here",
+            "href": "/undergraduate/degreeprogramsandcourses/bioinformaticsminor/",
+            "url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/bioinformaticsminor/",
+            "resolved_course": null
+        }
+    ],
+    "tables": [],
+    "section_text": "Biological Sciences Minor Curriculum A student wishing to minor in biological sciences must take a minimum of 20 hours of biological sciences course work. This course of study should include at least one laboratory or field course, at least two courses at the 3000 level or above, and be approved by a BioSci faculty advisor. Bioinformatics Minor Students majoring in biological sciences are eligible to pursue a minor in bioinformatics. See the description of the bioinformatics minor here .",
+    "section_html": "<div class=\"tab_content\" id=\"minorstextcontainer\">\n<a name=\"minorstext\"></a><h2>Biological Sciences Minor Curriculum</h2> <p>A student wishing to minor in biological sciences must take a minimum of 20 hours of biological sciences course work. This course of study should include at least one laboratory or field course, at least two courses at the 3000 level or above, and be approved by a BioSci faculty advisor. </p>\n<h2>Bioinformatics Minor</h2>\n<p>Students majoring in biological sciences are eligible to pursue a minor in bioinformatics. See the description of the <a href=\"/undergraduate/degreeprogramsandcourses/bioinformaticsminor/\">bioinformatics minor here</a>.</p>\n</div>"
+}

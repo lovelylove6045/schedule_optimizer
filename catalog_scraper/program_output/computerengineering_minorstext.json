@@ -1,0 +1,331 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/computerengineering/#minorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/computerengineering/",
+        "fragment": "minorstext",
+        "page_slug": "computerengineering",
+        "page_title": "Computer Engineering < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 729,
+        "html_character_count": 2797,
+        "heading_count": 1,
+        "paragraph_count": 1,
+        "list_count": 0,
+        "table_count": 1,
+        "link_count": 6,
+        "superscript_count": 0,
+        "text_sha256": "b30c4b3c3e96809af1f8a45f0c1e2268e9bc499c66926dfb5ae99c10d374458c",
+        "html_sha256": "fd6b0c30b23340beca7831fcd3923919045fb25d0482258169f1d6c45c6b6a93"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Minor Curriculum",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "COMP ENG 3110",
+            "href": "/search/?P=COMP%20ENG%203110",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%203110",
+            "resolved_course": "COMP ENG 3110"
+        },
+        {
+            "number": 2,
+            "text": "COMP ENG 3150",
+            "href": "/search/?P=COMP%20ENG%203150",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%203150",
+            "resolved_course": "COMP ENG 3150"
+        },
+        {
+            "number": 3,
+            "text": "COMP ENG 5410",
+            "href": "/search/?P=COMP%20ENG%205410",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%205410",
+            "resolved_course": "COMP ENG 5410"
+        },
+        {
+            "number": 4,
+            "text": "COMP SCI 5600",
+            "href": "/search/?P=COMP%20SCI%205600",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205600",
+            "resolved_course": "COMP SCI 5600"
+        },
+        {
+            "number": 5,
+            "text": "ELEC ENG 2100",
+            "href": "/search/?P=ELEC%20ENG%202100",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202100",
+            "resolved_course": "ELEC ENG 2100"
+        },
+        {
+            "number": 6,
+            "text": "ELEC ENG 2120",
+            "href": "/search/?P=ELEC%20ENG%202120",
+            "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202120",
+            "resolved_course": "ELEC ENG 2120"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "A \"C\" or better in the following courses: COMP ENG 3110 Computer Organization and Design COMP ENG 3150 Introduction to Microcontrollers and Embedded System Design COMP ENG 5410 Introduction to Computer Communication Networks or COMP SCI 5600 Advanced Computer Networks ELEC ENG 2100 Circuits I ELEC ENG 2120 Circuits II Pass 3 hours of additional 4XXX-level or above COMP ENG or ELEC ENG or COMP SCI coursework with a \"C\" or better, excluding senior design, special problems, and undergraduate research. Transfer courses cannot be used to satisfy this requirement. The course choice for this requirement is subject to the approval of the minor advisor.",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "A \"C\" or better in the following courses:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP ENG 3110",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP ENG 3110",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%203110",
+                                    "resolved_course": "COMP ENG 3110"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Computer Organization and Design",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP ENG 3150",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP ENG 3150",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%203150",
+                                    "resolved_course": "COMP ENG 3150"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Introduction to Microcontrollers and Embedded System Design",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP ENG 5410",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP ENG 5410",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%205410",
+                                    "resolved_course": "COMP ENG 5410"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Introduction to Computer Communication Networks",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "or COMP SCI 5600",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 5600",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205600",
+                                    "resolved_course": "COMP SCI 5600"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Advanced Computer Networks",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ELEC ENG 2100",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ELEC ENG 2100",
+                                    "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202100",
+                                    "resolved_course": "ELEC ENG 2100"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Circuits I",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ELEC ENG 2120",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ELEC ENG 2120",
+                                    "url": "https://catalog.mst.edu/search/?P=ELEC%20ENG%202120",
+                                    "resolved_course": "ELEC ENG 2120"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Circuits II",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Pass 3 hours of additional 4XXX-level or above COMP ENG or ELEC ENG or COMP SCI coursework with a \"C\" or better, excluding senior design, special problems, and undergraduate research. Transfer courses cannot be used to satisfy this requirement. The course choice for this requirement is subject to the approval of the minor advisor.",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td colspan=\"2\"><span class=\"courselistcomment\">A \"C\" or better in the following courses:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%203110\" onclick=\"return showCourse(this, 'COMP ENG 3110');\" title=\"COMP ENG 3110\">COMP ENG 3110</a></div></td><td>Computer Organization and Design</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%203150\" onclick=\"return showCourse(this, 'COMP ENG 3150');\" title=\"COMP ENG 3150\">COMP ENG 3150</a></div></td><td>Introduction to Microcontrollers and Embedded System Design</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%205410\" onclick=\"return showCourse(this, 'COMP ENG 5410');\" title=\"COMP ENG 5410\">COMP ENG 5410</a></div></td><td>Introduction to Computer Communication Networks</td><td class=\"hourscol\"></td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\"><div style=\"margin-left: 20px;\">or <a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205600\" onclick=\"return showCourse(this, 'COMP SCI 5600');\" title=\"COMP SCI 5600\">COMP SCI 5600</a></div></td><td colspan=\"2\"> Advanced Computer Networks</td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202100\" onclick=\"return showCourse(this, 'ELEC ENG 2100');\" title=\"ELEC ENG 2100\">ELEC ENG 2100</a></div></td><td>Circuits I</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202120\" onclick=\"return showCourse(this, 'ELEC ENG 2120');\" title=\"ELEC ENG 2120\">ELEC ENG 2120</a></div></td><td>Circuits II</td><td class=\"hourscol\"></td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">Pass 3 hours of additional 4XXX-level or above COMP ENG or ELEC ENG or COMP SCI coursework with a \"C\" or better, excluding senior design, special problems, and undergraduate research. Transfer courses cannot be used to satisfy this requirement. The course choice for this requirement is subject to the approval of the minor advisor.</span></td><td class=\"hourscol\"></td></tr> </tbody></table>"
+        }
+    ],
+    "section_text": "Minor Curriculum A minor in computer engineering will require the following: A \"C\" or better in the following courses: COMP ENG 3110 Computer Organization and Design COMP ENG 3150 Introduction to Microcontrollers and Embedded System Design COMP ENG 5410 Introduction to Computer Communication Networks or COMP SCI 5600 Advanced Computer Networks ELEC ENG 2100 Circuits I ELEC ENG 2120 Circuits II Pass 3 hours of additional 4XXX-level or above COMP ENG or ELEC ENG or COMP SCI coursework with a \"C\" or better, excluding senior design, special problems, and undergraduate research. Transfer courses cannot be used to satisfy this requirement. The course choice for this requirement is subject to the approval of the minor advisor.",
+    "section_html": "<div class=\"tab_content\" id=\"minorstextcontainer\">\n<a name=\"minorstext\"></a><h2>Minor Curriculum</h2> <p>A minor in computer engineering will require the following:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td colspan=\"2\"><span class=\"courselistcomment\">A \"C\" or better in the following courses:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%203110\" onclick=\"return showCourse(this, 'COMP ENG 3110');\" title=\"COMP ENG 3110\">COMP ENG 3110</a></div></td><td>Computer Organization and Design</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%203150\" onclick=\"return showCourse(this, 'COMP ENG 3150');\" title=\"COMP ENG 3150\">COMP ENG 3150</a></div></td><td>Introduction to Microcontrollers and Embedded System Design</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%205410\" onclick=\"return showCourse(this, 'COMP ENG 5410');\" title=\"COMP ENG 5410\">COMP ENG 5410</a></div></td><td>Introduction to Computer Communication Networks</td><td class=\"hourscol\"></td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\"><div style=\"margin-left: 20px;\">or <a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205600\" onclick=\"return showCourse(this, 'COMP SCI 5600');\" title=\"COMP SCI 5600\">COMP SCI 5600</a></div></td><td colspan=\"2\"> Advanced Computer Networks</td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202100\" onclick=\"return showCourse(this, 'ELEC ENG 2100');\" title=\"ELEC ENG 2100\">ELEC ENG 2100</a></div></td><td>Circuits I</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=ELEC%20ENG%202120\" onclick=\"return showCourse(this, 'ELEC ENG 2120');\" title=\"ELEC ENG 2120\">ELEC ENG 2120</a></div></td><td>Circuits II</td><td class=\"hourscol\"></td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">Pass 3 hours of additional 4XXX-level or above COMP ENG or ELEC ENG or COMP SCI coursework with a \"C\" or better, excluding senior design, special problems, and undergraduate research. Transfer courses cannot be used to satisfy this requirement. The course choice for this requirement is subject to the approval of the minor advisor.</span></td><td class=\"hourscol\"></td></tr> </tbody></table>\n</div>"
+}

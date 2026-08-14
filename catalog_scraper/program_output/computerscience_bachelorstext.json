@@ -1,0 +1,2664 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/computerscience/#bachelorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/computerscience/",
+        "fragment": "bachelorstext",
+        "page_slug": "computerscience",
+        "page_title": "Computer Science < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=bachelorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 5772,
+        "html_character_count": 27772,
+        "heading_count": 4,
+        "paragraph_count": 15,
+        "list_count": 0,
+        "table_count": 3,
+        "link_count": 94,
+        "superscript_count": 35,
+        "text_sha256": "fd87c8464e2eb4573b646c6ceb8ba0675ba365b46c2db21c48a4bfd4fba45d65",
+        "html_sha256": "b8be2e91479b25c141885f51dab09a5b30955470b46a9681d70bed5e58002c06"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Bachelor of Science Computer Science",
+            "id": null
+        },
+        {
+            "number": 2,
+            "level": "h3",
+            "text": "Sample Course of Study",
+            "id": null
+        },
+        {
+            "number": 3,
+            "level": "h3",
+            "text": "Artificial Intelligence Emphasis Area",
+            "id": null
+        },
+        {
+            "number": 4,
+            "level": "h3",
+            "text": "Cybersecurity Emphasis Area",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "COMP ENG 2210",
+            "href": "/search/?P=COMP%20ENG%202210",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%202210",
+            "resolved_course": "COMP ENG 2210"
+        },
+        {
+            "number": 2,
+            "text": "COMP SCI 1010",
+            "href": "/search/?P=COMP%20SCI%201010",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201010",
+            "resolved_course": "COMP SCI 1010"
+        },
+        {
+            "number": 3,
+            "text": "COMP SCI 1200",
+            "href": "/search/?P=COMP%20SCI%201200",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201200",
+            "resolved_course": "COMP SCI 1200"
+        },
+        {
+            "number": 4,
+            "text": "COMP SCI 1500",
+            "href": "/search/?P=COMP%20SCI%201500",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201500",
+            "resolved_course": "COMP SCI 1500"
+        },
+        {
+            "number": 5,
+            "text": "COMP SCI 1570",
+            "href": "/search/?P=COMP%20SCI%201570",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201570",
+            "resolved_course": "COMP SCI 1570"
+        },
+        {
+            "number": 6,
+            "text": "ENGLISH 1120",
+            "href": "/search/?P=ENGLISH%201120",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201120",
+            "resolved_course": "ENGLISH 1120"
+        },
+        {
+            "number": 7,
+            "text": "COMP SCI 1580",
+            "href": "/search/?P=COMP%20SCI%201580",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201580",
+            "resolved_course": "COMP SCI 1580"
+        },
+        {
+            "number": 8,
+            "text": "FR ENG 1100",
+            "href": "/search/?P=FR%20ENG%201100",
+            "url": "https://catalog.mst.edu/search/?P=FR%20ENG%201100",
+            "resolved_course": "FR ENG 1100"
+        },
+        {
+            "number": 9,
+            "text": "ENGLISH 1160",
+            "href": "/search/?P=ENGLISH%201160",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201160",
+            "resolved_course": "ENGLISH 1160"
+        },
+        {
+            "number": 10,
+            "text": "3560",
+            "href": "/search/?P=ENGLISH%203560",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%203560",
+            "resolved_course": "ENGLISH 3560"
+        },
+        {
+            "number": 11,
+            "text": "HISTORY 1300",
+            "href": "/search/?P=HISTORY%201300",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201300",
+            "resolved_course": "HISTORY 1300"
+        },
+        {
+            "number": 12,
+            "text": "1310",
+            "href": "/search/?P=HISTORY%201310",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201310",
+            "resolved_course": "HISTORY 1310"
+        },
+        {
+            "number": 13,
+            "text": "1200",
+            "href": "/search/?P=HISTORY%201200",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201200",
+            "resolved_course": "HISTORY 1200"
+        },
+        {
+            "number": 14,
+            "text": "POL SCI 1200",
+            "href": "/search/?P=POL%20SCI%201200",
+            "url": "https://catalog.mst.edu/search/?P=POL%20SCI%201200",
+            "resolved_course": "POL SCI 1200"
+        },
+        {
+            "number": 15,
+            "text": "MATH 1214",
+            "href": "/search/?P=MATH%201214",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201214",
+            "resolved_course": "MATH 1214"
+        },
+        {
+            "number": 16,
+            "text": "1211",
+            "href": "/search/?P=MATH%201211",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201211",
+            "resolved_course": "MATH 1211"
+        },
+        {
+            "number": 17,
+            "text": "MATH 1215",
+            "href": "/search/?P=MATH%201215",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201215",
+            "resolved_course": "MATH 1215"
+        },
+        {
+            "number": 18,
+            "text": "COMP ENG 2210",
+            "href": "/search/?P=COMP%20ENG%202210",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%202210",
+            "resolved_course": "COMP ENG 2210"
+        },
+        {
+            "number": 19,
+            "text": "COMP SCI 2300",
+            "href": "/search/?P=COMP%20SCI%202300",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%202300",
+            "resolved_course": "COMP SCI 2300"
+        },
+        {
+            "number": 20,
+            "text": "COMP SCI 1575",
+            "href": "/search/?P=COMP%20SCI%201575",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201575",
+            "resolved_course": "COMP SCI 1575"
+        },
+        {
+            "number": 21,
+            "text": "COMP SCI 2500",
+            "href": "/search/?P=COMP%20SCI%202500",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%202500",
+            "resolved_course": "COMP SCI 2500"
+        },
+        {
+            "number": 22,
+            "text": "COMP SCI 1585",
+            "href": "/search/?P=COMP%20SCI%201585",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201585",
+            "resolved_course": "COMP SCI 1585"
+        },
+        {
+            "number": 23,
+            "text": "COMP SCI 2580",
+            "href": "/search/?P=COMP%20SCI%202580",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%202580",
+            "resolved_course": "COMP SCI 2580"
+        },
+        {
+            "number": 24,
+            "text": "PHILOS 3225",
+            "href": "/search/?P=PHILOS%203225",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%203225",
+            "resolved_course": "PHILOS 3225"
+        },
+        {
+            "number": 25,
+            "text": "3235",
+            "href": "/search/?P=PHILOS%203235",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%203235",
+            "resolved_course": "PHILOS 3235"
+        },
+        {
+            "number": 26,
+            "text": "4340",
+            "href": "/search/?P=PHILOS%204340",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%204340",
+            "resolved_course": "PHILOS 4340"
+        },
+        {
+            "number": 27,
+            "text": "4368",
+            "href": "/search/?P=PHILOS%204368",
+            "url": "https://catalog.mst.edu/search/?P=PHILOS%204368",
+            "resolved_course": "PHILOS 4368"
+        },
+        {
+            "number": 28,
+            "text": "MATH 3108",
+            "href": "/search/?P=MATH%203108",
+            "url": "https://catalog.mst.edu/search/?P=MATH%203108",
+            "resolved_course": "MATH 3108"
+        },
+        {
+            "number": 29,
+            "text": "COMP SCI 3100",
+            "href": "/search/?P=COMP%20SCI%203100",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%203100",
+            "resolved_course": "COMP SCI 3100"
+        },
+        {
+            "number": 30,
+            "text": "COMP SCI 2200",
+            "href": "/search/?P=COMP%20SCI%202200",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%202200",
+            "resolved_course": "COMP SCI 2200"
+        },
+        {
+            "number": 31,
+            "text": "COMP SCI 3800",
+            "href": "/search/?P=COMP%20SCI%203800",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%203800",
+            "resolved_course": "COMP SCI 3800"
+        },
+        {
+            "number": 32,
+            "text": "COMP SCI 3610",
+            "href": "/search/?P=COMP%20SCI%203610",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%203610",
+            "resolved_course": "COMP SCI 3610"
+        },
+        {
+            "number": 33,
+            "text": "COMP SCI 3803",
+            "href": "/search/?P=COMP%20SCI%203803",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%203803",
+            "resolved_course": "COMP SCI 3803"
+        },
+        {
+            "number": 34,
+            "text": "SP&M S 1185",
+            "href": "/search/?P=SP%26M%20S%201185",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%201185",
+            "resolved_course": "SP&M S 1185"
+        },
+        {
+            "number": 35,
+            "text": "COMP SCI 3500",
+            "href": "/search/?P=COMP%20SCI%203500",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%203500",
+            "resolved_course": "COMP SCI 3500"
+        },
+        {
+            "number": 36,
+            "text": "COMP SCI 4096",
+            "href": "/search/?P=COMP%20SCI%204096",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%204096",
+            "resolved_course": "COMP SCI 4096"
+        },
+        {
+            "number": 37,
+            "text": "COMP SCI 4095",
+            "href": "/search/?P=COMP%20SCI%204095",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%204095",
+            "resolved_course": "COMP SCI 4095"
+        },
+        {
+            "number": 38,
+            "text": "COMP SCI 4610",
+            "href": "/search/?P=COMP%20SCI%204610",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%204610",
+            "resolved_course": "COMP SCI 4610"
+        },
+        {
+            "number": 39,
+            "text": "COMP SCI 3402",
+            "href": "/search/?P=COMP%20SCI%203402",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%203402",
+            "resolved_course": "COMP SCI 3402"
+        },
+        {
+            "number": 40,
+            "text": "COMP SCI 5400",
+            "href": "/search/?P=COMP%20SCI%205400",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205400",
+            "resolved_course": "COMP SCI 5400"
+        },
+        {
+            "number": 41,
+            "text": "COMP SCI 5420",
+            "href": "/search/?P=COMP%20SCI%205420",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205420",
+            "resolved_course": "COMP SCI 5420"
+        },
+        {
+            "number": 42,
+            "text": "COMP SCI 5602",
+            "href": "/search/?P=COMP%20SCI%205602",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205602",
+            "resolved_course": "COMP SCI 5602"
+        },
+        {
+            "number": 43,
+            "text": "COMP SCI 5603",
+            "href": "/search/?P=COMP%20SCI%205603",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205603",
+            "resolved_course": "COMP SCI 5603"
+        },
+        {
+            "number": 44,
+            "text": "COMP SCI 5604",
+            "href": "/search/?P=COMP%20SCI%205604",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205604",
+            "resolved_course": "COMP SCI 5604"
+        },
+        {
+            "number": 45,
+            "text": "COMP SCI 3601",
+            "href": "/search/?P=COMP%20SCI%203601",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%203601",
+            "resolved_course": "COMP SCI 3601"
+        },
+        {
+            "number": 46,
+            "text": "COMP SCI 4700",
+            "href": "/search/?P=COMP%20SCI%204700",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%204700",
+            "resolved_course": "COMP SCI 4700"
+        },
+        {
+            "number": 47,
+            "text": "COMP SCI 5408",
+            "href": "/search/?P=COMP%20SCI%205408",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205408",
+            "resolved_course": "COMP SCI 5408"
+        },
+        {
+            "number": 48,
+            "text": "COMP SCI 5601",
+            "href": "/search/?P=COMP%20SCI%205601",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205601",
+            "resolved_course": "COMP SCI 5601"
+        },
+        {
+            "number": 49,
+            "text": "COMP SCI 5605",
+            "href": "/search/?P=COMP%20SCI%205605",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205605",
+            "resolved_course": "COMP SCI 5605"
+        },
+        {
+            "number": 50,
+            "text": "COMP SCI 1971",
+            "href": "/search/?P=COMP%20SCI%201971",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201971",
+            "resolved_course": "COMP SCI 1971"
+        },
+        {
+            "number": 51,
+            "text": "COMP SCI 1981",
+            "href": "/search/?P=COMP%20SCI%201981",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201981",
+            "resolved_course": "COMP SCI 1981"
+        },
+        {
+            "number": 52,
+            "text": "BIO SCI 1113",
+            "href": "/search/?P=BIO%20SCI%201113",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201113",
+            "resolved_course": "BIO SCI 1113"
+        },
+        {
+            "number": 53,
+            "text": "BIO SCI 1219",
+            "href": "/search/?P=BIO%20SCI%201219",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201219",
+            "resolved_course": "BIO SCI 1219"
+        },
+        {
+            "number": 54,
+            "text": "BIO SCI 1223",
+            "href": "/search/?P=BIO%20SCI%201223",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201223",
+            "resolved_course": "BIO SCI 1223"
+        },
+        {
+            "number": 55,
+            "text": "BIO SCI 1229",
+            "href": "/search/?P=BIO%20SCI%201229",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201229",
+            "resolved_course": "BIO SCI 1229"
+        },
+        {
+            "number": 56,
+            "text": "BIO SCI 2213",
+            "href": "/search/?P=BIO%20SCI%202213",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%202213",
+            "resolved_course": "BIO SCI 2213"
+        },
+        {
+            "number": 57,
+            "text": "BIO SCI 2219",
+            "href": "/search/?P=BIO%20SCI%202219",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%202219",
+            "resolved_course": "BIO SCI 2219"
+        },
+        {
+            "number": 58,
+            "text": "CHEM 1310",
+            "href": "/search/?P=CHEM%201310",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201310",
+            "resolved_course": "CHEM 1310"
+        },
+        {
+            "number": 59,
+            "text": "CHEM 1319",
+            "href": "/search/?P=CHEM%201319",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201319",
+            "resolved_course": "CHEM 1319"
+        },
+        {
+            "number": 60,
+            "text": "GEOLOGY 1120",
+            "href": "/search/?P=GEOLOGY%201120",
+            "url": "https://catalog.mst.edu/search/?P=GEOLOGY%201120",
+            "resolved_course": "GEOLOGY 1120"
+        },
+        {
+            "number": 61,
+            "text": "GEOLOGY 1129",
+            "href": "/search/?P=GEOLOGY%201129",
+            "url": "https://catalog.mst.edu/search/?P=GEOLOGY%201129",
+            "resolved_course": "GEOLOGY 1129"
+        },
+        {
+            "number": 62,
+            "text": "PHYSICS 1505",
+            "href": "/search/?P=PHYSICS%201505",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%201505",
+            "resolved_course": "PHYSICS 1505"
+        },
+        {
+            "number": 63,
+            "text": "PHYSICS 1509",
+            "href": "/search/?P=PHYSICS%201509",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%201509",
+            "resolved_course": "PHYSICS 1509"
+        },
+        {
+            "number": 64,
+            "text": "STAT 3113",
+            "href": "/search/?P=STAT%203113",
+            "url": "https://catalog.mst.edu/search/?P=STAT%203113",
+            "resolved_course": "STAT 3113"
+        },
+        {
+            "number": 65,
+            "text": "STAT 3117",
+            "href": "/search/?P=STAT%203117",
+            "url": "https://catalog.mst.edu/search/?P=STAT%203117",
+            "resolved_course": "STAT 3117"
+        },
+        {
+            "number": 66,
+            "text": "STAT 5643",
+            "href": "/search/?P=STAT%205643",
+            "url": "https://catalog.mst.edu/search/?P=STAT%205643",
+            "resolved_course": "STAT 5643"
+        },
+        {
+            "number": 67,
+            "text": "PHYSICS 2111",
+            "href": "/search/?P=PHYSICS%202111",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202111",
+            "resolved_course": "PHYSICS 2111"
+        },
+        {
+            "number": 68,
+            "text": "PHYSICS 2119",
+            "href": "/search/?P=PHYSICS%202119",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202119",
+            "resolved_course": "PHYSICS 2119"
+        },
+        {
+            "number": 69,
+            "text": "PHYSICS 1135",
+            "href": "/search/?P=PHYSICS%201135",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%201135",
+            "resolved_course": "PHYSICS 1135"
+        },
+        {
+            "number": 70,
+            "text": "PHYSICS 1145",
+            "href": "/search/?P=PHYSICS%201145",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%201145",
+            "resolved_course": "PHYSICS 1145"
+        },
+        {
+            "number": 71,
+            "text": "PHYSICS 2135",
+            "href": "/search/?P=PHYSICS%202135",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202135",
+            "resolved_course": "PHYSICS 2135"
+        },
+        {
+            "number": 72,
+            "text": "PHYSICS 2145",
+            "href": "/search/?P=PHYSICS%202145",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202145",
+            "resolved_course": "PHYSICS 2145"
+        },
+        {
+            "number": 73,
+            "text": "COMP SCI 2001",
+            "href": "/search/?P=COMP%20SCI%202001",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%202001",
+            "resolved_course": "COMP SCI 2001"
+        },
+        {
+            "number": 74,
+            "text": "COMP SCI 3001",
+            "href": "/search/?P=COMP%20SCI%203001",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%203001",
+            "resolved_course": "COMP SCI 3001"
+        },
+        {
+            "number": 75,
+            "text": "COMP SCI 4001",
+            "href": "/search/?P=COMP%20SCI%204001",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%204001",
+            "resolved_course": "COMP SCI 4001"
+        },
+        {
+            "number": 76,
+            "text": "COMP SCI 4001",
+            "href": "/search/?P=COMP%20SCI%204001",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%204001",
+            "resolved_course": "COMP SCI 4001"
+        },
+        {
+            "number": 77,
+            "text": "COMP SCI 4700",
+            "href": "/search/?P=COMP%20SCI%204700",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%204700",
+            "resolved_course": "COMP SCI 4700"
+        },
+        {
+            "number": 78,
+            "text": "COMP SCI 4010",
+            "href": "/search/?P=COMP%20SCI%204010",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%204010",
+            "resolved_course": "COMP SCI 4010"
+        },
+        {
+            "number": 79,
+            "text": "SP&M S 1185",
+            "href": "/search/?P=SP%26M%20S%201185",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%201185",
+            "resolved_course": "SP&M S 1185"
+        },
+        {
+            "number": 80,
+            "text": "MIL ARMY 3250",
+            "href": "/search/?P=MIL%20ARMY%203250",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20ARMY%203250",
+            "resolved_course": "MIL ARMY 3250"
+        },
+        {
+            "number": 81,
+            "text": "MIL ARMY 3500",
+            "href": "/search/?P=MIL%20ARMY%203500",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20ARMY%203500",
+            "resolved_course": "MIL ARMY 3500"
+        },
+        {
+            "number": 82,
+            "text": "MIL ARMY 4250",
+            "href": "/search/?P=MIL%20ARMY%204250",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20ARMY%204250",
+            "resolved_course": "MIL ARMY 4250"
+        },
+        {
+            "number": 83,
+            "text": "MIL ARMY 4500",
+            "href": "/search/?P=MIL%20ARMY%204500",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20ARMY%204500",
+            "resolved_course": "MIL ARMY 4500"
+        },
+        {
+            "number": 84,
+            "text": "MIL AIR 3110",
+            "href": "/search/?P=MIL%20AIR%203110",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20AIR%203110",
+            "resolved_course": "MIL AIR 3110"
+        },
+        {
+            "number": 85,
+            "text": "MIL AIR 3120",
+            "href": "/search/?P=MIL%20AIR%203120",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20AIR%203120",
+            "resolved_course": "MIL AIR 3120"
+        },
+        {
+            "number": 86,
+            "text": "MIL AIR 4110",
+            "href": "/search/?P=MIL%20AIR%204110",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20AIR%204110",
+            "resolved_course": "MIL AIR 4110"
+        },
+        {
+            "number": 87,
+            "text": "MIL AIR 4120",
+            "href": "/search/?P=MIL%20AIR%204120",
+            "url": "https://catalog.mst.edu/search/?P=MIL%20AIR%204120",
+            "resolved_course": "MIL AIR 4120"
+        },
+        {
+            "number": 88,
+            "text": "PHYSICS 2111",
+            "href": "/search/?P=PHYSICS%202111",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202111",
+            "resolved_course": "PHYSICS 2111"
+        },
+        {
+            "number": 89,
+            "text": "PHYSICS 2119",
+            "href": "/search/?P=PHYSICS%202119",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202119",
+            "resolved_course": "PHYSICS 2119"
+        },
+        {
+            "number": 90,
+            "text": "PHYSICS 2135",
+            "href": "/search/?P=PHYSICS%202135",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202135",
+            "resolved_course": "PHYSICS 2135"
+        },
+        {
+            "number": 91,
+            "text": "PHYSICS 2145",
+            "href": "/search/?P=PHYSICS%202145",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202145",
+            "resolved_course": "PHYSICS 2145"
+        },
+        {
+            "number": 92,
+            "text": "COMP SCI 5405",
+            "href": "/search/?P=COMP%20SCI%205405",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205405",
+            "resolved_course": "COMP SCI 5405"
+        },
+        {
+            "number": 93,
+            "text": "COMP SCI 5406",
+            "href": "/search/?P=COMP%20SCI%205406",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205406",
+            "resolved_course": "COMP SCI 5406"
+        },
+        {
+            "number": 94,
+            "text": "COMP SCI 5407",
+            "href": "/search/?P=COMP%20SCI%205407",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205407",
+            "resolved_course": "COMP SCI 5407"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "Freshman Year First Semester Credits Second Semester Credits COMP SCI 1010 1 COMP SCI 1200 3 COMP SCI 1500 1 3 COMP SCI 1570 3 ENGLISH 1120 3 COMP SCI 1580 1 FR ENG 1100 1 ENGLISH 1160 or 3560 3 Lecture-Laboratory Science Elective 2 4-5 HISTORY 1300 , or 1310 , or 1200 , or POL SCI 1200 3 MATH 1214 or 1211 4 MATH 1215 4 16-17 17 Sophomore Year First Semester Credits Second Semester Credits COMP ENG 2210 5 3 COMP SCI 2300 3 COMP SCI 1575 3 COMP SCI 2500 3 COMP SCI 1585 1 COMP SCI 2580 1 Gen. Ed. Elective 3 3 PHILOS 3225 , or 3235 , or 4340 , or 4368 (Ethics Elective) 4 3 MATH 3108 3 Sci/Eng Elective 7 3 Natural Sciences Elective 3 3 Statistics Elective 6 3 16 16 Junior Year First Semester Credits Second Semester Credits COMP SCI 3100 3 COMP SCI 2200 3 COMP SCI 3800 3 COMP SCI 3610 3 COMP SCI 3803 3 Comp Sci Elective 8,9,13,14 3 Comp Sci Elective 8,9,13,14 3 Sci/Eng Elective 7 3 Gen. Ed. Elective 3 3 SP&M S 1185 10 3 15 15 Senior Year First Semester Credits Second Semester Credits COMP SCI 3500 3 COMP SCI 4096 3 COMP SCI 4095 1 Comp Sci Elective 8,9,13,14 3 COMP SCI 4610 3 Comp Sci Elective 8,9,13 3 Comp Sci Elective 8,9,13,14 3 Free Elective 9, 11 4 Comp Sci Elective 8, 9 3 Gen. Ed. Elective 3 3 Free Elective 9, 11 3 16 16 Total Credits: 127-128",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Freshman Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 1010",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 1010",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201010",
+                                    "resolved_course": "COMP SCI 1010"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "COMP SCI 1200",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 1200",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201200",
+                                    "resolved_course": "COMP SCI 1200"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 1500 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 1500",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201500",
+                                    "resolved_course": "COMP SCI 1500"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "COMP SCI 1570",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 1570",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201570",
+                                    "resolved_course": "COMP SCI 1570"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENGLISH 1120",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENGLISH 1120",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%201120",
+                                    "resolved_course": "ENGLISH 1120"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "COMP SCI 1580",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 1580",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201580",
+                                    "resolved_course": "COMP SCI 1580"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "FR ENG 1100",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "FR ENG 1100",
+                                    "url": "https://catalog.mst.edu/search/?P=FR%20ENG%201100",
+                                    "resolved_course": "FR ENG 1100"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "ENGLISH 1160 or 3560",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENGLISH 1160",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%201160",
+                                    "resolved_course": "ENGLISH 1160"
+                                },
+                                {
+                                    "text": "3560",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%203560",
+                                    "resolved_course": "ENGLISH 3560"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Lecture-Laboratory Science Elective 2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "4-5",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "HISTORY 1300 , or 1310 , or 1200 , or POL SCI 1200",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "HISTORY 1300",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201300",
+                                    "resolved_course": "HISTORY 1300"
+                                },
+                                {
+                                    "text": "1310",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201310",
+                                    "resolved_course": "HISTORY 1310"
+                                },
+                                {
+                                    "text": "1200",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201200",
+                                    "resolved_course": "HISTORY 1200"
+                                },
+                                {
+                                    "text": "POL SCI 1200",
+                                    "url": "https://catalog.mst.edu/search/?P=POL%20SCI%201200",
+                                    "resolved_course": "POL SCI 1200"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MATH 1214 or 1211",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 1214",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201214",
+                                    "resolved_course": "MATH 1214"
+                                },
+                                {
+                                    "text": "1211",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201211",
+                                    "resolved_course": "MATH 1211"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MATH 1215",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 1215",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201215",
+                                    "resolved_course": "MATH 1215"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "16-17",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "17",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 10,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Sophomore Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 11,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 12,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP ENG 2210 5",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP ENG 2210",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20ENG%202210",
+                                    "resolved_course": "COMP ENG 2210"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "COMP SCI 2300",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 2300",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%202300",
+                                    "resolved_course": "COMP SCI 2300"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 13,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 1575",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 1575",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201575",
+                                    "resolved_course": "COMP SCI 1575"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "COMP SCI 2500",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 2500",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%202500",
+                                    "resolved_course": "COMP SCI 2500"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 14,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 1585",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 1585",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201585",
+                                    "resolved_course": "COMP SCI 1585"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "COMP SCI 2580",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 2580",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%202580",
+                                    "resolved_course": "COMP SCI 2580"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 15,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Gen. Ed. Elective 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "PHILOS 3225 , or 3235 , or 4340 , or 4368 (Ethics Elective) 4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHILOS 3225",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%203225",
+                                    "resolved_course": "PHILOS 3225"
+                                },
+                                {
+                                    "text": "3235",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%203235",
+                                    "resolved_course": "PHILOS 3235"
+                                },
+                                {
+                                    "text": "4340",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%204340",
+                                    "resolved_course": "PHILOS 4340"
+                                },
+                                {
+                                    "text": "4368",
+                                    "url": "https://catalog.mst.edu/search/?P=PHILOS%204368",
+                                    "resolved_course": "PHILOS 4368"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 16,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MATH 3108",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 3108",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%203108",
+                                    "resolved_course": "MATH 3108"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Sci/Eng Elective 7",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 17,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Natural Sciences Elective 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Statistics Elective 6",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 18,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "16",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "16",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 19,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Junior Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 20,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 21,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 3100",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 3100",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%203100",
+                                    "resolved_course": "COMP SCI 3100"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "COMP SCI 2200",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 2200",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%202200",
+                                    "resolved_course": "COMP SCI 2200"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 22,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 3800",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 3800",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%203800",
+                                    "resolved_course": "COMP SCI 3800"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "COMP SCI 3610",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 3610",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%203610",
+                                    "resolved_course": "COMP SCI 3610"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 23,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 3803",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 3803",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%203803",
+                                    "resolved_course": "COMP SCI 3803"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Comp Sci Elective 8,9,13,14",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 24,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Comp Sci Elective 8,9,13,14",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Sci/Eng Elective 7",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 25,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Gen. Ed. Elective 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "SP&M S 1185 10",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 1185",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%201185",
+                                    "resolved_course": "SP&M S 1185"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 26,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 27,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Senior Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 28,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 29,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 3500",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 3500",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%203500",
+                                    "resolved_course": "COMP SCI 3500"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "COMP SCI 4096",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 4096",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%204096",
+                                    "resolved_course": "COMP SCI 4096"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 30,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 4095",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 4095",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%204095",
+                                    "resolved_course": "COMP SCI 4095"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Comp Sci Elective 8,9,13,14",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 31,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 4610",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 4610",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%204610",
+                                    "resolved_course": "COMP SCI 4610"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Comp Sci Elective 8,9,13",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 32,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Comp Sci Elective 8,9,13,14",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Free Elective 9, 11",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 33,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Comp Sci Elective 8, 9",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Gen. Ed. Elective 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 34,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Free Elective 9, 11",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 35,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "16",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "16",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 36,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Total Credits: 127-128",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_plangrid\"><tr class=\"plangridyear firstrow\"><th colspan=\"4\">Freshman Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201010\" onclick=\"return showCourse(this, 'COMP SCI 1010');\" title=\"COMP SCI 1010\">COMP SCI 1010</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201200\" onclick=\"return showCourse(this, 'COMP SCI 1200');\" title=\"COMP SCI 1200\">COMP SCI 1200</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201500\" onclick=\"return showCourse(this, 'COMP SCI 1500');\" title=\"COMP SCI 1500\">COMP SCI 1500</a><sup>1</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201570\" onclick=\"return showCourse(this, 'COMP SCI 1570');\" title=\"COMP SCI 1570\">COMP SCI 1570</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201120\" onclick=\"return showCourse(this, 'ENGLISH 1120');\" title=\"ENGLISH 1120\">ENGLISH 1120</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201580\" onclick=\"return showCourse(this, 'COMP SCI 1580');\" title=\"COMP SCI 1580\">COMP SCI 1580</a></td><td class=\"hourscol\">1</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=FR%20ENG%201100\" onclick=\"return showCourse(this, 'FR ENG 1100');\" title=\"FR ENG 1100\">FR ENG 1100</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201160\" onclick=\"return showCourse(this, 'ENGLISH 1160');\" title=\"ENGLISH 1160\">ENGLISH 1160</a> or <a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%203560\" onclick=\"return showCourse(this, 'ENGLISH 3560');\" title=\"ENGLISH 3560\"> 3560</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Lecture-Laboratory Science Elective<sup>2</sup></td><td class=\"hourscol\">4-5</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201300\" onclick=\"return showCourse(this, 'HISTORY 1300');\" title=\"HISTORY 1300\">HISTORY 1300</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201310\" onclick=\"return showCourse(this, 'HISTORY 1310');\" title=\"HISTORY 1310\"> 1310</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201200\" onclick=\"return showCourse(this, 'HISTORY 1200');\" title=\"HISTORY 1200\"> 1200</a>, or <a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%201200\" onclick=\"return showCourse(this, 'POL SCI 1200');\" title=\"POL SCI 1200\">POL SCI  1200</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201214\" onclick=\"return showCourse(this, 'MATH 1214');\" title=\"MATH 1214\">MATH 1214</a> or <a class=\"bubblelink code\" href=\"/search/?P=MATH%201211\" onclick=\"return showCourse(this, 'MATH 1211');\" title=\"MATH 1211\"> 1211</a></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201215\" onclick=\"return showCourse(this, 'MATH 1215');\" title=\"MATH 1215\">MATH 1215</a></td><td class=\"hourscol\">4</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">16-17</td><td> </td><td class=\"hourscol\">17</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Sophomore Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%202210\" onclick=\"return showCourse(this, 'COMP ENG 2210');\" title=\"COMP ENG 2210\">COMP ENG 2210</a><sup>5</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%202300\" onclick=\"return showCourse(this, 'COMP SCI 2300');\" title=\"COMP SCI 2300\">COMP SCI 2300</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201575\" onclick=\"return showCourse(this, 'COMP SCI 1575');\" title=\"COMP SCI 1575\">COMP SCI 1575</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%202500\" onclick=\"return showCourse(this, 'COMP SCI 2500');\" title=\"COMP SCI 2500\">COMP SCI 2500</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201585\" onclick=\"return showCourse(this, 'COMP SCI 1585');\" title=\"COMP SCI 1585\">COMP SCI 1585</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%202580\" onclick=\"return showCourse(this, 'COMP SCI 2580');\" title=\"COMP SCI 2580\">COMP SCI 2580</a></td><td class=\"hourscol\">1</td></tr><tr class=\"odd\"> <td class=\"codecol\">Gen. Ed. Elective<sup>3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%203225\" onclick=\"return showCourse(this, 'PHILOS 3225');\" title=\"PHILOS 3225\">PHILOS 3225</a>, or <a class=\"bubblelink code\" href=\"/search/?P=PHILOS%203235\" onclick=\"return showCourse(this, 'PHILOS 3235');\" title=\"PHILOS 3235\"> 3235</a>, or <a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204340\" onclick=\"return showCourse(this, 'PHILOS 4340');\" title=\"PHILOS 4340\"> 4340</a>, or <a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204368\" onclick=\"return showCourse(this, 'PHILOS 4368');\" title=\"PHILOS 4368\"> 4368</a> (Ethics Elective)<sup>4</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%203108\" onclick=\"return showCourse(this, 'MATH 3108');\" title=\"MATH 3108\">MATH 3108</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">Sci/Eng Elective<sup>7</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Natural Sciences Elective<sup>3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Statistics Elective<sup>6</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">16</td><td> </td><td class=\"hourscol\">16</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Junior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%203100\" onclick=\"return showCourse(this, 'COMP SCI 3100');\" title=\"COMP SCI 3100\">COMP SCI 3100</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%202200\" onclick=\"return showCourse(this, 'COMP SCI 2200');\" title=\"COMP SCI 2200\">COMP SCI 2200</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%203800\" onclick=\"return showCourse(this, 'COMP SCI 3800');\" title=\"COMP SCI 3800\">COMP SCI 3800</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%203610\" onclick=\"return showCourse(this, 'COMP SCI 3610');\" title=\"COMP SCI 3610\">COMP SCI 3610</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%203803\" onclick=\"return showCourse(this, 'COMP SCI 3803');\" title=\"COMP SCI 3803\">COMP SCI 3803</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">Comp Sci Elective<sup>8,9,13,14</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Comp Sci Elective<sup>8,9,13,14</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Sci/Eng Elective <sup>7</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Gen. Ed. Elective<sup>3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%201185\" onclick=\"return showCourse(this, 'SP&amp;M S 1185');\" title=\"SP&amp;M S 1185\">SP&amp;M S 1185</a><sup>10</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Senior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%203500\" onclick=\"return showCourse(this, 'COMP SCI 3500');\" title=\"COMP SCI 3500\">COMP SCI 3500</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%204096\" onclick=\"return showCourse(this, 'COMP SCI 4096');\" title=\"COMP SCI 4096\">COMP SCI 4096</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%204095\" onclick=\"return showCourse(this, 'COMP SCI 4095');\" title=\"COMP SCI 4095\">COMP SCI 4095</a></td><td class=\"hourscol\">1</td><td class=\"codecol\">Comp Sci Elective<sup>8,9,13,14</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%204610\" onclick=\"return showCourse(this, 'COMP SCI 4610');\" title=\"COMP SCI 4610\">COMP SCI 4610</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">Comp Sci Elective<sup>8,9,13</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Comp Sci Elective<sup>8,9,13,14</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Free Elective<sup>9, 11</sup></td><td class=\"hourscol\">4</td></tr><tr class=\"even\"> <td class=\"codecol\">Comp Sci Elective<sup>8, 9</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Gen. Ed. Elective<sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Free Elective<sup>9, 11</sup></td><td class=\"hourscol\">3</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">16</td><td> </td><td class=\"hourscol\">16</td></tr><tr class=\"plangridtotal lastrow\"><td colspan=\"4\">Total Credits: 127-128</td></tr></table>"
+        },
+        {
+            "table_number": 2,
+            "text": "Core Requirements: COMP SCI 3402 Introduction to Data Science 3 COMP SCI 5400 Introduction To Artificial Intelligence 3 COMP SCI 5420 Introduction to Machine Learning 3 Two of the following: COMP SCI 44XX/54XX 12 Any COMP SCI 5001 from a preapproved list approved by the department",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Core Requirements:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 3402",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 3402",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%203402",
+                                    "resolved_course": "COMP SCI 3402"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Introduction to Data Science",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 5400",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 5400",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205400",
+                                    "resolved_course": "COMP SCI 5400"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Introduction To Artificial Intelligence",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 5420",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 5420",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205420",
+                                    "resolved_course": "COMP SCI 5420"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Introduction to Machine Learning",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Two of the following:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 44XX/54XX 12",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Any COMP SCI 5001 from a preapproved list approved by the department",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even areaheader firstrow\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Core Requirements:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%203402\" onclick=\"return showCourse(this, 'COMP SCI 3402');\" title=\"COMP SCI 3402\">COMP SCI 3402</a></td><td>Introduction to Data Science</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205400\" onclick=\"return showCourse(this, 'COMP SCI 5400');\" title=\"COMP SCI 5400\">COMP SCI 5400</a></td><td>Introduction To Artificial Intelligence</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205420\" onclick=\"return showCourse(this, 'COMP SCI 5420');\" title=\"COMP SCI 5420\">COMP SCI 5420</a></td><td>Introduction to Machine Learning</td><td class=\"hourscol\">3</td></tr> <tr class=\"even areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Two of the following:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">COMP SCI 44XX/54XX</span> <sup>12</sup></td><td class=\"hourscol\"></td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">Any COMP SCI 5001 from a preapproved list approved by the department</span></td><td class=\"hourscol\"></td></tr> </tbody></table>"
+        },
+        {
+            "table_number": 3,
+            "text": "Core Requirements: COMP SCI 5602 Introduction to Cryptography 3 COMP SCI 5603 Internet Security 3 COMP SCI 5604 Ethical Hacking 3 One of the following: COMP SCI 3601 Digital Forensics 3 COMP SCI 4700 Intellectual Property For Computer Scientists 3 COMP SCI 5408 Game Theory for Computing 3 COMP SCI 5601 Security Operations & Program Management 3 COMP SCI 5605 AI Security 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Core Requirements:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 5602",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 5602",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205602",
+                                    "resolved_course": "COMP SCI 5602"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Introduction to Cryptography",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 5603",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 5603",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205603",
+                                    "resolved_course": "COMP SCI 5603"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Internet Security",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 5604",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 5604",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205604",
+                                    "resolved_course": "COMP SCI 5604"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Ethical Hacking",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "One of the following:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 3601",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 3601",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%203601",
+                                    "resolved_course": "COMP SCI 3601"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Digital Forensics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 4700",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 4700",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%204700",
+                                    "resolved_course": "COMP SCI 4700"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Intellectual Property For Computer Scientists",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 5408",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 5408",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205408",
+                                    "resolved_course": "COMP SCI 5408"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Game Theory for Computing",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 5601",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 5601",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205601",
+                                    "resolved_course": "COMP SCI 5601"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Security Operations & Program Management",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 10,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 5605",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 5605",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%205605",
+                                    "resolved_course": "COMP SCI 5605"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "AI Security",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even areaheader firstrow\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Core Requirements:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205602\" onclick=\"return showCourse(this, 'COMP SCI 5602');\" title=\"COMP SCI 5602\">COMP SCI 5602</a></td><td>Introduction to Cryptography</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205603\" onclick=\"return showCourse(this, 'COMP SCI 5603');\" title=\"COMP SCI 5603\">COMP SCI 5603</a></td><td>Internet Security</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205604\" onclick=\"return showCourse(this, 'COMP SCI 5604');\" title=\"COMP SCI 5604\">COMP SCI 5604</a></td><td>Ethical Hacking</td><td class=\"hourscol\">3</td></tr> <tr class=\"even areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">One of the following:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%203601\" onclick=\"return showCourse(this, 'COMP SCI 3601');\" title=\"COMP SCI 3601\">COMP SCI 3601</a></td><td>Digital Forensics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%204700\" onclick=\"return showCourse(this, 'COMP SCI 4700');\" title=\"COMP SCI 4700\">COMP SCI 4700</a></td><td>Intellectual Property For Computer Scientists</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205408\" onclick=\"return showCourse(this, 'COMP SCI 5408');\" title=\"COMP SCI 5408\">COMP SCI 5408</a></td><td>Game Theory for Computing</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205601\" onclick=\"return showCourse(this, 'COMP SCI 5601');\" title=\"COMP SCI 5601\">COMP SCI 5601</a></td><td>Security Operations &amp; Program Management</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205605\" onclick=\"return showCourse(this, 'COMP SCI 5605');\" title=\"COMP SCI 5605\">COMP SCI 5605</a></td><td>AI Security</td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        }
+    ],
+    "section_text": "Bachelor of Science Computer Science For the Bachelor of Science degree in Computer Science, a minimum of 127 credit hours is required. This requirement is in addition to credit received for algebra, trigonometry, and basic ROTC courses. An average of at least two grade points per credit hour must be attained. A \"C\" or better grade must be earned in each computer science course used to fulfill B.S. in computer science degree requirements as well as in COMP ENG 2210 and the required ethics elective. Sample Course of Study Freshman Year First Semester Credits Second Semester Credits COMP SCI 1010 1 COMP SCI 1200 3 COMP SCI 1500 1 3 COMP SCI 1570 3 ENGLISH 1120 3 COMP SCI 1580 1 FR ENG 1100 1 ENGLISH 1160 or 3560 3 Lecture-Laboratory Science Elective 2 4-5 HISTORY 1300 , or 1310 , or 1200 , or POL SCI 1200 3 MATH 1214 or 1211 4 MATH 1215 4 16-17 17 Sophomore Year First Semester Credits Second Semester Credits COMP ENG 2210 5 3 COMP SCI 2300 3 COMP SCI 1575 3 COMP SCI 2500 3 COMP SCI 1585 1 COMP SCI 2580 1 Gen. Ed. Elective 3 3 PHILOS 3225 , or 3235 , or 4340 , or 4368 (Ethics Elective) 4 3 MATH 3108 3 Sci/Eng Elective 7 3 Natural Sciences Elective 3 3 Statistics Elective 6 3 16 16 Junior Year First Semester Credits Second Semester Credits COMP SCI 3100 3 COMP SCI 2200 3 COMP SCI 3800 3 COMP SCI 3610 3 COMP SCI 3803 3 Comp Sci Elective 8,9,13,14 3 Comp Sci Elective 8,9,13,14 3 Sci/Eng Elective 7 3 Gen. Ed. Elective 3 3 SP&M S 1185 10 3 15 15 Senior Year First Semester Credits Second Semester Credits COMP SCI 3500 3 COMP SCI 4096 3 COMP SCI 4095 1 Comp Sci Elective 8,9,13,14 3 COMP SCI 4610 3 Comp Sci Elective 8,9,13 3 Comp Sci Elective 8,9,13,14 3 Free Elective 9, 11 4 Comp Sci Elective 8, 9 3 Gen. Ed. Elective 3 3 Free Elective 9, 11 3 16 16 Total Credits: 127-128 Artificial Intelligence Emphasis Area Core Requirements: COMP SCI 3402 Introduction to Data Science 3 COMP SCI 5400 Introduction To Artificial Intelligence 3 COMP SCI 5420 Introduction to Machine Learning 3 Two of the following: COMP SCI 44XX/54XX 12 Any COMP SCI 5001 from a preapproved list approved by the department Cybersecurity Emphasis Area Core Requirements: COMP SCI 5602 Introduction to Cryptography 3 COMP SCI 5603 Internet Security 3 COMP SCI 5604 Ethical Hacking 3 One of the following: COMP SCI 3601 Digital Forensics 3 COMP SCI 4700 Intellectual Property For Computer Scientists 3 COMP SCI 5408 Game Theory for Computing 3 COMP SCI 5601 Security Operations & Program Management 3 COMP SCI 5605 AI Security 3 1 Or COMP SCI 1971 and COMP SCI 1981 . May be awarded credit if (i) a score of 4 or 5 on the AP Computer Science A exam, or (ii) a \"Distinguished\" (490 or above) score on the PLTW Computer Science A End-of-Course exam, along with \"A\" grade in the PLTW CSA high school course. 2 An approved science lecture-laboratory course pair totaling four to five credit hours. The laboratory is mandatory in all cases. The approved course pairs are: BIO SCI 1113 and BIO SCI 1219 ; BIO SCI 1223 and BIO SCI 1229 ; BIO SCI 2213 and BIO SCI 2219 ; CHEM 1310 and CHEM 1319 ; GEOLOGY 1120 and GEOLOGY 1129 ; PHYSICS 1505 and PHYSICS 1509 . 3 General education electives must fulfill the Missouri S&T general education requirements applicable to the student's catalog year. 4 General education discipline specific required ethics course. 5 Laboratory not required. 6 One of STAT 3113 , STAT 3117 , or STAT 5643 . 7 Any six hours chosen from departments that offer a degree associated with either the Discipline Specific Curricula Committee for Sciences or the Discipline Specific Curricula Committee for Engineering, excluding Computer Science. The following courses are also excluded: all 1000-level MATH courses, all STAT courses below 4000-level, all 11xx-level Physics courses, PHYSICS 2111 , and PHYSICS 2119 . However, at most one of PHYSICS 1135 or PHYSICS 1145 , and at most one of PHYSICS 2135 or PHYSICS 2145 are allowed to be counted towards Sci/Eng electives. 8 Eighteen hours of elective COMP SCI courses excluding COMP SCI 2001 - Domain Exploration and Innovation Methods, COMP SCI 2002, COMP SCI 3001 - Skill Development for Entrepreneurs and Innovators, COMP SCI 4001 - Advanced Domain Exploration and Innovation Methods, COMP SCI 4001 - Interpersonal Dynamics for Entrepreneurs and Innovators, COMP SCI 4700 , and all COMP SCI x9xx courses. At least nine hours must be 5000-level or higher. At least nine hours must be lecture courses. 9 COMP SCI 4010 can be counted as Computer Science Elective or Free Elective, limited to three times. 10 General education discipline specific required course SP&M S 1185 or one of the two complete four-course sequences in Advanced ROTC ( MIL ARMY 3250 , MIL ARMY 3500 , MIL ARMY 4250 , and MIL ARMY 4500 ; or MIL AIR 3110 , MIL AIR 3120 , MIL AIR 4110 , MIL AIR 4120 ). 11 Courses chosen from any discipline so that a minimum of 127 hours are completed. These and only these courses may be taken pass/fail and only one course may be taken pass/fail each semester. The following courses are excluded: all 1000-level MATH courses, all STAT courses below 4000-level, all 11xx-level Physics courses, PHYSICS 2111 , PHYSICS 2119 , PHYSICS 2135 , PHYSICS 2145 , any COMP SCI x9xx courses, and the first two years of ROTC. 12 Any of the Comp Sci 44XX/54XX courses will be counted, excluding the following three courses: COMP SCI 5405 , COMP SCI 5406 and COMP SCI 5407 . 13 Students may choose to obtain a Computer Science degree with an emphasis area in Artificial Intelligence by completing the requirements for the emphasis area as Comp Sci Electives. 14 Students may choose to obtain a Computer Science degree with an emphasis area in Cybersecurity by completing the requirements for the emphasis area as Comp Sci Electives.",
+    "section_html": "<div class=\"tab_content\" id=\"bachelorstextcontainer\">\n<a name=\"bachelorstext\"></a><h2>Bachelor of Science<br/> Computer Science</h2> <p><span>For the Bachelor of Science degree in Computer Science, a minimum of 127 credit hours is required. This requirement is in addition to credit received for algebra, trigonometry, and basic ROTC courses. An average of at least two grade points per credit hour must be attained. A \"C\" or better grade must be earned in each computer science course used to fulfill B.S. in computer science degree requirements as well as in </span><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%202210\" onclick=\"return showCourse(this, 'COMP ENG 2210');\" title=\"COMP ENG 2210\">COMP ENG 2210</a></span><span> and the required ethics elective.</span></p> <h3>Sample Course of Study</h3> <table class=\"sc_plangrid\"><tr class=\"plangridyear firstrow\"><th colspan=\"4\">Freshman Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201010\" onclick=\"return showCourse(this, 'COMP SCI 1010');\" title=\"COMP SCI 1010\">COMP SCI 1010</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201200\" onclick=\"return showCourse(this, 'COMP SCI 1200');\" title=\"COMP SCI 1200\">COMP SCI 1200</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201500\" onclick=\"return showCourse(this, 'COMP SCI 1500');\" title=\"COMP SCI 1500\">COMP SCI 1500</a><sup>1</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201570\" onclick=\"return showCourse(this, 'COMP SCI 1570');\" title=\"COMP SCI 1570\">COMP SCI 1570</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201120\" onclick=\"return showCourse(this, 'ENGLISH 1120');\" title=\"ENGLISH 1120\">ENGLISH 1120</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201580\" onclick=\"return showCourse(this, 'COMP SCI 1580');\" title=\"COMP SCI 1580\">COMP SCI 1580</a></td><td class=\"hourscol\">1</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=FR%20ENG%201100\" onclick=\"return showCourse(this, 'FR ENG 1100');\" title=\"FR ENG 1100\">FR ENG 1100</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201160\" onclick=\"return showCourse(this, 'ENGLISH 1160');\" title=\"ENGLISH 1160\">ENGLISH 1160</a> or <a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%203560\" onclick=\"return showCourse(this, 'ENGLISH 3560');\" title=\"ENGLISH 3560\"> 3560</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Lecture-Laboratory Science Elective<sup>2</sup></td><td class=\"hourscol\">4-5</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201300\" onclick=\"return showCourse(this, 'HISTORY 1300');\" title=\"HISTORY 1300\">HISTORY 1300</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201310\" onclick=\"return showCourse(this, 'HISTORY 1310');\" title=\"HISTORY 1310\"> 1310</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201200\" onclick=\"return showCourse(this, 'HISTORY 1200');\" title=\"HISTORY 1200\"> 1200</a>, or <a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%201200\" onclick=\"return showCourse(this, 'POL SCI 1200');\" title=\"POL SCI 1200\">POL SCI  1200</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201214\" onclick=\"return showCourse(this, 'MATH 1214');\" title=\"MATH 1214\">MATH 1214</a> or <a class=\"bubblelink code\" href=\"/search/?P=MATH%201211\" onclick=\"return showCourse(this, 'MATH 1211');\" title=\"MATH 1211\"> 1211</a></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201215\" onclick=\"return showCourse(this, 'MATH 1215');\" title=\"MATH 1215\">MATH 1215</a></td><td class=\"hourscol\">4</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">16-17</td><td> </td><td class=\"hourscol\">17</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Sophomore Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20ENG%202210\" onclick=\"return showCourse(this, 'COMP ENG 2210');\" title=\"COMP ENG 2210\">COMP ENG 2210</a><sup>5</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%202300\" onclick=\"return showCourse(this, 'COMP SCI 2300');\" title=\"COMP SCI 2300\">COMP SCI 2300</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201575\" onclick=\"return showCourse(this, 'COMP SCI 1575');\" title=\"COMP SCI 1575\">COMP SCI 1575</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%202500\" onclick=\"return showCourse(this, 'COMP SCI 2500');\" title=\"COMP SCI 2500\">COMP SCI 2500</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201585\" onclick=\"return showCourse(this, 'COMP SCI 1585');\" title=\"COMP SCI 1585\">COMP SCI 1585</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%202580\" onclick=\"return showCourse(this, 'COMP SCI 2580');\" title=\"COMP SCI 2580\">COMP SCI 2580</a></td><td class=\"hourscol\">1</td></tr><tr class=\"odd\"> <td class=\"codecol\">Gen. Ed. Elective<sup>3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%203225\" onclick=\"return showCourse(this, 'PHILOS 3225');\" title=\"PHILOS 3225\">PHILOS 3225</a>, or <a class=\"bubblelink code\" href=\"/search/?P=PHILOS%203235\" onclick=\"return showCourse(this, 'PHILOS 3235');\" title=\"PHILOS 3235\"> 3235</a>, or <a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204340\" onclick=\"return showCourse(this, 'PHILOS 4340');\" title=\"PHILOS 4340\"> 4340</a>, or <a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204368\" onclick=\"return showCourse(this, 'PHILOS 4368');\" title=\"PHILOS 4368\"> 4368</a> (Ethics Elective)<sup>4</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%203108\" onclick=\"return showCourse(this, 'MATH 3108');\" title=\"MATH 3108\">MATH 3108</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">Sci/Eng Elective<sup>7</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Natural Sciences Elective<sup>3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Statistics Elective<sup>6</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">16</td><td> </td><td class=\"hourscol\">16</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Junior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%203100\" onclick=\"return showCourse(this, 'COMP SCI 3100');\" title=\"COMP SCI 3100\">COMP SCI 3100</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%202200\" onclick=\"return showCourse(this, 'COMP SCI 2200');\" title=\"COMP SCI 2200\">COMP SCI 2200</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%203800\" onclick=\"return showCourse(this, 'COMP SCI 3800');\" title=\"COMP SCI 3800\">COMP SCI 3800</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%203610\" onclick=\"return showCourse(this, 'COMP SCI 3610');\" title=\"COMP SCI 3610\">COMP SCI 3610</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%203803\" onclick=\"return showCourse(this, 'COMP SCI 3803');\" title=\"COMP SCI 3803\">COMP SCI 3803</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">Comp Sci Elective<sup>8,9,13,14</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Comp Sci Elective<sup>8,9,13,14</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Sci/Eng Elective <sup>7</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Gen. Ed. Elective<sup>3</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%201185\" onclick=\"return showCourse(this, 'SP&amp;M S 1185');\" title=\"SP&amp;M S 1185\">SP&amp;M S 1185</a><sup>10</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Senior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%203500\" onclick=\"return showCourse(this, 'COMP SCI 3500');\" title=\"COMP SCI 3500\">COMP SCI 3500</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%204096\" onclick=\"return showCourse(this, 'COMP SCI 4096');\" title=\"COMP SCI 4096\">COMP SCI 4096</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%204095\" onclick=\"return showCourse(this, 'COMP SCI 4095');\" title=\"COMP SCI 4095\">COMP SCI 4095</a></td><td class=\"hourscol\">1</td><td class=\"codecol\">Comp Sci Elective<sup>8,9,13,14</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%204610\" onclick=\"return showCourse(this, 'COMP SCI 4610');\" title=\"COMP SCI 4610\">COMP SCI 4610</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">Comp Sci Elective<sup>8,9,13</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Comp Sci Elective<sup>8,9,13,14</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Free Elective<sup>9, 11</sup></td><td class=\"hourscol\">4</td></tr><tr class=\"even\"> <td class=\"codecol\">Comp Sci Elective<sup>8, 9</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Gen. Ed. Elective<sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Free Elective<sup>9, 11</sup></td><td class=\"hourscol\">3</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">16</td><td> </td><td class=\"hourscol\">16</td></tr><tr class=\"plangridtotal lastrow\"><td colspan=\"4\">Total Credits: 127-128</td></tr></table> <h3>Artificial Intelligence Emphasis Area</h3> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even areaheader firstrow\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Core Requirements:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%203402\" onclick=\"return showCourse(this, 'COMP SCI 3402');\" title=\"COMP SCI 3402\">COMP SCI 3402</a></td><td>Introduction to Data Science</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205400\" onclick=\"return showCourse(this, 'COMP SCI 5400');\" title=\"COMP SCI 5400\">COMP SCI 5400</a></td><td>Introduction To Artificial Intelligence</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205420\" onclick=\"return showCourse(this, 'COMP SCI 5420');\" title=\"COMP SCI 5420\">COMP SCI 5420</a></td><td>Introduction to Machine Learning</td><td class=\"hourscol\">3</td></tr> <tr class=\"even areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Two of the following:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">COMP SCI 44XX/54XX</span> <sup>12</sup></td><td class=\"hourscol\"></td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">Any COMP SCI 5001 from a preapproved list approved by the department</span></td><td class=\"hourscol\"></td></tr> </tbody></table> <h3>Cybersecurity Emphasis Area</h3> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even areaheader firstrow\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">Core Requirements:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205602\" onclick=\"return showCourse(this, 'COMP SCI 5602');\" title=\"COMP SCI 5602\">COMP SCI 5602</a></td><td>Introduction to Cryptography</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205603\" onclick=\"return showCourse(this, 'COMP SCI 5603');\" title=\"COMP SCI 5603\">COMP SCI 5603</a></td><td>Internet Security</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205604\" onclick=\"return showCourse(this, 'COMP SCI 5604');\" title=\"COMP SCI 5604\">COMP SCI 5604</a></td><td>Ethical Hacking</td><td class=\"hourscol\">3</td></tr> <tr class=\"even areaheader\"><td colspan=\"2\"><span class=\"courselistcomment areaheader\">One of the following:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%203601\" onclick=\"return showCourse(this, 'COMP SCI 3601');\" title=\"COMP SCI 3601\">COMP SCI 3601</a></td><td>Digital Forensics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%204700\" onclick=\"return showCourse(this, 'COMP SCI 4700');\" title=\"COMP SCI 4700\">COMP SCI 4700</a></td><td>Intellectual Property For Computer Scientists</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205408\" onclick=\"return showCourse(this, 'COMP SCI 5408');\" title=\"COMP SCI 5408\">COMP SCI 5408</a></td><td>Game Theory for Computing</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205601\" onclick=\"return showCourse(this, 'COMP SCI 5601');\" title=\"COMP SCI 5601\">COMP SCI 5601</a></td><td>Security Operations &amp; Program Management</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205605\" onclick=\"return showCourse(this, 'COMP SCI 5605');\" title=\"COMP SCI 5605\">COMP SCI 5605</a></td><td>AI Security</td><td class=\"hourscol\">3</td></tr> </tbody></table> <dl aria-label=\"Footnotes\" class=\"sc_footnotes\"><dt> <sup> 1 </sup> </dt><dd><p class=\"noindent\">Or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201971\" onclick=\"return showCourse(this, 'COMP SCI 1971');\" title=\"COMP SCI 1971\">COMP SCI 1971</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201981\" onclick=\"return showCourse(this, 'COMP SCI 1981');\" title=\"COMP SCI 1981\">COMP SCI 1981</a></span>. May be awarded credit if (i) a score of 4 or 5 on the AP Computer Science A exam, or (ii) a \"Distinguished\" (490 or above) score on the PLTW Computer Science A End-of-Course exam, along with \"A\" grade in the PLTW CSA high school course.</p></dd><dt> <sup> 2 </sup> </dt><dd><p class=\"noindent\">An approved science lecture-laboratory course pair totaling four to five credit hours. The laboratory is mandatory in all cases. The approved course pairs are: <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201113\" onclick=\"return showCourse(this, 'BIO SCI 1113');\" title=\"BIO SCI 1113\">BIO SCI 1113</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201219\" onclick=\"return showCourse(this, 'BIO SCI 1219');\" title=\"BIO SCI 1219\">BIO SCI 1219</a></span>; <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201223\" onclick=\"return showCourse(this, 'BIO SCI 1223');\" title=\"BIO SCI 1223\">BIO SCI 1223</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201229\" onclick=\"return showCourse(this, 'BIO SCI 1229');\" title=\"BIO SCI 1229\">BIO SCI 1229</a></span>; <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%202213\" onclick=\"return showCourse(this, 'BIO SCI 2213');\" title=\"BIO SCI 2213\">BIO SCI 2213</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%202219\" onclick=\"return showCourse(this, 'BIO SCI 2219');\" title=\"BIO SCI 2219\">BIO SCI 2219</a></span>; <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201310\" onclick=\"return showCourse(this, 'CHEM 1310');\" title=\"CHEM 1310\">CHEM 1310</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201319\" onclick=\"return showCourse(this, 'CHEM 1319');\" title=\"CHEM 1319\">CHEM 1319</a></span>; <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%201120\" onclick=\"return showCourse(this, 'GEOLOGY 1120');\" title=\"GEOLOGY 1120\">GEOLOGY 1120</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%201129\" onclick=\"return showCourse(this, 'GEOLOGY 1129');\" title=\"GEOLOGY 1129\">GEOLOGY 1129</a></span>; <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201505\" onclick=\"return showCourse(this, 'PHYSICS 1505');\" title=\"PHYSICS 1505\">PHYSICS 1505</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201509\" onclick=\"return showCourse(this, 'PHYSICS 1509');\" title=\"PHYSICS 1509\">PHYSICS 1509</a></span>.</p></dd><dt> <sup> 3 </sup> </dt><dd><p class=\"noindent\">General education electives must fulfill the Missouri S&amp;T general education requirements applicable to the student's catalog year.</p></dd><dt> <sup> 4 </sup> </dt><dd><p class=\"noindent\">General education discipline specific required ethics course.</p></dd><dt> <sup> 5 </sup> </dt><dd><p class=\"noindent\">Laboratory not required.</p></dd><dt> <sup> 6 </sup> </dt><dd><p class=\"noindent\">One of <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%203113\" onclick=\"return showCourse(this, 'STAT 3113');\" title=\"STAT 3113\">STAT 3113</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%203117\" onclick=\"return showCourse(this, 'STAT 3117');\" title=\"STAT 3117\">STAT 3117</a></span>, or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=STAT%205643\" onclick=\"return showCourse(this, 'STAT 5643');\" title=\"STAT 5643\">STAT 5643</a></span>.</p></dd><dt> <sup> 7 </sup> </dt><dd><p class=\"noindent\">Any six hours chosen from departments that offer a degree associated with either the Discipline Specific Curricula Committee for Sciences or the Discipline Specific Curricula Committee for Engineering, excluding Computer Science. The following courses are also excluded: all 1000-level MATH courses, all STAT courses below 4000-level, all 11xx-level Physics courses, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202111\" onclick=\"return showCourse(this, 'PHYSICS 2111');\" title=\"PHYSICS 2111\">PHYSICS 2111</a></span>, and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202119\" onclick=\"return showCourse(this, 'PHYSICS 2119');\" title=\"PHYSICS 2119\">PHYSICS 2119</a></span>. However, at most one of <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201135\" onclick=\"return showCourse(this, 'PHYSICS 1135');\" title=\"PHYSICS 1135\">PHYSICS 1135</a></span> or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201145\" onclick=\"return showCourse(this, 'PHYSICS 1145');\" title=\"PHYSICS 1145\">PHYSICS 1145</a></span>, and at most one of <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202135\" onclick=\"return showCourse(this, 'PHYSICS 2135');\" title=\"PHYSICS 2135\">PHYSICS 2135</a></span> or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202145\" onclick=\"return showCourse(this, 'PHYSICS 2145');\" title=\"PHYSICS 2145\">PHYSICS 2145</a></span> are allowed to be counted towards Sci/Eng electives.</p></dd><dt> <sup> 8 </sup> </dt><dd><p class=\"noindent\">Eighteen hours of elective COMP SCI courses excluding <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%202001\" onclick=\"return showCourse(this, 'COMP SCI 2001');\" title=\"COMP SCI 2001\">COMP SCI 2001</a></span> - Domain Exploration and Innovation Methods, COMP SCI 2002, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%203001\" onclick=\"return showCourse(this, 'COMP SCI 3001');\" title=\"COMP SCI 3001\">COMP SCI 3001</a></span> - Skill Development for Entrepreneurs and Innovators, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%204001\" onclick=\"return showCourse(this, 'COMP SCI 4001');\" title=\"COMP SCI 4001\">COMP SCI 4001</a></span> - Advanced Domain Exploration and Innovation Methods, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%204001\" onclick=\"return showCourse(this, 'COMP SCI 4001');\" title=\"COMP SCI 4001\">COMP SCI 4001</a></span> - Interpersonal Dynamics for Entrepreneurs and Innovators, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%204700\" onclick=\"return showCourse(this, 'COMP SCI 4700');\" title=\"COMP SCI 4700\">COMP SCI 4700</a></span>, and all COMP SCI x9xx courses. At least nine hours must be 5000-level or higher. At least nine hours must be lecture courses.</p></dd><dt> <sup> 9 </sup> </dt><dd><p class=\"noindent\"><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%204010\" onclick=\"return showCourse(this, 'COMP SCI 4010');\" title=\"COMP SCI 4010\">COMP SCI 4010</a></span> can be counted as Computer Science Elective or Free Elective, limited to three times.</p></dd><dt> <sup> 10 </sup> </dt><dd><p class=\"noindent\">General education discipline specific required course <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%201185\" onclick=\"return showCourse(this, 'SP&amp;M S 1185');\" title=\"SP&amp;M S 1185\">SP&amp;M S 1185</a></span> or one of the two complete four-course sequences in Advanced ROTC (<span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20ARMY%203250\" onclick=\"return showCourse(this, 'MIL ARMY 3250');\" title=\"MIL ARMY 3250\">MIL ARMY 3250</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20ARMY%203500\" onclick=\"return showCourse(this, 'MIL ARMY 3500');\" title=\"MIL ARMY 3500\">MIL ARMY 3500</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20ARMY%204250\" onclick=\"return showCourse(this, 'MIL ARMY 4250');\" title=\"MIL ARMY 4250\">MIL ARMY 4250</a></span>, and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20ARMY%204500\" onclick=\"return showCourse(this, 'MIL ARMY 4500');\" title=\"MIL ARMY 4500\">MIL ARMY 4500</a></span>; or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20AIR%203110\" onclick=\"return showCourse(this, 'MIL AIR 3110');\" title=\"MIL AIR 3110\">MIL AIR 3110</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20AIR%203120\" onclick=\"return showCourse(this, 'MIL AIR 3120');\" title=\"MIL AIR 3120\">MIL AIR 3120</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20AIR%204110\" onclick=\"return showCourse(this, 'MIL AIR 4110');\" title=\"MIL AIR 4110\">MIL AIR 4110</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MIL%20AIR%204120\" onclick=\"return showCourse(this, 'MIL AIR 4120');\" title=\"MIL AIR 4120\">MIL AIR 4120</a></span>).</p></dd><dt> <sup> 11 </sup> </dt><dd><p class=\"noindent\">Courses chosen from any discipline so that a minimum of 127 hours are completed. These and only these courses may be taken pass/fail and only one course may be taken pass/fail each semester. The following courses are excluded: all 1000-level MATH courses, all STAT courses below 4000-level, all 11xx-level Physics courses, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202111\" onclick=\"return showCourse(this, 'PHYSICS 2111');\" title=\"PHYSICS 2111\">PHYSICS 2111</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202119\" onclick=\"return showCourse(this, 'PHYSICS 2119');\" title=\"PHYSICS 2119\">PHYSICS 2119</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202135\" onclick=\"return showCourse(this, 'PHYSICS 2135');\" title=\"PHYSICS 2135\">PHYSICS 2135</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202145\" onclick=\"return showCourse(this, 'PHYSICS 2145');\" title=\"PHYSICS 2145\">PHYSICS 2145</a></span>, any COMP SCI x9xx courses, and the first two years of ROTC.</p></dd><dt> <sup> 12 </sup> </dt><dd><p class=\"noindent\">Any of the Comp Sci 44XX/54XX courses will be counted, excluding the following three courses: <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205405\" onclick=\"return showCourse(this, 'COMP SCI 5405');\" title=\"COMP SCI 5405\">COMP SCI 5405</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205406\" onclick=\"return showCourse(this, 'COMP SCI 5406');\" title=\"COMP SCI 5406\">COMP SCI 5406</a></span> and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%205407\" onclick=\"return showCourse(this, 'COMP SCI 5407');\" title=\"COMP SCI 5407\">COMP SCI 5407</a></span>.</p></dd><dt> <sup> 13 </sup> </dt><dd><p class=\"noindent\">Students may choose to obtain a Computer Science degree with an emphasis area in Artificial Intelligence by completing the requirements for the emphasis area as Comp Sci Electives.</p></dd><dt> <sup> 14 </sup> </dt><dd><p class=\"noindent\">Students may choose to obtain a Computer Science degree with an emphasis area in Cybersecurity by completing the requirements for the emphasis area as Comp Sci Electives.</p></dd></dl>\n</div>"
+}

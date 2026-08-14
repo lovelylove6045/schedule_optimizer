@@ -121,6 +121,7 @@ CREATE TABLE public.requirement_nodes (
   minimum_distinct_subjects integer CHECK (minimum_distinct_subjects IS NULL OR minimum_distinct_subjects > 0),
   display_order integer,
   is_active boolean NOT NULL DEFAULT true,
+  source_text text,
   CONSTRAINT requirement_nodes_pkey PRIMARY KEY (requirement_node_id),
   CONSTRAINT requirement_nodes_set_fk FOREIGN KEY (requirement_set_id) REFERENCES public.requirement_sets(requirement_set_id),
   CONSTRAINT requirement_nodes_parent_fk FOREIGN KEY (parent_requirement_node_id) REFERENCES public.requirement_nodes(requirement_node_id),

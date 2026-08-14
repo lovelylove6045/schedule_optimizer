@@ -1,0 +1,444 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/computerscience/#minorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/computerscience/",
+        "fragment": "minorstext",
+        "page_slug": "computerscience",
+        "page_title": "Computer Science < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 1123,
+        "html_character_count": 3513,
+        "heading_count": 1,
+        "paragraph_count": 2,
+        "list_count": 0,
+        "table_count": 1,
+        "link_count": 6,
+        "superscript_count": 0,
+        "text_sha256": "7021efce69af612104ab5aa8d44fb0cde59c9912e5c22c01c83908095fc4de62",
+        "html_sha256": "76f66edb068431e871f82e43e740f7cd9689b2864d5a2a31fba011bc8da7ed3d"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Computer Science Minor Curriculum",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "COMP SCI 1500",
+            "href": "/search/?P=COMP%20SCI%201500",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201500",
+            "resolved_course": "COMP SCI 1500"
+        },
+        {
+            "number": 2,
+            "text": "COMP SCI 1570",
+            "href": "/search/?P=COMP%20SCI%201570",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201570",
+            "resolved_course": "COMP SCI 1570"
+        },
+        {
+            "number": 3,
+            "text": "COMP SCI 1575",
+            "href": "/search/?P=COMP%20SCI%201575",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201575",
+            "resolved_course": "COMP SCI 1575"
+        },
+        {
+            "number": 4,
+            "text": "COMP SCI 1580",
+            "href": "/search/?P=COMP%20SCI%201580",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201580",
+            "resolved_course": "COMP SCI 1580"
+        },
+        {
+            "number": 5,
+            "text": "COMP SCI 1585",
+            "href": "/search/?P=COMP%20SCI%201585",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201585",
+            "resolved_course": "COMP SCI 1585"
+        },
+        {
+            "number": 6,
+            "text": "COMP SCI 4700",
+            "href": "/search/?P=COMP%20SCI%204700",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%204700",
+            "resolved_course": "COMP SCI 4700"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "A \"C\" or better grade in the following core courses: COMP SCI 1500 Computational Problem Solving (Note that COMP SCI 1500 will be waived in lieu of a score of 4 or 5 on the AP Computer Science A exam and no additional credit hours will be required.) 3 COMP SCI 1570 Introduction To C++ Programming 3 COMP SCI 1575 Data Structures 3 COMP SCI 1580 Introduction To Programming Laboratory 1 COMP SCI 1585 Data Structures Laboratory 1 A \"C\" or better grade in at least 9 credit hours of COMP SCI courses in addition to the above listed core courses, excluding: COMP SCI 2001 - Domain Exploration and Innovation Methods COMP SCI 3001 - Skill Development for Entrepreneurs and Innovators COMP SCI 4001 - Advanced Domain Exploration and Innovation Methods COMP SCI 4001 - Interpersonal Dynamics for Entrepreneurs and Innovators COMP SCI 4700 Intellectual Property For Computer Scientists 3 All COMP SCI x9xx courses",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "A \"C\" or better grade in the following core courses:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 1500",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 1500",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201500",
+                                    "resolved_course": "COMP SCI 1500"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Computational Problem Solving (Note that COMP SCI 1500 will be waived in lieu of a score of 4 or 5 on the AP Computer Science A exam and no additional credit hours will be required.)",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 1570",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 1570",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201570",
+                                    "resolved_course": "COMP SCI 1570"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Introduction To C++ Programming",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 1575",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 1575",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201575",
+                                    "resolved_course": "COMP SCI 1575"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Data Structures",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 1580",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 1580",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201580",
+                                    "resolved_course": "COMP SCI 1580"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Introduction To Programming Laboratory",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 1585",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 1585",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201585",
+                                    "resolved_course": "COMP SCI 1585"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Data Structures Laboratory",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "A \"C\" or better grade in at least 9 credit hours of COMP SCI courses in addition to the above listed core courses, excluding:",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 2001 - Domain Exploration and Innovation Methods",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 3001 - Skill Development for Entrepreneurs and Innovators",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 10,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 4001 - Advanced Domain Exploration and Innovation Methods",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 11,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 4001 - Interpersonal Dynamics for Entrepreneurs and Innovators",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 12,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 4700",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 4700",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%204700",
+                                    "resolved_course": "COMP SCI 4700"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Intellectual Property For Computer Scientists",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 13,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "All COMP SCI x9xx courses",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td colspan=\"2\"><span class=\"courselistcomment\">A \"C\" or better grade in the following core courses: </span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201500\" onclick=\"return showCourse(this, 'COMP SCI 1500');\" title=\"COMP SCI 1500\">COMP SCI 1500</a></td><td>Computational Problem Solving (Note that COMP SCI 1500 will be waived in lieu of a score of 4 or 5 on the AP Computer Science A exam and no additional credit hours will be required.)</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201570\" onclick=\"return showCourse(this, 'COMP SCI 1570');\" title=\"COMP SCI 1570\">COMP SCI 1570</a></td><td>Introduction To C++ Programming</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201575\" onclick=\"return showCourse(this, 'COMP SCI 1575');\" title=\"COMP SCI 1575\">COMP SCI 1575</a></td><td>Data Structures</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201580\" onclick=\"return showCourse(this, 'COMP SCI 1580');\" title=\"COMP SCI 1580\">COMP SCI 1580</a></td><td>Introduction To Programming Laboratory</td><td class=\"hourscol\">1</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201585\" onclick=\"return showCourse(this, 'COMP SCI 1585');\" title=\"COMP SCI 1585\">COMP SCI 1585</a></td><td>Data Structures Laboratory</td><td class=\"hourscol\">1</td></tr> <tr class=\"even\"><td colspan=\"2\"><span class=\"courselistcomment\">A \"C\" or better grade in at least 9 credit hours of COMP SCI courses in addition to the above listed core courses, excluding:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">COMP SCI 2001 - Domain Exploration and Innovation Methods</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td colspan=\"2\"><span class=\"courselistcomment\">COMP SCI 3001 - Skill Development for Entrepreneurs and Innovators</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">COMP SCI 4001 - Advanced Domain Exploration and Innovation Methods</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td colspan=\"2\"><span class=\"courselistcomment\">COMP SCI 4001 - Interpersonal Dynamics for Entrepreneurs and Innovators</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%204700\" onclick=\"return showCourse(this, 'COMP SCI 4700');\" title=\"COMP SCI 4700\">COMP SCI 4700</a></td><td>Intellectual Property For Computer Scientists</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">All COMP SCI x9xx courses</span></td><td class=\"hourscol\"></td></tr> </tbody></table>"
+        }
+    ],
+    "section_text": "Computer Science Minor Curriculum A student with a minor in computer science must meet the following requirements: A \"C\" or better grade in the following core courses: COMP SCI 1500 Computational Problem Solving (Note that COMP SCI 1500 will be waived in lieu of a score of 4 or 5 on the AP Computer Science A exam and no additional credit hours will be required.) 3 COMP SCI 1570 Introduction To C++ Programming 3 COMP SCI 1575 Data Structures 3 COMP SCI 1580 Introduction To Programming Laboratory 1 COMP SCI 1585 Data Structures Laboratory 1 A \"C\" or better grade in at least 9 credit hours of COMP SCI courses in addition to the above listed core courses, excluding: COMP SCI 2001 - Domain Exploration and Innovation Methods COMP SCI 3001 - Skill Development for Entrepreneurs and Innovators COMP SCI 4001 - Advanced Domain Exploration and Innovation Methods COMP SCI 4001 - Interpersonal Dynamics for Entrepreneurs and Innovators COMP SCI 4700 Intellectual Property For Computer Scientists 3 All COMP SCI x9xx courses At most 6 credit hours can be transfer credits and transfer classes must show a \"C\" or better grade.",
+    "section_html": "<div class=\"tab_content\" id=\"minorstextcontainer\">\n<a name=\"minorstext\"></a><h2>Computer Science Minor Curriculum</h2> <p>A student with a minor in computer science must meet the following requirements:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td colspan=\"2\"><span class=\"courselistcomment\">A \"C\" or better grade in the following core courses: </span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201500\" onclick=\"return showCourse(this, 'COMP SCI 1500');\" title=\"COMP SCI 1500\">COMP SCI 1500</a></td><td>Computational Problem Solving (Note that COMP SCI 1500 will be waived in lieu of a score of 4 or 5 on the AP Computer Science A exam and no additional credit hours will be required.)</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201570\" onclick=\"return showCourse(this, 'COMP SCI 1570');\" title=\"COMP SCI 1570\">COMP SCI 1570</a></td><td>Introduction To C++ Programming</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201575\" onclick=\"return showCourse(this, 'COMP SCI 1575');\" title=\"COMP SCI 1575\">COMP SCI 1575</a></td><td>Data Structures</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201580\" onclick=\"return showCourse(this, 'COMP SCI 1580');\" title=\"COMP SCI 1580\">COMP SCI 1580</a></td><td>Introduction To Programming Laboratory</td><td class=\"hourscol\">1</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201585\" onclick=\"return showCourse(this, 'COMP SCI 1585');\" title=\"COMP SCI 1585\">COMP SCI 1585</a></td><td>Data Structures Laboratory</td><td class=\"hourscol\">1</td></tr> <tr class=\"even\"><td colspan=\"2\"><span class=\"courselistcomment\">A \"C\" or better grade in at least 9 credit hours of COMP SCI courses in addition to the above listed core courses, excluding:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">COMP SCI 2001 - Domain Exploration and Innovation Methods</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td colspan=\"2\"><span class=\"courselistcomment\">COMP SCI 3001 - Skill Development for Entrepreneurs and Innovators</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">COMP SCI 4001 - Advanced Domain Exploration and Innovation Methods</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td colspan=\"2\"><span class=\"courselistcomment\">COMP SCI 4001 - Interpersonal Dynamics for Entrepreneurs and Innovators</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%204700\" onclick=\"return showCourse(this, 'COMP SCI 4700');\" title=\"COMP SCI 4700\">COMP SCI 4700</a></td><td>Intellectual Property For Computer Scientists</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">All COMP SCI x9xx courses</span></td><td class=\"hourscol\"></td></tr> </tbody></table> <p><span>At most 6 credit hours can be transfer credits and transfer classes must show a \"C\" or better grade.</span></p>\n</div>"
+}

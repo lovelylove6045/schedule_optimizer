@@ -1,0 +1,262 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/geologicalengineering/#minortext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/geologicalengineering/",
+        "fragment": "minortext",
+        "page_slug": "geologicalengineering",
+        "page_title": "Geological Engineering < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=minortextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 662,
+        "html_character_count": 2399,
+        "heading_count": 1,
+        "paragraph_count": 3,
+        "list_count": 0,
+        "table_count": 1,
+        "link_count": 5,
+        "superscript_count": 4,
+        "text_sha256": "e7b0f0493cdb2460988633d1f14da821e64c3200203345f95b5b662df70809e6",
+        "html_sha256": "2290d72f74a14ad6d8fcfc10f800f9f2bee6c079a66dfb3b4e8bc041f77f4c77"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Geological Engineering Minor",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "GEO ENG 1150",
+            "href": "/search/?P=GEO%20ENG%201150",
+            "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%201150",
+            "resolved_course": "GEO ENG 1150"
+        },
+        {
+            "number": 2,
+            "text": "GEO ENG 3175",
+            "href": "/search/?P=GEO%20ENG%203175",
+            "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%203175",
+            "resolved_course": "GEO ENG 3175"
+        },
+        {
+            "number": 3,
+            "text": "GEO ENG 5331",
+            "href": "/search/?P=GEO%20ENG%205331",
+            "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%205331",
+            "resolved_course": "GEO ENG 5331"
+        },
+        {
+            "number": 4,
+            "text": "GEO ENG 5441",
+            "href": "/search/?P=GEO%20ENG%205441",
+            "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%205441",
+            "resolved_course": "GEO ENG 5441"
+        },
+        {
+            "number": 5,
+            "text": "GEOLOGY 1110",
+            "href": "/search/?P=GEOLOGY%201110",
+            "url": "https://catalog.mst.edu/search/?P=GEOLOGY%201110",
+            "resolved_course": "GEOLOGY 1110"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "GEO ENG 1150 Physical and Environmental Geology 1 3 GEO ENG 3175 Geomorphology And Terrain Analysis 3 GEO ENG 5331 Subsurface Hydrology 3 GEO ENG 5441 Engineering Geology And Geotechnics 3 GEO ENG Elective 2 3 Total Credits 15",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "GEO ENG 1150",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "GEO ENG 1150",
+                                    "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%201150",
+                                    "resolved_course": "GEO ENG 1150"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Physical and Environmental Geology 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "GEO ENG 3175",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "GEO ENG 3175",
+                                    "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%203175",
+                                    "resolved_course": "GEO ENG 3175"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Geomorphology And Terrain Analysis",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "GEO ENG 5331",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "GEO ENG 5331",
+                                    "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%205331",
+                                    "resolved_course": "GEO ENG 5331"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Subsurface Hydrology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "GEO ENG 5441",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "GEO ENG 5441",
+                                    "url": "https://catalog.mst.edu/search/?P=GEO%20ENG%205441",
+                                    "resolved_course": "GEO ENG 5441"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Engineering Geology And Geotechnics",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "GEO ENG Elective 2",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Total Credits",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%201150\" onclick=\"return showCourse(this, 'GEO ENG 1150');\" title=\"GEO ENG 1150\">GEO ENG 1150</a></td><td>Physical and Environmental Geology <sup>1</sup></td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%203175\" onclick=\"return showCourse(this, 'GEO ENG 3175');\" title=\"GEO ENG 3175\">GEO ENG 3175</a></td><td>Geomorphology And Terrain Analysis</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%205331\" onclick=\"return showCourse(this, 'GEO ENG 5331');\" title=\"GEO ENG 5331\">GEO ENG 5331</a></td><td>Subsurface Hydrology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%205441\" onclick=\"return showCourse(this, 'GEO ENG 5441');\" title=\"GEO ENG 5441\">GEO ENG 5441</a></td><td>Engineering Geology And Geotechnics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">GEO ENG Elective</span> <sup>2</sup></td><td class=\"hourscol\">3</td></tr> <tr class=\"listsum\"><td colspan=\"2\">Total Credits</td><td class=\"hourscol\">15</td></tr></tbody></table>"
+        }
+    ],
+    "section_text": "Geological Engineering Minor A minor in geological engineering enhances the academic credentials of a student in any science or engineering discipline and broadens their employment opportunities. It requires 15 hours of Missouri S&T credit per the following curriculum, in approximate recommended order: GEO ENG 1150 Physical and Environmental Geology 1 3 GEO ENG 3175 Geomorphology And Terrain Analysis 3 GEO ENG 5331 Subsurface Hydrology 3 GEO ENG 5441 Engineering Geology And Geotechnics 3 GEO ENG Elective 2 3 Total Credits 15 1 GEOLOGY 1110 may be substituted for geology and geophysics majors. 2 To be selected with geological engineering advisor approval.",
+    "section_html": "<div class=\"tab_content\" id=\"minortextcontainer\">\n<a name=\"minortext\"></a><h2>Geological Engineering Minor</h2> <p>A minor in geological engineering enhances the academic credentials of a student in any science or engineering discipline and broadens their employment opportunities. It requires 15 hours of Missouri S&amp;T credit per the following curriculum, in approximate recommended order:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%201150\" onclick=\"return showCourse(this, 'GEO ENG 1150');\" title=\"GEO ENG 1150\">GEO ENG 1150</a></td><td>Physical and Environmental Geology <sup>1</sup></td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%203175\" onclick=\"return showCourse(this, 'GEO ENG 3175');\" title=\"GEO ENG 3175\">GEO ENG 3175</a></td><td>Geomorphology And Terrain Analysis</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%205331\" onclick=\"return showCourse(this, 'GEO ENG 5331');\" title=\"GEO ENG 5331\">GEO ENG 5331</a></td><td>Subsurface Hydrology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=GEO%20ENG%205441\" onclick=\"return showCourse(this, 'GEO ENG 5441');\" title=\"GEO ENG 5441\">GEO ENG 5441</a></td><td>Engineering Geology And Geotechnics</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">GEO ENG Elective</span> <sup>2</sup></td><td class=\"hourscol\">3</td></tr> <tr class=\"listsum\"><td colspan=\"2\">Total Credits</td><td class=\"hourscol\">15</td></tr></tbody></table> <dl aria-label=\"Footnotes\" class=\"sc_footnotes\"><dt> <sup> 1 </sup> </dt><dd start-indent=\"3%\"><p class=\"noindent\"><span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=GEOLOGY%201110\" onclick=\"return showCourse(this, 'GEOLOGY 1110');\" title=\"GEOLOGY 1110\">GEOLOGY 1110</a></span> may be substituted for geology and geophysics majors.</p></dd><dt> <sup> 2 </sup> </dt><dd start-indent=\"3%\"><p class=\"noindent\">To be selected with geological engineering advisor approval.</p></dd></dl>\n</div>"
+}

@@ -1,0 +1,1233 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "page_name": "Art",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/art/#minortext",
+        "requested_page": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/art/",
+        "section_fragment": "minortext",
+        "selection_method": "direct #minortextcontainer"
+    },
+    "validation": {
+        "minor_section_found": true,
+        "raw_text_preserved": true,
+        "raw_html_preserved": true,
+        "art_minor_found": true,
+        "film_and_literature_minor_found": true,
+        "studio_art_minor_found": true,
+        "minor_count_detected": 3,
+        "course_references_found": true,
+        "tables_found": true,
+        "course_description_contamination_detected": false,
+        "faculty_contamination_detected": false,
+        "prerequisite_label_count": 0,
+        "appears_clean": true
+    },
+    "minor_section": {
+        "headings": [
+            {
+                "heading_number": 1,
+                "level": "h2",
+                "text": "Art Minor",
+                "id": null,
+                "class": null
+            },
+            {
+                "heading_number": 2,
+                "level": "h2",
+                "text": "Film and Literature Minor",
+                "id": null,
+                "class": null
+            },
+            {
+                "heading_number": 3,
+                "level": "h2",
+                "text": "Studio Art Minor",
+                "id": null,
+                "class": null
+            }
+        ],
+        "paragraphs": [
+            {
+                "paragraph_number": 1,
+                "text": "The art minor offers students the opportunity to pursue an area of focus in studio art, art history, and film studies.",
+                "links": []
+            },
+            {
+                "paragraph_number": 2,
+                "text": "Requirements: The minor requires 15 hours, including ART 1180 , which is a required course. At lease 6 of the required 15 hours must be taken at or above the 3000 level. Students may take additional hours from these offerings:",
+                "links": [
+                    {
+                        "text": "ART 1180",
+                        "url": "https://catalog.mst.edu/search/?P=ART%201180",
+                        "resolved_course": "ART 1180"
+                    }
+                ]
+            },
+            {
+                "paragraph_number": 3,
+                "text": "In addition, students may take up to six hours of studio classes.",
+                "links": []
+            },
+            {
+                "paragraph_number": 4,
+                "text": "The film and literature minor is an interdisciplinary and inter-textual course of study in which students will explore the connections between different mediums, increasing the pleasure and understanding of each.",
+                "links": []
+            },
+            {
+                "paragraph_number": 5,
+                "text": "Requirements: The minor requires 12 hours, including the following required courses: ART 1185 Study Of Film (3 hours) and the core course ENGLISH 2230 Literature And Film (3 hours) .",
+                "links": [
+                    {
+                        "text": "ART 1185",
+                        "url": "https://catalog.mst.edu/search/?P=ART%201185",
+                        "resolved_course": "ART 1185"
+                    },
+                    {
+                        "text": "ENGLISH 2230",
+                        "url": "https://catalog.mst.edu/search/?P=ENGLISH%202230",
+                        "resolved_course": "ENGLISH 2230"
+                    }
+                ]
+            },
+            {
+                "paragraph_number": 6,
+                "text": "In addition, students will take 6 hours of electives in the field of literature and film studies. These electives can include but are not limited to:",
+                "links": []
+            },
+            {
+                "paragraph_number": 7,
+                "text": "The studio art minor offers students the opportunity to pursue an area of focus in painting, drawing, photography, etc.",
+                "links": []
+            },
+            {
+                "paragraph_number": 8,
+                "text": "Requirements: The minor requires 15 hours, including ART 1180 Art Appreciation , which is a required course. At least 6 of the required 15 hours must be taken at or above the 3000 level. Students may take additional 12 hours from these offerings:",
+                "links": [
+                    {
+                        "text": "ART 1180",
+                        "url": "https://catalog.mst.edu/search/?P=ART%201180",
+                        "resolved_course": "ART 1180"
+                    }
+                ]
+            }
+        ],
+        "lists": [],
+        "course_references": [
+            "ART 1180",
+            "ART 1185",
+            "ART 3222",
+            "ART 3250",
+            "ART 2001",
+            "ART 3001",
+            "ART 4001",
+            "PHILOS 4333",
+            "ENGLISH 2230",
+            "ENGLISH 2248",
+            "ART 1120",
+            "ART 1140",
+            "ART 1164",
+            "ART 1715",
+            "ART 2130",
+            "ART 2150",
+            "ART 3203",
+            "ART 3221"
+        ],
+        "tables": [
+            {
+                "table_number": 1,
+                "class": [
+                    "sc_courselist"
+                ],
+                "summary_text": "ART 1185 Study Of Film 3 ART 3222 Revolution And Romanticism In The Arts 1785 - 1832 3 ART 3250 Thematic Studies In Film & Literature 3 Any 3000-level philosophy course Topics course from the following series: ART 2001 Special Topics ART 3001 Special Topics ART 4001 Special Topics PHILOS 4333 American Philosophy 3",
+                "rows": [
+                    {
+                        "row": 1,
+                        "cells": [
+                            {
+                                "column": 1,
+                                "tag": "td",
+                                "text": "ART 1185",
+                                "resolved_courses": [
+                                    "ART 1185"
+                                ],
+                                "links": [
+                                    {
+                                        "text": "ART 1185",
+                                        "url": "https://catalog.mst.edu/search/?P=ART%201185",
+                                        "resolved_course": "ART 1185"
+                                    }
+                                ],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 2,
+                                "tag": "td",
+                                "text": "Study Of Film",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 3,
+                                "tag": "td",
+                                "text": "3",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            }
+                        ]
+                    },
+                    {
+                        "row": 2,
+                        "cells": [
+                            {
+                                "column": 1,
+                                "tag": "td",
+                                "text": "ART 3222",
+                                "resolved_courses": [
+                                    "ART 3222"
+                                ],
+                                "links": [
+                                    {
+                                        "text": "ART 3222",
+                                        "url": "https://catalog.mst.edu/search/?P=ART%203222",
+                                        "resolved_course": "ART 3222"
+                                    }
+                                ],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 2,
+                                "tag": "td",
+                                "text": "Revolution And Romanticism In The Arts 1785 - 1832",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 3,
+                                "tag": "td",
+                                "text": "3",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            }
+                        ]
+                    },
+                    {
+                        "row": 3,
+                        "cells": [
+                            {
+                                "column": 1,
+                                "tag": "td",
+                                "text": "ART 3250",
+                                "resolved_courses": [
+                                    "ART 3250"
+                                ],
+                                "links": [
+                                    {
+                                        "text": "ART 3250",
+                                        "url": "https://catalog.mst.edu/search/?P=ART%203250",
+                                        "resolved_course": "ART 3250"
+                                    }
+                                ],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 2,
+                                "tag": "td",
+                                "text": "Thematic Studies In Film & Literature",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 3,
+                                "tag": "td",
+                                "text": "3",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            }
+                        ]
+                    },
+                    {
+                        "row": 4,
+                        "cells": [
+                            {
+                                "column": 1,
+                                "tag": "td",
+                                "text": "Any 3000-level philosophy course",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": "2",
+                                "rowspan": null
+                            },
+                            {
+                                "column": 2,
+                                "tag": "td",
+                                "text": "",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            }
+                        ]
+                    },
+                    {
+                        "row": 5,
+                        "cells": [
+                            {
+                                "column": 1,
+                                "tag": "td",
+                                "text": "Topics course from the following series:",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": "2",
+                                "rowspan": null
+                            },
+                            {
+                                "column": 2,
+                                "tag": "td",
+                                "text": "",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            }
+                        ]
+                    },
+                    {
+                        "row": 6,
+                        "cells": [
+                            {
+                                "column": 1,
+                                "tag": "td",
+                                "text": "ART 2001",
+                                "resolved_courses": [
+                                    "ART 2001"
+                                ],
+                                "links": [
+                                    {
+                                        "text": "ART 2001",
+                                        "url": "https://catalog.mst.edu/search/?P=ART%202001",
+                                        "resolved_course": "ART 2001"
+                                    }
+                                ],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 2,
+                                "tag": "td",
+                                "text": "Special Topics",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 3,
+                                "tag": "td",
+                                "text": "",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            }
+                        ]
+                    },
+                    {
+                        "row": 7,
+                        "cells": [
+                            {
+                                "column": 1,
+                                "tag": "td",
+                                "text": "ART 3001",
+                                "resolved_courses": [
+                                    "ART 3001"
+                                ],
+                                "links": [
+                                    {
+                                        "text": "ART 3001",
+                                        "url": "https://catalog.mst.edu/search/?P=ART%203001",
+                                        "resolved_course": "ART 3001"
+                                    }
+                                ],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 2,
+                                "tag": "td",
+                                "text": "Special Topics",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 3,
+                                "tag": "td",
+                                "text": "",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            }
+                        ]
+                    },
+                    {
+                        "row": 8,
+                        "cells": [
+                            {
+                                "column": 1,
+                                "tag": "td",
+                                "text": "ART 4001",
+                                "resolved_courses": [
+                                    "ART 4001"
+                                ],
+                                "links": [
+                                    {
+                                        "text": "ART 4001",
+                                        "url": "https://catalog.mst.edu/search/?P=ART%204001",
+                                        "resolved_course": "ART 4001"
+                                    }
+                                ],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 2,
+                                "tag": "td",
+                                "text": "Special Topics",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 3,
+                                "tag": "td",
+                                "text": "",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            }
+                        ]
+                    },
+                    {
+                        "row": 9,
+                        "cells": [
+                            {
+                                "column": 1,
+                                "tag": "td",
+                                "text": "PHILOS 4333",
+                                "resolved_courses": [
+                                    "PHILOS 4333"
+                                ],
+                                "links": [
+                                    {
+                                        "text": "PHILOS 4333",
+                                        "url": "https://catalog.mst.edu/search/?P=PHILOS%204333",
+                                        "resolved_course": "PHILOS 4333"
+                                    }
+                                ],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 2,
+                                "tag": "td",
+                                "text": "American Philosophy",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 3,
+                                "tag": "td",
+                                "text": "3",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "table_number": 2,
+                "class": [
+                    "sc_courselist"
+                ],
+                "summary_text": "ENGLISH 2248 Thematic Studies in Literature and Film 3 ART 3250 Thematic Studies In Film & Literature 3",
+                "rows": [
+                    {
+                        "row": 1,
+                        "cells": [
+                            {
+                                "column": 1,
+                                "tag": "td",
+                                "text": "ENGLISH 2248",
+                                "resolved_courses": [
+                                    "ENGLISH 2248"
+                                ],
+                                "links": [
+                                    {
+                                        "text": "ENGLISH 2248",
+                                        "url": "https://catalog.mst.edu/search/?P=ENGLISH%202248",
+                                        "resolved_course": "ENGLISH 2248"
+                                    }
+                                ],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 2,
+                                "tag": "td",
+                                "text": "Thematic Studies in Literature and Film",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 3,
+                                "tag": "td",
+                                "text": "3",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            }
+                        ]
+                    },
+                    {
+                        "row": 2,
+                        "cells": [
+                            {
+                                "column": 1,
+                                "tag": "td",
+                                "text": "ART 3250",
+                                "resolved_courses": [
+                                    "ART 3250"
+                                ],
+                                "links": [
+                                    {
+                                        "text": "ART 3250",
+                                        "url": "https://catalog.mst.edu/search/?P=ART%203250",
+                                        "resolved_course": "ART 3250"
+                                    }
+                                ],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 2,
+                                "tag": "td",
+                                "text": "Thematic Studies In Film & Literature",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 3,
+                                "tag": "td",
+                                "text": "3",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "table_number": 3,
+                "class": [
+                    "sc_courselist"
+                ],
+                "summary_text": "ART 1120 Drawing I 3 ART 1140 Painting I 3 ART 1164 Sculpture 3 ART 1715 Popular Applied Arts 3 ART 2130 Advanced Drawing 3 ART 2150 Advanced Painting 3 ART 3203 Architectural Design I 3 ART 3221 Fundamentals in Photography 3",
+                "rows": [
+                    {
+                        "row": 1,
+                        "cells": [
+                            {
+                                "column": 1,
+                                "tag": "td",
+                                "text": "ART 1120",
+                                "resolved_courses": [
+                                    "ART 1120"
+                                ],
+                                "links": [
+                                    {
+                                        "text": "ART 1120",
+                                        "url": "https://catalog.mst.edu/search/?P=ART%201120",
+                                        "resolved_course": "ART 1120"
+                                    }
+                                ],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 2,
+                                "tag": "td",
+                                "text": "Drawing I",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 3,
+                                "tag": "td",
+                                "text": "3",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            }
+                        ]
+                    },
+                    {
+                        "row": 2,
+                        "cells": [
+                            {
+                                "column": 1,
+                                "tag": "td",
+                                "text": "ART 1140",
+                                "resolved_courses": [
+                                    "ART 1140"
+                                ],
+                                "links": [
+                                    {
+                                        "text": "ART 1140",
+                                        "url": "https://catalog.mst.edu/search/?P=ART%201140",
+                                        "resolved_course": "ART 1140"
+                                    }
+                                ],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 2,
+                                "tag": "td",
+                                "text": "Painting I",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 3,
+                                "tag": "td",
+                                "text": "3",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            }
+                        ]
+                    },
+                    {
+                        "row": 3,
+                        "cells": [
+                            {
+                                "column": 1,
+                                "tag": "td",
+                                "text": "ART 1164",
+                                "resolved_courses": [
+                                    "ART 1164"
+                                ],
+                                "links": [
+                                    {
+                                        "text": "ART 1164",
+                                        "url": "https://catalog.mst.edu/search/?P=ART%201164",
+                                        "resolved_course": "ART 1164"
+                                    }
+                                ],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 2,
+                                "tag": "td",
+                                "text": "Sculpture",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 3,
+                                "tag": "td",
+                                "text": "3",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            }
+                        ]
+                    },
+                    {
+                        "row": 4,
+                        "cells": [
+                            {
+                                "column": 1,
+                                "tag": "td",
+                                "text": "ART 1715",
+                                "resolved_courses": [
+                                    "ART 1715"
+                                ],
+                                "links": [
+                                    {
+                                        "text": "ART 1715",
+                                        "url": "https://catalog.mst.edu/search/?P=ART%201715",
+                                        "resolved_course": "ART 1715"
+                                    }
+                                ],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 2,
+                                "tag": "td",
+                                "text": "Popular Applied Arts",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 3,
+                                "tag": "td",
+                                "text": "3",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            }
+                        ]
+                    },
+                    {
+                        "row": 5,
+                        "cells": [
+                            {
+                                "column": 1,
+                                "tag": "td",
+                                "text": "ART 2130",
+                                "resolved_courses": [
+                                    "ART 2130"
+                                ],
+                                "links": [
+                                    {
+                                        "text": "ART 2130",
+                                        "url": "https://catalog.mst.edu/search/?P=ART%202130",
+                                        "resolved_course": "ART 2130"
+                                    }
+                                ],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 2,
+                                "tag": "td",
+                                "text": "Advanced Drawing",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 3,
+                                "tag": "td",
+                                "text": "3",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            }
+                        ]
+                    },
+                    {
+                        "row": 6,
+                        "cells": [
+                            {
+                                "column": 1,
+                                "tag": "td",
+                                "text": "ART 2150",
+                                "resolved_courses": [
+                                    "ART 2150"
+                                ],
+                                "links": [
+                                    {
+                                        "text": "ART 2150",
+                                        "url": "https://catalog.mst.edu/search/?P=ART%202150",
+                                        "resolved_course": "ART 2150"
+                                    }
+                                ],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 2,
+                                "tag": "td",
+                                "text": "Advanced Painting",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 3,
+                                "tag": "td",
+                                "text": "3",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            }
+                        ]
+                    },
+                    {
+                        "row": 7,
+                        "cells": [
+                            {
+                                "column": 1,
+                                "tag": "td",
+                                "text": "ART 3203",
+                                "resolved_courses": [
+                                    "ART 3203"
+                                ],
+                                "links": [
+                                    {
+                                        "text": "ART 3203",
+                                        "url": "https://catalog.mst.edu/search/?P=ART%203203",
+                                        "resolved_course": "ART 3203"
+                                    }
+                                ],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 2,
+                                "tag": "td",
+                                "text": "Architectural Design I",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 3,
+                                "tag": "td",
+                                "text": "3",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            }
+                        ]
+                    },
+                    {
+                        "row": 8,
+                        "cells": [
+                            {
+                                "column": 1,
+                                "tag": "td",
+                                "text": "ART 3221",
+                                "resolved_courses": [
+                                    "ART 3221"
+                                ],
+                                "links": [
+                                    {
+                                        "text": "ART 3221",
+                                        "url": "https://catalog.mst.edu/search/?P=ART%203221",
+                                        "resolved_course": "ART 3221"
+                                    }
+                                ],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 2,
+                                "tag": "td",
+                                "text": "Fundamentals in Photography",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            },
+                            {
+                                "column": 3,
+                                "tag": "td",
+                                "text": "3",
+                                "resolved_courses": [],
+                                "links": [],
+                                "colspan": null,
+                                "rowspan": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "structured_tables": [
+            {
+                "table_number": 1,
+                "rows": [
+                    [
+                        "ART 1185",
+                        "Study Of Film",
+                        "3"
+                    ],
+                    [
+                        "ART 3222",
+                        "Revolution And Romanticism In The Arts 1785 - 1832",
+                        "3"
+                    ],
+                    [
+                        "ART 3250",
+                        "Thematic Studies In Film & Literature",
+                        "3"
+                    ],
+                    [
+                        "Any 3000-level philosophy course",
+                        ""
+                    ],
+                    [
+                        "Topics course from the following series:",
+                        ""
+                    ],
+                    [
+                        "ART 2001",
+                        "Special Topics",
+                        ""
+                    ],
+                    [
+                        "ART 3001",
+                        "Special Topics",
+                        ""
+                    ],
+                    [
+                        "ART 4001",
+                        "Special Topics",
+                        ""
+                    ],
+                    [
+                        "PHILOS 4333",
+                        "American Philosophy",
+                        "3"
+                    ]
+                ]
+            },
+            {
+                "table_number": 2,
+                "rows": [
+                    [
+                        "ENGLISH 2248",
+                        "Thematic Studies in Literature and Film",
+                        "3"
+                    ],
+                    [
+                        "ART 3250",
+                        "Thematic Studies In Film & Literature",
+                        "3"
+                    ]
+                ]
+            },
+            {
+                "table_number": 3,
+                "rows": [
+                    [
+                        "ART 1120",
+                        "Drawing I",
+                        "3"
+                    ],
+                    [
+                        "ART 1140",
+                        "Painting I",
+                        "3"
+                    ],
+                    [
+                        "ART 1164",
+                        "Sculpture",
+                        "3"
+                    ],
+                    [
+                        "ART 1715",
+                        "Popular Applied Arts",
+                        "3"
+                    ],
+                    [
+                        "ART 2130",
+                        "Advanced Drawing",
+                        "3"
+                    ],
+                    [
+                        "ART 2150",
+                        "Advanced Painting",
+                        "3"
+                    ],
+                    [
+                        "ART 3203",
+                        "Architectural Design I",
+                        "3"
+                    ],
+                    [
+                        "ART 3221",
+                        "Fundamentals in Photography",
+                        "3"
+                    ]
+                ]
+            }
+        ]
+    },
+    "minors": [
+        {
+            "minor_number": 1,
+            "minor_name": "Art Minor",
+            "text": "The art minor offers students the opportunity to pursue an area of focus in studio art, art history, and film studies. Requirements: The minor requires 15 hours, including ART 1180 , which is a required course. At lease 6 of the required 15 hours must be taken at or above the 3000 level. Students may take additional hours from these offerings: ART 1185 Study Of Film 3 ART 3222 Revolution And Romanticism In The Arts 1785 - 1832 3 ART 3250 Thematic Studies In Film & Literature 3 Any 3000-level philosophy course Topics course from the following series: ART 2001 Special Topics ART 3001 Special Topics ART 4001 Special Topics PHILOS 4333 American Philosophy 3 In addition, students may take up to six hours of studio classes.",
+            "course_references": [
+                "ART 1180",
+                "ART 1185",
+                "ART 3222",
+                "ART 3250",
+                "ART 2001",
+                "ART 3001",
+                "ART 4001",
+                "PHILOS 4333"
+            ],
+            "elements": [
+                {
+                    "tag": "p",
+                    "text": "The art minor offers students the opportunity to pursue an area of focus in studio art, art history, and film studies.",
+                    "html": "<p>The art minor offers students the opportunity to pursue an area of focus in studio art, art history, and film studies.</p>",
+                    "links": []
+                },
+                {
+                    "tag": "p",
+                    "text": "Requirements: The minor requires 15 hours, including ART 1180 , which is a required course. At lease 6 of the required 15 hours must be taken at or above the 3000 level. Students may take additional hours from these offerings:",
+                    "html": "<p><strong>Requirements:</strong><br/> The minor requires 15 hours, including  <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201180\" onclick=\"return showCourse(this, 'ART 1180');\" title=\"ART 1180\">ART 1180</a></span>, which is a required course. At lease 6 of the required 15 hours must be taken at or above the 3000 level. Students may take additional hours from these offerings:</p>",
+                    "links": [
+                        {
+                            "text": "ART 1180",
+                            "url": "https://catalog.mst.edu/search/?P=ART%201180",
+                            "resolved_course": "ART 1180"
+                        }
+                    ]
+                },
+                {
+                    "tag": "table",
+                    "text": "ART 1185 Study Of Film 3 ART 3222 Revolution And Romanticism In The Arts 1785 - 1832 3 ART 3250 Thematic Studies In Film & Literature 3 Any 3000-level philosophy course Topics course from the following series: ART 2001 Special Topics ART 3001 Special Topics ART 4001 Special Topics PHILOS 4333 American Philosophy 3",
+                    "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201185\" onclick=\"return showCourse(this, 'ART 1185');\" title=\"ART 1185\">ART 1185</a></td><td>Study Of Film</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%203222\" onclick=\"return showCourse(this, 'ART 3222');\" title=\"ART 3222\">ART 3222</a></td><td>Revolution And Romanticism In The Arts 1785 - 1832</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%203250\" onclick=\"return showCourse(this, 'ART 3250');\" title=\"ART 3250\">ART 3250</a></td><td>Thematic Studies In Film &amp; Literature</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">Any 3000-level philosophy course</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td colspan=\"2\"><span class=\"courselistcomment\">Topics course from the following series:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=ART%202001\" onclick=\"return showCourse(this, 'ART 2001');\" title=\"ART 2001\">ART 2001</a></div></td><td>Special Topics</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=ART%203001\" onclick=\"return showCourse(this, 'ART 3001');\" title=\"ART 3001\">ART 3001</a></div></td><td>Special Topics</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=ART%204001\" onclick=\"return showCourse(this, 'ART 4001');\" title=\"ART 4001\">ART 4001</a></div></td><td>Special Topics</td><td class=\"hourscol\"></td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204333\" onclick=\"return showCourse(this, 'PHILOS 4333');\" title=\"PHILOS 4333\">PHILOS 4333</a></td><td>American Philosophy</td><td class=\"hourscol\">3</td></tr> </tbody></table>",
+                    "links": [
+                        {
+                            "text": "ART 1185",
+                            "url": "https://catalog.mst.edu/search/?P=ART%201185",
+                            "resolved_course": "ART 1185"
+                        },
+                        {
+                            "text": "ART 3222",
+                            "url": "https://catalog.mst.edu/search/?P=ART%203222",
+                            "resolved_course": "ART 3222"
+                        },
+                        {
+                            "text": "ART 3250",
+                            "url": "https://catalog.mst.edu/search/?P=ART%203250",
+                            "resolved_course": "ART 3250"
+                        },
+                        {
+                            "text": "ART 2001",
+                            "url": "https://catalog.mst.edu/search/?P=ART%202001",
+                            "resolved_course": "ART 2001"
+                        },
+                        {
+                            "text": "ART 3001",
+                            "url": "https://catalog.mst.edu/search/?P=ART%203001",
+                            "resolved_course": "ART 3001"
+                        },
+                        {
+                            "text": "ART 4001",
+                            "url": "https://catalog.mst.edu/search/?P=ART%204001",
+                            "resolved_course": "ART 4001"
+                        },
+                        {
+                            "text": "PHILOS 4333",
+                            "url": "https://catalog.mst.edu/search/?P=PHILOS%204333",
+                            "resolved_course": "PHILOS 4333"
+                        }
+                    ]
+                },
+                {
+                    "tag": "p",
+                    "text": "In addition, students may take up to six hours of studio classes.",
+                    "html": "<p>In addition, students may take up to six hours of studio classes.</p>",
+                    "links": []
+                }
+            ],
+            "raw_html": "<p>The art minor offers students the opportunity to pursue an area of focus in studio art, art history, and film studies.</p>\n<p><strong>Requirements:</strong><br/> The minor requires 15 hours, including  <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201180\" onclick=\"return showCourse(this, 'ART 1180');\" title=\"ART 1180\">ART 1180</a></span>, which is a required course. At lease 6 of the required 15 hours must be taken at or above the 3000 level. Students may take additional hours from these offerings:</p>\n<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201185\" onclick=\"return showCourse(this, 'ART 1185');\" title=\"ART 1185\">ART 1185</a></td><td>Study Of Film</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%203222\" onclick=\"return showCourse(this, 'ART 3222');\" title=\"ART 3222\">ART 3222</a></td><td>Revolution And Romanticism In The Arts 1785 - 1832</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%203250\" onclick=\"return showCourse(this, 'ART 3250');\" title=\"ART 3250\">ART 3250</a></td><td>Thematic Studies In Film &amp; Literature</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">Any 3000-level philosophy course</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td colspan=\"2\"><span class=\"courselistcomment\">Topics course from the following series:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=ART%202001\" onclick=\"return showCourse(this, 'ART 2001');\" title=\"ART 2001\">ART 2001</a></div></td><td>Special Topics</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=ART%203001\" onclick=\"return showCourse(this, 'ART 3001');\" title=\"ART 3001\">ART 3001</a></div></td><td>Special Topics</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=ART%204001\" onclick=\"return showCourse(this, 'ART 4001');\" title=\"ART 4001\">ART 4001</a></div></td><td>Special Topics</td><td class=\"hourscol\"></td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204333\" onclick=\"return showCourse(this, 'PHILOS 4333');\" title=\"PHILOS 4333\">PHILOS 4333</a></td><td>American Philosophy</td><td class=\"hourscol\">3</td></tr> </tbody></table>\n<p>In addition, students may take up to six hours of studio classes.</p>"
+        },
+        {
+            "minor_number": 2,
+            "minor_name": "Film and Literature Minor",
+            "text": "The film and literature minor is an interdisciplinary and inter-textual course of study in which students will explore the connections between different mediums, increasing the pleasure and understanding of each. Requirements: The minor requires 12 hours, including the following required courses: ART 1185 Study Of Film (3 hours) and the core course ENGLISH 2230 Literature And Film (3 hours) . In addition, students will take 6 hours of electives in the field of literature and film studies. These electives can include but are not limited to: ENGLISH 2248 Thematic Studies in Literature and Film 3 ART 3250 Thematic Studies In Film & Literature 3",
+            "course_references": [
+                "ART 1185",
+                "ENGLISH 2230",
+                "ENGLISH 2248",
+                "ART 3250"
+            ],
+            "elements": [
+                {
+                    "tag": "p",
+                    "text": "The film and literature minor is an interdisciplinary and inter-textual course of study in which students will explore the connections between different mediums, increasing the pleasure and understanding of each.",
+                    "html": "<p>The film and literature minor is an interdisciplinary and inter-textual course of study in which students will explore the connections between different mediums, increasing the pleasure and understanding of each.</p>",
+                    "links": []
+                },
+                {
+                    "tag": "p",
+                    "text": "Requirements: The minor requires 12 hours, including the following required courses: ART 1185 Study Of Film (3 hours) and the core course ENGLISH 2230 Literature And Film (3 hours) .",
+                    "html": "<p><strong>Requirements:</strong><br/> The minor requires 12 hours, including the following required courses: <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201185\" onclick=\"return showCourse(this, 'ART 1185');\" title=\"ART 1185\">ART 1185</a> Study Of Film (3 hours)</span> and the core course <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%202230\" onclick=\"return showCourse(this, 'ENGLISH 2230');\" title=\"ENGLISH 2230\">ENGLISH 2230</a> Literature And Film (3 hours)</span> .</p>",
+                    "links": [
+                        {
+                            "text": "ART 1185",
+                            "url": "https://catalog.mst.edu/search/?P=ART%201185",
+                            "resolved_course": "ART 1185"
+                        },
+                        {
+                            "text": "ENGLISH 2230",
+                            "url": "https://catalog.mst.edu/search/?P=ENGLISH%202230",
+                            "resolved_course": "ENGLISH 2230"
+                        }
+                    ]
+                },
+                {
+                    "tag": "p",
+                    "text": "In addition, students will take 6 hours of electives in the field of literature and film studies. These electives can include but are not limited to:",
+                    "html": "<p>In addition, students will take 6 hours of electives in the field of literature and film studies. These electives can include but are not limited to:</p>",
+                    "links": []
+                },
+                {
+                    "tag": "table",
+                    "text": "ENGLISH 2248 Thematic Studies in Literature and Film 3 ART 3250 Thematic Studies In Film & Literature 3",
+                    "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%202248\" onclick=\"return showCourse(this, 'ENGLISH 2248');\" title=\"ENGLISH 2248\">ENGLISH 2248</a></td><td>Thematic Studies in Literature and Film</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%203250\" onclick=\"return showCourse(this, 'ART 3250');\" title=\"ART 3250\">ART 3250</a></td><td>Thematic Studies In Film &amp; Literature</td><td class=\"hourscol\">3</td></tr> </tbody></table>",
+                    "links": [
+                        {
+                            "text": "ENGLISH 2248",
+                            "url": "https://catalog.mst.edu/search/?P=ENGLISH%202248",
+                            "resolved_course": "ENGLISH 2248"
+                        },
+                        {
+                            "text": "ART 3250",
+                            "url": "https://catalog.mst.edu/search/?P=ART%203250",
+                            "resolved_course": "ART 3250"
+                        }
+                    ]
+                }
+            ],
+            "raw_html": "<p>The film and literature minor is an interdisciplinary and inter-textual course of study in which students will explore the connections between different mediums, increasing the pleasure and understanding of each.</p>\n<p><strong>Requirements:</strong><br/> The minor requires 12 hours, including the following required courses: <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201185\" onclick=\"return showCourse(this, 'ART 1185');\" title=\"ART 1185\">ART 1185</a> Study Of Film (3 hours)</span> and the core course <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%202230\" onclick=\"return showCourse(this, 'ENGLISH 2230');\" title=\"ENGLISH 2230\">ENGLISH 2230</a> Literature And Film (3 hours)</span> .</p>\n<p>In addition, students will take 6 hours of electives in the field of literature and film studies. These electives can include but are not limited to:</p>\n<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%202248\" onclick=\"return showCourse(this, 'ENGLISH 2248');\" title=\"ENGLISH 2248\">ENGLISH 2248</a></td><td>Thematic Studies in Literature and Film</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%203250\" onclick=\"return showCourse(this, 'ART 3250');\" title=\"ART 3250\">ART 3250</a></td><td>Thematic Studies In Film &amp; Literature</td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        },
+        {
+            "minor_number": 3,
+            "minor_name": "Studio Art Minor",
+            "text": "The studio art minor offers students the opportunity to pursue an area of focus in painting, drawing, photography, etc. Requirements: The minor requires 15 hours, including ART 1180 Art Appreciation , which is a required course. At least 6 of the required 15 hours must be taken at or above the 3000 level. Students may take additional 12 hours from these offerings: ART 1120 Drawing I 3 ART 1140 Painting I 3 ART 1164 Sculpture 3 ART 1715 Popular Applied Arts 3 ART 2130 Advanced Drawing 3 ART 2150 Advanced Painting 3 ART 3203 Architectural Design I 3 ART 3221 Fundamentals in Photography 3",
+            "course_references": [
+                "ART 1180",
+                "ART 1120",
+                "ART 1140",
+                "ART 1164",
+                "ART 1715",
+                "ART 2130",
+                "ART 2150",
+                "ART 3203",
+                "ART 3221"
+            ],
+            "elements": [
+                {
+                    "tag": "p",
+                    "text": "The studio art minor offers students the opportunity to pursue an area of focus in painting, drawing, photography, etc.",
+                    "html": "<p>The studio art minor offers students the opportunity to pursue an area of focus in painting, drawing, photography, etc.</p>",
+                    "links": []
+                },
+                {
+                    "tag": "p",
+                    "text": "Requirements: The minor requires 15 hours, including ART 1180 Art Appreciation , which is a required course. At least 6 of the required 15 hours must be taken at or above the 3000 level. Students may take additional 12 hours from these offerings:",
+                    "html": "<p><strong>Requirements:</strong><br/> The minor requires 15 hours, including <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201180\" onclick=\"return showCourse(this, 'ART 1180');\" title=\"ART 1180\">ART 1180</a> Art Appreciation</span> , which is a required course. At least 6 of the required 15 hours must be taken at or above the 3000 level. Students may take additional 12 hours from these offerings:</p>",
+                    "links": [
+                        {
+                            "text": "ART 1180",
+                            "url": "https://catalog.mst.edu/search/?P=ART%201180",
+                            "resolved_course": "ART 1180"
+                        }
+                    ]
+                },
+                {
+                    "tag": "table",
+                    "text": "ART 1120 Drawing I 3 ART 1140 Painting I 3 ART 1164 Sculpture 3 ART 1715 Popular Applied Arts 3 ART 2130 Advanced Drawing 3 ART 2150 Advanced Painting 3 ART 3203 Architectural Design I 3 ART 3221 Fundamentals in Photography 3",
+                    "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201120\" onclick=\"return showCourse(this, 'ART 1120');\" title=\"ART 1120\">ART 1120</a></td><td>Drawing I</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201140\" onclick=\"return showCourse(this, 'ART 1140');\" title=\"ART 1140\">ART 1140</a></td><td>Painting I</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201164\" onclick=\"return showCourse(this, 'ART 1164');\" title=\"ART 1164\">ART 1164</a></td><td>Sculpture</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201715\" onclick=\"return showCourse(this, 'ART 1715');\" title=\"ART 1715\">ART 1715</a></td><td>Popular Applied Arts</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%202130\" onclick=\"return showCourse(this, 'ART 2130');\" title=\"ART 2130\">ART 2130</a></td><td>Advanced Drawing</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%202150\" onclick=\"return showCourse(this, 'ART 2150');\" title=\"ART 2150\">ART 2150</a></td><td>Advanced Painting</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%203203\" onclick=\"return showCourse(this, 'ART 3203');\" title=\"ART 3203\">ART 3203</a></td><td>Architectural Design I</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%203221\" onclick=\"return showCourse(this, 'ART 3221');\" title=\"ART 3221\">ART 3221</a></td><td>Fundamentals in Photography</td><td class=\"hourscol\">3</td></tr> </tbody></table>",
+                    "links": [
+                        {
+                            "text": "ART 1120",
+                            "url": "https://catalog.mst.edu/search/?P=ART%201120",
+                            "resolved_course": "ART 1120"
+                        },
+                        {
+                            "text": "ART 1140",
+                            "url": "https://catalog.mst.edu/search/?P=ART%201140",
+                            "resolved_course": "ART 1140"
+                        },
+                        {
+                            "text": "ART 1164",
+                            "url": "https://catalog.mst.edu/search/?P=ART%201164",
+                            "resolved_course": "ART 1164"
+                        },
+                        {
+                            "text": "ART 1715",
+                            "url": "https://catalog.mst.edu/search/?P=ART%201715",
+                            "resolved_course": "ART 1715"
+                        },
+                        {
+                            "text": "ART 2130",
+                            "url": "https://catalog.mst.edu/search/?P=ART%202130",
+                            "resolved_course": "ART 2130"
+                        },
+                        {
+                            "text": "ART 2150",
+                            "url": "https://catalog.mst.edu/search/?P=ART%202150",
+                            "resolved_course": "ART 2150"
+                        },
+                        {
+                            "text": "ART 3203",
+                            "url": "https://catalog.mst.edu/search/?P=ART%203203",
+                            "resolved_course": "ART 3203"
+                        },
+                        {
+                            "text": "ART 3221",
+                            "url": "https://catalog.mst.edu/search/?P=ART%203221",
+                            "resolved_course": "ART 3221"
+                        }
+                    ]
+                }
+            ],
+            "raw_html": "<p>The studio art minor offers students the opportunity to pursue an area of focus in painting, drawing, photography, etc.</p>\n<p><strong>Requirements:</strong><br/> The minor requires 15 hours, including <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201180\" onclick=\"return showCourse(this, 'ART 1180');\" title=\"ART 1180\">ART 1180</a> Art Appreciation</span> , which is a required course. At least 6 of the required 15 hours must be taken at or above the 3000 level. Students may take additional 12 hours from these offerings:</p>\n<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201120\" onclick=\"return showCourse(this, 'ART 1120');\" title=\"ART 1120\">ART 1120</a></td><td>Drawing I</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201140\" onclick=\"return showCourse(this, 'ART 1140');\" title=\"ART 1140\">ART 1140</a></td><td>Painting I</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201164\" onclick=\"return showCourse(this, 'ART 1164');\" title=\"ART 1164\">ART 1164</a></td><td>Sculpture</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201715\" onclick=\"return showCourse(this, 'ART 1715');\" title=\"ART 1715\">ART 1715</a></td><td>Popular Applied Arts</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%202130\" onclick=\"return showCourse(this, 'ART 2130');\" title=\"ART 2130\">ART 2130</a></td><td>Advanced Drawing</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%202150\" onclick=\"return showCourse(this, 'ART 2150');\" title=\"ART 2150\">ART 2150</a></td><td>Advanced Painting</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%203203\" onclick=\"return showCourse(this, 'ART 3203');\" title=\"ART 3203\">ART 3203</a></td><td>Architectural Design I</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%203221\" onclick=\"return showCourse(this, 'ART 3221');\" title=\"ART 3221\">ART 3221</a></td><td>Fundamentals in Photography</td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        }
+    ],
+    "raw_minor_text": "Art Minor The art minor offers students the opportunity to pursue an area of focus in studio art, art history, and film studies. Requirements: The minor requires 15 hours, including ART 1180 , which is a required course. At lease 6 of the required 15 hours must be taken at or above the 3000 level. Students may take additional hours from these offerings: ART 1185 Study Of Film 3 ART 3222 Revolution And Romanticism In The Arts 1785 - 1832 3 ART 3250 Thematic Studies In Film & Literature 3 Any 3000-level philosophy course Topics course from the following series: ART 2001 Special Topics ART 3001 Special Topics ART 4001 Special Topics PHILOS 4333 American Philosophy 3 In addition, students may take up to six hours of studio classes. Film and Literature Minor The film and literature minor is an interdisciplinary and inter-textual course of study in which students will explore the connections between different mediums, increasing the pleasure and understanding of each. Requirements: The minor requires 12 hours, including the following required courses: ART 1185 Study Of Film (3 hours) and the core course ENGLISH 2230 Literature And Film (3 hours) . In addition, students will take 6 hours of electives in the field of literature and film studies. These electives can include but are not limited to: ENGLISH 2248 Thematic Studies in Literature and Film 3 ART 3250 Thematic Studies In Film & Literature 3 Studio Art Minor The studio art minor offers students the opportunity to pursue an area of focus in painting, drawing, photography, etc. Requirements: The minor requires 15 hours, including ART 1180 Art Appreciation , which is a required course. At least 6 of the required 15 hours must be taken at or above the 3000 level. Students may take additional 12 hours from these offerings: ART 1120 Drawing I 3 ART 1140 Painting I 3 ART 1164 Sculpture 3 ART 1715 Popular Applied Arts 3 ART 2130 Advanced Drawing 3 ART 2150 Advanced Painting 3 ART 3203 Architectural Design I 3 ART 3221 Fundamentals in Photography 3",
+    "raw_minor_html": "<div class=\"tab_content\" id=\"minortextcontainer\">\n<a name=\"minortext\"></a><h2>Art Minor</h2> <p>The art minor offers students the opportunity to pursue an area of focus in studio art, art history, and film studies.</p> <p><strong>Requirements:</strong><br/> The minor requires 15 hours, including  <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201180\" onclick=\"return showCourse(this, 'ART 1180');\" title=\"ART 1180\">ART 1180</a></span>, which is a required course. At lease 6 of the required 15 hours must be taken at or above the 3000 level. Students may take additional hours from these offerings:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201185\" onclick=\"return showCourse(this, 'ART 1185');\" title=\"ART 1185\">ART 1185</a></td><td>Study Of Film</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%203222\" onclick=\"return showCourse(this, 'ART 3222');\" title=\"ART 3222\">ART 3222</a></td><td>Revolution And Romanticism In The Arts 1785 - 1832</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%203250\" onclick=\"return showCourse(this, 'ART 3250');\" title=\"ART 3250\">ART 3250</a></td><td>Thematic Studies In Film &amp; Literature</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td colspan=\"2\"><span class=\"courselistcomment\">Any 3000-level philosophy course</span></td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td colspan=\"2\"><span class=\"courselistcomment\">Topics course from the following series:</span></td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=ART%202001\" onclick=\"return showCourse(this, 'ART 2001');\" title=\"ART 2001\">ART 2001</a></div></td><td>Special Topics</td><td class=\"hourscol\"></td></tr> <tr class=\"even\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=ART%203001\" onclick=\"return showCourse(this, 'ART 3001');\" title=\"ART 3001\">ART 3001</a></div></td><td>Special Topics</td><td class=\"hourscol\"></td></tr> <tr class=\"odd\"><td class=\"codecol\"><div style=\"margin-left: 20px;\"><a class=\"bubblelink code\" href=\"/search/?P=ART%204001\" onclick=\"return showCourse(this, 'ART 4001');\" title=\"ART 4001\">ART 4001</a></div></td><td>Special Topics</td><td class=\"hourscol\"></td></tr> <tr class=\"even lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHILOS%204333\" onclick=\"return showCourse(this, 'PHILOS 4333');\" title=\"PHILOS 4333\">PHILOS 4333</a></td><td>American Philosophy</td><td class=\"hourscol\">3</td></tr> </tbody></table> <p>In addition, students may take up to six hours of studio classes.</p>\n<h2>Film and Literature Minor</h2> <p>The film and literature minor is an interdisciplinary and inter-textual course of study in which students will explore the connections between different mediums, increasing the pleasure and understanding of each.</p> <p><strong>Requirements:</strong><br/> The minor requires 12 hours, including the following required courses: <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201185\" onclick=\"return showCourse(this, 'ART 1185');\" title=\"ART 1185\">ART 1185</a> Study Of Film (3 hours)</span> and the core course <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%202230\" onclick=\"return showCourse(this, 'ENGLISH 2230');\" title=\"ENGLISH 2230\">ENGLISH 2230</a> Literature And Film (3 hours)</span> .</p> <p>In addition, students will take 6 hours of electives in the field of literature and film studies. These electives can include but are not limited to:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%202248\" onclick=\"return showCourse(this, 'ENGLISH 2248');\" title=\"ENGLISH 2248\">ENGLISH 2248</a></td><td>Thematic Studies in Literature and Film</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%203250\" onclick=\"return showCourse(this, 'ART 3250');\" title=\"ART 3250\">ART 3250</a></td><td>Thematic Studies In Film &amp; Literature</td><td class=\"hourscol\">3</td></tr> </tbody></table>\n<h2>Studio Art Minor</h2> <p>The studio art minor offers students the opportunity to pursue an area of focus in painting, drawing, photography, etc.</p> <p><strong>Requirements:</strong><br/> The minor requires 15 hours, including <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201180\" onclick=\"return showCourse(this, 'ART 1180');\" title=\"ART 1180\">ART 1180</a> Art Appreciation</span> , which is a required course. At least 6 of the required 15 hours must be taken at or above the 3000 level. Students may take additional 12 hours from these offerings:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201120\" onclick=\"return showCourse(this, 'ART 1120');\" title=\"ART 1120\">ART 1120</a></td><td>Drawing I</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201140\" onclick=\"return showCourse(this, 'ART 1140');\" title=\"ART 1140\">ART 1140</a></td><td>Painting I</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201164\" onclick=\"return showCourse(this, 'ART 1164');\" title=\"ART 1164\">ART 1164</a></td><td>Sculpture</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%201715\" onclick=\"return showCourse(this, 'ART 1715');\" title=\"ART 1715\">ART 1715</a></td><td>Popular Applied Arts</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%202130\" onclick=\"return showCourse(this, 'ART 2130');\" title=\"ART 2130\">ART 2130</a></td><td>Advanced Drawing</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%202150\" onclick=\"return showCourse(this, 'ART 2150');\" title=\"ART 2150\">ART 2150</a></td><td>Advanced Painting</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%203203\" onclick=\"return showCourse(this, 'ART 3203');\" title=\"ART 3203\">ART 3203</a></td><td>Architectural Design I</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ART%203221\" onclick=\"return showCourse(this, 'ART 3221');\" title=\"ART 3221\">ART 3221</a></td><td>Fundamentals in Photography</td><td class=\"hourscol\">3</td></tr> </tbody></table>\n</div>"
+}

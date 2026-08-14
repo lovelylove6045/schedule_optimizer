@@ -1,0 +1,2573 @@
+{
+    "source": {
+        "institution": "Missouri University of Science and Technology",
+        "catalog_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/physics/#bachelorstext",
+        "page_url": "https://catalog.mst.edu/undergraduate/degreeprogramsandcourses/physics/",
+        "fragment": "bachelorstext",
+        "page_slug": "physics",
+        "page_title": "Physics < Missouri University of Science and Technology",
+        "capture_type": "fragment_section",
+        "selection_method": "id=bachelorstextcontainer"
+    },
+    "inventory": {
+        "text_character_count": 5172,
+        "html_character_count": 22575,
+        "heading_count": 2,
+        "paragraph_count": 13,
+        "list_count": 0,
+        "table_count": 4,
+        "link_count": 74,
+        "superscript_count": 19,
+        "text_sha256": "aaabae55f60a281e4bb5ce207d04117f0594af2f855337a5fd295f327a9065ad",
+        "html_sha256": "b89ed35e1ce3e0c8afe1f88d36f3aa8abe3ee8ded0defb0fea1f3d6f77e65947"
+    },
+    "headings": [
+        {
+            "number": 1,
+            "level": "h2",
+            "text": "Bachelor of Science Physics",
+            "id": null
+        },
+        {
+            "number": 2,
+            "level": "h2",
+            "text": "Emphasis in Secondary Education",
+            "id": null
+        }
+    ],
+    "links": [
+        {
+            "number": 1,
+            "text": "ENGLISH 1160",
+            "href": "/search/?P=ENGLISH%201160",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201160",
+            "resolved_course": "ENGLISH 1160"
+        },
+        {
+            "number": 2,
+            "text": "ENGLISH 3560",
+            "href": "/search/?P=ENGLISH%203560",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%203560",
+            "resolved_course": "ENGLISH 3560"
+        },
+        {
+            "number": 3,
+            "text": "HISTORY 1300",
+            "href": "/search/?P=HISTORY%201300",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201300",
+            "resolved_course": "HISTORY 1300"
+        },
+        {
+            "number": 4,
+            "text": "HISTORY 1310",
+            "href": "/search/?P=HISTORY%201310",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201310",
+            "resolved_course": "HISTORY 1310"
+        },
+        {
+            "number": 5,
+            "text": "HISTORY 1200",
+            "href": "/search/?P=HISTORY%201200",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201200",
+            "resolved_course": "HISTORY 1200"
+        },
+        {
+            "number": 6,
+            "text": "POL SCI 1200",
+            "href": "/search/?P=POL%20SCI%201200",
+            "url": "https://catalog.mst.edu/search/?P=POL%20SCI%201200",
+            "resolved_course": "POL SCI 1200"
+        },
+        {
+            "number": 7,
+            "text": "CHEM 1310",
+            "href": "/search/?P=CHEM%201310",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201310",
+            "resolved_course": "CHEM 1310"
+        },
+        {
+            "number": 8,
+            "text": "CHEM 1320",
+            "href": "/search/?P=CHEM%201320",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201320",
+            "resolved_course": "CHEM 1320"
+        },
+        {
+            "number": 9,
+            "text": "CHEM 1319",
+            "href": "/search/?P=CHEM%201319",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201319",
+            "resolved_course": "CHEM 1319"
+        },
+        {
+            "number": 10,
+            "text": "HISTORY 1200",
+            "href": "/search/?P=HISTORY%201200",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201200",
+            "resolved_course": "HISTORY 1200"
+        },
+        {
+            "number": 11,
+            "text": "1300",
+            "href": "/search/?P=HISTORY%201300",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201300",
+            "resolved_course": "HISTORY 1300"
+        },
+        {
+            "number": 12,
+            "text": "1310",
+            "href": "/search/?P=HISTORY%201310",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%201310",
+            "resolved_course": "HISTORY 1310"
+        },
+        {
+            "number": 13,
+            "text": "POL SCI 1200",
+            "href": "/search/?P=POL%20SCI%201200",
+            "url": "https://catalog.mst.edu/search/?P=POL%20SCI%201200",
+            "resolved_course": "POL SCI 1200"
+        },
+        {
+            "number": 14,
+            "text": "CHEM 1100",
+            "href": "/search/?P=CHEM%201100",
+            "url": "https://catalog.mst.edu/search/?P=CHEM%201100",
+            "resolved_course": "CHEM 1100"
+        },
+        {
+            "number": 15,
+            "text": "PHYSICS 1135",
+            "href": "/search/?P=PHYSICS%201135",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%201135",
+            "resolved_course": "PHYSICS 1135"
+        },
+        {
+            "number": 16,
+            "text": "ENGLISH 1120",
+            "href": "/search/?P=ENGLISH%201120",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201120",
+            "resolved_course": "ENGLISH 1120"
+        },
+        {
+            "number": 17,
+            "text": "MATH 1215",
+            "href": "/search/?P=MATH%201215",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201215",
+            "resolved_course": "MATH 1215"
+        },
+        {
+            "number": 18,
+            "text": "PHYSICS 1101",
+            "href": "/search/?P=PHYSICS%201101",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%201101",
+            "resolved_course": "PHYSICS 1101"
+        },
+        {
+            "number": 19,
+            "text": "MATH 1214",
+            "href": "/search/?P=MATH%201214",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201214",
+            "resolved_course": "MATH 1214"
+        },
+        {
+            "number": 20,
+            "text": "1211",
+            "href": "/search/?P=MATH%201211",
+            "url": "https://catalog.mst.edu/search/?P=MATH%201211",
+            "resolved_course": "MATH 1211"
+        },
+        {
+            "number": 21,
+            "text": "ENGLISH 1160",
+            "href": "/search/?P=ENGLISH%201160",
+            "url": "https://catalog.mst.edu/search/?P=ENGLISH%201160",
+            "resolved_course": "ENGLISH 1160"
+        },
+        {
+            "number": 22,
+            "text": "MATH 3304",
+            "href": "/search/?P=MATH%203304",
+            "url": "https://catalog.mst.edu/search/?P=MATH%203304",
+            "resolved_course": "MATH 3304"
+        },
+        {
+            "number": 23,
+            "text": "MATH 2222",
+            "href": "/search/?P=MATH%202222",
+            "url": "https://catalog.mst.edu/search/?P=MATH%202222",
+            "resolved_course": "MATH 2222"
+        },
+        {
+            "number": 24,
+            "text": "PHYSICS 2129",
+            "href": "/search/?P=PHYSICS%202129",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202129",
+            "resolved_course": "PHYSICS 2129"
+        },
+        {
+            "number": 25,
+            "text": "COMP SCI 1500",
+            "href": "/search/?P=COMP%20SCI%201500",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201500",
+            "resolved_course": "COMP SCI 1500"
+        },
+        {
+            "number": 26,
+            "text": "1972",
+            "href": "/search/?P=COMP%20SCI%201972",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201972",
+            "resolved_course": "COMP SCI 1972"
+        },
+        {
+            "number": 27,
+            "text": "1982",
+            "href": "/search/?P=COMP%20SCI%201982",
+            "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201982",
+            "resolved_course": "COMP SCI 1982"
+        },
+        {
+            "number": 28,
+            "text": "PHYSICS 2305",
+            "href": "/search/?P=PHYSICS%202305",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202305",
+            "resolved_course": "PHYSICS 2305"
+        },
+        {
+            "number": 29,
+            "text": "PHYSICS 2135",
+            "href": "/search/?P=PHYSICS%202135",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202135",
+            "resolved_course": "PHYSICS 2135"
+        },
+        {
+            "number": 30,
+            "text": "PHYSICS 2401",
+            "href": "/search/?P=PHYSICS%202401",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%202401",
+            "resolved_course": "PHYSICS 2401"
+        },
+        {
+            "number": 31,
+            "text": "PHYSICS 3201",
+            "href": "/search/?P=PHYSICS%203201",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%203201",
+            "resolved_course": "PHYSICS 3201"
+        },
+        {
+            "number": 32,
+            "text": "PHYSICS 3211",
+            "href": "/search/?P=PHYSICS%203211",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%203211",
+            "resolved_course": "PHYSICS 3211"
+        },
+        {
+            "number": 33,
+            "text": "PHYSICS 3119",
+            "href": "/search/?P=PHYSICS%203119",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%203119",
+            "resolved_course": "PHYSICS 3119"
+        },
+        {
+            "number": 34,
+            "text": "PHYSICS 3129",
+            "href": "/search/?P=PHYSICS%203129",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%203129",
+            "resolved_course": "PHYSICS 3129"
+        },
+        {
+            "number": 35,
+            "text": "PHYSICS 4211",
+            "href": "/search/?P=PHYSICS%204211",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%204211",
+            "resolved_course": "PHYSICS 4211"
+        },
+        {
+            "number": 36,
+            "text": "PHYSICS 4311",
+            "href": "/search/?P=PHYSICS%204311",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%204311",
+            "resolved_course": "PHYSICS 4311"
+        },
+        {
+            "number": 37,
+            "text": "PHYSICS 4301",
+            "href": "/search/?P=PHYSICS%204301",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%204301",
+            "resolved_course": "PHYSICS 4301"
+        },
+        {
+            "number": 38,
+            "text": "MATH 3304",
+            "href": "/search/?P=MATH%203304",
+            "url": "https://catalog.mst.edu/search/?P=MATH%203304",
+            "resolved_course": "MATH 3304"
+        },
+        {
+            "number": 39,
+            "text": "MATH 3108",
+            "href": "/search/?P=MATH%203108",
+            "url": "https://catalog.mst.edu/search/?P=MATH%203108",
+            "resolved_course": "MATH 3108"
+        },
+        {
+            "number": 40,
+            "text": "MATH 5222",
+            "href": "/search/?P=MATH%205222",
+            "url": "https://catalog.mst.edu/search/?P=MATH%205222",
+            "resolved_course": "MATH 5222"
+        },
+        {
+            "number": 41,
+            "text": "MATH 5325",
+            "href": "/search/?P=MATH%205325",
+            "url": "https://catalog.mst.edu/search/?P=MATH%205325",
+            "resolved_course": "MATH 5325"
+        },
+        {
+            "number": 42,
+            "text": "MATH 5351",
+            "href": "/search/?P=MATH%205351",
+            "url": "https://catalog.mst.edu/search/?P=MATH%205351",
+            "resolved_course": "MATH 5351"
+        },
+        {
+            "number": 43,
+            "text": "PHYSICS 3119",
+            "href": "/search/?P=PHYSICS%203119",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%203119",
+            "resolved_course": "PHYSICS 3119"
+        },
+        {
+            "number": 44,
+            "text": "PHYSICS 3129",
+            "href": "/search/?P=PHYSICS%203129",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%203129",
+            "resolved_course": "PHYSICS 3129"
+        },
+        {
+            "number": 45,
+            "text": "PHYSICS 3201",
+            "href": "/search/?P=PHYSICS%203201",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%203201",
+            "resolved_course": "PHYSICS 3201"
+        },
+        {
+            "number": 46,
+            "text": "PHYSICS 3211",
+            "href": "/search/?P=PHYSICS%203211",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%203211",
+            "resolved_course": "PHYSICS 3211"
+        },
+        {
+            "number": 47,
+            "text": "PHYSICS 4211",
+            "href": "/search/?P=PHYSICS%204211",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%204211",
+            "resolved_course": "PHYSICS 4211"
+        },
+        {
+            "number": 48,
+            "text": "PHYSICS 4301",
+            "href": "/search/?P=PHYSICS%204301",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%204301",
+            "resolved_course": "PHYSICS 4301"
+        },
+        {
+            "number": 49,
+            "text": "PHYSICS 4311",
+            "href": "/search/?P=PHYSICS%204311",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%204311",
+            "resolved_course": "PHYSICS 4311"
+        },
+        {
+            "number": 50,
+            "text": "PHYSICS 4323",
+            "href": "/search/?P=PHYSICS%204323",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%204323",
+            "resolved_course": "PHYSICS 4323"
+        },
+        {
+            "number": 51,
+            "text": "PHYSICS 4553",
+            "href": "/search/?P=PHYSICS%204553",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%204553",
+            "resolved_course": "PHYSICS 4553"
+        },
+        {
+            "number": 52,
+            "text": "PHYSICS 4333",
+            "href": "/search/?P=PHYSICS%204333",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%204333",
+            "resolved_course": "PHYSICS 4333"
+        },
+        {
+            "number": 53,
+            "text": "PHYSICS 4343",
+            "href": "/search/?P=PHYSICS%204343",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%204343",
+            "resolved_course": "PHYSICS 4343"
+        },
+        {
+            "number": 54,
+            "text": "https://teaching.missouri.edu/student/state-authorization/mst/licensure",
+            "href": "https://teaching.missouri.edu/student/state-authorization/mst/licensure",
+            "url": "https://teaching.missouri.edu/student/state-authorization/mst/licensure",
+            "resolved_course": null
+        },
+        {
+            "number": 55,
+            "text": "EDUC 1074",
+            "href": "/search/?P=EDUC%201074",
+            "url": "https://catalog.mst.edu/search/?P=EDUC%201074",
+            "resolved_course": "EDUC 1074"
+        },
+        {
+            "number": 56,
+            "text": "PSYCH 2300",
+            "href": "/search/?P=PSYCH%202300",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%202300",
+            "resolved_course": "PSYCH 2300"
+        },
+        {
+            "number": 57,
+            "text": "EDUC 2102",
+            "href": "/search/?P=EDUC%202102",
+            "url": "https://catalog.mst.edu/search/?P=EDUC%202102",
+            "resolved_course": "EDUC 2102"
+        },
+        {
+            "number": 58,
+            "text": "EDUC 2310",
+            "href": "/search/?P=EDUC%202310",
+            "url": "https://catalog.mst.edu/search/?P=EDUC%202310",
+            "resolved_course": "EDUC 2310"
+        },
+        {
+            "number": 59,
+            "text": "EDUC 3170",
+            "href": "/search/?P=EDUC%203170",
+            "url": "https://catalog.mst.edu/search/?P=EDUC%203170",
+            "resolved_course": "EDUC 3170"
+        },
+        {
+            "number": 60,
+            "text": "EDUC 3216",
+            "href": "/search/?P=EDUC%203216",
+            "url": "https://catalog.mst.edu/search/?P=EDUC%203216",
+            "resolved_course": "EDUC 3216"
+        },
+        {
+            "number": 61,
+            "text": "EDUC 3280",
+            "href": "/search/?P=EDUC%203280",
+            "url": "https://catalog.mst.edu/search/?P=EDUC%203280",
+            "resolved_course": "EDUC 3280"
+        },
+        {
+            "number": 62,
+            "text": "EDUC 3340",
+            "href": "/search/?P=EDUC%203340",
+            "url": "https://catalog.mst.edu/search/?P=EDUC%203340",
+            "resolved_course": "EDUC 3340"
+        },
+        {
+            "number": 63,
+            "text": "PSYCH 3310",
+            "href": "/search/?P=PSYCH%203310",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%203310",
+            "resolved_course": "PSYCH 3310"
+        },
+        {
+            "number": 64,
+            "text": "EDUC 4298",
+            "href": "/search/?P=EDUC%204298",
+            "url": "https://catalog.mst.edu/search/?P=EDUC%204298",
+            "resolved_course": "EDUC 4298"
+        },
+        {
+            "number": 65,
+            "text": "EDUC 1104",
+            "href": "/search/?P=EDUC%201104",
+            "url": "https://catalog.mst.edu/search/?P=EDUC%201104",
+            "resolved_course": "EDUC 1104"
+        },
+        {
+            "number": 66,
+            "text": "EDUC 1164",
+            "href": "/search/?P=EDUC%201164",
+            "url": "https://catalog.mst.edu/search/?P=EDUC%201164",
+            "resolved_course": "EDUC 1164"
+        },
+        {
+            "number": 67,
+            "text": "EDUC 3298",
+            "href": "/search/?P=EDUC%203298",
+            "url": "https://catalog.mst.edu/search/?P=EDUC%203298",
+            "resolved_course": "EDUC 3298"
+        },
+        {
+            "number": 68,
+            "text": "EDUC 4299",
+            "href": "/search/?P=EDUC%204299",
+            "url": "https://catalog.mst.edu/search/?P=EDUC%204299",
+            "resolved_course": "EDUC 4299"
+        },
+        {
+            "number": 69,
+            "text": "SP&M S 1185",
+            "href": "/search/?P=SP%26M%20S%201185",
+            "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%201185",
+            "resolved_course": "SP&M S 1185"
+        },
+        {
+            "number": 70,
+            "text": "POL SCI 1200",
+            "href": "/search/?P=POL%20SCI%201200",
+            "url": "https://catalog.mst.edu/search/?P=POL%20SCI%201200",
+            "resolved_course": "POL SCI 1200"
+        },
+        {
+            "number": 71,
+            "text": "PSYCH 1101",
+            "href": "/search/?P=PSYCH%201101",
+            "url": "https://catalog.mst.edu/search/?P=PSYCH%201101",
+            "resolved_course": "PSYCH 1101"
+        },
+        {
+            "number": 72,
+            "text": "BIO SCI 1113",
+            "href": "/search/?P=BIO%20SCI%201113",
+            "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201113",
+            "resolved_course": "BIO SCI 1113"
+        },
+        {
+            "number": 73,
+            "text": "PHYSICS 1605",
+            "href": "/search/?P=PHYSICS%201605",
+            "url": "https://catalog.mst.edu/search/?P=PHYSICS%201605",
+            "resolved_course": "PHYSICS 1605"
+        },
+        {
+            "number": 74,
+            "text": "HISTORY 3530",
+            "href": "/search/?P=HISTORY%203530",
+            "url": "https://catalog.mst.edu/search/?P=HISTORY%203530",
+            "resolved_course": "HISTORY 3530"
+        }
+    ],
+    "tables": [
+        {
+            "table_number": 1,
+            "text": "Freshman Year First Semester Credits Second Semester Credits CHEM 1310 4 CHEM 1320 3 CHEM 1319 1 HISTORY 1200 , or 1300 , or 1310 , or POL SCI 1200 3 CHEM 1100 1 PHYSICS 1135 4 ENGLISH 1120 3 MATH 1215 4 PHYSICS 1101 1 MATH 1214 or 1211 4 14 14 Sophomore Year First Semester Credits Second Semester Credits ENGLISH 1160 3 MATH 3304 3 MATH 2222 4 PHYSICS 2129 3 COMP SCI 1500 or 1972 and 1982 3 PHYSICS 2305 3 PHYSICS 2135 4 PHYSICS 2401 3 Elective 1 3 Elective 1 3 17 15 Junior Year First Semester Credits Second Semester Credits PHYSICS 3201 3 PHYSICS 3211 3 PHYSICS 3119 3 PHYSICS 3129 3 Physics Area Focus Course 4 3 Math/Stat Elective 2 3 Math/Stat Elective 2 3 Electives 1 6 Electives 1 3 15 15 Senior Year First Semester Credits Second Semester Credits PHYSICS 4211 3 PHYSICS 4311 3 PHYSICS 4301 3 Physics Elective 3 3 Physics Area Focus Course 4 3 Electives 1 9 Electives 1 6 15 15 Total Credits: 120",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Freshman Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CHEM 1310",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CHEM 1310",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%201310",
+                                    "resolved_course": "CHEM 1310"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "CHEM 1320",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CHEM 1320",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%201320",
+                                    "resolved_course": "CHEM 1320"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CHEM 1319",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CHEM 1319",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%201319",
+                                    "resolved_course": "CHEM 1319"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "HISTORY 1200 , or 1300 , or 1310 , or POL SCI 1200",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "HISTORY 1200",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201200",
+                                    "resolved_course": "HISTORY 1200"
+                                },
+                                {
+                                    "text": "1300",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201300",
+                                    "resolved_course": "HISTORY 1300"
+                                },
+                                {
+                                    "text": "1310",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%201310",
+                                    "resolved_course": "HISTORY 1310"
+                                },
+                                {
+                                    "text": "POL SCI 1200",
+                                    "url": "https://catalog.mst.edu/search/?P=POL%20SCI%201200",
+                                    "resolved_course": "POL SCI 1200"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "CHEM 1100",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "CHEM 1100",
+                                    "url": "https://catalog.mst.edu/search/?P=CHEM%201100",
+                                    "resolved_course": "CHEM 1100"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "PHYSICS 1135",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 1135",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%201135",
+                                    "resolved_course": "PHYSICS 1135"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENGLISH 1120",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENGLISH 1120",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%201120",
+                                    "resolved_course": "ENGLISH 1120"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MATH 1215",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 1215",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201215",
+                                    "resolved_course": "MATH 1215"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHYSICS 1101",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 1101",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%201101",
+                                    "resolved_course": "PHYSICS 1101"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MATH 1214 or 1211",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 1214",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201214",
+                                    "resolved_course": "MATH 1214"
+                                },
+                                {
+                                    "text": "1211",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%201211",
+                                    "resolved_course": "MATH 1211"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "14",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "14",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 10,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Sophomore Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 11,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 12,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "ENGLISH 1160",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "ENGLISH 1160",
+                                    "url": "https://catalog.mst.edu/search/?P=ENGLISH%201160",
+                                    "resolved_course": "ENGLISH 1160"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "MATH 3304",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 3304",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%203304",
+                                    "resolved_course": "MATH 3304"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 13,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "MATH 2222",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "MATH 2222",
+                                    "url": "https://catalog.mst.edu/search/?P=MATH%202222",
+                                    "resolved_course": "MATH 2222"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "PHYSICS 2129",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 2129",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%202129",
+                                    "resolved_course": "PHYSICS 2129"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 14,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "COMP SCI 1500 or 1972 and 1982",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "COMP SCI 1500",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201500",
+                                    "resolved_course": "COMP SCI 1500"
+                                },
+                                {
+                                    "text": "1972",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201972",
+                                    "resolved_course": "COMP SCI 1972"
+                                },
+                                {
+                                    "text": "1982",
+                                    "url": "https://catalog.mst.edu/search/?P=COMP%20SCI%201982",
+                                    "resolved_course": "COMP SCI 1982"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "PHYSICS 2305",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 2305",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%202305",
+                                    "resolved_course": "PHYSICS 2305"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 15,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHYSICS 2135",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 2135",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%202135",
+                                    "resolved_course": "PHYSICS 2135"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "PHYSICS 2401",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 2401",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%202401",
+                                    "resolved_course": "PHYSICS 2401"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 16,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Elective 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Elective 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 17,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "17",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 18,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Junior Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 19,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 20,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHYSICS 3201",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 3201",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%203201",
+                                    "resolved_course": "PHYSICS 3201"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "PHYSICS 3211",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 3211",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%203211",
+                                    "resolved_course": "PHYSICS 3211"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 21,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHYSICS 3119",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 3119",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%203119",
+                                    "resolved_course": "PHYSICS 3119"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "PHYSICS 3129",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 3129",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%203129",
+                                    "resolved_course": "PHYSICS 3129"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 22,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Physics Area Focus Course 4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Math/Stat Elective 2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 23,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Math/Stat Elective 2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Electives 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "6",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 24,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Electives 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 25,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 26,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "Senior Year",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 27,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "th",
+                            "text": "First Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "th",
+                            "text": "Second Semester",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "th",
+                            "text": "Credits",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 28,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHYSICS 4211",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 4211",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%204211",
+                                    "resolved_course": "PHYSICS 4211"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "PHYSICS 4311",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 4311",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%204311",
+                                    "resolved_course": "PHYSICS 4311"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 29,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHYSICS 4301",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 4301",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%204301",
+                                    "resolved_course": "PHYSICS 4301"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Physics Elective 3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 30,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Physics Area Focus Course 4",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "Electives 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "9",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 31,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Electives 1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "6",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 32,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 4,
+                            "tag": "td",
+                            "text": "15",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 33,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Total Credits: 120",
+                            "colspan": "4",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_plangrid\"><tr class=\"plangridyear firstrow\"><th colspan=\"4\">Freshman Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201310\" onclick=\"return showCourse(this, 'CHEM 1310');\" title=\"CHEM 1310\">CHEM 1310</a></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201320\" onclick=\"return showCourse(this, 'CHEM 1320');\" title=\"CHEM 1320\">CHEM 1320</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201319\" onclick=\"return showCourse(this, 'CHEM 1319');\" title=\"CHEM 1319\">CHEM 1319</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201200\" onclick=\"return showCourse(this, 'HISTORY 1200');\" title=\"HISTORY 1200\">HISTORY 1200</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201300\" onclick=\"return showCourse(this, 'HISTORY 1300');\" title=\"HISTORY 1300\"> 1300</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201310\" onclick=\"return showCourse(this, 'HISTORY 1310');\" title=\"HISTORY 1310\"> 1310</a>, or <a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%201200\" onclick=\"return showCourse(this, 'POL SCI 1200');\" title=\"POL SCI 1200\">POL SCI  1200</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201100\" onclick=\"return showCourse(this, 'CHEM 1100');\" title=\"CHEM 1100\">CHEM 1100</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201135\" onclick=\"return showCourse(this, 'PHYSICS 1135');\" title=\"PHYSICS 1135\">PHYSICS 1135</a></td><td class=\"hourscol\">4</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201120\" onclick=\"return showCourse(this, 'ENGLISH 1120');\" title=\"ENGLISH 1120\">ENGLISH 1120</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201215\" onclick=\"return showCourse(this, 'MATH 1215');\" title=\"MATH 1215\">MATH 1215</a></td><td class=\"hourscol\">4</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201101\" onclick=\"return showCourse(this, 'PHYSICS 1101');\" title=\"PHYSICS 1101\">PHYSICS 1101</a></td><td class=\"hourscol\">1</td><td colspan=\"2\"> </td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201214\" onclick=\"return showCourse(this, 'MATH 1214');\" title=\"MATH 1214\">MATH 1214</a> or <a class=\"bubblelink code\" href=\"/search/?P=MATH%201211\" onclick=\"return showCourse(this, 'MATH 1211');\" title=\"MATH 1211\"> 1211</a></td><td class=\"hourscol\">4</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">14</td><td> </td><td class=\"hourscol\">14</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Sophomore Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201160\" onclick=\"return showCourse(this, 'ENGLISH 1160');\" title=\"ENGLISH 1160\">ENGLISH 1160</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%203304\" onclick=\"return showCourse(this, 'MATH 3304');\" title=\"MATH 3304\">MATH 3304</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%202222\" onclick=\"return showCourse(this, 'MATH 2222');\" title=\"MATH 2222\">MATH 2222</a></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202129\" onclick=\"return showCourse(this, 'PHYSICS 2129');\" title=\"PHYSICS 2129\">PHYSICS 2129</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201500\" onclick=\"return showCourse(this, 'COMP SCI 1500');\" title=\"COMP SCI 1500\">COMP SCI 1500</a> or <a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201972\" onclick=\"return showCourse(this, 'COMP SCI 1972');\" title=\"COMP SCI 1972\"> 1972</a> <i><b>and</b></i> <a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201982\" onclick=\"return showCourse(this, 'COMP SCI 1982');\" title=\"COMP SCI 1982\"> 1982</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202305\" onclick=\"return showCourse(this, 'PHYSICS 2305');\" title=\"PHYSICS 2305\">PHYSICS 2305</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202135\" onclick=\"return showCourse(this, 'PHYSICS 2135');\" title=\"PHYSICS 2135\">PHYSICS 2135</a></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202401\" onclick=\"return showCourse(this, 'PHYSICS 2401');\" title=\"PHYSICS 2401\">PHYSICS 2401</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Elective<sup>1</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Elective<sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">17</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Junior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%203201\" onclick=\"return showCourse(this, 'PHYSICS 3201');\" title=\"PHYSICS 3201\">PHYSICS 3201</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%203211\" onclick=\"return showCourse(this, 'PHYSICS 3211');\" title=\"PHYSICS 3211\">PHYSICS 3211</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%203119\" onclick=\"return showCourse(this, 'PHYSICS 3119');\" title=\"PHYSICS 3119\">PHYSICS 3119</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%203129\" onclick=\"return showCourse(this, 'PHYSICS 3129');\" title=\"PHYSICS 3129\">PHYSICS 3129</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Physics Area Focus Course<sup>4</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Math/Stat Elective<sup>2</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Math/Stat Elective<sup>2</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Electives<sup>1</sup></td><td class=\"hourscol\">6</td></tr><tr class=\"even\"> <td class=\"codecol\">Electives<sup>1</sup></td><td class=\"hourscol\">3</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Senior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%204211\" onclick=\"return showCourse(this, 'PHYSICS 4211');\" title=\"PHYSICS 4211\">PHYSICS 4211</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%204311\" onclick=\"return showCourse(this, 'PHYSICS 4311');\" title=\"PHYSICS 4311\">PHYSICS 4311</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%204301\" onclick=\"return showCourse(this, 'PHYSICS 4301');\" title=\"PHYSICS 4301\">PHYSICS 4301</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">Physics Elective<sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Physics Area Focus Course<sup>4</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Electives<sup>1</sup></td><td class=\"hourscol\">9</td></tr><tr class=\"odd\"> <td class=\"codecol\">Electives<sup>1</sup></td><td class=\"hourscol\">6</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridtotal lastrow\"><td colspan=\"4\">Total Credits: 120</td></tr></table>"
+        },
+        {
+            "table_number": 2,
+            "text": "EDUC 1074 Foundations of Education in a Diverse Society 3 PSYCH 2300 Educational Psychology 3 or EDUC 2102 Educational Psychology EDUC 2310 Education Of The Exceptional Child 3 EDUC 3170 Teaching Reading and Writing in Middle/High School 3 EDUC 3216 Instructional Literacy in the Content Area 3 EDUC 3280 Instructional Strategies in the Content Area 3 EDUC 3340 Assessment of Student Learning 3 PSYCH 3310 Developmental Psychology 3 EDUC 4298 Student Teaching Seminar 1 Fifteen of these credit hours may be used to substitute for six hours of mathematics electives, six hours of physics electives, and three hours of computer science courses.",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "EDUC 1074",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "EDUC 1074",
+                                    "url": "https://catalog.mst.edu/search/?P=EDUC%201074",
+                                    "resolved_course": "EDUC 1074"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Foundations of Education in a Diverse Society",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 2300",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 2300",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%202300",
+                                    "resolved_course": "PSYCH 2300"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Educational Psychology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "or EDUC 2102",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "EDUC 2102",
+                                    "url": "https://catalog.mst.edu/search/?P=EDUC%202102",
+                                    "resolved_course": "EDUC 2102"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Educational Psychology",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "EDUC 2310",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "EDUC 2310",
+                                    "url": "https://catalog.mst.edu/search/?P=EDUC%202310",
+                                    "resolved_course": "EDUC 2310"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Education Of The Exceptional Child",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "EDUC 3170",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "EDUC 3170",
+                                    "url": "https://catalog.mst.edu/search/?P=EDUC%203170",
+                                    "resolved_course": "EDUC 3170"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Teaching Reading and Writing in Middle/High School",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "EDUC 3216",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "EDUC 3216",
+                                    "url": "https://catalog.mst.edu/search/?P=EDUC%203216",
+                                    "resolved_course": "EDUC 3216"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Instructional Literacy in the Content Area",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "EDUC 3280",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "EDUC 3280",
+                                    "url": "https://catalog.mst.edu/search/?P=EDUC%203280",
+                                    "resolved_course": "EDUC 3280"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Instructional Strategies in the Content Area",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 8,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "EDUC 3340",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "EDUC 3340",
+                                    "url": "https://catalog.mst.edu/search/?P=EDUC%203340",
+                                    "resolved_course": "EDUC 3340"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Assessment of Student Learning",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 9,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 3310",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 3310",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%203310",
+                                    "resolved_course": "PSYCH 3310"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Developmental Psychology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 10,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "EDUC 4298",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "EDUC 4298",
+                                    "url": "https://catalog.mst.edu/search/?P=EDUC%204298",
+                                    "resolved_course": "EDUC 4298"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Student Teaching Seminar",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 11,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "Fifteen of these credit hours may be used to substitute for six hours of mathematics electives, six hours of physics electives, and three hours of computer science courses.",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EDUC%201074\" onclick=\"return showCourse(this, 'EDUC 1074');\" title=\"EDUC 1074\">EDUC 1074</a></td><td>Foundations of Education in a Diverse Society</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%202300\" onclick=\"return showCourse(this, 'PSYCH 2300');\" title=\"PSYCH 2300\">PSYCH 2300</a></td><td>Educational Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=EDUC%202102\" onclick=\"return showCourse(this, 'EDUC 2102');\" title=\"EDUC 2102\">EDUC 2102</a></td><td colspan=\"2\"> Educational Psychology</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EDUC%202310\" onclick=\"return showCourse(this, 'EDUC 2310');\" title=\"EDUC 2310\">EDUC 2310</a></td><td>Education Of The Exceptional Child</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EDUC%203170\" onclick=\"return showCourse(this, 'EDUC 3170');\" title=\"EDUC 3170\">EDUC 3170</a></td><td>Teaching Reading and Writing in Middle/High School</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EDUC%203216\" onclick=\"return showCourse(this, 'EDUC 3216');\" title=\"EDUC 3216\">EDUC 3216</a></td><td>Instructional Literacy in the Content Area</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EDUC%203280\" onclick=\"return showCourse(this, 'EDUC 3280');\" title=\"EDUC 3280\">EDUC 3280</a></td><td>Instructional Strategies in the Content Area</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EDUC%203340\" onclick=\"return showCourse(this, 'EDUC 3340');\" title=\"EDUC 3340\">EDUC 3340</a></td><td>Assessment of Student Learning</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%203310\" onclick=\"return showCourse(this, 'PSYCH 3310');\" title=\"PSYCH 3310\">PSYCH 3310</a></td><td>Developmental Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EDUC%204298\" onclick=\"return showCourse(this, 'EDUC 4298');\" title=\"EDUC 4298\">EDUC 4298</a></td><td>Student Teaching Seminar</td><td class=\"hourscol\">1</td></tr> <tr class=\"odd lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">Fifteen of these credit hours may be used to substitute for six hours of mathematics electives, six hours of physics electives, and three hours of computer science courses.</span></td><td class=\"hourscol\"></td></tr> </tbody></table>"
+        },
+        {
+            "table_number": 3,
+            "text": "EDUC 1104 Teacher Field Experience I 1 EDUC 1164 Teacher Field Experience II 2 EDUC 3298 Teacher Field Experience III 1 EDUC 4299 Student Teaching 12",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "EDUC 1104",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "EDUC 1104",
+                                    "url": "https://catalog.mst.edu/search/?P=EDUC%201104",
+                                    "resolved_course": "EDUC 1104"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Teacher Field Experience I",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "EDUC 1164",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "EDUC 1164",
+                                    "url": "https://catalog.mst.edu/search/?P=EDUC%201164",
+                                    "resolved_course": "EDUC 1164"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Teacher Field Experience II",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "2",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "EDUC 3298",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "EDUC 3298",
+                                    "url": "https://catalog.mst.edu/search/?P=EDUC%203298",
+                                    "resolved_course": "EDUC 3298"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Teacher Field Experience III",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "1",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "EDUC 4299",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "EDUC 4299",
+                                    "url": "https://catalog.mst.edu/search/?P=EDUC%204299",
+                                    "resolved_course": "EDUC 4299"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Student Teaching",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "12",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EDUC%201104\" onclick=\"return showCourse(this, 'EDUC 1104');\" title=\"EDUC 1104\">EDUC 1104</a></td><td>Teacher Field Experience I</td><td class=\"hourscol\">1</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EDUC%201164\" onclick=\"return showCourse(this, 'EDUC 1164');\" title=\"EDUC 1164\">EDUC 1164</a></td><td>Teacher Field Experience II</td><td class=\"hourscol\">2</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EDUC%203298\" onclick=\"return showCourse(this, 'EDUC 3298');\" title=\"EDUC 3298\">EDUC 3298</a></td><td>Teacher Field Experience III</td><td class=\"hourscol\">1</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EDUC%204299\" onclick=\"return showCourse(this, 'EDUC 4299');\" title=\"EDUC 4299\">EDUC 4299</a></td><td>Student Teaching</td><td class=\"hourscol\">12</td></tr> </tbody></table>"
+        },
+        {
+            "table_number": 4,
+            "text": "SP&M S 1185 Principles Of Speech 3 POL SCI 1200 American Government 3 PSYCH 1101 General Psychology 3 BIO SCI 1113 General Biology 3 PHYSICS 1605 Environmental Physics I 3 HISTORY 3530 History of Science 3 A 3 hour Art/Music/Theater elective 3",
+            "rows": [
+                {
+                    "row": 1,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "SP&M S 1185",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "SP&M S 1185",
+                                    "url": "https://catalog.mst.edu/search/?P=SP%26M%20S%201185",
+                                    "resolved_course": "SP&M S 1185"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Principles Of Speech",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "POL SCI 1200",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "POL SCI 1200",
+                                    "url": "https://catalog.mst.edu/search/?P=POL%20SCI%201200",
+                                    "resolved_course": "POL SCI 1200"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "American Government",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 3,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PSYCH 1101",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PSYCH 1101",
+                                    "url": "https://catalog.mst.edu/search/?P=PSYCH%201101",
+                                    "resolved_course": "PSYCH 1101"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "General Psychology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 4,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "BIO SCI 1113",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "BIO SCI 1113",
+                                    "url": "https://catalog.mst.edu/search/?P=BIO%20SCI%201113",
+                                    "resolved_course": "BIO SCI 1113"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "General Biology",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 5,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "PHYSICS 1605",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "PHYSICS 1605",
+                                    "url": "https://catalog.mst.edu/search/?P=PHYSICS%201605",
+                                    "resolved_course": "PHYSICS 1605"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "Environmental Physics I",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 6,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "HISTORY 3530",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": [
+                                {
+                                    "text": "HISTORY 3530",
+                                    "url": "https://catalog.mst.edu/search/?P=HISTORY%203530",
+                                    "resolved_course": "HISTORY 3530"
+                                }
+                            ]
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "History of Science",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 3,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "row": 7,
+                    "cells": [
+                        {
+                            "column": 1,
+                            "tag": "td",
+                            "text": "A 3 hour Art/Music/Theater elective",
+                            "colspan": "2",
+                            "rowspan": null,
+                            "links": []
+                        },
+                        {
+                            "column": 2,
+                            "tag": "td",
+                            "text": "3",
+                            "colspan": null,
+                            "rowspan": null,
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "html": "<table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%201185\" onclick=\"return showCourse(this, 'SP&amp;M S 1185');\" title=\"SP&amp;M S 1185\">SP&amp;M S 1185</a></td><td>Principles Of Speech</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%201200\" onclick=\"return showCourse(this, 'POL SCI 1200');\" title=\"POL SCI 1200\">POL SCI 1200</a></td><td>American Government</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%201101\" onclick=\"return showCourse(this, 'PSYCH 1101');\" title=\"PSYCH 1101\">PSYCH 1101</a></td><td>General Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201113\" onclick=\"return showCourse(this, 'BIO SCI 1113');\" title=\"BIO SCI 1113\">BIO SCI 1113</a></td><td>General Biology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201605\" onclick=\"return showCourse(this, 'PHYSICS 1605');\" title=\"PHYSICS 1605\">PHYSICS 1605</a></td><td>Environmental Physics I</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%203530\" onclick=\"return showCourse(this, 'HISTORY 3530');\" title=\"HISTORY 3530\">HISTORY 3530</a></td><td>History of Science</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">A 3 hour Art/Music/Theater elective</span></td><td class=\"hourscol\">3</td></tr> </tbody></table>"
+        }
+    ],
+    "section_text": "Bachelor of Science Physics A minimum of 120 credit hours is required for a bachelor of science degree in physics and an average of at least two grade points per credit hour must be obtained. These requirements for the B.S. degree are in addition to credit received for algebra, trigonometry, and basic ROTC. The physics curriculum requires twelve semester hours in humanities, exclusive of foreign language, and must include ENGLISH 1160 or ENGLISH 3560 . A minimum of nine semester hours is required in social sciences, including either HISTORY 1300 , HISTORY 1310 , HISTORY 1200 , or POL SCI 1200 . Specific requirements for the bachelor degree are outlined in the sample program listed below Freshman Year First Semester Credits Second Semester Credits CHEM 1310 4 CHEM 1320 3 CHEM 1319 1 HISTORY 1200 , or 1300 , or 1310 , or POL SCI 1200 3 CHEM 1100 1 PHYSICS 1135 4 ENGLISH 1120 3 MATH 1215 4 PHYSICS 1101 1 MATH 1214 or 1211 4 14 14 Sophomore Year First Semester Credits Second Semester Credits ENGLISH 1160 3 MATH 3304 3 MATH 2222 4 PHYSICS 2129 3 COMP SCI 1500 or 1972 and 1982 3 PHYSICS 2305 3 PHYSICS 2135 4 PHYSICS 2401 3 Elective 1 3 Elective 1 3 17 15 Junior Year First Semester Credits Second Semester Credits PHYSICS 3201 3 PHYSICS 3211 3 PHYSICS 3119 3 PHYSICS 3129 3 Physics Area Focus Course 4 3 Math/Stat Elective 2 3 Math/Stat Elective 2 3 Electives 1 6 Electives 1 3 15 15 Senior Year First Semester Credits Second Semester Credits PHYSICS 4211 3 PHYSICS 4311 3 PHYSICS 4301 3 Physics Elective 3 3 Physics Area Focus Course 4 3 Electives 1 9 Electives 1 6 15 15 Total Credits: 120 Note: The minimum credit hours required for a bachelor of science in physics is 120 hours. No more than two of the required physics and mathematics courses with a grade of “D” may be used to meet graduation requirements. Upon petition to and approval by the physics faculty, three semester hours of advanced ROTC (military science or aerospace credit studies) credit can be counted as elective credit to meet requirements for graduation. 1 30 hours of electives are required in addition to the math/stat electives 2 , physics electives 3 , and physics area focus courses 4 . Electives must fulfill the Missouri S&T general education requirements applicable to the student's catalog year. 15 hours of free electives may be used to develop an emphasis area. At least 15 hours of elective credit shall be in courses at the 3000 level or above. 2 Six hours of mathematics or statistics beyond MATH 3304 are required. MATH 3108 , MATH 5222 , MATH 5325 , or MATH 5351 are recommended. 3 In addition to the specific 3000 and 4000 level physics courses listed ( PHYSICS 3119 , PHYSICS 3129 , PHYSICS 3201 , PHYSICS 3211 , PHYSICS 4211 , PHYSICS 4301 , PHYSICS 4311 ), and in addition to the two physics area focus courses 4 , one other physics 3000 level or higher course is required. 4 Two physics area focus courses are required. Students can pick from PHYSICS 4323 , PHYSICS 4553 , PHYSICS 4333 , and PHYSICS 4343 - Atomic Physics. Emphasis in Secondary Education Students may develop an emphasis area in secondary education that will allow them to teach physics in grades 9-12 in Missouri. Please contact the Department of Teacher Education for a complete list of requirements. In addition to maintaining a 2.5 content GPA and 3.0 education GPA, students must pass the appropriate content assessment to be eligible for student teaching. Missouri S&T allows students to choose their student teaching placement, if the district agrees and a qualified cooperating teacher is available. This program is approved by the Missouri Department of Elementary and Secondary Education. License reciprocity determinations outside of Missouri can be found at https://teaching.missouri.edu/student/state-authorization/mst/licensure . a. Professional requirements courses: EDUC 1074 Foundations of Education in a Diverse Society 3 PSYCH 2300 Educational Psychology 3 or EDUC 2102 Educational Psychology EDUC 2310 Education Of The Exceptional Child 3 EDUC 3170 Teaching Reading and Writing in Middle/High School 3 EDUC 3216 Instructional Literacy in the Content Area 3 EDUC 3280 Instructional Strategies in the Content Area 3 EDUC 3340 Assessment of Student Learning 3 PSYCH 3310 Developmental Psychology 3 EDUC 4298 Student Teaching Seminar 1 Fifteen of these credit hours may be used to substitute for six hours of mathematics electives, six hours of physics electives, and three hours of computer science courses. b. Clinical experience courses: EDUC 1104 Teacher Field Experience I 1 EDUC 1164 Teacher Field Experience II 2 EDUC 3298 Teacher Field Experience III 1 EDUC 4299 Student Teaching 12 c. Take these additional courses: SP&M S 1185 Principles Of Speech 3 POL SCI 1200 American Government 3 PSYCH 1101 General Psychology 3 BIO SCI 1113 General Biology 3 PHYSICS 1605 Environmental Physics I 3 HISTORY 3530 History of Science 3 A 3 hour Art/Music/Theater elective 3 d. Complete the requirements for teacher certification listed in this catalog. e. General education electives must fulfill the Missouri S&T general education requirements applicable to the student's catalog year.",
+    "section_html": "<div class=\"tab_content\" id=\"bachelorstextcontainer\">\n<a name=\"bachelorstext\"></a><h2>Bachelor of Science<br/> Physics</h2> <p>A minimum of 120 credit hours is required for a bachelor of science degree in physics and an average of at least two grade points per credit hour must be obtained. These requirements for the B.S. degree are in addition to credit received for algebra, trigonometry, and basic ROTC.</p> <p>The physics curriculum requires twelve semester hours in humanities, exclusive of foreign language, and must include <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201160\" onclick=\"return showCourse(this, 'ENGLISH 1160');\" title=\"ENGLISH 1160\">ENGLISH 1160</a></span> or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%203560\" onclick=\"return showCourse(this, 'ENGLISH 3560');\" title=\"ENGLISH 3560\">ENGLISH 3560</a></span>. A minimum of nine semester hours is required in social sciences, including either <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201300\" onclick=\"return showCourse(this, 'HISTORY 1300');\" title=\"HISTORY 1300\">HISTORY 1300</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201310\" onclick=\"return showCourse(this, 'HISTORY 1310');\" title=\"HISTORY 1310\">HISTORY 1310</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201200\" onclick=\"return showCourse(this, 'HISTORY 1200');\" title=\"HISTORY 1200\">HISTORY 1200</a></span>, or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%201200\" onclick=\"return showCourse(this, 'POL SCI 1200');\" title=\"POL SCI 1200\">POL SCI 1200</a></span>. Specific requirements for the bachelor degree are outlined in the sample program listed below</p> <table class=\"sc_plangrid\"><tr class=\"plangridyear firstrow\"><th colspan=\"4\">Freshman Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201310\" onclick=\"return showCourse(this, 'CHEM 1310');\" title=\"CHEM 1310\">CHEM 1310</a></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201320\" onclick=\"return showCourse(this, 'CHEM 1320');\" title=\"CHEM 1320\">CHEM 1320</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201319\" onclick=\"return showCourse(this, 'CHEM 1319');\" title=\"CHEM 1319\">CHEM 1319</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201200\" onclick=\"return showCourse(this, 'HISTORY 1200');\" title=\"HISTORY 1200\">HISTORY 1200</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201300\" onclick=\"return showCourse(this, 'HISTORY 1300');\" title=\"HISTORY 1300\"> 1300</a>, or <a class=\"bubblelink code\" href=\"/search/?P=HISTORY%201310\" onclick=\"return showCourse(this, 'HISTORY 1310');\" title=\"HISTORY 1310\"> 1310</a>, or <a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%201200\" onclick=\"return showCourse(this, 'POL SCI 1200');\" title=\"POL SCI 1200\">POL SCI  1200</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=CHEM%201100\" onclick=\"return showCourse(this, 'CHEM 1100');\" title=\"CHEM 1100\">CHEM 1100</a></td><td class=\"hourscol\">1</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201135\" onclick=\"return showCourse(this, 'PHYSICS 1135');\" title=\"PHYSICS 1135\">PHYSICS 1135</a></td><td class=\"hourscol\">4</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201120\" onclick=\"return showCourse(this, 'ENGLISH 1120');\" title=\"ENGLISH 1120\">ENGLISH 1120</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201215\" onclick=\"return showCourse(this, 'MATH 1215');\" title=\"MATH 1215\">MATH 1215</a></td><td class=\"hourscol\">4</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201101\" onclick=\"return showCourse(this, 'PHYSICS 1101');\" title=\"PHYSICS 1101\">PHYSICS 1101</a></td><td class=\"hourscol\">1</td><td colspan=\"2\"> </td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%201214\" onclick=\"return showCourse(this, 'MATH 1214');\" title=\"MATH 1214\">MATH 1214</a> or <a class=\"bubblelink code\" href=\"/search/?P=MATH%201211\" onclick=\"return showCourse(this, 'MATH 1211');\" title=\"MATH 1211\"> 1211</a></td><td class=\"hourscol\">4</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">14</td><td> </td><td class=\"hourscol\">14</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Sophomore Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=ENGLISH%201160\" onclick=\"return showCourse(this, 'ENGLISH 1160');\" title=\"ENGLISH 1160\">ENGLISH 1160</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%203304\" onclick=\"return showCourse(this, 'MATH 3304');\" title=\"MATH 3304\">MATH 3304</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%202222\" onclick=\"return showCourse(this, 'MATH 2222');\" title=\"MATH 2222\">MATH 2222</a></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202129\" onclick=\"return showCourse(this, 'PHYSICS 2129');\" title=\"PHYSICS 2129\">PHYSICS 2129</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201500\" onclick=\"return showCourse(this, 'COMP SCI 1500');\" title=\"COMP SCI 1500\">COMP SCI 1500</a> or <a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201972\" onclick=\"return showCourse(this, 'COMP SCI 1972');\" title=\"COMP SCI 1972\"> 1972</a> <i><b>and</b></i> <a class=\"bubblelink code\" href=\"/search/?P=COMP%20SCI%201982\" onclick=\"return showCourse(this, 'COMP SCI 1982');\" title=\"COMP SCI 1982\"> 1982</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202305\" onclick=\"return showCourse(this, 'PHYSICS 2305');\" title=\"PHYSICS 2305\">PHYSICS 2305</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202135\" onclick=\"return showCourse(this, 'PHYSICS 2135');\" title=\"PHYSICS 2135\">PHYSICS 2135</a></td><td class=\"hourscol\">4</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%202401\" onclick=\"return showCourse(this, 'PHYSICS 2401');\" title=\"PHYSICS 2401\">PHYSICS 2401</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Elective<sup>1</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Elective<sup>1</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">17</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Junior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%203201\" onclick=\"return showCourse(this, 'PHYSICS 3201');\" title=\"PHYSICS 3201\">PHYSICS 3201</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%203211\" onclick=\"return showCourse(this, 'PHYSICS 3211');\" title=\"PHYSICS 3211\">PHYSICS 3211</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%203119\" onclick=\"return showCourse(this, 'PHYSICS 3119');\" title=\"PHYSICS 3119\">PHYSICS 3119</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%203129\" onclick=\"return showCourse(this, 'PHYSICS 3129');\" title=\"PHYSICS 3129\">PHYSICS 3129</a></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Physics Area Focus Course<sup>4</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Math/Stat Elective<sup>2</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\">Math/Stat Elective<sup>2</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Electives<sup>1</sup></td><td class=\"hourscol\">6</td></tr><tr class=\"even\"> <td class=\"codecol\">Electives<sup>1</sup></td><td class=\"hourscol\">3</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridyear\"><th colspan=\"4\">Senior Year</th></tr><tr class=\"plangridterm\"><th style=\"width: 40%;\">First Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th><th style=\"width: 40%;\">Second Semester</th><th class=\"hourscol\" style=\"width: 10%;\">Credits</th></tr><tr class=\"even\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%204211\" onclick=\"return showCourse(this, 'PHYSICS 4211');\" title=\"PHYSICS 4211\">PHYSICS 4211</a></td><td class=\"hourscol\">3</td><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%204311\" onclick=\"return showCourse(this, 'PHYSICS 4311');\" title=\"PHYSICS 4311\">PHYSICS 4311</a></td><td class=\"hourscol\">3</td></tr><tr class=\"odd\"> <td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%204301\" onclick=\"return showCourse(this, 'PHYSICS 4301');\" title=\"PHYSICS 4301\">PHYSICS 4301</a></td><td class=\"hourscol\">3</td><td class=\"codecol\">Physics Elective<sup>3</sup></td><td class=\"hourscol\">3</td></tr><tr class=\"even\"> <td class=\"codecol\">Physics Area Focus Course<sup>4</sup></td><td class=\"hourscol\">3</td><td class=\"codecol\">Electives<sup>1</sup></td><td class=\"hourscol\">9</td></tr><tr class=\"odd\"> <td class=\"codecol\">Electives<sup>1</sup></td><td class=\"hourscol\">6</td><td colspan=\"2\"> </td></tr><tr class=\"plangridsum\"><td> </td><td class=\"hourscol\">15</td><td> </td><td class=\"hourscol\">15</td></tr><tr class=\"plangridtotal lastrow\"><td colspan=\"4\">Total Credits: 120</td></tr></table> <p><strong>Note:</strong> The minimum credit hours required for a bachelor of science in physics is 120 hours. No more than two of the required physics and mathematics courses with a grade of “D” may be used to meet graduation requirements. Upon petition to and approval by the physics faculty, three semester hours of advanced ROTC (military science or aerospace credit studies) credit can be counted as elective credit to meet requirements for graduation.</p> <dl aria-label=\"Footnotes\" class=\"sc_footnotes\"><dt> <sup> 1 </sup> </dt><dd><p class=\"noindent\">30 hours of electives are required in addition to the math/stat electives<sup>2</sup>, physics electives<sup>3</sup>, and physics area focus courses<sup>4</sup>.  Electives must fulfill the Missouri S&amp;T general education requirements applicable to the student's catalog year.  15 hours of free electives may be used to develop an emphasis area. At least 15 hours of elective credit shall be in courses at the 3000 level or above.</p></dd><dt> <sup> 2 </sup> </dt><dd><p class=\"noindent\">Six hours of mathematics or statistics beyond <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%203304\" onclick=\"return showCourse(this, 'MATH 3304');\" title=\"MATH 3304\">MATH 3304</a></span> are required. <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%203108\" onclick=\"return showCourse(this, 'MATH 3108');\" title=\"MATH 3108\">MATH 3108</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%205222\" onclick=\"return showCourse(this, 'MATH 5222');\" title=\"MATH 5222\">MATH 5222</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%205325\" onclick=\"return showCourse(this, 'MATH 5325');\" title=\"MATH 5325\">MATH 5325</a></span>, or <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=MATH%205351\" onclick=\"return showCourse(this, 'MATH 5351');\" title=\"MATH 5351\">MATH 5351</a></span> are recommended.</p></dd><dt> <sup> 3 </sup> </dt><dd><p class=\"noindent\">In addition to the specific 3000 and 4000 level physics courses listed ( <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%203119\" onclick=\"return showCourse(this, 'PHYSICS 3119');\" title=\"PHYSICS 3119\">PHYSICS 3119</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%203129\" onclick=\"return showCourse(this, 'PHYSICS 3129');\" title=\"PHYSICS 3129\">PHYSICS 3129</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%203201\" onclick=\"return showCourse(this, 'PHYSICS 3201');\" title=\"PHYSICS 3201\">PHYSICS 3201</a></span>,  <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%203211\" onclick=\"return showCourse(this, 'PHYSICS 3211');\" title=\"PHYSICS 3211\">PHYSICS 3211</a></span>,  <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%204211\" onclick=\"return showCourse(this, 'PHYSICS 4211');\" title=\"PHYSICS 4211\">PHYSICS 4211</a></span>,  <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%204301\" onclick=\"return showCourse(this, 'PHYSICS 4301');\" title=\"PHYSICS 4301\">PHYSICS 4301</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%204311\" onclick=\"return showCourse(this, 'PHYSICS 4311');\" title=\"PHYSICS 4311\">PHYSICS 4311</a></span>), and in addition to the two physics area focus courses<sup>4</sup>, one other physics 3000 level or higher course is required.</p></dd><dt> <sup> 4 </sup> </dt><dd><p class=\"noindent\">Two physics area focus courses are required. Students can pick from  <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%204323\" onclick=\"return showCourse(this, 'PHYSICS 4323');\" title=\"PHYSICS 4323\">PHYSICS 4323</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%204553\" onclick=\"return showCourse(this, 'PHYSICS 4553');\" title=\"PHYSICS 4553\">PHYSICS 4553</a></span>, <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%204333\" onclick=\"return showCourse(this, 'PHYSICS 4333');\" title=\"PHYSICS 4333\">PHYSICS 4333</a></span>, and <span class=\"sc_courseinline\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%204343\" onclick=\"return showCourse(this, 'PHYSICS 4343');\" title=\"PHYSICS 4343\">PHYSICS 4343</a></span>- Atomic Physics.</p></dd></dl> <h2 style=\"text-align:center\"><strong>Emphasis in Secondary Education</strong></h2> <p>Students may develop an emphasis area in secondary education that will allow them to teach physics in grades 9-12 in Missouri. Please contact the Department of Teacher Education for a complete list of requirements.</p> <p>In addition to maintaining a 2.5 content GPA and 3.0 education GPA, students must pass the appropriate content assessment to be eligible for student teaching.  Missouri S&amp;T allows students to choose their student teaching placement, if the district agrees and a qualified cooperating teacher is available.  This program is approved by the Missouri Department of Elementary and Secondary Education.  License reciprocity determinations outside of Missouri can be found at <a href=\"https://teaching.missouri.edu/student/state-authorization/mst/licensure\" target=\"_blank\">https://teaching.missouri.edu/student/state-authorization/mst/licensure</a>.</p> <p>a. Professional requirements courses:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EDUC%201074\" onclick=\"return showCourse(this, 'EDUC 1074');\" title=\"EDUC 1074\">EDUC 1074</a></td><td>Foundations of Education in a Diverse Society</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%202300\" onclick=\"return showCourse(this, 'PSYCH 2300');\" title=\"PSYCH 2300\">PSYCH 2300</a></td><td>Educational Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"orclass odd\"><td class=\"codecol orclass\">or <a class=\"bubblelink code\" href=\"/search/?P=EDUC%202102\" onclick=\"return showCourse(this, 'EDUC 2102');\" title=\"EDUC 2102\">EDUC 2102</a></td><td colspan=\"2\"> Educational Psychology</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EDUC%202310\" onclick=\"return showCourse(this, 'EDUC 2310');\" title=\"EDUC 2310\">EDUC 2310</a></td><td>Education Of The Exceptional Child</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EDUC%203170\" onclick=\"return showCourse(this, 'EDUC 3170');\" title=\"EDUC 3170\">EDUC 3170</a></td><td>Teaching Reading and Writing in Middle/High School</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EDUC%203216\" onclick=\"return showCourse(this, 'EDUC 3216');\" title=\"EDUC 3216\">EDUC 3216</a></td><td>Instructional Literacy in the Content Area</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EDUC%203280\" onclick=\"return showCourse(this, 'EDUC 3280');\" title=\"EDUC 3280\">EDUC 3280</a></td><td>Instructional Strategies in the Content Area</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EDUC%203340\" onclick=\"return showCourse(this, 'EDUC 3340');\" title=\"EDUC 3340\">EDUC 3340</a></td><td>Assessment of Student Learning</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%203310\" onclick=\"return showCourse(this, 'PSYCH 3310');\" title=\"PSYCH 3310\">PSYCH 3310</a></td><td>Developmental Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EDUC%204298\" onclick=\"return showCourse(this, 'EDUC 4298');\" title=\"EDUC 4298\">EDUC 4298</a></td><td>Student Teaching Seminar</td><td class=\"hourscol\">1</td></tr> <tr class=\"odd lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">Fifteen of these credit hours may be used to substitute for six hours of mathematics electives, six hours of physics electives, and three hours of computer science courses.</span></td><td class=\"hourscol\"></td></tr> </tbody></table> <p>b. Clinical experience courses:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EDUC%201104\" onclick=\"return showCourse(this, 'EDUC 1104');\" title=\"EDUC 1104\">EDUC 1104</a></td><td>Teacher Field Experience I</td><td class=\"hourscol\">1</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EDUC%201164\" onclick=\"return showCourse(this, 'EDUC 1164');\" title=\"EDUC 1164\">EDUC 1164</a></td><td>Teacher Field Experience II</td><td class=\"hourscol\">2</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EDUC%203298\" onclick=\"return showCourse(this, 'EDUC 3298');\" title=\"EDUC 3298\">EDUC 3298</a></td><td>Teacher Field Experience III</td><td class=\"hourscol\">1</td></tr> <tr class=\"odd lastrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=EDUC%204299\" onclick=\"return showCourse(this, 'EDUC 4299');\" title=\"EDUC 4299\">EDUC 4299</a></td><td>Student Teaching</td><td class=\"hourscol\">12</td></tr> </tbody></table> <p>c. Take these additional courses:</p> <table class=\"sc_courselist\" width=\"100%\"><colgroup><col class=\"codecol\"/><col class=\"titlecol\"/><col align=\"char\" char=\".\" class=\"hourscol\"/></colgroup><tbody><tr class=\"even firstrow\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=SP%26M%20S%201185\" onclick=\"return showCourse(this, 'SP&amp;M S 1185');\" title=\"SP&amp;M S 1185\">SP&amp;M S 1185</a></td><td>Principles Of Speech</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=POL%20SCI%201200\" onclick=\"return showCourse(this, 'POL SCI 1200');\" title=\"POL SCI 1200\">POL SCI 1200</a></td><td>American Government</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PSYCH%201101\" onclick=\"return showCourse(this, 'PSYCH 1101');\" title=\"PSYCH 1101\">PSYCH 1101</a></td><td>General Psychology</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=BIO%20SCI%201113\" onclick=\"return showCourse(this, 'BIO SCI 1113');\" title=\"BIO SCI 1113\">BIO SCI 1113</a></td><td>General Biology</td><td class=\"hourscol\">3</td></tr> <tr class=\"even\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=PHYSICS%201605\" onclick=\"return showCourse(this, 'PHYSICS 1605');\" title=\"PHYSICS 1605\">PHYSICS 1605</a></td><td>Environmental Physics I</td><td class=\"hourscol\">3</td></tr> <tr class=\"odd\"><td class=\"codecol\"><a class=\"bubblelink code\" href=\"/search/?P=HISTORY%203530\" onclick=\"return showCourse(this, 'HISTORY 3530');\" title=\"HISTORY 3530\">HISTORY 3530</a></td><td>History of Science</td><td class=\"hourscol\">3</td></tr> <tr class=\"even lastrow\"><td colspan=\"2\"><span class=\"courselistcomment\">A 3 hour Art/Music/Theater elective</span></td><td class=\"hourscol\">3</td></tr> </tbody></table> <p>d. Complete the requirements for teacher certification listed in this catalog.<br/> e. General education electives must fulfill the Missouri S&amp;T general education requirements applicable to the student's catalog year.</p>\n</div>"
+}
