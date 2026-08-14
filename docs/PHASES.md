@@ -2,7 +2,7 @@
 
 This is the detailed, task-level companion to `docs/PROJECT_PLAN.md` (which has the high-level timeline/overview) and `docs/ARCHITECTURE.md` (tech stack rationale). Use this file as the working checklist — check items off as you go.
 
-Stack assumed throughout: **local PostgreSQL in Docker** + **Alembic migrations** + **FastAPI/SQLAlchemy/OR-Tools backend** + **React/Vite/TS frontend** + **future deploy to Azure via Docker containers** (see `docs/ARCHITECTURE.md` §7).
+Stack assumed throughout: **local PostgreSQL running natively on the host** (Docker Compose kept available for on-demand container-parity checks, not day-to-day dev) + **Alembic migrations** + **FastAPI/SQLAlchemy/OR-Tools backend** + **React/Vite/TS frontend** + **future deploy to Azure via Docker containers** (see `docs/ARCHITECTURE.md` §7).
 
 ---
 
@@ -26,44 +26,48 @@ Stack assumed throughout: **local PostgreSQL in Docker** + **Alembic migrations*
 
 **Exit criteria**: ✅ Verified — `docker compose up -d db backend` builds and starts both containers (Postgres reports `healthy`, backend logs `Application startup complete`), `GET http://localhost:8000/health` returns `{"status": "ok"}` with correct CORS headers for `http://localhost:5173`, `psql` inside the `db` container confirms the `schedule_optimizer` database and `postgres` user are live, and `npm run dev` serves the frontend at `http://localhost:5173` successfully rendering the health-check card.
 
+> **Note**: both a native host Postgres and the Docker `db` container are supported and kept working — use whichever you prefer, per teammate (see root `README.md`). They bind the same port, so only run one at a time. Day-to-day dev here runs natively (`uv run uvicorn app.main:app --reload` against the host Postgres).
+
 ---
 
-## Phase 1 — Database Schema & Data Pipeline
+## Phase 1 — Database Schema & Data Pipeline ✅
 
 **Goal**: A locally running Postgres container with the full schema (via Alembic) and a narrow, real slice of catalog data.
 
 ### 1.1 Schema
 
-- [ ] Define SQLAlchemy models for all 27 tables described in `Stellic_Degree_Optimizer_Database_Design.pdf`, grouped by domain to match the doc:
-  - Catalog: `departments`, `subjects`, `courses`, `course_tags`, `course_tag_map`, `course_relations`, `terms`, `course_rule_nodes`.
+- [x] Define SQLAlchemy models for all 28 tables described in `Stellic_Degree_Optimizer_Database_Design.pdf`, one table per file under `backend/app/models/`, grouped by domain to match the doc:
+  - Catalog: `departments`, `subjects`, `courses`, `course_tags`, `course_tag_map`, `course_relations`, `terms`, `course_rule_nodes`, `colleges`.
   - Programs/requirements: `academic_programs`, `program_relationships`, `requirement_sets`, `program_requirement_sets`, `course_groups`, `course_group_members`, `requirement_nodes`, `overlap_policies`.
   - Students/scenarios: `students`, `student_credits`, `planning_scenarios`, `scenario_programs`, `scenario_terms`, `scenario_preferences`, `scenario_objectives`.
   - Generated plans: `degree_plans`, `plan_courses`, `requirement_allocations`, `optimization_messages`.
-- [ ] Reconcile column-level differences between `schedule_optimizer.sql` (the "context only" export) and the DB design doc's fuller table dictionary — the design doc is the source of truth where they differ.
-- [ ] Add DB-level enums (`program_type`, `degree_type`, `requirement_node_type`, `rule_operator`, `requisite_type`, `course_relation_type`, `scenario_program_role`, `scenario_preference_type`, optimization objective codes — see Appendix A of the design doc) as native Postgres enum types or constrained varchars, whichever SQLAlchemy setup is faster to iterate on.
+  - Verified with `configure_mappers()` — all cross-file foreign keys resolve, 28 tables registered on `Base.metadata`.
+- [x] Reconcile column-level differences between `schedule_optimizer.sql` (the "context only" export) and the DB design doc's fuller table dictionary — table/column names match `schedule_optimizer.sql` where it overlaps; the design doc's additional tables/columns (tags, terms, colleges, students/scenarios/plans domains) were added on top, per the doc as source of truth.
+- [x] Added DB-level enums for the values listed in Appendix A of the design doc that the optimizer actually needs, as native Postgres `CREATE TYPE ... AS ENUM` types (not constrained varchars) — defined once as reusable Python `(str, Enum)` classes in `backend/app/models/enums.py`, wired into the relevant `mapped_column`s: `program_type` (`academic_programs.program_type`), `requirement_node_type` (`requirement_nodes.node_type`), `rule_operator` (shared by `requirement_nodes.node_operator` and `course_rule_nodes.rule_operator`, exactly as Appendix A defines it once for both rule trees), `requisite_type` (`course_rule_nodes.requisite_type`), `course_relation_type` (`course_relations.relation_type`), `scenario_program_role` (replaces `scenario_programs.is_primary`, which couldn't express PRIMARY_MAJOR vs. SECOND_MAJOR/MINOR/EMPHASIS — safe change, table has no data yet), `scenario_preference_type` (`scenario_preferences.preference_type`), and the optimization objective codes (`scenario_objectives.objective_type`). One extra enum not in Appendix A, `course_rule_node_type`, was added for `course_rule_nodes.node_type` since the PDF only describes that column in prose and it's a different value space than `requirement_node_type` (documented in `enums.py`). Migration `1b0db359d548` hand-writes explicit `CREATE TYPE` + `ALTER COLUMN ... USING col::text::enum` (Alembic's autogenerate detects the type changes correctly but doesn't emit valid Postgres DDL for varchar→enum on populated tables) — applied cleanly against the live 1,012-course dataset with zero data loss, verified by re-diffing all row/value counts before and after, re-running `load_catalog.py` (idempotent, same counts), and confirming a bad enum value is now rejected by the database itself (`DataError`), not just app code. Appendix A's `degree_type` (BS/BA/NONE) was briefly added (`academic_programs.degree_type`) then deliberately dropped again in migration `564dcc9e0b41` — the optimizer only needs a program's requirement tree, not its BS/BA/none distinction, and `program_type` (MAJOR/MINOR/etc.) already tells it whether something is a degree at all; see `db/SUMMARY.md` §7.
 
 ### 1.2 Alembic
 
-- [ ] `alembic init alembic` inside `backend/`; point `env.py` at the SQLAlchemy `Base.metadata`.
-- [ ] Set `sqlalchemy.url` from the `DATABASE_URL` env var (not hardcoded).
-- [ ] Generate the first migration: `alembic revision --autogenerate -m "initial schema"`; review the generated SQL by hand before applying.
-- [ ] `alembic upgrade head` against the local Docker Postgres container; confirm all tables exist via `\dt` in `psql`.
-- [ ] Document the two commands every teammate needs (`alembic revision --autogenerate -m "..."`, `alembic upgrade head`) in `README.md`.
+- [x] `alembic init alembic` inside `backend/`; `env.py` points at `app.models.Base.metadata`.
+- [x] `sqlalchemy.url` set at runtime from `app.config.get_settings().database_url` (repo-root `.env`-driven), not hardcoded in `alembic.ini`.
+- [x] Generated the first migration: `alembic revision --autogenerate -m "initial schema"` (`a1d053466018_initial_schema.py`); reviewed by hand — all 28 `create_table`s, FKs, and constraints match the models.
+- [x] `alembic upgrade head` applied successfully; confirmed all 28 tables + `alembic_version` exist (verified via `information_schema.tables`, then `psql \dt` inside the target Postgres).
+- [x] Documented the two commands every teammate needs in `backend/README.md` (`alembic revision --autogenerate -m "..."`, `alembic upgrade head`), for both the native-host and Docker workflows.
 
 ### 1.3 Data loading
 
-- [ ] Write `db/load_catalog.py` (or similar): reads `schedule_optimizer_db/*.json` (departments, subjects, courses, course_groups, course_group_courses, course_relations, requirement_sets, requirement_nodes, program_requirement_sets, academic_programs, colleges) and upserts into Postgres via the SQLAlchemy models.
-- [ ] Cross-reference against `catalog_scraper/output/*_courses.json` for any richer course descriptions/offerings not already in `schedule_optimizer_db`.
-- [ ] **Scope the first load narrowly**: pick one primary program (e.g., Computer Science) and one related minor/emphasis. Only load:
-  - Both programs' `requirement_sets` + nested `requirement_nodes` (plus any shared general-education requirement set both pull in).
-  - Every course reachable from those requirement trees (directly, or via `course_groups`/`course_group_members`).
-  - The full prerequisite/corequisite closure (`course_rule_nodes`) for those courses, even if that pulls in a few courses from other subjects.
-- [ ] Write 2–3 sanity-check SQL queries (recursive CTEs) and confirm by hand:
-  - Full requirement tree for the primary program.
-  - Full prerequisite chain for a specific upper-level course in that program.
-  - All courses satisfying a specific `course_group`.
+- [x] Wrote `db/load_catalog.py`: reads `schedule_optimizer_db/*.json` (departments, subjects, courses, course_groups, course_group_courses, course_relations, requirement_sets, requirement_nodes, program_requirement_sets, academic_programs, colleges) and upserts into Postgres via the SQLAlchemy models (`session.merge()` on every table's real primary key — safe to re-run, verified idempotent by running twice and diffing the "Done. Loaded ..." summary counts).
+- [x] Cross-referenced `catalog_scraper/output/*_courses.json`: `schedule_optimizer_db` has **no** prerequisite/corequisite data at all (`course_relations.json` is only `CROSS_LISTED`/`DUPLICATE_CREDIT`), so `course_rule_nodes` are derived entirely from free-text `Prerequisite:`/`Corequisite:` sentences in the scraper output via a new best-effort regex parser (`db/prereq_parser.py`) — see below.
+- [x] **Scoped the first load narrowly** to Aerospace Engineering BS (`AERO_BS_2026`) + Aerospace Engineering Minor (`AERO_MINOR_2026`) — the only program pair with full requirement data in `schedule_optimizer_db` (confirmed with the user before building the loader). Loaded:
+  - Both programs' 9 `requirement_sets` (8 for the major incl. the reusable `MST_GEN_ED_2026` set, 1 for the minor) + all 84 `requirement_nodes`.
+  - All 956 directly-required courses (via `required_course_id` and the 10 referenced `course_groups`/`course_group_members` — the gen-ed pools are inherently broad, e.g. HASS/BSS/Natural Sciences).
+  - The full prerequisite/corequisite closure via `course_rule_nodes`: 56 additional courses pulled in transitively (e.g. `AERO ENG 4780` → `AERO ENG 3251`/`3361`/`3171` → ... → `MATH 1103`), for **1,012 courses total**. `course_rule_nodes` is derived data with no natural key, so it's deleted and regenerated for the affected courses on every run.
+  - Parser notes (best-effort, not a full grammar, as agreed with the user): 1,897 rule nodes parsed from 764 courses' descriptions (1,373 `COURSE`, 375 `GROUP`, 86 `STANDING`, 95 `TEXT` fallback for genuinely unparseable text like "Consent of instructor required"). Found and fixed two real data-quality traps along the way: (1) ~2.5% of descriptions have a trailing Missouri reverse-transfer ("MOTR") equivalency note restating the course's own code, which was being misread as a self-referential prerequisite — now stripped before parsing; (2) some catalog entries phrase a true corequisite as "Prerequisite: Accompanied by X", which — when mutual (e.g. `COMP SCI 1972`/`1982`, `COMP ENG 2210`/`2211`) — is an unsatisfiable cycle if left tagged `PREREQUISITE`; now detected and reclassified to `COREQUISITE`. Verified via a DFS cycle check that the `PREREQUISITE`-only graph is acyclic. A known remaining limitation: nested boolean prerequisite text (e.g. "C in Math 1214; or C in both Math 1210 and Math 1211") is flattened to one `ANY`/`ALL` group rather than fully nested — documented in `db/prereq_parser.py`.
+- [x] Wrote 3 sanity-check SQL queries in `db/sanity_checks.sql` (runnable via `psql -f` or `python db/run_sanity_checks.py` if `psql` isn't on PATH) and hand-verified all three against the source JSON/catalog text:
+  - Full requirement tree for the primary program (recursive CTE over `requirement_nodes`; 78 rows, matches `requirement_nodes.json` exactly).
+  - Distinct prerequisite closure for `AERO ENG 4780` (Senior Design I) (recursive CTE over `course_rule_nodes`, deduplicated to shortest depth per course since the raw "all paths" version floods on shared Math/Physics prereqs; 23 courses, depths 1–4, matches the catalog by hand).
+  - All courses satisfying the `AERO_MAE_TECH_2026` course_group (plain join, no recursion needed for a flat membership table; 87 rows).
 
-**Exit criteria**: `alembic upgrade head` succeeds from a clean container; `load_catalog.py` runs without errors; the three sanity-check queries return correct, human-verified results.
+**Exit criteria**: `alembic upgrade head` succeeds (native or Docker Postgres); `load_catalog.py` runs without errors and is idempotent; the three sanity-check queries return correct, human-verified results. All met for the Aerospace BS/Minor scope.
 
 ---
 

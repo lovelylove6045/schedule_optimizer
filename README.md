@@ -11,18 +11,25 @@ This is the platform used for the degree optimization for normal degree audits.
 
 ## Running locally
 
-Prerequisites: [Docker Desktop](https://www.docker.com/products/docker-desktop/), [uv](https://docs.astral.sh/uv/), Node.js 20+.
+Two supported ways to run this locally — pick whichever fits you. Both read the same `.env` and hit the same code, so they're interchangeable.
 
-1. Copy `.env.example` to `.env` at the repo root and adjust values if needed (Postgres credentials, CORS origin).
-2. Start Postgres + the backend API in Docker:
+### Option A — Natively on the host
+
+Prerequisites: a local PostgreSQL server (any recent version) reachable on `localhost:5432`, [uv](https://docs.astral.sh/uv/), Node.js 20+.
+
+1. Copy `.env.example` to `.env` at the repo root and adjust values if needed (Postgres credentials, CORS origin). Make sure a database matching `POSTGRES_DB` exists on your local Postgres server.
+2. Run database migrations and start the backend API:
 
    ```bash
-   docker compose up -d db backend
+   cd backend
+   uv sync
+   uv run alembic upgrade head
+   uv run uvicorn app.main:app --reload
    ```
 
-   This builds the backend image (FastAPI + SQLAlchemy + Alembic + OR-Tools, managed with `uv`), starts Postgres 16 with a persistent volume, and exposes the API at `http://localhost:8000` (docs at `http://localhost:8000/docs`, health check at `http://localhost:8000/health`).
+   The API is served at `http://localhost:8000` (docs at `http://localhost:8000/docs`, health check at `http://localhost:8000/health`).
 
-3. Start the frontend dev server (outside Docker, for fast hot-reload):
+3. Start the frontend dev server:
 
    ```bash
    cd frontend
@@ -32,23 +39,19 @@ Prerequisites: [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
    The app runs at `http://localhost:5173` and calls the backend via `VITE_API_BASE_URL` (see `frontend/.env`).
 
-4. To run the backend without Docker instead (e.g. for debugging):
+### Option B — Docker Compose
 
-   ```bash
-   cd backend
-   uv sync
-   uv run uvicorn app.main:app --reload
-   ```
-
-   This reads Postgres connection settings from the repo-root `.env` (`POSTGRES_HOST=localhost` works here since Docker Compose publishes Postgres's port to the host).
-
-Useful commands:
+Prerequisites: [Docker Desktop](https://www.docker.com/products/docker-desktop/).
 
 ```bash
-docker compose logs -f backend   # tail backend logs
-docker compose down              # stop containers (keeps the pgdata volume)
-docker compose down -v           # stop containers and wipe the database volume
+docker compose up -d db backend       # Postgres 16 + backend API in containers
+docker compose --profile full up -d   # also builds/serves the frontend container
+docker compose logs -f backend        # tail backend logs
+docker compose down                   # stop containers (keeps the pgdata volume)
+docker compose down -v                # stop containers and wipe the database volume
 ```
+
+If you have a native Postgres service running too, stop one before starting the other — both bind to `localhost:5432` and only one can own the port at a time.
 
 See [`docs/PHASES.md`](docs/PHASES.md) for the full build checklist (database schema/Alembic setup is Phase 1).
 

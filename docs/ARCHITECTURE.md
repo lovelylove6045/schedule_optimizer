@@ -7,19 +7,19 @@ Reference doc for how the Academic Degree Optimization Engine (Stellic Pathfinde
 ```
 ┌─────────────────────┐        ┌───────────────────────────┐        ┌────────────────────┐
 │   Frontend (React)  │  HTTP  │   Backend (FastAPI)       │  SQL   │   PostgreSQL        │
-│  Vite + TS + Tailwind│ <────> │  SQLAlchemy + Alembic     │ <────> │  Docker container   │
-│  shadcn/ui, TanStack │        │  + OR-Tools CP-SAT        │        │  (local dev) ->     │
-│  Query, React Flow   │        │  optimization engine      │        │  Azure DB for       │
-└─────────────────────┘        └───────────────────────────┘        │  PostgreSQL (prod)  │
+│  Vite + TS + Tailwind│ <────> │  SQLAlchemy + Alembic     │ <────> │  Native host (dev) │
+│  shadcn/ui, TanStack │        │  + OR-Tools CP-SAT        │        │  or Docker ->      │
+│  Query, React Flow   │        │  optimization engine      │        │  Azure DB for      │
+└─────────────────────┘        └───────────────────────────┘        │  PostgreSQL (prod) │
                                                                      └────────────────────┘
 ```
 
-- **Database**: PostgreSQL. **Local development** runs Postgres in a Docker container (via `docker-compose`), so the exact same container image/config carries forward to production. Source of truth for catalog data, requirement trees, student scenarios, and generated plans.
+- **Database**: PostgreSQL. **Local development supports two interchangeable setups**: Postgres installed natively on the host, or Postgres in a Docker container via `docker-compose` — same schema/config either way, so each teammate can use whichever they prefer. Source of truth for catalog data, requirement trees, student scenarios, and generated plans.
 - **Migrations**: Alembic manages all schema changes (see §3.1). No hand-run `.sql` files once Alembic is set up — every schema change is a versioned, reversible migration.
-- **Backend**: FastAPI (Python). Owns all business logic: loading the academic graph, evaluating requirement trees, running the optimizer, and persisting/returning generated plans.
+- **Backend**: FastAPI (Python). Owns all business logic: loading the academic graph, evaluating requirement trees, running the optimizer, and persisting/returning generated plans. Runs via `uv run uvicorn` directly on the host, or via the same `Dockerfile` in a container — both work locally, and the container image is what ships to Azure.
 - **Optimization engine**: Google OR-Tools CP-SAT, embedded in the backend. This is the core differentiator of the project and the highest-risk component, so it gets the most dedicated build time (see `docs/PHASES.md`, Phase 3).
 - **Frontend**: React + Vite + TypeScript SPA. Talks to the backend only via REST JSON.
-- **Containerization**: Both backend and frontend get their own `Dockerfile` from day one, and a root `docker-compose.yml` orchestrates db + backend (+ optionally frontend) for local dev. This means "deploy to Azure via containers" later is a matter of building/pushing the same images, not a rewrite (see §7).
+- **Containerization**: Both backend and frontend get their own `Dockerfile` from day one, and a root `docker-compose.yml` orchestrates db + backend (+ optionally frontend) as an alternative to running natively. This means "deploy to Azure via containers" later is a matter of building/pushing the same images, not a rewrite (see §7).
 
 ## 2. Why this stack
 
@@ -47,8 +47,8 @@ Per the DB design doc's guidance, **narrow the first data load** to one primary 
 ### 3.1 Migrations with Alembic
 
 - `alembic init` inside `backend/`, configured to read the SQLAlchemy model metadata so `alembic revision --autogenerate` produces real migrations instead of hand-written SQL.
-- One migration per logical schema change (e.g., `0001_initial_schema`, `0002_add_overlap_policies`, ...), committed to the repo so the schema history is reproducible on any machine and in any environment (local Docker, CI, Azure).
-- Local workflow: `alembic upgrade head` runs against the local Postgres container on startup (can be automated in `docker-compose` via an init step or a `Makefile`/`justfile` target).
+- One migration per logical schema change (e.g., `0001_initial_schema`, `0002_add_overlap_policies`, ...), committed to the repo so the schema history is reproducible on any machine and in any environment (native host, Docker, CI, Azure).
+- Local workflow: `alembic upgrade head` runs against whichever Postgres `app/config.py` points at — a native host install or the Docker `db` container, whichever a given teammate is running (only one can own `localhost:5432` at a time).
 - Same command (`alembic upgrade head`) runs against the production DB during deploy — no separate "prod schema" process to maintain.
 - Seed/loader scripts (for `schedule_optimizer_db/*.json` and `catalog_scraper/output/*.json`) are kept separate from Alembic migrations — migrations define structure, a Python loader script populates data.
 
@@ -100,7 +100,7 @@ Keep the CP-SAT model isolated behind `optimizer_service` so it can be unit-test
 
 ## 7. Deployment
 
-**Local development**: `docker-compose.yml` at the repo root runs a `postgres` service (named volume for data persistence) plus the `backend` service (FastAPI, hot-reload via a bind mount). The frontend is typically run with `npm run dev` directly on the host for the fastest hot-reload loop, but also has its own `Dockerfile` so it can be built/run identically to production.
+**Local development**: two supported setups, either is fine. Natively: a host Postgres install, `uv run uvicorn` for the backend, `npm run dev` for the frontend — no Docker Desktop dependency. Or via `docker-compose.yml` at the repo root (a `postgres` service with a named volume, a `backend` service with hot-reload via a bind mount, and an optional `frontend` service). The frontend is typically run with `npm run dev` directly on the host either way, for the fastest hot-reload loop, but also has its own `Dockerfile` so it can be built/run identically to production.
 
 **Production (Azure, containerized)**:
 
