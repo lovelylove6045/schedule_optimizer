@@ -4,6 +4,7 @@ import { EmptyState } from "@/components/shared/empty-state"
 import { ErrorState } from "@/components/shared/error-state"
 import { LoadingState } from "@/components/shared/loading-state"
 import { usePlanRequirementsQuery } from "@/hooks/use-plan-queries"
+import { requirementNodeLabel } from "@/lib/requirement-node-label"
 import type { RequirementNodeOut, RequirementSetOut } from "@/lib/types"
 import { cn } from "@/lib/utils"
 
@@ -38,8 +39,8 @@ export function RequirementCoverageTree({ degreePlanId }: RequirementCoverageTre
 /** One requirement_set's header plus its top-level node rows. */
 function RequirementSetSection({ requirementSet }: { requirementSet: RequirementSetOut }) {
   return (
-    <div className="rounded-lg border">
-      <div className="border-b bg-muted/40 px-4 py-2.5">
+    <div className="glass-panel overflow-hidden rounded-xl">
+      <div className="border-b px-4 py-2.5">
         <p className="text-sm font-semibold">{requirementSet.requirement_set_name}</p>
       </div>
       <ul className="divide-y">
@@ -58,7 +59,7 @@ function RequirementNodeRow({ node, depth }: { node: RequirementNodeOut; depth: 
       <div className="flex items-start gap-2 px-4 py-2.5" style={{ paddingLeft: `${1 + depth * 1.25}rem` }}>
         <StatusIcon isSatisfied={node.is_satisfied} />
         <div className="min-w-0 flex-1">
-          <p className="text-sm">{nodeLabel(node)}</p>
+          <p className="text-sm">{requirementNodeLabel(node)}</p>
           {node.source_text ? <p className="text-xs text-muted-foreground">{node.source_text}</p> : null}
         </div>
         {node.is_shared ? (
@@ -95,25 +96,4 @@ function StatusIcon({ isSatisfied }: { isSatisfied: boolean | null }) {
       <Circle className="size-2 fill-current text-muted-foreground/40" aria-hidden="true" />
     </span>
   )
-}
-
-/** Return the best available display label for a requirement node. */
-function nodeLabel(node: RequirementNodeOut): string {
-  if (node.node_name) return node.node_name
-  if (node.required_course) return `${node.required_course.subject_code} ${node.required_course.course_number} — ${node.required_course.course_title}`
-  if (node.course_group) return node.course_group.course_group_name
-  if (node.node_type === "CREDIT_REQUIREMENT" && node.required_credit_hours) {
-    return `${node.required_credit_hours} credit hours (needs advisor sign-off)`
-  }
-  return operatorLabel(node)
-}
-
-/** Describe a container node's rule_operator in plain language, for nodes with no explicit name. */
-function operatorLabel(node: RequirementNodeOut): string {
-  if (node.node_operator === "ANY") return "Any of the following"
-  if (node.node_operator === "N_OF") return `${node.required_count ?? 1} of the following`
-  if (node.node_operator === "CREDITS_FROM" || node.node_operator === "UNITS_FROM") {
-    return `${node.required_credit_hours ?? 0} credit hours from the following`
-  }
-  return "All of the following"
 }

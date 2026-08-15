@@ -128,6 +128,74 @@ def test_create_scenario_422_for_no_primary_major(client):
     assert response.status_code == 422
 
 
+def _create_primary_major_scenario_id(client) -> int:
+    """Create a minimal scenario (Aero BS as PRIMARY_MAJOR) and return its id."""
+    start_term_id = _term_ids(client)[0]
+    response = client.post(
+        "/scenarios",
+        json={
+            "start_term_id": start_term_id,
+            "programs": [{"academic_program_id": AERO_BS_PROGRAM_ID, "program_role": "PRIMARY_MAJOR"}],
+        },
+    )
+    return response.json()["planning_scenario_id"]
+
+
+def test_list_scenario_programs_returns_the_primary_major(client):
+    planning_scenario_id = _create_primary_major_scenario_id(client)
+
+    response = client.get(f"/scenarios/{planning_scenario_id}/programs")
+
+    assert response.status_code == 200
+    programs = response.json()
+    assert {p["academic_program_id"] for p in programs} == {AERO_BS_PROGRAM_ID}
+    assert programs[0]["program_role"] == "PRIMARY_MAJOR"
+    assert programs[0]["program_code"]
+    assert programs[0]["program_name"]
+
+
+def test_list_scenario_programs_404_for_unknown_scenario(client):
+    response = client.get("/scenarios/999999/programs")
+
+    assert response.status_code == 404
+
+
+def test_add_scenario_program_adds_a_minor_and_returns_it(client):
+    planning_scenario_id = _create_primary_major_scenario_id(client)
+
+    response = client.post(
+        f"/scenarios/{planning_scenario_id}/programs",
+        json={"academic_program_id": AERO_MINOR_PROGRAM_ID, "program_role": "MINOR"},
+    )
+
+    assert response.status_code == 201
+    added = response.json()
+    assert added["academic_program_id"] == AERO_MINOR_PROGRAM_ID
+    assert added["program_code"]
+    assert added["program_name"]
+    programs = client.get(f"/scenarios/{planning_scenario_id}/programs").json()
+    assert {p["academic_program_id"] for p in programs} == {AERO_BS_PROGRAM_ID, AERO_MINOR_PROGRAM_ID}
+
+
+def test_add_scenario_program_404_for_unknown_scenario(client):
+    response = client.post(
+        "/scenarios/999999/programs", json={"academic_program_id": AERO_MINOR_PROGRAM_ID, "program_role": "MINOR"}
+    )
+
+    assert response.status_code == 404
+
+
+def test_add_scenario_program_422_for_a_duplicate_program(client):
+    planning_scenario_id = _create_primary_major_scenario_id(client)
+
+    response = client.post(
+        f"/scenarios/{planning_scenario_id}/programs",
+        json={"academic_program_id": AERO_BS_PROGRAM_ID, "program_role": "SECOND_MAJOR"},
+    )
+
+    assert response.status_code == 422
+
+
 def test_create_scenario_404_for_unknown_program(client):
     start_term_id = _term_ids(client)[0]
     response = client.post(

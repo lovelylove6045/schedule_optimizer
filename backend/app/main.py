@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import get_settings
-from app.routers import courses, plans, programs, scenarios, terms
+from app.routers import choices, colleges, courses, plans, programs, scenarios, terms
 
 settings = get_settings()
 
@@ -16,8 +16,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+app.include_router(colleges.router)
 app.include_router(programs.router)
 app.include_router(courses.router)
+app.include_router(choices.router)
 app.include_router(scenarios.router)
 app.include_router(plans.router)
 app.include_router(terms.router)

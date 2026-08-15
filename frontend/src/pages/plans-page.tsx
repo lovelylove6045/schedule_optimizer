@@ -1,6 +1,7 @@
 import { useState } from "react"
-import { useLocation, useParams } from "react-router-dom"
-import { CalendarSearch, RefreshCcw } from "lucide-react"
+import { Link, useLocation, useParams } from "react-router-dom"
+import { CalendarSearch, PencilLine, RefreshCcw, X } from "lucide-react"
+import { toast } from "sonner"
 import { Button } from "@/components/ui/button"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -9,16 +10,20 @@ import { ErrorState } from "@/components/shared/error-state"
 import { LoadingState } from "@/components/shared/loading-state"
 import { PlanBoard } from "@/components/plans/plan-board"
 import { PlanComparisonTable } from "@/components/plans/plan-comparison-table"
+import { PlanOverlapSuggestions } from "@/components/plans/plan-overlap-suggestions"
 import { RequirementCoverageTree } from "@/components/plans/requirement-coverage-tree"
+import { SelectedProgramsBar } from "@/components/plans/selected-programs-bar"
 import { useGeneratePlansMutation } from "@/hooks/use-scenario-mutations"
 import { useScenarioPlansQuery } from "@/hooks/use-plan-queries"
-import type { DegreePlanOut } from "@/lib/types"
+import { OBJECTIVE_LABELS } from "@/lib/objective-labels"
+import type { DegreePlanOut, OptimizationObjectiveType } from "@/lib/types"
 
 interface LocationState {
   plans?: DegreePlanOut[]
 }
 
-/** Route entry point for "/plans/:scenarioId": tabbed results for Screens 6-8. */
+/** Route entry point for "/plans/:scenarioId": tabbed results (plan board, comparison,
+ * requirement coverage). */
 export function PlansPage() {
   const params = useParams<{ scenarioId: string }>()
   const scenarioId = Number(params.scenarioId)
@@ -27,8 +32,46 @@ export function PlansPage() {
   const scenarioPlansQuery = useScenarioPlansQuery(passedPlans ? undefined : scenarioId)
   const regenerate = useGeneratePlansMutation()
   const [regeneratedPlans, setRegeneratedPlans] = useState<DegreePlanOut[] | null>(null)
-  const plans = regeneratedPlans ?? passedPlans ?? scenarioPlansQuery.data
+  const [swappedPlansById, setSwappedPlansById] = useState<Record<number, DegreePlanOut>>({})
+  const basePlans = regeneratedPlans ?? passedPlans ?? scenarioPlansQuery.data
+  const plans = basePlans?.map((plan) => swappedPlansById[plan.degree_plan_id] ?? plan)
   const [selectedPlanId, setSelectedPlanId] = useState<number | null>(null)
+  const [compareBoardPlanId, setCompareBoardPlanId] = useState<number | null>(null)
+
+  /** Apply a plan-board swap's resulting plan to this page's displayed list,
+   * whichever source (freshly generated, passed via navigation, or refetched)
+   * that list currently came from. */
+  function handlePlanUpdated(updatedPlan: DegreePlanOut) {
+    setSwappedPlansById((prev) => ({ ...prev, [updatedPlan.degree_plan_id]: updatedPlan }))
+  }
+
+  /** Re-run the optimizer for this scenario and apply its fresh plans to this
+   * page's displayed list, clearing any now-stale swap overrides/comparison
+   * selection. Shared by the manual "Regenerate" button and the overlap
+   * suggestions panel (accepting a suggestion also needs a regenerate) --
+   * each does its own toast around this. */
+  async function regenerateAndApply(): Promise<DegreePlanOut[]> {
+    const fresh = await regenerate.mutateAsync(scenarioId)
+    setRegeneratedPlans(fresh)
+    setSwappedPlansById({})
+    setCompareBoardPlanId(null)
+    return fresh
+  }
+
+  /** Re-run the optimizer for this scenario, reporting the outcome as a toast. */
+  async function handleRegenerate() {
+    const pending = toast.loading("Re-running the optimizer…")
+    try {
+      const fresh = await regenerateAndApply()
+      toast.success(`Generated ${fresh.length} plan${fresh.length === 1 ? "" : "s"}`, { id: pending })
+    } catch (error) {
+      toast.error("Couldn't generate plans", {
+        id: pending,
+        description: error instanceof Error ? error.message : undefined,
+      })
+    }
+  }
+
   if (!passedPlans && scenarioPlansQuery.isLoading) return <LoadingState label="Loading your plans…" />
   if (!passedPlans && scenarioPlansQuery.isError) {
     return <ErrorState message="Couldn't load this scenario's plans." onRetry={() => scenarioPlansQuery.refetch()} />
@@ -40,10 +83,7 @@ export function PlansPage() {
         title="No plans generated yet"
         description="This scenario doesn't have any generated plans yet."
         action={
-          <Button
-            onClick={async () => setRegeneratedPlans(await regenerate.mutateAsync(scenarioId))}
-            disabled={regenerate.isPending}
-          >
+          <Button onClick={handleRegenerate} disabled={regenerate.isPending}>
             <RefreshCcw className="size-4" />
             {regenerate.isPending ? "Generating…" : "Generate plans"}
           </Button>
@@ -53,39 +93,89 @@ export function PlansPage() {
   }
   const recommendedPlan = plans[0]
   const coveragePlan = plans.find((plan) => plan.degree_plan_id === selectedPlanId) ?? recommendedPlan
+  const compareBoardPlan = plans.find((plan) => plan.degree_plan_id === compareBoardPlanId) ?? null
   return (
-    <Tabs defaultValue="recommended">
-      <TabsList>
-        <TabsTrigger value="recommended">Recommended plan</TabsTrigger>
-        <TabsTrigger value="compare">Compare alternatives</TabsTrigger>
-        <TabsTrigger value="coverage">Requirement coverage</TabsTrigger>
-      </TabsList>
-      <TabsContent value="recommended" className="pt-4">
-        <PlanBoard plan={recommendedPlan} />
-      </TabsContent>
-      <TabsContent value="compare" className="pt-4">
-        <PlanComparisonTable planIds={plans.map((plan) => plan.degree_plan_id)} />
-      </TabsContent>
-      <TabsContent value="coverage" className="space-y-4 pt-4">
-        {plans.length > 1 ? (
-          <Select
-            value={String(coveragePlan.degree_plan_id)}
-            onValueChange={(value) => setSelectedPlanId(Number(value))}
-          >
-            <SelectTrigger className="w-full sm:w-72">
-              <SelectValue />
-            </SelectTrigger>
-            <SelectContent>
-              {plans.map((plan) => (
-                <SelectItem key={plan.degree_plan_id} value={String(plan.degree_plan_id)}>
-                  {plan.plan_name ?? `Plan #${plan.degree_plan_id}`}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-        ) : null}
-        <RequirementCoverageTree degreePlanId={coveragePlan.degree_plan_id} />
-      </TabsContent>
-    </Tabs>
+    <div className="space-y-6">
+      <div className="flex flex-wrap items-end justify-between gap-3">
+        <div>
+          <h1 className="text-xl font-extrabold tracking-tight sm:text-2xl">Your degree plans</h1>
+          <p className="text-sm text-muted-foreground">
+            {plans.length} strategy{plans.length === 1 ? "" : "-based alternatives"} generated for this scenario.
+          </p>
+        </div>
+        <div className="flex flex-wrap gap-2">
+          <Button variant="outline" size="sm" asChild>
+            <Link to="/">
+              <PencilLine className="size-4" />
+              Start over
+            </Link>
+          </Button>
+          <Button variant="outline" size="sm" onClick={handleRegenerate} disabled={regenerate.isPending}>
+            <RefreshCcw className="size-4" />
+            {regenerate.isPending ? "Generating…" : "Regenerate"}
+          </Button>
+        </div>
+      </div>
+      <SelectedProgramsBar scenarioId={scenarioId} />
+      <PlanOverlapSuggestions scenarioId={scenarioId} onRegenerate={regenerateAndApply} />
+      <Tabs defaultValue="recommended">
+        <TabsList>
+          <TabsTrigger value="recommended">Recommended plan</TabsTrigger>
+          <TabsTrigger value="compare">Compare alternatives</TabsTrigger>
+          <TabsTrigger value="coverage">Requirement coverage</TabsTrigger>
+        </TabsList>
+        <TabsContent value="recommended" className="pt-4">
+          <PlanBoard plan={recommendedPlan} onPlanUpdated={handlePlanUpdated} />
+        </TabsContent>
+        <TabsContent value="compare" className="space-y-4 pt-4">
+          <PlanComparisonTable
+            planIds={plans.map((plan) => plan.degree_plan_id)}
+            onViewPlan={setCompareBoardPlanId}
+          />
+          {compareBoardPlan ? (
+            <div className="space-y-3">
+              <div className="flex items-center justify-between gap-3">
+                <h2 className="text-sm font-semibold text-muted-foreground">
+                  {planLabel(compareBoardPlan)} -- full schedule
+                </h2>
+                <Button variant="ghost" size="sm" onClick={() => setCompareBoardPlanId(null)}>
+                  <X className="size-4" />
+                  Close
+                </Button>
+              </div>
+              <PlanBoard plan={compareBoardPlan} onPlanUpdated={handlePlanUpdated} />
+            </div>
+          ) : null}
+        </TabsContent>
+        <TabsContent value="coverage" className="space-y-4 pt-4">
+          {plans.length > 1 ? (
+            <Select
+              value={String(coveragePlan.degree_plan_id)}
+              onValueChange={(value) => setSelectedPlanId(Number(value))}
+            >
+              <SelectTrigger className="w-full sm:w-80">
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent>
+                {plans.map((plan) => (
+                  <SelectItem key={plan.degree_plan_id} value={String(plan.degree_plan_id)}>
+                    {planLabel(plan)}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          ) : null}
+          <RequirementCoverageTree degreePlanId={coveragePlan.degree_plan_id} />
+        </TabsContent>
+      </Tabs>
+    </div>
   )
+}
+
+/** Human label for a plan. `plan_name` is literally the OptimizationObjectiveType the
+ * solver used (see `optimizer_persistence._create_degree_plan`), so it maps straight
+ * through the shared objective-label table. */
+function planLabel(plan: DegreePlanOut): string {
+  const label = OBJECTIVE_LABELS[plan.plan_name as OptimizationObjectiveType]
+  return label?.title ?? plan.plan_name ?? `Plan #${plan.degree_plan_id}`
 }

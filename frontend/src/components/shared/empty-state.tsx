@@ -12,7 +12,7 @@ interface EmptyStateProps {
  * as an invitation to act rather than a dead end. */
 export function EmptyState({ icon: Icon, title, description, action }: EmptyStateProps) {
   return (
-    <div className="flex flex-col items-center gap-3 rounded-lg border border-dashed p-8 text-center">
+    <div className="glass-inset flex flex-col items-center gap-3 rounded-xl border-dashed p-8 text-center">
       <Icon className="size-8 text-muted-foreground" aria-hidden="true" />
       <div className="space-y-1">
         <p className="font-semibold">{title}</p>

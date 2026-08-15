@@ -9,9 +9,11 @@ from dataclasses import dataclass
 
 from sqlalchemy.orm import Session
 
+from app.models.academic_program import AcademicProgram
+from app.models.course import Course
 from app.models.course_group_member import CourseGroupMember
 from app.models.course_rule_node import CourseRuleNode
-from app.models.enums import RequisiteType
+from app.models.enums import RequisiteType, ScenarioProgramRole
 from app.models.planning_scenario import PlanningScenario
 from app.models.program_requirement_set import ProgramRequirementSet
 from app.models.scenario_program import ScenarioProgram
@@ -22,12 +24,26 @@ from app.services import credit_matching_service, requirement_service
 from app.services.common import load_courses_by_id
 from app.services.credit_matching_service import COMPLETED_STATUS
 
-MAX_CLOSURE_GROWTH = 60
+# Safety valve on prerequisite-closure growth, not a modeling decision. The
+# original value (60) was set before the closure was measured against the full
+# catalog and turned out to bind on ordinary scenarios: Aerospace BS alone wants
+# 88 extra courses over 3 levels, so every generated plan came back carrying
+# ~24 "a prerequisite was excluded by the closure growth cap" warnings. The whole
+# prerequisite graph is only 4,777 `course_rule_nodes` rows over 2,120 courses,
+# so a cap in the hundreds still bounds a pathological expansion (the
+# same-or-above-level language/biology ladder in db/SUMMARY.md §3a) while never
+# firing on a real degree program.
+MAX_CLOSURE_GROWTH = 500
 _CLOSURE_REQUISITE_TYPES = (
     RequisiteType.PREREQUISITE,
     RequisiteType.COREQUISITE,
     RequisiteType.PRE_OR_COREQUISITE,
 )
+# A minor/emphasis doesn't have its own "total credits to graduate" -- it just
+# adds specific coursework on top of a bachelor's degree, already enforced via
+# the requirement-node constraints. Only a MAJOR-level program's own published
+# total is a real graduation floor.
+_CREDIT_FLOOR_ROLES = (ScenarioProgramRole.PRIMARY_MAJOR, ScenarioProgramRole.SECOND_MAJOR)
 
 
 @dataclass(frozen=True)
@@ -44,6 +60,20 @@ class CandidateCourseSet:
     group_members: dict[int, set[int]]
     course_ids_by_program: dict[int, set[int]]
     closure_capped: bool
+    # credit_hours for every course_group member, including ones already completed
+    # (and so absent from `courses_by_id`, which only holds assignable courses).
+    # `optimizer_model` needs these to enforce a group's required_credit_hours.
+    credit_hours_by_course_id: dict[int, float]
+    # How many more credit hours (beyond what's already completed) the scenario's
+    # major(s) officially require to graduate, or None if no program in scope has
+    # a published total_credit_hours. `optimizer_model` only enforces this as a
+    # hard floor when the scenario opted in (see enforce_program_credit_minimum).
+    credit_floor_remaining: float | None
+    # The student's total earned credit hours so far (transfer + completed
+    # coursework), independent of this scenario's own requirement trees.
+    # `optimizer_model` adds each term's newly-assigned credits on top of this to
+    # approximate class standing for STANDING/SUBJECT_LEVEL prerequisite leaves.
+    completed_credit_hours: float
 
 
 def build_candidate_course_set(
@@ -72,6 +102,7 @@ def build_candidate_course_set(
         db, direct_course_ids, completed_course_ids
     )
     courses_by_id = load_courses_by_id(db, assignable_course_ids)
+    completed_credit_hours = _completed_credit_hours_total(db, scenario.student_id)
     return CandidateCourseSet(
         requirement_sets=requirement_sets,
         assignable_course_ids=assignable_course_ids,
@@ -80,7 +111,76 @@ def build_candidate_course_set(
         group_members=group_members,
         course_ids_by_program=course_ids_by_program,
         closure_capped=closure_capped,
+        credit_hours_by_course_id=_load_credit_hours(db, group_members, courses_by_id),
+        credit_floor_remaining=_resolve_credit_floor_remaining(
+            db, scenario, program_ids, completed_credit_hours
+        ),
+        completed_credit_hours=completed_credit_hours,
     )
+
+
+def _resolve_credit_floor_remaining(
+    db: Session, scenario: PlanningScenario, program_ids: list[int], completed_credit_hours: float
+) -> float | None:
+    """Return how many more credit hours the scenario's in-scope MAJOR-role
+    program(s) require beyond what the student has already earned, or None if
+    none of them has a published total_credit_hours to compare against."""
+    target = _resolve_credit_floor_target(db, scenario.planning_scenario_id, program_ids)
+    if target is None:
+        return None
+    return max(target - completed_credit_hours, 0.0)
+
+
+def _resolve_credit_floor_target(db: Session, planning_scenario_id: int, program_ids: list[int]) -> float | None:
+    """Return the highest published total_credit_hours among this scenario's
+    MAJOR-role programs (restricted to `program_ids`, so the 'primary major
+    alone' baseline solve sees only that program's own total) -- the credit
+    floor a bachelor's degree already requires no matter how many majors are
+    combined with it."""
+    if not program_ids:
+        return None
+    rows = (
+        db.query(AcademicProgram.total_credit_hours)
+        .join(ScenarioProgram, ScenarioProgram.academic_program_id == AcademicProgram.academic_program_id)
+        .filter(
+            ScenarioProgram.planning_scenario_id == planning_scenario_id,
+            ScenarioProgram.academic_program_id.in_(program_ids),
+            ScenarioProgram.program_role.in_(_CREDIT_FLOOR_ROLES),
+            AcademicProgram.total_credit_hours.isnot(None),
+        )
+        .all()
+    )
+    totals = [float(total) for (total,) in rows if total is not None]
+    return max(totals) if totals else None
+
+
+def _completed_credit_hours_total(db: Session, student_id: int) -> float:
+    """Return a student's total earned credit hours across every COMPLETED
+    student_credits row, falling back to the catalog's credit_hours for an
+    institutional course reported without its own explicit credits_earned."""
+    rows = (
+        db.query(StudentCredit.credits_earned, Course.credit_hours)
+        .outerjoin(Course, StudentCredit.course_id == Course.course_id)
+        .filter(StudentCredit.student_id == student_id, StudentCredit.status == COMPLETED_STATUS)
+        .all()
+    )
+    return sum(float(credits_earned if credits_earned is not None else (catalog_hours or 0)) for credits_earned, catalog_hours in rows)
+
+
+def _load_credit_hours(
+    db: Session, group_members: dict[int, set[int]], courses_by_id: dict[int, CourseOut]
+) -> dict[int, float]:
+    """Return credit_hours for every assignable course plus every course_group member,
+    keyed by course_id. Group members already completed by the student aren't assignable
+    and so aren't in `courses_by_id`, but their credits still count toward a group's
+    required_credit_hours -- so they're fetched here in one extra query."""
+    credit_hours = {course_id: course.credit_hours for course_id, course in courses_by_id.items()}
+    member_ids = {course_id for members in group_members.values() for course_id in members}
+    missing_ids = member_ids - credit_hours.keys()
+    if missing_ids:
+        rows = db.query(Course.course_id, Course.credit_hours).filter(Course.course_id.in_(missing_ids)).all()
+        credit_hours.update({course_id: float(hours) for course_id, hours in rows})
+    return credit_hours
 
 
 def _resolve_scenario_program_ids(db: Session, planning_scenario_id: int) -> list[int]:
@@ -214,7 +314,9 @@ def _expand_prerequisite_closure(
     """Breadth-first expand `course_ids` to include their PREREQUISITE/COREQUISITE
     chains via course_rule_nodes, capped at MAX_CLOSURE_GROWTH additional courses so
     a loosely-linked cluster (e.g. the same-or-above-level language ladder documented
-    in db/SUMMARY.md) can't balloon the candidate set."""
+    in db/SUMMARY.md) can't balloon the candidate set. When the cap does bind, the
+    truncation is taken in sorted id order so the same scenario always produces the
+    same candidate set (iterating a `set` directly made it depend on hash ordering)."""
     visited = set(course_ids) - completed_course_ids
     frontier = set(visited)
     growth = 0
@@ -224,7 +326,7 @@ def _expand_prerequisite_closure(
         if not next_ids:
             break
         if growth + len(next_ids) > MAX_CLOSURE_GROWTH:
-            next_ids = set(list(next_ids)[: MAX_CLOSURE_GROWTH - growth])
+            next_ids = set(sorted(next_ids)[: MAX_CLOSURE_GROWTH - growth])
             capped = True
         visited |= next_ids
         growth += len(next_ids)

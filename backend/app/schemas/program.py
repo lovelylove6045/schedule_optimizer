@@ -1,6 +1,7 @@
 from pydantic import BaseModel, ConfigDict
 
 from app.models.enums import ProgramType
+from app.schemas.course import CourseOut
 
 
 class ProgramOut(BaseModel):
@@ -13,3 +14,34 @@ class ProgramOut(BaseModel):
     program_type: ProgramType
     total_credit_hours: float | None
     is_active: bool
+
+    # Resolved through departments -> colleges by `catalog_service.list_programs`
+    # so a client can group/filter the 147-program catalog by school without a
+    # second round-trip. Nullable because `departments.college_id` is nullable
+    # in the schema (every currently-loaded department does have one).
+    department_code: str | None = None
+    department_name: str | None = None
+    college_id: int | None = None
+    college_code: str | None = None
+    college_name: str | None = None
+
+
+class ProgramOverlapOut(BaseModel):
+    """One suggested program (backend: `program_overlap_service`): how many of
+    its own required courses double as courses another program already
+    requires -- e.g. "this minor mostly reuses your major's courses"."""
+
+    academic_program_id: int
+    program_code: str
+    program_name: str
+    program_type: ProgramType
+    total_credit_hours: float | None
+    overlap_course_count: int
+    overlap_credit_hours: float
+    # Share of this program's own credit hours already covered by the overlap,
+    # e.g. 0.8 means adding this program would need roughly 20% new coursework.
+    # Not capped at 1.0: a program can require fewer credits than the sum of
+    # its listed courses (e.g. it only needs some of them), so full or
+    # over-covered overlap can read above 100%.
+    overlap_ratio: float | None
+    overlap_courses: list[CourseOut]

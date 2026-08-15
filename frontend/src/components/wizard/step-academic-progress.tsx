@@ -1,4 +1,5 @@
 import { BookOpen, X } from "lucide-react"
+import { toast } from "sonner"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -25,15 +26,25 @@ export function StepAcademicProgress() {
       <CardContent className="space-y-6">
         <CourseSearchCombobox
           excludeCourseIds={institutionalCourseIds}
-          onSelect={(course) =>
+          onSelect={(course) => {
             dispatch({
               type: "ADD_COMPLETED_COURSE",
               credit: { course_id: course.course_id, source_type: "INSTITUTIONAL", status: "COMPLETED", grade: "A" },
               courseDetail: course,
             })
-          }
+            toast.success(`Marked ${course.subject_code} ${course.course_number} as completed`, {
+              description: `${course.credit_hours} credit hours won't be scheduled again.`,
+            })
+          }}
         />
-        <TransferCreditForm onAdd={(credit) => dispatch({ type: "ADD_COMPLETED_COURSE", credit })} />
+        <TransferCreditForm
+          onAdd={(credit) => {
+            dispatch({ type: "ADD_COMPLETED_COURSE", credit })
+            toast.success("Transfer credit added", {
+              description: `${credit.external_course_title ?? "Credit"} · ${credit.credits_earned ?? 0} credit hours.`,
+            })
+          }}
+        />
         {draft.completedCourses.length === 0 ? (
           <EmptyState
             icon={BookOpen}

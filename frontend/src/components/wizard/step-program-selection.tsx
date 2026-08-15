@@ -9,7 +9,8 @@ import { useProgramsQuery } from "@/hooks/use-programs"
 import { useTermsQuery } from "@/hooks/use-terms"
 import { useScenarioBuilder } from "@/state/scenario-builder-context"
 
-/** Screen 1: choose the primary degree program and a starting term. */
+/** Step 2: choose the primary degree program (narrowed to step 1's school) and
+ * when the plan starts. */
 export function StepProgramSelection() {
   const { draft, dispatch } = useScenarioBuilder()
   const programsQuery = useProgramsQuery()
@@ -20,18 +21,31 @@ export function StepProgramSelection() {
   if (programsQuery.isError || termsQuery.isError) {
     return <ErrorState message="Couldn't load programs or terms from the server." />
   }
-  const programOptions: ComboboxOption[] = programsQuery.data
-    .filter((program) => program.program_type === "MAJOR")
-    .map((program) => ({
-      value: String(program.academic_program_id),
-      label: program.program_name,
-      description: program.program_code,
-    }))
+  const majors = programsQuery.data.filter(
+    (program) =>
+      program.program_type === "MAJOR" &&
+      (draft.collegeId === null || program.college_id === draft.collegeId),
+  )
+  const programOptions: ComboboxOption[] = majors.map((program) => ({
+    value: String(program.academic_program_id),
+    label: program.program_name,
+    description: [program.program_code, program.department_name].filter(Boolean).join(" · "),
+  }))
+  const startTerm = termsQuery.data.find((term) => term.term_id === draft.startTermId)
+  // A target graduation term earlier than the start term can never be met, and
+  // `optimizer_terms.build_term_horizon` truncates the horizon at it -- which would
+  // surface as a baffling "infeasible" rather than an obviously-impossible input.
+  const targetTermOptions = startTerm
+    ? termsQuery.data.filter((term) => term.sequence_index > startTerm.sequence_index)
+    : termsQuery.data
   return (
     <Card>
       <CardHeader>
         <CardTitle>What are you working toward?</CardTitle>
-        <CardDescription>Pick your primary major and when you're starting.</CardDescription>
+        <CardDescription>
+          Pick your primary major and when you're starting. {majors.length} majors available
+          {draft.collegeId === null ? " across all schools" : " in the school you chose"}.
+        </CardDescription>
       </CardHeader>
       <CardContent className="space-y-6">
         <div className="space-y-2">
@@ -82,13 +96,16 @@ export function StepProgramSelection() {
                 <SelectValue placeholder="No specific target" />
               </SelectTrigger>
               <SelectContent>
-                {termsQuery.data.map((term) => (
+                {targetTermOptions.map((term) => (
                   <SelectItem key={term.term_id} value={String(term.term_id)}>
                     {term.term_code}
                   </SelectItem>
                 ))}
               </SelectContent>
             </Select>
+            <p className="text-xs text-muted-foreground">
+              Leave this blank to let the optimizer find the earliest term that works.
+            </p>
           </div>
         </div>
       </CardContent>

@@ -25,6 +25,7 @@ from app.schemas.scenario import (
     ScenarioObjectiveIn,
     ScenarioPreferenceIn,
     ScenarioProgramIn,
+    ScenarioProgramOut,
     ScenarioTermIn,
     StudentCreditIn,
 )
@@ -117,9 +118,70 @@ def _create_planning_scenario(db: Session, payload: ScenarioCreate, student_id: 
         default_maximum_credits=payload.default_maximum_credits,
         full_time_minimum_credits=payload.full_time_minimum_credits,
         allow_summer=payload.allow_summer,
+        enforce_program_credit_minimum=payload.enforce_program_credit_minimum,
     )
     db.add(scenario)
     return scenario
+
+
+def list_scenario_programs(db: Session, planning_scenario_id: int) -> list[ScenarioProgramOut] | None:
+    """Return every scenario_programs row for a scenario (with each program's own
+    code/name attached), or None if the scenario doesn't exist."""
+    if db.get(PlanningScenario, planning_scenario_id) is None:
+        return None
+    rows = (
+        db.query(ScenarioProgram, AcademicProgram)
+        .join(AcademicProgram, AcademicProgram.academic_program_id == ScenarioProgram.academic_program_id)
+        .filter(ScenarioProgram.planning_scenario_id == planning_scenario_id)
+        .all()
+    )
+    return [_to_scenario_program_out(scenario_program, program) for scenario_program, program in rows]
+
+
+def _to_scenario_program_out(scenario_program: ScenarioProgram, program: AcademicProgram) -> ScenarioProgramOut:
+    """Combine one scenario_programs row with its joined academic_programs row
+    into the API-facing shape."""
+    return ScenarioProgramOut(
+        scenario_program_id=scenario_program.scenario_program_id,
+        academic_program_id=scenario_program.academic_program_id,
+        program_role=scenario_program.program_role,
+        program_code=program.program_code,
+        program_name=program.program_name,
+    )
+
+
+def add_scenario_program(
+    db: Session, planning_scenario_id: int, payload: ScenarioProgramIn
+) -> ScenarioProgramOut:
+    """Add one program (a second major/minor/emphasis picked up after a plan's
+    already been generated -- e.g. accepting an overlap suggestion) to an
+    existing scenario, so the next `/generate` call accounts for its
+    requirements too. Raises `ScenarioReferenceNotFoundError` for an unknown
+    scenario/program and `ScenarioValidationError` for a duplicate program or
+    a second PRIMARY_MAJOR."""
+    if db.get(PlanningScenario, planning_scenario_id) is None:
+        raise ScenarioReferenceNotFoundError(f"Unknown planning_scenario_id: {planning_scenario_id}")
+    _validate_programs_exist(db, [payload])
+    _validate_program_addable(db, planning_scenario_id, payload)
+    scenario_program = ScenarioProgram(
+        planning_scenario_id=planning_scenario_id,
+        academic_program_id=payload.academic_program_id,
+        program_role=payload.program_role,
+    )
+    db.add(scenario_program)
+    db.flush()
+    program = db.get(AcademicProgram, payload.academic_program_id)
+    return _to_scenario_program_out(scenario_program, program)
+
+
+def _validate_program_addable(db: Session, planning_scenario_id: int, payload: ScenarioProgramIn) -> None:
+    """Raise `ScenarioValidationError` if `payload` would add a second
+    PRIMARY_MAJOR or duplicate a program already selected on this scenario."""
+    if payload.program_role == ScenarioProgramRole.PRIMARY_MAJOR:
+        raise ScenarioValidationError("A scenario already has its one PRIMARY_MAJOR; use a different role")
+    existing = db.query(ScenarioProgram).filter(ScenarioProgram.planning_scenario_id == planning_scenario_id).all()
+    if any(program.academic_program_id == payload.academic_program_id for program in existing):
+        raise ScenarioValidationError(f"Program {payload.academic_program_id} is already part of this scenario")
 
 
 def _create_scenario_programs(db: Session, planning_scenario_id: int, programs: list[ScenarioProgramIn]) -> None:

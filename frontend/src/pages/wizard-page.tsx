@@ -1,21 +1,30 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
-import { Loader2 } from "lucide-react"
+import { ArrowLeft, ArrowRight, Loader2, Sparkles } from "lucide-react"
+import { toast } from "sonner"
 import { Button } from "@/components/ui/button"
+import { Progress } from "@/components/ui/progress"
 import { ErrorState } from "@/components/shared/error-state"
 import { TermRibbon, type TermRibbonItem } from "@/components/layout/term-ribbon"
+import { StepSchoolSelection } from "@/components/wizard/step-school-selection"
 import { StepProgramSelection } from "@/components/wizard/step-program-selection"
 import { StepAcademicProgress } from "@/components/wizard/step-academic-progress"
 import { StepAcademicGoals } from "@/components/wizard/step-academic-goals"
+import { StepCourseChoices } from "@/components/wizard/step-course-choices"
 import { StepPlanningConstraints } from "@/components/wizard/step-planning-constraints"
 import { StepObjectiveSelection } from "@/components/wizard/step-objective-selection"
+import { StepReview, isDraftSubmittable } from "@/components/wizard/step-review"
 import { useCreateScenarioMutation, useGeneratePlansMutation } from "@/hooks/use-scenario-mutations"
-import { ScenarioBuilderProvider, useScenarioBuilder, WIZARD_STEP_COUNT, type WizardDraft } from "@/state/scenario-builder-context"
-import type { ScenarioCreate } from "@/lib/types"
+import {
+  ScenarioBuilderProvider,
+  WIZARD_STEPS,
+  WIZARD_STEP_COUNT,
+  useScenarioBuilder,
+  type WizardDraft,
+} from "@/state/scenario-builder-context"
+import type { ScenarioCreate, ScenarioPreferenceIn } from "@/lib/types"
 
-const STEP_LABELS = ["Programs", "Progress", "Goals", "Constraints", "Objectives"]
-
-/** Route entry point for "/": wraps the 5-screen scenario wizard in its own draft context. */
+/** Route entry point for "/": wraps the 8-step scenario wizard in its own draft context. */
 export function WizardPage() {
   return (
     <ScenarioBuilderProvider>
@@ -24,43 +33,90 @@ export function WizardPage() {
   )
 }
 
-/** Owns the wizard's ribbon, current step's screen, and the final submit flow. */
+/** Owns the wizard's progress chrome, the current step's screen, and the submit flow. */
 function WizardContent() {
   const { draft, dispatch } = useScenarioBuilder()
   const navigate = useNavigate()
   const createScenario = useCreateScenarioMutation()
   const generatePlans = useGeneratePlansMutation()
   const [submitError, setSubmitError] = useState<string | null>(null)
-  const ribbonItems: TermRibbonItem[] = STEP_LABELS.map((label, index) => ({
-    id: index + 1,
+  const ribbonItems: TermRibbonItem[] = WIZARD_STEPS.map(({ step, label }) => ({
+    id: step,
     label,
-    state: index + 1 < draft.step ? "completed" : index + 1 === draft.step ? "current" : "upcoming",
+    state: step < draft.step ? "completed" : step === draft.step ? "current" : "upcoming",
   }))
   const isSubmitting = createScenario.isPending || generatePlans.isPending
+  const blockingReason = blockingReasonForStep(draft)
+
   /** Create the scenario, generate its plans, and navigate to the results page. */
   async function handleSubmit() {
     setSubmitError(null)
+    const progressToast = toast.loading("Optimizing your degree plan…", {
+      description: "Solving several strategies — usually under a minute, occasionally a few minutes for a tight scenario.",
+    })
     try {
       const { planning_scenario_id } = await createScenario.mutateAsync(buildScenarioPayload(draft))
       const plans = await generatePlans.mutateAsync(planning_scenario_id)
+      const feasible = plans.filter((plan) => plan.status !== "INFEASIBLE")
+      if (feasible.length === 0) {
+        toast.warning("No plan fits those constraints", {
+          id: progressToast,
+          description: "Open the results to see which constraint blocked it and what to relax.",
+        })
+      } else {
+        toast.success(`Generated ${feasible.length} plan${feasible.length === 1 ? "" : "s"}`, {
+          id: progressToast,
+          description: "Compare them side by side on the results page.",
+        })
+      }
       navigate(`/plans/${planning_scenario_id}`, { state: { plans } })
     } catch (error) {
-      setSubmitError(error instanceof Error ? error.message : "Couldn't generate your plan. Please try again.")
+      const message = error instanceof Error ? error.message : "Couldn't generate your plan. Please try again."
+      toast.error("Couldn't generate your plan", { id: progressToast, description: message })
+      setSubmitError(message)
     }
   }
+
+  /** Advance a step, refusing (with an explanation) when the step isn't complete. */
+  function handleNext() {
+    if (blockingReason !== null) {
+      toast.warning(blockingReason)
+      return
+    }
+    dispatch({ type: "GO_TO_STEP", step: draft.step + 1 })
+  }
+
   return (
     <div className="space-y-6">
+      <WizardHeader step={draft.step} />
       <TermRibbon items={ribbonItems} />
       {stepContent(draft.step)}
       {submitError ? <ErrorState message={submitError} onRetry={handleSubmit} /> : null}
       <WizardNavigation
         step={draft.step}
-        canProceed={canProceedFromStep(draft.step, draft)}
+        blockingReason={blockingReason}
+        canSubmit={isDraftSubmittable(draft)}
         isSubmitting={isSubmitting}
         onBack={() => dispatch({ type: "GO_TO_STEP", step: draft.step - 1 })}
-        onNext={() => dispatch({ type: "GO_TO_STEP", step: draft.step + 1 })}
+        onNext={handleNext}
         onSubmit={handleSubmit}
       />
+    </div>
+  )
+}
+
+/** "Step N of 8" caption plus a thin progress bar, so the wizard's length is never a surprise. */
+function WizardHeader({ step }: { step: number }) {
+  const current = WIZARD_STEPS[step - 1]
+  return (
+    <div className="space-y-2">
+      <div className="flex flex-wrap items-baseline justify-between gap-2">
+        <h1 className="text-xl font-extrabold tracking-tight sm:text-2xl">{current.title}</h1>
+        <p className="font-mono text-xs text-muted-foreground">
+          Step {step} of {WIZARD_STEP_COUNT}
+        </p>
+      </div>
+      <Progress value={(step / WIZARD_STEP_COUNT) * 100} className="h-1.5" />
     </div>
   )
 }
@@ -69,49 +125,87 @@ function WizardContent() {
 function stepContent(step: number) {
   switch (step) {
     case 1:
-      return <StepProgramSelection />
+      return <StepSchoolSelection />
     case 2:
-      return <StepAcademicProgress />
+      return <StepProgramSelection />
     case 3:
-      return <StepAcademicGoals />
+      return <StepAcademicProgress />
     case 4:
+      return <StepAcademicGoals />
+    case 5:
+      return <StepCourseChoices />
+    case 6:
       return <StepPlanningConstraints />
-    default:
+    case 7:
       return <StepObjectiveSelection />
+    default:
+      return <StepReview />
   }
 }
 
-/** Return whether the wizard may advance past `step` given the current draft. */
-function canProceedFromStep(step: number, draft: { primaryProgramId: number | null; startTermId: number | null }): boolean {
-  if (step === 1) return draft.primaryProgramId !== null && draft.startTermId !== null
-  return true
+/** Return why the wizard can't advance past the current step, or null if it can.
+ * Returning the reason (rather than a bare boolean) lets the Next button explain
+ * itself in a toast instead of just sitting there disabled. */
+function blockingReasonForStep(draft: WizardDraft): string | null {
+  if (draft.step === 2) {
+    if (draft.primaryProgramId === null) return "Choose a primary major to continue."
+    if (draft.startTermId === null) return "Choose the term your plan starts in."
+  }
+  if (draft.step === 6 && creditRangeIsInverted(draft)) {
+    return "Your minimum credits per term is higher than your maximum."
+  }
+  return null
+}
+
+/** Whether the credit-load sliders were dragged into an impossible range, which the
+ * solver would otherwise report as a bare "infeasible". */
+function creditRangeIsInverted(draft: WizardDraft): boolean {
+  return (
+    draft.defaultMinimumCredits !== null &&
+    draft.defaultMaximumCredits !== null &&
+    draft.defaultMinimumCredits > draft.defaultMaximumCredits
+  )
 }
 
 interface WizardNavigationProps {
   step: number
-  canProceed: boolean
+  blockingReason: string | null
+  canSubmit: boolean
   isSubmitting: boolean
   onBack: () => void
   onNext: () => void
   onSubmit: () => void
 }
 
-/** Back/Next/Generate button row at the bottom of every wizard step. */
-function WizardNavigation({ step, canProceed, isSubmitting, onBack, onNext, onSubmit }: WizardNavigationProps) {
+/** Sticky Back/Next/Generate bar at the bottom of every wizard step. */
+function WizardNavigation({
+  step,
+  blockingReason,
+  canSubmit,
+  isSubmitting,
+  onBack,
+  onNext,
+  onSubmit,
+}: WizardNavigationProps) {
   const isLastStep = step === WIZARD_STEP_COUNT
   return (
-    <div className="flex items-center justify-between border-t pt-4">
+    <div className="glass-panel sticky bottom-4 flex items-center justify-between gap-3 rounded-xl p-3">
       <Button type="button" variant="outline" onClick={onBack} disabled={step === 1 || isSubmitting}>
+        <ArrowLeft className="size-4" />
         Back
       </Button>
+      {blockingReason !== null && !isLastStep ? (
+        <p className="hidden text-xs text-muted-foreground sm:block">{blockingReason}</p>
+      ) : null}
       {isLastStep ? (
-        <Button type="button" onClick={onSubmit} disabled={isSubmitting}>
-          {isSubmitting ? <Loader2 className="size-4 animate-spin" /> : null}
+        <Button type="button" onClick={onSubmit} disabled={isSubmitting || !canSubmit}>
+          {isSubmitting ? <Loader2 className="size-4 animate-spin" /> : <Sparkles className="size-4" />}
           {isSubmitting ? "Generating your plan…" : "Generate my plan"}
         </Button>
       ) : (
-        <Button type="button" onClick={onNext} disabled={!canProceed}>
+        <Button type="button" onClick={onNext} aria-disabled={blockingReason !== null}>
           Next
+          <ArrowRight className="size-4" />
         </Button>
       )}
     </div>
@@ -130,6 +224,7 @@ function buildScenarioPayload(draft: WizardDraft): ScenarioCreate {
     default_minimum_credits: draft.defaultMinimumCredits ?? undefined,
     default_maximum_credits: draft.defaultMaximumCredits ?? undefined,
     allow_summer: draft.allowSummer,
+    enforce_program_credit_minimum: draft.enforceProgramCreditMinimum,
     programs: [
       { academic_program_id: draft.primaryProgramId, program_role: "PRIMARY_MAJOR" },
       ...draft.additionalPrograms.map((program) => ({
@@ -139,10 +234,27 @@ function buildScenarioPayload(draft: WizardDraft): ScenarioCreate {
     ],
     completed_courses: draft.completedCourses,
     term_overrides: draft.excludedTermIds.map((termId) => ({ term_id: termId, is_excluded: true })),
+    preferences: buildCoursePreferences(draft),
     objectives: draft.objectiveOrder.map((objectiveType, index) => ({
       objective_type: objectiveType,
       weight: 1,
       display_order: index,
     })),
   }
+}
+
+/** Turn step 5's elective picks and exclusions into REQUIRE_COURSE / AVOID_COURSE
+ * preferences, which `optimizer_model._add_hard_preference_constraints` enforces
+ * as hard constraints (require this course; never assign that one). */
+function buildCoursePreferences(draft: WizardDraft): ScenarioPreferenceIn[] {
+  const requiredIds = new Set(Object.values(draft.courseChoices).flat())
+  const required: ScenarioPreferenceIn[] = [...requiredIds].map((courseId) => ({
+    preference_type: "REQUIRE_COURSE",
+    course_id: courseId,
+  }))
+  const avoided: ScenarioPreferenceIn[] = draft.excludedCourseIds.map((courseId) => ({
+    preference_type: "AVOID_COURSE",
+    course_id: courseId,
+  }))
+  return [...required, ...avoided]
 }

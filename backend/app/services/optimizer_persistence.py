@@ -14,9 +14,14 @@ from __future__ import annotations
 from sqlalchemy.orm import Session
 
 from app.models.degree_plan import DegreePlan
+from app.models.enums import ScenarioPreferenceType, ScenarioProgramRole
 from app.models.optimization_message import OptimizationMessage
 from app.models.plan_course import PlanCourse
+from app.models.planning_scenario import PlanningScenario
 from app.models.requirement_allocation import RequirementAllocation
+from app.models.scenario_preference import ScenarioPreference
+from app.models.scenario_program import ScenarioProgram
+from app.models.scenario_term import ScenarioTerm
 from app.models.student_credit import StudentCredit
 from app.schemas.course import CourseOut
 from app.schemas.plan import DegreePlanOut, OptimizationMessageOut, PlanCourseOut
@@ -38,6 +43,7 @@ def persist_plan(
     db.flush()
     if generated_plan.infeasibility_reason is not None:
         _add_message(db, plan.degree_plan_id, "ERROR", "INFEASIBLE", generated_plan.infeasibility_reason)
+        _add_suggested_adjustments_message(db, plan.degree_plan_id, planning_scenario_id)
         db.flush()
         return plan
     plan_courses_by_course_id = _create_plan_courses(db, plan.degree_plan_id, generated_plan)
@@ -145,37 +151,160 @@ def _allocation_credit_hours(
 
 
 def _add_diagnostic_messages(db: Session, degree_plan_id: int, generated_plan: GeneratedPlan) -> None:
-    """Add one `optimization_messages` row per advisor-signoff or unmodeled-prerequisite caveat."""
-    for node_id in generated_plan.credit_requirement_node_ids:
-        _add_message(
-            db,
-            degree_plan_id,
-            "WARNING",
-            "ADVISOR_SIGNOFF_NEEDED",
-            "This plan assumes a CREDIT_REQUIREMENT-type requirement (e.g. an unlisted "
-            "ROTC/placeholder credit slot) is satisfied outside the tool; an advisor should confirm it.",
-            requirement_node_id=node_id,
+    """Add the plan's advisor-signoff and unverified-prerequisite caveats.
+
+    Each caveat is written as exactly one aggregated row. Earlier this emitted one
+    row *per* affected node/course, which produced pages of byte-identical warnings
+    on a real plan (Aerospace BS surfaced the same closure-cap sentence 24 times) --
+    the same information, but unreadable. The trade-off is losing the per-row
+    `requirement_node_id`/`course_id` link, so the aggregated text names the
+    affected courses instead."""
+    _add_credit_requirement_message(db, degree_plan_id, generated_plan)
+    _add_unmodeled_prerequisite_course_message(db, degree_plan_id, generated_plan)
+    _add_unverified_prerequisite_condition_message(db, degree_plan_id, generated_plan)
+
+
+def _add_credit_requirement_message(
+    db: Session, degree_plan_id: int, generated_plan: GeneratedPlan
+) -> None:
+    """Warn once that the plan assumes N CREDIT_REQUIREMENT nodes are satisfied elsewhere."""
+    count = len(generated_plan.credit_requirement_node_ids)
+    if count == 0:
+        return
+    _add_message(
+        db,
+        degree_plan_id,
+        "WARNING",
+        "ADVISOR_SIGNOFF_NEEDED",
+        f"{count} requirement(s) are credit-hour placeholders with no specific course attached "
+        "(e.g. an unlisted ROTC or approved-minor credit slot). This plan assumes they're "
+        "satisfied outside the tool -- confirm them with an advisor.",
+    )
+
+
+def _add_unmodeled_prerequisite_course_message(
+    db: Session, degree_plan_id: int, generated_plan: GeneratedPlan
+) -> None:
+    """Warn once, naming the courses, that some prerequisites sit outside the modeled
+    candidate set and were assumed satisfiable rather than scheduled."""
+    course_ids = generated_plan.unmodeled_prerequisite_course_ids
+    if not course_ids:
+        return
+    _add_message(
+        db,
+        degree_plan_id,
+        "WARNING",
+        "PREREQUISITE_NOT_MODELED",
+        f"{len(course_ids)} prerequisite course(s) fall outside this plan's modeled course set "
+        f"({_course_code_summary(db, course_ids)}). The plan assumes you can satisfy them and "
+        "doesn't schedule them -- double-check these with an advisor.",
+    )
+
+
+def _add_unverified_prerequisite_condition_message(
+    db: Session, degree_plan_id: int, generated_plan: GeneratedPlan
+) -> None:
+    """Note once how many non-course prerequisite conditions the solver can't verify."""
+    count = len(generated_plan.unmodeled_prerequisite_node_ids)
+    if count == 0:
+        return
+    _add_message(
+        db,
+        degree_plan_id,
+        "INFO",
+        "UNVERIFIED_PREREQUISITE_TYPE",
+        f"{count} prerequisite condition(s) are things the optimizer can't check -- class "
+        "standing, placement exams, or instructor consent. They're assumed satisfied; confirm "
+        "with an advisor.",
+    )
+
+
+def _course_code_summary(db: Session, course_ids: set[int], limit: int = 6) -> str:
+    """Render a set of course ids as a short "SUBJ 1234, SUBJ 2345, +N more" string."""
+    courses = load_courses_by_id(db, course_ids)
+    codes = sorted(f"{course.subject_code} {course.course_number}" for course in courses.values())
+    unnamed = len(course_ids) - len(codes)
+    shown = codes[:limit]
+    remaining = len(codes) - len(shown) + unnamed
+    if remaining > 0:
+        shown.append(f"+{remaining} more")
+    return ", ".join(shown) if shown else "no catalog details available"
+
+
+def _add_suggested_adjustments_message(
+    db: Session, degree_plan_id: int, planning_scenario_id: int
+) -> None:
+    """For an infeasible plan, add one INFO row listing the specific constraints in
+    *this* scenario that could be relaxed to make it solvable (PDS UC-57). Without
+    this, an infeasible result only says "no schedule satisfies every hard
+    constraint" and leaves the student guessing which knob to turn."""
+    scenario = db.get(PlanningScenario, planning_scenario_id)
+    if scenario is None:
+        return
+    suggestions = _collect_relaxation_suggestions(db, scenario)
+    if not suggestions:
+        return
+    _add_message(
+        db,
+        degree_plan_id,
+        "INFO",
+        "SUGGESTED_ADJUSTMENTS",
+        "Things you could change to make this plan possible: " + "; ".join(suggestions) + ".",
+    )
+
+
+def _collect_relaxation_suggestions(db: Session, scenario: PlanningScenario) -> list[str]:
+    """Return the plain-language relaxations available for one scenario, most
+    commonly-binding first."""
+    suggestions: list[str] = []
+    if scenario.target_graduation_term_id is not None:
+        suggestions.append("push back or clear your target graduation term")
+    if scenario.default_maximum_credits is not None:
+        # float() first: the column is Numeric(5, 2), so a persisted scenario reads
+        # back as Decimal("9.00") and ":g" would render that literally as "9.00".
+        suggestions.append(
+            f"raise your per-term maximum above {float(scenario.default_maximum_credits):g} credits"
         )
-    for course_id in generated_plan.unmodeled_prerequisite_course_ids:
-        _add_message(
-            db,
-            degree_plan_id,
-            "WARNING",
-            "PREREQUISITE_CLOSURE_CAPPED",
-            "A prerequisite course for this plan was excluded from the candidate set by the "
-            "closure growth cap; this plan assumes it's satisfiable and should be double-checked.",
-            course_id=course_id,
+    if not scenario.allow_summer:
+        suggestions.append("allow summer terms")
+    if scenario.enforce_program_credit_minimum:
+        suggestions.append("turn off requiring the full published credit-hour total for your major")
+    suggestions.extend(_scenario_scoped_suggestions(db, scenario.planning_scenario_id))
+    return suggestions
+
+
+def _scenario_scoped_suggestions(db: Session, planning_scenario_id: int) -> list[str]:
+    """Return relaxations that depend on the scenario's child rows: excluded terms,
+    locked course choices, and additional programs beyond the primary major."""
+    suggestions: list[str] = []
+    excluded_terms = (
+        db.query(ScenarioTerm)
+        .filter(ScenarioTerm.planning_scenario_id == planning_scenario_id, ScenarioTerm.is_excluded.is_(True))
+        .count()
+    )
+    if excluded_terms:
+        suggestions.append(f"make one of the {excluded_terms} term(s) you excluded available again")
+    required_courses = (
+        db.query(ScenarioPreference)
+        .filter(
+            ScenarioPreference.planning_scenario_id == planning_scenario_id,
+            ScenarioPreference.preference_type == ScenarioPreferenceType.REQUIRE_COURSE,
         )
-    if generated_plan.unmodeled_prerequisite_node_ids:
-        _add_message(
-            db,
-            degree_plan_id,
-            "INFO",
-            "UNVERIFIED_PREREQUISITE_TYPE",
-            f"{len(generated_plan.unmodeled_prerequisite_node_ids)} prerequisite condition(s) "
-            "(standing, exam, consent, or similar) can't be verified by the solver and are "
-            "assumed satisfied; confirm with an advisor.",
+        .count()
+    )
+    if required_courses:
+        suggestions.append(f"unlock one of your {required_courses} chosen course(s)")
+    extra_programs = (
+        db.query(ScenarioProgram)
+        .filter(
+            ScenarioProgram.planning_scenario_id == planning_scenario_id,
+            ScenarioProgram.program_role != ScenarioProgramRole.PRIMARY_MAJOR,
         )
+        .count()
+    )
+    if extra_programs:
+        suggestions.append(f"drop one of the {extra_programs} additional program(s)")
+    return suggestions
 
 
 def _add_message(

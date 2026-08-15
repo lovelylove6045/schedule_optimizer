@@ -127,3 +127,86 @@ def test_create_scenario_creates_a_new_student_when_none_given(db_session):
     scenario = scenario_service.create_scenario(db_session, payload)
 
     assert scenario.student_id is not None
+
+
+def _create_primary_major_scenario(db_session) -> PlanningScenario:
+    """Create and persist a minimal scenario with just the Aero BS as PRIMARY_MAJOR."""
+    start_term = _two_terms(db_session)[0]
+    payload = ScenarioCreate(
+        start_term_id=start_term.term_id,
+        programs=[ScenarioProgramIn(academic_program_id=AERO_BS_PROGRAM_ID, program_role=ScenarioProgramRole.PRIMARY_MAJOR)],
+    )
+    return scenario_service.create_scenario(db_session, payload)
+
+
+def test_list_scenario_programs_returns_every_program(db_session):
+    scenario = _create_primary_major_scenario(db_session)
+
+    programs = scenario_service.list_scenario_programs(db_session, scenario.planning_scenario_id)
+
+    assert programs is not None
+    assert {p.academic_program_id for p in programs} == {AERO_BS_PROGRAM_ID}
+    assert programs[0].program_code
+    assert programs[0].program_name
+
+
+def test_list_scenario_programs_none_for_unknown_scenario(db_session):
+    assert scenario_service.list_scenario_programs(db_session, 999_999) is None
+
+
+def test_add_scenario_program_adds_a_minor(db_session):
+    scenario = _create_primary_major_scenario(db_session)
+
+    added = scenario_service.add_scenario_program(
+        db_session,
+        scenario.planning_scenario_id,
+        ScenarioProgramIn(academic_program_id=AERO_MINOR_PROGRAM_ID, program_role=ScenarioProgramRole.MINOR),
+    )
+
+    assert added.academic_program_id == AERO_MINOR_PROGRAM_ID
+    assert added.program_code
+    assert added.program_name
+    programs = scenario_service.list_scenario_programs(db_session, scenario.planning_scenario_id)
+    assert {p.academic_program_id for p in programs} == {AERO_BS_PROGRAM_ID, AERO_MINOR_PROGRAM_ID}
+
+
+def test_add_scenario_program_404_for_unknown_scenario(db_session):
+    with pytest.raises(ScenarioReferenceNotFoundError):
+        scenario_service.add_scenario_program(
+            db_session,
+            999_999,
+            ScenarioProgramIn(academic_program_id=AERO_MINOR_PROGRAM_ID, program_role=ScenarioProgramRole.MINOR),
+        )
+
+
+def test_add_scenario_program_404_for_unknown_program(db_session):
+    scenario = _create_primary_major_scenario(db_session)
+
+    with pytest.raises(ScenarioReferenceNotFoundError):
+        scenario_service.add_scenario_program(
+            db_session,
+            scenario.planning_scenario_id,
+            ScenarioProgramIn(academic_program_id=999_999, program_role=ScenarioProgramRole.MINOR),
+        )
+
+
+def test_add_scenario_program_422_for_a_second_primary_major(db_session):
+    scenario = _create_primary_major_scenario(db_session)
+
+    with pytest.raises(ScenarioValidationError):
+        scenario_service.add_scenario_program(
+            db_session,
+            scenario.planning_scenario_id,
+            ScenarioProgramIn(academic_program_id=AERO_MINOR_PROGRAM_ID, program_role=ScenarioProgramRole.PRIMARY_MAJOR),
+        )
+
+
+def test_add_scenario_program_422_for_a_duplicate_program(db_session):
+    scenario = _create_primary_major_scenario(db_session)
+
+    with pytest.raises(ScenarioValidationError):
+        scenario_service.add_scenario_program(
+            db_session,
+            scenario.planning_scenario_id,
+            ScenarioProgramIn(academic_program_id=AERO_BS_PROGRAM_ID, program_role=ScenarioProgramRole.SECOND_MAJOR),
+        )

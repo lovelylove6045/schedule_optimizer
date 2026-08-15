@@ -7,22 +7,65 @@ from sqlalchemy import func, or_
 from sqlalchemy.orm import Session
 
 from app.models.academic_program import AcademicProgram
+from app.models.college import College
 from app.models.course import Course
 from app.models.course_group import CourseGroup
 from app.models.course_group_member import CourseGroupMember
 from app.models.course_rule_node import CourseRuleNode
+from app.models.department import Department
 from app.models.subject import Subject
 from app.models.term import Term
+from app.schemas.college import CollegeOut
 from app.schemas.course import CourseGroupMembersOut, CourseGroupOut, CourseOut
 from app.schemas.prerequisite import PrerequisiteNodeOut
+from app.schemas.program import ProgramOut
 from app.services.common import course_out, load_courses_by_id
 
 MAX_COURSE_SEARCH_RESULTS = 50
 
 
-def list_programs(db: Session) -> list[AcademicProgram]:
-    """Return every academic program, alphabetically by name."""
-    return db.query(AcademicProgram).order_by(AcademicProgram.program_name).all()
+def list_colleges(db: Session) -> list[CollegeOut]:
+    """Return every college/school, alphabetically by name -- the first choice a
+    client asks for so the program picker can be narrowed to one school."""
+    rows = db.query(College).order_by(College.college_name).all()
+    return [CollegeOut.model_validate(row) for row in rows]
+
+
+def list_programs(db: Session) -> list[ProgramOut]:
+    """Return every academic program, alphabetically by name, each already joined
+    to its department and (via `departments.college_id`) its college, so a client
+    can filter the catalog by school without a second request. Outer-joined
+    because `departments.college_id` is nullable."""
+    rows = (
+        db.query(AcademicProgram, Department, College)
+        .outerjoin(Department, Department.department_id == AcademicProgram.department_id)
+        .outerjoin(College, College.college_id == Department.college_id)
+        .order_by(AcademicProgram.program_name)
+        .all()
+    )
+    return [_program_out(program, department, college) for program, department, college in rows]
+
+
+def _program_out(
+    program: AcademicProgram, department: Department | None, college: College | None
+) -> ProgramOut:
+    """Convert one joined (program, department, college) row into a `ProgramOut`."""
+    return ProgramOut(
+        academic_program_id=program.academic_program_id,
+        department_id=program.department_id,
+        program_code=program.program_code,
+        program_name=program.program_name,
+        program_type=program.program_type,
+        total_credit_hours=(
+            float(program.total_credit_hours) if program.total_credit_hours is not None else None
+        ),
+        is_active=program.is_active,
+        department_code=department.department_code if department else None,
+        department_name=department.department_name if department else None,
+        college_id=college.college_id if college else None,
+        college_code=college.college_code if college else None,
+        college_name=college.college_name if college else None,
+    )
 
 
 def list_terms(db: Session) -> list[Term]:

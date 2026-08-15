@@ -63,3 +63,18 @@ class PlanMetricsOut(BaseModel):
 
 class PlanComparisonOut(BaseModel):
     plans: list[PlanMetricsOut]
+
+
+class PlanCourseSwapIn(BaseModel):
+    """Body for `POST /plans/{degree_plan_id}/courses/{plan_course_id}/swap`:
+    replace that slot's course with another valid alternative."""
+
+    new_course_id: int
+
+
+class PlanCourseAddIn(BaseModel):
+    """Body for `POST /plans/{degree_plan_id}/courses`: add a brand-new course
+    to a specific term, rather than replacing an existing slot."""
+
+    course_id: int
+    term_id: int

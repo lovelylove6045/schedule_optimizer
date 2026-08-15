@@ -19,7 +19,10 @@ function Command({
     <CommandPrimitive
       data-slot="command"
       className={cn(
-        "flex h-full w-full flex-col overflow-hidden rounded-md bg-popover text-popover-foreground",
+        // Transparent, not bg-popover: <Command> is always rendered inside an
+        // already-frosted PopoverContent/DialogContent, and a second opaque layer
+        // there would flatten the glass effect.
+        "flex h-full w-full flex-col overflow-hidden rounded-md bg-transparent text-popover-foreground",
         className
       )}
       {...props}

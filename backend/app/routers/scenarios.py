@@ -4,7 +4,7 @@ from sqlalchemy.orm import Session
 from app.database import get_db
 from app.models.planning_scenario import PlanningScenario
 from app.schemas.plan import DegreePlanOut
-from app.schemas.scenario import ScenarioCreate, ScenarioCreateOut
+from app.schemas.scenario import ScenarioCreate, ScenarioCreateOut, ScenarioProgramIn, ScenarioProgramOut
 from app.services import optimizer_persistence, plan_generation_service, scenario_service
 from app.services.scenario_service import ScenarioReferenceNotFoundError, ScenarioValidationError
 
@@ -42,3 +42,31 @@ def list_scenario_plans(planning_scenario_id: int, db: Session = Depends(get_db)
     if db.get(PlanningScenario, planning_scenario_id) is None:
         raise HTTPException(status_code=404, detail="Scenario not found")
     return optimizer_persistence.list_degree_plans_for_scenario(db, planning_scenario_id)
+
+
+@router.get("/scenarios/{planning_scenario_id}/programs", response_model=list[ScenarioProgramOut])
+def list_scenario_programs(
+    planning_scenario_id: int, db: Session = Depends(get_db)
+) -> list[ScenarioProgramOut]:
+    """Return every major/minor/emphasis already selected for a scenario -- lets
+    the results page know the primary program (for overlap suggestions) and
+    which programs are already taken."""
+    programs = scenario_service.list_scenario_programs(db, planning_scenario_id)
+    if programs is None:
+        raise HTTPException(status_code=404, detail="Scenario not found")
+    return programs
+
+
+@router.post("/scenarios/{planning_scenario_id}/programs", response_model=ScenarioProgramOut, status_code=201)
+def add_scenario_program(
+    planning_scenario_id: int, payload: ScenarioProgramIn, db: Session = Depends(get_db)
+) -> ScenarioProgramOut:
+    """Add a second major/minor/emphasis to an already-created scenario -- e.g.
+    accepting an overlap suggestion after a plan's already been generated --
+    so the next `/generate` call accounts for its requirements too."""
+    try:
+        return scenario_service.add_scenario_program(db, planning_scenario_id, payload)
+    except ScenarioReferenceNotFoundError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    except ScenarioValidationError as exc:
+        raise HTTPException(status_code=422, detail=str(exc)) from exc

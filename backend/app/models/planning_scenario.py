@@ -21,4 +21,11 @@ class PlanningScenario(Base):
     default_maximum_credits: Mapped[float | None] = mapped_column(Numeric(4, 1))
     full_time_minimum_credits: Mapped[float | None] = mapped_column(Numeric(4, 1))
     allow_summer: Mapped[bool] = mapped_column(default=True)
+    # Forces the plan's total credit hours to reach the officially published
+    # total_credit_hours of the scenario's major(s) -- without this, the solver
+    # only guarantees each *named* requirement node, which can legitimately fall
+    # a few credits short of the catalog's real graduation total (unmodeled
+    # free-elective slots). Relaxable like allow_summer/default_maximum_credits
+    # in case a scenario's candidate pool has no slack to pad the gap with.
+    enforce_program_credit_minimum: Mapped[bool] = mapped_column(default=True)
     created_at: Mapped[datetime] = mapped_column(server_default=func.now())

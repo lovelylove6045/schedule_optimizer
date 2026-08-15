@@ -9,6 +9,13 @@ COMP_SCI_1972_COURSE_ID = 1122  # lecture
 COMP_SCI_1982_COURSE_ID = 1126  # its lab (ANY[ALL(1972,1982), ALL(1570,1580)])
 COMP_SCI_1570_COURSE_ID = 1115
 
+# Aerospace BS "Technical Electives" set: ALL(node 55 = 9 credit hours of MAE
+# technical electives, node 56 = 3 credit hours of 5000-level MAE electives).
+AERO_BS_TECHNICAL_ELECTIVE_SET_ID = 7
+NINE_CREDIT_GROUP_NODE_ID = 55
+# Three 3-credit members of node 55's course group.
+MAE_TECH_ELECTIVE_COURSE_IDS = [1712, 1727, 1728]
+
 
 def _make_student(db_session) -> int:
     student = Student(display_name="Test Student")
@@ -121,6 +128,67 @@ def test_credit_requirement_node_is_never_auto_satisfied(db_session):
     matched = credit_matching_service.match_completed_courses(db_session, student_id, tree)
 
     assert matched.nodes[0].is_satisfied is False
+
+
+def test_course_group_requires_its_full_credit_hour_total(db_session):
+    """Aerospace BS requirement set 7 is ALL(9-credit MAE technical electives,
+    3-credit 5000-level MAE electives). Completing one 3-credit member of the
+    9-credit group must NOT satisfy it -- the old `any(member completed)` rule
+    reported a 15-credit elective block as done after a single course."""
+    student_id = _make_student(db_session)
+    _add_completed_credit(db_session, student_id, MAE_TECH_ELECTIVE_COURSE_IDS[0])
+
+    tree = requirement_service.flatten_requirement_tree(db_session, AERO_BS_TECHNICAL_ELECTIVE_SET_ID)
+    matched = credit_matching_service.match_completed_courses(db_session, student_id, tree)
+
+    nine_credit_group = _node_by_id(matched.nodes, NINE_CREDIT_GROUP_NODE_ID)
+    assert nine_credit_group.required_credit_hours == 9.0
+    assert nine_credit_group.is_satisfied is False
+    assert matched.nodes[0].is_satisfied is False
+
+
+def test_course_group_is_satisfied_once_its_credit_hours_are_covered(db_session):
+    student_id = _make_student(db_session)
+    for course_id in MAE_TECH_ELECTIVE_COURSE_IDS:  # 3 x 3 credit hours = 9
+        _add_completed_credit(db_session, student_id, course_id)
+
+    tree = requirement_service.flatten_requirement_tree(db_session, AERO_BS_TECHNICAL_ELECTIVE_SET_ID)
+    matched = credit_matching_service.match_completed_courses(db_session, student_id, tree)
+
+    assert _node_by_id(matched.nodes, NINE_CREDIT_GROUP_NODE_ID).is_satisfied is True
+
+
+def test_course_group_with_no_threshold_needs_only_one_member(db_session):
+    """The 12 COURSE_GROUP nodes that state neither a count nor credit hours keep the
+    original "any single member" behaviour."""
+    student_id = _make_student(db_session)
+    _add_completed_credit(db_session, student_id, MAE_TECH_ELECTIVE_COURSE_IDS[0])
+    group = _node_by_id(
+        requirement_service.flatten_requirement_tree(db_session, AERO_BS_TECHNICAL_ELECTIVE_SET_ID).nodes,
+        NINE_CREDIT_GROUP_NODE_ID,
+    )
+    untresholded = RequirementSetOut(
+        requirement_set_id=-1,
+        requirement_set_code="SYNTHETIC",
+        requirement_set_name="Synthetic",
+        requirement_set_type="TEST",
+        nodes=[group.model_copy(update={"required_credit_hours": None, "required_count": None})],
+    )
+
+    matched = credit_matching_service.match_completed_courses(db_session, student_id, untresholded)
+
+    assert matched.nodes[0].is_satisfied is True
+
+
+def _node_by_id(nodes: list[RequirementNodeOut], node_id: int) -> RequirementNodeOut | None:
+    """Depth-first search a flattened tree for one node by requirement_node_id."""
+    for node in nodes:
+        if node.requirement_node_id == node_id:
+            return node
+        found = _node_by_id(node.children, node_id)
+        if found is not None:
+            return found
+    return None
 
 
 def _single_course_node_tree(course, minimum_grade: str) -> RequirementSetOut:

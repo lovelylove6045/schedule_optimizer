@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query"
-import { comparePlans, getPlanRequirements } from "@/lib/api/plans"
+import { comparePlans, getPlanRequirements, getPlanSwapOptions } from "@/lib/api/plans"
 import { listScenarioPlans } from "@/lib/api/scenarios"
 
 /** Fetch every persisted plan for a scenario (Screens 6/7's data source on a
@@ -27,5 +27,16 @@ export function usePlanRequirementsQuery(degreePlanId: number | undefined) {
     queryKey: ["plans", degreePlanId, "requirements"],
     queryFn: () => getPlanRequirements(degreePlanId as number),
     enabled: degreePlanId !== undefined,
+  })
+}
+
+/** Fetch the plan board's per-course swap alternatives (Screen 6). Keyed by
+ * plan_course_id; a course with no listed alternatives can't be swapped. */
+export function usePlanSwapOptionsQuery(degreePlanId: number | undefined) {
+  return useQuery({
+    queryKey: ["plans", degreePlanId, "swap-options"],
+    queryFn: () => getPlanSwapOptions(degreePlanId as number),
+    enabled: degreePlanId !== undefined,
+    staleTime: 5 * 60 * 1000,
   })
 }

@@ -2,9 +2,17 @@ from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 
 from app.database import get_db
-from app.schemas.plan import DegreePlanOut, PlanComparisonOut, PlanMetricsOut
+from app.schemas.course import CourseOut
+from app.schemas.plan import DegreePlanOut, PlanComparisonOut, PlanCourseAddIn, PlanCourseSwapIn, PlanMetricsOut
 from app.schemas.requirement import RequirementSetOut
-from app.services import optimizer_persistence, plan_comparison_service, plan_requirement_service
+from app.services import (
+    optimizer_persistence,
+    plan_comparison_service,
+    plan_requirement_service,
+    plan_swap_service,
+    plan_swap_validation,
+    requirement_choice_service,
+)
 
 router = APIRouter(tags=["plans"])
 
@@ -39,6 +47,77 @@ def get_plan_requirements(degree_plan_id: int, db: Session = Depends(get_db)) ->
     if coverage is None:
         raise HTTPException(status_code=404, detail="Plan not found")
     return coverage
+
+
+@router.get("/plans/{degree_plan_id}/swap-options", response_model=dict[int, list[CourseOut]])
+def get_plan_swap_options(degree_plan_id: int, db: Session = Depends(get_db)) -> dict[int, list[CourseOut]]:
+    """Return, per plan_course_id, the alternative courses the plan board can offer
+    for that slot -- empty for a plan_course whose requirement names no alternative."""
+    if optimizer_persistence.load_degree_plan(db, degree_plan_id) is None:
+        raise HTTPException(status_code=404, detail="Plan not found")
+    return requirement_choice_service.list_swap_options_for_plan(db, degree_plan_id)
+
+
+@router.post("/plans/{degree_plan_id}/courses/{plan_course_id}/swap", response_model=DegreePlanOut)
+def swap_plan_course(
+    degree_plan_id: int, plan_course_id: int, payload: PlanCourseSwapIn, db: Session = Depends(get_db)
+) -> DegreePlanOut:
+    """Replace one plan_courses row's assigned course with an alternative, keeping
+    its term. Rejects (422) a course that isn't offered that term, would push
+    the term over its credit cap, or has a prerequisite this plan hasn't
+    placed early enough -- see `plan_swap_validation`."""
+    try:
+        plan_swap_service.swap_plan_course(db, degree_plan_id, plan_course_id, payload.new_course_id)
+    except plan_swap_service.PlanCourseNotFoundError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    except (
+        plan_swap_service.CourseNotFoundError,
+        plan_swap_service.DuplicateCourseError,
+        plan_swap_validation.CourseNotOfferedInTermError,
+        plan_swap_validation.TermCreditCapExceededError,
+        plan_swap_validation.PrerequisiteNotMetError,
+    ) as exc:
+        raise HTTPException(status_code=422, detail=str(exc)) from exc
+    return _reload_plan_or_404(db, degree_plan_id)
+
+
+@router.post("/plans/{degree_plan_id}/courses", response_model=DegreePlanOut)
+def add_plan_course(degree_plan_id: int, payload: PlanCourseAddIn, db: Session = Depends(get_db)) -> DegreePlanOut:
+    """Add a brand-new course to a plan in a specific term (e.g. an extra
+    elective beyond what the solver assigned), subject to the same term-
+    offering/credit-cap/prerequisite checks as a swap -- see `plan_swap_validation`."""
+    try:
+        plan_swap_service.add_plan_course(db, degree_plan_id, payload.course_id, payload.term_id)
+    except (plan_swap_service.DegreePlanNotFoundError, plan_swap_service.TermNotFoundError) as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    except (
+        plan_swap_service.CourseNotFoundError,
+        plan_swap_service.DuplicateCourseError,
+        plan_swap_validation.CourseNotOfferedInTermError,
+        plan_swap_validation.TermCreditCapExceededError,
+        plan_swap_validation.PrerequisiteNotMetError,
+    ) as exc:
+        raise HTTPException(status_code=422, detail=str(exc)) from exc
+    return _reload_plan_or_404(db, degree_plan_id)
+
+
+@router.delete("/plans/{degree_plan_id}/courses/{plan_course_id}", response_model=DegreePlanOut)
+def remove_plan_course(degree_plan_id: int, plan_course_id: int, db: Session = Depends(get_db)) -> DegreePlanOut:
+    """Remove one course entirely from a plan, wherever it came from (solver-
+    assigned or student-added)."""
+    try:
+        plan_swap_service.remove_plan_course(db, degree_plan_id, plan_course_id)
+    except plan_swap_service.PlanCourseNotFoundError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    return _reload_plan_or_404(db, degree_plan_id)
+
+
+def _reload_plan_or_404(db: Session, degree_plan_id: int) -> DegreePlanOut:
+    """Reload a plan's full breakdown after an edit, for the response body."""
+    plan = optimizer_persistence.load_degree_plan(db, degree_plan_id)
+    if plan is None:
+        raise HTTPException(status_code=404, detail="Plan not found")
+    return plan
 
 
 def _parse_plan_ids(ids: str) -> list[int]:

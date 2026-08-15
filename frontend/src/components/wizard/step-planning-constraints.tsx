@@ -1,90 +1,163 @@
+import { GraduationCap, TriangleAlert } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { ErrorState } from "@/components/shared/error-state"
 import { LoadingState } from "@/components/shared/loading-state"
+import { Badge } from "@/components/ui/badge"
 import { Label } from "@/components/ui/label"
 import { Slider } from "@/components/ui/slider"
 import { Switch } from "@/components/ui/switch"
 import { useTermsQuery } from "@/hooks/use-terms"
 import { useScenarioBuilder } from "@/state/scenario-builder-context"
+import { cn } from "@/lib/utils"
 
-const MIN_CREDITS_RANGE: [number, number] = [3, 21]
-const MAX_CREDITS_RANGE: [number, number] = [3, 21]
+const CREDITS_RANGE: [number, number] = [3, 21]
+/** Full-time undergraduate load, shown as a reference point on the sliders. */
+const FULL_TIME_CREDITS = 12
 
-/** Screen 4: per-term credit-hour bounds, summer eligibility, and which
- * upcoming terms to exclude entirely (e.g. a planned co-op or study-abroad term). */
+/** Step 6: per-term credit-hour bounds, summer eligibility, and which upcoming terms
+ * to exclude entirely (e.g. a planned co-op or study-abroad term). */
 export function StepPlanningConstraints() {
   const { draft, dispatch } = useScenarioBuilder()
   const termsQuery = useTermsQuery()
   if (termsQuery.isPending) return <LoadingState label="Loading terms…" />
   if (termsQuery.isError) return <ErrorState message="Couldn't load terms from the server." />
-  const upcomingTerms = draft.startTermId
-    ? termsQuery.data.filter((term) => {
-        const start = termsQuery.data.find((t) => t.term_id === draft.startTermId)
-        return start ? term.sequence_index >= start.sequence_index : true
-      })
+  const startTerm = termsQuery.data.find((term) => term.term_id === draft.startTermId)
+  const upcomingTerms = startTerm
+    ? termsQuery.data.filter((term) => term.sequence_index >= startTerm.sequence_index)
     : termsQuery.data
+  const minCredits = draft.defaultMinimumCredits ?? CREDITS_RANGE[0]
+  const maxCredits = draft.defaultMaximumCredits ?? CREDITS_RANGE[1]
+  const isInverted = minCredits > maxCredits
   return (
     <Card>
       <CardHeader>
         <CardTitle>How much can you take on?</CardTitle>
         <CardDescription>Set a comfortable credit-hour range and which terms are off the table.</CardDescription>
       </CardHeader>
-      <CardContent className="space-y-8">
-        <div className="space-y-3">
-          <div className="flex items-center justify-between">
-            <Label>Minimum credits per term</Label>
-            <span className="font-mono text-sm text-muted-foreground">{draft.defaultMinimumCredits}</span>
-          </div>
-          <Slider
-            min={MIN_CREDITS_RANGE[0]}
-            max={MIN_CREDITS_RANGE[1]}
-            step={1}
-            value={[draft.defaultMinimumCredits ?? 12]}
-            onValueChange={([value]) => dispatch({ type: "SET_MIN_CREDITS", value })}
+      <CardContent className="space-y-6">
+        <div className="glass-inset space-y-6 rounded-xl p-4">
+          <CreditSlider
+            id="min-credits"
+            label="Minimum credits per term"
+            hint={minCredits >= FULL_TIME_CREDITS ? "Full-time load" : "Below full-time"}
+            value={minCredits}
+            onChange={(value) => dispatch({ type: "SET_MIN_CREDITS", value })}
           />
-        </div>
-        <div className="space-y-3">
-          <div className="flex items-center justify-between">
-            <Label>Maximum credits per term</Label>
-            <span className="font-mono text-sm text-muted-foreground">{draft.defaultMaximumCredits}</span>
-          </div>
-          <Slider
-            min={MAX_CREDITS_RANGE[0]}
-            max={MAX_CREDITS_RANGE[1]}
-            step={1}
-            value={[draft.defaultMaximumCredits ?? 18]}
-            onValueChange={([value]) => dispatch({ type: "SET_MAX_CREDITS", value })}
+          <CreditSlider
+            id="max-credits"
+            label="Maximum credits per term"
+            hint={maxCredits > 18 ? "Heavy — usually needs approval" : "Typical ceiling"}
+            value={maxCredits}
+            onChange={(value) => dispatch({ type: "SET_MAX_CREDITS", value })}
           />
+          {isInverted ? (
+            <p className="flex items-center gap-2 text-xs text-destructive">
+              <TriangleAlert className="size-3.5 shrink-0" aria-hidden="true" />
+              Your minimum is above your maximum — no term could satisfy both.
+            </p>
+          ) : null}
         </div>
-        <div className="flex items-center justify-between rounded-lg border p-4">
-          <div>
+        <label className="glass-inset flex items-center justify-between gap-3 rounded-xl p-4">
+          <span>
             <Label htmlFor="allow-summer">Allow summer terms</Label>
-            <p className="text-xs text-muted-foreground">Let the plan schedule courses in summer if it helps.</p>
-          </div>
+            <span className="block text-xs text-muted-foreground">
+              Let the plan schedule courses in summer if it shortens your timeline.
+            </span>
+          </span>
           <Switch
             id="allow-summer"
             checked={draft.allowSummer}
             onCheckedChange={(checked) => dispatch({ type: "TOGGLE_SUMMER", allow: checked })}
           />
-        </div>
+        </label>
+        <label className="flex items-start justify-between gap-4 rounded-xl border border-gold/40 bg-gold/10 p-4 shadow-[0_0_0_1px_var(--gold)_inset] shadow-gold/5">
+          <span className="flex items-start gap-3">
+            <span className="mt-0.5 flex size-8 shrink-0 items-center justify-center rounded-full bg-gold/20 text-gold">
+              <GraduationCap className="size-4" aria-hidden="true" />
+            </span>
+            <span>
+              <span className="flex flex-wrap items-center gap-2">
+                <Label htmlFor="enforce-credit-minimum" className="font-semibold">
+                  Require your major's full credit total
+                </Label>
+                <Badge className="bg-gold text-gold-foreground">Recommended</Badge>
+              </span>
+              <span className="mt-1 block text-xs text-muted-foreground">
+                Keeps your plan at or above the credit hours your major officially requires to graduate — not just
+                its named requirements. Only turn this off if it's blocking your plan from generating.
+              </span>
+            </span>
+          </span>
+          <Switch
+            id="enforce-credit-minimum"
+            checked={draft.enforceProgramCreditMinimum}
+            onCheckedChange={(checked) => dispatch({ type: "TOGGLE_CREDIT_MINIMUM", enforce: checked })}
+            className="mt-0.5 shrink-0 data-[state=checked]:bg-gold"
+          />
+        </label>
         <div className="space-y-2">
-          <Label>Exclude specific terms (e.g. co-op or study abroad)</Label>
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <Label>Terms you can't enroll (co-op, study abroad, leave)</Label>
+            {draft.excludedTermIds.length > 0 ? (
+              <Badge variant="secondary" className="font-mono text-[0.7rem]">
+                {draft.excludedTermIds.length} excluded
+              </Badge>
+            ) : null}
+          </div>
           <div className="grid gap-2 sm:grid-cols-2">
-            {upcomingTerms.map((term) => (
-              <label
-                key={term.term_id}
-                className="flex items-center justify-between gap-3 rounded-lg border p-3 text-sm"
-              >
-                <span>{term.term_code}</span>
-                <Switch
-                  checked={draft.excludedTermIds.includes(term.term_id)}
-                  onCheckedChange={() => dispatch({ type: "TOGGLE_EXCLUDED_TERM", termId: term.term_id })}
-                />
-              </label>
-            ))}
+            {upcomingTerms.map((term) => {
+              const isExcluded = draft.excludedTermIds.includes(term.term_id)
+              return (
+                <label
+                  key={term.term_id}
+                  className={cn(
+                    "glass-inset flex items-center justify-between gap-3 rounded-lg p-3 text-sm",
+                    isExcluded && "border-warning/50 bg-warning/10",
+                  )}
+                >
+                  <span className="font-mono text-xs">{term.term_code}</span>
+                  <Switch
+                    checked={isExcluded}
+                    aria-label={`Exclude ${term.term_code}`}
+                    onCheckedChange={() => dispatch({ type: "TOGGLE_EXCLUDED_TERM", termId: term.term_id })}
+                  />
+                </label>
+              )
+            })}
           </div>
         </div>
       </CardContent>
     </Card>
+  )
+}
+
+interface CreditSliderProps {
+  id: string
+  label: string
+  hint: string
+  value: number
+  onChange: (value: number) => void
+}
+
+/** One credit-hour slider with its live value and a plain-language hint. */
+function CreditSlider({ id, label, hint, value, onChange }: CreditSliderProps) {
+  return (
+    <div className="space-y-3">
+      <div className="flex items-baseline justify-between gap-2">
+        <Label htmlFor={id}>{label}</Label>
+        <span className="flex items-baseline gap-2">
+          <span className="text-[0.7rem] text-muted-foreground">{hint}</span>
+          <span className="font-mono text-lg font-semibold">{value}</span>
+        </span>
+      </div>
+      <Slider
+        id={id}
+        min={CREDITS_RANGE[0]}
+        max={CREDITS_RANGE[1]}
+        step={1}
+        value={[value]}
+        onValueChange={([next]) => onChange(next)}
+      />
+    </div>
   )
 }

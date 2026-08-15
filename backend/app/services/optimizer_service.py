@@ -5,6 +5,7 @@ persisted (see `optimizer_persistence` for that)."""
 
 from __future__ import annotations
 
+import time
 from dataclasses import dataclass
 
 from ortools.sat.python import cp_model
@@ -18,7 +19,24 @@ from app.schemas.course import CourseOut
 from app.services import optimizer_candidates, optimizer_model, optimizer_objectives, optimizer_terms
 from app.services.optimizer_model import OptimizerModel
 
-DEFAULT_MAX_SOLVE_SECONDS = 30.0
+# Total wall-clock budget for one `generate_plans` call, shared across every solve it
+# runs (one feasibility check, one baseline for multi-program scenarios, up to 5
+# objective solves) via `_remaining_seconds` -- not a per-solve limit, so a scenario
+# that's merely slow to prove feasible/infeasible gets the whole budget for that one
+# check instead of bailing at a fixed 10s. Raised from a flat 10s after the credit-
+# floor constraint (`optimizer_model._add_program_credit_floor_constraint`) and
+# COURSE_GROUP credit-hour thresholds made some real scenarios need more search time
+# than that to even find one feasible schedule, not just to prove optimality.
+DEFAULT_MAX_TOTAL_SOLVE_SECONDS = 270.0
+# Floor per solve so a later solve in the sequence (e.g. the 5th objective) still gets
+# a meaningful slice even if earlier solves ate almost the whole shared budget.
+_MIN_PER_SOLVE_SECONDS = 20.0
+# Deliberately NOT setting solver.parameters.relative_gap_limit. It looks like an easy
+# speed-up, but `optimizer_objectives` combines objectives as a weighted sum with the
+# primary at 100_000x, so even a 1% gap on that combined value leaves enough slack for
+# the solver to stop on a plan carrying ~30 credit hours of padding (measured: 159
+# credits instead of 126 on Aerospace BS/EARLIEST_GRADUATION). Bounded search time
+# comes from `max_time_in_seconds` and the parallel workers below instead.
 _FEASIBLE_STATUSES = (cp_model.OPTIMAL, cp_model.FEASIBLE)
 _STATUS_NAMES = {
     cp_model.OPTIMAL: "OPTIMAL",
@@ -52,21 +70,31 @@ class GeneratedPlan:
 
 
 def generate_plans(
-    db: Session, planning_scenario_id: int, max_solve_seconds: float = DEFAULT_MAX_SOLVE_SECONDS
+    db: Session, planning_scenario_id: int, max_total_solve_seconds: float = DEFAULT_MAX_TOTAL_SOLVE_SECONDS
 ) -> list[GeneratedPlan]:
     """Generate up to 5 meaningfully-different degree plans for one planning scenario,
     one per supported `OptimizationObjectiveType`, deduplicated by identical assignments.
     Returns a single infeasible `GeneratedPlan` if the scenario's hard constraints alone
-    (independent of any objective) can't be satisfied."""
+    (independent of any objective) can't be satisfied. Every solve this call runs shares
+    one wall-clock deadline (`max_total_solve_seconds` from now), not an independent
+    per-solve limit."""
     scenario = _load_scenario(db, planning_scenario_id)
     terms = optimizer_terms.build_term_horizon(db, scenario)
     candidates = optimizer_candidates.build_candidate_course_set(db, scenario)
     ctx = optimizer_model.build_optimizer_model(db, scenario, candidates, terms)
-    feasibility_status = _new_solver(max_solve_seconds).Solve(ctx.model)
+    deadline = time.monotonic() + max_total_solve_seconds
+    feasibility_status = _new_solver(_remaining_seconds(deadline)).Solve(ctx.model)
     if feasibility_status not in _FEASIBLE_STATUSES:
         return [_infeasible_plan(None, "INFEASIBLE", feasibility_status)]
-    baseline_credit_hours = _solve_baseline_credit_hours(db, scenario, terms, max_solve_seconds)
-    return _solve_every_objective(ctx, baseline_credit_hours, max_solve_seconds)
+    baseline_credit_hours = _solve_baseline_credit_hours(db, scenario, terms, deadline)
+    return _solve_every_objective(ctx, baseline_credit_hours, deadline)
+
+
+def _remaining_seconds(deadline: float) -> float:
+    """Return the wall-clock seconds left before `deadline`, floored at
+    `_MIN_PER_SOLVE_SECONDS` so a later solve in the sequence always gets a
+    meaningful slice of the shared budget even once most of it is spent."""
+    return max(deadline - time.monotonic(), _MIN_PER_SOLVE_SECONDS)
 
 
 def _load_scenario(db: Session, planning_scenario_id: int) -> PlanningScenario:
@@ -78,9 +106,13 @@ def _load_scenario(db: Session, planning_scenario_id: int) -> PlanningScenario:
 
 
 def _new_solver(max_solve_seconds: float) -> cp_model.CpSolver:
-    """Build a `CpSolver` configured with the given wall-clock time limit."""
+    """Build a `CpSolver` with this project's shared search settings: a wall-clock limit
+    plus CP-SAT's portfolio search across 8 workers. The default is a single worker, and
+    these models are big enough (thousands of assignment booleans) that parallel search
+    reaches a comparable plan in roughly half the wall-clock time."""
     solver = cp_model.CpSolver()
     solver.parameters.max_time_in_seconds = max_solve_seconds
+    solver.parameters.num_workers = 8
     return solver
 
 
@@ -90,7 +122,7 @@ def _status_name(status: int) -> str:
 
 
 def _solve_baseline_credit_hours(
-    db: Session, scenario: PlanningScenario, terms: list[Term], max_solve_seconds: float
+    db: Session, scenario: PlanningScenario, terms: list[Term], deadline: float
 ) -> float | None:
     """Solve a 'primary major alone' baseline (only meaningful with 2+ scenario_programs)
     and return its minimal total credit hours, or `None` for a single-program scenario."""
@@ -102,7 +134,7 @@ def _solve_baseline_credit_hours(
     )
     baseline_ctx = optimizer_model.build_optimizer_model(db, scenario, baseline_candidates, terms)
     baseline_ctx.model.Minimize(optimizer_objectives.total_assigned_credit_hours(baseline_ctx))
-    solver = _new_solver(max_solve_seconds)
+    solver = _new_solver(_remaining_seconds(deadline))
     status = solver.Solve(baseline_ctx.model)
     if status not in _FEASIBLE_STATUSES:
         return None
@@ -124,14 +156,14 @@ def _primary_program_id(db: Session, planning_scenario_id: int) -> int | None:
 
 
 def _solve_every_objective(
-    ctx: OptimizerModel, baseline_credit_hours: float | None, max_solve_seconds: float
+    ctx: OptimizerModel, baseline_credit_hours: float | None, deadline: float
 ) -> list[GeneratedPlan]:
-    """Re-solve the shared model once per supported objective type, keeping only the
+    """Re-solve the shared model once per *applicable* objective type, keeping only the
     plans whose course/term assignments aren't an exact duplicate of an earlier one."""
     plans: list[GeneratedPlan] = []
     seen_signatures: set[frozenset] = set()
-    for objective_type in optimizer_objectives.SUPPORTED_OBJECTIVE_TYPES:
-        plan = _solve_one_objective(ctx, objective_type, baseline_credit_hours, max_solve_seconds)
+    for objective_type in optimizer_objectives.applicable_objective_types(ctx):
+        plan = _solve_one_objective(ctx, objective_type, baseline_credit_hours, deadline)
         signature = frozenset(plan.assignments.items())
         if signature in seen_signatures:
             continue
@@ -144,11 +176,11 @@ def _solve_one_objective(
     ctx: OptimizerModel,
     objective_type: OptimizationObjectiveType,
     baseline_credit_hours: float | None,
-    max_solve_seconds: float,
+    deadline: float,
 ) -> GeneratedPlan:
     """Set one objective type as primary on the shared model, solve, and package the result."""
     optimizer_objectives.set_primary_objective(ctx, objective_type)
-    solver = _new_solver(max_solve_seconds)
+    solver = _new_solver(_remaining_seconds(deadline))
     status = solver.Solve(ctx.model)
     strategy_code = objective_type.value
     if status not in _FEASIBLE_STATUSES:

@@ -98,6 +98,21 @@ These three columns have real, varied values — 7 distinct fall/spring/summer
 combinations across the 2,120 courses — so Phase 3's CP-SAT term-eligibility
 constraints can be built directly against them.
 
+### 3c. Explicit-id loading leaves every catalog table's id sequence stuck
+
+Every row above is inserted with its real id straight from the JSON (never
+through the ORM's own autoincrement), so Postgres's identity sequence for
+each of those tables never advances past its initial value. That's invisible
+until something *else* tries an ordinary insert into one of those tables
+without specifying an id (a later app feature, or a test building its own
+`RequirementNode`/`CourseGroup` fixture) — it collides with real catalog data
+instead of getting a fresh id (surfaced this while adding the plan-board
+"swap course" feature's tests). `load_catalog.py`'s `_sync_sequences` now
+runs `setval(..., MAX(id))` for every explicit-id table right after the
+upserts commit, so this only needs re-running once (`uv run python
+../db/load_catalog.py` from `backend/`, safe to re-run per §"Safe to re-run"
+in that file's docstring) after this fix landed.
+
 ## 4. Two enum values needed adding
 
 Loading the entire catalog surfaced controlled values that didn't exist yet

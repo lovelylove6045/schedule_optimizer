@@ -26,6 +26,10 @@ export type RequirementNodeType =
 
 export type RuleOperator = "ALL" | "ANY" | "N_OF" | "CREDITS_FROM" | "UNITS_FROM"
 
+export type RequisiteType = "PREREQUISITE" | "COREQUISITE" | "PRE_OR_COREQUISITE" | "RECOMMENDED"
+
+export type CourseRuleNodeType = "GROUP" | "COURSE" | "COURSE_GROUP" | "STANDING" | "EXAM" | "CONSENT"
+
 export interface CourseOut {
   course_id: number
   subject_id: number
@@ -48,6 +52,13 @@ export interface CourseGroupOut {
   description: string | null
 }
 
+export interface CollegeOut {
+  college_id: number
+  college_code: string
+  college_name: string
+  is_active: boolean
+}
+
 export interface ProgramOut {
   academic_program_id: number
   department_id: number
@@ -56,6 +67,25 @@ export interface ProgramOut {
   program_type: ProgramType
   total_credit_hours: number | null
   is_active: boolean
+  department_code: string | null
+  department_name: string | null
+  college_id: number | null
+  college_code: string | null
+  college_name: string | null
+}
+
+/** One suggested program (backend: `program_overlap_service`): how much of
+ * *its own* requirements are already covered by another program's courses. */
+export interface ProgramOverlapOut {
+  academic_program_id: number
+  program_code: string
+  program_name: string
+  program_type: ProgramType
+  total_credit_hours: number | null
+  overlap_course_count: number
+  overlap_credit_hours: number
+  overlap_ratio: number | null
+  overlap_courses: CourseOut[]
 }
 
 export interface TermOut {
@@ -97,6 +127,67 @@ export interface RequirementSetOut {
   nodes: RequirementNodeOut[]
 }
 
+export type RequirementChoiceKind = "COURSE_GROUP" | "ANY_OF" | "N_OF"
+
+/** One point in a program's requirement tree where more than one course would
+ * satisfy the same requirement (backend: `schemas/choice.py`). */
+export interface RequirementChoiceOut {
+  choice_id: string
+  requirement_node_id: number
+  kind: RequirementChoiceKind
+  label: string
+  choose_count: number
+  required_credit_hours: number | null
+  academic_program_id: number
+  program_name: string
+  requirement_set_id: number
+  requirement_set_name: string
+  course_group_id: number | null
+  total_option_count: number
+  options: CourseOut[]
+  options_truncated: boolean
+  already_satisfied: boolean
+}
+
+/** One node of a course's prerequisite/corequisite tree (backend: `schemas/prerequisite.py`). */
+export interface PrerequisiteNodeOut {
+  course_rule_node_id: number
+  requisite_type: RequisiteType
+  node_type: CourseRuleNodeType
+  rule_operator: RuleOperator | null
+  required_course: CourseOut | null
+  required_subject_id: number | null
+  required_academic_program_id: number | null
+  required_count: number | null
+  minimum_grade: string | null
+  minimum_total_credits: number | null
+  minimum_course_level: number | null
+  minimum_standing: string | null
+  text_value: string | null
+  source_text: string | null
+  children: PrerequisiteNodeOut[]
+}
+
+export interface CourseGroupMembersOut {
+  course_group: CourseGroupOut
+  courses: CourseOut[]
+}
+
+export type ScenarioPreferenceType =
+  | "REQUIRE_COURSE"
+  | "PREFER_COURSE"
+  | "AVOID_COURSE"
+  | "FIX_COURSE_TO_TERM"
+  | "PREFER_TAG"
+  | "AVOID_TAG"
+
+export interface ScenarioPreferenceIn {
+  preference_type: ScenarioPreferenceType
+  course_id?: number | null
+  term_id?: number | null
+  weight?: number | null
+}
+
 export interface ScenarioProgramIn {
   academic_program_id: number
   program_role: ScenarioProgramRole
@@ -136,9 +227,11 @@ export interface ScenarioCreate {
   default_maximum_credits?: number | null
   full_time_minimum_credits?: number | null
   allow_summer?: boolean
+  enforce_program_credit_minimum?: boolean
   programs: ScenarioProgramIn[]
   completed_courses?: StudentCreditIn[]
   term_overrides?: ScenarioTermIn[]
+  preferences?: ScenarioPreferenceIn[]
   objectives?: ScenarioObjectiveIn[]
 }
 
@@ -192,4 +285,24 @@ export interface PlanMetricsOut {
 
 export interface PlanComparisonOut {
   plans: PlanMetricsOut[]
+}
+
+/** Body for `POST /plans/{degree_plan_id}/courses/{plan_course_id}/swap`. */
+export interface PlanCourseSwapIn {
+  new_course_id: number
+}
+
+/** Body for `POST /plans/{degree_plan_id}/courses`: add a brand-new course to a term. */
+export interface PlanCourseAddIn {
+  course_id: number
+  term_id: number
+}
+
+/** One already-selected program on a scenario (`GET`/`POST /scenarios/{id}/programs`). */
+export interface ScenarioProgramOut {
+  scenario_program_id: number
+  academic_program_id: number
+  program_role: ScenarioProgramRole
+  program_code: string
+  program_name: string
 }

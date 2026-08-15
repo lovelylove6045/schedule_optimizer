@@ -4,57 +4,78 @@
 @custom-variant dark (&:is(.dark *));
 
 /*
- * "Collegiate navy + diploma gold": a deliberate palette instead of a
- * default indigo-gradient SaaS look, matching the graduation/academic
- * subject matter. --gold is a signature accent (Term Ribbon, primary CTAs)
- * kept separate from shadcn's own --accent (a neutral hover/highlight
- * shade used broadly across primitives) so it stays used sparingly.
+ * "Collegiate navy + diploma gold", rendered as frosted glass: a deliberate
+ * palette instead of a default indigo-gradient SaaS look, matching the
+ * graduation/academic subject matter. --gold is a signature accent (Term
+ * Ribbon, primary CTAs) kept separate from shadcn's own --accent (a neutral
+ * hover/highlight shade used broadly across primitives) so it stays used
+ * sparingly.
+ *
+ * Glassmorphism lives in the --glass-* tokens below plus the .glass-* classes
+ * at the bottom of this file. Surfaces are translucent and blurred over a
+ * fixed aurora backdrop, so --card / --popover are deliberately *not* opaque
+ * white anymore -- every shadcn primitive that paints bg-card/bg-popover
+ * inherits the frosted look for free.
  */
 :root {
-  --radius: 0.75rem;
+  --radius: 1rem;
   --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
-  --background: oklch(1 0 0);
+  --background: oklch(0.98 0.008 250);
   --foreground: oklch(0.2 0.03 250);
-  --card: oklch(1 0 0);
+  --card: oklch(1 0 0 / 62%);
   --card-foreground: oklch(0.2 0.03 250);
-  --popover: oklch(1 0 0);
+  --popover: oklch(1 0 0 / 88%);
   --popover-foreground: oklch(0.2 0.03 250);
   --primary: #1e3a5f;
   --primary-foreground: #ffffff;
-  --secondary: oklch(0.96 0.01 250);
+  --secondary: oklch(1 0 0 / 55%);
   --secondary-foreground: #1e3a5f;
-  --muted: oklch(0.96 0.01 250);
-  --muted-foreground: oklch(0.5 0.02 250);
-  --accent: oklch(0.96 0.01 250);
+  --muted: oklch(0.96 0.01 250 / 60%);
+  --muted-foreground: oklch(0.47 0.025 250);
+  --accent: oklch(1 0 0 / 70%);
   --accent-foreground: #1e3a5f;
-  --destructive: #dc2626;
+  --destructive: #d1344b;
   --destructive-foreground: #ffffff;
-  --success: #16a34a;
+  --success: #15803d;
   --success-foreground: #ffffff;
-  --warning: #d97706;
+  --warning: #b45309;
   --warning-foreground: #ffffff;
-  --gold: #f2a93b;
-  --gold-foreground: #1e3a5f;
-  --border: oklch(0.9 0.01 250);
-  --input: oklch(0.9 0.01 250);
-  --ring: #1e3a5f;
+  --gold: #d98a1a;
+  --gold-foreground: #ffffff;
+  --border: oklch(1 0 0 / 55%);
+  --input: oklch(1 0 0 / 65%);
+  --ring: #3f6a9e;
+
+  /* Frosted-glass surface recipe, shared by every .glass-* class. */
+  --glass-bg: oklch(1 0 0 / 58%);
+  --glass-bg-strong: oklch(1 0 0 / 78%);
+  --glass-bg-subtle: oklch(1 0 0 / 34%);
+  --glass-border: oklch(1 0 0 / 70%);
+  --glass-highlight: oklch(1 0 0 / 85%);
+  --glass-shadow: 0 8px 32px -12px oklch(0.35 0.06 255 / 28%);
+  --glass-blur: 18px;
+
+  /* Aurora blobs behind everything (see .app-aurora). */
+  --aurora-1: oklch(0.78 0.11 245 / 55%);
+  --aurora-2: oklch(0.86 0.1 85 / 45%);
+  --aurora-3: oklch(0.82 0.09 200 / 45%);
 }
 
 .dark {
-  --background: oklch(0.17 0.02 250);
+  --background: oklch(0.16 0.025 255);
   --foreground: oklch(0.97 0.01 250);
-  --card: oklch(0.22 0.02 250);
+  --card: oklch(1 0 0 / 8%);
   --card-foreground: oklch(0.97 0.01 250);
-  --popover: oklch(0.22 0.02 250);
+  --popover: oklch(0.22 0.03 255 / 92%);
   --popover-foreground: oklch(0.97 0.01 250);
   --primary: #a9c4e3;
   --primary-foreground: #16283f;
-  --secondary: oklch(0.28 0.02 250);
+  --secondary: oklch(1 0 0 / 10%);
   --secondary-foreground: oklch(0.97 0.01 250);
-  --muted: oklch(0.28 0.02 250);
-  --muted-foreground: oklch(0.72 0.02 250);
-  --accent: oklch(0.28 0.02 250);
+  --muted: oklch(1 0 0 / 8%);
+  --muted-foreground: oklch(0.76 0.02 250);
+  --accent: oklch(1 0 0 / 12%);
   --accent-foreground: oklch(0.97 0.01 250);
   --destructive: #f87171;
   --destructive-foreground: #450a0a;
@@ -64,16 +85,28 @@
   --warning-foreground: #451a03;
   --gold: #f2a93b;
   --gold-foreground: #1e3a5f;
-  --border: oklch(1 0 0 / 12%);
-  --input: oklch(1 0 0 / 16%);
+  --border: oklch(1 0 0 / 14%);
+  --input: oklch(1 0 0 / 12%);
   --ring: #a9c4e3;
+
+  --glass-bg: oklch(1 0 0 / 9%);
+  --glass-bg-strong: oklch(1 0 0 / 14%);
+  --glass-bg-subtle: oklch(1 0 0 / 5%);
+  --glass-border: oklch(1 0 0 / 16%);
+  --glass-highlight: oklch(1 0 0 / 22%);
+  --glass-shadow: 0 8px 32px -12px oklch(0 0 0 / 55%);
+  --glass-blur: 20px;
+
+  --aurora-1: oklch(0.5 0.14 250 / 40%);
+  --aurora-2: oklch(0.55 0.13 75 / 26%);
+  --aurora-3: oklch(0.48 0.12 205 / 32%);
 }
 
 @theme inline {
   --font-sans: var(--font-sans);
   --font-mono: var(--font-mono);
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 8px);
+  --radius-md: calc(var(--radius) - 5px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
   --color-background: var(--background);
@@ -107,7 +140,92 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     @apply bg-background text-foreground font-sans;
+    min-height: 100svh;
+  }
+}
+
+@layer components {
+  /*
+   * Fixed, non-interactive backdrop the frosted surfaces blur against. Without
+   * something varied behind them, translucent panels are indistinguishable
+   * from opaque ones -- the aurora is what makes the glass read as glass.
+   */
+  .app-aurora {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background:
+      radial-gradient(48rem 34rem at 8% -10%, var(--aurora-1), transparent 65%),
+      radial-gradient(40rem 30rem at 96% 4%, var(--aurora-2), transparent 62%),
+      radial-gradient(52rem 38rem at 55% 108%, var(--aurora-3), transparent 66%);
+  }
+
+  /* The standard frosted surface: cards, the header, the sticky footer bar. */
+  .glass-panel {
+    background-color: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--glass-shadow), inset 0 1px 0 0 var(--glass-highlight);
+    backdrop-filter: blur(var(--glass-blur)) saturate(160%);
+    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(160%);
+  }
+
+  /* A more opaque variant for surfaces that float above other glass (popovers,
+   * dropdowns, toasts) so stacked translucency doesn't turn into mud. */
+  .glass-raised {
+    background-color: var(--glass-bg-strong);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--glass-shadow), inset 0 1px 0 0 var(--glass-highlight);
+    backdrop-filter: blur(calc(var(--glass-blur) + 6px)) saturate(170%);
+    -webkit-backdrop-filter: blur(calc(var(--glass-blur) + 6px)) saturate(170%);
+  }
+
+  /* Barely-there fill for nested regions inside an existing glass panel
+   * (term columns, list rows) -- tint only, no second blur pass. */
+  .glass-inset {
+    background-color: var(--glass-bg-subtle);
+    border: 1px solid var(--glass-border);
+  }
+
+  /* Adds a soft lift on hover for interactive glass (selectable cards). */
+  .glass-interactive {
+    transition:
+      transform 160ms ease,
+      box-shadow 160ms ease,
+      background-color 160ms ease,
+      border-color 160ms ease;
+  }
+  .glass-interactive:hover {
+    background-color: var(--glass-bg-strong);
+    transform: translateY(-2px);
+    box-shadow: 0 16px 40px -16px oklch(0.35 0.06 255 / 34%), inset 0 1px 0 0 var(--glass-highlight);
+  }
+
+  /* Thin, unobtrusive scrollbars for the horizontal term board. */
+  .scrollbar-slim {
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+  .scrollbar-slim::-webkit-scrollbar {
+    height: 0.5rem;
+    width: 0.5rem;
+  }
+  .scrollbar-slim::-webkit-scrollbar-thumb {
+    background-color: var(--border);
+    border-radius: 9999px;
+  }
+}
+
+/* Respect a user's reduced-motion preference for the hover lift. */
+@media (prefers-reduced-motion: reduce) {
+  .glass-interactive,
+  .glass-interactive:hover {
+    transition: none;
+    transform: none;
   }
 }

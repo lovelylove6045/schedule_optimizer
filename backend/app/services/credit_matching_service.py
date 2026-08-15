@@ -6,6 +6,7 @@ from __future__ import annotations
 
 from sqlalchemy.orm import Session
 
+from app.models.course import Course
 from app.models.course_group_member import CourseGroupMember
 from app.models.student_credit import StudentCredit
 from app.schemas.requirement import RequirementNodeOut, RequirementSetOut
@@ -111,21 +112,28 @@ def _collect_course_group_ids(nodes: list[RequirementNodeOut]) -> set[int]:
     return ids
 
 
-def _load_course_group_members(db: Session, course_group_ids: set[int]) -> dict[int, set[int]]:
-    """Fetch member course ids for the given course groups, keyed by course_group_id."""
+def _load_course_group_members(db: Session, course_group_ids: set[int]) -> dict[int, dict[int, float]]:
+    """Fetch each course group's member courses as {course_id: credit_hours}, keyed by
+    course_group_id. Credit hours come along because a COURSE_GROUP node's threshold is
+    usually expressed in credit hours rather than a course count (see `_is_group_satisfied`)."""
     if not course_group_ids:
         return {}
-    rows = db.query(CourseGroupMember).filter(CourseGroupMember.course_group_id.in_(course_group_ids)).all()
-    members: dict[int, set[int]] = {cgid: set() for cgid in course_group_ids}
-    for row in rows:
-        members[row.course_group_id].add(row.course_id)
+    rows = (
+        db.query(CourseGroupMember.course_group_id, CourseGroupMember.course_id, Course.credit_hours)
+        .join(Course, Course.course_id == CourseGroupMember.course_id)
+        .filter(CourseGroupMember.course_group_id.in_(course_group_ids))
+        .all()
+    )
+    members: dict[int, dict[int, float]] = {cgid: {} for cgid in course_group_ids}
+    for group_id, course_id, credit_hours in rows:
+        members[group_id][course_id] = float(credit_hours)
     return members
 
 
 def _evaluate_node(
     node: RequirementNodeOut,
     best_grade_by_course: dict[int, str | None],
-    members_by_group: dict[int, set[int]],
+    members_by_group: dict[int, dict[int, float]],
 ) -> RequirementNodeOut:
     """Recursively evaluate a node's descendants first, then return a copy
     of the node with its own `is_satisfied` filled in."""
@@ -138,7 +146,7 @@ def _is_node_satisfied(
     node: RequirementNodeOut,
     children: list[RequirementNodeOut],
     best_grade_by_course: dict[int, str | None],
-    members_by_group: dict[int, set[int]],
+    members_by_group: dict[int, dict[int, float]],
 ) -> bool:
     """Determine whether one node is satisfied, given its already-evaluated children."""
     if node.node_type == "COURSE" and node.required_course is not None:
@@ -147,11 +155,7 @@ def _is_node_satisfied(
             best_grade_by_course[course_id], node.minimum_grade
         )
     if node.node_type == "COURSE_GROUP" and node.course_group is not None:
-        member_ids = members_by_group.get(node.course_group.course_group_id, set())
-        return any(
-            cid in best_grade_by_course and _meets_minimum_grade(best_grade_by_course[cid], node.minimum_grade)
-            for cid in member_ids
-        )
+        return _is_group_satisfied(node, best_grade_by_course, members_by_group)
     if node.node_type == "CREDIT_REQUIREMENT":
         # No course/course_group is attached (see db/SUMMARY.md §4), so this
         # can't be auto-verified against student_credits; a human must sign off.
@@ -160,6 +164,34 @@ def _is_node_satisfied(
         return _aggregate(node, children)
     # A childless, non-leaf node shouldn't occur in real data; don't claim it's satisfied.
     return False
+
+
+def _is_group_satisfied(
+    node: RequirementNodeOut,
+    best_grade_by_course: dict[int, str | None],
+    members_by_group: dict[int, dict[int, float]],
+) -> bool:
+    """Determine whether a COURSE_GROUP leaf is satisfied by completed coursework.
+
+    A group carries its threshold in `required_credit_hours` (240 of the 252 real
+    COURSE_GROUP nodes do -- e.g. "Gen Ed HASS, 15 credit hours"), in
+    `required_count`, or in both; whichever are present must all hold. This used to
+    return true as soon as *any* single member was completed, which quietly treated
+    a 15-credit elective block as satisfied by one 3-credit course."""
+    members = members_by_group.get(node.course_group.course_group_id, {})
+    satisfying = [
+        course_id
+        for course_id in members
+        if course_id in best_grade_by_course
+        and _meets_minimum_grade(best_grade_by_course[course_id], node.minimum_grade)
+    ]
+    if node.required_count is not None and len(satisfying) < node.required_count:
+        return False
+    if node.required_credit_hours is not None:
+        earned = sum(members[course_id] for course_id in satisfying)
+        return earned >= node.required_credit_hours
+    # Neither threshold given: a single member completed is all this group asks for.
+    return len(satisfying) >= 1
 
 
 def _aggregate(node: RequirementNodeOut, children: list[RequirementNodeOut]) -> bool:

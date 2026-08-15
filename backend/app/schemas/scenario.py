@@ -3,7 +3,7 @@ in a single call (selected programs, completed/in-progress coursework, term and
 credit constraints, and ranked objectives), matching Phase 5's planned wizard
 flow (Screens 1-5) collapsing into one API call at the end."""
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 from app.models.enums import OptimizationObjectiveType, ScenarioPreferenceType, ScenarioProgramRole
 
@@ -11,6 +11,22 @@ from app.models.enums import OptimizationObjectiveType, ScenarioPreferenceType, 
 class ScenarioProgramIn(BaseModel):
     academic_program_id: int
     program_role: ScenarioProgramRole
+
+
+class ScenarioProgramOut(BaseModel):
+    """One already-selected program on a scenario (`GET`/`POST
+    /scenarios/{id}/programs`) -- lets the frontend show/add majors, minors,
+    and emphases on an already-generated plan, not just at scenario creation.
+    Carries the program's own code/name (not just its id) so the results page
+    can show the student *what* they picked without a second lookup."""
+
+    model_config = ConfigDict(from_attributes=True)
+
+    scenario_program_id: int
+    academic_program_id: int
+    program_role: ScenarioProgramRole
+    program_code: str
+    program_name: str
 
 
 class StudentCreditIn(BaseModel):
@@ -61,6 +77,11 @@ class ScenarioCreate(BaseModel):
     default_maximum_credits: float | None = None
     full_time_minimum_credits: float | None = None
     allow_summer: bool = True
+    # Forces the generated plan's total credit hours to reach the officially
+    # published total_credit_hours of the scenario's major(s), not just the
+    # specific requirement nodes those programs happen to name. Default on;
+    # a student can turn it off if it makes their scenario infeasible.
+    enforce_program_credit_minimum: bool = True
     programs: list[ScenarioProgramIn] = Field(min_length=1)
     completed_courses: list[StudentCreditIn] = []
     term_overrides: list[ScenarioTermIn] = []

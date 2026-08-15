@@ -24,6 +24,8 @@ import json
 import sys
 from pathlib import Path
 
+from sqlalchemy import text
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 BACKEND_DIR = REPO_ROOT / "backend"
 SCHEDULE_DB_DIR = REPO_ROOT / "schedule_optimizer_db"
@@ -44,6 +46,28 @@ from app.models.program_requirement_set import ProgramRequirementSet  # noqa: E4
 from app.models.requirement_node import RequirementNode  # noqa: E402
 from app.models.requirement_set import RequirementSet  # noqa: E402
 from app.models.subject import Subject  # noqa: E402
+
+# Every one of these (table, primary_key_column) pairs is loaded above with an
+# explicit id from the source JSON (never through the ORM's own autoincrement),
+# which leaves Postgres's identity sequence stuck at its initial value. Left
+# unsynced, the *next* ordinary insert into one of these tables (an app feature,
+# or even a test, creating a new row without specifying an id) collides with
+# real catalog data instead of getting a fresh id.
+SEQUENCE_TABLES = [
+    ("colleges", "college_id"),
+    ("departments", "department_id"),
+    ("subjects", "subject_id"),
+    ("courses", "course_id"),
+    ("course_groups", "course_group_id"),
+    ("course_group_courses", "course_group_course_id"),
+    ("course_relations", "course_relation_id"),
+    ("academic_programs", "academic_program_id"),
+    ("academic_program_relationships", "academic_program_relationship_id"),
+    ("requirement_sets", "requirement_set_id"),
+    ("program_requirement_sets", "program_requirement_set_id"),
+    ("requirement_nodes", "requirement_node_id"),
+    ("course_rule_nodes", "course_rule_node_id"),
+]
 
 CATALOG_FILES = [
     "colleges",
@@ -189,6 +213,23 @@ def _upsert_requirement_and_rule_trees(session, data: dict[str, list[dict]]) -> 
     session.flush()
 
 
+def _sync_sequences(session) -> None:
+    """Advance every explicit-id table's identity sequence past its current max id.
+
+    Run once after the explicit-id upserts commit, so a later ordinary insert
+    (autoincrementing, no explicit id) gets a fresh one instead of colliding
+    with catalog data (see SEQUENCE_TABLES)."""
+    print("Syncing identity sequences for explicit-id tables...")
+    for table, column in SEQUENCE_TABLES:
+        session.execute(
+            text(
+                f"SELECT setval(pg_get_serial_sequence('{table}', '{column}'), "
+                f"COALESCE((SELECT MAX({column}) FROM {table}), 1))"
+            )
+        )
+    session.commit()
+
+
 def _print_load_summary(data: dict[str, list[dict]]) -> None:
     """Print a one-line row-count summary of everything just loaded."""
     print(
@@ -219,6 +260,7 @@ def main() -> None:
         _upsert_requirement_sets_and_links(session, data)
         _upsert_requirement_and_rule_trees(session, data)
         session.commit()
+        _sync_sequences(session)
         _print_load_summary(data)
     except Exception:
         session.rollback()

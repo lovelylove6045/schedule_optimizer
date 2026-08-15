@@ -1,21 +1,27 @@
 import { CalendarX } from "lucide-react"
+import { AddCourseButton } from "@/components/plans/add-course-button"
 import { EmptyState } from "@/components/shared/empty-state"
 import { ErrorState } from "@/components/shared/error-state"
 import { LoadingState } from "@/components/shared/loading-state"
 import { PlanCourseCard } from "@/components/plans/plan-course-card"
 import { PlanSummaryCard } from "@/components/plans/plan-summary-card"
 import { TermRibbon, type TermRibbonItem } from "@/components/layout/term-ribbon"
+import { usePlanSwapOptionsQuery } from "@/hooks/use-plan-queries"
 import { useTermsQuery } from "@/hooks/use-terms"
-import type { DegreePlanOut, PlanCourseOut, TermOut } from "@/lib/types"
+import type { CourseOut, DegreePlanOut, PlanCourseOut, TermOut } from "@/lib/types"
 
 interface PlanBoardProps {
   plan: DegreePlanOut
+  onPlanUpdated: (updatedPlan: DegreePlanOut) => void
 }
 
 /** Screen 6: a semester-by-semester board, the term columns headed by the
- * same Term Ribbon pill used as the wizard's progress stepper. */
-export function PlanBoard({ plan }: PlanBoardProps) {
+ * same Term Ribbon pill used as the wizard's progress stepper. Each course
+ * tile that satisfies a choice-shaped requirement (a course group, or a
+ * literal "A or B" alternative) can be swapped in place for the same term. */
+export function PlanBoard({ plan, onPlanUpdated }: PlanBoardProps) {
   const termsQuery = useTermsQuery()
+  const swapOptionsQuery = usePlanSwapOptionsQuery(plan.degree_plan_id)
   if (termsQuery.isPending) return <LoadingState label="Loading terms…" />
   if (termsQuery.isError) return <ErrorState message="Couldn't load terms from the server." />
   if (plan.status === "INFEASIBLE" || plan.courses.length === 0) {
@@ -37,20 +43,36 @@ export function PlanBoard({ plan }: PlanBoardProps) {
     label: term.term_code,
     state: "current",
   }))
+  const swapOptionsByPlanCourseId: Record<number, CourseOut[]> = swapOptionsQuery.data ?? {}
+  const existingCourseIds = new Set(plan.courses.map((planCourse) => planCourse.course.course_id))
   return (
     <div className="space-y-6">
       <PlanSummaryCard plan={plan} />
       <TermRibbon items={ribbonItems} className="hidden sm:flex" />
-      <div className="grid snap-x grid-flow-col auto-cols-[minmax(220px,1fr)] gap-4 overflow-x-auto pb-2">
+      <div className="scrollbar-slim grid snap-x grid-flow-col auto-cols-[minmax(230px,1fr)] gap-4 overflow-x-auto pb-3">
         {columns.map(({ term, courses, totalCredits }) => (
-          <div key={term.term_id} className="flex snap-start flex-col gap-3 rounded-xl border bg-muted/30 p-3">
-            <div className="flex items-baseline justify-between">
+          <div key={term.term_id} className="glass-panel flex snap-start flex-col gap-3 rounded-xl p-3">
+            <div className="flex items-baseline justify-between border-b pb-2">
               <p className="font-semibold">{term.term_code}</p>
               <p className="font-mono text-xs text-muted-foreground">{totalCredits} cr</p>
             </div>
             {courses.map((planCourse) => (
-              <PlanCourseCard key={planCourse.plan_course_id} planCourse={planCourse} />
+              <PlanCourseCard
+                key={planCourse.plan_course_id}
+                degreePlanId={plan.degree_plan_id}
+                planCourse={planCourse}
+                swapAlternatives={swapOptionsByPlanCourseId[planCourse.plan_course_id] ?? []}
+                onSwapped={onPlanUpdated}
+                onRemoved={onPlanUpdated}
+              />
             ))}
+            <AddCourseButton
+              degreePlanId={plan.degree_plan_id}
+              termId={term.term_id}
+              termLabel={term.term_code}
+              existingCourseIds={existingCourseIds}
+              onAdded={onPlanUpdated}
+            />
           </div>
         ))}
       </div>

@@ -9,11 +9,18 @@ import type { CourseOut } from "@/lib/types"
 interface CourseSearchComboboxProps {
   onSelect: (course: CourseOut) => void
   excludeCourseIds?: Set<number>
+  placeholder?: string
 }
 
-/** Remote-searched course picker (Screen 2): types a subject/number/title,
- * gets live matches from GET /courses?search=. */
-export function CourseSearchCombobox({ onSelect, excludeCourseIds }: CourseSearchComboboxProps) {
+/** Remote-searched course picker: types a subject/number/title, gets live
+ * matches from GET /courses?search=. Used both for reporting completed
+ * coursework (Screen 2) and for adding a brand-new course to a generated
+ * plan (Screen 6's "add course" affordance). */
+export function CourseSearchCombobox({
+  onSelect,
+  excludeCourseIds,
+  placeholder = 'Search for a completed course (e.g. "CS 101" or "calculus")',
+}: CourseSearchComboboxProps) {
   const [open, setOpen] = useState(false)
   const [search, setSearch] = useState("")
   const { data, isFetching, isError } = useCourseSearchQuery(search)
@@ -23,7 +30,7 @@ export function CourseSearchCombobox({ onSelect, excludeCourseIds }: CourseSearc
       <PopoverTrigger asChild>
         <Button variant="outline" className="w-full justify-start font-normal text-muted-foreground">
           <Search className="size-4" />
-          Search for a completed course (e.g. "CS 101" or "calculus")
+          {placeholder}
         </Button>
       </PopoverTrigger>
       <PopoverContent className="w-(--radix-popover-trigger-width) p-0" align="start">

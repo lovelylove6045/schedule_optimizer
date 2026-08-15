@@ -32,6 +32,29 @@ SUPPORTED_OBJECTIVE_TYPES = (
 )
 
 
+def applicable_objective_types(ctx: OptimizerModel) -> tuple[OptimizationObjectiveType, ...]:
+    """Return the subset of `SUPPORTED_OBJECTIVE_TYPES` that can actually discriminate
+    between plans for *this* scenario.
+
+    Two of the five are provably constant in common scenarios, and solving for them
+    anyway costs a full CP-SAT run and produces an alternative plan whose stated
+    rationale is meaningless to the student:
+
+    * `MAX_REQUIREMENT_OVERLAP` -- `_overlap_score` rewards courses shared across two
+      or more scenario *programs*, so it's identically zero with only one program.
+    * `MIN_SUMMER_ENROLLMENT` -- `optimizer_terms.build_term_horizon` already drops
+      SUMMER terms when the scenario disallows them, leaving nothing to minimize.
+    """
+    has_summer_terms = any(term.term_type == SUMMER_TERM_TYPE for term in ctx.terms)
+    has_multiple_programs = len(ctx.candidates.course_ids_by_program) > 1
+    skipped = set()
+    if not has_multiple_programs:
+        skipped.add(OptimizationObjectiveType.MAX_REQUIREMENT_OVERLAP)
+    if not has_summer_terms:
+        skipped.add(OptimizationObjectiveType.MIN_SUMMER_ENROLLMENT)
+    return tuple(t for t in SUPPORTED_OBJECTIVE_TYPES if t not in skipped)
+
+
 def set_primary_objective(ctx: OptimizerModel, objective_type: OptimizationObjectiveType) -> None:
     """Set the model's objective: `objective_type` weighted heavily, the other 4
     supported objective types folded in lightly as tie-breakers among otherwise-equal

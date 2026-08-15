@@ -31,6 +31,23 @@ _TERM_TYPE_OFFERING_FIELDS = {
     "SPRING": "spring_offered",
     "SUMMER": "summer_offered",
 }
+# Class-standing proxy for STANDING prerequisite leaves (e.g. "Senior standing").
+# The catalog has no "credits earned so far" field to check directly, so this
+# reuses the standard US credit-hour bands for each class year. FRESHMAN isn't
+# listed because its floor is 0, same as any standing this map doesn't cover.
+_STANDING_MINIMUM_CREDIT_HOURS = {
+    "SOPHOMORE": 30.0,
+    "JUNIOR": 60.0,
+    "SENIOR": 90.0,
+    "GRADUATE": 120.0,
+}
+# Same credit-hour bands as `_STANDING_MINIMUM_CREDIT_HOURS`, keyed by the
+# catalog-level thousands digit a SUBJECT_LEVEL leaf names (e.g. "4000-level
+# coursework in the subject") -- one academic year's worth of credits per level.
+_CREDITS_PER_COURSE_LEVEL_YEAR = 30.0
+# Generous upper bound for a materialized cumulative-credit-hours IntVar's domain --
+# no real plan should ever reach this, it just needs to be safely above one.
+_MAX_PLAUSIBLE_CUMULATIVE_CREDITS = 400.0
 
 
 @dataclass
@@ -51,6 +68,7 @@ class OptimizerModel:
     course_satisfaction_indicators: dict[int, cp_model.IntVar] = field(default_factory=dict)
     prerequisite_indicators: dict[tuple[int, int, bool], cp_model.IntVar] = field(default_factory=dict)
     term_credit_totals: dict[int, cp_model.LinearExpr] = field(default_factory=dict)
+    cumulative_credit_totals: dict[int, cp_model.IntVar] = field(default_factory=dict)
     term_used_indicators: dict[int, cp_model.IntVar] = field(default_factory=dict)
     graduation_index_var: cp_model.IntVar | None = None
     heaviest_term_credits_var: cp_model.IntVar | None = None
@@ -69,10 +87,14 @@ def build_optimizer_model(
     )
     _create_assignment_variables(ctx)
     _add_single_term_constraints(ctx)
-    _add_prerequisite_ordering_constraints(ctx)
+    # Term credit totals first: prerequisite ordering's class-standing proxy
+    # (`_cumulative_credit_hours_before`) reuses `ctx.term_credit_totals` instead of
+    # re-summing every assign variable per prerequisite node.
     _add_term_credit_constraints(ctx)
+    _add_prerequisite_ordering_constraints(ctx)
     _add_requirement_coverage_constraints(ctx)
     _add_hard_preference_constraints(ctx)
+    _add_program_credit_floor_constraint(ctx)
     return ctx
 
 
@@ -207,12 +229,48 @@ def _node_satisfaction_indicator(
 
 
 def _group_satisfaction_indicator(ctx: OptimizerModel, node: RequirementNodeOut) -> cp_model.IntVar:
-    """Return a 0/1 indicator for a COURSE_GROUP leaf: satisfied once at least
-    `required_count` members are done (completed or assigned by the solver)."""
-    member_ids = ctx.candidates.group_members.get(node.course_group.course_group_id, set())
+    """Return a 0/1 indicator for a COURSE_GROUP leaf, enforcing whichever thresholds
+    the node actually carries: a member count (`required_count`), a credit-hour total
+    (`required_credit_hours`), or both.
+
+    Credit hours matter here: 240 of the catalog's 252 COURSE_GROUP nodes state their
+    requirement in credit hours only ("Gen Ed HASS, 15 credit hours"). This used to
+    read `required_count or 1` and ignore credit hours entirely, so the solver treated
+    a 15-credit elective block as covered by a single 3-credit course and every plan
+    it produced was short of the real requirement. Mirrors
+    `credit_matching_service._is_group_satisfied`, which evaluates the same rule
+    against already-completed coursework."""
+    member_ids = sorted(ctx.candidates.group_members.get(node.course_group.course_group_id, set()))
     member_indicators = [course_satisfaction_indicator(ctx, cid) for cid in member_ids]
-    threshold = node.required_count or 1
-    return _at_least_indicator(ctx, member_indicators, threshold)
+    thresholds: list[cp_model.IntVar] = []
+    if node.required_count is not None:
+        thresholds.append(_at_least_indicator(ctx, member_indicators, node.required_count))
+    if node.required_credit_hours is not None:
+        thresholds.append(_group_credit_threshold_indicator(ctx, node, member_ids, member_indicators))
+    if not thresholds:
+        thresholds.append(_at_least_indicator(ctx, member_indicators, 1))
+    return _all_indicator(ctx, thresholds)
+
+
+def _group_credit_threshold_indicator(
+    ctx: OptimizerModel,
+    node: RequirementNodeOut,
+    member_ids: list[int],
+    member_indicators: list[cp_model.IntVar],
+) -> cp_model.IntVar:
+    """Return a 0/1 indicator that the satisfied members of one COURSE_GROUP leaf add
+    up to at least its `required_credit_hours`."""
+    credit_hours = ctx.candidates.credit_hours_by_course_id
+    scaled_terms = [
+        scaled_credits(credit_hours.get(course_id, 0.0)) * indicator
+        for course_id, indicator in zip(member_ids, member_indicators)
+    ]
+    threshold = scaled_credits(node.required_credit_hours)
+    result = ctx.model.NewBoolVar(_next_name(ctx, f"group_credits_{node.requirement_node_id}"))
+    total = sum(scaled_terms) if scaled_terms else 0
+    ctx.model.Add(total >= threshold).OnlyEnforceIf(result)
+    ctx.model.Add(total < threshold).OnlyEnforceIf(result.Not())
+    return result
 
 
 def _aggregate_indicator(
@@ -298,19 +356,101 @@ def _prerequisite_node_satisfied_by(
 def _build_prerequisite_indicator(
     ctx: OptimizerModel, node: PrerequisiteNodeOut, before_term: Term, same_term_allowed: bool
 ) -> cp_model.IntVar:
-    """Dispatch one prerequisite-subtree node to a 0/1 satisfaction indicator. Leaf types
-    the solver has no data to verify (STANDING/EXAM/CONSENT/OTHER/COURSE_GROUP/etc.) are
-    assumed satisfiable and flagged, mirroring how CREDIT_REQUIREMENT requirement-tree
-    leaves are handled -- the product spec already assumes these are pre-approved outside
+    """Dispatch one prerequisite-subtree node to a 0/1 satisfaction indicator. A
+    RECOMMENDED node (advisory by definition, e.g. "students should enroll in X and
+    Y simultaneously") is never a hard gate -- enforcing it as strict ordering once
+    deadlocked two courses that each RECOMMENDED/PRE_OR_COREQUISITE'd the other into
+    going first. STANDING and SUBJECT_LEVEL leaves are checked against a credit-hours
+    class-standing proxy (see `_STANDING_MINIMUM_CREDIT_HOURS`); other leaf types the
+    solver has no data to verify (EXAM/CONSENT/OTHER/COURSE_GROUP/etc.) are assumed
+    satisfiable and flagged, mirroring how CREDIT_REQUIREMENT requirement-tree leaves
+    are handled -- the product spec already assumes these are pre-approved outside
     the tool (see PDS §12)."""
+    if node.requisite_type == RequisiteType.RECOMMENDED:
+        ctx.unmodeled_prerequisite_node_ids.add(node.course_rule_node_id)
+        return _constant_bool(ctx, True)
     if node.node_type == "COURSE" and node.required_course is not None:
         return _course_satisfied_before(
             ctx, node.required_course.course_id, before_term, same_term_allowed
         )
+    if node.node_type == "STANDING" and node.minimum_standing is not None:
+        return _standing_satisfied_before(ctx, node.minimum_standing, before_term)
+    if node.node_type == "SUBJECT_LEVEL" and node.minimum_course_level:
+        return _course_level_satisfied_before(ctx, node.minimum_course_level, before_term)
     if node.children:
         return _aggregate_prerequisite_indicator(ctx, node, before_term, same_term_allowed)
     ctx.unmodeled_prerequisite_node_ids.add(node.course_rule_node_id)
     return _constant_bool(ctx, True)
+
+
+def _standing_satisfied_before(
+    ctx: OptimizerModel, minimum_standing: str, before_term: Term
+) -> cp_model.IntVar:
+    """Return a 0/1 indicator that the student has reached `minimum_standing`
+    (e.g. "SENIOR") by `before_term`, per the credit-hour proxy in
+    `_STANDING_MINIMUM_CREDIT_HOURS`."""
+    threshold = _STANDING_MINIMUM_CREDIT_HOURS.get(minimum_standing, 0.0)
+    return _cumulative_credits_at_least(ctx, before_term, threshold)
+
+
+def _course_level_satisfied_before(
+    ctx: OptimizerModel, minimum_course_level: int, before_term: Term
+) -> cp_model.IntVar:
+    """Return a 0/1 indicator that the student has earned enough credit hours by
+    `before_term` to plausibly have reached `minimum_course_level` coursework (e.g.
+    a "4000-level or above" gate), per the same credit-hour proxy used for STANDING."""
+    course_level_years = max(minimum_course_level // 1000 - 1, 0)
+    threshold = course_level_years * _CREDITS_PER_COURSE_LEVEL_YEAR
+    return _cumulative_credits_at_least(ctx, before_term, threshold)
+
+
+def _cumulative_credits_at_least(
+    ctx: OptimizerModel, before_term: Term, minimum_credits: float
+) -> cp_model.IntVar:
+    """Return a 0/1 indicator that the student's completed-plus-already-scheduled
+    credit hours, counting only terms strictly before `before_term`, reach at least
+    `minimum_credits`. The class-standing proxy shared by STANDING and SUBJECT_LEVEL
+    prerequisite leaves."""
+    if minimum_credits <= 0:
+        return _constant_bool(ctx, True)
+    total = _cumulative_credit_hours_before(ctx, before_term)
+    threshold = scaled_credits(minimum_credits)
+    result = ctx.model.NewBoolVar(_next_name(ctx, f"standing_before_{before_term.term_id}"))
+    ctx.model.Add(total >= threshold).OnlyEnforceIf(result)
+    ctx.model.Add(total < threshold).OnlyEnforceIf(result.Not())
+    return result
+
+
+def _cumulative_credit_hours_before(ctx: OptimizerModel, before_term: Term) -> cp_model.IntVar:
+    """Return (and cache) an IntVar materializing the scaled credit-hour total of
+    everything the student will have completed or been assigned strictly before
+    `before_term`: already-completed coursework plus a running total chained off
+    each earlier term's own credit total (`ctx.term_credit_totals`). Materialized as
+    one compact variable per term, instead of a raw linear expression, so the many
+    STANDING/SUBJECT_LEVEL threshold checks that share a `before_term` each add a
+    cheap comparison against it instead of re-expanding the whole prior-terms sum."""
+    if before_term.term_id in ctx.cumulative_credit_totals:
+        return ctx.cumulative_credit_totals[before_term.term_id]
+    previous_term = _term_immediately_before(ctx, before_term)
+    if previous_term is None:
+        expr = scaled_credits(ctx.candidates.completed_credit_hours)
+    else:
+        earlier_total = _cumulative_credit_hours_before(ctx, previous_term)
+        expr = earlier_total + ctx.term_credit_totals.get(previous_term.term_id, 0)
+    upper_bound = scaled_credits(_MAX_PLAUSIBLE_CUMULATIVE_CREDITS)
+    cumulative_var = ctx.model.NewIntVar(
+        0, upper_bound, _next_name(ctx, f"cumulative_before_{before_term.term_id}")
+    )
+    ctx.model.Add(cumulative_var == expr)
+    ctx.cumulative_credit_totals[before_term.term_id] = cumulative_var
+    return cumulative_var
+
+
+def _term_immediately_before(ctx: OptimizerModel, term: Term) -> Term | None:
+    """Return the horizon term with the next-lower sequence_index before `term`, or
+    None if `term` is the first term in the scenario's horizon."""
+    earlier_terms = [t for t in ctx.terms if t.sequence_index < term.sequence_index]
+    return max(earlier_terms, key=lambda t: t.sequence_index, default=None)
 
 
 def _aggregate_prerequisite_indicator(
@@ -467,6 +607,26 @@ def _fix_course_to_term(ctx: OptimizerModel, course_id: int, term_id: int) -> No
     for (cid, tid), var in ctx.assign.items():
         if cid == course_id:
             ctx.model.Add(var == (1 if tid == term_id else 0))
+
+
+def _add_program_credit_floor_constraint(ctx: OptimizerModel) -> None:
+    """Force the plan's newly-assigned credit hours to reach the scenario's
+    major(s)' officially published total_credit_hours, net of what the student
+    already earned -- `_add_requirement_coverage_constraints` alone only forces
+    each *named* requirement node, which can understate a real degree's total
+    (e.g. an unmodeled free-elective slot). Skipped if the scenario opted out
+    via enforce_program_credit_minimum, or if no in-scope program has a
+    published total to compare against."""
+    if not ctx.scenario.enforce_program_credit_minimum:
+        return
+    remaining = ctx.candidates.credit_floor_remaining
+    if remaining is None or remaining <= 0:
+        return
+    total_scaled_credits = sum(
+        scaled_credits(ctx.candidates.courses_by_id[course_id].credit_hours) * var
+        for (course_id, _term_id), var in ctx.assign.items()
+    )
+    ctx.model.Add(total_scaled_credits >= scaled_credits(remaining))
 
 
 def collect_leaf_satisfactions(

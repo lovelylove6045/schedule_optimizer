@@ -3,8 +3,9 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { OBJECTIVE_LABELS } from "@/lib/objective-labels"
 import { useScenarioBuilder } from "@/state/scenario-builder-context"
+import { cn } from "@/lib/utils"
 
-/** Screen 5: rank the 5 supported objectives by priority (1st = most important).
+/** Step 7: rank the 5 supported objectives by priority (1st = most important).
  * A plain ranked list with up/down buttons instead of drag-and-drop, per the
  * "otherwise a simple ranked list" fallback in the Phase 5 plan. */
 export function StepObjectiveSelection() {
@@ -29,8 +30,19 @@ export function StepObjectiveSelection() {
       <CardContent>
         <ol className="space-y-2">
           {draft.objectiveOrder.map((objectiveType, index) => (
-            <li key={objectiveType} className="flex items-center gap-3 rounded-lg border p-3">
-              <span className="flex size-7 shrink-0 items-center justify-center rounded-full bg-primary font-mono text-xs font-semibold text-primary-foreground">
+            <li
+              key={objectiveType}
+              className={cn(
+                "glass-inset flex items-center gap-3 rounded-lg p-3",
+                index === 0 && "border-gold ring-1 ring-gold/30",
+              )}
+            >
+              <span
+                className={cn(
+                  "flex size-7 shrink-0 items-center justify-center rounded-full font-mono text-xs font-semibold",
+                  index === 0 ? "bg-gold text-gold-foreground" : "bg-primary text-primary-foreground",
+                )}
+              >
                 {index + 1}
               </span>
               <div className="min-w-0 flex-1">
