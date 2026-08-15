@@ -2,9 +2,10 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 
 from app.database import get_db
+from app.models.planning_scenario import PlanningScenario
 from app.schemas.plan import DegreePlanOut
 from app.schemas.scenario import ScenarioCreate, ScenarioCreateOut
-from app.services import plan_generation_service, scenario_service
+from app.services import optimizer_persistence, plan_generation_service, scenario_service
 from app.services.scenario_service import ScenarioReferenceNotFoundError, ScenarioValidationError
 
 router = APIRouter(tags=["scenarios"])
@@ -31,3 +32,13 @@ def generate_plans(planning_scenario_id: int, db: Session = Depends(get_db)) -> 
         return plan_generation_service.generate_and_persist_plans(db, planning_scenario_id)
     except ValueError as exc:
         raise HTTPException(status_code=404, detail=str(exc)) from exc
+
+
+@router.get("/scenarios/{planning_scenario_id}/plans", response_model=list[DegreePlanOut])
+def list_scenario_plans(planning_scenario_id: int, db: Session = Depends(get_db)) -> list[DegreePlanOut]:
+    """Return every already-generated plan for a scenario, newest first. Lets the
+    frontend results page reload a scenario's plans (e.g. on page refresh)
+    without re-running the optimizer."""
+    if db.get(PlanningScenario, planning_scenario_id) is None:
+        raise HTTPException(status_code=404, detail="Scenario not found")
+    return optimizer_persistence.list_degree_plans_for_scenario(db, planning_scenario_id)

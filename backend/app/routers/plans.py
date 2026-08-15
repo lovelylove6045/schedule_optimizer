@@ -3,7 +3,8 @@ from sqlalchemy.orm import Session
 
 from app.database import get_db
 from app.schemas.plan import DegreePlanOut, PlanComparisonOut, PlanMetricsOut
-from app.services import optimizer_persistence, plan_comparison_service
+from app.schemas.requirement import RequirementSetOut
+from app.services import optimizer_persistence, plan_comparison_service, plan_requirement_service
 
 router = APIRouter(tags=["plans"])
 
@@ -28,6 +29,16 @@ def get_plan(degree_plan_id: int, db: Session = Depends(get_db)) -> DegreePlanOu
     if plan is None:
         raise HTTPException(status_code=404, detail="Plan not found")
     return plan
+
+
+@router.get("/plans/{degree_plan_id}/requirements", response_model=list[RequirementSetOut])
+def get_plan_requirements(degree_plan_id: int, db: Session = Depends(get_db)) -> list[RequirementSetOut]:
+    """Return one plan's requirement sets, flattened with is_satisfied/is_shared
+    computed against that specific plan's assigned courses."""
+    coverage = plan_requirement_service.get_plan_requirement_coverage(db, degree_plan_id)
+    if coverage is None:
+        raise HTTPException(status_code=404, detail="Plan not found")
+    return coverage
 
 
 def _parse_plan_ids(ids: str) -> list[int]:

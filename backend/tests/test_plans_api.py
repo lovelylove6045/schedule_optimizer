@@ -75,3 +75,19 @@ def test_compare_plans_404_for_unknown_id(client):
     response = client.get("/plans/compare?ids=999999")
 
     assert response.status_code == 404
+
+
+def test_get_plan_requirements_returns_flattened_sets(client, db_session):
+    plan = _persist_one_plan(db_session)
+
+    response = client.get(f"/plans/{plan.degree_plan_id}/requirements")
+
+    assert response.status_code == 200
+    body = response.json()
+    assert isinstance(body, list)
+
+
+def test_get_plan_requirements_404_for_unknown_plan(client):
+    response = client.get("/plans/999999/requirements")
+
+    assert response.status_code == 404

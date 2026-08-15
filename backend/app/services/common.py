@@ -22,10 +22,10 @@ def load_courses_by_id(db: Session, course_ids: set[int]) -> dict[int, CourseOut
         .filter(Course.course_id.in_(course_ids))
         .all()
     )
-    return {course.course_id: _course_out(course, subject_code) for course, subject_code in rows}
+    return {course.course_id: course_out(course, subject_code) for course, subject_code in rows}
 
 
-def _course_out(course: Course, subject_code: str) -> CourseOut:
+def course_out(course: Course, subject_code: str) -> CourseOut:
     """Convert a `Course` ORM row plus its already-joined subject code into a `CourseOut`."""
     return CourseOut(
         course_id=course.course_id,

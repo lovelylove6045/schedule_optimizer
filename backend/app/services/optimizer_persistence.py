@@ -200,6 +200,20 @@ def _add_message(
     )
 
 
+def list_degree_plans_for_scenario(db: Session, planning_scenario_id: int) -> list[DegreePlanOut]:
+    """Read back every persisted `DegreePlan` for one scenario, newest first. Lets
+    the frontend's results page refetch on page refresh instead of re-running
+    `/generate` (which would create new plan rows) every time."""
+    plan_ids = (
+        db.query(DegreePlan.degree_plan_id)
+        .filter(DegreePlan.planning_scenario_id == planning_scenario_id)
+        .order_by(DegreePlan.degree_plan_id.desc())
+        .all()
+    )
+    plans = [load_degree_plan(db, plan_id) for (plan_id,) in plan_ids]
+    return [plan for plan in plans if plan is not None]
+
+
 def load_degree_plan(db: Session, degree_plan_id: int) -> DegreePlanOut | None:
     """Read a persisted `DegreePlan` back out, with its courses and messages, as a
     `DegreePlanOut` (used by tests now, and Phase 4's API layer later)."""

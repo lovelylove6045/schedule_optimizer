@@ -72,6 +72,49 @@ def test_generate_404_for_unknown_scenario(client):
     assert response.status_code == 404
 
 
+def test_list_scenario_plans_reflects_generated_plans(client):
+    start_term_id = _term_ids(client)[0]
+    create_response = client.post(
+        "/scenarios",
+        json={
+            "start_term_id": start_term_id,
+            "programs": [{"academic_program_id": AERO_BS_PROGRAM_ID, "program_role": "PRIMARY_MAJOR"}],
+        },
+    )
+    planning_scenario_id = create_response.json()["planning_scenario_id"]
+    generate_response = client.post(f"/scenarios/{planning_scenario_id}/generate")
+    generated_ids = {plan["degree_plan_id"] for plan in generate_response.json()}
+
+    list_response = client.get(f"/scenarios/{planning_scenario_id}/plans")
+
+    assert list_response.status_code == 200
+    listed_ids = {plan["degree_plan_id"] for plan in list_response.json()}
+    assert listed_ids == generated_ids
+
+
+def test_list_scenario_plans_empty_before_generate(client):
+    start_term_id = _term_ids(client)[0]
+    create_response = client.post(
+        "/scenarios",
+        json={
+            "start_term_id": start_term_id,
+            "programs": [{"academic_program_id": AERO_BS_PROGRAM_ID, "program_role": "PRIMARY_MAJOR"}],
+        },
+    )
+    planning_scenario_id = create_response.json()["planning_scenario_id"]
+
+    response = client.get(f"/scenarios/{planning_scenario_id}/plans")
+
+    assert response.status_code == 200
+    assert response.json() == []
+
+
+def test_list_scenario_plans_404_for_unknown_scenario(client):
+    response = client.get("/scenarios/999999/plans")
+
+    assert response.status_code == 404
+
+
 def test_create_scenario_422_for_no_primary_major(client):
     start_term_id = _term_ids(client)[0]
     response = client.post(

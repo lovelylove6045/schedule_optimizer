@@ -3,50 +3,75 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/*
+ * "Collegiate navy + diploma gold": a deliberate palette instead of a
+ * default indigo-gradient SaaS look, matching the graduation/academic
+ * subject matter. --gold is a signature accent (Term Ribbon, primary CTAs)
+ * kept separate from shadcn's own --accent (a neutral hover/highlight
+ * shade used broadly across primitives) so it stays used sparingly.
+ */
 :root {
-  --radius: 0.625rem;
+  --radius: 0.75rem;
+  --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
   --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
+  --foreground: oklch(0.2 0.03 250);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
+  --card-foreground: oklch(0.2 0.03 250);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
+  --popover-foreground: oklch(0.2 0.03 250);
+  --primary: #1e3a5f;
+  --primary-foreground: #ffffff;
+  --secondary: oklch(0.96 0.01 250);
+  --secondary-foreground: #1e3a5f;
+  --muted: oklch(0.96 0.01 250);
+  --muted-foreground: oklch(0.5 0.02 250);
+  --accent: oklch(0.96 0.01 250);
+  --accent-foreground: #1e3a5f;
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+  --success: #16a34a;
+  --success-foreground: #ffffff;
+  --warning: #d97706;
+  --warning-foreground: #ffffff;
+  --gold: #f2a93b;
+  --gold-foreground: #1e3a5f;
+  --border: oklch(0.9 0.01 250);
+  --input: oklch(0.9 0.01 250);
+  --ring: #1e3a5f;
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
+  --background: oklch(0.17 0.02 250);
+  --foreground: oklch(0.97 0.01 250);
+  --card: oklch(0.22 0.02 250);
+  --card-foreground: oklch(0.97 0.01 250);
+  --popover: oklch(0.22 0.02 250);
+  --popover-foreground: oklch(0.97 0.01 250);
+  --primary: #a9c4e3;
+  --primary-foreground: #16283f;
+  --secondary: oklch(0.28 0.02 250);
+  --secondary-foreground: oklch(0.97 0.01 250);
+  --muted: oklch(0.28 0.02 250);
+  --muted-foreground: oklch(0.72 0.02 250);
+  --accent: oklch(0.28 0.02 250);
+  --accent-foreground: oklch(0.97 0.01 250);
+  --destructive: #f87171;
+  --destructive-foreground: #450a0a;
+  --success: #4ade80;
+  --success-foreground: #052e13;
+  --warning: #fbbf24;
+  --warning-foreground: #451a03;
+  --gold: #f2a93b;
+  --gold-foreground: #1e3a5f;
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 16%);
+  --ring: #a9c4e3;
 }
 
 @theme inline {
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -66,6 +91,13 @@
   --color-accent: var(--accent);
   --color-accent-foreground: var(--accent-foreground);
   --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-gold: var(--gold);
+  --color-gold-foreground: var(--gold-foreground);
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
@@ -76,6 +108,6 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
   }
 }

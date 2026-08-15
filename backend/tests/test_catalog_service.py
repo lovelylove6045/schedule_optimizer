@@ -69,3 +69,26 @@ def test_get_course_group_members(db_session):
 
 def test_get_course_group_members_not_found(db_session):
     assert catalog_service.get_course_group_members(db_session, 999_999) is None
+
+
+def test_search_courses_matches_combined_subject_and_number(db_session):
+    results = catalog_service.search_courses(db_session, "AERO ENG 4780")
+
+    assert any(c.course_id == AERO_ENG_4780_COURSE_ID for c in results)
+
+
+def test_search_courses_matches_title(db_session):
+    results = catalog_service.search_courses(db_session, "Aerospace Systems Design")
+
+    assert any(c.course_id == AERO_ENG_4780_COURSE_ID for c in results)
+
+
+def test_search_courses_caps_results(db_session):
+    # A single-letter query matches far more than MAX_COURSE_SEARCH_RESULTS courses.
+    results = catalog_service.search_courses(db_session, "a")
+
+    assert len(results) == catalog_service.MAX_COURSE_SEARCH_RESULTS
+
+
+def test_search_courses_blank_query_returns_nothing(db_session):
+    assert catalog_service.search_courses(db_session, "   ") == []

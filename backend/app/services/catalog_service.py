@@ -3,6 +3,7 @@ prerequisite/corequisite tree (`course_rule_nodes`) attached to a course."""
 
 from __future__ import annotations
 
+from sqlalchemy import func, or_
 from sqlalchemy.orm import Session
 
 from app.models.academic_program import AcademicProgram
@@ -10,10 +11,13 @@ from app.models.course import Course
 from app.models.course_group import CourseGroup
 from app.models.course_group_member import CourseGroupMember
 from app.models.course_rule_node import CourseRuleNode
+from app.models.subject import Subject
 from app.models.term import Term
 from app.schemas.course import CourseGroupMembersOut, CourseGroupOut, CourseOut
 from app.schemas.prerequisite import PrerequisiteNodeOut
-from app.services.common import load_courses_by_id
+from app.services.common import course_out, load_courses_by_id
+
+MAX_COURSE_SEARCH_RESULTS = 50
 
 
 def list_programs(db: Session) -> list[AcademicProgram]:
@@ -35,6 +39,35 @@ def get_program(db: Session, program_id: int) -> AcademicProgram | None:
 def get_course(db: Session, course_id: int) -> Course | None:
     """Look up one course by primary key, or `None` if it doesn't exist."""
     return db.get(Course, course_id)
+
+
+def search_courses(db: Session, query: str) -> list[CourseOut]:
+    """Return up to `MAX_COURSE_SEARCH_RESULTS` courses whose subject code, course
+    number, title, or "SUBJ 101"-style combined code contains `query`
+    (case-insensitive). Used by the frontend's course picker (Screen 2); there's
+    no full `GET /courses` list endpoint since the catalog is too large to browse
+    unfiltered."""
+    trimmed = query.strip()
+    if not trimmed:
+        return []
+    like_pattern = f"%{trimmed}%"
+    combined_code = func.concat(Subject.subject_code, " ", Course.course_number)
+    rows = (
+        db.query(Course, Subject.subject_code)
+        .join(Subject, Subject.subject_id == Course.subject_id)
+        .filter(
+            or_(
+                Subject.subject_code.ilike(like_pattern),
+                Course.course_number.ilike(like_pattern),
+                Course.course_title.ilike(like_pattern),
+                combined_code.ilike(like_pattern),
+            )
+        )
+        .order_by(Subject.subject_code.asc(), Course.course_number.asc())
+        .limit(MAX_COURSE_SEARCH_RESULTS)
+        .all()
+    )
+    return [course_out(course, subject_code) for course, subject_code in rows]
 
 
 def get_prerequisite_tree(db: Session, course_id: int) -> list[PrerequisiteNodeOut]:

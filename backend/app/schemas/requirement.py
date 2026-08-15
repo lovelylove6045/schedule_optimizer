@@ -28,6 +28,13 @@ class RequirementNodeOut(BaseModel):
     # a bare flatten_requirement_tree() result leaves this None on every node.
     is_satisfied: bool | None = None
 
+    # Only populated by plan_requirement_service.get_plan_requirement_coverage:
+    # true if this leaf's satisfying course, per that plan's persisted
+    # requirement_allocations, also satisfies a leaf in a *different* program's
+    # requirement tree (the same overlap concept as the MAX_REQUIREMENT_OVERLAP
+    # objective, but for one already-generated plan instead of the solver).
+    is_shared: bool = False
+
 
 class RequirementSetOut(BaseModel):
     requirement_set_id: int

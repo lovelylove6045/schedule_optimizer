@@ -33,13 +33,28 @@ _GRADE_POINTS = {
 }
 
 
+# Sentinel "grade" for a course that isn't actually completed yet but should be
+# treated as satisfying the requirement anyway (e.g. a course a degree plan
+# assigns to a future term) -- not a real letter grade, so
+# `_meets_minimum_grade` always accepts it, matching how transfer/pass-fail
+# grades are already treated.
+PLANNED_GRADE_SENTINEL = "PLANNED"
+
+
 def match_completed_courses(
-    db: Session, student_id: int, requirement_set: RequirementSetOut
+    db: Session,
+    student_id: int,
+    requirement_set: RequirementSetOut,
+    extra_completed_course_ids: set[int] | None = None,
 ) -> RequirementSetOut:
     """Return a new `RequirementSetOut` with every node's `is_satisfied`
-    filled in. Leave the input untouched (Pydantic models here are treated
-    as immutable data, not mutated in place)."""
+    filled in, treating both the student's actual `student_credits` and any
+    `extra_completed_course_ids` (e.g. a degree plan's newly-assigned
+    courses) as completed. Leave the input untouched (Pydantic models here
+    are treated as immutable data, not mutated in place)."""
     best_grade_by_course = _best_completed_grade_by_course(db, student_id)
+    for course_id in extra_completed_course_ids or set():
+        best_grade_by_course.setdefault(course_id, PLANNED_GRADE_SENTINEL)
     course_group_ids = _collect_course_group_ids(requirement_set.nodes)
     members_by_group = _load_course_group_members(db, course_group_ids)
     new_nodes = [_evaluate_node(node, best_grade_by_course, members_by_group) for node in requirement_set.nodes]

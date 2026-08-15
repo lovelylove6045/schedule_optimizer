@@ -42,3 +42,17 @@ def test_get_course_prerequisites_404_for_missing_course(client):
     response = client.get("/courses/999999/prerequisites")
 
     assert response.status_code == 404
+
+
+def test_search_courses(client):
+    response = client.get("/courses", params={"search": "AERO ENG 4780"})
+
+    assert response.status_code == 200
+    body = response.json()
+    assert any(c["course_id"] == AERO_ENG_4780_COURSE_ID for c in body)
+
+
+def test_search_courses_requires_nonempty_query(client):
+    response = client.get("/courses", params={"search": ""})
+
+    assert response.status_code == 422
