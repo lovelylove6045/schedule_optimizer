@@ -35,8 +35,31 @@ class DegreePlanOut(BaseModel):
     plan_name: str | None = None
     status: str
     total_credit_hours: float | None = None
+    additional_credit_hours: float | None = None
     projected_graduation_term_id: int | None = None
     solver_objective_value: float | None = None
     solver_status: str | None = None
     courses: list[PlanCourseOut] = []
     messages: list[OptimizationMessageOut] = []
+
+
+class PlanMetricsOut(BaseModel):
+    """One plan's side-by-side comparison row (`GET /plans/compare`): everything
+    `DegreePlanOut` already has, plus per-term breakdown stats that aren't stored
+    directly on `degree_plans` and are instead derived from `plan_courses`/
+    `requirement_allocations` at request time by `plan_comparison_service`."""
+
+    degree_plan_id: int
+    plan_name: str | None = None
+    status: str
+    total_credit_hours: float | None = None
+    additional_credit_hours: float | None = None
+    projected_graduation_term_id: int | None = None
+    max_term_credit_hours: float | None = None
+    avg_term_credit_hours: float | None = None
+    summer_term_count: int = 0
+    overlap_credit_hours: float = 0.0
+
+
+class PlanComparisonOut(BaseModel):
+    plans: list[PlanMetricsOut]

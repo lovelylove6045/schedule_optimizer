@@ -10,6 +10,7 @@ from app.models.course import Course
 from app.models.course_group import CourseGroup
 from app.models.course_group_member import CourseGroupMember
 from app.models.course_rule_node import CourseRuleNode
+from app.models.term import Term
 from app.schemas.course import CourseGroupMembersOut, CourseGroupOut, CourseOut
 from app.schemas.prerequisite import PrerequisiteNodeOut
 from app.services.common import load_courses_by_id
@@ -18,6 +19,12 @@ from app.services.common import load_courses_by_id
 def list_programs(db: Session) -> list[AcademicProgram]:
     """Return every academic program, alphabetically by name."""
     return db.query(AcademicProgram).order_by(AcademicProgram.program_name).all()
+
+
+def list_terms(db: Session) -> list[Term]:
+    """Return every term in chronological order, for scenario-creation clients to
+    pick a `start_term_id`/`target_graduation_term_id` from."""
+    return db.query(Term).order_by(Term.sequence_index.asc()).all()
 
 
 def get_program(db: Session, program_id: int) -> AcademicProgram | None:

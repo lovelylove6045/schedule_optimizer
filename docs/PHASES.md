@@ -160,19 +160,22 @@ Protect this phase's time above all others — it's the project's core value pro
 
 ---
 
-## Phase 4 — API Integration Layer
+## Phase 4 — API Integration Layer ✅
 
 **Goal**: A complete, documented HTTP surface for the frontend to build against.
 
-- [ ] `POST /scenarios` — body: selected programs (with role), completed/in-progress courses, constraints (credit limits, term availability, summer preference), objectives (ordered). Returns `planning_scenario_id`.
-- [ ] `POST /scenarios/{id}/generate` — runs Phase 3's optimizer synchronously (fine for a prototype-scale problem); returns the list of generated `degree_plans` with summary metrics.
-- [ ] `GET /plans/{id}` — full semester-by-semester breakdown, requirement coverage summary, and related `optimization_messages`.
-- [ ] `GET /plans/compare?ids=1,2,3` — side-by-side metrics (graduation term, total/remaining/additional credits, max/avg term credits, summer term count, overlap credits).
-- [ ] `GET /programs`, `GET /programs/{id}/requirements` (reuse Phase 2 services).
-- [ ] Structured error responses: infeasible generation returns `200` with a `status: "infeasible"` payload and messages, not a `500`.
-- [ ] Confirm `/docs` (FastAPI's auto OpenAPI UI) is usable as a live contract for frontend development.
+- [x] [`POST /scenarios`](../backend/app/routers/scenarios.py) — body: selected programs (with role), completed/in-progress courses, per-term overrides, preferences, and objectives (ordered) — see [`schemas/scenario.py`](../backend/app/schemas/scenario.py). [`scenario_service.create_scenario`](../backend/app/services/scenario_service.py) enforces the design doc's Section 9.2 rule (exactly one `PRIMARY_MAJOR`) and that every referenced program/term/student id actually exists, creating a new `Student` row when no `student_id` is given (`422` for the business-rule violation, `404` for a missing reference). Returns `planning_scenario_id`.
+- [x] [`POST /scenarios/{id}/generate`](../backend/app/routers/scenarios.py) — runs Phase 3's `optimizer_service.generate_plans` unchanged (still solving all 5 supported objective types every time), then [`plan_generation_service`](../backend/app/services/plan_generation_service.py) narrows/orders the *returned* plans by the scenario's own `scenario_objectives` selection (if any were submitted, by `display_order`; none submitted keeps all 5 in the solver's default order) — this respects Screen 5's "ordered objective selection" without touching Phase 3's solver/tie-breaker internals. Persists via Phase 3's `optimizer_persistence.persist_plan` and returns the list of `DegreePlanOut`.
+- [x] [`GET /plans/{id}`](../backend/app/routers/plans.py) — full semester-by-semester breakdown and `optimization_messages`, reusing Phase 3's `optimizer_persistence.load_degree_plan`.
+- [x] [`GET /plans/compare?ids=1,2,3`](../backend/app/routers/plans.py) — side-by-side metrics via [`plan_comparison_service.compute_plan_metrics`](../backend/app/services/plan_comparison_service.py): graduation term, total credits, `additional_credit_hours` (a new nullable `degree_plans` column — Phase 3 always computed this in memory but never persisted it), max/avg per-term credits and summer-term count (derived from `plan_courses` joined to `terms.term_type`), and overlap credit hours (derived from `requirement_allocations` grouped by the underlying course/credit, counted once per course that satisfies 2+ nodes). `remaining_credit_hours` from the original spec wording is intentionally not included: a *generated* plan by definition already covers every requirement node, so there's no well-defined "remaining" figure at the plan level with the current schema. Declared before `GET /plans/{id}` in the router so `/plans/compare` isn't swallowed by that path parameter.
+- [x] `GET /programs`, `GET /programs/{id}/requirements` (reused from Phase 2, unchanged).
+- [x] Structured error responses: an infeasible `POST /scenarios/{id}/generate` call returns `200` with one `DegreePlanOut` whose `status` is `"INFEASIBLE"` and whose `messages` explain why — reusing Phase 3's existing `optimization_messages` machinery directly, no separate error envelope needed.
+- [x] `GET /terms` was added too (not in the original bullet list): `POST /scenarios` requires real `start_term_id`/`target_graduation_term_id` values and there was previously no way for a client to discover valid term ids at all.
+- [x] `/docs` confirmed usable: `GET /openapi.json` builds cleanly and lists every route (`/scenarios`, `/scenarios/{id}/generate`, `/plans/{id}`, `/plans/compare`, `/terms`, plus the Phase 2 routes).
+- [x] **Transaction boundary**: [`app/database.py`](../backend/app/database.py)'s `get_db()` now commits on a successful request and rolls back on any exception — the first write endpoints needed this, since every service below it only `flush()`es (consistent with Phase 3's `persist_plan`). `tests/conftest.py`'s `client` fixture overrides `get_db` with a plain `yield db_session` (no commit), so the existing rollback-based test isolation from Phases 1-3 is unaffected — verified by the full suite leaving no residual rows.
+- [x] 20 new pytest tests (`backend/tests/`): `test_scenario_service.py` (validation rules + persistence), `test_plan_generation_service.py` (objective filtering/ordering against real Aerospace BS data), `test_plan_comparison_service.py` (hand-built fixture, exact numbers verified), `test_scenarios_api.py` (the full HTTP journey below, plus validation-error paths), `test_plans_api.py` (`GET /plans/{id}` and `/compare`, including the route-ordering fix).
 
-**Exit criteria**: A scripted end-to-end call sequence (`POST /scenarios` → `POST /scenarios/{id}/generate` → `GET /plans/{id}`) reproduces Phase 3's verified unit-test scenarios over HTTP.
+**Exit criteria**: ✅ A scripted end-to-end call sequence (`POST /scenarios` → `POST /scenarios/{id}/generate` → `GET /plans/{id}`) reproduces Phase 3's verified Scenario A (feasible, real Aerospace BS) and infeasible-target-graduation-term case over HTTP — both covered by `test_scenarios_api.py`. Full suite: `uv run pytest` — all tests pass (Phases 1-3 unaffected, confirming no regression).
 
 ---
 

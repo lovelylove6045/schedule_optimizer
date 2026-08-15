@@ -56,6 +56,7 @@ def _create_degree_plan(db: Session, planning_scenario_id: int, generated_plan: 
         plan_name=generated_plan.strategy_code,
         status=INFEASIBLE_STATUS if generated_plan.infeasibility_reason is not None else DRAFT_STATUS,
         total_credit_hours=generated_plan.total_credit_hours or None,
+        additional_credit_hours=generated_plan.additional_credit_hours,
         projected_graduation_term_id=generated_plan.projected_graduation_term_id,
         solver_status=generated_plan.status,
     )
@@ -212,6 +213,7 @@ def load_degree_plan(db: Session, degree_plan_id: int) -> DegreePlanOut | None:
         plan_name=plan.plan_name,
         status=plan.status,
         total_credit_hours=plan.total_credit_hours,
+        additional_credit_hours=plan.additional_credit_hours,
         projected_graduation_term_id=plan.projected_graduation_term_id,
         solver_objective_value=plan.solver_objective_value,
         solver_status=plan.solver_status,

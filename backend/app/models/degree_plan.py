@@ -19,6 +19,7 @@ class DegreePlan(Base):
     plan_name: Mapped[str | None] = mapped_column(String(200))
     status: Mapped[str] = mapped_column(String(20), default="DRAFT")
     total_credit_hours: Mapped[float | None] = mapped_column(Numeric(6, 2))
+    additional_credit_hours: Mapped[float | None] = mapped_column(Numeric(6, 2))
     projected_graduation_term_id: Mapped[int | None] = mapped_column(ForeignKey("terms.term_id"))
     solver_objective_value: Mapped[float | None] = mapped_column(Numeric(10, 4))
     solver_status: Mapped[str | None] = mapped_column(String(30))
