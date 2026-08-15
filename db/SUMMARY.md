@@ -1,278 +1,124 @@
 # Data Loading — What Happened, In Plain Language
 
-This explains Phase 1.3 ("Data loading"): what we were trying to do, why the
-two source JSON folders are actually very different shapes, why we didn't
-just dump everything into the database in one shot, everything that went
-wrong along the way, and why the work ended up split across four files in
-`db/`.
+This explains Phase 1.3 ("Data loading"): what's loaded into Postgres, where
+it comes from, and a few real quirks in the data worth knowing about before
+Phase 3 (the optimizer) builds on top of it.
 
-## 1. What we were trying to do
+## 1. Where the data comes from
 
-We have a Postgres database with 28 empty tables (courses, requirements,
-degree plans, etc. — set up in Phase 1.1/1.2). We needed to actually put real
-data into it: real courses, real degree requirements, real prerequisites —
-so the rest of the app (and later, the optimizer) has something real to work
-with instead of an empty database.
-
-## 2. Two data sources — and they are NOT the same shape
-
-This is worth being very explicit about, because it's the whole reason the
-loading process was harder than "just copy the JSON into the database."
-
-We have **two** source folders, and only **one** of them looks like our
-database:
-
-### `schedule_optimizer_db/*.json` — matches our database tables closely
-
-This one really is shaped like our tables. One JSON object = one future
-database row. Example, one course:
+`schedule_optimizer_db/` contains 13 JSON files. Every single one of them is
+already shaped exactly like one of our 28 Postgres tables — same column
+names, same ids, same foreign keys. `db/load_catalog.py` reads all 13 files
+and upserts every row into Postgres, in an order that respects foreign keys.
+No scope filtering, no free-text parsing needed — including for
+prerequisites: `schedule_optimizer_db/course_rule_nodes.json` is already a
+structured tree (`GROUP`/`COURSE`/`STANDING`/etc. nodes with real
+`required_course_id` foreign keys), not free text to interpret. One example
+row:
 
 ```json
 {
-  "course_id": 1699,
-  "subject_id": 40,
-  "course_number": "2360",
-  "course_title": "Dynamics",
-  "credit_hours": "3.0",
-  "course_description": "The principles of mechanics are used..."
-}
-```
-
-That maps almost 1-to-1 onto our `courses` table. Easy. This is what we
-directly upsert into Postgres.
-
-**But this folder has no prerequisite data at all.** The only "relationship"
-file it has (`course_relations.json`) is for things like cross-listings
-("Theatre 3245 is secretly the same course as Speech 3245") — not
-"you must take X before Y."
-
-### `catalog_scraper/output/*.json` — just scraped web text, NOT shaped like our database
-
-This one is a completely different shape. It's what you'd get if you copy-
-pasted the university's public course catalog page for every course. One
-JSON object = one paragraph of English text, nothing more:
-
-```json
+  "course_rule_node_id": 11042,
+  "target_course_id": 1718,
+  "requisite_type": "PREREQUISITE",
+  "node_type": "GROUP",
+  "rule_operator": "ALL",
+  "source_text": "Aero Eng 3251 and Aero Eng 3361 and Aero Eng 3171"
+},
 {
-  "subject_code": "AERO ENG",
-  "course": "AERO ENG 2360  Dynamics (LEC 3.0)",
-  "description": "The principles of mechanics are used to model engineering systems. Kinematics of particle motion... Prerequisite: Grade of \"C\" or better in each of Civ Eng 2200, Math 2222. (Co-listed with Mech Eng 2360)."
+  "course_rule_node_id": 13443,
+  "target_course_id": 1718,
+  "parent_rule_node_id": 11042,
+  "requisite_type": "PREREQUISITE",
+  "node_type": "COURSE",
+  "required_course_id": 1709,
+  "source_text": "Aero Eng 3251"
 }
 ```
 
-There is no `required_course_id` field here. There's no structure at all —
-it's one big free-text sentence, and the prerequisite information is buried
-*inside* the English, mixed in with the rest of the course blurb. A computer
-can't "read" that sentence the way a human does; it has no idea "Civ Eng
-2200" and "Math 2222" are course codes unless we teach it to recognize that
-pattern with a program we write ourselves (that's `prereq_parser.py`).
+One run of `load_catalog.py` loads the entire university catalog:
 
-**So the short answer to "why not just upload it":** `schedule_optimizer_db`
-*is* basically ready to upload as-is (and we do exactly that). But it's
-missing prerequisites entirely. The only place prerequisites exist at all is
-buried in messy scraped English text in the *other* folder, which is not
-database-shaped and has to be interpreted, not just copied.
+- 3 colleges, 24 departments, 54 subjects, **2,120 courses**
+- 242 course groups (elective pools), 21,381 course-group memberships
+- 315 cross-listing/duplicate-credit course relations
+- **147 academic programs** (majors, minors, emphases), 61 program-to-program
+  relationships (e.g. "this emphasis belongs to that major")
+- 165 requirement sets, 279 program↔requirement-set links, **2,890
+  requirement-tree nodes**
+- **4,777 prerequisite/corequisite rule nodes**
 
-## 3. Why we didn't just upload the *entire* catalog
+Safe to re-run any time — every table is keyed by its real primary key from
+the JSON and loaded with an upsert (`session.merge()`), so running it twice
+in a row produces identical data (verified).
 
-`schedule_optimizer_db` has **2,120 courses total** across the whole school.
-Out of those, only **one degree program** (Aerospace Engineering, plus its
-minor) actually has a full requirement tree built — i.e., a real answer to
-"what courses does a student need to take to graduate with this degree." All
-the other ~50 subjects are just a flat list of courses with no requirements
-attached to them yet.
+## 2. Why the whole catalog, not just one program
 
-So loading "everything" would have meant:
+146 of the 147 academic programs have at least one requirement set attached
+(only Semiconductor Engineering BS currently has none — see
+`sanity_checks.sql` Query 5), so there's no real subset of the catalog the
+app can't use. Loading everything is also simpler than maintaining a
+scope-resolution step that decides which courses/programs to pull in.
 
-- Importing ~2,000 courses that the app can't do anything useful with yet
-  (no degree requires them, so there's nothing to check them against).
-- Running the English-sentence prerequisite parser against all 2,120 courses
-  at once, which — as you'll see below — turned out to have real bugs.
-  Debugging those bugs against 2,000 courses at once would have been much
-  harder than debugging them against ~1,000.
+## 3. Known characteristics of the real data worth knowing about
 
-Instead, we loaded **only what's needed for one real degree**: Aerospace
-Engineering BS + its minor. That's still substantial — 1,012 courses in the
-end, because "gen-ed" requirements (English, History, etc.) pull in courses
-from many other subjects too — but it's a scope we can actually check by
-hand and trust, before ever pointing the loader at the full catalog.
+`load_catalog.py` copies `course_rule_nodes.json` and `requirement_nodes.json`
+verbatim, so anything unusual here reflects the source data itself, not a
+loading mistake.
 
-Think of it like building one working room of a house completely (wiring,
-plumbing, paint) before framing all the other rooms — you learn what's wrong
-with your blueprint on one room, not on the whole house at once.
+### 3a. A handful of "level-or-above" course clusters look like cycles
 
-## 4. Everything that went wrong (and how we found each one)
+`sanity_checks.sql` Query 3 checks for courses that indirectly require
+themselves through a chain of *strict* prerequisites (ignoring corequisites,
+which are allowed to be mutual). That finds exactly **4 courses**, in two
+small clusters:
 
-### Problem 1: There's no prerequisite data anywhere in the clean JSON files
+- Russian: `RUSSIAN 3790` ("Scientific Russian") and `RUSSIAN 5790`
+  ("Advanced Scientific Russian")
+- Biology: `BIO SCI 2242` ("Cave Biology") and `BIO SCI 3783` ("Biological
+  Design and Innovation I")
 
-Covered above in section 2 — this is *why* `prereq_parser.py` had to exist
-at all. Since English is messy and we'll never parse it 100% perfectly, we
-built it as **best effort**: anything it's confident about becomes a real,
-structured link in the database; anything it can't confidently parse gets
-saved as plain text instead of being silently thrown away. Example of the
-"can't confidently parse" fallback:
+The catalog phrases their prerequisite as "Russian 1180 or above" (or
+similar). That's stored as one `COURSE` node per matching course inside an
+`ANY` group — so *every* course at or above that level lists *every other*
+course at that level as an acceptable alternative, including ones numbered
+higher than itself. E.g. "Scientific Russian" (3790) lists "Advanced
+Scientific Russian" (5790) as one acceptable alternative, and vice versa.
 
-> Raw text: `"Consent of instructor required"`
-> Result: saved as-is, flagged as unparsed, instead of guessing and getting
-> it wrong.
+**Why this isn't a real scheduling deadlock:** it's an `ANY` group, not
+`ALL` — a student only needs to have completed *one* course from the list,
+not all of them, so nothing ever literally requires "take course A before
+you can take course A." In practice a student takes these in numbering
+order and it's a non-issue. Flagging it here so Phase 3 (the optimizer)
+knows a naive "must resolve to a strict global course ordering" check would
+flag these 4 courses, and shouldn't hard-fail on it.
 
-### Problem 2: A university crosswalk note tricked the parser into a "self-loop"
+### 3b. `courses.fall_offered` / `spring_offered` / `summer_offered` have real per-course values
 
-Some course descriptions end with an unrelated bonus sentence, e.g.:
+These three columns have real, varied values — 7 distinct fall/spring/summer
+combinations across the 2,120 courses — so Phase 3's CP-SAT term-eligibility
+constraints can be built directly against them.
 
-> "...Prerequisite: A grade of 'C' or better in Math 1103; or by placement
-> examination. **MATH 1120 - MOTR MATH 130: Pre-Calculus Algebra**"
+## 4. Two enum values needed adding
 
-That bolded bit just says "this course transfers as MOTR MATH 130 at other
-Missouri schools" — nothing to do with prerequisites. But our first version
-of the parser didn't know that, and it saw "MATH 1120" sitting right there
-in the same sentence, so it created a nonsense rule: **"MATH 1120 requires
-MATH 1120"** — a course requiring itself!
+Loading the entire catalog surfaced controlled values that didn't exist yet
+in `backend/app/models/enums.py`:
 
-We caught this by writing a small check that looks for cycles (loops) in the
-prerequisite data — a course should never (directly or indirectly) require
-itself. That check found the MATH 1120 self-loop immediately.
-**Fix:** we now cut off that trailing "MOTR" note before parsing the rest of
-the sentence.
+- `requirement_nodes.node_type` needed `CREDIT_REQUIREMENT` (used 3 times,
+  e.g. a generic "12 credits of an approved minor" placeholder node that
+  doesn't point at a specific course or course group).
+- `course_rule_nodes.node_type` needed `OTHER`, `PROGRAM_MEMBERSHIP`,
+  `SUBJECT_LEVEL`, and `CREDIT_HOURS` (used 182, 47, 20, and 5 times
+  respectively).
 
-### Problem 3: Some "prerequisites" are secretly "must take together with"
+Both are native Postgres `ENUM` types, so adding a value is a real schema
+migration (`ALTER TYPE ... ADD VALUE`) — see
+`backend/alembic/versions/745ad80a45f7_*.py`. Postgres has no `DROP VALUE`
+for enums, so that migration's `downgrade()` is a documented no-op.
 
-A few pairs of courses (like a lecture + its lab) are written like this:
+## 5. Why 3 separate files instead of 1
 
-> `COMP SCI 1972` description: "Prerequisite: **Accompanied by** Comp Sci 1982..."
-> `COMP SCI 1982` description: "Prerequisite: **Accompanied by** Comp Sci 1972..."
-
-Read literally as "prerequisite," this says "1972 needs 1982 first, AND 1982
-needs 1972 first" — impossible, you could never take either one first! But
-"accompanied by" actually means "take at the same time" — it's really a
-**corequisite**, not a strict prerequisite. Our cycle-checker caught this
-exact pair as another loop.
-**Fix:** whenever we see the phrase "accompanied by," we now file it as a
-corequisite instead of a prerequisite, which is allowed to be mutual (you
-register for both at once, no ordering problem).
-
-### Problem 4: Course descriptions use abbreviations that don't match the official subject codes
-
-The database's official subject code for Physics is `PHYSICS`, and for
-Mechanical Engineering it's `MECH ENG`. But some course descriptions use
-shorter, inconsistent abbreviations when mentioning other courses:
-
-> `MECH ENG 5544` description: "Prerequisite: **Phys** 2135; **Mech** 3525 or
-> consent of instructor..."
-
-Our parser looks for the *official* subject codes, so it doesn't recognize
-"Phys" or "Mech" as course-subject abbreviations — it correctly refuses to
-guess, and saves the whole thing as unparsed plain text instead of silently
-linking to the wrong course (or crashing). This is a real limitation, not a
-bug we "fixed" — teaching the parser every possible abbreviation the
-university has ever used isn't worth the effort right now, and it's safer
-to under-parse than to guess wrong.
-
-### Problem 5: "A or B or C" written as one sentence loses its exact logic
-
-Some prerequisites have real nested logic, e.g. for `MATH 1215`:
-
-> "Prerequisites: A grade of 'C' or better in Math 1214; **or** a grade of
-> 'C' or better in **both** Math 1210 **and** Math 1211."
-
-In plain English that means: *(Math 1214) OR (Math 1210 AND Math 1211)* —
-two different valid paths, one of which needs two courses together. Our
-parser is only smart enough to build one flat group, so it currently
-(incorrectly) records this as *any one of* Math 1214, Math 1210, or Math
-1211 — losing the fact that 1210 and 1211 must be taken **together** if
-you're going that route. This is a known, documented limitation (see the
-comment at the top of `prereq_parser.py`) — writing a parser that fully
-understands nested "and/or" English grammar is a much bigger project, and
-wasn't worth it for a "best effort" first pass.
-
-### Problem 6: A "show me the full prerequisite chain" query exploded
-
-Once real data was loaded, we tried to write a database query that walks
-"what does this course need, and what do *those* courses need," all the way
-back. The first version of that query technically never stopped producing
-new rows in a reasonable time — not because of a real infinite loop, but
-because many advanced courses all eventually depend on the same basic math
-courses (Calculus, Algebra, etc.). Every time two different paths reconverge
-on the same course ("both paths need Calc II eventually"), a naive query
-re-explores that course's own prerequisites all over again, and this
-multiplies out of control (1,600+ duplicate-looking rows for one course!).
-**Fix:** we rewrote the query to say "show me each required course *once*,
-at the shortest distance it takes to reach it" — which is both correct and
-fast (23 rows instead of 1,600+).
-
-### Other limitations worth knowing about (not bugs, just "be aware")
-
-- The parser assumes one course only has one grade requirement per
-  prerequisite clause; if a sentence mixes different required grades for
-  different courses in a genuinely complex way, it may not separate them
-  perfectly.
-- We only load prerequisite data for courses inside our Aerospace BS/Minor
-  scope. If you widen the loader to another program later, courses outside
-  the current scope won't have their prerequisites parsed until that
-  program is loaded too.
-- The parser can only find courses that actually exist in
-  `schedule_optimizer_db`. If a description mentions a course that was
-  removed from the catalog or renamed, that mention is safely dropped rather
-  than linked to the wrong thing.
-
-## 5. Why 4 separate files instead of 1 big script
-
-Everything *could* have been crammed into one file, but each of these does a
-genuinely different job, and keeping them separate made all of the problems
-above much easier to find and fix in isolation:
-
-| File | Job | Why separate |
-|---|---|---|
-| `load_catalog.py` | The main script: reads the JSON files, decides "which courses/requirements are in scope," and writes everything into Postgres. | This is the orchestrator — it calls the parser, but doesn't need to know *how* parsing works internally. |
-| `prereq_parser.py` | Just the English-sentence-to-structured-data logic (regex parsing of "Prerequisite: ..." text). | Parsing free text is its own tricky problem (see Problems 1–5 above). Keeping it in its own file meant we could test and fix parsing bugs without touching any database code. |
-| `sanity_checks.sql` | Three plain SQL queries anyone (even without Python) can run to double-check the loaded data looks right. | This is meant to be handed to a human reviewer, or run with the standard `psql` tool — it shouldn't require reading Python. |
-| `run_sanity_checks.py` | A tiny convenience script that runs `sanity_checks.sql` for people who don't have `psql` set up (like on this machine). | Purely a convenience wrapper — not "real" logic, so it's kept separate and disposable. |
-
-## 6. The end result
-
-Running `load_catalog.py` now loads, every time you run it (safe to re-run):
-
-- 3 colleges, 19 departments, 37 subjects, **1,012 courses**
-- 10 course groups (elective pools) with 1,091 courses in them
-- 80 cross-listing relationships
-- 2 academic programs (Aerospace BS + Minor), 9 requirement sets, 84 requirement tree nodes
-- **1,897 prerequisite/corequisite rules**, parsed from real course descriptions, with zero self-loops and zero impossible (prerequisite) cycles
-
-All three sanity-check queries were run and checked by hand against the
-original catalog text — see `sanity_checks.sql` for the queries and
-`docs/PHASES.md` (Phase 1.3) for the full checklist and results.
-
-## 8. Known limitation: `fall_offered`/`spring_offered`/`summer_offered` are placeholders, not real data
-
-This isn't something the loader got wrong — it's a gap in the *source*
-data that's worth flagging loudly before Phase 3 builds on top of it.
-
-`courses.fall_offered`, `courses.spring_offered`, and `courses.summer_offered`
-are real columns, and `load_catalog.py` does load them (same generic
-pass-through as every other course field). But the *values* behind them
-aren't real per-course data: every single one of the 2,120 courses in
-`schedule_optimizer_db/courses.json` — not just the 1,012 we loaded — has
-the exact same three flags: `fall_offered: true, spring_offered: true,
-summer_offered: false`. Not one course differs. The scraped catalog text in
-`catalog_scraper/output/*.json` never mentions term availability either
-(only descriptions/prerequisites), so there's currently no source anywhere
-in this repo with genuine per-course fall/spring/summer offering patterns.
-It looks like a blanket default applied when that JSON file was generated,
-well before this data-loading phase.
-
-**Why this matters later, not now:** `docs/PHASES.md` Phase 3.1 (the CP-SAT
-optimizer) plans to use exactly these three flags to decide which terms a
-course is eligible for. Left as-is, the solver would currently believe every
-course runs both fall and spring every single year and never in summer —
-which isn't true in real life (some upper-level/capstone courses genuinely
-only run once a year), and makes the `MIN_SUMMER_ENROLLMENT` objective
-meaningless (nothing is ever eligible in summer, so there's nothing for that
-objective to actually optimize against).
-
-**Decision:** rather than hand-fixing or re-scraping this now, we're
-explicitly deferring it — flagged here and in `docs/PHASES.md` (Phase 3.1)
-so it isn't silently forgotten, and to be revisited when Phase 3 actually
-starts building term-eligibility constraints (at which point it'll be clear
-whether the uniform placeholder is "good enough for a prototype" or needs
-real data first).
-
+| File | Job |
+|---|---|
+| `load_catalog.py` | Reads all 13 `schedule_optimizer_db/*.json` files and upserts everything into Postgres, in FK-safe order. |
+| `sanity_checks.sql` | Plain SQL queries anyone can run (with `psql` or any Postgres client) to double-check the loaded data looks right. |
+| `run_sanity_checks.py` | Convenience wrapper that runs `sanity_checks.sql` for people who don't have `psql` set up (like this machine) — not "real" logic, kept separate and disposable. |

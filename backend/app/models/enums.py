@@ -25,9 +25,16 @@ One enum here is NOT in Appendix A: `CourseRuleNodeType`
 types") and never pins it to Appendix A's `requirement_node_type` list —
 which makes sense, since that list's ROOT/CONSTRAINT/NON_COURSE values are
 for the *other* tree (`requirement_nodes`) and don't apply to a prerequisite
-rule. `TEXT` is our own addition for the free-text fallback described in
-`db/SUMMARY.md` (Problem 1/4/5) for descriptions the regex parser can't
-confidently structure.
+rule. Its exact value set (including `OTHER`, `PROGRAM_MEMBERSHIP`,
+`SUBJECT_LEVEL`, `CREDIT_HOURS`) is taken directly from the real, already-
+structured `schedule_optimizer_db/course_rule_nodes.json`, loaded verbatim
+by `db/load_catalog.py` — see `db/SUMMARY.md` for why no free-text parsing
+is needed for this table.
+
+`RequirementNodeType.CREDIT_REQUIREMENT` was likewise added because it's a
+real value present in `schedule_optimizer_db/requirement_nodes.json` (used
+for a handful of "just require N credit hours from an unlisted/placeholder
+source" nodes, e.g. ROTC course-slots not yet in the `courses` table).
 """
 
 from __future__ import annotations
@@ -52,6 +59,7 @@ class RequirementNodeType(str, enum.Enum):
     COURSE_GROUP = "COURSE_GROUP"
     CONSTRAINT = "CONSTRAINT"
     NON_COURSE = "NON_COURSE"
+    CREDIT_REQUIREMENT = "CREDIT_REQUIREMENT"
 
 
 class RuleOperator(str, enum.Enum):
@@ -76,7 +84,10 @@ class CourseRuleNodeType(str, enum.Enum):
     STANDING = "STANDING"
     EXAM = "EXAM"
     CONSENT = "CONSENT"
-    TEXT = "TEXT"
+    OTHER = "OTHER"
+    PROGRAM_MEMBERSHIP = "PROGRAM_MEMBERSHIP"
+    SUBJECT_LEVEL = "SUBJECT_LEVEL"
+    CREDIT_HOURS = "CREDIT_HOURS"
 
 
 class CourseRelationType(str, enum.Enum):

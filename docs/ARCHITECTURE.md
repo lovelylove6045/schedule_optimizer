@@ -38,11 +38,9 @@ Base schema comes from `schedule_optimizer.sql`, extended per the recommendation
 3. **Students & scenarios** — `students`, `student_credits`, `planning_scenarios`, `scenario_programs`, `scenario_terms`, `scenario_preferences`, `scenario_objectives`.
 4. **Generated plans** — `degree_plans`, `plan_courses`, `requirement_allocations`, `optimization_messages`.
 
-Data sources to load in:
-- `schedule_optimizer_db/*.json` — pre-extracted departments/subjects/courses/requirement data.
-- `catalog_scraper/output/*_courses.json` — raw scraped Missouri S&T course catalog, subject-by-subject.
+Data source: `schedule_optimizer_db/*.json` — every file is already shaped like its destination table (departments/subjects/courses/course groups/requirement trees/prerequisite rule nodes), so `db/load_catalog.py` upserts all of it directly, no parsing step needed. (`catalog_scraper/output/*_courses.json`, raw scraped catalog text, was used for a first pass at deriving prerequisites before `schedule_optimizer_db/course_rule_nodes.json` was found to already have that data in structured form — see `db/SUMMARY.md` §2. It's no longer read by anything.)
 
-Per the DB design doc's guidance, **narrow the first data load** to one primary program + one related minor/emphasis + the shared general-education requirement set, plus only the courses reachable through those requirements and their prerequisites. Expand once the end-to-end pipeline works.
+The first data load was initially narrowed to one primary program + its minor while `schedule_optimizer_db` still only had one program's requirement tree fully built out; it now covers the entire catalog (147 programs, 146 with requirement data) — see `docs/PHASES.md` §1.3.
 
 ### 3.1 Migrations with Alembic
 
@@ -50,7 +48,7 @@ Per the DB design doc's guidance, **narrow the first data load** to one primary 
 - One migration per logical schema change (e.g., `0001_initial_schema`, `0002_add_overlap_policies`, ...), committed to the repo so the schema history is reproducible on any machine and in any environment (native host, Docker, CI, Azure).
 - Local workflow: `alembic upgrade head` runs against whichever Postgres `app/config.py` points at — a native host install or the Docker `db` container, whichever a given teammate is running (only one can own `localhost:5432` at a time).
 - Same command (`alembic upgrade head`) runs against the production DB during deploy — no separate "prod schema" process to maintain.
-- Seed/loader scripts (for `schedule_optimizer_db/*.json` and `catalog_scraper/output/*.json`) are kept separate from Alembic migrations — migrations define structure, a Python loader script populates data.
+- The seed/loader script (`db/load_catalog.py`, for `schedule_optimizer_db/*.json`) is kept separate from Alembic migrations — migrations define structure, the loader populates data.
 
 ## 4. Backend Layer
 
@@ -75,7 +73,7 @@ Model sketch:
 - **Hard constraints**:
   - Prerequisite/corequisite trees from `course_rule_nodes` (a course's term must be after/with its prerequisites' terms).
   - Per-term credit limits (`scenario_terms`, `planning_scenarios.default_maximum_credits`).
-  - Term availability (`scenario_terms.is_available`, summer opt-in/out).
+  - Term availability (`scenario_terms.is_excluded`, summer opt-in/out).
   - Requirement coverage — every `requirement_node` must be satisfied by at least the required count/credits of allocated courses, respecting `allow_shared_course` and `overlap_policies`.
   - Locked/preferred courses (`scenario_preferences` hard constraints).
 - **Objective(s)**: weighted combination driven by `scenario_objectives` (earliest graduation, min additional credits, max overlap, balanced workload, min summer enrollment), following the rule hierarchy in the product spec (Section 7.10 / 8.4): academic validity → mandatory constraints → overlap maximization → objective optimization → ranking.

@@ -1,119 +1,78 @@
--- Phase 1.3 sanity checks (see docs/PHASES.md) for the narrow Aerospace
--- Engineering BS + Minor load produced by load_catalog.py.
---
--- Run with (from repo root):
---   psql -h localhost -U postgres -d schedule_optimizer -f db/sanity_checks.sql
+-- Sanity checks for the full-catalog load (db/load_catalog.py).
+-- Run with any Postgres client, or `uv run python ../db/run_sanity_checks.py`
+-- from backend/. See db/SUMMARY.md for what "correct" looks like for each one.
 
--- =============================================================================
--- 1. Full requirement tree for the primary program (Aerospace Engineering BS)
--- =============================================================================
--- requirement_nodes is a self-referencing tree per requirement_set; walk every
--- requirement_set attached to the program and print it depth-first.
-WITH RECURSIVE req_tree AS (
-    SELECT
-        rn.requirement_node_id,
-        rn.requirement_set_id,
-        rn.parent_requirement_node_id,
-        rn.node_type,
-        rn.node_operator,
-        rn.node_name,
-        rn.required_course_id,
-        rn.course_group_id,
-        rn.required_credit_hours,
-        rn.display_order,
-        0 AS depth,
-        LPAD(rn.display_order::text, 4, '0') AS sort_path
-    FROM requirement_nodes rn
-    JOIN program_requirement_sets prs ON prs.requirement_set_id = rn.requirement_set_id
-    JOIN academic_programs ap ON ap.academic_program_id = prs.academic_program_id
-    WHERE ap.program_code = 'AERO_BS_2026'
-      AND rn.parent_requirement_node_id IS NULL
+-- Query 1: Row counts per table, compared against the source JSON file's
+-- array length (see the "Loaded ..." line load_catalog.py prints on a
+-- successful run -- every number below should match it exactly).
+SELECT 'colleges' AS table_name, COUNT(*) FROM colleges
+UNION ALL SELECT 'departments', COUNT(*) FROM departments
+UNION ALL SELECT 'subjects', COUNT(*) FROM subjects
+UNION ALL SELECT 'courses', COUNT(*) FROM courses
+UNION ALL SELECT 'course_groups', COUNT(*) FROM course_groups
+UNION ALL SELECT 'course_group_courses', COUNT(*) FROM course_group_courses
+UNION ALL SELECT 'course_relations', COUNT(*) FROM course_relations
+UNION ALL SELECT 'academic_programs', COUNT(*) FROM academic_programs
+UNION ALL SELECT 'academic_program_relationships', COUNT(*) FROM academic_program_relationships
+UNION ALL SELECT 'requirement_sets', COUNT(*) FROM requirement_sets
+UNION ALL SELECT 'program_requirement_sets', COUNT(*) FROM program_requirement_sets
+UNION ALL SELECT 'requirement_nodes', COUNT(*) FROM requirement_nodes
+UNION ALL SELECT 'course_rule_nodes', COUNT(*) FROM course_rule_nodes
+ORDER BY table_name;
 
-    UNION ALL
+-- Query 2: No course should ever directly require itself. This should
+-- always return 0 rows -- load_catalog.py loads course_rule_nodes.json
+-- verbatim with no de-duplication logic, so this is really a check on the
+-- source data, not the loader.
+SELECT target_course_id, required_course_id, source_text
+FROM course_rule_nodes
+WHERE target_course_id = required_course_id;
 
-    SELECT
-        rn.requirement_node_id,
-        rn.requirement_set_id,
-        rn.parent_requirement_node_id,
-        rn.node_type,
-        rn.node_operator,
-        rn.node_name,
-        rn.required_course_id,
-        rn.course_group_id,
-        rn.required_credit_hours,
-        rn.display_order,
-        t.depth + 1,
-        t.sort_path || '.' || LPAD(rn.display_order::text, 4, '0')
-    FROM requirement_nodes rn
-    JOIN req_tree t ON rn.parent_requirement_node_id = t.requirement_node_id
-)
-SELECT
-    rs.requirement_set_code,
-    REPEAT('  ', t.depth) || t.node_name AS node,
-    t.node_type,
-    t.node_operator,
-    (SELECT s.subject_code || ' ' || c.course_number
-       FROM courses c JOIN subjects s ON s.subject_id = c.subject_id
-      WHERE c.course_id = t.required_course_id) AS required_course,
-    (SELECT cg.course_group_name FROM course_groups cg WHERE cg.course_group_id = t.course_group_id) AS course_group,
-    t.required_credit_hours
-FROM req_tree t
-JOIN requirement_sets rs ON rs.requirement_set_id = t.requirement_set_id
-ORDER BY rs.requirement_set_id, t.sort_path;
-
-
--- =============================================================================
--- 2. Full prerequisite closure for an upper-level course (AERO ENG 4780,
---    Aerospace Systems Design I -- the senior design capstone)
--- =============================================================================
--- course_rule_nodes.target_course_id -> required_course_id is itself a graph;
--- recurse from the target course down through each prerequisite's own
--- prerequisites. Uses UNION (not UNION ALL) plus a final GROUP BY MIN(depth)
--- to report each course once at its shortest distance -- a naive "all paths"
--- version re-visits shared foundational courses (Math/Physics) once per
--- diamond-shaped path and floods the output with duplicates.
-WITH RECURSIVE prereq_closure(course_id, depth) AS (
-    SELECT tc.course_id, 0
-    FROM courses tc
-    JOIN subjects s ON s.subject_id = tc.subject_id
-    WHERE s.subject_code = 'AERO ENG' AND tc.course_number = '4780'
-
+-- Query 3: Strict-PREREQUISITE-only cycles (a course that indirectly
+-- requires itself through a chain of *hard* prerequisites, ignoring
+-- COREQUISITE/PRE_OR_COREQUISITE/RECOMMENDED edges, which are allowed to be
+-- mutual). As of the full-catalog load this returns ~280 courses -- see
+-- db/SUMMARY.md ("known limitation: language/ladder course clusters") for
+-- why this is a real, expected property of the source data rather than a
+-- bug: e.g. "Russian 1180 or above" is parsed as one COURSE node per
+-- matching course, so every course at or above that level lists every
+-- *other* course at that level as an acceptable (ANY) alternative,
+-- including ones numbered higher than itself.
+WITH RECURSIVE closure AS (
+    SELECT target_course_id AS root, required_course_id AS reached, 1 AS depth
+    FROM course_rule_nodes
+    WHERE required_course_id IS NOT NULL AND requisite_type = 'PREREQUISITE'
     UNION
-
-    SELECT crn.required_course_id, pc.depth + 1
-    FROM course_rule_nodes crn
-    JOIN prereq_closure pc ON crn.target_course_id = pc.course_id
+    SELECT c.root, crn.required_course_id, c.depth + 1
+    FROM closure c
+    JOIN course_rule_nodes crn ON crn.target_course_id = c.reached
     WHERE crn.required_course_id IS NOT NULL
+      AND crn.requisite_type = 'PREREQUISITE'
+      AND c.depth < 25
 )
-SELECT
-    MIN(pc.depth) AS min_depth,
-    s.subject_code || ' ' || c.course_number AS course,
-    c.course_title
-FROM prereq_closure pc
-JOIN courses c ON c.course_id = pc.course_id
-JOIN subjects s ON s.subject_id = c.subject_id
-WHERE pc.depth > 0
-GROUP BY s.subject_code, c.course_number, c.course_title
-ORDER BY min_depth, course;
+SELECT COUNT(DISTINCT root) AS self_reachable_course_count
+FROM closure
+WHERE root = reached;
 
+-- Query 4: Spot-check one well-known program end-to-end -- Aerospace
+-- Engineering BS should still show the same requirement tree it always
+-- has (this program's data didn't change between the narrow-scope load and
+-- the full-catalog load, only its surrounding context did).
+SELECT rn.requirement_node_id, rn.parent_requirement_node_id, rn.node_type,
+       rn.node_operator, rn.node_name, rn.required_course_id, rn.course_group_id
+FROM requirement_nodes rn
+JOIN requirement_sets rs ON rs.requirement_set_id = rn.requirement_set_id
+JOIN program_requirement_sets prs ON prs.requirement_set_id = rs.requirement_set_id
+JOIN academic_programs ap ON ap.academic_program_id = prs.academic_program_id
+WHERE ap.program_code = 'AERO_BS_2026'
+ORDER BY rn.requirement_node_id;
 
--- =============================================================================
--- 3. All courses satisfying a specific course_group (MAE Technical Electives,
---    the pool backing the Aerospace BS's 9-credit technical elective requirement)
--- =============================================================================
--- course_group membership is a flat many-to-many, not a tree, so a plain join
--- is the right tool here (no recursion needed).
-SELECT
-    cg.course_group_code,
-    cg.course_group_name,
-    s.subject_code,
-    c.course_number,
-    c.course_title,
-    c.credit_hours,
-    c.course_level
-FROM course_group_courses cgc
-JOIN course_groups cg ON cg.course_group_id = cgc.course_group_id
-JOIN courses c ON c.course_id = cgc.course_id
-JOIN subjects s ON s.subject_id = c.subject_id
-WHERE cg.course_group_code = 'AERO_MAE_TECH_2026'
-ORDER BY s.subject_code, c.course_number;
+-- Query 5: Every academic program should now have at least one requirement
+-- set attached (146 of 147 did in the source data at last check -- one
+-- program, if any, having zero requirement sets is expected and not a
+-- loader bug; a *large* number with zero would indicate one).
+SELECT ap.academic_program_id, ap.program_code, ap.program_name
+FROM academic_programs ap
+LEFT JOIN program_requirement_sets prs ON prs.academic_program_id = ap.academic_program_id
+WHERE prs.program_requirement_set_id IS NULL
+ORDER BY ap.academic_program_id;
