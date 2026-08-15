@@ -1,0 +1,162 @@
+"""Marks which nodes of an already-flattened requirement tree
+(`requirement_service.flatten_requirement_tree`) are satisfied by a given
+student's completed coursework (`student_credits`)."""
+
+from __future__ import annotations
+
+from sqlalchemy.orm import Session
+
+from app.models.course_group_member import CourseGroupMember
+from app.models.student_credit import StudentCredit
+from app.schemas.requirement import RequirementNodeOut, RequirementSetOut
+
+# student_credits.status isn't a DB-level enum (see backend/app/models/enums.py
+# docstring) -- "COMPLETED" is the only status this service treats as counting
+# towards a requirement; "IN_PROGRESS"/"PLANNED" rows, if present, don't.
+COMPLETED_STATUS = "COMPLETED"
+
+# Letter grades only -- pass/fail, transfer, and other non-letter grades are
+# handled separately in _meets_minimum_grade below.
+_GRADE_POINTS = {
+    "A": 4.0,
+    "A-": 3.7,
+    "B+": 3.3,
+    "B": 3.0,
+    "B-": 2.7,
+    "C+": 2.3,
+    "C": 2.0,
+    "C-": 1.7,
+    "D+": 1.3,
+    "D": 1.0,
+    "D-": 0.7,
+    "F": 0.0,
+}
+
+
+def match_completed_courses(
+    db: Session, student_id: int, requirement_set: RequirementSetOut
+) -> RequirementSetOut:
+    """Return a new `RequirementSetOut` with every node's `is_satisfied`
+    filled in. Leave the input untouched (Pydantic models here are treated
+    as immutable data, not mutated in place)."""
+    best_grade_by_course = _best_completed_grade_by_course(db, student_id)
+    course_group_ids = _collect_course_group_ids(requirement_set.nodes)
+    members_by_group = _load_course_group_members(db, course_group_ids)
+    new_nodes = [_evaluate_node(node, best_grade_by_course, members_by_group) for node in requirement_set.nodes]
+    return requirement_set.model_copy(update={"nodes": new_nodes})
+
+
+def _best_completed_grade_by_course(db: Session, student_id: int) -> dict[int, str | None]:
+    """Return each completed course's best-earned grade for this student,
+    keyed by course_id (a course can be completed more than once, e.g. a retake)."""
+    credits = (
+        db.query(StudentCredit)
+        .filter(StudentCredit.student_id == student_id, StudentCredit.status == COMPLETED_STATUS)
+        .all()
+    )
+    best: dict[int, str | None] = {}
+    for credit in credits:
+        if credit.course_id is None:
+            continue
+        if credit.course_id not in best or _grade_rank(credit.grade) > _grade_rank(best[credit.course_id]):
+            best[credit.course_id] = credit.grade
+    return best
+
+
+def _grade_rank(grade: str | None) -> float:
+    """Map a letter grade to a comparable numeric rank; missing/unknown grades rank lowest."""
+    if not grade:
+        return -1.0
+    return _GRADE_POINTS.get(grade.upper(), 0.0)
+
+
+def _meets_minimum_grade(earned_grade: str | None, minimum_grade: str | None) -> bool:
+    """Return whether an earned grade satisfies a minimum-grade requirement.
+    Non-letter grades (P, CR, S, transfer credit, etc.) always satisfy the
+    requirement, since schools generally accept them regardless of the
+    course's in-house minimum-grade policy."""
+    if not minimum_grade:
+        return True
+    if not earned_grade:
+        return False
+    earned_points = _GRADE_POINTS.get(earned_grade.upper())
+    minimum_points = _GRADE_POINTS.get(minimum_grade.upper())
+    if earned_points is None or minimum_points is None:
+        return True
+    return earned_points >= minimum_points
+
+
+def _collect_course_group_ids(nodes: list[RequirementNodeOut]) -> set[int]:
+    """Recursively collect every `course_group_id` referenced anywhere in a requirement (sub)tree."""
+    ids: set[int] = set()
+    for node in nodes:
+        if node.course_group is not None:
+            ids.add(node.course_group.course_group_id)
+        ids |= _collect_course_group_ids(node.children)
+    return ids
+
+
+def _load_course_group_members(db: Session, course_group_ids: set[int]) -> dict[int, set[int]]:
+    """Fetch member course ids for the given course groups, keyed by course_group_id."""
+    if not course_group_ids:
+        return {}
+    rows = db.query(CourseGroupMember).filter(CourseGroupMember.course_group_id.in_(course_group_ids)).all()
+    members: dict[int, set[int]] = {cgid: set() for cgid in course_group_ids}
+    for row in rows:
+        members[row.course_group_id].add(row.course_id)
+    return members
+
+
+def _evaluate_node(
+    node: RequirementNodeOut,
+    best_grade_by_course: dict[int, str | None],
+    members_by_group: dict[int, set[int]],
+) -> RequirementNodeOut:
+    """Recursively evaluate a node's descendants first, then return a copy
+    of the node with its own `is_satisfied` filled in."""
+    children = [_evaluate_node(child, best_grade_by_course, members_by_group) for child in node.children]
+    satisfied = _is_node_satisfied(node, children, best_grade_by_course, members_by_group)
+    return node.model_copy(update={"children": children, "is_satisfied": satisfied})
+
+
+def _is_node_satisfied(
+    node: RequirementNodeOut,
+    children: list[RequirementNodeOut],
+    best_grade_by_course: dict[int, str | None],
+    members_by_group: dict[int, set[int]],
+) -> bool:
+    """Determine whether one node is satisfied, given its already-evaluated children."""
+    if node.node_type == "COURSE" and node.required_course is not None:
+        course_id = node.required_course.course_id
+        return course_id in best_grade_by_course and _meets_minimum_grade(
+            best_grade_by_course[course_id], node.minimum_grade
+        )
+    if node.node_type == "COURSE_GROUP" and node.course_group is not None:
+        member_ids = members_by_group.get(node.course_group.course_group_id, set())
+        return any(
+            cid in best_grade_by_course and _meets_minimum_grade(best_grade_by_course[cid], node.minimum_grade)
+            for cid in member_ids
+        )
+    if node.node_type == "CREDIT_REQUIREMENT":
+        # No course/course_group is attached (see db/SUMMARY.md §4), so this
+        # can't be auto-verified against student_credits; a human must sign off.
+        return False
+    if children:
+        return _aggregate(node, children)
+    # A childless, non-leaf node shouldn't occur in real data; don't claim it's satisfied.
+    return False
+
+
+def _aggregate(node: RequirementNodeOut, children: list[RequirementNodeOut]) -> bool:
+    """Combine already-evaluated children's satisfaction per the node's operator (defaults to ALL)."""
+    satisfied_children = [c for c in children if c.is_satisfied]
+    if node.node_operator == "ANY":
+        return len(satisfied_children) >= 1
+    if node.node_operator == "N_OF":
+        return len(satisfied_children) >= (node.required_count or 1)
+    if node.node_operator in ("CREDITS_FROM", "UNITS_FROM"):
+        total_credits = sum(
+            (c.required_course.credit_hours if c.required_course else 0.0) for c in satisfied_children
+        )
+        return node.required_credit_hours is not None and total_credits >= node.required_credit_hours
+    return len(satisfied_children) == len(children)

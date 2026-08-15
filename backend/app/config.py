@@ -22,6 +22,7 @@ class Settings(BaseSettings):
 
     @property
     def database_url(self) -> str:
+        """Build the SQLAlchemy connection string from the individual Postgres settings."""
         return (
             f"postgresql+psycopg2://{self.postgres_user}:{self.postgres_password}"
             f"@{self.postgres_host}:{self.postgres_port}/{self.postgres_db}"
@@ -29,9 +30,11 @@ class Settings(BaseSettings):
 
     @property
     def cors_origins(self) -> list[str]:
+        """Split the comma-separated `cors_allow_origins` setting into a clean list."""
         return [origin.strip() for origin in self.cors_allow_origins.split(",") if origin.strip()]
 
 
 @lru_cache
 def get_settings() -> Settings:
+    """Return the process-wide `Settings` instance, constructed once and cached."""
     return Settings()

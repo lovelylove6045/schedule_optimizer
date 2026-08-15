@@ -45,133 +45,181 @@ from app.models.requirement_node import RequirementNode  # noqa: E402
 from app.models.requirement_set import RequirementSet  # noqa: E402
 from app.models.subject import Subject  # noqa: E402
 
+CATALOG_FILES = [
+    "colleges",
+    "departments",
+    "subjects",
+    "courses",
+    "course_groups",
+    "course_group_courses",
+    "course_relations",
+    "requirement_sets",
+    "requirement_nodes",
+    "program_requirement_sets",
+    "academic_programs",
+    "academic_program_relationships",
+    "course_rule_nodes",
+]
+
 
 def load_json(name: str) -> list[dict]:
+    """Read one `schedule_optimizer_db/<name>.json` file into a list of row dicts."""
     with open(SCHEDULE_DB_DIR / f"{name}.json", encoding="utf-8") as f:
         return json.load(f)
 
 
-def insert_tree(session, rows: list[dict], model, parent_key: str, id_key: str, cast: dict[str, type] | None = None) -> None:
+def load_all_catalog_json() -> dict[str, list[dict]]:
+    """Read every catalog JSON file this loader needs, keyed by table name."""
+    return {name: load_json(name) for name in CATALOG_FILES}
+
+
+def insert_tree(
+    session, rows: list[dict], model, parent_key: str, id_key: str, cast: dict[str, type] | None = None
+) -> None:
     """Insert rows of a self-referencing tree (requirement_nodes,
     course_rule_nodes) parent-before-child, since a handful of rows in the
     source JSON list a child before its parent (see db/SUMMARY.md)."""
     by_parent: dict[int | None, list[dict]] = {}
     for row in rows:
         by_parent.setdefault(row.get(parent_key), []).append(row)
+    _insert_children(session, by_parent, model, id_key, cast or {}, parent_id=None)
 
-    def insert_children(parent_id: int | None) -> None:
-        for row in by_parent.get(parent_id, []):
-            data = dict(row)
-            for field, to_type in (cast or {}).items():
-                if data.get(field) is not None:
-                    data[field] = to_type(data[field])
-            session.merge(model(**data))
-            session.flush()
-            insert_children(row[id_key])
 
-    insert_children(None)
+def _insert_children(
+    session,
+    by_parent: dict[int | None, list[dict]],
+    model,
+    id_key: str,
+    cast: dict[str, type],
+    parent_id: int | None,
+) -> None:
+    """Recursively insert every row under `parent_id`, then its descendants, depth-first."""
+    for row in by_parent.get(parent_id, []):
+        data = dict(row)
+        for field, to_type in cast.items():
+            if data.get(field) is not None:
+                data[field] = to_type(data[field])
+        session.merge(model(**data))
+        session.flush()
+        _insert_children(session, by_parent, model, id_key, cast, parent_id=row[id_key])
+
+
+def _upsert_reference_data(session, data: dict[str, list[dict]]) -> None:
+    """Upsert colleges, departments, subjects, and courses, in FK-safe order."""
+    print("Upserting colleges/departments/subjects/courses...")
+    for row in data["colleges"]:
+        session.merge(College(**row))
+    session.flush()
+    for row in data["departments"]:
+        session.merge(Department(**row))
+    session.flush()
+    for row in data["subjects"]:
+        session.merge(Subject(**row))
+    session.flush()
+    for row in data["courses"]:
+        course_data = dict(row)
+        course_data["credit_hours"] = float(course_data["credit_hours"])
+        session.merge(Course(**course_data))
+    session.flush()
+
+
+def _upsert_course_groups_and_relations(session, data: dict[str, list[dict]]) -> None:
+    """Upsert course groups, their memberships, and course-to-course relations."""
+    print("Upserting course groups/members/relations...")
+    for row in data["course_groups"]:
+        session.merge(CourseGroup(**row))
+    session.flush()
+    for row in data["course_group_courses"]:
+        session.merge(CourseGroupMember(**row))
+    session.flush()
+    for row in data["course_relations"]:
+        relation_data = dict(row)
+        if relation_data.get("maximum_combined_credits") is not None:
+            relation_data["maximum_combined_credits"] = float(relation_data["maximum_combined_credits"])
+        session.merge(CourseRelation(**relation_data))
+    session.flush()
+
+
+def _upsert_programs_and_relationships(session, data: dict[str, list[dict]]) -> None:
+    """Upsert academic programs and their parent/child program relationships."""
+    print("Upserting academic programs and program relationships...")
+    for row in data["academic_programs"]:
+        program_data = dict(row)
+        if program_data.get("total_credit_hours") is not None:
+            program_data["total_credit_hours"] = float(program_data["total_credit_hours"])
+        session.merge(AcademicProgram(**program_data))
+    session.flush()
+    for row in data["academic_program_relationships"]:
+        session.merge(ProgramRelationship(**row))
+    session.flush()
+
+
+def _upsert_requirement_sets_and_links(session, data: dict[str, list[dict]]) -> None:
+    """Upsert requirement sets and the program-to-requirement-set links."""
+    print("Upserting requirement sets and program-requirement links...")
+    for row in data["requirement_sets"]:
+        session.merge(RequirementSet(**row))
+    session.flush()
+    for row in data["program_requirement_sets"]:
+        session.merge(ProgramRequirementSet(**row))
+    session.flush()
+
+
+def _upsert_requirement_and_rule_trees(session, data: dict[str, list[dict]]) -> None:
+    """Upsert the two self-referencing tree tables, parent-before-child."""
+    print("Upserting requirement_nodes (parent-before-child)...")
+    insert_tree(
+        session,
+        data["requirement_nodes"],
+        RequirementNode,
+        parent_key="parent_requirement_node_id",
+        id_key="requirement_node_id",
+        cast={"required_credit_hours": float},
+    )
+    session.flush()
+    print("Upserting course_rule_nodes (parent-before-child)...")
+    insert_tree(
+        session,
+        data["course_rule_nodes"],
+        CourseRuleNode,
+        parent_key="parent_rule_node_id",
+        id_key="course_rule_node_id",
+        cast={"minimum_total_credits": float},
+    )
+    session.flush()
+
+
+def _print_load_summary(data: dict[str, list[dict]]) -> None:
+    """Print a one-line row-count summary of everything just loaded."""
+    print(
+        "Done. Loaded "
+        f"{len(data['colleges'])} colleges, {len(data['departments'])} departments, "
+        f"{len(data['subjects'])} subjects, {len(data['courses'])} courses, "
+        f"{len(data['course_groups'])} course groups, "
+        f"{len(data['course_group_courses'])} course-group members, "
+        f"{len(data['course_relations'])} course relations, "
+        f"{len(data['academic_programs'])} academic programs, "
+        f"{len(data['academic_program_relationships'])} program relationships, "
+        f"{len(data['requirement_sets'])} requirement sets, "
+        f"{len(data['program_requirement_sets'])} program-requirement links, "
+        f"{len(data['requirement_nodes'])} requirement nodes, "
+        f"{len(data['course_rule_nodes'])} course_rule_nodes."
+    )
 
 
 def main() -> None:
+    """Load all `schedule_optimizer_db/*.json` files into Postgres, verbatim, in dependency order."""
     print("Loading schedule_optimizer_db/*.json (full catalog)...")
-    colleges = load_json("colleges")
-    departments = load_json("departments")
-    subjects = load_json("subjects")
-    courses = load_json("courses")
-    course_groups = load_json("course_groups")
-    course_group_courses = load_json("course_group_courses")
-    course_relations = load_json("course_relations")
-    requirement_sets = load_json("requirement_sets")
-    requirement_nodes = load_json("requirement_nodes")
-    program_requirement_sets = load_json("program_requirement_sets")
-    academic_programs = load_json("academic_programs")
-    academic_program_relationships = load_json("academic_program_relationships")
-    course_rule_nodes = load_json("course_rule_nodes")
-
+    data = load_all_catalog_json()
     session = SessionLocal()
     try:
-        print("Upserting colleges/departments/subjects/courses...")
-        for row in colleges:
-            session.merge(College(**row))
-        session.flush()
-        for row in departments:
-            session.merge(Department(**row))
-        session.flush()
-        for row in subjects:
-            session.merge(Subject(**row))
-        session.flush()
-        for row in courses:
-            data = dict(row)
-            data["credit_hours"] = float(data["credit_hours"])
-            session.merge(Course(**data))
-        session.flush()
-
-        print("Upserting course groups/members/relations...")
-        for row in course_groups:
-            session.merge(CourseGroup(**row))
-        session.flush()
-        for row in course_group_courses:
-            session.merge(CourseGroupMember(**row))
-        session.flush()
-        for row in course_relations:
-            data = dict(row)
-            if data.get("maximum_combined_credits") is not None:
-                data["maximum_combined_credits"] = float(data["maximum_combined_credits"])
-            session.merge(CourseRelation(**data))
-        session.flush()
-
-        print("Upserting academic programs and program relationships...")
-        for row in academic_programs:
-            data = dict(row)
-            if data.get("total_credit_hours") is not None:
-                data["total_credit_hours"] = float(data["total_credit_hours"])
-            session.merge(AcademicProgram(**data))
-        session.flush()
-        for row in academic_program_relationships:
-            session.merge(ProgramRelationship(**row))
-        session.flush()
-
-        print("Upserting requirement sets and program-requirement links...")
-        for row in requirement_sets:
-            session.merge(RequirementSet(**row))
-        session.flush()
-        for row in program_requirement_sets:
-            session.merge(ProgramRequirementSet(**row))
-        session.flush()
-
-        print("Upserting requirement_nodes (parent-before-child)...")
-        insert_tree(
-            session,
-            requirement_nodes,
-            RequirementNode,
-            parent_key="parent_requirement_node_id",
-            id_key="requirement_node_id",
-            cast={"required_credit_hours": float},
-        )
-        session.flush()
-
-        print("Upserting course_rule_nodes (parent-before-child)...")
-        insert_tree(
-            session,
-            course_rule_nodes,
-            CourseRuleNode,
-            parent_key="parent_rule_node_id",
-            id_key="course_rule_node_id",
-            cast={"minimum_total_credits": float},
-        )
-        session.flush()
-
+        _upsert_reference_data(session, data)
+        _upsert_course_groups_and_relations(session, data)
+        _upsert_programs_and_relationships(session, data)
+        _upsert_requirement_sets_and_links(session, data)
+        _upsert_requirement_and_rule_trees(session, data)
         session.commit()
-        print(
-            "Done. Loaded "
-            f"{len(colleges)} colleges, {len(departments)} departments, "
-            f"{len(subjects)} subjects, {len(courses)} courses, "
-            f"{len(course_groups)} course groups, {len(course_group_courses)} course-group members, "
-            f"{len(course_relations)} course relations, {len(academic_programs)} academic programs, "
-            f"{len(academic_program_relationships)} program relationships, "
-            f"{len(requirement_sets)} requirement sets, {len(program_requirement_sets)} program-requirement links, "
-            f"{len(requirement_nodes)} requirement nodes, {len(course_rule_nodes)} course_rule_nodes."
-        )
+        _print_load_summary(data)
     except Exception:
         session.rollback()
         raise

@@ -125,6 +125,7 @@ class OptimizationObjectiveType(str, enum.Enum):
 
 
 def _values(enum_cls: type[enum.Enum]) -> list[str]:
+    """Return an enum class's raw string values, in declaration order, for `values_callable`."""
     return [member.value for member in enum_cls]
 
 
