@@ -100,51 +100,63 @@ Stack assumed throughout: **local PostgreSQL running natively on the host** (Doc
 
 ---
 
-## Phase 3 — Optimization Engine (OR-Tools CP-SAT) — critical path
+## Phase 3 — Optimization Engine (OR-Tools CP-SAT) — critical path ✅
 
 **Goal**: Given a scenario, produce one or more valid, ranked, semester-by-semester plans.
 
 Protect this phase's time above all others — it's the project's core value proposition and the biggest technical risk.
 
+### Data gap closed first
+
+- [x] `terms` had no source data anywhere in `schedule_optimizer_db/` (unlike every other table, which loads from real scraped JSON). [`db/seed_terms.py`](../db/seed_terms.py) generates 18 sequential Fall/Spring/Summer terms (Fall 2026 → Summer 2032), inserting only `term_code`s that don't already exist — idempotent, same pattern as `load_catalog.py`'s `merge()` but with no JSON to merge against.
+
 ### 3.1 Model construction
 
-- [ ] Define the term horizon for a scenario (start term → some max lookahead, e.g. 12 terms) from `planning_scenarios` + `scenario_terms`.
-- [ ] Build candidate course universe: courses reachable from the resolved requirement trees (via `requirement_nodes` course/course_group leaves), minus anything already satisfied by `student_credits`.
-- [ ] CP-SAT variables: `assign[course_id, term_id] : BoolVar` for every (candidate course, eligible term) pair (eligible = course offered that term type per `courses.fall_offered/spring_offered/summer_offered`, and the scenario term itself isn't excluded per `scenario_terms.is_excluded`). Term-offering data is real per-course now (`schedule_optimizer_db/courses.json` has 7 distinct fall/spring/summer combinations across the catalog, not one uniform placeholder — see `db/SUMMARY.md` §4b), so this constraint can be built directly against it without a data-quality caveat.
-- [ ] Constraint: each course assigned to at most one term (or zero, if elective not needed).
-- [ ] Constraint: prerequisite ordering — for each `course_rule_nodes` PREREQUISITE edge, the prerequisite's term index < the dependent course's term index (translate AND/OR/N_OF trees into CP-SAT `BoolAnd`/`BoolOr`/linear count constraints).
-- [ ] Constraint: corequisite — same term index (or prerequisite's term ≤ dependent's, for PRE_OR_COREQUISITE).
-- [ ] Constraint: per-term credit totals within `scenario_terms.minimum_credits/maximum_credits` (falling back to `planning_scenarios.default_minimum_credits/default_maximum_credits`).
-- [ ] Constraint: requirement coverage — for each `requirement_nodes` leaf/group, enough assigned (or already-completed) courses/credits satisfy the operator (`ALL`/`ANY`/`N_OF`/`CREDITS_FROM`/`UNITS_FROM`), respecting `allow_shared_course` and any applicable `overlap_policies`.
-- [ ] Constraint: hard `scenario_preferences` (`REQUIRE_COURSE`, `AVOID_COURSE`, `FIX_COURSE_TO_TERM` where `is_hard_constraint = true`).
+- [x] [`optimizer_terms.build_term_horizon(db, scenario)`](../backend/app/services/optimizer_terms.py) — ordered `Term`s from `start_term_id` forward, dropping `scenario_terms.is_excluded` terms and (unless `allow_summer`) `SUMMER` terms, capped at 16 terms, and truncated at `target_graduation_term_id` if the scenario sets one — so an unreachable target surfaces as a hard-constraint infeasibility instead of being silently ignored (verified by `test_optimizer_service.py`'s infeasible-scenario test).
+- [x] [`optimizer_candidates.build_candidate_course_set(db, scenario)`](../backend/app/services/optimizer_candidates.py) — resolves the scenario's programs' requirement trees (reusing Phase 2's `requirement_service`/`credit_matching_service`), collects `COURSE`/`COURSE_GROUP` leaves, and walks `course_rule_nodes` PREREQUISITE/COREQUISITE/PRE_OR_COREQUISITE edges backward to pull in prerequisite closure, minus anything already in `student_credits`.
+  - **Prerequisite closure growth cap**: bounded at `MAX_CLOSURE_GROWTH = 60` additional courses so a loosely-linked cluster (the same-or-above-level Russian/Biology ladder documented in `db/SUMMARY.md` §3a) can't balloon the candidate set; courses excluded by the cap are flagged as `unmodeled_prerequisite_course_ids` and surface as an `optimization_messages` warning rather than silently assumed satisfied.
+- [x] CP-SAT variables: `assign[course_id, term_id] : BoolVar` in [`optimizer_model.build_optimizer_model`](../backend/app/services/optimizer_model.py) for every (candidate course, eligible term) pair — eligible = course offered that term type per `courses.fall_offered/spring_offered/summer_offered` (real per-course data as of Phase 1, not the old uniform placeholder) and the term isn't excluded from the horizon.
+- [x] Constraint: each course assigned to at most one term (`AddAtMostOne` per course across its eligible terms).
+- [x] Constraint: prerequisite ordering — for each `course_rule_nodes` PREREQUISITE edge, the prerequisite's assigned term index < the dependent's (`AddBoolOr`/linear reification translating the underlying AND/OR/N_OF rule trees).
+- [x] Constraint: corequisite — `COREQUISITE` same term index; `PRE_OR_COREQUISITE` prerequisite's term ≤ dependent's.
+- [x] Constraint: per-term credit totals within `scenario_terms.minimum_credits/maximum_credits`, falling back to `planning_scenarios.default_minimum_credits/default_maximum_credits` (credits scaled ×10 and tracked as integers for CP-SAT, since OR-Tools has no native float domain).
+- [x] Constraint: requirement coverage — for each `requirement_nodes` leaf/group, mirrors `credit_matching_service`'s `ALL`/`ANY`/`N_OF`/`CREDITS_FROM`/`UNITS_FROM` aggregation logic, but emits CP-SAT constraints instead of evaluating fixed booleans against already-completed courses alone.
+  - **Double counting / `overlap_policies`**: `overlap_policies` has zero rows and `requirement_nodes` has no `allow_shared_course` column (that `docs/ARCHITECTURE.md` §5 line is aspirational, not implemented). Since nothing in the data restricts sharing, the solver allows one assigned course's same boolean variable to satisfy multiple requirement nodes by construction — directly matching UC-15's "maximize allowable double counting" given no policy says otherwise.
+  - **`CREDIT_REQUIREMENT` leaves** (e.g. placeholder ROTC credit slots with no attached course/group): same rule as `credit_matching_service` — never auto-satisfied by the solver. They don't block feasibility; they surface as an advisor-signoff `optimization_messages` row instead.
+- [x] Constraint: hard `scenario_preferences` (`REQUIRE_COURSE`, `AVOID_COURSE`, `FIX_COURSE_TO_TERM` where `is_hard_constraint = true`).
 
 ### 3.2 Objectives & ranking
 
-- [ ] Implement scoring terms for each `scenario_objectives` code: `EARLIEST_GRADUATION` (minimize max assigned term index), `MIN_ADDITIONAL_CREDITS` (minimize total credits beyond primary-degree baseline), `MAX_REQUIREMENT_OVERLAP` (maximize shared allocations), `BALANCED_WORKLOAD` (minimize variance across term credit totals), `MIN_SUMMER_ENROLLMENT` (penalize summer-term assignments).
-- [ ] Combine objectives respecting priority order (`scenario_objectives.priority`/`weight`) — lexicographic or weighted-sum, whichever is simpler to implement correctly first.
-- [ ] Solve once for the primary objective ordering → this becomes the "recommended" plan.
+- [x] [`optimizer_objectives.py`](../backend/app/services/optimizer_objectives.py) implements scoring expressions for the 5 objectives scoped in this doc (`MAX_INTEREST_ALIGNMENT`/`PRESERVE_FLEXIBILITY` stay unimplemented — no `course_tags` data exists yet to back interest-alignment anyway): `EARLIEST_GRADUATION` (minimize the max used term's `sequence_index`), `MIN_ADDITIONAL_CREDITS` (minimize total assigned credit hours against a "primary major alone" baseline solve), `MAX_REQUIREMENT_OVERLAP` (maximize courses that satisfy 2+ distinct scenario *programs*, not just 2+ requirement sets within one program), `BALANCED_WORKLOAD` (minimize the single heaviest term's credit total — a simpler proxy than full variance, matching UC-43's "based primarily on credit totals"), `MIN_SUMMER_ENROLLMENT` (minimize total credits assigned to `SUMMER` terms).
+- [x] Combine objectives as a weighted sum (simpler to implement correctly first, per the doc's own suggestion) rather than strict lexicographic ordering: one primary objective weighted heavily (`100_000×`), the other 4 folded in as light tie-breakers (`1×`) so a lopsided objective like overlap can't pad in unnecessary extra courses with nothing discouraging them.
+- [x] `optimizer_service.generate_plans` solves once per objective type using the primary-objective-of-the-moment as the "recommended" plan for that strategy.
 
 ### 3.3 Multiple distinct plans
 
-- [ ] After the first solution, add a diversity/no-good constraint (e.g., "at least K assignments must differ from the previous solution") and re-solve.
-- [ ] Repeat until N distinct plans are found or a solve-attempt budget is hit; discard solutions that are trivial rearrangements with no material difference (per UC-44).
-- [ ] Label each retained plan with a `strategy_code` (e.g., `EARLIEST_GRAD`, `MIN_CREDITS`, `MAX_OVERLAP`, `BALANCED`) based on which objective it best satisfies.
+- [x] Implemented differently from the doc's "diversity/no-good constraint" suggestion: [`optimizer_service._solve_every_objective`](../backend/app/services/optimizer_service.py) re-solves the same shared model once per supported objective type (5 solves max, each with that objective primary + the other 4 as tie-breakers) and deduplicates by exact assignment signature — deterministic and directly testable, while still satisfying "each plan represents a distinct strategy" (§3.3, §8.3) without needing a no-good-constraint search loop.
+- [x] Plans with an exact duplicate assignment signature to an earlier solve are dropped (`test_optimizer_service.py` confirms every surviving plan for a real scenario is a distinct assignment set).
+- [x] Each surviving plan's `strategy_code` is the `OptimizationObjectiveType` value it was solved for (e.g. `EARLIEST_GRADUATION`, `MIN_ADDITIONAL_CREDITS`).
 
 ### 3.4 Persistence & explanations
 
-- [ ] Persist each solution as `degree_plans` + `plan_courses` (+ link to `student_credits` for completed/in-progress rows) + `requirement_allocations` (one row per course/requirement-node pairing, `is_shared = true` when a course covers >1 node).
-- [ ] Generate `optimization_messages`:
-  - Infeasible scenario → identify and report the binding constraint(s) (per UC-56/UC-57).
-  - Offering-risk warnings for infrequently-offered courses scheduled late.
-  - Double-counting explanations where `is_shared = true`.
+- [x] [`optimizer_persistence.persist_plan`](../backend/app/services/optimizer_persistence.py) writes `degree_plans` + `plan_courses` + `requirement_allocations` (one row per (requirement_node, satisfying course) pair, including already-completed `student_credits` allocations) + `optimization_messages`. The schema has no `is_shared` boolean column — double counting is instead represented structurally, by a course/`plan_course` having *multiple* `requirement_allocations` rows pointing at it (one per requirement node it satisfies).
+- [x] `optimization_messages` generated:
+  - Infeasible scenario → a plain-language `ERROR`/`INFEASIBLE` message distinguishing "no schedule satisfies every hard constraint" from "solver couldn't verify within the time limit" (UC-56/UC-57).
+  - `WARNING`/`ADVISOR_SIGNOFF_NEEDED` for each `CREDIT_REQUIREMENT` node the plan assumes is satisfied outside the tool.
+  - `WARNING`/`PREREQUISITE_CLOSURE_CAPPED` for any course excluded from the candidate set by the closure growth cap.
+  - `INFO`/`UNVERIFIED_PREREQUISITE_TYPE` summarizing prerequisite conditions (standing, exam, consent) the solver can't verify and assumes satisfied.
+  - Offering-risk warnings for infrequently-offered courses scheduled late were scoped out for this prototype pass — no `course_offering_history` data exists to detect "infrequently offered" from, only the boolean `fall_offered/spring_offered/summer_offered` flags already enforced as a hard constraint.
+- [x] `persist_plan` only `flush()`s, never `commit()`s — the caller (a future Phase 4 API route, or a test's rollback fixture) owns the transaction boundary, verified by `_smoke_persistence.py` during development leaving zero residual rows after rollback.
 
 ### 3.5 Testing
 
-- [ ] Unit test scenario A: no constraints, primary program only → expect the shortest valid path.
-- [ ] Unit test scenario B: tight per-term credit cap → expect an extra term appears, and the reason is captured in `optimization_messages`.
-- [ ] Unit test scenario C: primary program + minor with known shared courses → expect `requirement_allocations` shows the expected shared courses with `is_shared = true`.
+- [x] `test_optimizer_model.py` scenario A: primary program only (Aerospace BS), no restrictive preferences → feasible, and every requirement set's root node holds.
+- [x] `test_optimizer_model.py` scenario B: tight per-term credit cap (9 credits) vs. a loose one (18 credits) → the tight cap's earliest-graduation solve needs a strictly later `graduation_index` than the loose cap's, confirming the credit-bound constraint actually binds.
+- [x] `test_optimizer_model.py` scenario C: primary major (Aerospace BS) + its own department's minor with real shared courses → `collect_leaf_satisfactions` shows the same course satisfying requirement nodes from both programs' trees (the signal `optimizer_persistence` turns into multiple `requirement_allocations` rows for one `plan_course`).
+- [x] `test_optimizer_candidates.py`: direct requirement-course inclusion, completed-course exclusion, prerequisite-closure growth capping, and cross-program overlap detection — all against real Aerospace BS/minor data.
+- [x] `test_optimizer_service.py`: a real Aerospace BS scenario yields ≥2 plans with distinct assignment signatures, each correctly labeled with its objective's `strategy_code`; a scenario with an unreachably-early `target_graduation_term_id` returns exactly one infeasible plan with a clear reason instead of raising; an unknown `planning_scenario_id` raises `ValueError` instead of failing silently.
 
-**Exit criteria**: All three unit-test scenarios pass with hand-verified expected output; the engine returns ≥2 meaningfully different plans for at least one non-trivial scenario; an intentionally-infeasible scenario returns a clear reason instead of an error.
+**Exit criteria**: ✅ All three named unit-test scenarios (A/B/C) pass with hand-verified expected output; `generate_plans` returns ≥2 meaningfully different, correctly-labeled plans for a real Aerospace BS scenario; an intentionally-infeasible scenario (unreachable target graduation term) returns a clear reason via `optimization_messages` instead of an error. Full suite: `uv run pytest` — all tests pass (Phase 1/2 tests unaffected, confirming no regression).
 
 ---
 

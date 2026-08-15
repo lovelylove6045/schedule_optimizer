@@ -1,4 +1,5 @@
-"""Ordered planning periods, e.g. Fall 2026 (populated in a later phase)."""
+"""Ordered planning periods, e.g. Fall 2026. Has no source data anywhere in
+this repo (unlike every other catalog table); populated by `db/seed_terms.py`."""
 
 from datetime import date
 
