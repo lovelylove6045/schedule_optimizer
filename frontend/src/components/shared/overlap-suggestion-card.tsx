@@ -19,7 +19,7 @@ export function OverlapSuggestionCard({ suggestion, onAdd, isAdding = false }: O
       <div className="min-w-0">
         <p className="truncate text-sm font-medium">{suggestion.program_name}</p>
         <Badge variant="outline" className="mt-1.5">
-          Shares {coursesLabel} · {suggestion.overlap_credit_hours} cr
+          Estimated overlap: {coursesLabel} · {suggestion.overlap_credit_hours} cr
         </Badge>
       </div>
       <Button

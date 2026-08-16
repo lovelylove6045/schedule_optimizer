@@ -10,9 +10,7 @@ interface RemoveCourseButtonProps {
   onRemoved: (updatedPlan: DegreePlanOut) => void
 }
 
-/** Small "remove" affordance on a plan-board course tile: lets a student
- * delete a course from the plan entirely -- solver-assigned or student-added
- * -- without re-running the optimizer. */
+/** Offer removal only when backend-derived course metadata marks it optional. */
 export function RemoveCourseButton({ degreePlanId, planCourse, onRemoved }: RemoveCourseButtonProps) {
   const remove = useRemovePlanCourseMutation()
   return (
@@ -21,7 +19,8 @@ export function RemoveCourseButton({ degreePlanId, planCourse, onRemoved }: Remo
       variant="ghost"
       size="icon-xs"
       aria-label={`Remove ${planCourse.course.subject_code} ${planCourse.course.course_number} from this plan`}
-      disabled={remove.isPending}
+      disabled={remove.isPending || !planCourse.is_removable}
+      title={planCourse.is_removable ? "Remove this optional course" : planCourse.selection_reasons[0] ?? "Required for this plan"}
       className="shrink-0 text-muted-foreground hover:text-destructive"
       onClick={() => void performRemove(degreePlanId, planCourse, remove.mutateAsync, onRemoved)}
     >

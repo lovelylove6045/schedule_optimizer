@@ -8,9 +8,13 @@ from ortools.sat.python import cp_model
 from app.models.academic_program import AcademicProgram
 from app.models.enums import OptimizationObjectiveType, ScenarioProgramRole
 from app.models.planning_scenario import PlanningScenario
+from app.models.overlap_policy import OverlapPolicy
 from app.models.scenario_program import ScenarioProgram
 from app.models.student import Student
+from app.models.student_credit import StudentCredit
 from app.models.term import Term
+from app.models.course_relation import CourseRelation
+from app.models.enums import CourseRelationType
 from app.services import optimizer_candidates, optimizer_model, optimizer_objectives, optimizer_terms
 from app.services.common import load_courses_by_id
 
@@ -25,6 +29,9 @@ SENIOR_SEMINAR_COURSE_ID = 543
 # a real-catalog fixture for the RECOMMENDED-treated-as-a-hard-gate deadlock bug.
 CIRCUITS_LECTURE_COURSE_ID = 1205
 CIRCUITS_LAB_COURSE_ID = 1206
+CREDIT_HOURS_PREREQUISITE_COURSE_ID = 1945
+PROGRAM_MEMBERSHIP_COURSE_ID = 1352
+PETROLEUM_ENGINEERING_PROGRAM_ID = 138
 MAX_SOLVE_SECONDS = 20.0
 
 
@@ -243,3 +250,118 @@ def test_disabling_the_credit_floor_lets_the_plan_fall_short_of_the_published_to
     assert status in (cp_model.OPTIMAL, cp_model.FEASIBLE)
     program = db_session.get(AcademicProgram, AERO_BS_PROGRAM_ID)
     assert _total_assigned_credit_hours(ctx, solver) < float(program.total_credit_hours)
+
+
+def test_credit_hour_prerequisite_blocks_course_before_required_standing(db_session):
+    """Block a real 30-credit prerequisite course in the first term for a fresh student."""
+    scenario = _make_scenario(db_session, [AERO_BS_PROGRAM_ID])
+    candidates = _inject_course(
+        db_session,
+        optimizer_candidates.build_candidate_course_set(db_session, scenario),
+        CREDIT_HOURS_PREREQUISITE_COURSE_ID,
+    )
+    terms = optimizer_terms.build_term_horizon(db_session, scenario)
+    ctx = optimizer_model.build_optimizer_model(db_session, scenario, candidates, terms)
+    ctx.model.Add(ctx.assign[(CREDIT_HOURS_PREREQUISITE_COURSE_ID, terms[0].term_id)] == 1)
+    status, _ = _solve(ctx)
+    assert status == cp_model.INFEASIBLE
+
+
+def test_credit_hour_prerequisite_accepts_prior_completed_academic_credits(db_session):
+    """Allow the same course once the transcript already records the required 30 credits."""
+    scenario = _make_scenario(db_session, [AERO_BS_PROGRAM_ID])
+    db_session.add(
+        StudentCredit(
+            student_id=scenario.student_id,
+            source_type="TRANSFER",
+            status="COMPLETED",
+            external_course_code="TRANSFER-BLOCK",
+            credits_earned=30,
+        )
+    )
+    db_session.flush()
+    candidates = _inject_course(
+        db_session,
+        optimizer_candidates.build_candidate_course_set(db_session, scenario),
+        CREDIT_HOURS_PREREQUISITE_COURSE_ID,
+    )
+    terms = optimizer_terms.build_term_horizon(db_session, scenario)
+    ctx = optimizer_model.build_optimizer_model(db_session, scenario, candidates, terms)
+    ctx.model.Add(ctx.assign[(CREDIT_HOURS_PREREQUISITE_COURSE_ID, terms[0].term_id)] == 1)
+    status, _ = _solve(ctx)
+    assert status in (cp_model.OPTIMAL, cp_model.FEASIBLE)
+
+
+def test_program_membership_prerequisite_uses_selected_scenario_programs(db_session):
+    """Require the structured program id on a real PROGRAM_MEMBERSHIP leaf."""
+    missing = _make_scenario(db_session, [AERO_BS_PROGRAM_ID])
+    db_session.add(
+        StudentCredit(
+            student_id=missing.student_id,
+            source_type="TRANSFER",
+            status="COMPLETED",
+            external_course_code="SENIOR-STANDING",
+            credits_earned=120,
+        )
+    )
+    db_session.flush()
+    missing_candidates = _inject_course(
+        db_session,
+        optimizer_candidates.build_candidate_course_set(db_session, missing),
+        PROGRAM_MEMBERSHIP_COURSE_ID,
+    )
+    terms = optimizer_terms.build_term_horizon(db_session, missing)
+    missing_ctx = optimizer_model.build_optimizer_model(db_session, missing, missing_candidates, terms)
+    missing_ctx.model.Add(missing_ctx.assign[(PROGRAM_MEMBERSHIP_COURSE_ID, terms[0].term_id)] == 1)
+    missing_status, _ = _solve(missing_ctx)
+    assert missing_status == cp_model.INFEASIBLE
+    selected_candidates = dataclasses.replace(
+        missing_candidates,
+        selected_program_ids=missing_candidates.selected_program_ids | {PETROLEUM_ENGINEERING_PROGRAM_ID},
+    )
+    selected_ctx = optimizer_model.build_optimizer_model(db_session, missing, selected_candidates, terms)
+    selected_ctx.model.Add(selected_ctx.assign[(PROGRAM_MEMBERSHIP_COURSE_ID, terms[0].term_id)] == 1)
+    selected_status, _ = _solve(selected_ctx)
+    assert selected_status in (cp_model.OPTIMAL, cp_model.FEASIBLE)
+
+
+def test_duplicate_credit_relation_prevents_both_courses_counting(db_session):
+    """Prevent both sides of a real duplicate-credit relation from being assigned together."""
+    relation = db_session.query(CourseRelation).filter(
+        CourseRelation.relation_type == CourseRelationType.DUPLICATE_CREDIT
+    ).first()
+    scenario = _make_scenario(db_session, [AERO_BS_PROGRAM_ID])
+    candidates = optimizer_candidates.build_candidate_course_set(db_session, scenario)
+    candidates = _inject_course(db_session, candidates, relation.course_id)
+    candidates = _inject_course(db_session, candidates, relation.related_course_id)
+    candidates = dataclasses.replace(candidates, duplicate_credit_relations=[relation])
+    terms = optimizer_terms.build_term_horizon(db_session, scenario)
+    ctx = optimizer_model.build_optimizer_model(db_session, scenario, candidates, terms)
+    for course_id in (relation.course_id, relation.related_course_id):
+        ctx.model.Add(sum(var for (cid, _term_id), var in ctx.assign.items() if cid == course_id) == 1)
+    status, _ = _solve(ctx)
+    assert status == cp_model.INFEASIBLE
+
+
+def test_transactional_overlap_policy_allow_disallow_and_max_credit(db_session):
+    """Enforce fixture policies against actual Aerospace major/minor allocations."""
+    scenario = _make_scenario(db_session, [AERO_BS_PROGRAM_ID, AERO_MINOR_PROGRAM_ID])
+    policy = OverlapPolicy(
+        program_a_id=AERO_BS_PROGRAM_ID,
+        program_b_id=AERO_MINOR_PROGRAM_ID,
+        policy_type="ALLOW",
+        requires_approval=False,
+    )
+    db_session.add(policy)
+    db_session.flush()
+    allowed_status, _ = _solve(_build_model(db_session, scenario))
+    assert allowed_status in (cp_model.OPTIMAL, cp_model.FEASIBLE)
+    policy.policy_type = "DISALLOW"
+    db_session.flush()
+    disallowed_status, _ = _solve(_build_model(db_session, scenario))
+    assert disallowed_status == cp_model.INFEASIBLE
+    policy.policy_type = "MAX_SHARED_CREDITS"
+    policy.credit_value = 0
+    db_session.flush()
+    limited_status, _ = _solve(_build_model(db_session, scenario))
+    assert limited_status == cp_model.INFEASIBLE

@@ -16,6 +16,8 @@ from sqlalchemy.orm import Session
 
 from app.models.enums import RequisiteType, ScenarioPreferenceType
 from app.models.planning_scenario import PlanningScenario
+from app.models.overlap_policy import OverlapPolicy
+from app.models.program_requirement_set import ProgramRequirementSet
 from app.models.scenario_preference import ScenarioPreference
 from app.models.scenario_term import ScenarioTerm
 from app.models.term import Term
@@ -66,6 +68,7 @@ class OptimizerModel:
     node_indicators: dict[int, cp_model.IntVar] = field(default_factory=dict)
     course_assigned_indicators: dict[int, cp_model.IntVar] = field(default_factory=dict)
     course_satisfaction_indicators: dict[int, cp_model.IntVar] = field(default_factory=dict)
+    node_course_usage_indicators: dict[tuple[int, int], cp_model.IntVar] = field(default_factory=dict)
     prerequisite_indicators: dict[tuple[int, int, bool], cp_model.IntVar] = field(default_factory=dict)
     term_credit_totals: dict[int, cp_model.LinearExpr] = field(default_factory=dict)
     cumulative_credit_totals: dict[int, cp_model.IntVar] = field(default_factory=dict)
@@ -87,12 +90,14 @@ def build_optimizer_model(
     )
     _create_assignment_variables(ctx)
     _add_single_term_constraints(ctx)
+    _add_course_relation_constraints(ctx)
     # Term credit totals first: prerequisite ordering's class-standing proxy
     # (`_cumulative_credit_hours_before`) reuses `ctx.term_credit_totals` instead of
     # re-summing every assign variable per prerequisite node.
     _add_term_credit_constraints(ctx)
     _add_prerequisite_ordering_constraints(ctx)
     _add_requirement_coverage_constraints(ctx)
+    _add_overlap_policy_constraints(ctx)
     _add_hard_preference_constraints(ctx)
     _add_program_credit_floor_constraint(ctx)
     return ctx
@@ -159,6 +164,129 @@ def _add_single_term_constraints(ctx: OptimizerModel) -> None:
             ctx.model.Add(sum(term_vars) <= 1)
 
 
+def _add_course_relation_constraints(ctx: OptimizerModel) -> None:
+    """Prevent equivalent and duplicate-credit courses from both receiving full plan credit."""
+    seen_pairs: set[tuple[int, int]] = set()
+    for course_id, equivalent_ids in ctx.candidates.equivalent_course_ids.items():
+        for equivalent_id in equivalent_ids:
+            pair = tuple(sorted((course_id, equivalent_id)))
+            if pair in seen_pairs:
+                continue
+            seen_pairs.add(pair)
+            _limit_related_pair(ctx, course_id, equivalent_id, None)
+    for relation in ctx.candidates.duplicate_credit_relations:
+        _limit_related_pair(
+            ctx,
+            relation.course_id,
+            relation.related_course_id,
+            float(relation.maximum_combined_credits) if relation.maximum_combined_credits is not None else None,
+        )
+
+
+def _limit_related_pair(
+    ctx: OptimizerModel, course_a_id: int, course_b_id: int, maximum_combined_credits: float | None
+) -> None:
+    """Constrain a related pair so duplicate academic credit cannot be earned twice."""
+    first = course_assigned_any_term(ctx, course_a_id)
+    second = course_assigned_any_term(ctx, course_b_id)
+    completed_count = int(course_a_id in ctx.candidates.completed_course_ids) + int(
+        course_b_id in ctx.candidates.completed_course_ids
+    )
+    if maximum_combined_credits is None:
+        ctx.model.Add(first + second == 0 if completed_count else first + second <= 1)
+        return
+    first_credits = scaled_credits(ctx.candidates.credit_hours_by_course_id.get(course_a_id, 0))
+    second_credits = scaled_credits(ctx.candidates.credit_hours_by_course_id.get(course_b_id, 0))
+    completed_credits = min(
+        first_credits * int(course_a_id in ctx.candidates.completed_course_ids)
+        + second_credits * int(course_b_id in ctx.candidates.completed_course_ids),
+        scaled_credits(maximum_combined_credits),
+    )
+    ctx.model.Add(
+        completed_credits + first_credits * first + second_credits * second
+        <= scaled_credits(maximum_combined_credits)
+    )
+
+
+def _add_overlap_policy_constraints(ctx: OptimizerModel) -> None:
+    """Enforce explicit policy limits against actual cross-program allocations."""
+    for policy in ctx.candidates.overlap_policies:
+        set_ids_a, set_ids_b = _policy_requirement_set_ids(ctx, policy)
+        shared_indicators = _shared_allocation_indicators(ctx, set_ids_a, set_ids_b)
+        policy_type = policy.policy_type.upper()
+        if policy_type in {"DISALLOW", "NO_SHARING", "DISALLOW_SHARING"}:
+            for indicator in shared_indicators.values():
+                ctx.model.Add(indicator == 0)
+        elif policy_type in {"MAX_SHARED_CREDITS", "MAX_CREDITS"} and policy.credit_value is not None:
+            total = sum(
+                scaled_credits(ctx.candidates.credit_hours_by_course_id.get(course_id, 0)) * indicator
+                for course_id, indicator in shared_indicators.items()
+            )
+            ctx.model.Add(total <= scaled_credits(float(policy.credit_value)))
+
+
+def _policy_requirement_set_ids(
+    ctx: OptimizerModel, policy: OverlapPolicy
+) -> tuple[set[int], set[int]]:
+    """Return non-inherited requirement-set scopes for both sides of a policy."""
+    if policy.requirement_set_a_id is not None:
+        set_ids_a = {policy.requirement_set_a_id}
+    else:
+        set_ids_a = _program_requirement_set_ids(ctx, policy.program_a_id)
+    if policy.requirement_set_b_id is not None:
+        set_ids_b = {policy.requirement_set_b_id}
+    else:
+        set_ids_b = _program_requirement_set_ids(ctx, policy.program_b_id)
+    inherited = set_ids_a & set_ids_b
+    return set_ids_a - inherited, set_ids_b - inherited
+
+
+def _program_requirement_set_ids(ctx: OptimizerModel, program_id: int | None) -> set[int]:
+    """Return requirement-set ids linked to one policy program."""
+    if program_id is None:
+        return set()
+    rows = ctx.db.query(ProgramRequirementSet.requirement_set_id).filter(
+        ProgramRequirementSet.academic_program_id == program_id
+    ).all()
+    return {requirement_set_id for (requirement_set_id,) in rows}
+
+
+def _shared_allocation_indicators(
+    ctx: OptimizerModel, set_ids_a: set[int], set_ids_b: set[int]
+) -> dict[int, cp_model.IntVar]:
+    """Return per-course indicators for actual use on both sides of a policy."""
+    course_ids = {course_id for (_node_id, course_id) in ctx.node_course_usage_indicators}
+    shared: dict[int, cp_model.IntVar] = {}
+    for course_id in course_ids:
+        used_a = _course_used_in_requirement_sets(ctx, course_id, set_ids_a, "policy_a")
+        used_b = _course_used_in_requirement_sets(ctx, course_id, set_ids_b, "policy_b")
+        if used_a is None or used_b is None:
+            continue
+        indicator = ctx.model.NewBoolVar(_next_name(ctx, f"policy_shared_{course_id}"))
+        ctx.model.Add(indicator <= used_a)
+        ctx.model.Add(indicator <= used_b)
+        ctx.model.Add(indicator >= used_a + used_b - 1)
+        shared[course_id] = indicator
+    return shared
+
+
+def _course_used_in_requirement_sets(
+    ctx: OptimizerModel, course_id: int, requirement_set_ids: set[int], name: str
+) -> cp_model.IntVar | None:
+    """Return whether a course is allocated to any node in the requested sets."""
+    usages = [
+        usage
+        for (node_id, used_course_id), usage in ctx.node_course_usage_indicators.items()
+        if used_course_id == course_id
+        and ctx.candidates.requirement_set_id_by_node_id.get(node_id) in requirement_set_ids
+    ]
+    if not usages:
+        return None
+    indicator = ctx.model.NewBoolVar(_next_name(ctx, f"{name}_{course_id}"))
+    ctx.model.AddMaxEquality(indicator, usages)
+    return indicator
+
+
 def course_assigned_any_term(ctx: OptimizerModel, course_id: int) -> cp_model.IntVar:
     """Return a cached 0/1 indicator that `course_id` is assigned to at least one term."""
     if course_id in ctx.course_assigned_indicators:
@@ -217,7 +345,7 @@ def _node_satisfaction_indicator(
     if node.is_satisfied:
         return _constant_bool(ctx, True)
     if node.node_type == "COURSE" and node.required_course is not None:
-        return course_assigned_any_term(ctx, node.required_course.course_id)
+        return _course_requirement_indicator(ctx, node)
     if node.node_type == "COURSE_GROUP" and node.course_group is not None:
         return _group_satisfaction_indicator(ctx, node)
     if node.node_type == "CREDIT_REQUIREMENT":
@@ -231,25 +359,115 @@ def _node_satisfaction_indicator(
 def _group_satisfaction_indicator(ctx: OptimizerModel, node: RequirementNodeOut) -> cp_model.IntVar:
     """Return a 0/1 indicator for a COURSE_GROUP leaf, enforcing whichever thresholds
     the node actually carries: a member count (`required_count`), a credit-hour total
-    (`required_credit_hours`), or both.
-
-    Credit hours matter here: 240 of the catalog's 252 COURSE_GROUP nodes state their
+    (`required_credit_hours`), or both. Credit hours matter here: 240 of the catalog's
+    252 COURSE_GROUP nodes state their
     requirement in credit hours only ("Gen Ed HASS, 15 credit hours"). This used to
     read `required_count or 1` and ignore credit hours entirely, so the solver treated
     a 15-credit elective block as covered by a single 3-credit course and every plan
     it produced was short of the real requirement. Mirrors
     `credit_matching_service._is_group_satisfied`, which evaluates the same rule
     against already-completed coursework."""
-    member_ids = sorted(ctx.candidates.group_members.get(node.course_group.course_group_id, set()))
-    member_indicators = [course_satisfaction_indicator(ctx, cid) for cid in member_ids]
+    member_ids = sorted(_eligible_group_member_ids(ctx, node))
+    member_indicators = [
+        _node_course_usage_indicator(
+            ctx, node.requirement_node_id, cid, course_satisfaction_indicator(ctx, cid)
+        )
+        for cid in member_ids
+    ]
     thresholds: list[cp_model.IntVar] = []
     if node.required_count is not None:
         thresholds.append(_at_least_indicator(ctx, member_indicators, node.required_count))
     if node.required_credit_hours is not None:
         thresholds.append(_group_credit_threshold_indicator(ctx, node, member_ids, member_indicators))
+    if node.minimum_distinct_subjects is not None:
+        thresholds.append(_distinct_subject_threshold_indicator(ctx, node, member_ids))
     if not thresholds:
         thresholds.append(_at_least_indicator(ctx, member_indicators, 1))
-    return _all_indicator(ctx, thresholds)
+    result = _all_indicator(ctx, thresholds)
+    ctx.model.Add(sum(member_indicators) <= len(member_indicators) * result)
+    if node.required_count is not None and node.required_credit_hours is None:
+        ctx.model.Add(sum(member_indicators) <= node.required_count)
+    if node.required_credit_hours is not None and member_ids:
+        credit_hours = ctx.candidates.credit_hours_by_course_id
+        total = sum(
+            scaled_credits(credit_hours.get(course_id, 0)) * indicator
+            for course_id, indicator in zip(member_ids, member_indicators)
+        )
+        maximum_member = max(scaled_credits(credit_hours.get(course_id, 0)) for course_id in member_ids)
+        ctx.model.Add(total <= scaled_credits(node.required_credit_hours) + maximum_member - 1)
+    return result
+
+
+def _course_requirement_indicator(ctx: OptimizerModel, node: RequirementNodeOut) -> cp_model.IntVar:
+    """Return whether the named course or an allowed equivalent satisfies this requirement leaf."""
+    required_id = node.required_course.course_id
+    eligible_ids = {required_id} | ctx.candidates.equivalent_course_ids.get(required_id, set())
+    eligible_ids = {
+        course_id
+        for course_id in eligible_ids
+        if node.minimum_course_level is None
+        or ctx.candidates.course_level_by_course_id.get(course_id, 0) >= node.minimum_course_level
+    }
+    usage = [
+        _node_course_usage_indicator(
+            ctx, node.requirement_node_id, course_id, course_satisfaction_indicator(ctx, course_id)
+        )
+        for course_id in sorted(eligible_ids)
+    ]
+    result = _at_least_indicator(ctx, usage, 1)
+    ctx.model.Add(sum(usage) == result)
+    return result
+
+
+def _node_course_usage_indicator(
+    ctx: OptimizerModel,
+    requirement_node_id: int,
+    course_id: int,
+    satisfaction_indicator: cp_model.IntVar,
+) -> cp_model.IntVar:
+    """Return an allocation variable limited to courses actually satisfied in the plan."""
+    key = (requirement_node_id, course_id)
+    if key in ctx.node_course_usage_indicators:
+        return ctx.node_course_usage_indicators[key]
+    usage = ctx.model.NewBoolVar(_next_name(ctx, f"use_{requirement_node_id}_{course_id}"))
+    ctx.model.Add(usage <= satisfaction_indicator)
+    ctx.node_course_usage_indicators[key] = usage
+    return usage
+
+
+def _eligible_group_member_ids(ctx: OptimizerModel, node: RequirementNodeOut) -> set[int]:
+    """Return level-eligible group members and their directed equivalents."""
+    base_ids = ctx.candidates.group_members.get(node.course_group.course_group_id, set())
+    member_ids = set(base_ids)
+    for course_id in base_ids:
+        member_ids |= ctx.candidates.equivalent_course_ids.get(course_id, set())
+    if node.minimum_course_level is None:
+        return member_ids
+    return {
+        course_id
+        for course_id in member_ids
+        if ctx.candidates.course_level_by_course_id.get(course_id, 0) >= node.minimum_course_level
+    }
+
+
+def _distinct_subject_threshold_indicator(
+    ctx: OptimizerModel, node: RequirementNodeOut, member_ids: list[int]
+) -> cp_model.IntVar:
+    """Return whether satisfying group courses span the node's minimum number of subjects."""
+    ids_by_subject: dict[int, list[int]] = {}
+    for course_id in member_ids:
+        subject_id = ctx.candidates.subject_id_by_course_id.get(course_id)
+        if subject_id is not None:
+            ids_by_subject.setdefault(subject_id, []).append(course_id)
+    subject_indicators = [
+        _at_least_indicator(
+            ctx,
+            [ctx.node_course_usage_indicators[(node.requirement_node_id, course_id)] for course_id in course_ids],
+            1,
+        )
+        for course_ids in ids_by_subject.values()
+    ]
+    return _at_least_indicator(ctx, subject_indicators, node.minimum_distinct_subjects or 0)
 
 
 def _group_credit_threshold_indicator(
@@ -377,6 +595,12 @@ def _build_prerequisite_indicator(
         return _standing_satisfied_before(ctx, node.minimum_standing, before_term)
     if node.node_type == "SUBJECT_LEVEL" and node.minimum_course_level:
         return _course_level_satisfied_before(ctx, node.minimum_course_level, before_term)
+    if node.node_type == "CREDIT_HOURS" and node.minimum_total_credits is not None:
+        return _cumulative_credits_at_least(ctx, before_term, node.minimum_total_credits)
+    if node.node_type == "PROGRAM_MEMBERSHIP" and node.required_academic_program_id is not None:
+        return _constant_bool(
+            ctx, node.required_academic_program_id in ctx.candidates.selected_program_ids
+        )
     if node.children:
         return _aggregate_prerequisite_indicator(ctx, node, before_term, same_term_allowed)
     ctx.unmodeled_prerequisite_node_ids.add(node.course_rule_node_id)
@@ -526,9 +750,12 @@ def _add_one_term_credit_constraint(
     bounds_by_term_id: dict[int, tuple[float | None, float | None]],
 ) -> None:
     """Bound one term's total credit hours, given its (minimum, maximum) override or scenario default."""
-    minimum, maximum = bounds_by_term_id.get(
-        term.term_id, (ctx.scenario.default_minimum_credits, ctx.scenario.default_maximum_credits)
-    )
+    summer_term = term.term_type == "SUMMER"
+    default_minimum = None if summer_term else ctx.scenario.default_minimum_credits
+    default_maximum = ctx.scenario.summer_maximum_credits if summer_term else ctx.scenario.default_maximum_credits
+    override = bounds_by_term_id.get(term.term_id)
+    minimum = override[0] if override is not None and override[0] is not None else default_minimum
+    maximum = override[1] if override is not None and override[1] is not None else default_maximum
     term_assignments = [
         (var, ctx.candidates.courses_by_id[cid].credit_hours)
         for (cid, tid), var in ctx.assign.items()
@@ -666,13 +893,31 @@ def _collect_leaf_satisfaction_for_node(
     if indicator is None or not solver.Value(indicator):
         return
     if node.node_type == "COURSE" and node.required_course is not None:
-        result[node.requirement_node_id] = {node.required_course.course_id}
-    elif node.node_type == "COURSE_GROUP" and node.course_group is not None:
-        member_ids = ctx.candidates.group_members.get(node.course_group.course_group_id, set())
         satisfied = {
-            cid
-            for cid in member_ids
-            if cid in ctx.course_satisfaction_indicators and solver.Value(ctx.course_satisfaction_indicators[cid])
+            course_id
+            for (node_id, course_id), usage in ctx.node_course_usage_indicators.items()
+            if node_id == node.requirement_node_id and solver.Value(usage)
         }
+        if not satisfied and node.is_satisfied:
+            eligible_ids = {node.required_course.course_id} | ctx.candidates.equivalent_course_ids.get(
+                node.required_course.course_id, set()
+            )
+            satisfied = eligible_ids & ctx.candidates.completed_course_ids
+        if satisfied:
+            result[node.requirement_node_id] = satisfied
+    elif node.node_type == "COURSE_GROUP" and node.course_group is not None:
+        member_ids = _eligible_group_member_ids(ctx, node)
+        satisfied = {
+            course_id
+            for (node_id, course_id), usage in ctx.node_course_usage_indicators.items()
+            if node_id == node.requirement_node_id and course_id in member_ids and solver.Value(usage)
+        }
+        if not satisfied and node.is_satisfied:
+            completed_candidates = {
+                equivalent_id
+                for member_id in member_ids
+                for equivalent_id in ({member_id} | ctx.candidates.equivalent_course_ids.get(member_id, set()))
+            }
+            satisfied = completed_candidates & ctx.candidates.completed_course_ids
         if satisfied:
             result[node.requirement_node_id] = satisfied

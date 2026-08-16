@@ -24,12 +24,11 @@ class ProgramOut(BaseModel):
     college_id: int | None = None
     college_code: str | None = None
     college_name: str | None = None
+    compatible_parent_program_ids: list[int] = []
 
 
 class ProgramOverlapOut(BaseModel):
-    """One suggested program (backend: `program_overlap_service`): how many of
-    its own required courses double as courses another program already
-    requires -- e.g. "this minor mostly reuses your major's courses"."""
+    """Return an estimated catalog-level overlap after inherited sets are removed."""
 
     academic_program_id: int
     program_code: str

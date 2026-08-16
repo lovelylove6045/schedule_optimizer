@@ -1,10 +1,9 @@
-"""Public entrypoint for Phase 3: `generate_plans(db, planning_scenario_id)` builds one
-CP-SAT model per scenario, re-solves it once per supported `OptimizationObjectiveType`
-(§3.3), and returns plain, deduplicated `GeneratedPlan` result objects -- not yet
-persisted (see `optimizer_persistence` for that)."""
+"""Generate a lexicographic recommended plan and independent strategy alternatives."""
 
 from __future__ import annotations
 
+import dataclasses
+import logging
 import time
 from dataclasses import dataclass
 
@@ -12,31 +11,22 @@ from ortools.sat.python import cp_model
 from sqlalchemy.orm import Session
 
 from app.models.enums import OptimizationObjectiveType, ScenarioProgramRole
+from app.models.degree_plan import DegreePlan
+from app.models.plan_course import PlanCourse
 from app.models.planning_scenario import PlanningScenario
 from app.models.scenario_program import ScenarioProgram
+from app.models.scenario_objective import ScenarioObjective
 from app.models.term import Term
 from app.schemas.course import CourseOut
 from app.services import optimizer_candidates, optimizer_model, optimizer_objectives, optimizer_terms
 from app.services.optimizer_model import OptimizerModel
 
-# Total wall-clock budget for one `generate_plans` call, shared across every solve it
-# runs (one feasibility check, one baseline for multi-program scenarios, up to 5
-# objective solves) via `_remaining_seconds` -- not a per-solve limit, so a scenario
-# that's merely slow to prove feasible/infeasible gets the whole budget for that one
-# check instead of bailing at a fixed 10s. Raised from a flat 10s after the credit-
-# floor constraint (`optimizer_model._add_program_credit_floor_constraint`) and
-# COURSE_GROUP credit-hour thresholds made some real scenarios need more search time
-# than that to even find one feasible schedule, not just to prove optimality.
+logger = logging.getLogger(__name__)
+
+# One hard wall-clock budget is shared by every stage in a generation operation.
 DEFAULT_MAX_TOTAL_SOLVE_SECONDS = 270.0
-# Floor per solve so a later solve in the sequence (e.g. the 5th objective) still gets
-# a meaningful slice even if earlier solves ate almost the whole shared budget.
-_MIN_PER_SOLVE_SECONDS = 20.0
-# Deliberately NOT setting solver.parameters.relative_gap_limit. It looks like an easy
-# speed-up, but `optimizer_objectives` combines objectives as a weighted sum with the
-# primary at 100_000x, so even a 1% gap on that combined value leaves enough slack for
-# the solver to stop on a plan carrying ~30 credit hours of padding (measured: 159
-# credits instead of 126 on Aerospace BS/EARLIEST_GRADUATION). Bounded search time
-# comes from `max_time_in_seconds` and the parallel workers below instead.
+# A relative gap is deliberately omitted: lexicographic stages record CP-SAT's exact
+# OPTIMAL/FEASIBLE proof status and use only the achieved value for the next lock.
 _FEASIBLE_STATUSES = (cp_model.OPTIMAL, cp_model.FEASIBLE)
 _STATUS_NAMES = {
     cp_model.OPTIMAL: "OPTIMAL",
@@ -67,34 +57,276 @@ class GeneratedPlan:
     unmodeled_prerequisite_course_ids: set[int]
     unmodeled_prerequisite_node_ids: set[int]
     infeasibility_reason: str | None
+    objective_stage_results: tuple[str, ...] = ()
+    candidate_course_count: int = 0
+    assignment_variable_count: int = 0
+    solver_wall_time_seconds: float = 0.0
+    deadline_exhausted: bool = False
 
 
 def generate_plans(
     db: Session, planning_scenario_id: int, max_total_solve_seconds: float = DEFAULT_MAX_TOTAL_SOLVE_SECONDS
 ) -> list[GeneratedPlan]:
-    """Generate up to 5 meaningfully-different degree plans for one planning scenario,
-    one per supported `OptimizationObjectiveType`, deduplicated by identical assignments.
-    Returns a single infeasible `GeneratedPlan` if the scenario's hard constraints alone
-    (independent of any objective) can't be satisfied. Every solve this call runs shares
-    one wall-clock deadline (`max_total_solve_seconds` from now), not an independent
-    per-solve limit."""
+    """Return the recommended plan followed by semantically distinct alternatives."""
+    recommended = generate_recommended_plan(db, planning_scenario_id, max_total_solve_seconds)
+    if recommended.infeasibility_reason is not None:
+        return [recommended]
+    recommended = dataclasses.replace(
+        recommended,
+        strategy_code=recommended.objective_type.value if recommended.objective_type else "RECOMMENDED",
+    )
+    remaining_budget = max(max_total_solve_seconds - recommended.solver_wall_time_seconds, 0.0)
+    alternatives = generate_alternative_plans(
+        db, planning_scenario_id, remaining_budget, excluded_signatures={_plan_signature(recommended)}
+    )
+    return [recommended, *alternatives]
+
+
+def generate_recommended_plan(
+    db: Session,
+    planning_scenario_id: int,
+    max_total_solve_seconds: float = DEFAULT_MAX_TOTAL_SOLVE_SECONDS,
+) -> GeneratedPlan:
+    """Solve the scenario's ordered priorities lexicographically and return one plan."""
+    started_at = time.monotonic()
+    deadline = started_at + max(max_total_solve_seconds, 0.0)
     scenario = _load_scenario(db, planning_scenario_id)
-    terms = optimizer_terms.build_term_horizon(db, scenario)
+    ctx = _build_context(db, scenario, optimizer_terms.DEFAULT_MAX_HORIZON_TERMS)
+    stages = _recommended_objective_order(db, planning_scenario_id, ctx)
+    solved = _solve_lexicographic(ctx, stages, deadline)
+    expanded_horizon = False
+    if (
+        solved[0] == cp_model.INFEASIBLE
+        and scenario.target_graduation_term_id is None
+        and _remaining_seconds(deadline) > 0
+    ):
+        expanded_horizon = True
+        ctx = _build_context(db, scenario, optimizer_terms.ABSOLUTE_MAX_HORIZON_TERMS)
+        solved = _solve_lexicographic(ctx, stages, deadline)
+    status, solver, stage_results = solved
+    if status not in _FEASIBLE_STATUSES or solver is None:
+        elapsed = time.monotonic() - started_at
+        plan = _infeasible_plan(None, "RECOMMENDED", status)
+        if expanded_horizon and status == cp_model.INFEASIBLE:
+            plan = dataclasses.replace(plan, infeasibility_reason=_horizon_exhaustion_reason())
+        return dataclasses.replace(plan, solver_wall_time_seconds=elapsed, deadline_exhausted=_remaining_seconds(deadline) <= 0)
+    baseline = _solve_baseline_credit_hours(db, scenario, ctx.terms, deadline)
+    elapsed = time.monotonic() - started_at
+    plan = _build_generated_plan(
+        ctx, solver, stages[0] if stages else None, "RECOMMENDED", status, baseline
+    )
+    return dataclasses.replace(
+        plan,
+        objective_stage_results=tuple(stage_results),
+        candidate_course_count=len(ctx.candidates.assignable_course_ids),
+        assignment_variable_count=len(ctx.assign),
+        solver_wall_time_seconds=elapsed,
+        deadline_exhausted=_remaining_seconds(deadline) <= 0,
+    )
+
+
+def generate_alternative_plans(
+    db: Session,
+    planning_scenario_id: int,
+    max_total_solve_seconds: float = DEFAULT_MAX_TOTAL_SOLVE_SECONDS,
+    excluded_signatures: set[frozenset] | None = None,
+) -> list[GeneratedPlan]:
+    """Generate independent strategy alternatives while honoring one hard shared deadline."""
+    if max_total_solve_seconds <= 0:
+        return []
+    scenario = _load_scenario(db, planning_scenario_id)
+    deadline = time.monotonic() + max_total_solve_seconds
+    ctx = _build_context(db, scenario, optimizer_terms.DEFAULT_MAX_HORIZON_TERMS)
+    baseline = _solve_baseline_credit_hours(db, scenario, ctx.terms, deadline)
+    plans: list[GeneratedPlan] = []
+    seen = set(excluded_signatures or set())
+    semantic_seen = _persisted_semantic_signatures(db, planning_scenario_id)
+    objective_types = optimizer_objectives.applicable_objective_types(ctx)
+    for index, objective_type in enumerate(objective_types):
+        if _remaining_seconds(deadline) <= 0:
+            break
+        objective_ctx = ctx if index == 0 else _build_context(
+            db, scenario, optimizer_terms.DEFAULT_MAX_HORIZON_TERMS
+        )
+        plan = _solve_one_objective(objective_ctx, objective_type, baseline, deadline)
+        if plan.infeasibility_reason is not None:
+            continue
+        signature = _plan_signature(plan)
+        semantic_signature = _semantic_plan_signature(plan)
+        if signature in seen or semantic_signature in semantic_seen:
+            continue
+        seen.add(signature)
+        semantic_seen.add(semantic_signature)
+        plans.append(plan)
+    return plans
+
+
+def _build_context(
+    db: Session, scenario: PlanningScenario, maximum_terms: int
+) -> OptimizerModel:
+    """Build one solver context using the requested horizon size."""
+    terms = optimizer_terms.build_term_horizon(db, scenario, maximum_terms)
     candidates = optimizer_candidates.build_candidate_course_set(db, scenario)
     ctx = optimizer_model.build_optimizer_model(db, scenario, candidates, terms)
-    deadline = time.monotonic() + max_total_solve_seconds
-    feasibility_status = _new_solver(_remaining_seconds(deadline)).Solve(ctx.model)
-    if feasibility_status not in _FEASIBLE_STATUSES:
-        return [_infeasible_plan(None, "INFEASIBLE", feasibility_status)]
-    baseline_credit_hours = _solve_baseline_credit_hours(db, scenario, terms, deadline)
-    return _solve_every_objective(ctx, baseline_credit_hours, deadline)
+    logger.info(
+        "optimizer_model_built scenario_id=%s candidates=%s assignment_variables=%s terms=%s",
+        scenario.planning_scenario_id,
+        len(candidates.assignable_course_ids),
+        len(ctx.assign),
+        len(terms),
+    )
+    return ctx
+
+
+def _recommended_objective_order(
+    db: Session, planning_scenario_id: int, ctx: OptimizerModel
+) -> list[OptimizationObjectiveType]:
+    """Return applicable scenario priorities with a no-padding completion-size safeguard first."""
+    rows = (
+        db.query(ScenarioObjective)
+        .filter(ScenarioObjective.planning_scenario_id == planning_scenario_id)
+        .order_by(ScenarioObjective.display_order.asc().nulls_last(), ScenarioObjective.scenario_objective_id)
+        .all()
+    )
+    applicable = set(optimizer_objectives.applicable_objective_types(ctx))
+    requested = [row.objective_type for row in rows if row.objective_type in applicable]
+    if not requested:
+        requested = [OptimizationObjectiveType.EARLIEST_GRADUATION]
+    credit_stage = OptimizationObjectiveType.MIN_ADDITIONAL_CREDITS
+    return [credit_stage, *[objective for objective in requested if objective != credit_stage]]
+
+
+def _solve_lexicographic(
+    ctx: OptimizerModel, stages: list[OptimizationObjectiveType], deadline: float
+) -> tuple[int, cp_model.CpSolver | None, list[str]]:
+    """Optimize and lock each priority in order until the shared deadline expires."""
+    last_status = cp_model.UNKNOWN
+    last_solver: cp_model.CpSolver | None = None
+    stage_results: list[str] = []
+    for objective_type in stages:
+        remaining = _remaining_seconds(deadline)
+        if remaining <= 0:
+            break
+        expression = optimizer_objectives.minimize_expression(ctx, objective_type)
+        ctx.model.Minimize(expression)
+        solver = _new_solver(remaining)
+        status = solver.Solve(ctx.model)
+        logger.info(
+            "optimizer_stage scenario_id=%s stage=%s status=%s wall_time=%.3f variables=%s",
+            ctx.scenario.planning_scenario_id,
+            objective_type.value,
+            _status_name(status),
+            solver.WallTime(),
+            len(ctx.assign),
+        )
+        stage_results.append(f"{objective_type.value}:{_status_name(status)}")
+        if status not in _FEASIBLE_STATUSES:
+            if last_solver is not None:
+                return last_status, last_solver, stage_results
+            return status, None, stage_results
+        achieved_value = round(solver.Value(expression))
+        ctx.model.Add(expression == achieved_value)
+        last_status = status if last_status == cp_model.OPTIMAL else last_status
+        if last_solver is None or status == cp_model.FEASIBLE:
+            last_status = status
+        last_solver = solver
+        if objective_type == OptimizationObjectiveType.MIN_ADDITIONAL_CREDITS:
+            count_result = _lock_minimum_course_count(ctx, deadline)
+            if count_result is not None:
+                count_status, count_solver, count_label = count_result
+                stage_results.append(count_label)
+                if count_status not in _FEASIBLE_STATUSES or count_solver is None:
+                    return last_status, last_solver, stage_results
+                if count_status == cp_model.FEASIBLE:
+                    last_status = count_status
+                last_solver = count_solver
+    tie_breakers = (
+        ("AVOID_EARLY_5000_LEVEL", optimizer_objectives.early_advanced_course_penalty),
+        ("ACADEMIC_QUALITY", optimizer_objectives.academic_quality_tiebreaker),
+    )
+    for stage_name, expression_factory in tie_breakers:
+        remaining = _remaining_seconds(deadline)
+        if remaining <= 0:
+            break
+        expression = expression_factory(ctx)
+        ctx.model.Minimize(expression)
+        solver = _new_solver(remaining)
+        status = solver.Solve(ctx.model)
+        stage_results.append(f"{stage_name}:{_status_name(status)}")
+        if status not in _FEASIBLE_STATUSES:
+            break
+        ctx.model.Add(expression == round(solver.Value(expression)))
+        if status == cp_model.FEASIBLE:
+            last_status = status
+        last_solver = solver
+    if last_solver is None:
+        return cp_model.UNKNOWN, None, stage_results
+    return last_status, last_solver, stage_results
+
+
+def _lock_minimum_course_count(
+    ctx: OptimizerModel, deadline: float
+) -> tuple[int, cp_model.CpSolver | None, str] | None:
+    """Minimize and lock course count after the minimum-credit value is fixed."""
+    remaining = _remaining_seconds(deadline)
+    if remaining <= 0:
+        return None
+    expression = optimizer_objectives.total_assigned_course_count(ctx)
+    ctx.model.Minimize(expression)
+    solver = _new_solver(remaining)
+    status = solver.Solve(ctx.model)
+    logger.info(
+        "optimizer_stage scenario_id=%s stage=MIN_COURSE_COUNT status=%s wall_time=%.3f variables=%s",
+        ctx.scenario.planning_scenario_id,
+        _status_name(status),
+        solver.WallTime(),
+        len(ctx.assign),
+    )
+    label = f"MIN_COURSE_COUNT:{_status_name(status)}"
+    if status not in _FEASIBLE_STATUSES:
+        return status, None, label
+    ctx.model.Add(expression == round(solver.Value(expression)))
+    return status, solver, label
+
+
+def _plan_signature(plan: GeneratedPlan) -> frozenset:
+    """Return an exact assignment signature used for alternative deduplication."""
+    return frozenset(plan.assignments.items())
+
+
+def _semantic_plan_signature(plan: GeneratedPlan) -> tuple[frozenset[int], int | None, int]:
+    """Return a signature that ignores inconsequential within-horizon term shuffling."""
+    return (
+        frozenset(plan.assignments),
+        plan.projected_graduation_term_id,
+        round(plan.total_credit_hours * 10),
+    )
+
+
+def _persisted_semantic_signatures(
+    db: Session, planning_scenario_id: int
+) -> set[tuple[frozenset[int], int | None, int]]:
+    """Return semantic signatures for already-persisted plans in this scenario."""
+    plans = db.query(DegreePlan).filter(
+        DegreePlan.planning_scenario_id == planning_scenario_id
+    ).all()
+    signatures: set[tuple[frozenset[int], int | None, int]] = set()
+    for plan in plans:
+        course_ids = frozenset(
+            course_id
+            for (course_id,) in db.query(PlanCourse.course_id).filter(
+                PlanCourse.degree_plan_id == plan.degree_plan_id
+            ).all()
+        )
+        signatures.add(
+            (course_ids, plan.projected_graduation_term_id, round(float(plan.total_credit_hours or 0) * 10))
+        )
+    return signatures
 
 
 def _remaining_seconds(deadline: float) -> float:
-    """Return the wall-clock seconds left before `deadline`, floored at
-    `_MIN_PER_SOLVE_SECONDS` so a later solve in the sequence always gets a
-    meaningful slice of the shared budget even once most of it is spent."""
-    return max(deadline - time.monotonic(), _MIN_PER_SOLVE_SECONDS)
+    """Return non-negative wall-clock seconds left before the hard deadline."""
+    return max(deadline - time.monotonic(), 0.0)
 
 
 def _load_scenario(db: Session, planning_scenario_id: int) -> PlanningScenario:
@@ -127,7 +359,7 @@ def _solve_baseline_credit_hours(
     """Solve a 'primary major alone' baseline (only meaningful with 2+ scenario_programs)
     and return its minimal total credit hours, or `None` for a single-program scenario."""
     primary_program_id = _primary_program_id(db, scenario.planning_scenario_id)
-    if primary_program_id is None:
+    if primary_program_id is None or _remaining_seconds(deadline) <= 0:
         return None
     baseline_candidates = optimizer_candidates.build_candidate_course_set(
         db, scenario, program_ids_override=[primary_program_id]
@@ -155,43 +387,39 @@ def _primary_program_id(db: Session, planning_scenario_id: int) -> int | None:
     return primary.academic_program_id if primary else None
 
 
-def _solve_every_objective(
-    ctx: OptimizerModel, baseline_credit_hours: float | None, deadline: float
-) -> list[GeneratedPlan]:
-    """Re-solve the shared model once per *applicable* objective type, keeping only the
-    plans whose course/term assignments aren't an exact duplicate of an earlier one."""
-    plans: list[GeneratedPlan] = []
-    seen_signatures: set[frozenset] = set()
-    for objective_type in optimizer_objectives.applicable_objective_types(ctx):
-        plan = _solve_one_objective(ctx, objective_type, baseline_credit_hours, deadline)
-        signature = frozenset(plan.assignments.items())
-        if signature in seen_signatures:
-            continue
-        seen_signatures.add(signature)
-        plans.append(plan)
-    return plans
-
-
 def _solve_one_objective(
     ctx: OptimizerModel,
     objective_type: OptimizationObjectiveType,
     baseline_credit_hours: float | None,
     deadline: float,
 ) -> GeneratedPlan:
-    """Set one objective type as primary on the shared model, solve, and package the result."""
-    optimizer_objectives.set_primary_objective(ctx, objective_type)
-    solver = _new_solver(_remaining_seconds(deadline))
-    status = solver.Solve(ctx.model)
+    """Solve one strategy after first locking the minimum necessary coursework."""
+    started_at = time.monotonic()
     strategy_code = objective_type.value
-    if status not in _FEASIBLE_STATUSES:
-        return _infeasible_plan(objective_type, strategy_code, status)
-    return _build_generated_plan(ctx, solver, objective_type, strategy_code, status, baseline_credit_hours)
+    credit_stage = OptimizationObjectiveType.MIN_ADDITIONAL_CREDITS
+    stages = [credit_stage] if objective_type == credit_stage else [credit_stage, objective_type]
+    status, solver, stage_results = _solve_lexicographic(ctx, stages, deadline)
+    elapsed = time.monotonic() - started_at
+    if status not in _FEASIBLE_STATUSES or solver is None:
+        plan = _infeasible_plan(objective_type, strategy_code, status)
+    else:
+        plan = _build_generated_plan(
+            ctx, solver, objective_type, strategy_code, status, baseline_credit_hours
+        )
+    return dataclasses.replace(
+        plan,
+        objective_stage_results=tuple(stage_results),
+        candidate_course_count=len(ctx.candidates.assignable_course_ids),
+        assignment_variable_count=len(ctx.assign),
+        solver_wall_time_seconds=elapsed,
+        deadline_exhausted=_remaining_seconds(deadline) <= 0,
+    )
 
 
 def _build_generated_plan(
     ctx: OptimizerModel,
     solver: cp_model.CpSolver,
-    objective_type: OptimizationObjectiveType,
+    objective_type: OptimizationObjectiveType | None,
     strategy_code: str,
     status: int,
     baseline_credit_hours: float | None,
@@ -266,3 +494,11 @@ def _infeasibility_reason(status: int) -> str:
             "term credit limits, and any fixed target graduation term) for this scenario."
         )
     return "The solver could not find or verify a feasible schedule within the time limit."
+
+
+def _horizon_exhaustion_reason() -> str:
+    """Return the distinct message used after the longest supported horizon fails."""
+    return (
+        "Planning horizon exhausted: no schedule fits within the supported 12-year "
+        "window. Academic requirements or other hard constraints may also conflict."
+    )

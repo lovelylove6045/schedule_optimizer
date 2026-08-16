@@ -77,6 +77,7 @@ class ScenarioCreate(BaseModel):
     default_maximum_credits: float | None = None
     full_time_minimum_credits: float | None = None
     allow_summer: bool = True
+    summer_maximum_credits: float = Field(default=9, ge=0, le=18)
     # Forces the generated plan's total credit hours to reach the officially
     # published total_credit_hours of the scenario's major(s), not just the
     # specific requirement nodes those programs happen to name. Default on;

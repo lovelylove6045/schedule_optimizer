@@ -161,8 +161,7 @@ def _programs_touched_by_course(
     set_to_programs: dict[int, set[int]],
     course_by_allocation: dict[int, int],
 ) -> dict[int, set[int]]:
-    """Map course_id -> the union of program_ids reached through every
-    allocation that resolves to that course."""
+    """Map courses to exclusive program owners, ignoring inherited/common sets."""
     result: dict[int, set[int]] = {}
     for allocation in allocations:
         course_id = course_by_allocation.get(allocation.requirement_allocation_id)
@@ -170,5 +169,6 @@ def _programs_touched_by_course(
             continue
         requirement_set_id = node_to_set.get(allocation.requirement_node_id)
         programs = set_to_programs.get(requirement_set_id, set())
-        result.setdefault(course_id, set()).update(programs)
+        if len(programs) == 1:
+            result.setdefault(course_id, set()).update(programs)
     return result

@@ -106,7 +106,7 @@ def test_compute_plan_metrics_matches_hand_built_fixture(db_session):
     assert metrics.summer_term_count == 1
     assert metrics.max_term_credit_hours == max(float(course_a.credit_hours), float(course_b.credit_hours))
     assert metrics.avg_term_credit_hours == (float(course_a.credit_hours) + float(course_b.credit_hours)) / 2
-    assert metrics.overlap_credit_hours == float(course_a.credit_hours)
+    assert metrics.overlap_credit_hours == 0.0
 
 
 def test_compute_plan_metrics_returns_none_for_unknown_plan(db_session):

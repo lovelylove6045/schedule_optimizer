@@ -5,6 +5,7 @@ import { ErrorState } from "@/components/shared/error-state"
 import { LoadingState } from "@/components/shared/loading-state"
 import { CatalogProgramDetail } from "@/components/catalog/catalog-program-detail"
 import { CatalogProgramList } from "@/components/catalog/catalog-program-list"
+import { CatalogSnapshotNotice } from "@/components/catalog/catalog-snapshot-notice"
 import { useCollegesQuery } from "@/hooks/use-colleges"
 import { useProgramsQuery } from "@/hooks/use-programs"
 import type { ProgramType } from "@/lib/types"
@@ -19,6 +20,7 @@ export function CatalogPage() {
   const [collegeId, setCollegeId] = useState<number | null>(null)
   const [search, setSearch] = useState("")
   const [programType, setProgramType] = useState<ProgramType | "ALL">("ALL")
+  const [departmentId, setDepartmentId] = useState<number | null>(null)
   const [selectedProgramId, setSelectedProgramId] = useState<number | null>(null)
   if (collegesQuery.isPending || programsQuery.isPending) {
     return <LoadingState label="Loading the catalog…" rows={6} />
@@ -27,8 +29,17 @@ export function CatalogPage() {
     return <ErrorState message="Couldn't load the catalog from the server." />
   }
   const programsInCollege = programsQuery.data.filter(
-    (program) => collegeId === null || program.college_id === collegeId,
+    (program) =>
+      (collegeId === null || program.college_id === collegeId) &&
+      (departmentId === null || program.department_id === departmentId),
   )
+  const departments = Array.from(
+    new Map(
+      programsQuery.data
+        .filter((program) => collegeId === null || program.college_id === collegeId)
+        .map((program) => [program.department_id, program.department_name ?? program.department_code ?? "Department"]),
+    ),
+  ).sort((a, b) => a[1].localeCompare(b[1]))
   const selectedProgram = programsQuery.data.find((program) => program.academic_program_id === selectedProgramId)
   return (
     <div className="space-y-6">
@@ -38,12 +49,27 @@ export function CatalogPage() {
           Browse every college, program, and requirement in the catalog before you start planning.
         </p>
       </div>
+      <CatalogSnapshotNotice />
       <CollegeFilterBar
         colleges={collegesQuery.data}
         totalProgramCount={programsQuery.data.length}
         selectedCollegeId={collegeId}
-        onSelectCollege={setCollegeId}
+        onSelectCollege={(nextCollegeId) => {
+          setCollegeId(nextCollegeId)
+          setDepartmentId(null)
+        }}
       />
+      <select
+        aria-label="Filter by department"
+        className="h-9 rounded-md border bg-background px-3 text-sm"
+        value={departmentId ?? "ALL"}
+        onChange={(event) => setDepartmentId(event.target.value === "ALL" ? null : Number(event.target.value))}
+      >
+        <option value="ALL">All departments</option>
+        {departments.map(([id, name]) => (
+          <option key={id} value={id}>{name}</option>
+        ))}
+      </select>
       <div className="grid gap-4 lg:grid-cols-[22rem_1fr]">
         <div className="glass-panel h-[36rem] rounded-xl p-4">
           <CatalogProgramList

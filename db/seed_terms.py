@@ -5,7 +5,7 @@ Every other loader table in this project comes from a real JSON export in
 (schedule_optimizer_db/, catalog_scraper/, or the design doc) lists real
 academic terms. Phase 3's optimizer and every later phase need real `terms`
 rows to attach `planning_scenarios.start_term_id` etc. to, so this generates
-a reasonable calendar (Fall 2026 through Summer 2032, 18 terms) instead.
+a reasonable calendar (Fall 2026 through Summer 2038, 36 terms) instead.
 
 Safe to re-run: only inserts term_codes that don't already exist.
 
@@ -29,7 +29,7 @@ from app.database import SessionLocal  # noqa: E402
 from app.models.term import Term  # noqa: E402
 
 START_YEAR = 2026
-TERM_COUNT = 18
+TERM_COUNT = 36
 TERM_CYCLE = (("FALL", 0), ("SPRING", 1), ("SUMMER", 1))
 TERM_DATE_RANGES = {
     "FALL": ((8, 25), (12, 15)),

@@ -11,6 +11,16 @@ export function generatePlans(scenarioId: number): Promise<DegreePlanOut[]> {
   return apiFetch<DegreePlanOut[]>(`/scenarios/${scenarioId}/generate`, { method: "POST" })
 }
 
+/** Generate the lexicographic recommended plan without waiting for alternatives. */
+export function generateRecommendedPlan(scenarioId: number): Promise<DegreePlanOut> {
+  return apiFetch<DegreePlanOut>(`/scenarios/${scenarioId}/generate/recommended`, { method: "POST" })
+}
+
+/** Generate independent alternatives after the recommended plan is usable. */
+export function generateAlternativePlans(scenarioId: number): Promise<DegreePlanOut[]> {
+  return apiFetch<DegreePlanOut[]>(`/scenarios/${scenarioId}/generate/alternatives`, { method: "POST" })
+}
+
 /** Fetch every already-generated plan for a scenario. */
 export function listScenarioPlans(scenarioId: number): Promise<DegreePlanOut[]> {
   return apiFetch<DegreePlanOut[]>(`/scenarios/${scenarioId}/plans`)

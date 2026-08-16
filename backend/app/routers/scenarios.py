@@ -34,6 +34,28 @@ def generate_plans(planning_scenario_id: int, db: Session = Depends(get_db)) -> 
         raise HTTPException(status_code=404, detail=str(exc)) from exc
 
 
+@router.post("/scenarios/{planning_scenario_id}/generate/recommended", response_model=DegreePlanOut)
+def generate_recommended_plan(
+    planning_scenario_id: int, db: Session = Depends(get_db)
+) -> DegreePlanOut:
+    """Generate and return the recommended plan before any alternatives are solved."""
+    try:
+        return plan_generation_service.generate_and_persist_recommended_plan(db, planning_scenario_id)
+    except ValueError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+
+
+@router.post("/scenarios/{planning_scenario_id}/generate/alternatives", response_model=list[DegreePlanOut])
+def generate_alternative_plans(
+    planning_scenario_id: int, db: Session = Depends(get_db)
+) -> list[DegreePlanOut]:
+    """Generate strategy alternatives without replacing the usable recommended plan."""
+    try:
+        return plan_generation_service.generate_and_persist_alternative_plans(db, planning_scenario_id)
+    except ValueError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+
+
 @router.get("/scenarios/{planning_scenario_id}/plans", response_model=list[DegreePlanOut])
 def list_scenario_plans(planning_scenario_id: int, db: Session = Depends(get_db)) -> list[DegreePlanOut]:
     """Return every already-generated plan for a scenario, newest first. Lets the

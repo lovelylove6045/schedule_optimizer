@@ -4,10 +4,14 @@ student's completed coursework (`student_credits`)."""
 
 from __future__ import annotations
 
+from dataclasses import dataclass
+
 from sqlalchemy.orm import Session
 
 from app.models.course import Course
 from app.models.course_group_member import CourseGroupMember
+from app.models.course_relation import CourseRelation
+from app.models.enums import CourseRelationType
 from app.models.student_credit import StudentCredit
 from app.schemas.requirement import RequirementNodeOut, RequirementSetOut
 
@@ -42,6 +46,15 @@ _GRADE_POINTS = {
 PLANNED_GRADE_SENTINEL = "PLANNED"
 
 
+@dataclass(frozen=True)
+class GroupMember:
+    """Describe the catalog attributes needed to evaluate one group member."""
+
+    credit_hours: float
+    subject_id: int
+    course_level: int
+
+
 def match_completed_courses(
     db: Session,
     student_id: int,
@@ -56,6 +69,7 @@ def match_completed_courses(
     best_grade_by_course = _best_completed_grade_by_course(db, student_id)
     for course_id in extra_completed_course_ids or set():
         best_grade_by_course.setdefault(course_id, PLANNED_GRADE_SENTINEL)
+    best_grade_by_course = _expand_equivalent_grades(db, best_grade_by_course)
     course_group_ids = _collect_course_group_ids(requirement_set.nodes)
     members_by_group = _load_course_group_members(db, course_group_ids)
     new_nodes = [_evaluate_node(node, best_grade_by_course, members_by_group) for node in requirement_set.nodes]
@@ -77,6 +91,32 @@ def _best_completed_grade_by_course(db: Session, student_id: int) -> dict[int, s
         if credit.course_id not in best or _grade_rank(credit.grade) > _grade_rank(best[credit.course_id]):
             best[credit.course_id] = credit.grade
     return best
+
+
+def _expand_equivalent_grades(
+    db: Session, best_grade_by_course: dict[int, str | None]
+) -> dict[int, str | None]:
+    """Apply directed cross-listed/equivalent relations to completed-course matching."""
+    if not best_grade_by_course:
+        return best_grade_by_course
+    course_ids = set(best_grade_by_course)
+    rows = (
+        db.query(CourseRelation)
+        .filter(
+            CourseRelation.relation_type.in_(
+                (CourseRelationType.CROSS_LISTED, CourseRelationType.EQUIVALENT)
+            ),
+            (CourseRelation.course_id.in_(course_ids) | CourseRelation.related_course_id.in_(course_ids)),
+        )
+        .all()
+    )
+    expanded = dict(best_grade_by_course)
+    for relation in rows:
+        if relation.course_id in best_grade_by_course:
+            expanded.setdefault(relation.related_course_id, best_grade_by_course[relation.course_id])
+        if relation.is_bidirectional and relation.related_course_id in best_grade_by_course:
+            expanded.setdefault(relation.course_id, best_grade_by_course[relation.related_course_id])
+    return expanded
 
 
 def _grade_rank(grade: str | None) -> float:
@@ -112,28 +152,36 @@ def _collect_course_group_ids(nodes: list[RequirementNodeOut]) -> set[int]:
     return ids
 
 
-def _load_course_group_members(db: Session, course_group_ids: set[int]) -> dict[int, dict[int, float]]:
+def _load_course_group_members(
+    db: Session, course_group_ids: set[int]
+) -> dict[int, dict[int, GroupMember]]:
     """Fetch each course group's member courses as {course_id: credit_hours}, keyed by
     course_group_id. Credit hours come along because a COURSE_GROUP node's threshold is
     usually expressed in credit hours rather than a course count (see `_is_group_satisfied`)."""
     if not course_group_ids:
         return {}
     rows = (
-        db.query(CourseGroupMember.course_group_id, CourseGroupMember.course_id, Course.credit_hours)
+        db.query(
+            CourseGroupMember.course_group_id,
+            CourseGroupMember.course_id,
+            Course.credit_hours,
+            Course.subject_id,
+            Course.course_level,
+        )
         .join(Course, Course.course_id == CourseGroupMember.course_id)
         .filter(CourseGroupMember.course_group_id.in_(course_group_ids))
         .all()
     )
-    members: dict[int, dict[int, float]] = {cgid: {} for cgid in course_group_ids}
-    for group_id, course_id, credit_hours in rows:
-        members[group_id][course_id] = float(credit_hours)
+    members: dict[int, dict[int, GroupMember]] = {cgid: {} for cgid in course_group_ids}
+    for group_id, course_id, credit_hours, subject_id, course_level in rows:
+        members[group_id][course_id] = GroupMember(float(credit_hours), subject_id, course_level)
     return members
 
 
 def _evaluate_node(
     node: RequirementNodeOut,
     best_grade_by_course: dict[int, str | None],
-    members_by_group: dict[int, dict[int, float]],
+    members_by_group: dict[int, dict[int, GroupMember]],
 ) -> RequirementNodeOut:
     """Recursively evaluate a node's descendants first, then return a copy
     of the node with its own `is_satisfied` filled in."""
@@ -146,12 +194,16 @@ def _is_node_satisfied(
     node: RequirementNodeOut,
     children: list[RequirementNodeOut],
     best_grade_by_course: dict[int, str | None],
-    members_by_group: dict[int, dict[int, float]],
+    members_by_group: dict[int, dict[int, GroupMember]],
 ) -> bool:
     """Determine whether one node is satisfied, given its already-evaluated children."""
     if node.node_type == "COURSE" and node.required_course is not None:
         course_id = node.required_course.course_id
-        return course_id in best_grade_by_course and _meets_minimum_grade(
+        meets_level = (
+            node.minimum_course_level is None
+            or node.required_course.course_level >= node.minimum_course_level
+        )
+        return meets_level and course_id in best_grade_by_course and _meets_minimum_grade(
             best_grade_by_course[course_id], node.minimum_grade
         )
     if node.node_type == "COURSE_GROUP" and node.course_group is not None:
@@ -169,10 +221,9 @@ def _is_node_satisfied(
 def _is_group_satisfied(
     node: RequirementNodeOut,
     best_grade_by_course: dict[int, str | None],
-    members_by_group: dict[int, dict[int, float]],
+    members_by_group: dict[int, dict[int, GroupMember]],
 ) -> bool:
     """Determine whether a COURSE_GROUP leaf is satisfied by completed coursework.
-
     A group carries its threshold in `required_credit_hours` (240 of the 252 real
     COURSE_GROUP nodes do -- e.g. "Gen Ed HASS, 15 credit hours"), in
     `required_count`, or in both; whichever are present must all hold. This used to
@@ -181,15 +232,23 @@ def _is_group_satisfied(
     members = members_by_group.get(node.course_group.course_group_id, {})
     satisfying = [
         course_id
-        for course_id in members
+        for course_id, member in members.items()
         if course_id in best_grade_by_course
+        and (node.minimum_course_level is None or member.course_level >= node.minimum_course_level)
         and _meets_minimum_grade(best_grade_by_course[course_id], node.minimum_grade)
     ]
     if node.required_count is not None and len(satisfying) < node.required_count:
         return False
     if node.required_credit_hours is not None:
-        earned = sum(members[course_id] for course_id in satisfying)
-        return earned >= node.required_credit_hours
+        earned = sum(members[course_id].credit_hours for course_id in satisfying)
+        if earned < node.required_credit_hours:
+            return False
+    if node.minimum_distinct_subjects is not None:
+        distinct_subjects = {members[course_id].subject_id for course_id in satisfying}
+        if len(distinct_subjects) < node.minimum_distinct_subjects:
+            return False
+    if node.required_credit_hours is not None:
+        return True
     # Neither threshold given: a single member completed is all this group asks for.
     return len(satisfying) >= 1
 

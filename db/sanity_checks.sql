@@ -31,8 +31,8 @@ WHERE target_course_id = required_course_id;
 -- Query 3: Strict-PREREQUISITE-only cycles (a course that indirectly
 -- requires itself through a chain of *hard* prerequisites, ignoring
 -- COREQUISITE/PRE_OR_COREQUISITE/RECOMMENDED edges, which are allowed to be
--- mutual). As of the full-catalog load this returns ~280 courses -- see
--- db/SUMMARY.md ("known limitation: language/ladder course clusters") for
+-- mutual). The FA26 snapshot returns exactly 4 courses -- see db/SUMMARY.md
+-- ("known characteristics: level-or-above course clusters") for
 -- why this is a real, expected property of the source data rather than a
 -- bug: e.g. "Russian 1180 or above" is parsed as one COURSE node per
 -- matching course, so every course at or above that level lists every

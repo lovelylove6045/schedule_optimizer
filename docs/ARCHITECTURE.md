@@ -38,7 +38,7 @@ Base schema comes from `schedule_optimizer.sql`, extended per the recommendation
 3. **Students & scenarios** — `students`, `student_credits`, `planning_scenarios`, `scenario_programs`, `scenario_terms`, `scenario_preferences`, `scenario_objectives`.
 4. **Generated plans** — `degree_plans`, `plan_courses`, `requirement_allocations`, `optimization_messages`.
 
-Data source: `schedule_optimizer_db/*.json` — every file is already shaped like its destination table (departments/subjects/courses/course groups/requirement trees/prerequisite rule nodes), so `db/load_catalog.py` upserts all of it directly, no parsing step needed. (`catalog_scraper/output/*_courses.json`, raw scraped catalog text, was used for a first pass at deriving prerequisites before `schedule_optimizer_db/course_rule_nodes.json` was found to already have that data in structured form — see `db/SUMMARY.md` §2. It's no longer read by anything.)
+Data source: `schedule_optimizer_db/*.json` — every file is already shaped like its destination table, so `db/load_catalog.py` upserts it directly. The application is explicitly a Missouri S&T FA26 / 2026 snapshot. `catalog_scraper/` is historical/offline preparation code and is never part of application runtime.
 
 The first data load was initially narrowed to one primary program + its minor while `schedule_optimizer_db` still only had one program's requirement tree fully built out; it now covers the entire catalog (147 programs, 146 with requirement data) — see `docs/PHASES.md` §1.3.
 
@@ -76,9 +76,19 @@ Model sketch:
   - Term availability (`scenario_terms.is_excluded`, summer opt-in/out).
   - Requirement coverage — every `requirement_node` must be satisfied by at least the required count/credits of allocated courses, respecting `allow_shared_course` and `overlap_policies`.
   - Locked/preferred courses (`scenario_preferences` hard constraints).
-- **Objective(s)**: weighted combination driven by `scenario_objectives` (earliest graduation, min additional credits, max overlap, balanced workload, min summer enrollment), following the rule hierarchy in the product spec (Section 7.10 / 8.4): academic validity → mandatory constraints → overlap maximization → objective optimization → ranking.
-- **Multiple plans**: re-solve with diversity constraints (e.g., forbid reusing the exact same course-set) or use OR-Tools' solution pool to collect several distinct feasible solutions, then keep the top N meaningfully-different ones per UC-44.
-- **Output**: for each solution, persist `degree_plans` + `plan_courses` + `requirement_allocations`, and derive `optimization_messages` for warnings/explanations.v
+
+The recommended solve is lexicographic: minimize the smallest academically
+complete coursework set, then solve the student's ordered priorities one at a
+time, locking each achieved value. Soft academic-quality stages follow, including
+early-5000 avoidance, same-department elective value, and bottleneck sequencing.
+The model preserves whether each stage was `OPTIMAL` or only `FEASIBLE`.
+
+The primary endpoint persists one recommended plan immediately. A separate
+alternative endpoint runs independent strategies under a hard shared deadline and
+filters alternatives with identical course sets, graduation term, and credits.
+- **Objective(s)**: true ordered optimization driven by `scenario_objectives` after academic validity and minimum necessary coursework are fixed; there is no weighted approximation.
+- **Multiple plans**: independently re-solve strategy alternatives, then reject exact and semantic duplicates (same course set, graduation term, and total credits).
+- **Output**: persist `degree_plans` + `plan_courses` + actual `requirement_allocations`, and derive `optimization_messages` for warnings and explanations.
 
 Keep the CP-SAT model isolated behind `optimizer_service` so it can be unit-tested against small, hand-verified scenarios independent of the API/DB.
 

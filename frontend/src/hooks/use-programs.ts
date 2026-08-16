@@ -30,7 +30,7 @@ export function useProgramOverlapSuggestionsQuery(primaryProgramId: number | nul
   return useQuery({
     queryKey: ["programs", primaryProgramId, "overlap-suggestions", programType],
     queryFn: () => getProgramOverlapSuggestions(primaryProgramId as number, programType),
-    enabled: primaryProgramId !== null,
+    enabled: primaryProgramId !== null && programType !== undefined,
     staleTime: Infinity,
   })
 }

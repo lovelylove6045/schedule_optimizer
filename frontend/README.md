@@ -1,4 +1,14 @@
-# React + TypeScript + Vite
+# Schedule Optimizer Frontend
+
+React + TypeScript + Vite interface for the Missouri S&T FA26 / 2026 planning
+prototype. The wizard selects a primary major first, organizes second majors and
+minors by department, and only shows emphases related to a selected major. Users
+choose one primary optimization goal and up to two secondary priorities.
+
+The recommended plan renders before separately generated alternatives. The plan
+board exposes course roles, explanations, validated edit affordances, and a visible
+advisor disclaimer. A reusable catalog dialog loads a selected program's requirement
+tree without discarding wizard or results state.
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 

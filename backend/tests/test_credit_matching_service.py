@@ -1,5 +1,9 @@
 from app.models.student import Student
 from app.models.student_credit import StudentCredit
+from app.models.course import Course
+from app.models.course_group import CourseGroup
+from app.models.course_group_member import CourseGroupMember
+from app.schemas.course import CourseGroupOut
 from app.schemas.requirement import RequirementNodeOut, RequirementSetOut
 from app.services import credit_matching_service, requirement_service
 from app.services.common import load_courses_by_id
@@ -178,6 +182,88 @@ def test_course_group_with_no_threshold_needs_only_one_member(db_session):
     matched = credit_matching_service.match_completed_courses(db_session, student_id, untresholded)
 
     assert matched.nodes[0].is_satisfied is True
+
+
+def test_course_group_requires_minimum_distinct_subjects(db_session):
+    """Reject enough group credits from one subject and accept the same credits across two."""
+    same_subject = (
+        db_session.query(Course)
+        .filter(Course.credit_hours == 3)
+        .order_by(Course.subject_id, Course.course_id)
+        .all()
+    )
+    first = next(course for course in same_subject if sum(row.subject_id == course.subject_id for row in same_subject) >= 2)
+    second = next(course for course in same_subject if course.subject_id == first.subject_id and course.course_id != first.course_id)
+    other = next(course for course in same_subject if course.subject_id != first.subject_id)
+    tree = _synthetic_group_tree(db_session, [first, second, other], required_credit_hours=6, minimum_distinct_subjects=2)
+    one_subject_student = _make_student(db_session)
+    _add_completed_credit(db_session, one_subject_student, first.course_id)
+    _add_completed_credit(db_session, one_subject_student, second.course_id)
+    assert credit_matching_service.match_completed_courses(db_session, one_subject_student, tree).nodes[0].is_satisfied is False
+    two_subject_student = _make_student(db_session)
+    _add_completed_credit(db_session, two_subject_student, first.course_id)
+    _add_completed_credit(db_session, two_subject_student, other.course_id)
+    assert credit_matching_service.match_completed_courses(db_session, two_subject_student, tree).nodes[0].is_satisfied is True
+
+
+def test_course_group_requirement_minimum_level_overrides_group_membership(db_session):
+    """Count only group members at or above a requirement node's course-level floor."""
+    low = db_session.query(Course).filter(Course.course_level < 4000).first()
+    high = db_session.query(Course).filter(Course.course_level >= 4000).first()
+    tree = _synthetic_group_tree(db_session, [low, high], required_count=1, minimum_course_level=4000)
+    low_student = _make_student(db_session)
+    _add_completed_credit(db_session, low_student, low.course_id)
+    assert credit_matching_service.match_completed_courses(db_session, low_student, tree).nodes[0].is_satisfied is False
+    high_student = _make_student(db_session)
+    _add_completed_credit(db_session, high_student, high.course_id)
+    assert credit_matching_service.match_completed_courses(db_session, high_student, tree).nodes[0].is_satisfied is True
+
+
+def test_cross_listed_completed_course_satisfies_related_course_requirement(db_session):
+    """Apply a real bidirectional CROSS_LISTED relation during completed-credit matching."""
+    required = load_courses_by_id(db_session, {35})[35]
+    student_id = _make_student(db_session)
+    _add_completed_credit(db_session, student_id, 454)
+    tree = _single_course_node_tree(required, minimum_grade="D")
+    matched = credit_matching_service.match_completed_courses(db_session, student_id, tree)
+    assert matched.nodes[0].is_satisfied is True
+
+
+def _synthetic_group_tree(
+    db_session,
+    courses: list[Course],
+    required_credit_hours: float | None = None,
+    required_count: int | None = None,
+    minimum_distinct_subjects: int | None = None,
+    minimum_course_level: int | None = None,
+) -> RequirementSetOut:
+    """Create a transactional course group and return one synthetic requirement tree for it."""
+    group = CourseGroup(
+        course_group_code=f"TEST-{courses[0].course_id}-{courses[-1].course_id}",
+        course_group_name="Synthetic group",
+        course_group_type="TEST",
+    )
+    db_session.add(group)
+    db_session.flush()
+    for course in courses:
+        db_session.add(CourseGroupMember(course_group_id=group.course_group_id, course_id=course.course_id))
+    db_session.flush()
+    node = RequirementNodeOut(
+        requirement_node_id=-group.course_group_id,
+        node_type="COURSE_GROUP",
+        course_group=CourseGroupOut.model_validate(group),
+        required_credit_hours=required_credit_hours,
+        required_count=required_count,
+        minimum_distinct_subjects=minimum_distinct_subjects,
+        minimum_course_level=minimum_course_level,
+    )
+    return RequirementSetOut(
+        requirement_set_id=-group.course_group_id,
+        requirement_set_code="SYNTHETIC",
+        requirement_set_name="Synthetic",
+        requirement_set_type="TEST",
+        nodes=[node],
+    )
 
 
 def _node_by_id(nodes: list[RequirementNodeOut], node_id: int) -> RequirementNodeOut | None:

@@ -3,7 +3,14 @@ from sqlalchemy.orm import Session
 
 from app.database import get_db
 from app.schemas.course import CourseOut
-from app.schemas.plan import DegreePlanOut, PlanComparisonOut, PlanCourseAddIn, PlanCourseSwapIn, PlanMetricsOut
+from app.schemas.plan import (
+    DegreePlanOut,
+    PlanComparisonOut,
+    PlanCourseAddIn,
+    PlanCourseMoveIn,
+    PlanCourseSwapIn,
+    PlanMetricsOut,
+)
 from app.schemas.requirement import RequirementSetOut
 from app.services import (
     optimizer_persistence,
@@ -11,6 +18,7 @@ from app.services import (
     plan_requirement_service,
     plan_swap_service,
     plan_swap_validation,
+    plan_validation_service,
     requirement_choice_service,
 )
 
@@ -73,9 +81,8 @@ def swap_plan_course(
     except (
         plan_swap_service.CourseNotFoundError,
         plan_swap_service.DuplicateCourseError,
-        plan_swap_validation.CourseNotOfferedInTermError,
-        plan_swap_validation.TermCreditCapExceededError,
-        plan_swap_validation.PrerequisiteNotMetError,
+        plan_swap_validation.PlanEditConstraintError,
+        plan_validation_service.PlanAcademicValidationError,
     ) as exc:
         raise HTTPException(status_code=422, detail=str(exc)) from exc
     return _reload_plan_or_404(db, degree_plan_id)
@@ -93,9 +100,8 @@ def add_plan_course(degree_plan_id: int, payload: PlanCourseAddIn, db: Session =
     except (
         plan_swap_service.CourseNotFoundError,
         plan_swap_service.DuplicateCourseError,
-        plan_swap_validation.CourseNotOfferedInTermError,
-        plan_swap_validation.TermCreditCapExceededError,
-        plan_swap_validation.PrerequisiteNotMetError,
+        plan_swap_validation.PlanEditConstraintError,
+        plan_validation_service.PlanAcademicValidationError,
     ) as exc:
         raise HTTPException(status_code=422, detail=str(exc)) from exc
     return _reload_plan_or_404(db, degree_plan_id)
@@ -109,6 +115,31 @@ def remove_plan_course(degree_plan_id: int, plan_course_id: int, db: Session = D
         plan_swap_service.remove_plan_course(db, degree_plan_id, plan_course_id)
     except plan_swap_service.PlanCourseNotFoundError as exc:
         raise HTTPException(status_code=404, detail=str(exc)) from exc
+    except (
+        plan_validation_service.PlanAcademicValidationError,
+        plan_swap_validation.PlanEditConstraintError,
+    ) as exc:
+        raise HTTPException(status_code=422, detail=str(exc)) from exc
+    return _reload_plan_or_404(db, degree_plan_id)
+
+
+@router.post("/plans/{degree_plan_id}/courses/{plan_course_id}/move", response_model=DegreePlanOut)
+def move_plan_course(
+    degree_plan_id: int,
+    plan_course_id: int,
+    payload: PlanCourseMoveIn,
+    db: Session = Depends(get_db),
+) -> DegreePlanOut:
+    """Move a course to another term after validating the entire resulting plan."""
+    try:
+        plan_swap_service.move_plan_course(db, degree_plan_id, plan_course_id, payload.term_id)
+    except (plan_swap_service.PlanCourseNotFoundError, plan_swap_service.TermNotFoundError) as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    except (
+        plan_swap_validation.PlanEditConstraintError,
+        plan_validation_service.PlanAcademicValidationError,
+    ) as exc:
+        raise HTTPException(status_code=422, detail=str(exc)) from exc
     return _reload_plan_or_404(db, degree_plan_id)
 
 

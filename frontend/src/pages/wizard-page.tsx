@@ -14,7 +14,7 @@ import { StepCourseChoices } from "@/components/wizard/step-course-choices"
 import { StepPlanningConstraints } from "@/components/wizard/step-planning-constraints"
 import { StepObjectiveSelection } from "@/components/wizard/step-objective-selection"
 import { StepReview, isDraftSubmittable } from "@/components/wizard/step-review"
-import { useCreateScenarioMutation, useGeneratePlansMutation } from "@/hooks/use-scenario-mutations"
+import { useCreateScenarioMutation, useGenerateRecommendedPlanMutation } from "@/hooks/use-scenario-mutations"
 import {
   ScenarioBuilderProvider,
   WIZARD_STEPS,
@@ -23,6 +23,7 @@ import {
   type WizardDraft,
 } from "@/state/scenario-builder-context"
 import type { ScenarioCreate, ScenarioPreferenceIn } from "@/lib/types"
+import { CatalogSnapshotNotice } from "@/components/catalog/catalog-snapshot-notice"
 
 /** Route entry point for "/": wraps the 8-step scenario wizard in its own draft context. */
 export function WizardPage() {
@@ -38,14 +39,14 @@ function WizardContent() {
   const { draft, dispatch } = useScenarioBuilder()
   const navigate = useNavigate()
   const createScenario = useCreateScenarioMutation()
-  const generatePlans = useGeneratePlansMutation()
+  const generateRecommendedPlan = useGenerateRecommendedPlanMutation()
   const [submitError, setSubmitError] = useState<string | null>(null)
   const ribbonItems: TermRibbonItem[] = WIZARD_STEPS.map(({ step, label }) => ({
     id: step,
     label,
     state: step < draft.step ? "completed" : step === draft.step ? "current" : "upcoming",
   }))
-  const isSubmitting = createScenario.isPending || generatePlans.isPending
+  const isSubmitting = createScenario.isPending || generateRecommendedPlan.isPending
   const blockingReason = blockingReasonForStep(draft)
 
   /** Create the scenario, generate its plans, and navigate to the results page. */
@@ -56,7 +57,8 @@ function WizardContent() {
     })
     try {
       const { planning_scenario_id } = await createScenario.mutateAsync(buildScenarioPayload(draft))
-      const plans = await generatePlans.mutateAsync(planning_scenario_id)
+      const recommendedPlan = await generateRecommendedPlan.mutateAsync(planning_scenario_id)
+      const plans = [recommendedPlan]
       const feasible = plans.filter((plan) => plan.status !== "INFEASIBLE")
       if (feasible.length === 0) {
         toast.warning("No plan fits those constraints", {
@@ -64,9 +66,9 @@ function WizardContent() {
           description: "Open the results to see which constraint blocked it and what to relax.",
         })
       } else {
-        toast.success(`Generated ${feasible.length} plan${feasible.length === 1 ? "" : "s"}`, {
+        toast.success("Recommended plan ready", {
           id: progressToast,
-          description: "Compare them side by side on the results page.",
+          description: "You can use it now while alternatives generate separately.",
         })
       }
       navigate(`/plans/${planning_scenario_id}`, { state: { plans } })
@@ -89,6 +91,7 @@ function WizardContent() {
   return (
     <div className="space-y-6">
       <WizardHeader step={draft.step} />
+      <CatalogSnapshotNotice />
       <TermRibbon items={ribbonItems} />
       {stepContent(draft.step)}
       {submitError ? <ErrorState message={submitError} onRetry={handleSubmit} /> : null}
@@ -224,6 +227,7 @@ function buildScenarioPayload(draft: WizardDraft): ScenarioCreate {
     default_minimum_credits: draft.defaultMinimumCredits ?? undefined,
     default_maximum_credits: draft.defaultMaximumCredits ?? undefined,
     allow_summer: draft.allowSummer,
+    summer_maximum_credits: draft.summerMaximumCredits,
     enforce_program_credit_minimum: draft.enforceProgramCreditMinimum,
     programs: [
       { academic_program_id: draft.primaryProgramId, program_role: "PRIMARY_MAJOR" },

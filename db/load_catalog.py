@@ -6,8 +6,9 @@ every prerequisite/corequisite rule), with no scope filtering and no free-
 text parsing. Every one of these JSON files is already shaped exactly like
 its destination table (same column names, same ids), so this script is a
 straight upsert -- see db/SUMMARY.md for why an earlier version of this
-script instead derived prerequisites by regex-parsing catalog_scraper/
-output/*.json, and why that turned out to be unnecessary.
+loader briefly derived prerequisites from unstructured data. The retained
+catalog_scraper/ directory is historical/offline only and is never imported or
+invoked here.
 
 Safe to re-run: every table is keyed by its real primary key from the source
 JSON and loaded with session.merge() (upsert).

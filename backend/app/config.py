@@ -19,6 +19,10 @@ class Settings(BaseSettings):
     postgres_port: int = 5432
 
     cors_allow_origins: str = "http://localhost:5173"
+    cors_allow_origin_regex: str | None = (
+        r"^https?://(?:localhost|127\.0\.0\.1|10(?:\.\d{1,3}){3}|"
+        r"192\.168(?:\.\d{1,3}){2}|172\.(?:1[6-9]|2\d|3[01])(?:\.\d{1,3}){2}):5173$"
+    )
 
     @property
     def database_url(self) -> str:

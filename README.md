@@ -3,6 +3,32 @@ Stellic Pathfinder Challenge - Schedule Optimizer Project for Degree Audits
 
 This is the platform used for the degree optimization for normal degree audits.
 
+> **Prototype catalog scope:** Missouri S&T FA26 / 2026 only. Planning terms may
+> extend into later calendar years, but every academic rule is interpreted from
+> this single snapshot. This is a planning aid, not an official degree audit.
+
+## Catalog data pipeline
+
+```text
+schedule_optimizer_db/*.json
+        |
+        v
+db/load_catalog.py
+        |
+        v
+PostgreSQL
+        |
+        v
+FastAPI services / OR-Tools optimizer
+        |
+        v
+React frontend
+```
+
+`schedule_optimizer_db/` is read-only source data. `catalog_scraper/` is a
+historical/offline preparation utility and is not imported, executed, or queried
+by the loader, API, optimizer, or frontend runtime.
+
 ## Docs
 
 - [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) — tech stack and system design (local PostgreSQL in Docker + Alembic, FastAPI + OR-Tools backend, React frontend, future Azure container deployment).
@@ -83,7 +109,7 @@ Open `.env` and adjust `POSTGRES_USER`/`POSTGRES_PASSWORD` to match your local P
 cd backend
 uv sync                              # installs Python 3.12 (if needed) + all dependencies
 uv run alembic upgrade head          # creates all 28 tables + enum types
-uv run python ../db/seed_terms.py    # generates 18 Fall/Spring/Summer terms (no source JSON for this one)
+uv run python ../db/seed_terms.py    # generates 36 Fall/Spring/Summer terms through 2038
 uv run python ../db/load_catalog.py  # loads the full real catalog: 2,120 courses, 147 programs, every requirement/prerequisite tree
 uv run uvicorn app.main:app --reload
 ```
@@ -147,19 +173,33 @@ See [`docs/PHASES.md`](docs/PHASES.md) for the full build checklist (database sc
 
 ## Plan-board edit limits
 
-Screen 6 (the plan board) supports three per-slot edits on an already-generated plan, none of which re-run the solver:
+The plan board supports four validated edits on an already-generated plan, none of which re-run the full optimizer:
 
 - **Swap** — replace one term's assigned course with an alternative (`POST /plans/{id}/courses/{plan_course_id}/swap`).
 - **Add** — place a brand-new course into a specific term as an extra elective, via the "Add course" search at the bottom of each term column (`POST /plans/{id}/courses`).
 - **Remove** — delete a course from the plan entirely, via the trash icon on its tile (`DELETE /plans/{id}/courses/{plan_course_id}`).
+- **Move** — place an existing course in another term (`POST /plans/{id}/courses/{plan_course_id}/move`).
 
-Swap and add both enforce the same hard constraints the optimizer itself does, so a manual edit can never produce a schedule the solver would have rejected:
+Every edit triggers whole-plan revalidation and requirement-allocation rebuilding. The backend checks offerings, regular/summer caps, prerequisites and downstream dependents, requirement coverage, node-specific course levels, distinct-subject rules, duplicate credit, and the published degree-credit floor.
 
 - **Prerequisites** — placing a course whose prerequisite hasn't been completed or already placed in an earlier term of *this same plan* is rejected (e.g. placing MATH 212 requires MATH 191 already sitting in an earlier semester, or on the student's completed-coursework list).
 - **Term credit cap** — every semester has a maximum credit-hour load (a per-term `scenario_terms` override if the scenario set one, otherwise the scenario's own default maximum). An edit that would push that semester over its cap is rejected.
 - **Term offering** — a course only offered in the fall can't be placed into a spring/summer slot.
 
-These checks live in `backend/app/services/plan_swap_validation.py` (`validate_swap`/`validate_add`), are applied both when listing swap candidates (so the plan board never *offers* an invalid option) and when actually performing an edit (`422` with a plain-language reason if bypassed), and are covered by `backend/tests/test_plan_swap_validation.py`. Removing a course has no such checks -- it can only make a plan's coverage worse, never invalid.
+These checks live in `backend/app/services/plan_swap_validation.py` and `plan_validation_service.py`. A mandatory course is locked in the UI and direct API attempts that would break validity return `422`.
+
+## Optimization behavior
+
+The recommended plan is solved first with ordered lexicographic stages. Each
+achieved higher-priority value is locked before the next selected priority is
+optimized; no weighted approximation is used. A minimum-coursework safeguard
+prevents overlap or department preferences from padding a plan. The API then
+generates semantically distinct alternatives separately.
+
+The shared solver deadline is hard: no new stage or alternative solve starts after
+the budget expires. `OPTIMAL` and `FEASIBLE` are preserved and shown differently.
+Recorded real-catalog regression metrics are in
+[`docs/GOLDEN_SCENARIOS.md`](docs/GOLDEN_SCENARIOS.md).
 
 ## Reaching your major's full credit total
 

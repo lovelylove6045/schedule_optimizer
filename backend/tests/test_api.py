@@ -56,3 +56,29 @@ def test_search_courses_requires_nonempty_query(client):
     response = client.get("/courses", params={"search": ""})
 
     assert response.status_code == 422
+
+
+def test_cors_preflight_accepts_private_lan_frontend(client):
+    """Allow Vite when the frontend is opened through a private LAN address."""
+    response = client.options(
+        "/colleges",
+        headers={
+            "Origin": "http://192.168.1.4:5173",
+            "Access-Control-Request-Method": "GET",
+        },
+    )
+    assert response.status_code == 200
+    assert response.headers["access-control-allow-origin"] == "http://192.168.1.4:5173"
+
+
+def test_cors_preflight_rejects_unconfigured_public_origin(client):
+    """Keep arbitrary public websites outside the local-development CORS boundary."""
+    response = client.options(
+        "/colleges",
+        headers={
+            "Origin": "https://example.com",
+            "Access-Control-Request-Method": "GET",
+        },
+    )
+    assert response.status_code == 400
+    assert "access-control-allow-origin" not in response.headers

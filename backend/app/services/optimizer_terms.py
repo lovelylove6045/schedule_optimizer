@@ -12,14 +12,15 @@ from app.models.scenario_term import ScenarioTerm
 from app.models.term import Term
 
 DEFAULT_MAX_HORIZON_TERMS = 16
+ABSOLUTE_MAX_HORIZON_TERMS = 36
 SUMMER_TERM_TYPE = "SUMMER"
 
 
-def build_term_horizon(db: Session, scenario: PlanningScenario) -> list[Term]:
-    """Return the ordered, eligible `Term`s for one planning scenario: starting at
-    `start_term_id`, capped at `DEFAULT_MAX_HORIZON_TERMS` terms, and truncated at
-    `target_graduation_term_id` if the scenario sets one -- so an unreachable target
-    surfaces as a hard-constraint infeasibility instead of silently being ignored."""
+def build_term_horizon(
+    db: Session, scenario: PlanningScenario, maximum_terms: int = DEFAULT_MAX_HORIZON_TERMS
+) -> list[Term]:
+    """Return eligible terms from the scenario start through the requested safe horizon.
+    Excluded/disallowed summer terms are removed and an explicit target remains hard."""
     start_term = db.get(Term, scenario.start_term_id) if scenario.start_term_id else None
     excluded_term_ids = _load_excluded_term_ids(db, scenario.planning_scenario_id)
     candidate_terms = _load_terms_from(db, start_term)
@@ -29,7 +30,7 @@ def build_term_horizon(db: Session, scenario: PlanningScenario) -> list[Term]:
         if term.term_id not in excluded_term_ids and _is_summer_allowed(term, scenario)
     ]
     eligible_terms = _truncate_at_target(db, scenario, eligible_terms)
-    return eligible_terms[:DEFAULT_MAX_HORIZON_TERMS]
+    return eligible_terms[: min(maximum_terms, ABSOLUTE_MAX_HORIZON_TERMS)]
 
 
 def _truncate_at_target(db: Session, scenario: PlanningScenario, terms: list[Term]) -> list[Term]:

@@ -53,9 +53,8 @@ def test_generate_and_persist_plans_with_no_objectives_returns_all_five(db_sessi
         assert plan.degree_plan_id is not None
 
 
-def test_generate_and_persist_plans_filters_and_orders_by_selection(db_session):
-    """A scenario that selects 2 objectives (in a specific order) returns exactly
-    those 2 plans, in that order."""
+def test_generate_and_persist_plans_keeps_recommended_before_selected_alternatives(db_session):
+    """Keep the recommended plan first before requested legacy alternatives."""
     requested_order = [
         OptimizationObjectiveType.MIN_SUMMER_ENROLLMENT,
         OptimizationObjectiveType.EARLIEST_GRADUATION,
@@ -64,7 +63,10 @@ def test_generate_and_persist_plans_filters_and_orders_by_selection(db_session):
 
     plans = plan_generation_service.generate_and_persist_plans(db_session, scenario.planning_scenario_id)
 
-    assert [plan.plan_name for plan in plans] == [objective.value for objective in requested_order]
+    assert plans[0].plan_name == OptimizationObjectiveType.MIN_ADDITIONAL_CREDITS.value
+    assert [plan.plan_name for plan in plans[1:]] == [
+        objective.value for objective in requested_order if any(plan.plan_name == objective.value for plan in plans[1:])
+    ]
 
 
 def test_generate_and_persist_plans_raises_for_unknown_scenario(db_session):

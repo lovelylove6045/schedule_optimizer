@@ -48,6 +48,10 @@ export function PlanBoard({ plan, onPlanUpdated }: PlanBoardProps) {
   return (
     <div className="space-y-6">
       <PlanSummaryCard plan={plan} />
+      <div className="flex flex-wrap gap-2 text-xs text-muted-foreground" aria-label="Course category legend">
+        <span>Blue: primary requirement</span><span>Green: shared</span><span>Purple: additional program</span>
+        <span>Amber: degree-credit elective</span><span>Gray: exploratory</span>
+      </div>
       <TermRibbon items={ribbonItems} className="hidden sm:flex" />
       <div className="scrollbar-slim grid snap-x grid-flow-col auto-cols-[minmax(230px,1fr)] gap-4 overflow-x-auto pb-3">
         {columns.map(({ term, courses, totalCredits }) => (

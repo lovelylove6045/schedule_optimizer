@@ -24,6 +24,8 @@ from app.services.scenario_service import ScenarioReferenceNotFoundError, Scenar
 
 AERO_BS_PROGRAM_ID = 1
 AERO_MINOR_PROGRAM_ID = 2
+COMPUTER_SCIENCE_BS_PROGRAM_ID = 61
+AI_EMPHASIS_PROGRAM_ID = 62
 COMP_SCI_1972_COURSE_ID = 1122
 
 
@@ -112,6 +114,66 @@ def test_create_scenario_rejects_unknown_start_term_id(db_session):
     )
 
     with pytest.raises(ScenarioReferenceNotFoundError):
+        scenario_service.create_scenario(db_session, payload)
+
+
+def test_create_scenario_accepts_emphasis_with_its_parent_major(db_session):
+    """Accept an emphasis only when its HAS_EMPHASIS parent major is selected."""
+    start_term = _two_terms(db_session)[0]
+    payload = ScenarioCreate(
+        start_term_id=start_term.term_id,
+        programs=[
+            ScenarioProgramIn(
+                academic_program_id=COMPUTER_SCIENCE_BS_PROGRAM_ID,
+                program_role=ScenarioProgramRole.PRIMARY_MAJOR,
+            ),
+            ScenarioProgramIn(
+                academic_program_id=AI_EMPHASIS_PROGRAM_ID,
+                program_role=ScenarioProgramRole.EMPHASIS,
+            ),
+        ],
+    )
+    scenario = scenario_service.create_scenario(db_session, payload)
+    assert scenario.planning_scenario_id is not None
+
+
+def test_create_scenario_rejects_unrelated_emphasis(db_session):
+    """Reject the Computer Science AI emphasis when Aerospace is the only major."""
+    start_term = _two_terms(db_session)[0]
+    payload = ScenarioCreate(
+        start_term_id=start_term.term_id,
+        programs=[
+            ScenarioProgramIn(
+                academic_program_id=AERO_BS_PROGRAM_ID,
+                program_role=ScenarioProgramRole.PRIMARY_MAJOR,
+            ),
+            ScenarioProgramIn(
+                academic_program_id=AI_EMPHASIS_PROGRAM_ID,
+                program_role=ScenarioProgramRole.EMPHASIS,
+            ),
+        ],
+    )
+    with pytest.raises(ScenarioValidationError, match="compatible major"):
+        scenario_service.create_scenario(db_session, payload)
+
+
+def test_create_scenario_rejects_role_program_type_mismatch(db_session):
+    """Reject a minor catalog program submitted under the SECOND_MAJOR role."""
+    start_term = _two_terms(db_session)[0]
+    payload = ScenarioCreate(
+        start_term_id=start_term.term_id,
+        programs=[
+            ScenarioProgramIn(
+                academic_program_id=AERO_BS_PROGRAM_ID,
+                program_role=ScenarioProgramRole.PRIMARY_MAJOR,
+            ),
+            ScenarioProgramIn(
+                academic_program_id=AERO_MINOR_PROGRAM_ID,
+                program_role=ScenarioProgramRole.SECOND_MAJOR,
+            ),
+        ],
+    )
+    with pytest.raises(ScenarioValidationError, match="requires a major"):
         scenario_service.create_scenario(db_session, payload)
 
 

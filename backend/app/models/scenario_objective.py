@@ -1,4 +1,4 @@
-"""Named, weighted objective terms for the CP-SAT model, e.g. minimize terms vs. balance load."""
+"""Named scenario priorities stored in explicit lexicographic display order."""
 
 from sqlalchemy import ForeignKey, Numeric
 from sqlalchemy.orm import Mapped, mapped_column

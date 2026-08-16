@@ -3,11 +3,10 @@ requirements double up with a given program's -- so a student picking a
 second program can see which ones mostly reuse courses they'd take anyway,
 instead of quietly stacking on a mostly-separate set of extra classes.
 
-Computed from the same course-level data the optimizer already ranks in
-`optimizer_objectives.MAX_REQUIREMENT_OVERLAP`, but at the catalog level
-(every course either program *could* require) rather than one scenario's
-solved assignments -- this runs before a scenario exists, while a student is
-still choosing what to study."""
+This is a catalog-level estimate shown before a scenario exists. Shared
+inherited requirement sets are removed from the candidate program's delta,
+and broad groups are ignored, so the result is useful for exploration without
+claiming policy-verified double counting."""
 
 from __future__ import annotations
 
@@ -45,14 +44,24 @@ def suggest_overlapping_programs(
     Ranked by coverage ratio rather than raw shared-course count, so a small
     15-credit minor that's 90% covered outranks a huge major that happens to
     share more courses in absolute terms but covers a smaller slice of itself."""
-    course_ids_by_program = _course_ids_by_program(db)
-    target_courses = course_ids_by_program.get(academic_program_id, set())
+    course_ids_by_set = _course_ids_by_requirement_set(db)
+    set_ids_by_program = _requirement_set_ids_by_program(db)
+    target_set_ids = set_ids_by_program.get(academic_program_id, set())
+    target_courses = _courses_in_requirement_sets(course_ids_by_set, target_set_ids)
     if not target_courses:
         return []
     candidates = _candidate_programs(db, academic_program_id, program_type)
-    courses_by_id = load_courses_by_id(db, {cid for ids in course_ids_by_program.values() for cid in ids})
+    courses_by_id = load_courses_by_id(db, {cid for ids in course_ids_by_set.values() for cid in ids})
     overlaps = [
-        _build_overlap(candidate, course_ids_by_program.get(candidate.academic_program_id, set()), target_courses, courses_by_id)
+        _build_overlap(
+            candidate,
+            _courses_in_requirement_sets(
+                course_ids_by_set,
+                set_ids_by_program.get(candidate.academic_program_id, set()) - target_set_ids,
+            ),
+            target_courses,
+            courses_by_id,
+        )
         for candidate in candidates
     ]
     ranked = sorted(overlaps, key=_overlap_sort_key, reverse=True)
@@ -77,11 +86,8 @@ def _candidate_programs(
     return query.order_by(AcademicProgram.program_name).all()
 
 
-def _course_ids_by_program(db: Session) -> dict[int, set[int]]:
-    """Map every program to the full set of course_ids its requirement trees
-    reference, directly or through an elective course group. Computed for
-    every program at once via two bulk queries, so ranking suggestions for one
-    program doesn't cost one requirement-tree walk per candidate program."""
+def _course_ids_by_requirement_set(db: Session) -> dict[int, set[int]]:
+    """Map requirement sets to specific direct and reasonably sized group courses."""
     result: dict[int, set[int]] = {}
     _add_direct_course_ids(db, result)
     _add_group_course_ids(db, result)
@@ -89,33 +95,51 @@ def _course_ids_by_program(db: Session) -> dict[int, set[int]]:
 
 
 def _add_direct_course_ids(db: Session, result: dict[int, set[int]]) -> None:
-    """Add each program's directly-named COURSE requirement_nodes' course ids into `result`."""
+    """Add directly named courses to their owning requirement-set universe."""
     rows = (
-        db.query(ProgramRequirementSet.academic_program_id, RequirementNode.required_course_id)
-        .join(RequirementNode, RequirementNode.requirement_set_id == ProgramRequirementSet.requirement_set_id)
+        db.query(RequirementNode.requirement_set_id, RequirementNode.required_course_id)
         .filter(RequirementNode.required_course_id.isnot(None))
         .all()
     )
-    for program_id, course_id in rows:
-        result.setdefault(program_id, set()).add(course_id)
+    for requirement_set_id, course_id in rows:
+        result.setdefault(requirement_set_id, set()).add(course_id)
 
 
 def _add_group_course_ids(db: Session, result: dict[int, set[int]]) -> None:
-    """Add each program's COURSE_GROUP requirement_nodes' member course ids into
-    `result`, skipping groups bigger than MAX_GROUP_SIZE_FOR_OVERLAP (see its
-    docstring for why)."""
+    """Add members of specific-sized groups to their owning requirement sets."""
     small_group_ids = _small_course_group_ids(db)
     if not small_group_ids:
         return
     rows = (
-        db.query(ProgramRequirementSet.academic_program_id, CourseGroupMember.course_id)
-        .join(RequirementNode, RequirementNode.requirement_set_id == ProgramRequirementSet.requirement_set_id)
+        db.query(RequirementNode.requirement_set_id, CourseGroupMember.course_id)
         .join(CourseGroupMember, CourseGroupMember.course_group_id == RequirementNode.course_group_id)
         .filter(RequirementNode.course_group_id.in_(small_group_ids))
         .all()
     )
-    for program_id, course_id in rows:
-        result.setdefault(program_id, set()).add(course_id)
+    for requirement_set_id, course_id in rows:
+        result.setdefault(requirement_set_id, set()).add(course_id)
+
+
+def _requirement_set_ids_by_program(db: Session) -> dict[int, set[int]]:
+    """Return requirement-set links for every program in one bulk query."""
+    result: dict[int, set[int]] = {}
+    for program_id, requirement_set_id in db.query(
+        ProgramRequirementSet.academic_program_id,
+        ProgramRequirementSet.requirement_set_id,
+    ).all():
+        result.setdefault(program_id, set()).add(requirement_set_id)
+    return result
+
+
+def _courses_in_requirement_sets(
+    course_ids_by_set: dict[int, set[int]], requirement_set_ids: set[int]
+) -> set[int]:
+    """Return the union of course candidates in the requested requirement sets."""
+    return {
+        course_id
+        for requirement_set_id in requirement_set_ids
+        for course_id in course_ids_by_set.get(requirement_set_id, set())
+    }
 
 
 def _small_course_group_ids(db: Session) -> set[int]:

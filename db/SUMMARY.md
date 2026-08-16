@@ -51,6 +51,16 @@ Safe to re-run any time — every table is keyed by its real primary key from
 the JSON and loaded with an upsert (`session.merge()`), so running it twice
 in a row produces identical data (verified).
 
+This is the Missouri S&T **FA26 / 2026 catalog snapshot**. The JSON files are
+read-only application source data. `catalog_scraper/` is retained only as a
+historical, offline data-preparation utility: neither the loader, API, nor
+optimizer imports it, invokes it, or contacts the live catalog at runtime.
+
+Planning terms are deliberately separate from catalog scope. `seed_terms.py`
+creates 36 Fall/Spring/Summer records from Fall 2026 through Summer 2038 so a
+student may build a long-range plan while every requirement and prerequisite is
+still interpreted against the single FA26 catalog snapshot.
+
 ## 2. Why the whole catalog, not just one program
 
 146 of the 147 academic programs have at least one requirement set attached

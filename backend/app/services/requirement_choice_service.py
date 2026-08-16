@@ -197,7 +197,15 @@ def _resolve_options(
     """Return this node's (kind, sorted option courses, course_group_id)."""
     if _is_course_group_choice(node):
         group_id = node.course_group.course_group_id
-        options = [courses_by_id[cid] for cid in members_by_group.get(group_id, []) if cid in courses_by_id]
+        options = [
+            courses_by_id[cid]
+            for cid in members_by_group.get(group_id, [])
+            if cid in courses_by_id
+            and (
+                node.minimum_course_level is None
+                or courses_by_id[cid].course_level >= node.minimum_course_level
+            )
+        ]
         return "COURSE_GROUP", _sorted_courses(options), group_id
     kind: RequirementChoiceKind = "N_OF" if node.node_operator == "N_OF" else "ANY_OF"
     options = [child.required_course for child in node.children if child.required_course is not None]
@@ -342,7 +350,17 @@ def _group_alternatives(db: Session, nodes_by_id: dict[int, RequirementNode]) ->
     result: dict[int, list[CourseOut]] = {}
     for node_id, node in group_nodes.items():
         member_ids = members_by_group.get(node.course_group_id, [])
-        options = _sorted_courses([courses_by_id[cid] for cid in member_ids if cid in courses_by_id])
+        options = _sorted_courses(
+            [
+                courses_by_id[cid]
+                for cid in member_ids
+                if cid in courses_by_id
+                and (
+                    node.minimum_course_level is None
+                    or courses_by_id[cid].course_level >= node.minimum_course_level
+                )
+            ]
+        )
         if len(options) >= 2:
             result[node_id] = options
     return result

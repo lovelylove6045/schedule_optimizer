@@ -48,3 +48,11 @@ export function addPlanCourse(degreePlanId: number, courseId: number, termId: nu
 export function removePlanCourse(degreePlanId: number, planCourseId: number): Promise<DegreePlanOut> {
   return apiFetch<DegreePlanOut>(`/plans/${degreePlanId}/courses/${planCourseId}`, { method: "DELETE" })
 }
+
+/** Move an existing course to another term and return the revalidated plan. */
+export function movePlanCourse(degreePlanId: number, planCourseId: number, termId: number): Promise<DegreePlanOut> {
+  return apiFetch<DegreePlanOut>(`/plans/${degreePlanId}/courses/${planCourseId}/move`, {
+    method: "POST",
+    body: { term_id: termId },
+  })
+}

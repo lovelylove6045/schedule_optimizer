@@ -13,8 +13,10 @@ from app.models.academic_program import AcademicProgram
 from app.models.course import Course
 from app.models.course_group_member import CourseGroupMember
 from app.models.course_rule_node import CourseRuleNode
-from app.models.enums import RequisiteType, ScenarioProgramRole
+from app.models.course_relation import CourseRelation
+from app.models.enums import CourseRelationType, RequisiteType, ScenarioProgramRole
 from app.models.planning_scenario import PlanningScenario
+from app.models.overlap_policy import OverlapPolicy
 from app.models.program_requirement_set import ProgramRequirementSet
 from app.models.scenario_program import ScenarioProgram
 from app.models.student_credit import StudentCredit
@@ -74,6 +76,14 @@ class CandidateCourseSet:
     # `optimizer_model` adds each term's newly-assigned credits on top of this to
     # approximate class standing for STANDING/SUBJECT_LEVEL prerequisite leaves.
     completed_credit_hours: float
+    subject_id_by_course_id: dict[int, int]
+    course_level_by_course_id: dict[int, int]
+    equivalent_course_ids: dict[int, set[int]]
+    duplicate_credit_relations: list[CourseRelation]
+    selected_program_ids: set[int]
+    overlap_policies: list[OverlapPolicy]
+    requirement_set_id_by_node_id: dict[int, int]
+    program_ids_by_requirement_set: dict[int, set[int]]
 
 
 def build_candidate_course_set(
@@ -91,18 +101,31 @@ def build_candidate_course_set(
     completed_course_ids = _collect_completed_course_ids(db, scenario.student_id)
     group_ids = _collect_course_group_ids(requirement_sets)
     group_members = _load_group_members(db, group_ids)
-    course_ids_by_requirement_set = _index_course_ids_by_requirement_set(requirement_sets, group_members)
+    group_course_levels = _load_group_course_levels(db, group_members)
+    course_ids_by_requirement_set = _index_course_ids_by_requirement_set(
+        requirement_sets, group_members, group_course_levels
+    )
     course_ids_by_program = _index_course_ids_by_program(
         db, program_ids, course_ids_by_requirement_set
     )
     direct_course_ids: set[int] = set()
     for course_ids in course_ids_by_requirement_set.values():
         direct_course_ids |= course_ids
+    equivalent_course_ids = _load_equivalent_course_ids(db, direct_course_ids | completed_course_ids)
+    expanded_direct_ids = direct_course_ids | {
+        equivalent_id for course_id in direct_course_ids for equivalent_id in equivalent_course_ids.get(course_id, set())
+    }
     assignable_course_ids, closure_capped = _expand_prerequisite_closure(
-        db, direct_course_ids, completed_course_ids
+        db, expanded_direct_ids, completed_course_ids
     )
     courses_by_id = load_courses_by_id(db, assignable_course_ids)
     completed_credit_hours = _completed_credit_hours_total(db, scenario.student_id)
+    credit_hours_by_course_id, subject_ids, course_levels = _load_course_metadata(
+        db, group_members, courses_by_id, completed_course_ids
+    )
+    applicable_completed_credits = _degree_applicable_completed_credit_hours(
+        db, scenario.student_id, direct_course_ids, equivalent_course_ids
+    )
     return CandidateCourseSet(
         requirement_sets=requirement_sets,
         assignable_course_ids=assignable_course_ids,
@@ -111,11 +134,58 @@ def build_candidate_course_set(
         group_members=group_members,
         course_ids_by_program=course_ids_by_program,
         closure_capped=closure_capped,
-        credit_hours_by_course_id=_load_credit_hours(db, group_members, courses_by_id),
+        credit_hours_by_course_id=credit_hours_by_course_id,
         credit_floor_remaining=_resolve_credit_floor_remaining(
-            db, scenario, program_ids, completed_credit_hours
+            db, scenario, program_ids, applicable_completed_credits
         ),
         completed_credit_hours=completed_credit_hours,
+        subject_id_by_course_id=subject_ids,
+        course_level_by_course_id=course_levels,
+        equivalent_course_ids=equivalent_course_ids,
+        duplicate_credit_relations=_load_duplicate_credit_relations(
+            db, assignable_course_ids | completed_course_ids
+        ),
+        selected_program_ids=set(program_ids),
+        overlap_policies=_load_overlap_policies(db, program_ids),
+        requirement_set_id_by_node_id=_index_requirement_set_ids_by_node(requirement_sets),
+        program_ids_by_requirement_set=_index_program_ids_by_requirement_set(
+            db, program_ids
+        ),
+    )
+
+
+def _index_requirement_set_ids_by_node(
+    requirement_sets: list[RequirementSetOut],
+) -> dict[int, int]:
+    """Return the owning requirement-set id for every flattened node."""
+    result: dict[int, int] = {}
+    for requirement_set in requirement_sets:
+        _record_node_requirement_set_ids(
+            requirement_set.nodes, requirement_set.requirement_set_id, result
+        )
+    return result
+
+
+def _record_node_requirement_set_ids(
+    nodes: list[RequirementNodeOut], requirement_set_id: int, result: dict[int, int]
+) -> None:
+    """Recursively record one requirement set's ownership for its nodes."""
+    for node in nodes:
+        result[node.requirement_node_id] = requirement_set_id
+        _record_node_requirement_set_ids(node.children, requirement_set_id, result)
+
+
+def _load_overlap_policies(db: Session, program_ids: list[int]) -> list[OverlapPolicy]:
+    """Return explicit policies whose program pair is fully selected in this scenario."""
+    if len(program_ids) < 2:
+        return []
+    return (
+        db.query(OverlapPolicy)
+        .filter(
+            OverlapPolicy.program_a_id.in_(program_ids),
+            OverlapPolicy.program_b_id.in_(program_ids),
+        )
+        .all()
     )
 
 
@@ -159,28 +229,148 @@ def _completed_credit_hours_total(db: Session, student_id: int) -> float:
     student_credits row, falling back to the catalog's credit_hours for an
     institutional course reported without its own explicit credits_earned."""
     rows = (
-        db.query(StudentCredit.credits_earned, Course.credit_hours)
+        db.query(StudentCredit.course_id, StudentCredit.credits_earned, Course.credit_hours)
         .outerjoin(Course, StudentCredit.course_id == Course.course_id)
         .filter(StudentCredit.student_id == student_id, StudentCredit.status == COMPLETED_STATUS)
         .all()
     )
-    return sum(float(credits_earned if credits_earned is not None else (catalog_hours or 0)) for credits_earned, catalog_hours in rows)
+    institutional: dict[int, float] = {}
+    external_total = 0.0
+    for course_id, earned, catalog in rows:
+        credits = float(earned if earned is not None else (catalog or 0))
+        if course_id is None:
+            external_total += credits
+        else:
+            institutional[course_id] = max(institutional.get(course_id, 0), credits)
+    return external_total + _cap_related_completed_credits(db, institutional)
 
 
-def _load_credit_hours(
-    db: Session, group_members: dict[int, set[int]], courses_by_id: dict[int, CourseOut]
-) -> dict[int, float]:
-    """Return credit_hours for every assignable course plus every course_group member,
-    keyed by course_id. Group members already completed by the student aren't assignable
-    and so aren't in `courses_by_id`, but their credits still count toward a group's
-    required_credit_hours -- so they're fetched here in one extra query."""
+def _load_course_metadata(
+    db: Session,
+    group_members: dict[int, set[int]],
+    courses_by_id: dict[int, CourseOut],
+    completed_course_ids: set[int],
+) -> tuple[dict[int, float], dict[int, int], dict[int, int]]:
+    """Return metadata for assignable, group-member, and completed courses."""
     credit_hours = {course_id: course.credit_hours for course_id, course in courses_by_id.items()}
+    subject_ids = {course_id: course.subject_id for course_id, course in courses_by_id.items()}
+    course_levels = {course_id: course.course_level for course_id, course in courses_by_id.items()}
     member_ids = {course_id for members in group_members.values() for course_id in members}
-    missing_ids = member_ids - credit_hours.keys()
+    missing_ids = (member_ids | completed_course_ids) - credit_hours.keys()
     if missing_ids:
-        rows = db.query(Course.course_id, Course.credit_hours).filter(Course.course_id.in_(missing_ids)).all()
-        credit_hours.update({course_id: float(hours) for course_id, hours in rows})
-    return credit_hours
+        rows = (
+            db.query(Course.course_id, Course.credit_hours, Course.subject_id, Course.course_level)
+            .filter(Course.course_id.in_(missing_ids))
+            .all()
+        )
+        for course_id, hours, subject_id, course_level in rows:
+            credit_hours[course_id] = float(hours)
+            subject_ids[course_id] = subject_id
+            course_levels[course_id] = course_level
+    return credit_hours, subject_ids, course_levels
+
+
+def _load_equivalent_course_ids(db: Session, course_ids: set[int]) -> dict[int, set[int]]:
+    """Map each requirement course to directed equivalent courses that may satisfy it."""
+    if not course_ids:
+        return {}
+    rows = (
+        db.query(CourseRelation)
+        .filter(
+            CourseRelation.relation_type.in_(
+                (CourseRelationType.CROSS_LISTED, CourseRelationType.EQUIVALENT)
+            ),
+            (CourseRelation.course_id.in_(course_ids) | CourseRelation.related_course_id.in_(course_ids)),
+        )
+        .all()
+    )
+    equivalents: dict[int, set[int]] = {}
+    for relation in rows:
+        equivalents.setdefault(relation.related_course_id, set()).add(relation.course_id)
+        if relation.is_bidirectional:
+            equivalents.setdefault(relation.course_id, set()).add(relation.related_course_id)
+    return equivalents
+
+
+def _load_duplicate_credit_relations(db: Session, course_ids: set[int]) -> list[CourseRelation]:
+    """Return duplicate-credit relations whose two courses are in the candidate universe."""
+    if not course_ids:
+        return []
+    return (
+        db.query(CourseRelation)
+        .filter(
+            CourseRelation.relation_type.in_(
+                (CourseRelationType.DUPLICATE_CREDIT, CourseRelationType.MUTUALLY_EXCLUSIVE)
+            ),
+            CourseRelation.course_id.in_(course_ids),
+            CourseRelation.related_course_id.in_(course_ids),
+        )
+        .all()
+    )
+
+
+def _degree_applicable_completed_credit_hours(
+    db: Session,
+    student_id: int,
+    direct_course_ids: set[int],
+    equivalent_course_ids: dict[int, set[int]],
+) -> float:
+    """Return completed credits conservatively known to apply to selected requirements."""
+    applicable_ids = set(direct_course_ids)
+    for course_id in direct_course_ids:
+        applicable_ids |= equivalent_course_ids.get(course_id, set())
+    rows = (
+        db.query(StudentCredit.course_id, StudentCredit.credits_earned, Course.credit_hours)
+        .outerjoin(Course, StudentCredit.course_id == Course.course_id)
+        .filter(
+            StudentCredit.student_id == student_id,
+            StudentCredit.status == COMPLETED_STATUS,
+            StudentCredit.course_id.in_(applicable_ids),
+        )
+        .all()
+    )
+    credits_by_course: dict[int, float] = {}
+    for course_id, earned, catalog in rows:
+        credits = float(earned if earned is not None else (catalog or 0))
+        credits_by_course[course_id] = max(credits_by_course.get(course_id, 0), credits)
+    return _cap_related_completed_credits(db, credits_by_course)
+
+
+def _cap_related_completed_credits(
+    db: Session, credits_by_course: dict[int, float]
+) -> float:
+    """Return completed credits after relation-based duplicate-credit caps."""
+    course_ids = set(credits_by_course)
+    if len(course_ids) < 2:
+        return sum(credits_by_course.values())
+    relations = db.query(CourseRelation).filter(
+        CourseRelation.course_id.in_(course_ids),
+        CourseRelation.related_course_id.in_(course_ids),
+        CourseRelation.relation_type.in_(
+            (
+                CourseRelationType.CROSS_LISTED,
+                CourseRelationType.EQUIVALENT,
+                CourseRelationType.DUPLICATE_CREDIT,
+                CourseRelationType.MUTUALLY_EXCLUSIVE,
+            )
+        ),
+    ).all()
+    total = sum(credits_by_course.values())
+    seen_pairs: set[tuple[int, int]] = set()
+    for relation in relations:
+        pair = tuple(sorted((relation.course_id, relation.related_course_id)))
+        if pair in seen_pairs:
+            continue
+        seen_pairs.add(pair)
+        first = credits_by_course[relation.course_id]
+        second = credits_by_course[relation.related_course_id]
+        allowed = (
+            float(relation.maximum_combined_credits)
+            if relation.maximum_combined_credits is not None
+            else max(first, second)
+        )
+        total -= max(first + second - allowed, 0)
+    return max(total, 0)
 
 
 def _resolve_scenario_program_ids(db: Session, planning_scenario_id: int) -> list[int]:
@@ -210,17 +400,54 @@ def _collect_requirement_sets(
 
 
 def _index_course_ids_by_requirement_set(
-    requirement_sets: list[RequirementSetOut], group_members: dict[int, set[int]]
+    requirement_sets: list[RequirementSetOut],
+    group_members: dict[int, set[int]],
+    course_levels: dict[int, int],
 ) -> dict[int, set[int]]:
     """Return each requirement set's referenced course ids (COURSE leaves plus
     COURSE_GROUP members), keyed by requirement_set_id."""
     result: dict[int, set[int]] = {}
     for req_set in requirement_sets:
-        course_ids = _collect_course_ids_from_nodes(req_set.nodes)
-        for group_id in _collect_group_ids_from_nodes(req_set.nodes):
-            course_ids |= group_members.get(group_id, set())
+        course_ids = _collect_eligible_course_ids_from_nodes(
+            req_set.nodes, group_members, course_levels
+        )
         result[req_set.requirement_set_id] = course_ids
     return result
+
+
+def _collect_eligible_course_ids_from_nodes(
+    nodes: list[RequirementNodeOut],
+    group_members: dict[int, set[int]],
+    course_levels: dict[int, int],
+) -> set[int]:
+    """Collect direct requirement candidates after authoritative node-level filtering."""
+    course_ids: set[int] = set()
+    for node in nodes:
+        if node.required_course is not None:
+            if node.minimum_course_level is None or node.required_course.course_level >= node.minimum_course_level:
+                course_ids.add(node.required_course.course_id)
+        if node.course_group is not None:
+            members = group_members.get(node.course_group.course_group_id, set())
+            course_ids |= {
+                course_id
+                for course_id in members
+                if node.minimum_course_level is None
+                or course_levels.get(course_id, 0) >= node.minimum_course_level
+            }
+        course_ids |= _collect_eligible_course_ids_from_nodes(node.children, group_members, course_levels)
+    return course_ids
+
+
+def _load_group_course_levels(
+    db: Session, group_members: dict[int, set[int]]
+) -> dict[int, int]:
+    """Return course levels for all group members so node floors can prune candidates early."""
+    course_ids = {course_id for members in group_members.values() for course_id in members}
+    if not course_ids:
+        return {}
+    return dict(
+        db.query(Course.course_id, Course.course_level).filter(Course.course_id.in_(course_ids)).all()
+    )
 
 
 def _index_course_ids_by_program(
@@ -255,14 +482,15 @@ def _load_requirement_set_ids_by_program(db: Session, program_ids: list[int]) ->
     return result
 
 
-def _collect_course_ids_from_nodes(nodes: list[RequirementNodeOut]) -> set[int]:
-    """Recursively collect required_course ids from requirement nodes and their children."""
-    course_ids: set[int] = set()
-    for node in nodes:
-        if node.required_course is not None:
-            course_ids.add(node.required_course.course_id)
-        course_ids |= _collect_course_ids_from_nodes(node.children)
-    return course_ids
+def _index_program_ids_by_requirement_set(
+    db: Session, program_ids: list[int]
+) -> dict[int, set[int]]:
+    """Return selected program owners for every linked requirement set."""
+    result: dict[int, set[int]] = {}
+    for program_id, set_ids in _load_requirement_set_ids_by_program(db, program_ids).items():
+        for requirement_set_id in set_ids:
+            result.setdefault(requirement_set_id, set()).add(program_id)
+    return result
 
 
 def _collect_course_group_ids(requirement_sets: list[RequirementSetOut]) -> set[int]:

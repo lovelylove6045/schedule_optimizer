@@ -25,6 +25,11 @@ frontend/dist-ssr/
 .vscode/*
 !.vscode/extensions.json
 .idea
+*.swp
+*.swo
+*.tmp
+.ruff_cache/
+.mypy_cache/
 
 # Reference documents (spec/rules/design PDFs, not project source)
 *.pdf

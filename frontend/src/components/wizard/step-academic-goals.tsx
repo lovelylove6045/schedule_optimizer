@@ -10,7 +10,6 @@ import { LoadingState } from "@/components/shared/loading-state"
 import { OverlapSuggestionCard } from "@/components/shared/overlap-suggestion-card"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Switch } from "@/components/ui/switch"
 import { useProgramOverlapSuggestionsQuery, useProgramsQuery } from "@/hooks/use-programs"
 import type { ProgramOverlapOut, ProgramType } from "@/lib/types"
 import { useScenarioBuilder, type AdditionalProgram } from "@/state/scenario-builder-context"
@@ -37,32 +36,54 @@ const ROLE_PLURAL_LABELS: Record<AdditionalProgram["role"], string> = {
 
 const SUGGESTION_DISPLAY_LIMIT = 4
 
-/** Step 4: optional second major/minor/emphasis on top of the primary program.
- * Scoped to the school chosen in step 1 by default, with an escape hatch to browse
- * every school. Still not filtered by `academic_program_relationships` (no rows
- * loaded), so the school filter is what keeps the list manageable. */
+/** Step 4: choose an additional-goal type, then browse compatible programs by department. */
 export function StepAcademicGoals() {
   const { draft, dispatch } = useScenarioBuilder()
   const programsQuery = useProgramsQuery()
   const [pendingProgramId, setPendingProgramId] = useState<string | null>(null)
-  const [pendingRole, setPendingRole] = useState<AdditionalProgram["role"]>("MINOR")
-  const [showAllSchools, setShowAllSchools] = useState(draft.collegeId === null)
-  const overlapQuery = useProgramOverlapSuggestionsQuery(draft.primaryProgramId, PROGRAM_TYPE_FOR_ROLE[pendingRole])
+  const [pendingRole, setPendingRole] = useState<AdditionalProgram["role"] | null>(null)
+  const [departmentId, setDepartmentId] = useState<number | null>(null)
+  const overlapQuery = useProgramOverlapSuggestionsQuery(
+    draft.primaryProgramId,
+    pendingRole === null ? undefined : PROGRAM_TYPE_FOR_ROLE[pendingRole],
+  )
   if (programsQuery.isPending) return <LoadingState label="Loading programs…" />
   if (programsQuery.isError) return <ErrorState message="Couldn't load programs from the server." />
   const takenIds = new Set([draft.primaryProgramId, ...draft.additionalPrograms.map((p) => p.academicProgramId)])
+  const selectedMajorIds = new Set([
+    draft.primaryProgramId,
+    ...draft.additionalPrograms
+      .filter((program) => program.role === "SECOND_MAJOR")
+      .map((program) => program.academicProgramId),
+  ])
+  const expectedType = pendingRole === null ? null : PROGRAM_TYPE_FOR_ROLE[pendingRole]
   const available = programsQuery.data.filter(
     (program) =>
       !takenIds.has(program.academic_program_id) &&
-      (showAllSchools || draft.collegeId === null || program.college_id === draft.collegeId),
+      expectedType !== null && program.program_type === expectedType &&
+      (departmentId === null || program.department_id === departmentId) &&
+      (pendingRole !== "EMPHASIS" ||
+        program.compatible_parent_program_ids.some((parentId) => selectedMajorIds.has(parentId))),
   )
+  const departments = Array.from(
+    new Map(
+      programsQuery.data
+        .filter((program) => expectedType !== null && program.program_type === expectedType)
+        .map((program) => [program.department_id, program.department_name ?? program.department_code ?? "Department"]),
+    ),
+  ).sort((a, b) => a[1].localeCompare(b[1]))
   const options: ComboboxOption[] = available.map((program) => ({
     value: String(program.academic_program_id),
     label: program.program_name,
     description: [program.program_code, program.college_code].filter(Boolean).join(" · "),
   }))
   const suggestions = (overlapQuery.data ?? [])
-    .filter((suggestion) => !takenIds.has(suggestion.academic_program_id))
+    .filter((suggestion) => {
+      const program = programsQuery.data.find((item) => item.academic_program_id === suggestion.academic_program_id)
+      return !takenIds.has(suggestion.academic_program_id) &&
+        (pendingRole !== "EMPHASIS" ||
+          Boolean(program?.compatible_parent_program_ids.some((parentId) => selectedMajorIds.has(parentId))))
+    })
     .slice(0, SUGGESTION_DISPLAY_LIMIT)
   /** Look up a program's display name by id, falling back to a generic label. */
   const programName = (id: number) =>
@@ -76,10 +97,61 @@ export function StepAcademicGoals() {
   }
   /** Add the pending program/role selection from the search picker and reset it. */
   function handleAdd() {
-    if (pendingProgramId === null) return
+    if (pendingProgramId === null || pendingRole === null) return
     addProgram(Number(pendingProgramId), pendingRole)
     setPendingProgramId(null)
   }
+  /** Remove one selected additional program and confirm the draft change. */
+  function removeProgram(programId: number) {
+    dispatch({ type: "REMOVE_ADDITIONAL_PROGRAM", programId })
+    toast.info(`Removed ${programName(programId)}`)
+  }
+  return (
+    <AcademicGoalsContent
+      pendingRole={pendingRole}
+      pendingProgramId={pendingProgramId}
+      departmentId={departmentId}
+      departments={departments}
+      options={options}
+      suggestions={suggestions}
+      selectedPrograms={draft.additionalPrograms}
+      programName={programName}
+      onRoleChange={(role) => {
+        setPendingRole(role)
+        setPendingProgramId(null)
+        setDepartmentId(null)
+      }}
+      onDepartmentChange={(id) => {
+        setDepartmentId(id)
+        setPendingProgramId(null)
+      }}
+      onProgramChange={setPendingProgramId}
+      onAdd={handleAdd}
+      onSuggestionAdd={(programId) => pendingRole && addProgram(programId, pendingRole)}
+      onRemove={removeProgram}
+    />
+  )
+}
+
+interface AcademicGoalsContentProps {
+  pendingRole: AdditionalProgram["role"] | null
+  pendingProgramId: string | null
+  departmentId: number | null
+  departments: [number, string][]
+  options: ComboboxOption[]
+  suggestions: ProgramOverlapOut[]
+  selectedPrograms: AdditionalProgram[]
+  programName: (id: number) => string
+  onRoleChange: (role: AdditionalProgram["role"] | null) => void
+  onDepartmentChange: (id: number | null) => void
+  onProgramChange: (id: string | null) => void
+  onAdd: () => void
+  onSuggestionAdd: (id: number) => void
+  onRemove: (id: number) => void
+}
+
+/** Compose the additional-goal picker and current selections. */
+function AcademicGoalsContent(props: AcademicGoalsContentProps) {
   return (
     <Card>
       <CardHeader>
@@ -87,88 +159,75 @@ export function StepAcademicGoals() {
         <CardDescription>Add a second major, minor, or emphasis you're also pursuing (optional).</CardDescription>
       </CardHeader>
       <CardContent className="space-y-6">
-        {suggestions.length > 0 ? (
-          <OverlapSuggestions
-            rolePlural={ROLE_PLURAL_LABELS[pendingRole]}
-            suggestions={suggestions}
-            onAdd={(programId) => addProgram(programId, pendingRole)}
-          />
-        ) : null}
-        {draft.collegeId !== null ? (
-          <label className="glass-inset flex items-center justify-between gap-3 rounded-lg p-3">
-            <span>
-              <Label>Look outside my school</Label>
-              <span className="block text-xs text-muted-foreground">
-                {showAllSchools
-                  ? `Showing all ${available.length} programs across every school.`
-                  : `Showing ${available.length} programs in your school.`}
-              </span>
-            </span>
-            <Switch checked={showAllSchools} onCheckedChange={setShowAllSchools} />
-          </label>
-        ) : null}
-        <div className="flex flex-col gap-3 sm:flex-row sm:items-end">
-          <div className="flex-1 space-y-1.5">
-            <Combobox
-              options={options}
-              value={pendingProgramId}
-              onChange={setPendingProgramId}
-              placeholder="Search for a program…"
-              searchPlaceholder="Search programs…"
-            />
-          </div>
-          <div className="w-full space-y-1.5 sm:w-44">
-            <Select value={pendingRole} onValueChange={(value) => setPendingRole(value as AdditionalProgram["role"])}>
-              <SelectTrigger className="w-full">
-                <SelectValue />
-              </SelectTrigger>
+        <AdditionalGoalPicker {...props} />
+        <SelectedAdditionalGoals {...props} />
+      </CardContent>
+    </Card>
+  )
+}
+
+/** Let the student choose a role, department, and compatible program. */
+function AdditionalGoalPicker(props: AcademicGoalsContentProps) {
+  const role = props.pendingRole
+  return (
+    <>
+      {role !== null && props.suggestions.length > 0 ? (
+        <OverlapSuggestions rolePlural={ROLE_PLURAL_LABELS[role]} suggestions={props.suggestions} onAdd={props.onSuggestionAdd} />
+      ) : null}
+      <div className="grid gap-4 sm:grid-cols-2">
+        <div className="space-y-1.5">
+          <Label>Would you like to add another academic goal?</Label>
+          <Select value={role ?? "NONE"} onValueChange={(value) => props.onRoleChange(value === "NONE" ? null : value as AdditionalProgram["role"])}>
+            <SelectTrigger className="w-full"><SelectValue /></SelectTrigger>
+            <SelectContent>
+              <SelectItem value="NONE">No additional program</SelectItem>
+              {ADDITIONAL_ROLE_OPTIONS.map((option) => <SelectItem key={option.value} value={option.value}>Add a {option.label.toLowerCase()}</SelectItem>)}
+            </SelectContent>
+          </Select>
+        </div>
+        {role !== null && role !== "EMPHASIS" ? (
+          <div className="space-y-1.5">
+            <Label>Department</Label>
+            <Select value={props.departmentId === null ? "ALL" : String(props.departmentId)} onValueChange={(value) => props.onDepartmentChange(value === "ALL" ? null : Number(value))}>
+              <SelectTrigger className="w-full"><SelectValue /></SelectTrigger>
               <SelectContent>
-                {ADDITIONAL_ROLE_OPTIONS.map((role) => (
-                  <SelectItem key={role.value} value={role.value}>
-                    {role.label}
-                  </SelectItem>
-                ))}
+                <SelectItem value="ALL">All departments</SelectItem>
+                {props.departments.map(([id, name]) => <SelectItem key={id} value={String(id)}>{name}</SelectItem>)}
               </SelectContent>
             </Select>
           </div>
-          <Button type="button" variant="secondary" disabled={pendingProgramId === null} onClick={handleAdd}>
-            <Plus className="size-4" />
-            Add
-          </Button>
+        ) : role === "EMPHASIS" ? <div className="rounded-lg border bg-muted/30 p-3 text-xs text-muted-foreground">Only emphases attached to your selected major are shown.</div> : <div />}
+      </div>
+      {role !== null ? (
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-end">
+          <div className="flex-1 space-y-1.5">
+            <Label>{ADDITIONAL_ROLE_OPTIONS.find((option) => option.value === role)?.label}</Label>
+            <Combobox options={props.options} value={props.pendingProgramId} onChange={props.onProgramChange} placeholder={`Search ${ROLE_PLURAL_LABELS[role]}…`} searchPlaceholder={`Search ${ROLE_PLURAL_LABELS[role]}…`} />
+          </div>
+          <Button type="button" variant="secondary" disabled={props.pendingProgramId === null} onClick={props.onAdd}><Plus className="size-4" />Add</Button>
         </div>
-        {draft.additionalPrograms.length === 0 ? (
-          <EmptyState
-            icon={Target}
-            title="Just the primary major for now"
-            description="That's a perfectly valid plan -- add a program above only if you're pursuing more than one."
-          />
-        ) : (
-          <ul className="divide-y rounded-lg border">
-            {draft.additionalPrograms.map((program) => (
-              <li key={program.academicProgramId} className="flex items-center justify-between gap-3 px-4 py-3">
-                <div>
-                  <p className="text-sm font-medium">{programName(program.academicProgramId)}</p>
-                  <p className="text-xs text-muted-foreground">
-                    {ADDITIONAL_ROLE_OPTIONS.find((r) => r.value === program.role)?.label}
-                  </p>
-                </div>
-                <Button
-                  variant="ghost"
-                  size="icon-sm"
-                  aria-label="Remove"
-                  onClick={() => {
-                    dispatch({ type: "REMOVE_ADDITIONAL_PROGRAM", programId: program.academicProgramId })
-                    toast.info(`Removed ${programName(program.academicProgramId)}`)
-                  }}
-                >
-                  <X className="size-4" />
-                </Button>
-              </li>
-            ))}
-          </ul>
-        )}
-      </CardContent>
-    </Card>
+      ) : null}
+    </>
+  )
+}
+
+/** Show selected additional programs with an explicit remove action. */
+function SelectedAdditionalGoals(props: AcademicGoalsContentProps) {
+  if (props.selectedPrograms.length === 0) {
+    return <EmptyState icon={Target} title="Just the primary major for now" description="That's a perfectly valid plan -- add a program above only if you're pursuing more than one." />
+  }
+  return (
+    <ul className="divide-y rounded-lg border">
+      {props.selectedPrograms.map((program) => (
+        <li key={program.academicProgramId} className="flex items-center justify-between gap-3 px-4 py-3">
+          <div>
+            <p className="text-sm font-medium">{props.programName(program.academicProgramId)}</p>
+            <p className="text-xs text-muted-foreground">{ADDITIONAL_ROLE_OPTIONS.find((option) => option.value === program.role)?.label}</p>
+          </div>
+          <Button variant="ghost" size="icon-sm" aria-label="Remove" onClick={() => props.onRemove(program.academicProgramId)}><X className="size-4" /></Button>
+        </li>
+      ))}
+    </ul>
   )
 }
 

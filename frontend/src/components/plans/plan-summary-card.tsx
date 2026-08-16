@@ -35,13 +35,14 @@ export function PlanSummaryCard({ plan }: PlanSummaryCardProps) {
             variant={isInfeasible ? "destructive" : "default"}
             className={cn(!isInfeasible && "bg-success text-success-foreground")}
           >
-            {isInfeasible ? "Not possible" : "Valid plan"}
+            {isInfeasible ? "Not possible" : plan.solver_status === "OPTIMAL" ? "Optimized" : "Best solution found"}
           </Badge>
         </div>
       </CardHeader>
       <CardContent className="space-y-4">
         <dl className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-          <Stat label="Total credits" value={plan.total_credit_hours ?? "—"} />
+          <Stat label="Degree-applicable credits" value={plan.total_credit_hours ?? "—"} />
+          <Stat label="Scheduled workload credits" value={plan.scheduled_credit_hours ?? "—"} />
           <Stat label="Extra credits" value={plan.additional_credit_hours ?? "—"} />
           <Stat label="Projected graduation" value={graduationTerm?.term_code ?? "—"} />
           <Stat label="Courses planned" value={plan.courses.length} />
@@ -104,6 +105,14 @@ function messageHeadline(message: OptimizationMessageOut): string {
       return "Prerequisites to verify yourself"
     case "UNVERIFIED_PREREQUISITE_TYPE":
       return "Assumed satisfied"
+    case "OVERLAP_POLICY_UNVERIFIED":
+      return "Sharing policy needs verification"
+    case "SOLVER_DEADLINE_REACHED":
+      return "Best solution within time limit"
+    case "OBJECTIVE_STAGE_RESULTS":
+      return "Optimization proof status"
+    case "PROTOTYPE_DISCLAIMER":
+      return "Prototype planning notice"
     default:
       return message.severity === "ERROR" ? "Problem" : "Note"
   }

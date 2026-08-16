@@ -1,5 +1,11 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query"
-import { addScenarioProgram, createScenario, generatePlans } from "@/lib/api/scenarios"
+import {
+  addScenarioProgram,
+  createScenario,
+  generateAlternativePlans,
+  generatePlans,
+  generateRecommendedPlan,
+} from "@/lib/api/scenarios"
 import type { ScenarioProgramIn } from "@/lib/types"
 
 /** Submit a completed wizard draft as a new planning scenario. */
@@ -10,6 +16,16 @@ export function useCreateScenarioMutation() {
 /** Run the optimizer for an already-created scenario and persist its plans. */
 export function useGeneratePlansMutation() {
   return useMutation({ mutationFn: generatePlans })
+}
+
+/** Generate only the recommended plan for immediate display. */
+export function useGenerateRecommendedPlanMutation() {
+  return useMutation({ mutationFn: generateRecommendedPlan })
+}
+
+/** Generate comparison alternatives independently from the primary result. */
+export function useGenerateAlternativePlansMutation() {
+  return useMutation({ mutationFn: generateAlternativePlans })
 }
 
 interface AddScenarioProgramArgs {

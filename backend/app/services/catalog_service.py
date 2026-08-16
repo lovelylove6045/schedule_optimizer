@@ -13,6 +13,7 @@ from app.models.course_group import CourseGroup
 from app.models.course_group_member import CourseGroupMember
 from app.models.course_rule_node import CourseRuleNode
 from app.models.department import Department
+from app.models.program_relationship import ProgramRelationship
 from app.models.subject import Subject
 from app.models.term import Term
 from app.schemas.college import CollegeOut
@@ -43,11 +44,31 @@ def list_programs(db: Session) -> list[ProgramOut]:
         .order_by(AcademicProgram.program_name)
         .all()
     )
-    return [_program_out(program, department, college) for program, department, college in rows]
+    parent_ids = _compatible_parent_ids(db)
+    return [
+        _program_out(program, department, college, parent_ids.get(program.academic_program_id, []))
+        for program, department, college in rows
+    ]
+
+
+def _compatible_parent_ids(db: Session) -> dict[int, list[int]]:
+    """Return HAS_EMPHASIS parent program ids keyed by child emphasis id."""
+    rows = (
+        db.query(ProgramRelationship.child_program_id, ProgramRelationship.parent_program_id)
+        .filter(ProgramRelationship.relationship_type == "HAS_EMPHASIS")
+        .all()
+    )
+    parents: dict[int, list[int]] = {}
+    for child_id, parent_id in rows:
+        parents.setdefault(child_id, []).append(parent_id)
+    return parents
 
 
 def _program_out(
-    program: AcademicProgram, department: Department | None, college: College | None
+    program: AcademicProgram,
+    department: Department | None,
+    college: College | None,
+    compatible_parent_program_ids: list[int],
 ) -> ProgramOut:
     """Convert one joined (program, department, college) row into a `ProgramOut`."""
     return ProgramOut(
@@ -65,6 +86,7 @@ def _program_out(
         college_id=college.college_id if college else None,
         college_code=college.college_code if college else None,
         college_name=college.college_name if college else None,
+        compatible_parent_program_ids=compatible_parent_program_ids,
     )
 
 

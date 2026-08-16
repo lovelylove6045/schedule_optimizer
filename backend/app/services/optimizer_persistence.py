@@ -19,10 +19,13 @@ from app.models.optimization_message import OptimizationMessage
 from app.models.plan_course import PlanCourse
 from app.models.planning_scenario import PlanningScenario
 from app.models.requirement_allocation import RequirementAllocation
+from app.models.requirement_node import RequirementNode
+from app.models.program_requirement_set import ProgramRequirementSet
 from app.models.scenario_preference import ScenarioPreference
 from app.models.scenario_program import ScenarioProgram
 from app.models.scenario_term import ScenarioTerm
 from app.models.student_credit import StudentCredit
+from app.models.overlap_policy import OverlapPolicy
 from app.schemas.course import CourseOut
 from app.schemas.plan import DegreePlanOut, OptimizationMessageOut, PlanCourseOut
 from app.services.common import load_courses_by_id
@@ -30,7 +33,8 @@ from app.services.credit_matching_service import COMPLETED_STATUS
 from app.services.optimizer_service import GeneratedPlan
 
 INFEASIBLE_STATUS = "INFEASIBLE"
-DRAFT_STATUS = "DRAFT"
+VALID_STATUS = "VALID"
+VALID_WITH_WARNINGS_STATUS = "VALID_WITH_WARNINGS"
 
 
 def persist_plan(
@@ -51,6 +55,8 @@ def persist_plan(
     _create_requirement_allocations(db, plan.degree_plan_id, student_id, generated_plan, plan_courses_by_course_id)
     _add_diagnostic_messages(db, plan.degree_plan_id, generated_plan)
     db.flush()
+    _refresh_warning_status(db, plan)
+    db.flush()
     return plan
 
 
@@ -60,7 +66,7 @@ def _create_degree_plan(db: Session, planning_scenario_id: int, generated_plan: 
     plan = DegreePlan(
         planning_scenario_id=planning_scenario_id,
         plan_name=generated_plan.strategy_code,
-        status=INFEASIBLE_STATUS if generated_plan.infeasibility_reason is not None else DRAFT_STATUS,
+        status=_generated_plan_status(generated_plan),
         total_credit_hours=generated_plan.total_credit_hours or None,
         additional_credit_hours=generated_plan.additional_credit_hours,
         projected_graduation_term_id=generated_plan.projected_graduation_term_id,
@@ -68,6 +74,30 @@ def _create_degree_plan(db: Session, planning_scenario_id: int, generated_plan: 
     )
     db.add(plan)
     return plan
+
+
+def _generated_plan_status(generated_plan: GeneratedPlan) -> str:
+    """Return a status that distinguishes verified modeled validity from unresolved obligations."""
+    if generated_plan.infeasibility_reason is not None:
+        return INFEASIBLE_STATUS
+    has_unresolved = bool(
+        generated_plan.credit_requirement_node_ids
+        or generated_plan.unmodeled_prerequisite_course_ids
+        or generated_plan.unmodeled_prerequisite_node_ids
+    )
+    return VALID_WITH_WARNINGS_STATUS if has_unresolved else VALID_STATUS
+
+
+def _refresh_warning_status(db: Session, plan: DegreePlan) -> None:
+    """Promote a valid plan when persisted diagnostics contain academic warnings."""
+    if plan.status != VALID_STATUS:
+        return
+    has_warning = db.query(OptimizationMessage).filter(
+        OptimizationMessage.degree_plan_id == plan.degree_plan_id,
+        OptimizationMessage.severity == "WARNING",
+    ).first() is not None
+    if has_warning:
+        plan.status = VALID_WITH_WARNINGS_STATUS
 
 
 def _create_plan_courses(
@@ -152,7 +182,6 @@ def _allocation_credit_hours(
 
 def _add_diagnostic_messages(db: Session, degree_plan_id: int, generated_plan: GeneratedPlan) -> None:
     """Add the plan's advisor-signoff and unverified-prerequisite caveats.
-
     Each caveat is written as exactly one aggregated row. Earlier this emitted one
     row *per* affected node/course, which produced pages of byte-identical warnings
     on a real plan (Aerospace BS surfaced the same closure-cap sentence 24 times) --
@@ -162,6 +191,9 @@ def _add_diagnostic_messages(db: Session, degree_plan_id: int, generated_plan: G
     _add_credit_requirement_message(db, degree_plan_id, generated_plan)
     _add_unmodeled_prerequisite_course_message(db, degree_plan_id, generated_plan)
     _add_unverified_prerequisite_condition_message(db, degree_plan_id, generated_plan)
+    _add_unallocated_external_credit_message(db, degree_plan_id)
+    _add_solver_quality_message(db, degree_plan_id, generated_plan)
+    _add_overlap_assumption_message(db, degree_plan_id)
 
 
 def _add_credit_requirement_message(
@@ -213,9 +245,77 @@ def _add_unverified_prerequisite_condition_message(
         degree_plan_id,
         "INFO",
         "UNVERIFIED_PREREQUISITE_TYPE",
-        f"{count} prerequisite condition(s) are things the optimizer can't check -- class "
-        "standing, placement exams, or instructor consent. They're assumed satisfied; confirm "
+        f"{count} prerequisite condition(s) are things the optimizer can't check -- placement "
+        "exams, consent, or other unstructured conditions. They're assumed satisfied; confirm "
         "with an advisor.",
+    )
+
+
+def _add_unallocated_external_credit_message(db: Session, degree_plan_id: int) -> None:
+    """Warn when unstructured transfer/external credit was not counted toward the degree."""
+    plan = db.get(DegreePlan, degree_plan_id)
+    scenario = db.get(PlanningScenario, plan.planning_scenario_id)
+    count = db.query(StudentCredit).filter(
+        StudentCredit.student_id == scenario.student_id,
+        StudentCredit.status == COMPLETED_STATUS,
+        StudentCredit.course_id.is_(None),
+    ).count()
+    if count == 0:
+        return
+    _add_message(
+        db,
+        degree_plan_id,
+        "WARNING",
+        "EXTERNAL_CREDIT_NOT_AUTO_APPLIED",
+        f"{count} external or transfer credit record(s) have no catalog-course mapping and "
+        "were not automatically counted toward the degree minimum. Confirm applicability "
+        "with an advisor.",
+    )
+
+
+def _add_solver_quality_message(
+    db: Session, degree_plan_id: int, generated_plan: GeneratedPlan
+) -> None:
+    """Report objective-stage proof status and deadline truncation without overstating optimality."""
+    if generated_plan.objective_stage_results:
+        _add_message(
+            db,
+            degree_plan_id,
+            "INFO",
+            "OBJECTIVE_STAGE_RESULTS",
+            "Lexicographic objective stages: " + ", ".join(generated_plan.objective_stage_results) + ".",
+        )
+    if generated_plan.deadline_exhausted:
+        _add_message(
+            db,
+            degree_plan_id,
+            "INFO",
+            "SOLVER_DEADLINE_REACHED",
+            "The hard solver deadline was reached. This is the best valid solution found; later stages or alternatives may be skipped.",
+        )
+
+
+def _add_overlap_assumption_message(db: Session, degree_plan_id: int) -> None:
+    """Disclose unknown cross-program sharing policy when multiple programs are selected."""
+    plan = db.get(DegreePlan, degree_plan_id)
+    selected_ids = {
+        program_id
+        for (program_id,) in db.query(ScenarioProgram.academic_program_id)
+        .filter(ScenarioProgram.planning_scenario_id == plan.planning_scenario_id)
+        .all()
+    }
+    matching_policy = db.query(OverlapPolicy).filter(
+        OverlapPolicy.program_a_id.in_(selected_ids),
+        OverlapPolicy.program_b_id.in_(selected_ids),
+    ).first()
+    if len(selected_ids) < 2 or matching_policy is not None:
+        return
+    _add_message(
+        db,
+        degree_plan_id,
+        "WARNING",
+        "OVERLAP_POLICY_UNVERIFIED",
+        "Cross-program sharing is optimized using the prototype's current catalog model. Some program-specific double-counting policies may require advisor verification.",
     )
 
 
@@ -356,6 +456,7 @@ def load_degree_plan(db: Session, degree_plan_id: int) -> DegreePlanOut | None:
         plan_name=plan.plan_name,
         status=plan.status,
         total_credit_hours=plan.total_credit_hours,
+        scheduled_credit_hours=sum(course.credit_hours for course in courses_by_id),
         additional_credit_hours=plan.additional_credit_hours,
         projected_graduation_term_id=plan.projected_graduation_term_id,
         solver_objective_value=plan.solver_objective_value,
@@ -369,10 +470,13 @@ def _load_plan_course_details(db: Session, degree_plan_id: int) -> list[PlanCour
     """Load one `PlanCourseOut` (with its full course) per `plan_courses` row on this plan."""
     plan_courses = db.query(PlanCourse).filter(PlanCourse.degree_plan_id == degree_plan_id).all()
     courses_by_id = load_courses_by_id(db, {pc.course_id for pc in plan_courses})
-    return [_plan_course_out(pc, courses_by_id) for pc in plan_courses]
+    metadata = _plan_course_metadata(db, degree_plan_id, plan_courses)
+    return [_plan_course_out(pc, courses_by_id, metadata.get(pc.plan_course_id, {})) for pc in plan_courses]
 
 
-def _plan_course_out(plan_course: PlanCourse, courses_by_id: dict[int, CourseOut]) -> PlanCourseOut:
+def _plan_course_out(
+    plan_course: PlanCourse, courses_by_id: dict[int, CourseOut], metadata: dict
+) -> PlanCourseOut:
     """Convert one `PlanCourse` ORM row plus its already-joined course into a `PlanCourseOut`."""
     return PlanCourseOut(
         plan_course_id=plan_course.plan_course_id,
@@ -380,7 +484,95 @@ def _plan_course_out(plan_course: PlanCourse, courses_by_id: dict[int, CourseOut
         term_id=plan_course.term_id,
         credit_hours=plan_course.credit_hours,
         placement_source=plan_course.placement_source,
+        academic_role=metadata.get("academic_role", "CREDIT_FLOOR"),
+        is_removable=metadata.get("is_removable", False),
+        is_movable=True,
+        is_replaceable=metadata.get("is_replaceable", False),
+        selection_reasons=metadata.get("selection_reasons", ["Selected to support degree completion"]),
     )
+
+
+def _plan_course_metadata(
+    db: Session, degree_plan_id: int, plan_courses: list[PlanCourse]
+) -> dict[int, dict]:
+    """Derive accessible role, editability, and explanation metadata from allocations."""
+    plan = db.get(DegreePlan, degree_plan_id)
+    scenario_roles = {
+        row.academic_program_id: row.program_role
+        for row in db.query(ScenarioProgram).filter(
+            ScenarioProgram.planning_scenario_id == plan.planning_scenario_id
+        ).all()
+    }
+    allocations = db.query(RequirementAllocation).filter(
+        RequirementAllocation.degree_plan_id == degree_plan_id,
+        RequirementAllocation.plan_course_id.isnot(None),
+    ).all()
+    allocations_by_course: dict[int, list[RequirementAllocation]] = {}
+    for allocation in allocations:
+        allocations_by_course.setdefault(allocation.plan_course_id, []).append(allocation)
+    node_ids = {allocation.requirement_node_id for allocation in allocations}
+    nodes = {node.requirement_node_id: node for node in db.query(RequirementNode).filter(RequirementNode.requirement_node_id.in_(node_ids)).all()}
+    links = db.query(ProgramRequirementSet).filter(
+        ProgramRequirementSet.academic_program_id.in_(set(scenario_roles))
+    ).all()
+    program_ids_by_set: dict[int, set[int]] = {}
+    for link in links:
+        program_ids_by_set.setdefault(link.requirement_set_id, set()).add(link.academic_program_id)
+    return {
+        course.plan_course_id: _one_plan_course_metadata(
+            course, allocations_by_course.get(course.plan_course_id, []), nodes, program_ids_by_set, scenario_roles
+        )
+        for course in plan_courses
+    }
+
+
+def _one_plan_course_metadata(
+    plan_course: PlanCourse,
+    allocations: list[RequirementAllocation],
+    nodes: dict[int, RequirementNode],
+    program_ids_by_set: dict[int, set[int]],
+    scenario_roles: dict[int, ScenarioProgramRole],
+) -> dict:
+    """Classify and explain one plan course from its actual requirement allocations."""
+    requirement_set_ids = {
+        nodes[allocation.requirement_node_id].requirement_set_id
+        for allocation in allocations
+    }
+    all_program_ids = {
+        program_id
+        for requirement_set_id in requirement_set_ids
+        for program_id in program_ids_by_set.get(requirement_set_id, set())
+    }
+    exclusive_program_ids = {
+        next(iter(program_ids_by_set[requirement_set_id]))
+        for requirement_set_id in requirement_set_ids
+        if len(program_ids_by_set.get(requirement_set_id, set())) == 1
+    }
+    program_ids = exclusive_program_ids or all_program_ids
+    roles = {scenario_roles[program_id] for program_id in program_ids if program_id in scenario_roles}
+    shared = len(exclusive_program_ids) > 1
+    if shared:
+        academic_role = "SHARED"
+        reasons = ["Satisfies requirements in multiple selected programs"]
+    elif ScenarioProgramRole.PRIMARY_MAJOR in roles or allocations and not roles:
+        academic_role = "PRIMARY_REQUIRED"
+        reasons = ["Satisfies a selected program requirement"]
+    elif roles & {ScenarioProgramRole.MINOR, ScenarioProgramRole.EMPHASIS, ScenarioProgramRole.SECOND_MAJOR}:
+        academic_role = "ADDITIONAL_PROGRAM"
+        reasons = ["Supports an additional academic goal"]
+    elif plan_course.placement_source == "STUDENT_ADDED":
+        academic_role = "EXPLORATORY"
+        reasons = ["Added by the student; not currently counted toward degree progress"]
+    else:
+        academic_role = "CREDIT_FLOOR"
+        reasons = ["Selected to reach the published degree credit minimum"]
+    replaceable = any(nodes[allocation.requirement_node_id].node_type == "COURSE_GROUP" for allocation in allocations)
+    return {
+        "academic_role": academic_role,
+        "is_removable": not allocations and plan_course.placement_source == "STUDENT_ADDED",
+        "is_replaceable": replaceable,
+        "selection_reasons": reasons,
+    }
 
 
 def _load_plan_messages(db: Session, degree_plan_id: int) -> list[OptimizationMessageOut]:

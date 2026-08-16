@@ -60,6 +60,7 @@ export interface WizardDraft {
   defaultMinimumCredits: number | null
   defaultMaximumCredits: number | null
   allowSummer: boolean
+  summerMaximumCredits: number
   /** Forces the generated plan to reach the primary major's (and any second
    * major's) officially published total_credit_hours, not just its named
    * requirements -- on by default; a student can turn it off if it makes
@@ -84,9 +85,10 @@ const initialDraft: WizardDraft = {
   defaultMinimumCredits: 12,
   defaultMaximumCredits: 18,
   allowSummer: true,
+  summerMaximumCredits: 9,
   enforceProgramCreditMinimum: true,
   excludedTermIds: [],
-  objectiveOrder: [...ALL_OBJECTIVES],
+  objectiveOrder: ["EARLIEST_GRADUATION", "BALANCED_WORKLOAD", "MIN_ADDITIONAL_CREDITS"],
 }
 
 type Action =
@@ -106,6 +108,7 @@ type Action =
   | { type: "SET_MIN_CREDITS"; value: number | null }
   | { type: "SET_MAX_CREDITS"; value: number | null }
   | { type: "TOGGLE_SUMMER"; allow: boolean }
+  | { type: "SET_SUMMER_MAX_CREDITS"; value: number }
   | { type: "TOGGLE_CREDIT_MINIMUM"; enforce: boolean }
   | { type: "TOGGLE_EXCLUDED_TERM"; termId: number }
   | { type: "SET_OBJECTIVE_ORDER"; order: OptimizationObjectiveType[] }
@@ -198,6 +201,8 @@ function reducer(draft: WizardDraft, action: Action): WizardDraft {
       return { ...draft, defaultMaximumCredits: action.value }
     case "TOGGLE_SUMMER":
       return { ...draft, allowSummer: action.allow }
+    case "SET_SUMMER_MAX_CREDITS":
+      return { ...draft, summerMaximumCredits: action.value }
     case "TOGGLE_CREDIT_MINIMUM":
       return { ...draft, enforceProgramCreditMinimum: action.enforce }
     case "TOGGLE_EXCLUDED_TERM":

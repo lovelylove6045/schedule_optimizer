@@ -20,6 +20,7 @@ Companion docs:
 | 6 | Full local integration pass (everything in Docker together) | 3, 4, 5 |
 | 7 | Azure deployment (Container Apps + Azure DB for PostgreSQL) | 6 |
 | 8 | Submission prep (video, overview, tools disclosure) | 7 |
+| 9 | Correctness/UX refactor (FA26 scope, lexicographic solve, safe edits, academic rules) | 5 |
 
 ## Dependency summary
 

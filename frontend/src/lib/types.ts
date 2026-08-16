@@ -72,6 +72,7 @@ export interface ProgramOut {
   college_id: number | null
   college_code: string | null
   college_name: string | null
+  compatible_parent_program_ids: number[]
 }
 
 /** One suggested program (backend: `program_overlap_service`): how much of
@@ -227,6 +228,7 @@ export interface ScenarioCreate {
   default_maximum_credits?: number | null
   full_time_minimum_credits?: number | null
   allow_summer?: boolean
+  summer_maximum_credits?: number
   enforce_program_credit_minimum?: boolean
   programs: ScenarioProgramIn[]
   completed_courses?: StudentCreditIn[]
@@ -245,6 +247,11 @@ export interface PlanCourseOut {
   term_id: number
   credit_hours: number
   placement_source: string
+  academic_role: string
+  is_removable: boolean
+  is_movable: boolean
+  is_replaceable: boolean
+  selection_reasons: string[]
 }
 
 export interface OptimizationMessageOut {
@@ -262,6 +269,7 @@ export interface DegreePlanOut {
   plan_name: string | null
   status: string
   total_credit_hours: number | null
+  scheduled_credit_hours: number | null
   additional_credit_hours: number | null
   projected_graduation_term_id: number | null
   solver_objective_value: number | null
@@ -281,6 +289,11 @@ export interface PlanMetricsOut {
   avg_term_credit_hours: number | null
   summer_term_count: number
   overlap_credit_hours: number
+  workload_credit_spread: number | null
+  max_high_level_courses: number
+  high_level_course_spread: number
+  selected_programs: string[]
+  warning_codes: string[]
 }
 
 export interface PlanComparisonOut {
@@ -295,6 +308,10 @@ export interface PlanCourseSwapIn {
 /** Body for `POST /plans/{degree_plan_id}/courses`: add a brand-new course to a term. */
 export interface PlanCourseAddIn {
   course_id: number
+  term_id: number
+}
+
+export interface PlanCourseMoveIn {
   term_id: number
 }
 

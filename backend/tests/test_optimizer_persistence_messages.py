@@ -9,6 +9,7 @@ from app.models.scenario_preference import ScenarioPreference
 from app.models.scenario_program import ScenarioProgram
 from app.models.scenario_term import ScenarioTerm
 from app.models.student import Student
+from app.models.student_credit import StudentCredit
 from app.services import optimizer_persistence
 from app.services.optimizer_service import GeneratedPlan
 
@@ -177,3 +178,25 @@ def test_feasible_plan_gets_no_suggested_adjustments(db_session):
     messages = _messages(db_session, scenario_id, student_id, _plan())
 
     assert not any(m.message_code == "SUGGESTED_ADJUSTMENTS" for m in messages)
+
+
+def test_unmapped_external_credit_is_not_counted_and_promotes_warning_status(db_session):
+    """Disclose conservative handling of external credit without a catalog mapping."""
+    scenario_id, student_id = _make_scenario(db_session)
+    db_session.add(
+        StudentCredit(
+            student_id=student_id,
+            course_id=None,
+            source_type="TRANSFER",
+            status="COMPLETED",
+            external_course_code="EXT 100",
+            external_course_title="Unmapped transfer credit",
+            credits_earned=3,
+            is_in_residence=False,
+        )
+    )
+    db_session.flush()
+    saved = optimizer_persistence.persist_plan(db_session, scenario_id, student_id, _plan())
+    loaded = optimizer_persistence.load_degree_plan(db_session, saved.degree_plan_id)
+    assert loaded.status == "VALID_WITH_WARNINGS"
+    assert any(message.message_code == "EXTERNAL_CREDIT_NOT_AUTO_APPLIED" for message in loaded.messages)

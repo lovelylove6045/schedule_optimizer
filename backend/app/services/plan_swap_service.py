@@ -1,18 +1,10 @@
 """Lets a student directly edit one course slot in an already-generated plan
 without re-running the solver: swap it for an alternative, add a brand-new
-course to a term, or remove one entirely.
+course, move an existing placement, or remove a genuinely optional course.
 
-Swapping mutates the existing `plan_courses` row in place rather than
-deleting/recreating it, so its `requirement_allocations` rows (which point at
-plan_course_id, not course_id) keep tracking the same requirement node
-without any extra bookkeeping. Adding creates a new row with no
-`requirement_allocations` of its own -- like the solver's own
-beyond-requirement electives, it just adds to the plan's credit totals.
-Removing deletes both the row and its `requirement_allocations`.
-
-Every add/swap is checked against `plan_swap_validation` first --
-offered-in-term, the term's credit cap, and prerequisite ordering -- so a
-manual edit can't produce a schedule the solver itself would have rejected."""
+Every mutation runs inside a savepoint. After the tentative change, the whole
+plan is revalidated and its requirement allocations and derived metrics are
+rebuilt. Any hard academic violation rolls the edit back."""
 
 from __future__ import annotations
 
@@ -23,7 +15,7 @@ from app.models.degree_plan import DegreePlan
 from app.models.plan_course import PlanCourse
 from app.models.requirement_allocation import RequirementAllocation
 from app.models.term import Term
-from app.services import plan_swap_validation
+from app.services import plan_swap_validation, plan_validation_service
 
 STUDENT_SWAP_SOURCE = "STUDENT_SWAP"
 STUDENT_ADDED_SOURCE = "STUDENT_ADDED"
@@ -56,15 +48,19 @@ def swap_plan_course(db: Session, degree_plan_id: int, plan_course_id: int, new_
     new_course = _load_course(db, new_course_id)
     _check_not_duplicate(db, degree_plan_id, new_course_id, exclude_plan_course_id=plan_course_id)
     plan_swap_validation.validate_swap(db, plan_course, new_course)
-    credit_delta = float(new_course.credit_hours) - float(plan_course.credit_hours)
-    plan_course.course_id = new_course_id
-    plan_course.credit_hours = new_course.credit_hours
-    plan_course.placement_source = STUDENT_SWAP_SOURCE
-    _sync_allocation_credit(db, plan_course_id, new_course.credit_hours)
-    plan = db.get(DegreePlan, degree_plan_id)
-    _apply_credit_delta(plan, credit_delta)
-    db.flush()
-    return plan
+    savepoint = db.begin_nested()
+    try:
+        plan_course.course_id = new_course_id
+        plan_course.credit_hours = new_course.credit_hours
+        plan_course.placement_source = STUDENT_SWAP_SOURCE
+        _sync_allocation_credit(db, plan_course_id, new_course.credit_hours)
+        db.flush()
+        plan = plan_validation_service.validate_and_reallocate_plan(db, degree_plan_id)
+        savepoint.commit()
+        return plan
+    except Exception:
+        savepoint.rollback()
+        raise
 
 
 def add_plan_course(db: Session, degree_plan_id: int, course_id: int, term_id: int) -> DegreePlan:
@@ -76,34 +72,60 @@ def add_plan_course(db: Session, degree_plan_id: int, course_id: int, term_id: i
     course = _load_course(db, course_id)
     _check_not_duplicate(db, degree_plan_id, course_id, exclude_plan_course_id=None)
     plan_swap_validation.validate_add(db, degree_plan_id, term.term_id, course)
-    plan_course = PlanCourse(
-        degree_plan_id=degree_plan_id,
-        course_id=course_id,
-        term_id=term.term_id,
-        credit_hours=course.credit_hours,
-        placement_source=STUDENT_ADDED_SOURCE,
-    )
-    db.add(plan_course)
-    _apply_credit_delta(plan, float(course.credit_hours))
-    db.flush()
-    return plan
+    savepoint = db.begin_nested()
+    try:
+        plan_course = PlanCourse(
+            degree_plan_id=degree_plan_id,
+            course_id=course_id,
+            term_id=term.term_id,
+            credit_hours=course.credit_hours,
+            placement_source=STUDENT_ADDED_SOURCE,
+        )
+        db.add(plan_course)
+        db.flush()
+        plan = plan_validation_service.validate_and_reallocate_plan(db, degree_plan_id)
+        savepoint.commit()
+        return plan
+    except Exception:
+        savepoint.rollback()
+        raise
 
 
 def remove_plan_course(db: Session, degree_plan_id: int, plan_course_id: int) -> DegreePlan:
-    """Remove one `plan_courses` row entirely -- a solver-assigned or student-
-    added course the student no longer wants -- deleting its
-    `requirement_allocations` rows too (the FK would otherwise block the
-    delete) and adjusting the plan's cached credit totals. Doesn't try to
-    re-satisfy whatever requirement node the course was counted against; like
-    a swap, this is a deliberate student action."""
+    """Remove one course only if whole-plan revalidation still succeeds."""
     plan_course = _load_plan_course(db, degree_plan_id, plan_course_id)
-    plan = db.get(DegreePlan, degree_plan_id)
-    credit_hours = float(plan_course.credit_hours)
-    db.query(RequirementAllocation).filter(RequirementAllocation.plan_course_id == plan_course_id).delete()
-    db.delete(plan_course)
-    _apply_credit_delta(plan, -credit_hours)
-    db.flush()
-    return plan
+    savepoint = db.begin_nested()
+    try:
+        db.query(RequirementAllocation).filter(RequirementAllocation.plan_course_id == plan_course_id).delete()
+        db.delete(plan_course)
+        db.flush()
+        plan = plan_validation_service.validate_and_reallocate_plan(db, degree_plan_id)
+        savepoint.commit()
+        return plan
+    except Exception:
+        savepoint.rollback()
+        raise
+
+
+def move_plan_course(
+    db: Session, degree_plan_id: int, plan_course_id: int, term_id: int
+) -> DegreePlan:
+    """Move a plan course to another term and reject any resulting downstream violation."""
+    plan_course = _load_plan_course(db, degree_plan_id, plan_course_id)
+    term = _load_term(db, term_id)
+    course = _load_course(db, plan_course.course_id)
+    plan_swap_validation.validate_move(db, plan_course, term.term_id, course)
+    savepoint = db.begin_nested()
+    try:
+        plan_course.term_id = term.term_id
+        plan_course.placement_source = STUDENT_SWAP_SOURCE
+        db.flush()
+        plan = plan_validation_service.validate_and_reallocate_plan(db, degree_plan_id)
+        savepoint.commit()
+        return plan
+    except Exception:
+        savepoint.rollback()
+        raise
 
 
 def _load_plan_course(db: Session, degree_plan_id: int, plan_course_id: int) -> PlanCourse:
@@ -157,11 +179,3 @@ def _sync_allocation_credit(db: Session, plan_course_id: int, credit_hours: floa
     db.query(RequirementAllocation).filter(RequirementAllocation.plan_course_id == plan_course_id).update(
         {RequirementAllocation.credit_hours_applied: credit_hours}
     )
-
-
-def _apply_credit_delta(plan: DegreePlan, credit_delta: float) -> None:
-    """Adjust the plan's cached credit totals by an edit's credit-hour delta."""
-    if plan.total_credit_hours is not None:
-        plan.total_credit_hours = float(plan.total_credit_hours) + credit_delta
-    if plan.additional_credit_hours is not None:
-        plan.additional_credit_hours = float(plan.additional_credit_hours) + credit_delta

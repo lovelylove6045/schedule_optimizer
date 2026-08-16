@@ -1,78 +1,68 @@
-import { ArrowDown, ArrowUp } from "lucide-react"
-import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Label } from "@/components/ui/label"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { ALL_OBJECTIVES, useScenarioBuilder } from "@/state/scenario-builder-context"
 import { OBJECTIVE_LABELS } from "@/lib/objective-labels"
-import { useScenarioBuilder } from "@/state/scenario-builder-context"
-import { cn } from "@/lib/utils"
+import type { OptimizationObjectiveType } from "@/lib/types"
 
-/** Step 7: rank the 5 supported objectives by priority (1st = most important).
- * A plain ranked list with up/down buttons instead of drag-and-drop, per the
- * "otherwise a simple ranked list" fallback in the Phase 5 plan. */
+/** Step 7: choose one required primary goal and up to two optional secondary priorities. */
 export function StepObjectiveSelection() {
   const { draft, dispatch } = useScenarioBuilder()
-  /** Swap the objective at `index` with its neighbor in `direction`, if one exists. */
-  function move(index: number, direction: -1 | 1) {
-    const target = index + direction
-    if (target < 0 || target >= draft.objectiveOrder.length) return
-    const reordered = [...draft.objectiveOrder]
-    ;[reordered[index], reordered[target]] = [reordered[target], reordered[index]]
-    dispatch({ type: "SET_OBJECTIVE_ORDER", order: reordered })
+  const primary = draft.objectiveOrder[0]
+  const secondaryOne = draft.objectiveOrder[1]
+  const secondaryTwo = draft.objectiveOrder[2]
+  /** Replace one priority slot while keeping the ordered list unique. */
+  function setPriority(index: number, value: OptimizationObjectiveType | "NONE") {
+    const next = [...draft.objectiveOrder]
+    if (value === "NONE") next.splice(index)
+    else next[index] = value
+    const unique = next.filter((item, position) => next.indexOf(item) === position)
+    dispatch({ type: "SET_OBJECTIVE_ORDER", order: unique })
   }
   return (
     <Card>
       <CardHeader>
         <CardTitle>What matters most to you?</CardTitle>
         <CardDescription>
-          Rank these from most to least important -- the top priority drives the recommended plan; the rest still
-          generate alternatives to compare.
+          Choose one primary goal. Secondary priorities are optional and apply in order without weakening a higher
+          priority.
         </CardDescription>
       </CardHeader>
-      <CardContent>
-        <ol className="space-y-2">
-          {draft.objectiveOrder.map((objectiveType, index) => (
-            <li
-              key={objectiveType}
-              className={cn(
-                "glass-inset flex items-center gap-3 rounded-lg p-3",
-                index === 0 && "border-gold ring-1 ring-gold/30",
-              )}
-            >
-              <span
-                className={cn(
-                  "flex size-7 shrink-0 items-center justify-center rounded-full font-mono text-xs font-semibold",
-                  index === 0 ? "bg-gold text-gold-foreground" : "bg-primary text-primary-foreground",
-                )}
-              >
-                {index + 1}
-              </span>
-              <div className="min-w-0 flex-1">
-                <p className="text-sm font-medium">{OBJECTIVE_LABELS[objectiveType].title}</p>
-                <p className="text-xs text-muted-foreground">{OBJECTIVE_LABELS[objectiveType].description}</p>
-              </div>
-              <div className="flex shrink-0 flex-col gap-1">
-                <Button
-                  variant="ghost"
-                  size="icon-xs"
-                  aria-label="Move up"
-                  disabled={index === 0}
-                  onClick={() => move(index, -1)}
-                >
-                  <ArrowUp className="size-3.5" />
-                </Button>
-                <Button
-                  variant="ghost"
-                  size="icon-xs"
-                  aria-label="Move down"
-                  disabled={index === draft.objectiveOrder.length - 1}
-                  onClick={() => move(index, 1)}
-                >
-                  <ArrowDown className="size-3.5" />
-                </Button>
-              </div>
-            </li>
-          ))}
-        </ol>
+      <CardContent className="space-y-5">
+        <PrioritySelect label="Primary goal" value={primary} onChange={(value) => setPriority(0, value)} required />
+        <PrioritySelect label="Secondary priority #1" value={secondaryOne} onChange={(value) => setPriority(1, value)} />
+        <PrioritySelect label="Secondary priority #2" value={secondaryTwo} onChange={(value) => setPriority(2, value)} />
+        <p className="rounded-lg border bg-muted/30 p-3 text-xs text-muted-foreground">
+          Credit caps, unavailable terms, required courses, and summer availability remain mandatory constraints—not
+          optimization goals.
+        </p>
       </CardContent>
     </Card>
+  )
+}
+
+interface PrioritySelectProps {
+  label: string
+  value?: OptimizationObjectiveType
+  onChange: (value: OptimizationObjectiveType | "NONE") => void
+  required?: boolean
+}
+
+/** Render one ordered optimization-priority selector with its explanation. */
+function PrioritySelect({ label, value, onChange, required = false }: PrioritySelectProps) {
+  return (
+    <div className="space-y-2">
+      <Label>{label}</Label>
+      <Select value={value ?? "NONE"} onValueChange={(next) => onChange(next as OptimizationObjectiveType | "NONE")}>
+        <SelectTrigger className="w-full"><SelectValue /></SelectTrigger>
+        <SelectContent>
+          {!required ? <SelectItem value="NONE">No additional priority</SelectItem> : null}
+          {ALL_OBJECTIVES.map((objective) => (
+            <SelectItem key={objective} value={objective}>{OBJECTIVE_LABELS[objective].title}</SelectItem>
+          ))}
+        </SelectContent>
+      </Select>
+      {value ? <p className="text-xs text-muted-foreground">{OBJECTIVE_LABELS[value].description}</p> : null}
+    </div>
   )
 }

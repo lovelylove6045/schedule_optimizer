@@ -2,6 +2,16 @@
 
 FastAPI + SQLAlchemy + Alembic + OR-Tools backend for the Academic Degree Optimization Engine.
 
+The backend models the Missouri S&T FA26 / 2026 catalog snapshot only. Runtime
+catalog data flows from `schedule_optimizer_db/*.json` through
+`db/load_catalog.py` into PostgreSQL. The historical `catalog_scraper/` directory
+is not a runtime dependency.
+
+Recommended plans use true ordered lexicographic optimization through
+`POST /scenarios/{id}/generate/recommended`; alternatives are generated separately
+through `POST /scenarios/{id}/generate/alternatives`. Manual edits revalidate the
+complete schedule and rebuild requirement allocations.
+
 ## Local development (directly on the host)
 
 Requires a local PostgreSQL server reachable at the host/port in the repo-root `.env`.

@@ -14,6 +14,11 @@ class PlanCourseOut(BaseModel):
     term_id: int
     credit_hours: float
     placement_source: str
+    academic_role: str = "COURSE"
+    is_removable: bool = False
+    is_movable: bool = True
+    is_replaceable: bool = False
+    selection_reasons: list[str] = []
 
 
 class OptimizationMessageOut(BaseModel):
@@ -35,6 +40,7 @@ class DegreePlanOut(BaseModel):
     plan_name: str | None = None
     status: str
     total_credit_hours: float | None = None
+    scheduled_credit_hours: float | None = None
     additional_credit_hours: float | None = None
     projected_graduation_term_id: int | None = None
     solver_objective_value: float | None = None
@@ -59,6 +65,11 @@ class PlanMetricsOut(BaseModel):
     avg_term_credit_hours: float | None = None
     summer_term_count: int = 0
     overlap_credit_hours: float = 0.0
+    workload_credit_spread: float | None = None
+    max_high_level_courses: int = 0
+    high_level_course_spread: int = 0
+    selected_programs: list[str] = []
+    warning_codes: list[str] = []
 
 
 class PlanComparisonOut(BaseModel):
@@ -77,4 +88,10 @@ class PlanCourseAddIn(BaseModel):
     to a specific term, rather than replacing an existing slot."""
 
     course_id: int
+    term_id: int
+
+
+class PlanCourseMoveIn(BaseModel):
+    """Body for moving an existing course to another term."""
+
     term_id: int

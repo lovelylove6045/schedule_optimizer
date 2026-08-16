@@ -1,8 +1,4 @@
-"""Orchestrates `POST /scenarios/{id}/generate`: runs Phase 3's `optimizer_service`
-unchanged (still solving all 5 supported objective types), narrows the result
-down to the scenario's own selected `scenario_objectives` (if any were submitted,
-per their `display_order`), persists each surviving plan, and reloads it as a
-`DegreePlanOut` ready to return over HTTP."""
+"""Persist recommended and alternative solver results for scenario API routes."""
 
 from __future__ import annotations
 
@@ -30,6 +26,37 @@ def generate_and_persist_plans(db: Session, planning_scenario_id: int) -> list[D
     return [_reload_plan(db, degree_plan_id) for degree_plan_id in degree_plan_ids]
 
 
+def generate_and_persist_recommended_plan(
+    db: Session, planning_scenario_id: int
+) -> DegreePlanOut:
+    """Generate and persist only the lexicographic recommended plan."""
+    scenario = _load_scenario(db, planning_scenario_id)
+    generated = optimizer_service.generate_recommended_plan(db, planning_scenario_id)
+    plan = optimizer_persistence.persist_plan(
+        db, planning_scenario_id, scenario.student_id, generated
+    )
+    db.flush()
+    return _reload_plan(db, plan.degree_plan_id)
+
+
+def generate_and_persist_alternative_plans(
+    db: Session, planning_scenario_id: int
+) -> list[DegreePlanOut]:
+    """Generate and persist alternatives independently of the recommended plan."""
+    scenario = _load_scenario(db, planning_scenario_id)
+    existing = optimizer_persistence.list_degree_plans_for_scenario(db, planning_scenario_id)
+    excluded = {frozenset((course.course.course_id, course.term_id) for course in plan.courses) for plan in existing}
+    generated = optimizer_service.generate_alternative_plans(
+        db, planning_scenario_id, excluded_signatures=excluded
+    )
+    plan_ids = [
+        optimizer_persistence.persist_plan(db, planning_scenario_id, scenario.student_id, plan).degree_plan_id
+        for plan in generated
+    ]
+    db.flush()
+    return [_reload_plan(db, plan_id) for plan_id in plan_ids]
+
+
 def _load_scenario(db: Session, planning_scenario_id: int) -> PlanningScenario:
     """Look up a planning scenario by id, raising `ValueError` if it doesn't exist."""
     scenario = db.get(PlanningScenario, planning_scenario_id)
@@ -41,17 +68,20 @@ def _load_scenario(db: Session, planning_scenario_id: int) -> PlanningScenario:
 def _select_requested_plans(
     db: Session, planning_scenario_id: int, generated_plans: list[GeneratedPlan]
 ) -> list[GeneratedPlan]:
-    """Narrow `generated_plans` to the scenario's own `scenario_objectives` selection,
-    in that selection's `display_order`. A whole-model infeasibility (no objective_type
-    at all) always passes through unfiltered. No selection at all keeps every plan
-    in the solver's default order."""
-    if any(plan.objective_type is None for plan in generated_plans):
+    """Keep the recommended plan first, followed by requested legacy alternatives."""
+    if not generated_plans or generated_plans[0].infeasibility_reason is not None:
         return generated_plans
     requested_order = _requested_objective_order(db, planning_scenario_id)
     if not requested_order:
         return generated_plans
-    plans_by_objective = {plan.objective_type: plan for plan in generated_plans}
-    return [plans_by_objective[objective] for objective in requested_order if objective in plans_by_objective]
+    recommended = generated_plans[0]
+    plans_by_objective = {plan.objective_type: plan for plan in generated_plans[1:]}
+    alternatives = [
+        plans_by_objective[objective]
+        for objective in requested_order
+        if objective in plans_by_objective
+    ]
+    return [recommended, *alternatives]
 
 
 def _requested_objective_order(db: Session, planning_scenario_id: int) -> list[OptimizationObjectiveType]:

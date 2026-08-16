@@ -1,5 +1,5 @@
 import { useMutation, useQueryClient, type QueryClient } from "@tanstack/react-query"
-import { addPlanCourse, removePlanCourse, swapPlanCourse } from "@/lib/api/plans"
+import { addPlanCourse, movePlanCourse, removePlanCourse, swapPlanCourse } from "@/lib/api/plans"
 import type { DegreePlanOut } from "@/lib/types"
 
 interface SwapPlanCourseArgs {
@@ -48,6 +48,22 @@ export function useRemovePlanCourseMutation() {
   const queryClient = useQueryClient()
   return useMutation({
     mutationFn: ({ degreePlanId, planCourseId }: RemovePlanCourseArgs) => removePlanCourse(degreePlanId, planCourseId),
+    onSuccess: (updatedPlan) => applyUpdatedPlanToCache(queryClient, updatedPlan),
+  })
+}
+
+interface MovePlanCourseArgs {
+  degreePlanId: number
+  planCourseId: number
+  termId: number
+}
+
+/** Move an existing course to another term and update cached plan views. */
+export function useMovePlanCourseMutation() {
+  const queryClient = useQueryClient()
+  return useMutation({
+    mutationFn: ({ degreePlanId, planCourseId, termId }: MovePlanCourseArgs) =>
+      movePlanCourse(degreePlanId, planCourseId, termId),
     onSuccess: (updatedPlan) => applyUpdatedPlanToCache(queryClient, updatedPlan),
   })
 }

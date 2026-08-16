@@ -3,6 +3,7 @@ Aerospace BS/minor catalog data: a clean single-program case, prerequisite-closu
 growth capping, completed-course exclusion, and cross-program overlap detection."""
 
 from app.models.academic_program import AcademicProgram
+from app.models.course import Course
 from app.models.enums import ScenarioProgramRole
 from app.models.planning_scenario import PlanningScenario
 from app.models.scenario_program import ScenarioProgram
@@ -157,6 +158,33 @@ def test_credit_floor_remaining_is_reduced_by_completed_credit_hours(db_session)
     result = optimizer_candidates.build_candidate_course_set(db_session, scenario)
 
     assert result.credit_floor_remaining == float(program.total_credit_hours) - 3
+
+
+def test_unrelated_completed_course_does_not_reduce_degree_credit_floor(db_session):
+    """Keep unrelated completed coursework out of conservative degree-progress credits."""
+    student = Student(display_name="Test Student")
+    db_session.add(student)
+    db_session.flush()
+    scenario = _make_scenario(db_session, [AERO_BS_PROGRAM_ID], student.student_id)
+    candidate_ids = optimizer_candidates.build_candidate_course_set(db_session, scenario).assignable_course_ids
+    unrelated_course_id = next(
+        course_id
+        for (course_id,) in db_session.query(Course.course_id).order_by(Course.course_id).all()
+        if course_id not in candidate_ids
+    )
+    db_session.add(
+        StudentCredit(
+            student_id=student.student_id,
+            course_id=unrelated_course_id,
+            source_type="INSTITUTIONAL",
+            status="COMPLETED",
+            credits_earned=3,
+        )
+    )
+    db_session.flush()
+    program = db_session.get(AcademicProgram, AERO_BS_PROGRAM_ID)
+    result = optimizer_candidates.build_candidate_course_set(db_session, scenario)
+    assert result.credit_floor_remaining == float(program.total_credit_hours)
 
 
 def test_credit_floor_remaining_is_none_without_a_major_role_program(db_session):

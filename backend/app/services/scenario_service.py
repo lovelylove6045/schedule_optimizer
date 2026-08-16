@@ -11,8 +11,9 @@ from __future__ import annotations
 from sqlalchemy.orm import InstrumentedAttribute, Session
 
 from app.models.academic_program import AcademicProgram
-from app.models.enums import ScenarioProgramRole
+from app.models.enums import ProgramType, ScenarioProgramRole
 from app.models.planning_scenario import PlanningScenario
+from app.models.program_relationship import ProgramRelationship
 from app.models.scenario_objective import ScenarioObjective
 from app.models.scenario_preference import ScenarioPreference
 from app.models.scenario_program import ScenarioProgram
@@ -39,6 +40,14 @@ class ScenarioReferenceNotFoundError(ValueError):
     """A scenario submission references a program/term/student id that doesn't exist."""
 
 
+_PROGRAM_TYPE_FOR_ROLE = {
+    ScenarioProgramRole.PRIMARY_MAJOR: ProgramType.MAJOR,
+    ScenarioProgramRole.SECOND_MAJOR: ProgramType.MAJOR,
+    ScenarioProgramRole.MINOR: ProgramType.MINOR,
+    ScenarioProgramRole.EMPHASIS: ProgramType.EMPHASIS,
+}
+
+
 def create_scenario(db: Session, payload: ScenarioCreate) -> PlanningScenario:
     """Validate and persist one planning scenario submission, returning the new
     `PlanningScenario` row. Raises `ScenarioValidationError` for business-rule
@@ -46,6 +55,7 @@ def create_scenario(db: Session, payload: ScenarioCreate) -> PlanningScenario:
     student ids -- the router translates these into 422/404 responses."""
     _validate_exactly_one_primary_major(payload.programs)
     _validate_programs_exist(db, payload.programs)
+    _validate_program_compatibility(db, payload.programs)
     _validate_terms_exist(db, payload)
     student_id = _resolve_student_id(db, payload)
     scenario = _create_planning_scenario(db, payload, student_id)
@@ -75,6 +85,55 @@ def _validate_programs_exist(db: Session, programs: list[ScenarioProgramIn]) -> 
     missing_ids = requested_ids - found_ids
     if missing_ids:
         raise ScenarioReferenceNotFoundError(f"Unknown academic_program_id(s): {sorted(missing_ids)}")
+
+
+def _validate_program_compatibility(db: Session, programs: list[ScenarioProgramIn]) -> None:
+    """Validate unique programs, role/type agreement, and emphasis parentage."""
+    program_ids = [program.academic_program_id for program in programs]
+    if len(program_ids) != len(set(program_ids)):
+        raise ScenarioValidationError("Each academic program may be selected only once.")
+    rows = db.query(AcademicProgram).filter(AcademicProgram.academic_program_id.in_(program_ids)).all()
+    programs_by_id = {program.academic_program_id: program for program in rows}
+    for selection in programs:
+        expected_type = _PROGRAM_TYPE_FOR_ROLE[selection.program_role]
+        actual_type = programs_by_id[selection.academic_program_id].program_type
+        if actual_type != expected_type:
+            raise ScenarioValidationError(
+                f"{selection.program_role.value} requires a {expected_type.value.lower()} program; "
+                f"program {selection.academic_program_id} is {actual_type.value.lower()}."
+            )
+    _validate_emphasis_relationships(db, programs)
+
+
+def _validate_emphasis_relationships(db: Session, programs: list[ScenarioProgramIn]) -> None:
+    """Require each selected emphasis to belong to one of the selected majors."""
+    selected_major_ids = {
+        program.academic_program_id
+        for program in programs
+        if program.program_role in (ScenarioProgramRole.PRIMARY_MAJOR, ScenarioProgramRole.SECOND_MAJOR)
+    }
+    emphasis_ids = {
+        program.academic_program_id
+        for program in programs
+        if program.program_role == ScenarioProgramRole.EMPHASIS
+    }
+    if not emphasis_ids:
+        return
+    rows = (
+        db.query(ProgramRelationship.child_program_id, ProgramRelationship.parent_program_id)
+        .filter(
+            ProgramRelationship.relationship_type == "HAS_EMPHASIS",
+            ProgramRelationship.child_program_id.in_(emphasis_ids),
+        )
+        .all()
+    )
+    compatible_emphasis_ids = {child_id for child_id, parent_id in rows if parent_id in selected_major_ids}
+    invalid_ids = emphasis_ids - compatible_emphasis_ids
+    if invalid_ids:
+        raise ScenarioValidationError(
+            "Each emphasis must belong to a selected compatible major; invalid emphasis id(s): "
+            f"{sorted(invalid_ids)}."
+        )
 
 
 def _validate_terms_exist(db: Session, payload: ScenarioCreate) -> None:
@@ -118,6 +177,7 @@ def _create_planning_scenario(db: Session, payload: ScenarioCreate, student_id: 
         default_maximum_credits=payload.default_maximum_credits,
         full_time_minimum_credits=payload.full_time_minimum_credits,
         allow_summer=payload.allow_summer,
+        summer_maximum_credits=payload.summer_maximum_credits,
         enforce_program_credit_minimum=payload.enforce_program_credit_minimum,
     )
     db.add(scenario)
@@ -163,6 +223,8 @@ def add_scenario_program(
         raise ScenarioReferenceNotFoundError(f"Unknown planning_scenario_id: {planning_scenario_id}")
     _validate_programs_exist(db, [payload])
     _validate_program_addable(db, planning_scenario_id, payload)
+    existing = _scenario_program_inputs(db, planning_scenario_id)
+    _validate_program_compatibility(db, [*existing, payload])
     scenario_program = ScenarioProgram(
         planning_scenario_id=planning_scenario_id,
         academic_program_id=payload.academic_program_id,
@@ -182,6 +244,15 @@ def _validate_program_addable(db: Session, planning_scenario_id: int, payload: S
     existing = db.query(ScenarioProgram).filter(ScenarioProgram.planning_scenario_id == planning_scenario_id).all()
     if any(program.academic_program_id == payload.academic_program_id for program in existing):
         raise ScenarioValidationError(f"Program {payload.academic_program_id} is already part of this scenario")
+
+
+def _scenario_program_inputs(db: Session, planning_scenario_id: int) -> list[ScenarioProgramIn]:
+    """Return existing scenario selections in the validation input shape."""
+    rows = db.query(ScenarioProgram).filter(ScenarioProgram.planning_scenario_id == planning_scenario_id).all()
+    return [
+        ScenarioProgramIn(academic_program_id=row.academic_program_id, program_role=row.program_role)
+        for row in rows
+    ]
 
 
 def _create_scenario_programs(db: Session, planning_scenario_id: int, programs: list[ScenarioProgramIn]) -> None:
