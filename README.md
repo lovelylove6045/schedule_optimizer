@@ -38,7 +38,7 @@ by the loader, API, optimizer, or frontend runtime.
 
 ## Setup, from a clean machine
 
-Two supported ways to run this locally — pick whichever fits you (see [Option A](#option-a--natively-on-the-host) vs. [Option B](#option-b--docker-compose) below). Both read the same `.env` and hit the same code either way.
+Two supported ways to run this locally — pick whichever fits you (see [Option A](#option-a--natively-on-the-host) vs. [Option B](#option-b--docker-compose) below). Both hit the same code either way; each just reads its own `.env` file (see step 4).
 
 This walkthrough is **Option A** (native), in the order you'd actually do it on a brand-new machine: Node.js → Python (via `uv`) → PostgreSQL → migrate → load data → run.
 
@@ -57,6 +57,7 @@ The backend uses [**uv**](https://docs.astral.sh/uv/) to manage both the Python 
 
 - **Windows (PowerShell)**: `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`
 - **macOS / Linux**: `curl -LsSf https://astral.sh/uv/install.sh | sh`
+- **Already have Python + pip?** `pip install uv` (or `pipx install uv`) works too — the standalone installers above are only preferred because they don't require Python to already be installed.
 
 Verify:
 
@@ -97,16 +98,18 @@ Either way, the rest of this walkthrough (steps 4-6) is identical — the backen
 From the repo root:
 
 ```bash
-cp .env.example .env          # Windows: copy .env.example .env
+cp .env.example .env                  # Windows: copy .env.example .env
+cp .env.example backend/.env          # Windows: copy .env.example backend\.env
 cp frontend/.env.example frontend/.env
 ```
 
-Open `.env` and adjust `POSTGRES_USER`/`POSTGRES_PASSWORD` to match your local Postgres install if they differ from the defaults. Leave `frontend/.env` as-is unless the backend runs on a non-default port.
+Two separate `.env` files are needed even though their contents start out identical: the repo-root `.env` is what `docker-compose.yml` reads (for the containerized Postgres/backend), while `backend/app/config.py` only reads `backend/.env` (used whenever `uv run ...` is invoked from `backend/`, whether that's the app itself or a one-off script like `db/load_catalog.py`). Keep both in sync if you change a value. Open both and adjust `POSTGRES_USER`/`POSTGRES_PASSWORD` to match your local Postgres install if they differ from the defaults. Leave `frontend/.env` as-is unless the backend runs on a non-default port.
 
 ### 5. Backend: install deps, migrate, load the catalog, run
 
 ```bash
 cd backend
+uv venv                              # creates the .venv (uv sync below also does this automatically if skipped)
 uv sync                              # installs Python 3.12 (if needed) + all dependencies
 uv run alembic upgrade head          # creates all 28 tables + enum types
 uv run python ../db/seed_terms.py    # generates 36 Fall/Spring/Summer terms through 2038
@@ -151,7 +154,7 @@ cd frontend && npm run dev
 
 ### Option B — Docker Compose
 
-Prerequisites: [Docker Desktop](https://www.docker.com/products/docker-desktop/), plus `uv` on the host for the one-time migration/data-load step (the `db/` loader scripts aren't baked into the backend image, so they run from the host against the containerized Postgres, which is reachable at `localhost:5432` either way).
+Prerequisites: [Docker Desktop](https://www.docker.com/products/docker-desktop/), plus `uv` on the host for the one-time migration/data-load step (the `db/` loader scripts aren't baked into the backend image, so they run from the host against the containerized Postgres, which is reachable at `localhost:5432` either way). Since these host-run commands execute from `backend/`, they still read `backend/.env` (see step 4) — `docker compose up -d db` itself reads the repo-root `.env`.
 
 ```bash
 docker compose up -d db               # Postgres 16 in a container
