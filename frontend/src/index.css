@@ -219,6 +219,52 @@
     background-color: var(--border);
     border-radius: 9999px;
   }
+
+  .optimization-pattern {
+    background-image:
+      linear-gradient(to right, color-mix(in oklch, var(--primary) 8%, transparent) 1px, transparent 1px),
+      linear-gradient(to bottom, color-mix(in oklch, var(--primary) 8%, transparent) 1px, transparent 1px);
+    background-size: 2rem 2rem;
+    mask-image: radial-gradient(circle at center, black, transparent 74%);
+    animation: optimization-pattern-drift 12s linear infinite;
+  }
+
+  .optimization-progress-sweep {
+    animation: optimization-progress-sweep 1.8s ease-in-out infinite;
+  }
+
+  .optimization-activity {
+    animation: optimization-activity-pulse 2.2s ease-in-out infinite;
+  }
+}
+
+@keyframes optimization-pattern-drift {
+  to {
+    background-position: 2rem 2rem;
+  }
+}
+
+@keyframes optimization-progress-sweep {
+  0% {
+    transform: translateX(-110%);
+  }
+  55% {
+    transform: translateX(150%);
+  }
+  100% {
+    transform: translateX(250%);
+  }
+}
+
+@keyframes optimization-activity-pulse {
+  0%, 100% {
+    border-color: var(--border);
+    transform: translateY(0);
+  }
+  45% {
+    border-color: color-mix(in oklch, var(--primary) 45%, transparent);
+    transform: translateY(-2px);
+  }
 }
 
 /* Respect a user's reduced-motion preference for the hover lift. */
@@ -227,5 +273,10 @@
   .glass-interactive:hover {
     transition: none;
     transform: none;
+  }
+  .optimization-pattern,
+  .optimization-progress-sweep,
+  .optimization-activity {
+    animation: none;
   }
 }

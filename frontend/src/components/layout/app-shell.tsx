@@ -2,7 +2,6 @@ import type { ReactNode } from "react"
 import { BookOpen, GraduationCap } from "lucide-react"
 import { Link, useLocation } from "react-router-dom"
 import { Badge } from "@/components/ui/badge"
-import { CatalogBrowserDialog } from "@/components/catalog/catalog-browser-dialog"
 import { cn } from "@/lib/utils"
 
 interface AppShellProps {
@@ -39,9 +38,6 @@ export function AppShell({ children }: AppShellProps) {
             <BookOpen className="size-4" aria-hidden="true" />
             <span className="hidden sm:inline">Catalog</span>
           </Link>
-          <span className="hidden md:inline-flex">
-            <CatalogBrowserDialog />
-          </span>
           {isResultsRoute ? (
             <Badge variant="outline" className="hidden sm:inline-flex">
               Results

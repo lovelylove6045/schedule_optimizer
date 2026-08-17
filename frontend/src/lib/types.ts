@@ -115,6 +115,7 @@ export interface RequirementNodeOut {
   is_active: boolean
   source_text: string | null
   children: RequirementNodeOut[]
+  satisfying_courses: CourseOut[]
   is_satisfied: boolean | null
   is_shared: boolean
 }

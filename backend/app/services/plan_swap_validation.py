@@ -1,8 +1,8 @@
-"""Checks a plan-board course swap or add against the same hard constraints
-`optimizer_model` enforces when the solver builds a plan from scratch --
-course-offering eligibility, per-term credit caps, and prerequisite/
-corequisite ordering -- so a manual edit can never produce a schedule the
-solver itself would have rejected.
+"""Check plan-board edits against offering, workload, and requisite rules.
+
+Course swaps and additions retain hard destination-term credit caps. Moves
+permit a temporary underload or overload so the student can rebalance terms,
+while academic ordering and eligibility rules remain hard constraints.
 
 Reimplemented as plain Python over one already-solved plan's fixed course
 placements, rather than reusing `optimizer_model` directly: that module's
@@ -74,13 +74,20 @@ def validate_add(db: Session, degree_plan_id: int, term_id: int, new_course: Cou
 
 
 def validate_move(db: Session, plan_course: PlanCourse, term_id: int, course: Course) -> None:
-    """Validate moving an existing placement while excluding its original slot from totals."""
+    """Validate a move's hard rules while leaving term-load changes as warnings."""
     term = db.get(Term, term_id)
-    _validate_course_for_slot(db, plan_course.degree_plan_id, term, course, plan_course.plan_course_id)
+    _validate_course_for_slot(
+        db, plan_course.degree_plan_id, term, course, plan_course.plan_course_id, enforce_credit_cap=False
+    )
 
 
 def _validate_course_for_slot(
-    db: Session, degree_plan_id: int, term: Term, new_course: Course, exclude_plan_course_id: int | None
+    db: Session,
+    degree_plan_id: int,
+    term: Term,
+    new_course: Course,
+    exclude_plan_course_id: int | None,
+    enforce_credit_cap: bool = True,
 ) -> None:
     """Run every hard-constraint check for placing `new_course` into `term` on
     this plan, shared by both `validate_swap` (excludes the slot being
@@ -88,7 +95,8 @@ def _validate_course_for_slot(
     _check_offered_in_term(new_course, term)
     _check_summer_allowed(db, degree_plan_id, term)
     _check_term_in_scenario_window(db, degree_plan_id, term)
-    _check_term_credit_cap(db, degree_plan_id, term, new_course, exclude_plan_course_id)
+    if enforce_credit_cap:
+        _check_term_credit_cap(db, degree_plan_id, term, new_course, exclude_plan_course_id)
     _check_prerequisites_satisfied(db, degree_plan_id, term, new_course, exclude_plan_course_id)
 
 
@@ -353,14 +361,17 @@ def _selected_program_ids(db: Session, degree_plan_id: int) -> set[int]:
     return {program_id for (program_id,) in rows}
 
 
-def validate_existing_plan(db: Session, degree_plan_id: int) -> None:
-    """Recheck every placement so edits cannot break downstream prerequisites or limits."""
+def validate_existing_plan(db: Session, degree_plan_id: int, enforce_term_loads: bool = True) -> None:
+    """Recheck all placements, optionally treating term credit loads as soft warnings."""
     rows = db.query(PlanCourse).filter(PlanCourse.degree_plan_id == degree_plan_id).all()
     for plan_course in rows:
         course = db.get(Course, plan_course.course_id)
         term = db.get(Term, plan_course.term_id)
-        _validate_course_for_slot(db, degree_plan_id, term, course, plan_course.plan_course_id)
-    _validate_term_minimums(db, degree_plan_id, rows)
+        _validate_course_for_slot(
+            db, degree_plan_id, term, course, plan_course.plan_course_id, enforce_credit_cap=enforce_term_loads
+        )
+    if enforce_term_loads:
+        _validate_term_minimums(db, degree_plan_id, rows)
     _validate_hard_preferences(db, degree_plan_id, rows)
     _validate_course_relations(db, rows)
 

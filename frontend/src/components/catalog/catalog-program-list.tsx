@@ -1,4 +1,4 @@
-import { Search } from "lucide-react"
+import { ArrowUpRight, Search } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
@@ -25,8 +25,7 @@ interface CatalogProgramListProps {
   onSelectProgram: (programId: number) => void
 }
 
-/** Search box, program-type filter, and the resulting scrollable list of
- * program cards -- the left-hand column of the catalog browser. */
+/** Present search, type filtering, and the resulting grid of program cards. */
 export function CatalogProgramList({
   programs,
   search,
@@ -39,31 +38,36 @@ export function CatalogProgramList({
   const filtered = filterPrograms(programs, search, programType)
   return (
     <div className="flex h-full flex-col gap-3">
-      <div className="relative">
-        <Search className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted-foreground" aria-hidden="true" />
-        <Input
-          value={search}
-          onChange={(event) => onSearchChange(event.target.value)}
-          placeholder="Search programs by name or code…"
-          className="pl-9"
-        />
+      <div className="grid gap-3 sm:grid-cols-[minmax(0,1fr)_15rem]">
+        <div className="relative">
+          <Search className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted-foreground" aria-hidden="true" />
+          <Input
+            value={search}
+            onChange={(event) => onSearchChange(event.target.value)}
+            placeholder="Search programs by name or code…"
+            className="h-11 bg-background/70 pl-9"
+          />
+        </div>
+        <Select value={programType} onValueChange={(value) => onProgramTypeChange(value as ProgramType | "ALL")}>
+          <SelectTrigger className="h-11 w-full bg-background/70">
+            <SelectValue />
+          </SelectTrigger>
+          <SelectContent>
+            {PROGRAM_TYPE_OPTIONS.map((option) => (
+              <SelectItem key={option.value} value={option.value}>
+                {option.label}
+              </SelectItem>
+            ))}
+          </SelectContent>
+        </Select>
       </div>
-      <Select value={programType} onValueChange={(value) => onProgramTypeChange(value as ProgramType | "ALL")}>
-        <SelectTrigger className="w-full">
-          <SelectValue />
-        </SelectTrigger>
-        <SelectContent>
-          {PROGRAM_TYPE_OPTIONS.map((option) => (
-            <SelectItem key={option.value} value={option.value}>
-              {option.label}
-            </SelectItem>
-          ))}
-        </SelectContent>
-      </Select>
-      <p className="text-xs text-muted-foreground">
-        {filtered.length} program{filtered.length === 1 ? "" : "s"}
-      </p>
-      <div className="flex-1 space-y-2 overflow-y-auto pr-1">
+      <div className="flex items-center justify-between gap-3">
+        <p className="text-xs font-medium text-muted-foreground">
+          {filtered.length} program{filtered.length === 1 ? "" : "s"} found
+        </p>
+        <p className="hidden text-xs text-muted-foreground sm:block">Select a program to view requirements</p>
+      </div>
+      <div className="scrollbar-slim grid flex-1 auto-rows-min grid-cols-1 gap-3 overflow-y-auto pr-1 md:grid-cols-2">
         {filtered.length === 0 ? (
           <EmptyState icon={Search} title="No programs found" description="Try a different search term or program type." />
         ) : (
@@ -95,36 +99,38 @@ function filterPrograms(programs: ProgramOut[], search: string, programType: Pro
     .sort((a, b) => a.program_name.localeCompare(b.program_name))
 }
 
-/** One selectable program row: name, code, type badge, and total credit hours. */
-function ProgramListCard({
-  program,
-  isSelected,
-  onSelect,
-}: {
+interface ProgramListCardProps {
   program: ProgramOut
   isSelected: boolean
   onSelect: () => void
-}) {
+}
+
+/** Render one selectable program summary that opens its full details. */
+function ProgramListCard({ program, isSelected, onSelect }: ProgramListCardProps) {
   return (
     <button
       type="button"
       onClick={onSelect}
+      aria-pressed={isSelected}
       className={cn(
-        "w-full rounded-lg border p-3 text-left transition-colors",
-        isSelected ? "border-primary bg-primary/5" : "border-border/60 bg-background/40 hover:bg-accent/40",
+        "group flex min-h-28 w-full flex-col justify-between rounded-xl border p-4 text-left transition-all hover:-translate-y-0.5 hover:shadow-md",
+        isSelected ? "border-primary bg-primary/8 shadow-sm" : "border-border/60 bg-background/45 hover:border-primary/35 hover:bg-background/70",
       )}
     >
       <div className="flex items-start justify-between gap-2">
-        <p className="text-sm font-medium">{program.program_name}</p>
-        <Badge variant="outline" className="shrink-0">
+        <p className="text-sm font-semibold leading-snug">{program.program_name}</p>
+        <Badge variant="outline" className="shrink-0 bg-background/60">
           {program.program_type}
         </Badge>
       </div>
-      <p className="mt-1 text-xs text-muted-foreground">
-        {program.program_code}
-        {program.department_name ? ` · ${program.department_name}` : ""}
-        {program.total_credit_hours ? ` · ${program.total_credit_hours} cr` : ""}
-      </p>
+      <div className="mt-3 flex items-end justify-between gap-3">
+        <p className="text-xs leading-relaxed text-muted-foreground">
+          {program.program_code}
+          {program.department_name ? ` · ${program.department_name}` : ""}
+          {program.total_credit_hours ? ` · ${program.total_credit_hours} cr` : ""}
+        </p>
+        <ArrowUpRight className="size-4 shrink-0 text-muted-foreground transition-colors group-hover:text-primary" aria-hidden="true" />
+      </div>
     </button>
   )
 }

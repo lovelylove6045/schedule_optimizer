@@ -18,6 +18,7 @@ from app.models.degree_plan import DegreePlan
 from app.models.enums import ProgramType, ScenarioProgramRole
 from app.models.plan_course import PlanCourse
 from app.models.planning_scenario import PlanningScenario
+from app.models.optimization_message import OptimizationMessage
 from app.models.program_requirement_set import ProgramRequirementSet
 from app.models.requirement_allocation import RequirementAllocation
 from app.models.requirement_node import RequirementNode
@@ -319,6 +320,62 @@ def test_move_plan_course_rejects_breaking_a_downstream_prerequisite(db_session)
         plan_swap_service.move_plan_course(
             db_session, plan.degree_plan_id, prerequisite.plan_course_id, FALL_2028_TERM_ID
         )
+
+
+def test_move_plan_course_keeps_overload_as_an_actionable_warning(db_session):
+    """Allow a manual move over the term cap while marking the edited plan for attention."""
+    first_id, second_id = _two_real_course_ids(db_session)
+    plan, moving_course = _make_plan_with_one_course(db_session, first_id)
+    scenario = db_session.get(PlanningScenario, plan.planning_scenario_id)
+    scenario.default_maximum_credits = 5
+    destination_course = db_session.get(Course, second_id)
+    db_session.add(
+        PlanCourse(
+            degree_plan_id=plan.degree_plan_id,
+            course_id=second_id,
+            term_id=FALL_2027_TERM_ID,
+            credit_hours=destination_course.credit_hours,
+        )
+    )
+    db_session.flush()
+    updated = plan_swap_service.move_plan_course(
+        db_session, plan.degree_plan_id, moving_course.plan_course_id, FALL_2027_TERM_ID
+    )
+    warning = db_session.query(OptimizationMessage).filter(
+        OptimizationMessage.degree_plan_id == plan.degree_plan_id,
+        OptimizationMessage.message_code == "TERM_CREDIT_ABOVE_MAXIMUM",
+    ).one()
+    assert updated.status == "VALID_WITH_WARNINGS"
+    assert "Move a course out of FALL2027" in warning.message_text
+
+
+def test_move_plan_course_marks_the_source_term_underloaded(db_session):
+    """Tell the student when moving a course leaves its original term below minimum."""
+    first_id, second_id = _two_real_course_ids(db_session)
+    plan, moving_course = _make_plan_with_one_course(db_session, first_id)
+    scenario = db_session.get(PlanningScenario, plan.planning_scenario_id)
+    scenario.default_minimum_credits = 5
+    scenario.default_maximum_credits = 18
+    remaining_course = db_session.get(Course, second_id)
+    db_session.add(
+        PlanCourse(
+            degree_plan_id=plan.degree_plan_id,
+            course_id=second_id,
+            term_id=FALL_2026_TERM_ID,
+            credit_hours=remaining_course.credit_hours,
+        )
+    )
+    db_session.flush()
+    updated = plan_swap_service.move_plan_course(
+        db_session, plan.degree_plan_id, moving_course.plan_course_id, FALL_2027_TERM_ID
+    )
+    warning = db_session.query(OptimizationMessage).filter(
+        OptimizationMessage.degree_plan_id == plan.degree_plan_id,
+        OptimizationMessage.message_code == "TERM_CREDIT_BELOW_MINIMUM",
+        OptimizationMessage.message_text.contains("FALL2026"),
+    ).one()
+    assert updated.status == "VALID_WITH_WARNINGS"
+    assert "Move or add a course into FALL2026" in warning.message_text
 
 
 def test_remove_plan_course_rejects_the_only_mandatory_requirement_course(db_session):

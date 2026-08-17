@@ -1,20 +1,21 @@
-import { RemoveCourseButton } from "@/components/plans/remove-course-button"
 import { SwapCourseButton } from "@/components/plans/swap-course-button"
 import { MoveCourseButton } from "@/components/plans/move-course-button"
 import { Badge } from "@/components/ui/badge"
+import { LockKeyhole } from "lucide-react"
 import { cn } from "@/lib/utils"
 import type { CourseOut, DegreePlanOut, PlanCourseOut } from "@/lib/types"
 
 interface PlanCourseCardProps {
   degreePlanId: number
   planCourse: PlanCourseOut
+  planCourses: PlanCourseOut[]
+  moveNeedsAttention?: boolean
   swapAlternatives: CourseOut[]
   onSwapped: (updatedPlan: DegreePlanOut) => void
-  onRemoved: (updatedPlan: DegreePlanOut) => void
 }
 
 /** Show one explained, role-coded course with only its valid edit affordances. */
-export function PlanCourseCard({ degreePlanId, planCourse, swapAlternatives, onSwapped, onRemoved }: PlanCourseCardProps) {
+export function PlanCourseCard({ degreePlanId, planCourse, planCourses, moveNeedsAttention, swapAlternatives, onSwapped }: PlanCourseCardProps) {
   const { course } = planCourse
   return (
     <div className={cn("glass-raised glass-interactive rounded-lg border-l-4 p-3", roleBorder(planCourse.academic_role))}>
@@ -30,14 +31,17 @@ export function PlanCourseCard({ degreePlanId, planCourse, swapAlternatives, onS
             alternatives={swapAlternatives}
             onSwapped={onSwapped}
           />
-          <MoveCourseButton degreePlanId={degreePlanId} planCourse={planCourse} onMoved={onSwapped} />
-          <RemoveCourseButton degreePlanId={degreePlanId} planCourse={planCourse} onRemoved={onRemoved} />
+          <MoveCourseButton degreePlanId={degreePlanId} planCourse={planCourse} planCourses={planCourses} needsAttention={moveNeedsAttention} onMoved={onSwapped} />
+          {!planCourse.is_removable ? (
+            <span title="Required course — cannot be removed" aria-label="Required course — cannot be removed" className="inline-flex size-6 shrink-0 items-center justify-center rounded-md text-muted-foreground">
+              <LockKeyhole className="size-3.5" aria-hidden="true" />
+            </span>
+          ) : null}
         </div>
       </div>
       <p className="mt-1 text-sm leading-snug">{course.course_title}</p>
       <div className="mt-2 flex flex-wrap items-center gap-1.5">
         <Badge variant="outline" className="text-[0.65rem]">{roleLabel(planCourse.academic_role)}</Badge>
-        {!planCourse.is_removable ? <Badge variant="secondary" className="text-[0.65rem]">Locked</Badge> : null}
       </div>
       <p className="mt-2 text-xs text-muted-foreground">{planCourse.selection_reasons.join(" · ")}</p>
     </div>

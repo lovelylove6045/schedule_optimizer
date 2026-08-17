@@ -17,10 +17,13 @@ from app.models.program_requirement_set import ProgramRequirementSet
 from app.models.requirement_allocation import RequirementAllocation
 from app.models.requirement_node import RequirementNode
 from app.models.scenario_program import ScenarioProgram
+from app.models.scenario_term import ScenarioTerm
 from app.models.student_credit import StudentCredit
 from app.models.term import Term
 from app.schemas.requirement import RequirementNodeOut
 from app.services import optimizer_candidates, plan_requirement_service, plan_swap_validation
+
+_TERM_LOAD_WARNING_CODES = ("TERM_CREDIT_BELOW_MINIMUM", "TERM_CREDIT_ABOVE_MAXIMUM")
 
 
 class PlanAcademicValidationError(Exception):
@@ -30,15 +33,77 @@ class PlanAcademicValidationError(Exception):
 def validate_and_reallocate_plan(db: Session, degree_plan_id: int) -> DegreePlan:
     """Validate the whole edited plan, rebuild allocations, and refresh its derived totals."""
     plan = db.get(DegreePlan, degree_plan_id)
-    plan_swap_validation.validate_existing_plan(db, degree_plan_id)
+    plan_swap_validation.validate_existing_plan(db, degree_plan_id, enforce_term_loads=False)
     _validate_requirement_coverage(db, degree_plan_id)
     _validate_degree_credit_floor(db, plan)
     _rebuild_plan_course_allocations(db, degree_plan_id)
     _validate_overlap_policies(db, degree_plan_id)
     _refresh_plan_metrics(db, plan)
+    _sync_term_load_warnings(db, degree_plan_id)
+    db.flush()
     plan.status = "VALID_WITH_WARNINGS" if _has_academic_warnings(db, degree_plan_id) else "VALID"
     db.flush()
     return plan
+
+
+def _sync_term_load_warnings(db: Session, degree_plan_id: int) -> None:
+    """Replace manual-edit workload warnings with the plan's current term-load issues."""
+    db.query(OptimizationMessage).filter(
+        OptimizationMessage.degree_plan_id == degree_plan_id,
+        OptimizationMessage.message_code.in_(_TERM_LOAD_WARNING_CODES),
+    ).delete(synchronize_session=False)
+    plan = db.get(DegreePlan, degree_plan_id)
+    scenario = db.get(PlanningScenario, plan.planning_scenario_id)
+    rows = db.query(PlanCourse).filter(PlanCourse.degree_plan_id == degree_plan_id).all()
+    credits_by_term: dict[int, float] = {}
+    for row in rows:
+        credits_by_term[row.term_id] = credits_by_term.get(row.term_id, 0) + float(row.credit_hours)
+    terms = {term.term_id: term for term in db.query(Term).filter(Term.term_id.in_(credits_by_term)).all()}
+    overrides = {
+        row.term_id: row
+        for row in db.query(ScenarioTerm).filter(
+            ScenarioTerm.planning_scenario_id == scenario.planning_scenario_id,
+            ScenarioTerm.term_id.in_(credits_by_term),
+        ).all()
+    }
+    for term_id, credits in credits_by_term.items():
+        minimum, maximum = _term_load_limits(scenario, terms[term_id], overrides.get(term_id))
+        if minimum is not None and credits + 0.01 < minimum:
+            _add_term_load_warning(db, degree_plan_id, "TERM_CREDIT_BELOW_MINIMUM", terms[term_id], credits, minimum)
+        if maximum is not None and credits > maximum + 0.01:
+            _add_term_load_warning(db, degree_plan_id, "TERM_CREDIT_ABOVE_MAXIMUM", terms[term_id], credits, maximum)
+
+
+def _term_load_limits(
+    scenario: PlanningScenario, term: Term, override: ScenarioTerm | None
+) -> tuple[float | None, float | None]:
+    """Return effective minimum and maximum credits for one scenario term."""
+    default_minimum = None if term.term_type == "SUMMER" else scenario.default_minimum_credits
+    default_maximum = scenario.summer_maximum_credits if term.term_type == "SUMMER" else scenario.default_maximum_credits
+    minimum = override.minimum_credits if override is not None and override.minimum_credits is not None else default_minimum
+    maximum = override.maximum_credits if override is not None and override.maximum_credits is not None else default_maximum
+    return (
+        float(minimum) if minimum is not None else None,
+        float(maximum) if maximum is not None else None,
+    )
+
+
+def _add_term_load_warning(
+    db: Session, degree_plan_id: int, code: str, term: Term, credits: float, limit: float
+) -> None:
+    """Attach one actionable underload or overload warning to an edited plan."""
+    if code == "TERM_CREDIT_BELOW_MINIMUM":
+        text = f"{term.term_code} now has {credits:g} credits, below its {limit:g}-credit minimum. Move or add a course into {term.term_code}."
+    else:
+        text = f"{term.term_code} now has {credits:g} credits, over its {limit:g}-credit maximum. Move a course out of {term.term_code}."
+    db.add(
+        OptimizationMessage(
+            degree_plan_id=degree_plan_id,
+            severity="WARNING",
+            message_code=code,
+            message_text=text,
+        )
+    )
 
 
 def _validate_requirement_coverage(db: Session, degree_plan_id: int) -> None:

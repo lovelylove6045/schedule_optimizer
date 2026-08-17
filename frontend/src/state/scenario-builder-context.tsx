@@ -84,7 +84,7 @@ const initialDraft: WizardDraft = {
   excludedCourseIds: [],
   defaultMinimumCredits: 12,
   defaultMaximumCredits: 18,
-  allowSummer: true,
+  allowSummer: false,
   summerMaximumCredits: 9,
   enforceProgramCreditMinimum: true,
   excludedTermIds: [],

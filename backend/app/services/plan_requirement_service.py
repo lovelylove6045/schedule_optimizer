@@ -24,8 +24,10 @@ from app.models.requirement_allocation import RequirementAllocation
 from app.models.requirement_node import RequirementNode
 from app.models.scenario_program import ScenarioProgram
 from app.models.student_credit import StudentCredit
+from app.schemas.course import CourseOut
 from app.schemas.requirement import RequirementNodeOut, RequirementSetOut
 from app.services import credit_matching_service, requirement_service
+from app.services.common import load_courses_by_id
 
 
 def get_plan_requirement_coverage(db: Session, degree_plan_id: int) -> list[RequirementSetOut] | None:
@@ -38,10 +40,19 @@ def get_plan_requirement_coverage(db: Session, degree_plan_id: int) -> list[Requ
     scenario = db.get(PlanningScenario, plan.planning_scenario_id)
     program_ids = _scenario_program_ids(db, plan.planning_scenario_id)
     plan_course_ids = _plan_course_ids(db, degree_plan_id)
-    shared_node_ids = _shared_node_ids(db, degree_plan_id, program_ids)
+    allocations = _plan_allocations(db, degree_plan_id)
+    shared_node_ids = _shared_node_ids(db, program_ids, allocations)
+    satisfying_courses = _satisfying_courses_by_node(db, allocations)
     requirement_sets = requirement_service.resolve_requirement_sets(db, program_ids)
     return [
-        _coverage_for_requirement_set(db, scenario.student_id, req_set.requirement_set_id, plan_course_ids, shared_node_ids)
+        _coverage_for_requirement_set(
+            db,
+            scenario.student_id,
+            req_set.requirement_set_id,
+            plan_course_ids,
+            shared_node_ids,
+            satisfying_courses,
+        )
         for req_set in requirement_sets
     ]
 
@@ -52,21 +63,27 @@ def _coverage_for_requirement_set(
     requirement_set_id: int,
     plan_course_ids: set[int],
     shared_node_ids: set[int],
+    satisfying_courses: dict[int, list[CourseOut]],
 ) -> RequirementSetOut:
-    """Flatten, credit-match, and shared-flag one requirement_set for this plan."""
+    """Return one matched requirement set with sharing and course evidence."""
     flattened = requirement_service.flatten_requirement_tree(db, requirement_set_id)
     matched = credit_matching_service.match_completed_courses(
         db, student_id, flattened, extra_completed_course_ids=plan_course_ids
     )
-    marked_nodes = [_mark_shared(node, shared_node_ids) for node in matched.nodes]
+    marked_nodes = [_annotate_node(node, shared_node_ids, satisfying_courses) for node in matched.nodes]
     return matched.model_copy(update={"nodes": marked_nodes})
 
 
-def _mark_shared(node: RequirementNodeOut, shared_node_ids: set[int]) -> RequirementNodeOut:
-    """Recursively set is_shared on this node and its descendants from `shared_node_ids`."""
-    children = [_mark_shared(child, shared_node_ids) for child in node.children]
+def _annotate_node(
+    node: RequirementNodeOut,
+    shared_node_ids: set[int],
+    satisfying_courses: dict[int, list[CourseOut]],
+) -> RequirementNodeOut:
+    """Recursively attach sharing and satisfying-course evidence to a node."""
+    children = [_annotate_node(child, shared_node_ids, satisfying_courses) for child in node.children]
     is_shared = node.requirement_node_id in shared_node_ids
-    return node.model_copy(update={"children": children, "is_shared": is_shared})
+    courses = satisfying_courses.get(node.requirement_node_id, [])
+    return node.model_copy(update={"children": children, "is_shared": is_shared, "satisfying_courses": courses})
 
 
 def _scenario_program_ids(db: Session, planning_scenario_id: int) -> list[int]:
@@ -85,11 +102,17 @@ def _plan_course_ids(db: Session, degree_plan_id: int) -> set[int]:
     return {row[0] for row in rows}
 
 
-def _shared_node_ids(db: Session, degree_plan_id: int, program_ids: list[int]) -> set[int]:
+def _plan_allocations(db: Session, degree_plan_id: int) -> list[RequirementAllocation]:
+    """Return every persisted requirement allocation for a plan."""
+    return db.query(RequirementAllocation).filter(RequirementAllocation.degree_plan_id == degree_plan_id).all()
+
+
+def _shared_node_ids(
+    db: Session, program_ids: list[int], allocations: list[RequirementAllocation]
+) -> set[int]:
     """Return requirement_node_ids whose persisted allocation's satisfying
     course is also allocated (for this same plan) to a node belonging to a
     *different* one of the scenario's programs."""
-    allocations = db.query(RequirementAllocation).filter(RequirementAllocation.degree_plan_id == degree_plan_id).all()
     if not allocations:
         return set()
     node_to_set = _node_to_requirement_set(db, {a.requirement_node_id for a in allocations})
@@ -101,6 +124,26 @@ def _shared_node_ids(db: Session, degree_plan_id: int, program_ids: list[int]) -
         allocation.requirement_node_id
         for allocation in allocations
         if course_by_allocation.get(allocation.requirement_allocation_id) in shared_courses
+    }
+
+
+def _satisfying_courses_by_node(
+    db: Session, allocations: list[RequirementAllocation]
+) -> dict[int, list[CourseOut]]:
+    """Map each allocated requirement node to its concrete satisfying courses."""
+    course_by_allocation = _course_id_by_allocation(db, allocations)
+    course_ids_by_node: dict[int, set[int]] = {}
+    for allocation in allocations:
+        course_id = course_by_allocation.get(allocation.requirement_allocation_id)
+        if course_id is not None:
+            course_ids_by_node.setdefault(allocation.requirement_node_id, set()).add(course_id)
+    courses_by_id = load_courses_by_id(db, set(course_by_allocation.values()))
+    return {
+        node_id: sorted(
+            (courses_by_id[course_id] for course_id in course_ids if course_id in courses_by_id),
+            key=lambda course: (course.subject_code, course.course_number),
+        )
+        for node_id, course_ids in course_ids_by_node.items()
     }
 
 
@@ -138,10 +181,13 @@ def _course_id_by_allocation(db: Session, allocations: list[RequirementAllocatio
     course_by_student_credit = _course_ids_by_id(db, StudentCredit, StudentCredit.student_credit_id, student_credit_ids)
     result: dict[int, int] = {}
     for allocation in allocations:
+        course_id = None
         if allocation.plan_course_id is not None:
-            result[allocation.requirement_allocation_id] = course_by_plan_course.get(allocation.plan_course_id)
+            course_id = course_by_plan_course.get(allocation.plan_course_id)
         elif allocation.student_credit_id is not None:
-            result[allocation.requirement_allocation_id] = course_by_student_credit.get(allocation.student_credit_id)
+            course_id = course_by_student_credit.get(allocation.student_credit_id)
+        if course_id is not None:
+            result[allocation.requirement_allocation_id] = course_id
     return result
 
 

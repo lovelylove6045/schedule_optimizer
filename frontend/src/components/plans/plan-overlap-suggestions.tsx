@@ -30,7 +30,6 @@ export function PlanOverlapSuggestions({ scenarioId, onRegenerate }: PlanOverlap
   if (primaryProgramId === null || (minorSuggestions.length === 0 && majorSuggestions.length === 0)) return null
 
   async function handleAdd(suggestion: ProgramOverlapOut, role: ScenarioProgramRole) {
-    const pending = toast.loading(`Adding ${suggestion.program_name}…`)
     try {
       await addProgram.mutateAsync({
         scenarioId,
@@ -38,12 +37,10 @@ export function PlanOverlapSuggestions({ scenarioId, onRegenerate }: PlanOverlap
       })
       await onRegenerate()
       toast.success(`Added ${suggestion.program_name}`, {
-        id: pending,
         description: "Regenerated your plans to include its requirements.",
       })
     } catch (error) {
       toast.error(`Couldn't add ${suggestion.program_name}`, {
-        id: pending,
         description: error instanceof Error ? error.message : undefined,
       })
     }

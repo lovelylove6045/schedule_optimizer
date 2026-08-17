@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { useNavigate } from "react-router-dom"
 import { ArrowLeft, ArrowRight, Loader2, Sparkles } from "lucide-react"
 import { toast } from "sonner"
@@ -14,6 +14,7 @@ import { StepCourseChoices } from "@/components/wizard/step-course-choices"
 import { StepPlanningConstraints } from "@/components/wizard/step-planning-constraints"
 import { StepObjectiveSelection } from "@/components/wizard/step-objective-selection"
 import { StepReview, isDraftSubmittable } from "@/components/wizard/step-review"
+import { OptimizationProgress, type OptimizationPhase } from "@/components/wizard/optimization-progress"
 import { useCreateScenarioMutation, useGenerateRecommendedPlanMutation } from "@/hooks/use-scenario-mutations"
 import {
   ScenarioBuilderProvider,
@@ -41,6 +42,7 @@ function WizardContent() {
   const createScenario = useCreateScenarioMutation()
   const generateRecommendedPlan = useGenerateRecommendedPlanMutation()
   const [submitError, setSubmitError] = useState<string | null>(null)
+  const [optimizationPhase, setOptimizationPhase] = useState<OptimizationPhase | null>(null)
   const ribbonItems: TermRibbonItem[] = WIZARD_STEPS.map(({ step, label }) => ({
     id: step,
     label,
@@ -48,34 +50,42 @@ function WizardContent() {
   }))
   const isSubmitting = createScenario.isPending || generateRecommendedPlan.isPending
   const blockingReason = blockingReasonForStep(draft)
+  useEffect(() => {
+    if (!isSubmitting) return
+    const warnBeforeLeaving = (event: BeforeUnloadEvent) => {
+      event.preventDefault()
+      event.returnValue = ""
+    }
+    window.addEventListener("beforeunload", warnBeforeLeaving)
+    return () => window.removeEventListener("beforeunload", warnBeforeLeaving)
+  }, [isSubmitting])
 
   /** Create the scenario, generate its plans, and navigate to the results page. */
   async function handleSubmit() {
+    if (isSubmitting || optimizationPhase !== null) return
     setSubmitError(null)
-    const progressToast = toast.loading("Optimizing your degree plan…", {
-      description: "Solving several strategies — usually under a minute, occasionally a few minutes for a tight scenario.",
-    })
+    setOptimizationPhase("preparing")
     try {
       const { planning_scenario_id } = await createScenario.mutateAsync(buildScenarioPayload(draft))
+      setOptimizationPhase("solving")
       const recommendedPlan = await generateRecommendedPlan.mutateAsync(planning_scenario_id)
       const plans = [recommendedPlan]
       const feasible = plans.filter((plan) => plan.status !== "INFEASIBLE")
       if (feasible.length === 0) {
         toast.warning("No plan fits those constraints", {
-          id: progressToast,
           description: "Open the results to see which constraint blocked it and what to relax.",
         })
       } else {
         toast.success("Recommended plan ready", {
-          id: progressToast,
           description: "You can use it now while alternatives generate separately.",
         })
       }
       navigate(`/plans/${planning_scenario_id}`, { state: { plans } })
     } catch (error) {
       const message = error instanceof Error ? error.message : "Couldn't generate your plan. Please try again."
-      toast.error("Couldn't generate your plan", { id: progressToast, description: message })
+      toast.error("Couldn't generate your plan", { description: message })
       setSubmitError(message)
+      setOptimizationPhase(null)
     }
   }
 
@@ -104,6 +114,7 @@ function WizardContent() {
         onNext={handleNext}
         onSubmit={handleSubmit}
       />
+      {optimizationPhase ? <OptimizationProgress phase={optimizationPhase} /> : null}
     </div>
   )
 }

@@ -23,6 +23,7 @@ class RequirementNodeOut(BaseModel):
     is_active: bool = True
     source_text: str | None = None
     children: list["RequirementNodeOut"] = []
+    satisfying_courses: list[CourseOut] = []
 
     # Only populated after credit_matching_service.match_completed_courses runs;
     # a bare flatten_requirement_tree() result leaves this None on every node.

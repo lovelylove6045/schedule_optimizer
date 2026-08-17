@@ -92,7 +92,7 @@ function CreditConstraintControls(props: CreditConstraintControlsProps) {
           <span className="mt-0.5 flex size-8 shrink-0 items-center justify-center rounded-full bg-gold/20 text-gold"><GraduationCap className="size-4" aria-hidden="true" /></span>
           <span><span className="flex flex-wrap items-center gap-2"><Label htmlFor="enforce-credit-minimum" className="font-semibold">Require your major's full credit total</Label><Badge className="bg-gold text-gold-foreground">Recommended</Badge></span><span className="mt-1 block text-xs text-muted-foreground">Keeps your plan at or above the degree-applicable credit hours your major requires. Turn this off only if it prevents generation.</span></span>
         </span>
-        <Switch id="enforce-credit-minimum" checked={props.enforceCreditMinimum} onCheckedChange={props.onCreditMinimumChange} className="mt-0.5 shrink-0 data-[state=checked]:bg-gold" />
+        <Switch id="enforce-credit-minimum" checked={props.enforceCreditMinimum} onCheckedChange={props.onCreditMinimumChange} className="mt-0.5 shrink-0 data-[state=checked]:border-gold data-[state=checked]:bg-gold" />
       </label>
     </>
   )

@@ -1,157 +1,176 @@
-import { useState } from "react"
-import { Landmark } from "lucide-react"
-import { Badge } from "@/components/ui/badge"
-import { ErrorState } from "@/components/shared/error-state"
-import { LoadingState } from "@/components/shared/loading-state"
-import { CatalogProgramDetail } from "@/components/catalog/catalog-program-detail"
+import { useState, type ReactNode } from "react"
+import { BookOpen, Building2, SlidersHorizontal } from "lucide-react"
+import { CatalogProgramDialog } from "@/components/catalog/catalog-program-dialog"
 import { CatalogProgramList } from "@/components/catalog/catalog-program-list"
 import { CatalogSnapshotNotice } from "@/components/catalog/catalog-snapshot-notice"
+import { ErrorState } from "@/components/shared/error-state"
+import { LoadingState } from "@/components/shared/loading-state"
 import { useCollegesQuery } from "@/hooks/use-colleges"
 import { useProgramsQuery } from "@/hooks/use-programs"
-import type { ProgramType } from "@/lib/types"
-import { cn } from "@/lib/utils"
+import type { ProgramOut, ProgramType } from "@/lib/types"
 
-/** Read-only catalog browser: every college and every academic program (with
- * its full requirement tree) straight from the loaded `schedule_optimizer_db`
- * data, for students exploring "what's out there" before building a scenario. */
+type FilterOption = [number, string]
+
+/** Present the complete read-only catalog in a single, searchable workspace. */
 export function CatalogPage() {
   const collegesQuery = useCollegesQuery()
   const programsQuery = useProgramsQuery()
   const [collegeId, setCollegeId] = useState<number | null>(null)
+  const [departmentId, setDepartmentId] = useState<number | null>(null)
   const [search, setSearch] = useState("")
   const [programType, setProgramType] = useState<ProgramType | "ALL">("ALL")
-  const [departmentId, setDepartmentId] = useState<number | null>(null)
   const [selectedProgramId, setSelectedProgramId] = useState<number | null>(null)
+  const [isDetailOpen, setIsDetailOpen] = useState(false)
   if (collegesQuery.isPending || programsQuery.isPending) {
     return <LoadingState label="Loading the catalog…" rows={6} />
   }
   if (collegesQuery.isError || programsQuery.isError) {
     return <ErrorState message="Couldn't load the catalog from the server." />
   }
-  const programsInCollege = programsQuery.data.filter(
-    (program) =>
-      (collegeId === null || program.college_id === collegeId) &&
-      (departmentId === null || program.department_id === departmentId),
-  )
-  const departments = Array.from(
-    new Map(
-      programsQuery.data
-        .filter((program) => collegeId === null || program.college_id === collegeId)
-        .map((program) => [program.department_id, program.department_name ?? program.department_code ?? "Department"]),
-    ),
-  ).sort((a, b) => a[1].localeCompare(b[1]))
+  const departments = getDepartmentOptions(programsQuery.data, collegeId)
+  const filteredPrograms = filterProgramsBySchool(programsQuery.data, collegeId, departmentId)
   const selectedProgram = programsQuery.data.find((program) => program.academic_program_id === selectedProgramId)
+  const selectProgram = (programId: number) => {
+    setSelectedProgramId(programId)
+    setIsDetailOpen(true)
+  }
   return (
     <div className="space-y-6">
-      <div className="space-y-1">
-        <h1 className="text-2xl font-bold tracking-tight">Catalog</h1>
-        <p className="text-muted-foreground">
-          Browse every college, program, and requirement in the catalog before you start planning.
-        </p>
-      </div>
+      <CatalogHeading programCount={programsQuery.data.length} />
       <CatalogSnapshotNotice />
-      <CollegeFilterBar
-        colleges={collegesQuery.data}
-        totalProgramCount={programsQuery.data.length}
-        selectedCollegeId={collegeId}
-        onSelectCollege={(nextCollegeId) => {
-          setCollegeId(nextCollegeId)
-          setDepartmentId(null)
-        }}
-      />
-      <select
-        aria-label="Filter by department"
-        className="h-9 rounded-md border bg-background px-3 text-sm"
-        value={departmentId ?? "ALL"}
-        onChange={(event) => setDepartmentId(event.target.value === "ALL" ? null : Number(event.target.value))}
-      >
-        <option value="ALL">All departments</option>
-        {departments.map(([id, name]) => (
-          <option key={id} value={id}>{name}</option>
-        ))}
-      </select>
-      <div className="grid gap-4 lg:grid-cols-[22rem_1fr]">
-        <div className="glass-panel h-[36rem] rounded-xl p-4">
+      <section className="glass-panel overflow-hidden rounded-2xl">
+        <CatalogSchoolFilters
+          colleges={collegesQuery.data.map((college) => [college.college_id, college.college_name])}
+          departments={departments}
+          collegeId={collegeId}
+          departmentId={departmentId}
+          onCollegeChange={(nextCollegeId) => {
+            setCollegeId(nextCollegeId)
+            setDepartmentId(null)
+          }}
+          onDepartmentChange={setDepartmentId}
+        />
+        <div className="h-[42rem] p-4 sm:p-5">
           <CatalogProgramList
-            programs={programsInCollege}
+            programs={filteredPrograms}
             search={search}
             onSearchChange={setSearch}
             programType={programType}
             onProgramTypeChange={setProgramType}
             selectedProgramId={selectedProgramId}
-            onSelectProgram={setSelectedProgramId}
+            onSelectProgram={selectProgram}
           />
         </div>
-        <div className="glass-panel min-h-[36rem] rounded-xl p-4">
-          <CatalogProgramDetail program={selectedProgram} />
-        </div>
+      </section>
+      <CatalogProgramDialog program={selectedProgram} open={isDetailOpen} onOpenChange={setIsDetailOpen} />
+    </div>
+  )
+}
+
+/** Introduce the catalog and summarize its available programs. */
+function CatalogHeading({ programCount }: { programCount: number }) {
+  return (
+    <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+      <div className="space-y-1">
+        <p className="text-xs font-semibold tracking-[0.18em] text-primary uppercase">Academic catalog</p>
+        <h1 className="text-3xl font-bold tracking-tight">Find your program</h1>
+        <p className="max-w-2xl text-muted-foreground">
+          Search every college, department, and program, then open any result to review its complete requirements.
+        </p>
+      </div>
+      <div className="flex w-fit items-center gap-2 rounded-full border bg-background/45 px-3 py-1.5 text-sm text-muted-foreground">
+        <BookOpen className="size-4 text-primary" aria-hidden="true" />
+        <span><strong className="font-semibold text-foreground">{programCount}</strong> programs</span>
       </div>
     </div>
   )
 }
 
-/** Pill row for narrowing the program list to one college (or "All schools"). */
-function CollegeFilterBar({
-  colleges,
-  totalProgramCount,
-  selectedCollegeId,
-  onSelectCollege,
-}: {
-  colleges: { college_id: number; college_code: string; college_name: string }[]
-  totalProgramCount: number
-  selectedCollegeId: number | null
-  onSelectCollege: (collegeId: number | null) => void
-}) {
+interface CatalogSchoolFiltersProps {
+  colleges: FilterOption[]
+  departments: FilterOption[]
+  collegeId: number | null
+  departmentId: number | null
+  onCollegeChange: (collegeId: number | null) => void
+  onDepartmentChange: (departmentId: number | null) => void
+}
+
+/** Group the school-level catalog filters in a clear toolbar. */
+function CatalogSchoolFilters(props: CatalogSchoolFiltersProps) {
   return (
-    <div className="flex flex-wrap items-center gap-2">
-      <CollegePill
-        label="All schools"
-        count={totalProgramCount}
-        isSelected={selectedCollegeId === null}
-        onClick={() => onSelectCollege(null)}
-      />
-      {colleges.map((college) => (
-        <CollegePill
-          key={college.college_id}
-          label={college.college_name}
-          isSelected={selectedCollegeId === college.college_id}
-          onClick={() => onSelectCollege(college.college_id)}
+    <div className="border-b bg-background/30 p-4 sm:p-5">
+      <div className="mb-3 flex items-center gap-2">
+        <SlidersHorizontal className="size-4 text-primary" aria-hidden="true" />
+        <h2 className="text-sm font-semibold">Narrow the catalog</h2>
+      </div>
+      <div className="grid gap-3 sm:grid-cols-2">
+        <FilterSelect
+          label="College"
+          allLabel="All colleges"
+          icon={<Building2 className="size-4" aria-hidden="true" />}
+          options={props.colleges}
+          value={props.collegeId}
+          onChange={props.onCollegeChange}
         />
-      ))}
+        <FilterSelect
+          label="Department"
+          allLabel="All departments"
+          icon={<BookOpen className="size-4" aria-hidden="true" />}
+          options={props.departments}
+          value={props.departmentId}
+          onChange={props.onDepartmentChange}
+        />
+      </div>
     </div>
   )
 }
 
-/** One college filter pill, styled as a selected/unselected toggle button. */
-function CollegePill({
-  label,
-  count,
-  isSelected,
-  onClick,
-}: {
+interface FilterSelectProps {
   label: string
-  count?: number
-  isSelected: boolean
-  onClick: () => void
-}) {
+  allLabel: string
+  icon: ReactNode
+  options: FilterOption[]
+  value: number | null
+  onChange: (value: number | null) => void
+}
+
+/** Render a labeled native select for a catalog filter. */
+function FilterSelect({ label, allLabel, icon, options, value, onChange }: FilterSelectProps) {
   return (
-    <button
-      type="button"
-      onClick={onClick}
-      className={cn(
-        "flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm transition-colors",
-        isSelected
-          ? "border-primary bg-primary text-primary-foreground"
-          : "border-border/60 bg-background/40 hover:bg-accent/40",
-      )}
-    >
-      <Landmark className="size-3.5" aria-hidden="true" />
-      {label}
-      {count !== undefined ? (
-        <Badge variant={isSelected ? "secondary" : "outline"} className="ml-0.5">
-          {count}
-        </Badge>
-      ) : null}
-    </button>
+    <label className="space-y-1.5">
+      <span className="text-xs font-medium text-muted-foreground">{label}</span>
+      <span className="relative block">
+        <span className="pointer-events-none absolute top-1/2 left-3 -translate-y-1/2 text-muted-foreground">{icon}</span>
+        <select
+          className="h-11 w-full appearance-none rounded-lg border bg-background/70 pr-9 pl-10 text-sm outline-none transition-shadow focus:ring-2 focus:ring-ring/50"
+          value={value ?? "ALL"}
+          onChange={(event) => onChange(event.target.value === "ALL" ? null : Number(event.target.value))}
+        >
+          <option value="ALL">{allLabel}</option>
+          {options.map(([id, name]) => <option key={id} value={id}>{name}</option>)}
+        </select>
+        <span className="pointer-events-none absolute top-1/2 right-3 -translate-y-1/2 text-xs text-muted-foreground">⌄</span>
+      </span>
+    </label>
+  )
+}
+
+/** Return alphabetized departments available for the selected college. */
+function getDepartmentOptions(programs: ProgramOut[], collegeId: number | null): FilterOption[] {
+  return Array.from(
+    new Map(
+      programs
+        .filter((program) => collegeId === null || program.college_id === collegeId)
+        .map((program) => [program.department_id, program.department_name ?? program.department_code ?? "Department"]),
+    ),
+  ).sort((a, b) => a[1].localeCompare(b[1]))
+}
+
+/** Return programs belonging to the selected college and department. */
+function filterProgramsBySchool(programs: ProgramOut[], collegeId: number | null, departmentId: number | null) {
+  return programs.filter(
+    (program) =>
+      (collegeId === null || program.college_id === collegeId) &&
+      (departmentId === null || program.department_id === departmentId),
   )
 }

@@ -4,7 +4,8 @@ course, move an existing placement, or remove a genuinely optional course.
 
 Every mutation runs inside a savepoint. After the tentative change, the whole
 plan is revalidated and its requirement allocations and derived metrics are
-rebuilt. Any hard academic violation rolls the edit back."""
+rebuilt. Academic violations roll the edit back, while manual-move term-load
+deviations are retained as actionable warnings."""
 
 from __future__ import annotations
 

@@ -7,12 +7,14 @@ import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover
 import { useCourseSearchQuery } from "@/hooks/use-course-search"
 import { useAddPlanCourseMutation } from "@/hooks/use-plan-mutations"
 import type { CourseOut, DegreePlanOut } from "@/lib/types"
+import { cn } from "@/lib/utils"
 
 interface AddCourseButtonProps {
   degreePlanId: number
   termId: number
   termLabel: string
   existingCourseIds: Set<number>
+  needsAttention?: boolean
   onAdded: (updatedPlan: DegreePlanOut) => void
 }
 
@@ -20,7 +22,7 @@ interface AddCourseButtonProps {
  * student place a brand-new course into that exact term -- an extra elective
  * beyond what the solver assigned -- without re-running the optimizer.
  * Subject to the same offering/credit-cap/prerequisite checks as a swap. */
-export function AddCourseButton({ degreePlanId, termId, termLabel, existingCourseIds, onAdded }: AddCourseButtonProps) {
+export function AddCourseButton({ degreePlanId, termId, termLabel, existingCourseIds, needsAttention, onAdded }: AddCourseButtonProps) {
   const [open, setOpen] = useState(false)
   const [search, setSearch] = useState("")
   const add = useAddPlanCourseMutation()
@@ -31,13 +33,16 @@ export function AddCourseButton({ degreePlanId, termId, termLabel, existingCours
       <PopoverTrigger asChild>
         <Button
           type="button"
-          variant="ghost"
+          variant={needsAttention ? "outline" : "ghost"}
           size="sm"
           disabled={add.isPending}
-          className="w-full justify-start text-muted-foreground"
+          className={cn(
+            "w-full justify-start text-muted-foreground",
+            needsAttention && "border-amber-400 bg-amber-50 font-semibold text-amber-800 hover:bg-amber-100 hover:text-amber-900",
+          )}
         >
           {add.isPending ? <Loader2 className="size-3.5 animate-spin" aria-hidden="true" /> : <Plus className="size-3.5" aria-hidden="true" />}
-          Add course
+          {needsAttention ? "Add course to fix load" : "Add course"}
         </Button>
       </PopoverTrigger>
       <PopoverContent align="start" className="w-72 p-0">

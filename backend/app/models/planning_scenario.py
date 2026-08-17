@@ -20,7 +20,7 @@ class PlanningScenario(Base):
     default_minimum_credits: Mapped[float | None] = mapped_column(Numeric(4, 1))
     default_maximum_credits: Mapped[float | None] = mapped_column(Numeric(4, 1))
     full_time_minimum_credits: Mapped[float | None] = mapped_column(Numeric(4, 1))
-    allow_summer: Mapped[bool] = mapped_column(default=True)
+    allow_summer: Mapped[bool] = mapped_column(default=False)
     summer_maximum_credits: Mapped[float] = mapped_column(Numeric(4, 1), default=9)
     # Forces the plan's total credit hours to reach the officially published
     # total_credit_hours of the scenario's major(s) -- without this, the solver

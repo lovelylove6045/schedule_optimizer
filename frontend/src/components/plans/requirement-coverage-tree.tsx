@@ -1,11 +1,11 @@
-import { Check, Circle, Sparkles } from "lucide-react"
+import { BookCheck, Check, Circle, Sparkles } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { EmptyState } from "@/components/shared/empty-state"
 import { ErrorState } from "@/components/shared/error-state"
 import { LoadingState } from "@/components/shared/loading-state"
 import { usePlanRequirementsQuery } from "@/hooks/use-plan-queries"
 import { requirementNodeLabel } from "@/lib/requirement-node-label"
-import type { RequirementNodeOut, RequirementSetOut } from "@/lib/types"
+import type { CourseOut, RequirementNodeOut, RequirementSetOut } from "@/lib/types"
 import { cn } from "@/lib/utils"
 
 interface RequirementCoverageTreeProps {
@@ -54,6 +54,8 @@ function RequirementSetSection({ requirementSet }: { requirementSet: Requirement
 
 /** One requirement node's row (status, label, shared badge) plus its indented children. */
 function RequirementNodeRow({ node, depth }: { node: RequirementNodeOut; depth: number }) {
+  const satisfyingCourses = node.satisfying_courses ?? []
+  const shouldShowCourseEvidence = node.required_course === null && satisfyingCourses.length > 0
   return (
     <li>
       <div className="flex items-start gap-2 px-4 py-2.5" style={{ paddingLeft: `${1 + depth * 1.25}rem` }}>
@@ -61,6 +63,9 @@ function RequirementNodeRow({ node, depth }: { node: RequirementNodeOut; depth: 
         <div className="min-w-0 flex-1">
           <p className="text-sm">{requirementNodeLabel(node)}</p>
           {node.source_text ? <p className="text-xs text-muted-foreground">{node.source_text}</p> : null}
+          {shouldShowCourseEvidence ? (
+            <SatisfyingCourseList courses={satisfyingCourses} isSatisfied={node.is_satisfied === true} />
+          ) : null}
         </div>
         {node.is_shared ? (
           <Badge className="shrink-0 bg-gold text-gold-foreground">Shared</Badge>
@@ -73,6 +78,32 @@ function RequirementNodeRow({ node, depth }: { node: RequirementNodeOut; depth: 
           ))}
         </ul>
       ) : null}
+    </li>
+  )
+}
+
+/** Show the concrete courses allocated to an aggregate course-group requirement. */
+function SatisfyingCourseList({ courses, isSatisfied }: { courses: CourseOut[]; isSatisfied: boolean }) {
+  const appliedCredits = courses.reduce((total, course) => total + course.credit_hours, 0)
+  return (
+    <div className={cn("mt-2 rounded-lg border px-3 py-2", isSatisfied ? "border-success/20 bg-success/5" : "bg-muted/35")}>
+      <p className={cn("mb-1.5 flex items-center gap-1.5 text-[0.7rem] font-semibold tracking-wide uppercase", isSatisfied ? "text-success" : "text-muted-foreground")}>
+        <BookCheck className="size-3.5" aria-hidden="true" />
+        {isSatisfied ? "Satisfied by" : "Courses applied"} · {courses.length} course{courses.length === 1 ? "" : "s"} · {appliedCredits.toLocaleString(undefined, { maximumFractionDigits: 2 })} credits
+      </p>
+      <ul className="flex flex-wrap gap-1.5">
+        {courses.map((course) => <SatisfyingCourseChip key={course.course_id} course={course} />)}
+      </ul>
+    </div>
+  )
+}
+
+/** Render one allocated course with enough detail to explain the match. */
+function SatisfyingCourseChip({ course }: { course: CourseOut }) {
+  return (
+    <li className="rounded-md border border-success/20 bg-background/70 px-2 py-1 text-xs">
+      <span className="font-semibold">{course.subject_code} {course.course_number}</span>
+      <span className="text-muted-foreground"> · {course.course_title} · {course.credit_hours} cr</span>
     </li>
   )
 }

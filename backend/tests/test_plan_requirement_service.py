@@ -3,10 +3,14 @@ run needed): is_satisfied from a plan's own plan_courses, and is_shared from
 requirement_allocations spanning two of the scenario's programs."""
 
 from app.models.degree_plan import DegreePlan
-from app.models.enums import ScenarioProgramRole
+from app.models.course import Course
+from app.models.course_group_member import CourseGroupMember
+from app.models.enums import RequirementNodeType, ScenarioProgramRole
 from app.models.plan_course import PlanCourse
 from app.models.planning_scenario import PlanningScenario
+from app.models.program_requirement_set import ProgramRequirementSet
 from app.models.requirement_allocation import RequirementAllocation
+from app.models.requirement_node import RequirementNode
 from app.models.scenario_program import ScenarioProgram
 from app.models.student import Student
 from app.services import plan_requirement_service
@@ -111,6 +115,75 @@ def test_no_shared_nodes_for_a_single_program_scenario(db_session):
     assert _all_node_ids(coverage, only_shared=True) == set()
 
 
+def test_attaches_allocated_courses_to_course_group_nodes(db_session):
+    """Verify HASS coverage includes every course behind its satisfied status."""
+    scenario = _make_scenario(db_session, [AERO_BS_PROGRAM_ID])
+    plan = _make_plan(db_session, scenario)
+    requirement_set_ids = {
+        row[0]
+        for row in db_session.query(ProgramRequirementSet.requirement_set_id)
+        .filter(ProgramRequirementSet.academic_program_id == AERO_BS_PROGRAM_ID)
+        .all()
+    }
+    group_node = (
+        db_session.query(RequirementNode)
+        .filter(
+            RequirementNode.requirement_set_id.in_(requirement_set_ids),
+            RequirementNode.node_type == RequirementNodeType.COURSE_GROUP,
+            RequirementNode.node_name == "HASS - 15 Credits Total",
+        )
+        .one()
+    )
+    member_courses = (
+        db_session.query(Course)
+        .join(CourseGroupMember, CourseGroupMember.course_id == Course.course_id)
+        .filter(CourseGroupMember.course_group_id == group_node.course_group_id)
+        .order_by(Course.course_id)
+        .all()
+    )
+    selected_courses = _courses_covering_credits(member_courses, 15)
+    plan_courses = [
+        PlanCourse(
+            degree_plan_id=plan.degree_plan_id,
+            course_id=course.course_id,
+            term_id=1,
+            credit_hours=course.credit_hours,
+        )
+        for course in selected_courses
+    ]
+    db_session.add_all(plan_courses)
+    db_session.flush()
+    db_session.add_all(
+        [
+            RequirementAllocation(
+                degree_plan_id=plan.degree_plan_id,
+                requirement_node_id=group_node.requirement_node_id,
+                plan_course_id=plan_course.plan_course_id,
+            )
+            for plan_course in plan_courses
+        ]
+    )
+    db_session.flush()
+    coverage = plan_requirement_service.get_plan_requirement_coverage(db_session, plan.degree_plan_id)
+    returned_node = _find_node(coverage, group_node.requirement_node_id)
+    assert returned_node.is_satisfied is True
+    assert {matched.course_id for matched in returned_node.satisfying_courses} == {
+        course.course_id for course in selected_courses
+    }
+
+
+def _courses_covering_credits(courses: list[Course], required_credits: float) -> list[Course]:
+    """Return the first courses whose combined credits reach a threshold."""
+    selected: list[Course] = []
+    total = 0.0
+    for course in courses:
+        selected.append(course)
+        total += float(course.credit_hours)
+        if total >= required_credits:
+            return selected
+    raise AssertionError(f"Course group contains fewer than {required_credits:g} credits")
+
+
 def _satisfied_course_ids(coverage) -> set[int]:
     """Collect every satisfied leaf's required_course.course_id across all requirement sets."""
     result: set[int] = set()
@@ -133,6 +206,17 @@ def _all_node_ids(coverage, only_shared: bool = False) -> set[int]:
     for req_set in coverage:
         _collect_node_ids(req_set.nodes, result, only_shared)
     return result
+
+
+def _find_node(coverage, requirement_node_id: int):
+    """Find one requirement node recursively across coverage sets."""
+    pending = [node for requirement_set in coverage for node in requirement_set.nodes]
+    while pending:
+        node = pending.pop()
+        if node.requirement_node_id == requirement_node_id:
+            return node
+        pending.extend(node.children)
+    raise AssertionError(f"Requirement node {requirement_node_id} was not returned")
 
 
 def _collect_node_ids(nodes, result: set[int], only_shared: bool) -> None:

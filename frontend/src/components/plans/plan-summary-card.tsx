@@ -19,6 +19,7 @@ export function PlanSummaryCard({ plan }: PlanSummaryCardProps) {
   const termsQuery = useTermsQuery()
   const graduationTerm = termsQuery.data?.find((term) => term.term_id === plan.projected_graduation_term_id)
   const isInfeasible = plan.status === "INFEASIBLE"
+  const needsAttention = plan.status === "VALID_WITH_WARNINGS"
   const objective = OBJECTIVE_LABELS[plan.plan_name as OptimizationObjectiveType]
   const messages = [...plan.messages].sort(
     (a, b) => (SEVERITY_RANK[a.severity] ?? 3) - (SEVERITY_RANK[b.severity] ?? 3),
@@ -32,10 +33,13 @@ export function PlanSummaryCard({ plan }: PlanSummaryCardProps) {
             {objective ? <CardDescription>{objective.description}</CardDescription> : null}
           </div>
           <Badge
-            variant={isInfeasible ? "destructive" : "default"}
-            className={cn(!isInfeasible && "bg-success text-success-foreground")}
+            variant={isInfeasible ? "destructive" : needsAttention ? "outline" : "default"}
+            className={cn(
+              !isInfeasible && !needsAttention && "bg-success text-success-foreground",
+              needsAttention && "border-amber-400 bg-amber-50 text-amber-800 dark:bg-amber-950/40 dark:text-amber-200",
+            )}
           >
-            {isInfeasible ? "Not possible" : plan.solver_status === "OPTIMAL" ? "Optimized" : "Best solution found"}
+            {isInfeasible ? "Not possible" : needsAttention ? "Needs attention" : plan.solver_status === "OPTIMAL" ? "Optimized" : "Best solution found"}
           </Badge>
         </div>
       </CardHeader>
@@ -109,6 +113,10 @@ function messageHeadline(message: OptimizationMessageOut): string {
       return "Sharing policy needs verification"
     case "SOLVER_DEADLINE_REACHED":
       return "Best solution within time limit"
+    case "TERM_CREDIT_BELOW_MINIMUM":
+      return "Term is below your credit minimum"
+    case "TERM_CREDIT_ABOVE_MAXIMUM":
+      return "Term is above your credit maximum"
     case "OBJECTIVE_STAGE_RESULTS":
       return "Optimization proof status"
     case "PROTOTYPE_DISCLAIMER":
