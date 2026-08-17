@@ -1,27 +1,30 @@
 from functools import lru_cache
 
+from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
     """Application configuration, populated from environment variables / .env file."""
 
-    # Reads the repo-root `.env` (single source of truth for local dev) and falls back to
-    # a `backend/.env` if one exists. Missing files are silently skipped by pydantic-settings.
+    # Reads `backend/.env` whether the process is started from `backend/` or the repo root.
+    # Missing files are silently skipped by pydantic-settings.
     model_config = SettingsConfigDict(
-        env_file=("../.env", ".env"), env_file_encoding="utf-8", extra="ignore"
+        env_file=(".env", "backend/.env"),
+        env_file_encoding="utf-8",
+        extra="ignore",
+        populate_by_name=True,
     )
 
-    postgres_user: str = "postgres"
-    postgres_password: str = "postgres"
-    postgres_db: str = "schedule_optimizer"
-    postgres_host: str = "localhost"
-    postgres_port: int = 5432
+    postgres_user: str = Field(validation_alias="POSTGRES_USER")
+    postgres_password: str = Field(validation_alias="POSTGRES_PASSWORD")
+    postgres_db: str = Field(validation_alias="POSTGRES_DB")
+    postgres_host: str = Field(validation_alias="POSTGRES_HOST")
+    postgres_port: int = Field(validation_alias="POSTGRES_PORT")
 
-    cors_allow_origins: str = "http://localhost:5173"
-    cors_allow_origin_regex: str | None = (
-        r"^https?://(?:localhost|127\.0\.0\.1|10(?:\.\d{1,3}){3}|"
-        r"192\.168(?:\.\d{1,3}){2}|172\.(?:1[6-9]|2\d|3[01])(?:\.\d{1,3}){2}):5173$"
+    cors_allow_origins: str = Field(validation_alias="CORS_ALLOW_ORIGINS")
+    cors_allow_origin_regex: str | None = Field(
+        default=None, validation_alias="CORS_ALLOW_ORIGIN_REGEX"
     )
 
     @property
