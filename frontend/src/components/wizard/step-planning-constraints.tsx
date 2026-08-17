@@ -1,11 +1,15 @@
-import { GraduationCap, TriangleAlert } from "lucide-react"
+import { useState } from "react"
+import { Check, ChevronsUpDown, GraduationCap, TriangleAlert, X } from "lucide-react"
+import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from "@/components/ui/command"
 import { ErrorState } from "@/components/shared/error-state"
 import { LoadingState } from "@/components/shared/loading-state"
 import { Badge } from "@/components/ui/badge"
 import { Label } from "@/components/ui/label"
 import { Slider } from "@/components/ui/slider"
 import { Switch } from "@/components/ui/switch"
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import { useTermsQuery } from "@/hooks/use-terms"
 import { useScenarioBuilder } from "@/state/scenario-builder-context"
 import { cn } from "@/lib/utils"
@@ -104,18 +108,56 @@ function ExcludedTermPicker({ terms, excludedTermIds, onToggle }: {
   excludedTermIds: number[]
   onToggle: (termId: number) => void
 }) {
+  const [open, setOpen] = useState(false)
+  const selectedTerms = terms.filter((term) => excludedTermIds.includes(term.term_id))
   return (
-    <div className="space-y-2">
+    <div className="space-y-3">
       <div className="flex flex-wrap items-center justify-between gap-2">
         <Label>Terms you can't enroll (co-op, study abroad, leave)</Label>
         {excludedTermIds.length > 0 ? <Badge variant="secondary" className="font-mono text-[0.7rem]">{excludedTermIds.length} excluded</Badge> : null}
       </div>
-      <div className="grid gap-2 sm:grid-cols-2">
-        {terms.map((term) => {
-          const isExcluded = excludedTermIds.includes(term.term_id)
-          return <label key={term.term_id} className={cn("glass-inset flex items-center justify-between gap-3 rounded-lg p-3 text-sm", isExcluded && "border-warning/50 bg-warning/10")}><span className="font-mono text-xs">{term.term_code}</span><Switch checked={isExcluded} aria-label={`Exclude ${term.term_code}`} onCheckedChange={() => onToggle(term.term_id)} /></label>
-        })}
-      </div>
+      <Popover open={open} onOpenChange={setOpen}>
+        <PopoverTrigger asChild>
+          <Button type="button" variant="outline" role="combobox" aria-expanded={open} className="h-11 w-full justify-between font-normal">
+            <span className={cn("truncate", selectedTerms.length === 0 && "text-muted-foreground")}>
+              {selectedTerms.length === 0 ? "Search and select unavailable terms" : `${selectedTerms.length} unavailable term${selectedTerms.length === 1 ? "" : "s"} selected`}
+            </span>
+            <ChevronsUpDown className="size-4 shrink-0 opacity-50" aria-hidden="true" />
+          </Button>
+        </PopoverTrigger>
+        <PopoverContent align="start" className="w-(--radix-popover-trigger-width) p-0">
+          <Command>
+            <CommandInput placeholder="Type a term, such as FALL2027…" />
+            <CommandList>
+              <CommandEmpty>No matching planning term.</CommandEmpty>
+              <CommandGroup heading="Select every term you can't attend">
+                {terms.map((term) => {
+                  const isExcluded = excludedTermIds.includes(term.term_id)
+                  return (
+                    <CommandItem key={term.term_id} value={term.term_code} onSelect={() => onToggle(term.term_id)}>
+                      <span className={cn("flex size-4 items-center justify-center rounded border", isExcluded ? "border-primary bg-primary text-primary-foreground" : "border-muted-foreground/35")}>
+                        {isExcluded ? <Check className="size-3" aria-hidden="true" /> : null}
+                      </span>
+                      <span className="font-mono text-xs">{term.term_code}</span>
+                    </CommandItem>
+                  )
+                })}
+              </CommandGroup>
+            </CommandList>
+          </Command>
+        </PopoverContent>
+      </Popover>
+      {selectedTerms.length > 0 ? (
+        <div className="flex flex-wrap gap-2" aria-label="Unavailable terms selected">
+          {selectedTerms.map((term) => (
+            <button key={term.term_id} type="button" onClick={() => onToggle(term.term_id)} className="inline-flex items-center gap-1.5 rounded-full border border-warning/40 bg-warning/10 px-2.5 py-1 font-mono text-xs text-foreground transition-colors hover:bg-warning/20" aria-label={`Remove ${term.term_code} from unavailable terms`}>
+              {term.term_code}<X className="size-3" aria-hidden="true" />
+            </button>
+          ))}
+        </div>
+      ) : (
+        <p className="text-xs text-muted-foreground">Optional — leave empty if you can enroll every term.</p>
+      )}
     </div>
   )
 }

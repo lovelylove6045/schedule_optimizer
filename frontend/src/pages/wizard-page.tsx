@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { useNavigate } from "react-router-dom"
 import { ArrowLeft, ArrowRight, Loader2, Sparkles } from "lucide-react"
 import { toast } from "sonner"
@@ -24,6 +24,7 @@ import {
   type WizardDraft,
 } from "@/state/scenario-builder-context"
 import type { ScenarioCreate, ScenarioPreferenceIn } from "@/lib/types"
+import { cancelPlanGeneration } from "@/lib/api/scenarios"
 import { CatalogSnapshotNotice } from "@/components/catalog/catalog-snapshot-notice"
 
 /** Route entry point for "/": wraps the 8-step scenario wizard in its own draft context. */
@@ -43,6 +44,8 @@ function WizardContent() {
   const generateRecommendedPlan = useGenerateRecommendedPlanMutation()
   const [submitError, setSubmitError] = useState<string | null>(null)
   const [optimizationPhase, setOptimizationPhase] = useState<OptimizationPhase | null>(null)
+  const optimizationAbortRef = useRef<AbortController | null>(null)
+  const optimizationScenarioIdRef = useRef<number | null>(null)
   const ribbonItems: TermRibbonItem[] = WIZARD_STEPS.map(({ step, label }) => ({
     id: step,
     label,
@@ -63,12 +66,21 @@ function WizardContent() {
   /** Create the scenario, generate its plans, and navigate to the results page. */
   async function handleSubmit() {
     if (isSubmitting || optimizationPhase !== null) return
+    const abortController = new AbortController()
+    optimizationAbortRef.current = abortController
     setSubmitError(null)
     setOptimizationPhase("preparing")
     try {
-      const { planning_scenario_id } = await createScenario.mutateAsync(buildScenarioPayload(draft))
+      const { planning_scenario_id } = await createScenario.mutateAsync({
+        payload: buildScenarioPayload(draft),
+        signal: abortController.signal,
+      })
+      optimizationScenarioIdRef.current = planning_scenario_id
       setOptimizationPhase("solving")
-      const recommendedPlan = await generateRecommendedPlan.mutateAsync(planning_scenario_id)
+      const recommendedPlan = await generateRecommendedPlan.mutateAsync({
+        scenarioId: planning_scenario_id,
+        signal: abortController.signal,
+      })
       const plans = [recommendedPlan]
       const feasible = plans.filter((plan) => plan.status !== "INFEASIBLE")
       if (feasible.length === 0) {
@@ -82,11 +94,27 @@ function WizardContent() {
       }
       navigate(`/plans/${planning_scenario_id}`, { state: { plans } })
     } catch (error) {
+      if (abortController.signal.aborted) {
+        setOptimizationPhase(null)
+        return
+      }
       const message = error instanceof Error ? error.message : "Couldn't generate your plan. Please try again."
       toast.error("Couldn't generate your plan", { description: message })
       setSubmitError(message)
       setOptimizationPhase(null)
+    } finally {
+      if (optimizationAbortRef.current === abortController) optimizationAbortRef.current = null
+      optimizationScenarioIdRef.current = null
     }
+  }
+
+  /** Abort the active optimizer request and return to the editable review screen. */
+  function handleCancelOptimization() {
+    const scenarioId = optimizationScenarioIdRef.current
+    if (scenarioId !== null) void cancelPlanGeneration(scenarioId).catch(() => undefined)
+    optimizationAbortRef.current?.abort()
+    setOptimizationPhase(null)
+    toast.info("Plan generation canceled", { description: "Your selections are still here and can be edited." })
   }
 
   /** Advance a step, refusing (with an explanation) when the step isn't complete. */
@@ -114,7 +142,14 @@ function WizardContent() {
         onNext={handleNext}
         onSubmit={handleSubmit}
       />
-      {optimizationPhase ? <OptimizationProgress phase={optimizationPhase} /> : null}
+      {optimizationPhase ? (
+        <OptimizationProgress
+          phase={optimizationPhase}
+          onCancel={handleCancelOptimization}
+          programCount={1 + draft.additionalPrograms.length}
+          objectiveCount={draft.objectiveOrder.length}
+        />
+      ) : null}
     </div>
   )
 }

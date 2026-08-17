@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Plus, Sparkles, Target, X } from "lucide-react"
+import { Sparkles, Target, X } from "lucide-react"
 import { toast } from "sonner"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -40,7 +40,6 @@ const SUGGESTION_DISPLAY_LIMIT = 4
 export function StepAcademicGoals() {
   const { draft, dispatch } = useScenarioBuilder()
   const programsQuery = useProgramsQuery()
-  const [pendingProgramId, setPendingProgramId] = useState<string | null>(null)
   const [pendingRole, setPendingRole] = useState<AdditionalProgram["role"] | null>(null)
   const [departmentId, setDepartmentId] = useState<number | null>(null)
   const overlapQuery = useProgramOverlapSuggestionsQuery(
@@ -95,11 +94,10 @@ export function StepAcademicGoals() {
       description: "Your elective choices will refresh to include its requirements.",
     })
   }
-  /** Add the pending program/role selection from the search picker and reset it. */
-  function handleAdd() {
-    if (pendingProgramId === null || pendingRole === null) return
-    addProgram(Number(pendingProgramId), pendingRole)
-    setPendingProgramId(null)
+  /** Add a program immediately when it is chosen from the search picker. */
+  function handleProgramSelect(programId: string) {
+    if (pendingRole === null) return
+    addProgram(Number(programId), pendingRole)
   }
   /** Remove one selected additional program and confirm the draft change. */
   function removeProgram(programId: number) {
@@ -109,7 +107,6 @@ export function StepAcademicGoals() {
   return (
     <AcademicGoalsContent
       pendingRole={pendingRole}
-      pendingProgramId={pendingProgramId}
       departmentId={departmentId}
       departments={departments}
       options={options}
@@ -118,15 +115,10 @@ export function StepAcademicGoals() {
       programName={programName}
       onRoleChange={(role) => {
         setPendingRole(role)
-        setPendingProgramId(null)
         setDepartmentId(null)
       }}
-      onDepartmentChange={(id) => {
-        setDepartmentId(id)
-        setPendingProgramId(null)
-      }}
-      onProgramChange={setPendingProgramId}
-      onAdd={handleAdd}
+      onDepartmentChange={setDepartmentId}
+      onProgramSelect={handleProgramSelect}
       onSuggestionAdd={(programId) => pendingRole && addProgram(programId, pendingRole)}
       onRemove={removeProgram}
     />
@@ -135,7 +127,6 @@ export function StepAcademicGoals() {
 
 interface AcademicGoalsContentProps {
   pendingRole: AdditionalProgram["role"] | null
-  pendingProgramId: string | null
   departmentId: number | null
   departments: [number, string][]
   options: ComboboxOption[]
@@ -144,8 +135,7 @@ interface AcademicGoalsContentProps {
   programName: (id: number) => string
   onRoleChange: (role: AdditionalProgram["role"] | null) => void
   onDepartmentChange: (id: number | null) => void
-  onProgramChange: (id: string | null) => void
-  onAdd: () => void
+  onProgramSelect: (id: string) => void
   onSuggestionAdd: (id: number) => void
   onRemove: (id: number) => void
 }
@@ -199,12 +189,10 @@ function AdditionalGoalPicker(props: AcademicGoalsContentProps) {
         ) : role === "EMPHASIS" ? <div className="rounded-lg border bg-muted/30 p-3 text-xs text-muted-foreground">Only emphases attached to your selected major are shown.</div> : <div />}
       </div>
       {role !== null ? (
-        <div className="flex flex-col gap-3 sm:flex-row sm:items-end">
-          <div className="flex-1 space-y-1.5">
-            <Label>{ADDITIONAL_ROLE_OPTIONS.find((option) => option.value === role)?.label}</Label>
-            <Combobox options={props.options} value={props.pendingProgramId} onChange={props.onProgramChange} placeholder={`Search ${ROLE_PLURAL_LABELS[role]}…`} searchPlaceholder={`Search ${ROLE_PLURAL_LABELS[role]}…`} />
-          </div>
-          <Button type="button" variant="secondary" disabled={props.pendingProgramId === null} onClick={props.onAdd}><Plus className="size-4" />Add</Button>
+        <div className="space-y-1.5">
+          <Label>{ADDITIONAL_ROLE_OPTIONS.find((option) => option.value === role)?.label}</Label>
+          <Combobox options={props.options} value={null} onChange={props.onProgramSelect} placeholder={`Search and add ${ROLE_PLURAL_LABELS[role]}…`} searchPlaceholder={`Search ${ROLE_PLURAL_LABELS[role]}…`} />
+          <p className="text-xs text-muted-foreground">Choose a program to add it immediately.</p>
         </div>
       ) : null}
     </>

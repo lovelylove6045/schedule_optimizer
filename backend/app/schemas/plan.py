@@ -6,6 +6,14 @@ from pydantic import BaseModel, ConfigDict
 from app.schemas.course import CourseOut
 
 
+class PlanCourseProgramOut(BaseModel):
+    """Identify one selected program whose requirements use a planned course."""
+
+    program_code: str
+    program_name: str
+    program_role: str
+
+
 class PlanCourseOut(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
@@ -19,6 +27,7 @@ class PlanCourseOut(BaseModel):
     is_movable: bool = True
     is_replaceable: bool = False
     selection_reasons: list[str] = []
+    programs: list[PlanCourseProgramOut] = []
 
 
 class OptimizationMessageOut(BaseModel):

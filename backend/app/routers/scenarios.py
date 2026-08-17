@@ -5,7 +5,7 @@ from app.database import get_db
 from app.models.planning_scenario import PlanningScenario
 from app.schemas.plan import DegreePlanOut
 from app.schemas.scenario import ScenarioCreate, ScenarioCreateOut, ScenarioProgramIn, ScenarioProgramOut
-from app.services import optimizer_persistence, plan_generation_service, scenario_service
+from app.services import optimizer_persistence, optimizer_service, plan_generation_service, scenario_service
 from app.services.scenario_service import ScenarioReferenceNotFoundError, ScenarioValidationError
 
 router = APIRouter(tags=["scenarios"])
@@ -41,8 +41,16 @@ def generate_recommended_plan(
     """Generate and return the recommended plan before any alternatives are solved."""
     try:
         return plan_generation_service.generate_and_persist_recommended_plan(db, planning_scenario_id)
+    except optimizer_service.OptimizationCancelledError as exc:
+        raise HTTPException(status_code=409, detail=str(exc)) from exc
     except ValueError as exc:
         raise HTTPException(status_code=404, detail=str(exc)) from exc
+
+
+@router.post("/scenarios/{planning_scenario_id}/generate/cancel", response_model=dict[str, bool])
+def cancel_plan_generation(planning_scenario_id: int) -> dict[str, bool]:
+    """Stop the active in-process solver for one scenario when the user cancels."""
+    return {"cancelled": optimizer_service.cancel_generation(planning_scenario_id)}
 
 
 @router.post("/scenarios/{planning_scenario_id}/generate/alternatives", response_model=list[DegreePlanOut])

@@ -13,6 +13,7 @@ from __future__ import annotations
 
 from sqlalchemy.orm import Session
 
+from app.models.academic_program import AcademicProgram
 from app.models.degree_plan import DegreePlan
 from app.models.enums import ScenarioPreferenceType, ScenarioProgramRole
 from app.models.optimization_message import OptimizationMessage
@@ -552,6 +553,7 @@ def _plan_course_out(
         is_movable=True,
         is_replaceable=metadata.get("is_replaceable", False),
         selection_reasons=metadata.get("selection_reasons", ["Selected to support degree completion"]),
+        programs=metadata.get("programs", []),
     )
 
 
@@ -581,9 +583,20 @@ def _plan_course_metadata(
     program_ids_by_set: dict[int, set[int]] = {}
     for link in links:
         program_ids_by_set.setdefault(link.requirement_set_id, set()).add(link.academic_program_id)
+    programs_by_id = {
+        program.academic_program_id: program
+        for program in db.query(AcademicProgram).filter(
+            AcademicProgram.academic_program_id.in_(set(scenario_roles))
+        ).all()
+    }
     return {
         course.plan_course_id: _one_plan_course_metadata(
-            course, allocations_by_course.get(course.plan_course_id, []), nodes, program_ids_by_set, scenario_roles
+            course,
+            allocations_by_course.get(course.plan_course_id, []),
+            nodes,
+            program_ids_by_set,
+            scenario_roles,
+            programs_by_id,
         )
         for course in plan_courses
     }
@@ -595,6 +608,7 @@ def _one_plan_course_metadata(
     nodes: dict[int, RequirementNode],
     program_ids_by_set: dict[int, set[int]],
     scenario_roles: dict[int, ScenarioProgramRole],
+    programs_by_id: dict[int, AcademicProgram],
 ) -> dict:
     """Classify and explain one plan course from its actual requirement allocations."""
     requirement_set_ids = {
@@ -630,11 +644,21 @@ def _one_plan_course_metadata(
         academic_role = "CREDIT_FLOOR"
         reasons = ["Selected to reach the published degree credit minimum"]
     replaceable = any(nodes[allocation.requirement_node_id].node_type == "COURSE_GROUP" for allocation in allocations)
+    programs = [
+        {
+            "program_code": programs_by_id[program_id].program_code,
+            "program_name": programs_by_id[program_id].program_name,
+            "program_role": scenario_roles[program_id].value,
+        }
+        for program_id in sorted(program_ids)
+        if program_id in programs_by_id and program_id in scenario_roles
+    ]
     return {
         "academic_role": academic_role,
         "is_removable": not allocations and plan_course.placement_source == "STUDENT_ADDED",
         "is_replaceable": replaceable,
         "selection_reasons": reasons,
+        "programs": programs,
     }
 
 

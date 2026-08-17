@@ -1,145 +1,38 @@
-import { CalendarX, Palette, TriangleAlert } from "lucide-react"
+import { useState } from "react"
+import {
+  BadgePlus,
+  BookMarked,
+  CalendarRange,
+  CalendarX,
+  Compass,
+  GraduationCap,
+  Layers3,
+  LayoutGrid,
+  Leaf,
+  ListTree,
+  Palette,
+  Sprout,
+  Sun,
+  Target,
+  TriangleAlert,
+  UsersRound,
+  type LucideIcon,
+} from "lucide-react"
 import { AddCourseButton } from "@/components/plans/add-course-button"
+import { PlanCourseCard, type PlanViewMode } from "@/components/plans/plan-course-card"
+import { PlanSummaryCard } from "@/components/plans/plan-summary-card"
 import { EmptyState } from "@/components/shared/empty-state"
 import { ErrorState } from "@/components/shared/error-state"
 import { LoadingState } from "@/components/shared/loading-state"
-import { PlanCourseCard } from "@/components/plans/plan-course-card"
-import { PlanSummaryCard } from "@/components/plans/plan-summary-card"
-import { TermRibbon, type TermRibbonItem } from "@/components/layout/term-ribbon"
+import { Button } from "@/components/ui/button"
 import { usePlanSwapOptionsQuery } from "@/hooks/use-plan-queries"
 import { useTermsQuery } from "@/hooks/use-terms"
-import type { CourseOut, DegreePlanOut, OptimizationMessageOut, PlanCourseOut, TermOut } from "@/lib/types"
+import type { CourseOut, DegreePlanOut, OptimizationMessageOut, PlanCourseOut, PlanCourseProgramOut, TermOut } from "@/lib/types"
 import { cn } from "@/lib/utils"
 
 interface PlanBoardProps {
   plan: DegreePlanOut
   onPlanUpdated: (updatedPlan: DegreePlanOut) => void
-}
-
-const COURSE_CATEGORY_LEGEND = [
-  { label: "Primary requirement", dot: "bg-blue-500", style: "border-blue-200 bg-blue-50 text-blue-800 dark:border-blue-800 dark:bg-blue-950/40 dark:text-blue-200" },
-  { label: "Shared", dot: "bg-emerald-500", style: "border-emerald-200 bg-emerald-50 text-emerald-800 dark:border-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-200" },
-  { label: "Additional program", dot: "bg-violet-500", style: "border-violet-200 bg-violet-50 text-violet-800 dark:border-violet-800 dark:bg-violet-950/40 dark:text-violet-200" },
-  { label: "Degree-credit elective", dot: "bg-amber-500", style: "border-amber-200 bg-amber-50 text-amber-900 dark:border-amber-800 dark:bg-amber-950/40 dark:text-amber-200" },
-  { label: "Exploratory", dot: "bg-slate-500", style: "border-slate-300 bg-slate-100 text-slate-800 dark:border-slate-700 dark:bg-slate-900/60 dark:text-slate-200" },
-]
-
-/** Explain the course-card color system with visible, accessible category chips. */
-function CourseCategoryLegend() {
-  return (
-    <section className="rounded-xl border border-primary/15 bg-gradient-to-r from-primary/7 via-background to-gold/10 p-3 shadow-sm" aria-label="Course category legend">
-      <div className="mb-2.5 flex items-center gap-2">
-        <span className="flex size-8 items-center justify-center rounded-lg bg-primary text-primary-foreground shadow-sm">
-          <Palette className="size-4" aria-hidden="true" />
-        </span>
-        <div>
-          <h2 className="text-sm font-semibold">Course color guide</h2>
-          <p className="text-xs text-muted-foreground">Match each color to the left edge of a course card.</p>
-        </div>
-      </div>
-      <div className="flex flex-wrap gap-2">
-        {COURSE_CATEGORY_LEGEND.map((item) => (
-          <span key={item.label} className={`inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-semibold shadow-xs ${item.style}`}>
-            <span className={`size-2.5 rounded-full ring-2 ring-background ${item.dot}`} aria-hidden="true" />
-            {item.label}
-          </span>
-        ))}
-      </div>
-    </section>
-  )
-}
-
-/** Explain one term-load problem and point to the highlighted repair control. */
-function TermLoadNotice({ warning }: { warning: OptimizationMessageOut }) {
-  const isUnderloaded = warning.message_code === "TERM_CREDIT_BELOW_MINIMUM"
-  return (
-    <div className="rounded-lg border border-amber-300 bg-amber-50 p-2.5 text-amber-950 shadow-sm" role="alert">
-      <div className="flex items-start gap-2">
-        <TriangleAlert className="mt-0.5 size-4 shrink-0 text-amber-600" aria-hidden="true" />
-        <div className="min-w-0">
-          <p className="text-xs font-semibold">{isUnderloaded ? "Add credits to this term" : "Move credits out of this term"}</p>
-          <p className="mt-1 text-[0.7rem] leading-relaxed text-amber-800">{warning.message_text}</p>
-          <p className="mt-1.5 text-[0.68rem] font-medium text-amber-700">
-            {isUnderloaded ? "Use the highlighted button below." : "Use a highlighted calendar button on a course below."}
-          </p>
-        </div>
-      </div>
-    </div>
-  )
-}
-
-/** Screen 6: a semester-by-semester board, the term columns headed by the
- * same Term Ribbon pill used as the wizard's progress stepper. Each course
- * tile that satisfies a choice-shaped requirement (a course group, or a
- * literal "A or B" alternative) can be swapped in place for the same term. */
-export function PlanBoard({ plan, onPlanUpdated }: PlanBoardProps) {
-  const termsQuery = useTermsQuery()
-  const swapOptionsQuery = usePlanSwapOptionsQuery(plan.degree_plan_id)
-  if (termsQuery.isPending) return <LoadingState label="Loading terms…" />
-  if (termsQuery.isError) return <ErrorState message="Couldn't load terms from the server." />
-  if (plan.status === "INFEASIBLE" || plan.courses.length === 0) {
-    return (
-      <div className="space-y-6">
-        <PlanSummaryCard plan={plan} />
-        <EmptyState
-          icon={CalendarX}
-          title="No schedule to show"
-          description="This scenario couldn't be scheduled -- see the messages above for why, then adjust your constraints and try again."
-        />
-      </div>
-    )
-  }
-  const termsById = new Map(termsQuery.data.map((term) => [term.term_id, term]))
-  const columns = groupCoursesByTerm(plan.courses, termsById)
-  const ribbonItems: TermRibbonItem[] = columns.map(({ term }) => ({
-    id: term.term_id,
-    label: term.term_code,
-    state: "current",
-  }))
-  const swapOptionsByPlanCourseId: Record<number, CourseOut[]> = swapOptionsQuery.data ?? {}
-  const existingCourseIds = new Set(plan.courses.map((planCourse) => planCourse.course.course_id))
-  const termLoadWarnings = plan.messages.filter((message) => message.message_code?.startsWith("TERM_CREDIT_"))
-  return (
-    <div className="space-y-6">
-      <PlanSummaryCard plan={plan} />
-      <CourseCategoryLegend />
-      <TermRibbon items={ribbonItems} className="hidden sm:flex" />
-      <div className="scrollbar-slim grid snap-x grid-flow-col auto-cols-[minmax(230px,1fr)] gap-4 overflow-x-auto pb-3">
-        {columns.map(({ term, courses, totalCredits }) => {
-          const warning = termLoadWarnings.find((message) => message.message_text.startsWith(term.term_code))
-          const isOverloaded = warning?.message_code === "TERM_CREDIT_ABOVE_MAXIMUM"
-          return (
-            <div key={term.term_id} className={cn("glass-panel flex snap-start flex-col gap-3 rounded-xl p-3", warning && "border-amber-300 ring-2 ring-amber-200/70")}>
-              <div className="flex items-baseline justify-between border-b pb-2">
-                <p className="font-semibold">{term.term_code}</p>
-                <p className={cn("font-mono text-xs text-muted-foreground", warning && "font-semibold text-amber-700")}>{totalCredits} cr</p>
-              </div>
-              {warning ? <TermLoadNotice warning={warning} /> : null}
-              {courses.map((planCourse) => (
-                <PlanCourseCard
-                  key={planCourse.plan_course_id}
-                  degreePlanId={plan.degree_plan_id}
-                  planCourse={planCourse}
-                  planCourses={plan.courses}
-                  moveNeedsAttention={isOverloaded}
-                  swapAlternatives={swapOptionsByPlanCourseId[planCourse.plan_course_id] ?? []}
-                  onSwapped={onPlanUpdated}
-                />
-              ))}
-              <AddCourseButton
-                degreePlanId={plan.degree_plan_id}
-                termId={term.term_id}
-                termLabel={term.term_code}
-                existingCourseIds={existingCourseIds}
-                needsAttention={warning?.message_code === "TERM_CREDIT_BELOW_MINIMUM"}
-                onAdded={onPlanUpdated}
-              />
-            </div>
-          )
-        })}
-      </div>
-    </div>
-  )
 }
 
 interface TermColumn {
@@ -148,7 +41,155 @@ interface TermColumn {
   totalCredits: number
 }
 
-/** Bucket a plan's courses into one column per term, ordered chronologically. */
+interface AcademicYearGroup {
+  startYear: number
+  terms: TermColumn[]
+  totalCredits: number
+}
+
+/** Render a vertically stacked academic-year schedule with simple and detail views. */
+export function PlanBoard({ plan, onPlanUpdated }: PlanBoardProps) {
+  const [viewMode, setViewMode] = useState<PlanViewMode>("simple")
+  const termsQuery = useTermsQuery()
+  const swapOptionsQuery = usePlanSwapOptionsQuery(plan.degree_plan_id)
+  if (termsQuery.isPending) return <LoadingState label="Loading terms…" />
+  if (termsQuery.isError) return <ErrorState message="Couldn't load terms from the server." />
+  if (plan.status === "INFEASIBLE" || plan.courses.length === 0) return <EmptyPlan plan={plan} />
+  const termsById = new Map(termsQuery.data.map((term) => [term.term_id, term]))
+  const academicYears = groupTermsByAcademicYear(groupCoursesByTerm(plan.courses, termsById))
+  const swapOptionsByPlanCourseId: Record<number, CourseOut[]> = swapOptionsQuery.data ?? {}
+  const existingCourseIds = new Set(plan.courses.map((planCourse) => planCourse.course.course_id))
+  const termLoadWarnings = plan.messages.filter((message) => message.message_code?.startsWith("TERM_CREDIT_"))
+  return (
+    <div className="space-y-5">
+      <PlanSummaryCard plan={plan} />
+      <BoardToolbar plan={plan} viewMode={viewMode} onViewModeChange={setViewMode} />
+      <div className="space-y-5">
+        {academicYears.map((academicYear) => (
+          <AcademicYearSection
+            key={academicYear.startYear}
+            academicYear={academicYear}
+            degreePlanId={plan.degree_plan_id}
+            planCourses={plan.courses}
+            viewMode={viewMode}
+            swapOptionsByPlanCourseId={swapOptionsByPlanCourseId}
+            existingCourseIds={existingCourseIds}
+            termLoadWarnings={termLoadWarnings}
+            onPlanUpdated={onPlanUpdated}
+          />
+        ))}
+      </div>
+    </div>
+  )
+}
+
+/** Show the summary and infeasible empty state without schedule controls. */
+function EmptyPlan({ plan }: { plan: DegreePlanOut }) {
+  return (
+    <div className="space-y-6">
+      <PlanSummaryCard plan={plan} />
+      <EmptyState icon={CalendarX} title="No schedule to show" description="This scenario couldn't be scheduled — see the messages above, adjust the constraints, and try again." />
+    </div>
+  )
+}
+
+/** Combine the view switch and an ownership legend into one compact control surface. */
+function BoardToolbar({ plan, viewMode, onViewModeChange }: { plan: DegreePlanOut; viewMode: PlanViewMode; onViewModeChange: (mode: PlanViewMode) => void }) {
+  return (
+    <section className="rounded-xl border border-primary/15 bg-gradient-to-r from-primary/7 via-background to-gold/10 p-3 shadow-sm">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <div className="flex items-center gap-2">
+          <span className="flex size-8 items-center justify-center rounded-lg bg-primary text-primary-foreground"><Palette className="size-4" aria-hidden="true" /></span>
+          <div><h2 className="text-sm font-semibold">Schedule key</h2><p className="text-xs text-muted-foreground">Colors and icons show course ownership.</p></div>
+        </div>
+        <ViewModeSwitch viewMode={viewMode} onChange={onViewModeChange} />
+      </div>
+      <CourseOwnershipLegend courses={plan.courses} detailed={viewMode === "detail"} />
+    </section>
+  )
+}
+
+/** Let the student switch between an icon-first overview and explanatory cards. */
+function ViewModeSwitch({ viewMode, onChange }: { viewMode: PlanViewMode; onChange: (mode: PlanViewMode) => void }) {
+  return (
+    <div className="inline-flex rounded-lg border bg-background/70 p-1" role="group" aria-label="Schedule view">
+      <Button type="button" size="sm" variant={viewMode === "simple" ? "default" : "ghost"} aria-pressed={viewMode === "simple"} onClick={() => onChange("simple")}><LayoutGrid className="size-4" />Simple</Button>
+      <Button type="button" size="sm" variant={viewMode === "detail" ? "default" : "ghost"} aria-pressed={viewMode === "detail"} onClick={() => onChange("detail")}><ListTree className="size-4" />Details</Button>
+    </div>
+  )
+}
+
+/** Explain only the programs and fallback categories that occur in this plan. */
+function CourseOwnershipLegend({ courses, detailed }: { courses: PlanCourseOut[]; detailed: boolean }) {
+  const programs = uniquePrograms(courses)
+  return (
+    <div className="mt-3 flex flex-wrap gap-1.5">
+      {programs.map((program) => <LegendProgram key={`${program.program_code}-${program.program_role}`} program={program} detailed={detailed} />)}
+      <LegendChip icon={UsersRound} label="Shared" className="border-emerald-200 bg-emerald-50 text-emerald-800" />
+      <LegendChip icon={Target} label={detailed ? "Degree-credit elective" : "Elective"} className="border-amber-200 bg-amber-50 text-amber-800" />
+      <LegendChip icon={Compass} label="Exploratory" className="border-slate-300 bg-slate-100 text-slate-700" />
+    </div>
+  )
+}
+
+/** Render one actual selected program in the schedule legend. */
+function LegendProgram({ program, detailed }: { program: PlanCourseProgramOut; detailed: boolean }) {
+  const visual = programVisual(program.program_role)
+  const shortCode = program.program_code.split("_")[0]
+  const label = detailed ? `${shortCode} · ${programRoleLabel(program.program_role)}` : shortCode
+  return <LegendChip icon={visual.icon} label={label} title={program.program_name} className={visual.className} />
+}
+
+/** Render one icon-led legend chip. */
+function LegendChip({ icon: Icon, label, title = label, className }: { icon: LucideIcon; label: string; title?: string; className: string }) {
+  return <span title={title} className={cn("inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-[0.7rem] font-semibold", className)}><Icon className="size-3.5" aria-hidden="true" />{label}</span>
+}
+
+/** Render one academic year with Fall, Spring, and optional Summer side by side. */
+function AcademicYearSection(props: { academicYear: AcademicYearGroup; degreePlanId: number; planCourses: PlanCourseOut[]; viewMode: PlanViewMode; swapOptionsByPlanCourseId: Record<number, CourseOut[]>; existingCourseIds: Set<number>; termLoadWarnings: OptimizationMessageOut[]; onPlanUpdated: (plan: DegreePlanOut) => void }) {
+  const { academicYear } = props
+  return (
+    <section className="glass-panel rounded-2xl p-3 sm:p-4">
+      <header className="mb-3 flex items-center justify-between gap-3 border-b pb-3">
+        <div className="flex items-center gap-2"><span className="flex size-8 items-center justify-center rounded-lg bg-primary/10 text-primary"><CalendarRange className="size-4" /></span><div><h2 className="font-semibold">Academic year {academicYearLabel(academicYear.startYear)}</h2><p className="text-xs text-muted-foreground">{academicYear.terms.length} terms</p></div></div>
+        <span className="font-mono text-xs font-semibold text-muted-foreground">{academicYear.totalCredits} cr</span>
+      </header>
+      <div className={cn("grid grid-cols-1 gap-3 md:grid-cols-2", academicYear.terms.length === 3 && "xl:grid-cols-3")}>
+        {academicYear.terms.map((column) => <TermPanel key={column.term.term_id} column={column} {...props} />)}
+      </div>
+    </section>
+  )
+}
+
+/** Render one term column inside its academic-year row. */
+function TermPanel(props: { column: TermColumn; degreePlanId: number; planCourses: PlanCourseOut[]; viewMode: PlanViewMode; swapOptionsByPlanCourseId: Record<number, CourseOut[]>; existingCourseIds: Set<number>; termLoadWarnings: OptimizationMessageOut[]; onPlanUpdated: (plan: DegreePlanOut) => void }) {
+  const { column, degreePlanId, planCourses, viewMode, swapOptionsByPlanCourseId, existingCourseIds, termLoadWarnings, onPlanUpdated } = props
+  const warning = termLoadWarnings.find((message) => message.message_text.startsWith(column.term.term_code))
+  const isOverloaded = warning?.message_code === "TERM_CREDIT_ABOVE_MAXIMUM"
+  const TermIcon = termIcon(column.term.term_type)
+  return (
+    <div className={cn("flex min-w-0 flex-col gap-2.5 rounded-xl border bg-background/45 p-3", warning && "border-amber-300 ring-2 ring-amber-200/70")}>
+      <div className="flex items-center justify-between gap-2 border-b pb-2"><div className="flex items-center gap-2"><TermIcon className="size-4 text-primary" /><h3 className="text-sm font-semibold">{termLabel(column.term)}</h3></div><span className={cn("font-mono text-xs text-muted-foreground", warning && "font-semibold text-amber-700")}>{column.totalCredits} cr</span></div>
+      {warning ? <TermLoadNotice warning={warning} compact={viewMode === "simple"} /> : null}
+      <div className="space-y-2">
+        {column.courses.map((planCourse) => <PlanCourseCard key={planCourse.plan_course_id} degreePlanId={degreePlanId} planCourse={planCourse} planCourses={planCourses} viewMode={viewMode} moveNeedsAttention={isOverloaded} swapAlternatives={swapOptionsByPlanCourseId[planCourse.plan_course_id] ?? []} onSwapped={onPlanUpdated} />)}
+      </div>
+      <AddCourseButton degreePlanId={degreePlanId} termId={column.term.term_id} termLabel={column.term.term_code} existingCourseIds={existingCourseIds} needsAttention={warning?.message_code === "TERM_CREDIT_BELOW_MINIMUM"} onAdded={onPlanUpdated} />
+    </div>
+  )
+}
+
+/** Explain one term-load problem, reducing prose in simple view. */
+function TermLoadNotice({ warning, compact }: { warning: OptimizationMessageOut; compact: boolean }) {
+  const isUnderloaded = warning.message_code === "TERM_CREDIT_BELOW_MINIMUM"
+  return (
+    <div className="rounded-lg border border-amber-300 bg-amber-50 p-2.5 text-amber-950" role="alert">
+      <div className="flex items-start gap-2"><TriangleAlert className="mt-0.5 size-4 shrink-0 text-amber-600" /><div><p className="text-xs font-semibold">{isUnderloaded ? "Add credits" : "Reduce workload"}</p>{compact ? null : <p className="mt-1 text-[0.7rem] leading-relaxed text-amber-800">{warning.message_text}</p>}</div></div>
+    </div>
+  )
+}
+
+/** Bucket plan courses into chronological term columns. */
 function groupCoursesByTerm(courses: PlanCourseOut[], termsById: Map<number, TermOut>): TermColumn[] {
   const columns = new Map<number, TermColumn>()
   for (const planCourse of courses) {
@@ -160,4 +201,59 @@ function groupCoursesByTerm(courses: PlanCourseOut[], termsById: Map<number, Ter
     columns.set(term.term_id, column)
   }
   return Array.from(columns.values()).sort((a, b) => a.term.sequence_index - b.term.sequence_index)
+}
+
+/** Group chronological term columns by Fall-start academic year. */
+function groupTermsByAcademicYear(columns: TermColumn[]): AcademicYearGroup[] {
+  const groups = new Map<number, AcademicYearGroup>()
+  for (const column of columns) {
+    const startYear = column.term.term_type === "FALL" ? column.term.academic_year : column.term.academic_year - 1
+    const group = groups.get(startYear) ?? { startYear, terms: [], totalCredits: 0 }
+    group.terms.push(column)
+    group.totalCredits += column.totalCredits
+    groups.set(startYear, group)
+  }
+  return Array.from(groups.values()).sort((a, b) => a.startYear - b.startYear)
+}
+
+/** Return unique program descriptors represented across the plan's course cards. */
+function uniquePrograms(courses: PlanCourseOut[]): PlanCourseProgramOut[] {
+  const programs = new Map<string, PlanCourseProgramOut>()
+  for (const course of courses) for (const program of course.programs ?? []) programs.set(`${program.program_code}-${program.program_role}`, program)
+  return Array.from(programs.values()).sort((a, b) => programRoleRank(a.program_role) - programRoleRank(b.program_role) || a.program_code.localeCompare(b.program_code))
+}
+
+/** Return icon and color styling for a scenario program role. */
+function programVisual(role: string): { icon: LucideIcon; className: string } {
+  if (role === "PRIMARY_MAJOR") return { icon: GraduationCap, className: "border-blue-200 bg-blue-50 text-blue-800" }
+  if (role === "SECOND_MAJOR") return { icon: BadgePlus, className: "border-violet-200 bg-violet-50 text-violet-800" }
+  if (role === "MINOR") return { icon: BookMarked, className: "border-rose-200 bg-rose-50 text-rose-800" }
+  return { icon: Layers3, className: "border-cyan-200 bg-cyan-50 text-cyan-800" }
+}
+
+/** Return a readable label for one scenario program role. */
+function programRoleLabel(role: string): string {
+  return ({ PRIMARY_MAJOR: "Primary major", SECOND_MAJOR: "Second major", MINOR: "Minor", EMPHASIS: "Emphasis" } as Record<string, string>)[role] ?? "Program"
+}
+
+/** Sort primary, second-major, minor, and emphasis program markers consistently. */
+function programRoleRank(role: string): number {
+  return ({ PRIMARY_MAJOR: 0, SECOND_MAJOR: 1, MINOR: 2, EMPHASIS: 3 } as Record<string, number>)[role] ?? 4
+}
+
+/** Return a short Fall-start academic-year label. */
+function academicYearLabel(startYear: number): string {
+  return `${startYear}–${String(startYear + 1).slice(-2)}`
+}
+
+/** Return a human-readable term label without relying on compact catalog codes. */
+function termLabel(term: TermOut): string {
+  return `${term.term_type[0]}${term.term_type.slice(1).toLowerCase()} ${term.academic_year}`
+}
+
+/** Return the seasonal icon used for a term header. */
+function termIcon(termType: string): LucideIcon {
+  if (termType === "FALL") return Leaf
+  if (termType === "SPRING") return Sprout
+  return Sun
 }

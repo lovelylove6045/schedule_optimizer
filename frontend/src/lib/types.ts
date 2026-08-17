@@ -253,6 +253,13 @@ export interface PlanCourseOut {
   is_movable: boolean
   is_replaceable: boolean
   selection_reasons: string[]
+  programs: PlanCourseProgramOut[]
+}
+
+export interface PlanCourseProgramOut {
+  program_code: string
+  program_name: string
+  program_role: ScenarioProgramRole
 }
 
 export interface OptimizationMessageOut {

@@ -15,9 +15,11 @@ import { RequirementCoverageTree } from "@/components/plans/requirement-coverage
 import { SelectedProgramsBar } from "@/components/plans/selected-programs-bar"
 import { useGenerateAlternativePlansMutation, useGeneratePlansMutation } from "@/hooks/use-scenario-mutations"
 import { useScenarioPlansQuery } from "@/hooks/use-plan-queries"
+import { useScenarioProgramsQuery } from "@/hooks/use-scenario-queries"
 import { OBJECTIVE_LABELS } from "@/lib/objective-labels"
 import type { DegreePlanOut, OptimizationObjectiveType } from "@/lib/types"
 import { CatalogSnapshotNotice } from "@/components/catalog/catalog-snapshot-notice"
+import { OptimizationProgress, OptimizationWorkflow } from "@/components/wizard/optimization-progress"
 
 interface LocationState {
   plans?: DegreePlanOut[]
@@ -64,6 +66,7 @@ export function PlansPage() {
   const location = useLocation()
   const passedPlans = (location.state as LocationState | null)?.plans
   const scenarioPlansQuery = useScenarioPlansQuery(scenarioId)
+  const scenarioProgramsQuery = useScenarioProgramsQuery(scenarioId)
   const regenerate = useGeneratePlansMutation()
   const generateAlternatives = useGenerateAlternativePlansMutation()
   const [regeneratedPlans, setRegeneratedPlans] = useState<DegreePlanOut[] | null>(null)
@@ -136,17 +139,20 @@ export function PlansPage() {
   }
   if (!plans || plans.length === 0) {
     return (
-      <EmptyState
-        icon={CalendarSearch}
-        title="No plans generated yet"
-        description="This scenario doesn't have any generated plans yet."
-        action={
-          <Button onClick={handleRegenerate} disabled={regenerate.isPending}>
-            <RefreshCcw className="size-4" />
-            {regenerate.isPending ? "Generating…" : "Generate plans"}
-          </Button>
-        }
-      />
+      <>
+        {regenerate.isPending ? <OptimizationProgress phase="solving" programCount={scenarioProgramsQuery.data?.length} /> : null}
+        <EmptyState
+          icon={CalendarSearch}
+          title="No plans generated yet"
+          description="This scenario doesn't have any generated plans yet."
+          action={
+            <Button onClick={handleRegenerate} disabled={regenerate.isPending}>
+              <RefreshCcw className="size-4" />
+              {regenerate.isPending ? "Generating…" : "Generate plans"}
+            </Button>
+          }
+        />
+      </>
     )
   }
   const recommendedPlan = plans[0]
@@ -160,6 +166,7 @@ export function PlansPage() {
       coveragePlan={coveragePlan}
       compareBoardPlan={compareBoardPlan}
       alternativeProgress={alternativeProgress}
+      optimizationProgramCount={scenarioProgramsQuery.data?.length ?? 1}
       regeneratePending={regenerate.isPending}
       onRegenerate={handleRegenerate}
       onRegenerateAndApply={regenerateAndApply}
@@ -177,6 +184,7 @@ interface PlansContentProps {
   coveragePlan: DegreePlanOut
   compareBoardPlan: DegreePlanOut | null
   alternativeProgress: AlternativeProgress | null
+  optimizationProgramCount: number
   regeneratePending: boolean
   onRegenerate: () => void
   onRegenerateAndApply: () => Promise<DegreePlanOut[]>
@@ -195,12 +203,13 @@ function PlansContent(props: PlansContentProps) {
   }
   return (
     <div className="space-y-6">
+      {props.regeneratePending ? <OptimizationProgress phase="solving" programCount={props.optimizationProgramCount} /> : null}
       <ResultsHeader
         planCount={props.plans.length}
         regeneratePending={props.regeneratePending}
         onRegenerate={props.onRegenerate}
       />
-      {props.alternativeProgress ? <AlternativeGenerationBanner progress={props.alternativeProgress} onCompare={showAlternatives} /> : null}
+      {props.alternativeProgress ? <AlternativeGenerationBanner progress={props.alternativeProgress} programCount={props.optimizationProgramCount} onCompare={showAlternatives} /> : null}
       <CatalogSnapshotNotice />
       <p className="rounded-lg border bg-muted/30 p-3 text-xs text-muted-foreground">
         Prototype planning recommendation based on the FA26 catalog dataset. Confirm final graduation requirements,
@@ -238,7 +247,7 @@ function ResultsHeader({ planCount, regeneratePending, onRegenerate }: {
 }
 
 /** Show alternative generation count, elapsed time, and completion feedback. */
-function AlternativeGenerationBanner({ progress, onCompare }: { progress: AlternativeProgress; onCompare: () => void }) {
+function AlternativeGenerationBanner({ progress, programCount, onCompare }: { progress: AlternativeProgress; programCount: number; onCompare: () => void }) {
   const isRunning = progress.status === "running"
   const elapsedSeconds = useElapsedSeconds(progress.startedAt, isRunning)
   const planLabel = `${progress.planCount} plan${progress.planCount === 1 ? "" : "s"} generated`
@@ -271,9 +280,12 @@ function AlternativeGenerationBanner({ progress, onCompare }: { progress: Altern
             </div>
           </div>
           {isRunning ? (
-            <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-primary/10" aria-hidden="true">
-              <div className="optimization-progress-sweep h-full w-2/5 rounded-full bg-gradient-to-r from-primary via-ring to-gold" />
-            </div>
+            <>
+              <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-primary/10" aria-hidden="true">
+                <div className="optimization-progress-sweep h-full w-2/5 rounded-full bg-gradient-to-r from-primary via-ring to-gold" />
+              </div>
+              <OptimizationWorkflow elapsedSeconds={elapsedSeconds} programCount={programCount} mode="alternatives" />
+            </>
           ) : (
             <div className="mt-3 flex flex-wrap items-center gap-3">
               <div className="h-1.5 min-w-36 flex-1 overflow-hidden rounded-full bg-primary/10" aria-hidden="true">
@@ -301,12 +313,8 @@ interface PlanResultTabsProps extends PlansContentProps {
 function PlanResultTabs(props: PlanResultTabsProps) {
   return (
     <Tabs id="plan-result-tabs" value={props.activeTab} onValueChange={props.onTabChange} className="scroll-mt-36 gap-0">
-      <div className="glass-raised sticky top-[4.5rem] z-30 flex flex-col gap-2 rounded-xl border-primary/20 p-2 shadow-md backdrop-blur-xl sm:flex-row sm:items-center">
-        <div className="flex shrink-0 items-center gap-2 px-2 sm:border-r sm:pr-4">
-          <ListChecks className="size-4 text-primary" aria-hidden="true" />
-          <span className="text-xs font-bold uppercase tracking-[0.12em] text-primary">Results view</span>
-        </div>
-        <TabsList className="grid h-auto! w-full flex-1 grid-cols-3 gap-1 rounded-lg bg-primary/7 p-1">
+      <div className="glass-raised sticky top-[4.5rem] z-30 rounded-xl border-primary/20 p-2 shadow-md backdrop-blur-xl">
+        <TabsList className="grid h-auto! w-full grid-cols-3 gap-1 rounded-lg bg-primary/7 p-1">
           <TabsTrigger value="recommended" className="group h-10 min-w-0 rounded-md px-2 data-[state=active]:border-primary data-[state=active]:bg-primary data-[state=active]:text-primary-foreground data-[state=active]:shadow-sm">
             <CalendarDays className="size-4 shrink-0 text-primary group-data-[state=active]:text-primary-foreground" aria-hidden="true" />
             <span className="truncate text-xs font-semibold sm:text-sm">Schedule</span>

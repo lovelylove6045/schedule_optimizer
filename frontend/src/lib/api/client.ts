@@ -15,6 +15,7 @@ interface RequestOptions {
   method?: "GET" | "POST" | "DELETE"
   body?: unknown
   searchParams?: Record<string, string | number | undefined>
+  signal?: AbortSignal
 }
 
 /** Fetch one JSON resource from the backend API, throwing ApiError on failure. */
@@ -24,6 +25,7 @@ export async function apiFetch<T>(path: string, options: RequestOptions = {}): P
     method: options.method ?? "GET",
     headers: options.body === undefined ? undefined : { "Content-Type": "application/json" },
     body: options.body === undefined ? undefined : JSON.stringify(options.body),
+    signal: options.signal,
   })
   if (!response.ok) {
     throw new ApiError(response.status, await readErrorMessage(response))

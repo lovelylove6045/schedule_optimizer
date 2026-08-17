@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import dataclasses
 import logging
+import threading
 import time
 from dataclasses import dataclass
 
@@ -28,6 +29,9 @@ DEFAULT_MAX_TOTAL_SOLVE_SECONDS = 270.0
 # A relative gap is deliberately omitted: lexicographic stages record CP-SAT's exact
 # OPTIMAL/FEASIBLE proof status and use only the achieved value for the next lock.
 _FEASIBLE_STATUSES = (cp_model.OPTIMAL, cp_model.FEASIBLE)
+_ACTIVE_SOLVERS: dict[int, cp_model.CpSolver] = {}
+_CANCELLED_SCENARIOS: set[int] = set()
+_SOLVER_REGISTRY_LOCK = threading.Lock()
 _STATUS_NAMES = {
     cp_model.OPTIMAL: "OPTIMAL",
     cp_model.FEASIBLE: "FEASIBLE",
@@ -64,6 +68,10 @@ class GeneratedPlan:
     deadline_exhausted: bool = False
 
 
+class OptimizationCancelledError(Exception):
+    """Raised when a user asks the active solver to stop generating a plan."""
+
+
 def generate_plans(
     db: Session, planning_scenario_id: int, max_total_solve_seconds: float = DEFAULT_MAX_TOTAL_SOLVE_SECONDS
 ) -> list[GeneratedPlan]:
@@ -88,6 +96,17 @@ def generate_recommended_plan(
     max_total_solve_seconds: float = DEFAULT_MAX_TOTAL_SOLVE_SECONDS,
 ) -> GeneratedPlan:
     """Solve the scenario's ordered priorities lexicographically and return one plan."""
+    _begin_cancellable_generation(planning_scenario_id)
+    try:
+        return _generate_recommended_plan(db, planning_scenario_id, max_total_solve_seconds)
+    finally:
+        _finish_cancellable_generation(planning_scenario_id)
+
+
+def _generate_recommended_plan(
+    db: Session, planning_scenario_id: int, max_total_solve_seconds: float
+) -> GeneratedPlan:
+    """Run the recommended-plan stages inside an initialized cancellation scope."""
     started_at = time.monotonic()
     deadline = started_at + max(max_total_solve_seconds, 0.0)
     scenario = _load_scenario(db, planning_scenario_id)
@@ -210,7 +229,7 @@ def _solve_lexicographic(
         expression = optimizer_objectives.minimize_expression(ctx, objective_type)
         ctx.model.Minimize(expression)
         solver = _new_solver(remaining)
-        status = solver.Solve(ctx.model)
+        status = _solve_with_cancellation(solver, ctx.model, ctx.scenario.planning_scenario_id)
         logger.info(
             "optimizer_stage scenario_id=%s stage=%s status=%s wall_time=%.3f variables=%s",
             ctx.scenario.planning_scenario_id,
@@ -251,7 +270,7 @@ def _solve_lexicographic(
         expression = expression_factory(ctx)
         ctx.model.Minimize(expression)
         solver = _new_solver(remaining)
-        status = solver.Solve(ctx.model)
+        status = _solve_with_cancellation(solver, ctx.model, ctx.scenario.planning_scenario_id)
         stage_results.append(f"{stage_name}:{_status_name(status)}")
         if status not in _FEASIBLE_STATUSES:
             break
@@ -274,7 +293,7 @@ def _lock_minimum_course_count(
     expression = optimizer_objectives.total_assigned_course_count(ctx)
     ctx.model.Minimize(expression)
     solver = _new_solver(remaining)
-    status = solver.Solve(ctx.model)
+    status = _solve_with_cancellation(solver, ctx.model, ctx.scenario.planning_scenario_id)
     logger.info(
         "optimizer_stage scenario_id=%s stage=MIN_COURSE_COUNT status=%s wall_time=%.3f variables=%s",
         ctx.scenario.planning_scenario_id,
@@ -348,6 +367,50 @@ def _new_solver(max_solve_seconds: float) -> cp_model.CpSolver:
     return solver
 
 
+def cancel_generation(planning_scenario_id: int) -> bool:
+    """Signal an active scenario solver to stop and return whether one was running."""
+    with _SOLVER_REGISTRY_LOCK:
+        _CANCELLED_SCENARIOS.add(planning_scenario_id)
+        solver = _ACTIVE_SOLVERS.get(planning_scenario_id)
+    if solver is not None:
+        solver.StopSearch()
+    return solver is not None
+
+
+def _begin_cancellable_generation(planning_scenario_id: int) -> None:
+    """Clear stale cancellation state before starting a recommended-plan request."""
+    with _SOLVER_REGISTRY_LOCK:
+        _CANCELLED_SCENARIOS.discard(planning_scenario_id)
+
+
+def _finish_cancellable_generation(planning_scenario_id: int) -> None:
+    """Remove a completed or canceled request from the in-process solver registry."""
+    with _SOLVER_REGISTRY_LOCK:
+        _ACTIVE_SOLVERS.pop(planning_scenario_id, None)
+        _CANCELLED_SCENARIOS.discard(planning_scenario_id)
+
+
+def _solve_with_cancellation(
+    solver: cp_model.CpSolver, model: cp_model.CpModel, planning_scenario_id: int
+) -> int:
+    """Run one CP-SAT stage while exposing it to the scenario cancellation endpoint."""
+    with _SOLVER_REGISTRY_LOCK:
+        if planning_scenario_id in _CANCELLED_SCENARIOS:
+            raise OptimizationCancelledError("Plan generation was canceled")
+        _ACTIVE_SOLVERS[planning_scenario_id] = solver
+    try:
+        status = solver.Solve(model)
+    finally:
+        with _SOLVER_REGISTRY_LOCK:
+            if _ACTIVE_SOLVERS.get(planning_scenario_id) is solver:
+                _ACTIVE_SOLVERS.pop(planning_scenario_id, None)
+    with _SOLVER_REGISTRY_LOCK:
+        was_cancelled = planning_scenario_id in _CANCELLED_SCENARIOS
+    if was_cancelled:
+        raise OptimizationCancelledError("Plan generation was canceled")
+    return status
+
+
 def _status_name(status: int) -> str:
     """Return a human-readable name for a CP-SAT solver status code."""
     return _STATUS_NAMES.get(status, "UNKNOWN")
@@ -367,7 +430,7 @@ def _solve_baseline_credit_hours(
     baseline_ctx = optimizer_model.build_optimizer_model(db, scenario, baseline_candidates, terms)
     baseline_ctx.model.Minimize(optimizer_objectives.total_assigned_credit_hours(baseline_ctx))
     solver = _new_solver(_remaining_seconds(deadline))
-    status = solver.Solve(baseline_ctx.model)
+    status = _solve_with_cancellation(solver, baseline_ctx.model, scenario.planning_scenario_id)
     if status not in _FEASIBLE_STATUSES:
         return None
     return solver.ObjectiveValue() / 10.0

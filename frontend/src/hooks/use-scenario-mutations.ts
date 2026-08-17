@@ -6,11 +6,21 @@ import {
   generatePlans,
   generateRecommendedPlan,
 } from "@/lib/api/scenarios"
-import type { ScenarioProgramIn } from "@/lib/types"
+import type { ScenarioCreate, ScenarioProgramIn } from "@/lib/types"
+
+interface CreateScenarioArgs {
+  payload: ScenarioCreate
+  signal?: AbortSignal
+}
+
+interface GenerateRecommendedPlanArgs {
+  scenarioId: number
+  signal?: AbortSignal
+}
 
 /** Submit a completed wizard draft as a new planning scenario. */
 export function useCreateScenarioMutation() {
-  return useMutation({ mutationFn: createScenario })
+  return useMutation({ mutationFn: ({ payload, signal }: CreateScenarioArgs) => createScenario(payload, signal) })
 }
 
 /** Run the optimizer for an already-created scenario and persist its plans. */
@@ -20,7 +30,9 @@ export function useGeneratePlansMutation() {
 
 /** Generate only the recommended plan for immediate display. */
 export function useGenerateRecommendedPlanMutation() {
-  return useMutation({ mutationFn: generateRecommendedPlan })
+  return useMutation({
+    mutationFn: ({ scenarioId, signal }: GenerateRecommendedPlanArgs) => generateRecommendedPlan(scenarioId, signal),
+  })
 }
 
 /** Generate comparison alternatives independently from the primary result. */

@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
@@ -15,6 +16,11 @@ export function StepProgramSelection() {
   const { draft, dispatch } = useScenarioBuilder()
   const programsQuery = useProgramsQuery()
   const termsQuery = useTermsQuery()
+  useEffect(() => {
+    if (draft.startTermId !== null || !termsQuery.data) return
+    const defaultTerm = termsQuery.data.find((term) => term.term_code === "FALL2026")
+    if (defaultTerm) dispatch({ type: "SET_START_TERM", termId: defaultTerm.term_id })
+  }, [dispatch, draft.startTermId, termsQuery.data])
   if (programsQuery.isPending || termsQuery.isPending) {
     return <LoadingState label="Loading programs and terms…" />
   }

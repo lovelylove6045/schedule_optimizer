@@ -2,8 +2,8 @@ import { apiFetch } from "@/lib/api/client"
 import type { DegreePlanOut, ScenarioCreate, ScenarioCreateOut, ScenarioProgramIn, ScenarioProgramOut } from "@/lib/types"
 
 /** Submit a new planning scenario, returning its id. */
-export function createScenario(payload: ScenarioCreate): Promise<ScenarioCreateOut> {
-  return apiFetch<ScenarioCreateOut>("/scenarios", { method: "POST", body: payload })
+export function createScenario(payload: ScenarioCreate, signal?: AbortSignal): Promise<ScenarioCreateOut> {
+  return apiFetch<ScenarioCreateOut>("/scenarios", { method: "POST", body: payload, signal })
 }
 
 /** Run the optimizer for a scenario and persist its resulting plans. */
@@ -12,8 +12,13 @@ export function generatePlans(scenarioId: number): Promise<DegreePlanOut[]> {
 }
 
 /** Generate the lexicographic recommended plan without waiting for alternatives. */
-export function generateRecommendedPlan(scenarioId: number): Promise<DegreePlanOut> {
-  return apiFetch<DegreePlanOut>(`/scenarios/${scenarioId}/generate/recommended`, { method: "POST" })
+export function generateRecommendedPlan(scenarioId: number, signal?: AbortSignal): Promise<DegreePlanOut> {
+  return apiFetch<DegreePlanOut>(`/scenarios/${scenarioId}/generate/recommended`, { method: "POST", signal })
+}
+
+/** Stop an active recommended-plan solver for a scenario. */
+export function cancelPlanGeneration(scenarioId: number): Promise<{ cancelled: boolean }> {
+  return apiFetch<{ cancelled: boolean }>(`/scenarios/${scenarioId}/generate/cancel`, { method: "POST" })
 }
 
 /** Generate independent alternatives after the recommended plan is usable. */
