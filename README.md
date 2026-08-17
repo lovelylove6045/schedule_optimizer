@@ -196,6 +196,12 @@ optimized; no weighted approximation is used. A minimum-coursework safeguard
 prevents overlap or department preferences from padding a plan. The API then
 generates semantically distinct alternatives separately.
 
+The optimizer considers only `STANDARD` courses by default. Research, Seminar,
+Internship, Special Problems, Special Topics, and any future non-standard course
+types enter the candidate set only when the student explicitly requires, prefers,
+or fixes that course to a term. Filtering happens before model construction to keep
+recommendations consent-safe and reduce solve time.
+
 The shared solver deadline is hard: no new stage or alternative solve starts after
 the budget expires. `OPTIMAL` and `FEASIBLE` are preserved and shown differently.
 Recorded real-catalog regression metrics are in

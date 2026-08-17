@@ -14,11 +14,17 @@ from app.models.course import Course
 from app.models.course_group_member import CourseGroupMember
 from app.models.course_rule_node import CourseRuleNode
 from app.models.course_relation import CourseRelation
-from app.models.enums import CourseRelationType, RequisiteType, ScenarioProgramRole
+from app.models.enums import (
+    CourseRelationType,
+    RequisiteType,
+    ScenarioPreferenceType,
+    ScenarioProgramRole,
+)
 from app.models.planning_scenario import PlanningScenario
 from app.models.overlap_policy import OverlapPolicy
 from app.models.program_requirement_set import ProgramRequirementSet
 from app.models.scenario_program import ScenarioProgram
+from app.models.scenario_preference import ScenarioPreference
 from app.models.student_credit import StudentCredit
 from app.schemas.course import CourseOut
 from app.schemas.requirement import RequirementNodeOut, RequirementSetOut
@@ -46,6 +52,12 @@ _CLOSURE_REQUISITE_TYPES = (
 # the requirement-node constraints. Only a MAJOR-level program's own published
 # total is a real graduation floor.
 _CREDIT_FLOOR_ROLES = (ScenarioProgramRole.PRIMARY_MAJOR, ScenarioProgramRole.SECOND_MAJOR)
+_STANDARD_COURSE_TYPE = "STANDARD"
+_EXPLICIT_COURSE_PREFERENCE_TYPES = (
+    ScenarioPreferenceType.REQUIRE_COURSE,
+    ScenarioPreferenceType.PREFER_COURSE,
+    ScenarioPreferenceType.FIX_COURSE_TO_TERM,
+)
 
 
 @dataclass(frozen=True)
@@ -59,6 +71,7 @@ class CandidateCourseSet:
     assignable_course_ids: set[int]
     completed_course_ids: set[int]
     courses_by_id: dict[int, CourseOut]
+    excluded_nonstandard_course_ids: set[int]
     group_members: dict[int, set[int]]
     course_ids_by_program: dict[int, set[int]]
     closure_capped: bool
@@ -111,14 +124,27 @@ def build_candidate_course_set(
     direct_course_ids: set[int] = set()
     for course_ids in course_ids_by_requirement_set.values():
         direct_course_ids |= course_ids
+    explicit_course_ids = _collect_explicit_course_ids(db, scenario.planning_scenario_id)
     equivalent_course_ids = _load_equivalent_course_ids(db, direct_course_ids | completed_course_ids)
     expanded_direct_ids = direct_course_ids | {
         equivalent_id for course_id in direct_course_ids for equivalent_id in equivalent_course_ids.get(course_id, set())
-    }
-    assignable_course_ids, closure_capped = _expand_prerequisite_closure(
+    } | explicit_course_ids
+    unfiltered_course_ids, closure_capped = _expand_prerequisite_closure(
         db, expanded_direct_ids, completed_course_ids
     )
-    courses_by_id = load_courses_by_id(db, assignable_course_ids)
+    unfiltered_courses = load_courses_by_id(db, unfiltered_course_ids)
+    courses_by_id, excluded_nonstandard_course_ids = _filter_optimization_courses(
+        unfiltered_courses, explicit_course_ids
+    )
+    assignable_course_ids = set(courses_by_id)
+    eligible_requirement_ids = assignable_course_ids | completed_course_ids
+    group_members = _filter_course_id_sets(group_members, eligible_requirement_ids)
+    course_ids_by_requirement_set = _filter_course_id_sets(
+        course_ids_by_requirement_set, eligible_requirement_ids
+    )
+    course_ids_by_program = _filter_course_id_sets(
+        course_ids_by_program, eligible_requirement_ids
+    )
     completed_credit_hours = _completed_credit_hours_total(db, scenario.student_id)
     credit_hours_by_course_id, subject_ids, course_levels = _load_course_metadata(
         db, group_members, courses_by_id, completed_course_ids
@@ -131,6 +157,7 @@ def build_candidate_course_set(
         assignable_course_ids=assignable_course_ids,
         completed_course_ids=completed_course_ids,
         courses_by_id=courses_by_id,
+        excluded_nonstandard_course_ids=excluded_nonstandard_course_ids,
         group_members=group_members,
         course_ids_by_program=course_ids_by_program,
         closure_capped=closure_capped,
@@ -152,6 +179,38 @@ def build_candidate_course_set(
             db, program_ids
         ),
     )
+
+
+def _collect_explicit_course_ids(db: Session, planning_scenario_id: int) -> set[int]:
+    """Return courses the student explicitly required, preferred, or fixed to a term."""
+    rows = db.query(ScenarioPreference.course_id).filter(
+        ScenarioPreference.planning_scenario_id == planning_scenario_id,
+        ScenarioPreference.preference_type.in_(_EXPLICIT_COURSE_PREFERENCE_TYPES),
+        ScenarioPreference.course_id.isnot(None),
+    ).all()
+    return {course_id for (course_id,) in rows}
+
+
+def _filter_optimization_courses(
+    courses_by_id: dict[int, CourseOut], explicit_course_ids: set[int]
+) -> tuple[dict[int, CourseOut], set[int]]:
+    """Keep standard and explicitly selected courses and return excluded non-standard ids."""
+    included = {
+        course_id: course
+        for course_id, course in courses_by_id.items()
+        if course.course_type == _STANDARD_COURSE_TYPE or course_id in explicit_course_ids
+    }
+    return included, set(courses_by_id) - included.keys()
+
+
+def _filter_course_id_sets(
+    course_ids_by_owner: dict[int, set[int]], eligible_course_ids: set[int]
+) -> dict[int, set[int]]:
+    """Restrict each indexed course-id set to courses eligible for requirement use."""
+    return {
+        owner_id: course_ids & eligible_course_ids
+        for owner_id, course_ids in course_ids_by_owner.items()
+    }
 
 
 def _index_requirement_set_ids_by_node(

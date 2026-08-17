@@ -696,12 +696,14 @@ def _course_satisfied_before(
     ctx: OptimizerModel, course_id: int, before_term: Term, same_term_allowed: bool
 ) -> cp_model.IntVar:
     """Return a 0/1 indicator that `course_id` is completed, or assigned to an eligible
-    earlier term (same term too, if `same_term_allowed`). A prerequisite course the
-    closure cap excluded from the candidate set is assumed satisfiable (flagged, not
-    force-failed), so a modeling limit never manufactures false infeasibility."""
+    earlier term (same term too, if `same_term_allowed`). Treat policy-filtered
+    non-standard prerequisites as unavailable; assume closure-capped prerequisites
+    are satisfiable and flag them so a modeling limit cannot create infeasibility."""
     if course_id in ctx.candidates.completed_course_ids:
         return _constant_bool(ctx, True)
     if course_id not in ctx.candidates.courses_by_id:
+        if course_id in ctx.candidates.excluded_nonstandard_course_ids:
+            return _constant_bool(ctx, False)
         ctx.unmodeled_prerequisite_course_ids.add(course_id)
         return _constant_bool(ctx, True)
     eligible_vars = [

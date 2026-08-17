@@ -4,9 +4,10 @@ growth capping, completed-course exclusion, and cross-program overlap detection.
 
 from app.models.academic_program import AcademicProgram
 from app.models.course import Course
-from app.models.enums import ScenarioProgramRole
+from app.models.enums import ScenarioPreferenceType, ScenarioProgramRole
 from app.models.planning_scenario import PlanningScenario
 from app.models.scenario_program import ScenarioProgram
+from app.models.scenario_preference import ScenarioPreference
 from app.models.student import Student
 from app.models.student_credit import StudentCredit
 from app.services import optimizer_candidates
@@ -49,6 +50,32 @@ def test_build_candidate_course_set_includes_direct_requirement_courses(db_sessi
     assert len(result.requirement_sets) == 8
     assert COMP_SCI_1972_COURSE_ID in result.assignable_course_ids
     assert COMP_SCI_1972_COURSE_ID in result.courses_by_id
+
+
+def test_build_candidate_course_set_uses_only_standard_courses_by_default(db_session):
+    """Exclude every non-standard course type when the student did not select it."""
+    scenario = _make_scenario(db_session, [AERO_BS_PROGRAM_ID])
+    result = optimizer_candidates.build_candidate_course_set(db_session, scenario)
+    assert result.courses_by_id
+    assert {course.course_type for course in result.courses_by_id.values()} == {"STANDARD"}
+    assert result.excluded_nonstandard_course_ids
+
+
+def test_build_candidate_course_set_includes_explicit_nonstandard_course(db_session):
+    """Include a non-standard course when the student explicitly requires it."""
+    scenario = _make_scenario(db_session, [AERO_BS_PROGRAM_ID])
+    course = db_session.query(Course).filter(Course.course_type == "INTERNSHIP").first()
+    db_session.add(
+        ScenarioPreference(
+            planning_scenario_id=scenario.planning_scenario_id,
+            preference_type=ScenarioPreferenceType.REQUIRE_COURSE,
+            course_id=course.course_id,
+        )
+    )
+    db_session.flush()
+    result = optimizer_candidates.build_candidate_course_set(db_session, scenario)
+    assert result.courses_by_id[course.course_id].course_type == "INTERNSHIP"
+    assert course.course_id not in result.excluded_nonstandard_course_ids
 
 
 def test_build_candidate_course_set_excludes_completed_courses(db_session):
@@ -169,7 +196,10 @@ def test_unrelated_completed_course_does_not_reduce_degree_credit_floor(db_sessi
     candidate_ids = optimizer_candidates.build_candidate_course_set(db_session, scenario).assignable_course_ids
     unrelated_course_id = next(
         course_id
-        for (course_id,) in db_session.query(Course.course_id).order_by(Course.course_id).all()
+        for (course_id,) in db_session.query(Course.course_id)
+        .filter(Course.course_type == "STANDARD")
+        .order_by(Course.course_id)
+        .all()
         if course_id not in candidate_ids
     )
     db_session.add(
