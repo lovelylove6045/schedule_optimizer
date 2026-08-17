@@ -32,15 +32,22 @@ export function PlanSummaryCard({ plan }: PlanSummaryCardProps) {
             <CardTitle>{objective?.title ?? plan.plan_name ?? `Plan #${plan.degree_plan_id}`}</CardTitle>
             {objective ? <CardDescription>{objective.description}</CardDescription> : null}
           </div>
-          <Badge
-            variant={isInfeasible ? "destructive" : needsAttention ? "outline" : "default"}
-            className={cn(
-              !isInfeasible && !needsAttention && "bg-success text-success-foreground",
-              needsAttention && "border-amber-400 bg-amber-50 text-amber-800 dark:bg-amber-950/40 dark:text-amber-200",
-            )}
-          >
-            {isInfeasible ? "Not possible" : needsAttention ? "Needs attention" : plan.solver_status === "OPTIMAL" ? "Optimized" : "Best solution found"}
-          </Badge>
+          <div className="flex flex-wrap justify-end gap-2">
+            <Badge
+              variant={isInfeasible ? "destructive" : "default"}
+              className={cn(!isInfeasible && "bg-success text-success-foreground")}
+            >
+              {isInfeasible ? "Not possible" : plan.solver_status === "OPTIMAL" ? "Optimized" : "Best solution found"}
+            </Badge>
+            {!isInfeasible && needsAttention ? (
+              <Badge
+                variant="outline"
+                className="border-amber-400 bg-amber-50 text-amber-800 dark:bg-amber-950/40 dark:text-amber-200"
+              >
+                Review warnings
+              </Badge>
+            ) : null}
+          </div>
         </div>
       </CardHeader>
       <CardContent className="space-y-4">
@@ -108,7 +115,7 @@ function messageHeadline(message: OptimizationMessageOut): string {
     case "PREREQUISITE_NOT_MODELED":
       return "Prerequisites to verify yourself"
     case "UNVERIFIED_PREREQUISITE_TYPE":
-      return "Assumed satisfied"
+      return "Catalog assumptions"
     case "OVERLAP_POLICY_UNVERIFIED":
       return "Sharing policy needs verification"
     case "SOLVER_DEADLINE_REACHED":

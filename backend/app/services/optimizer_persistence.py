@@ -83,7 +83,6 @@ def _generated_plan_status(generated_plan: GeneratedPlan) -> str:
     has_unresolved = bool(
         generated_plan.credit_requirement_node_ids
         or generated_plan.unmodeled_prerequisite_course_ids
-        or generated_plan.unmodeled_prerequisite_node_ids
     )
     return VALID_WITH_WARNINGS_STATUS if has_unresolved else VALID_STATUS
 
@@ -245,9 +244,9 @@ def _add_unverified_prerequisite_condition_message(
         degree_plan_id,
         "INFO",
         "UNVERIFIED_PREREQUISITE_TYPE",
-        f"{count} prerequisite condition(s) are things the optimizer can't check -- placement "
-        "exams, consent, or other unstructured conditions. They're assumed satisfied; confirm "
-        "with an advisor.",
+        f"{count} prerequisite condition(s) attached to scheduled courses are advisory "
+        "recommendations, placement exams, consent, or other catalog conditions the optimizer "
+        "can't verify. They don't affect optimization proof status; confirm them with an advisor.",
     )
 
 
@@ -296,7 +295,7 @@ def _add_solver_quality_message(
 
 
 def _add_overlap_assumption_message(db: Session, degree_plan_id: int) -> None:
-    """Disclose unknown cross-program sharing policy when multiple programs are selected."""
+    """Warn when a plan actually shares coursework without an explicit policy."""
     plan = db.get(DegreePlan, degree_plan_id)
     selected_ids = {
         program_id
@@ -304,11 +303,15 @@ def _add_overlap_assumption_message(db: Session, degree_plan_id: int) -> None:
         .filter(ScenarioProgram.planning_scenario_id == plan.planning_scenario_id)
         .all()
     }
+    if len(selected_ids) < 2:
+        return
     matching_policy = db.query(OverlapPolicy).filter(
         OverlapPolicy.program_a_id.in_(selected_ids),
         OverlapPolicy.program_b_id.in_(selected_ids),
     ).first()
-    if len(selected_ids) < 2 or matching_policy is not None:
+    if matching_policy is not None or not _has_cross_program_sharing(
+        db, degree_plan_id, selected_ids
+    ):
         return
     _add_message(
         db,
@@ -317,6 +320,66 @@ def _add_overlap_assumption_message(db: Session, degree_plan_id: int) -> None:
         "OVERLAP_POLICY_UNVERIFIED",
         "Cross-program sharing is optimized using the prototype's current catalog model. Some program-specific double-counting policies may require advisor verification.",
     )
+
+
+def _has_cross_program_sharing(
+    db: Session, degree_plan_id: int, selected_program_ids: set[int]
+) -> bool:
+    """Return whether one planned or completed course serves multiple selected programs."""
+    allocations = db.query(RequirementAllocation).filter(
+        RequirementAllocation.degree_plan_id == degree_plan_id
+    ).all()
+    set_by_node = _requirement_set_by_node(db, allocations)
+    programs_by_set = _selected_programs_by_requirement_set(db, selected_program_ids)
+    allocations_by_source: dict[tuple[int | None, int | None], list[RequirementAllocation]] = {}
+    for allocation in allocations:
+        source = (allocation.plan_course_id, allocation.student_credit_id)
+        allocations_by_source.setdefault(source, []).append(allocation)
+    return any(
+        len(_exclusive_programs_for_allocations(rows, set_by_node, programs_by_set)) > 1
+        for rows in allocations_by_source.values()
+    )
+
+
+def _requirement_set_by_node(
+    db: Session, allocations: list[RequirementAllocation]
+) -> dict[int, int]:
+    """Map allocated requirement nodes to their owning requirement sets."""
+    node_ids = {allocation.requirement_node_id for allocation in allocations}
+    return dict(
+        db.query(RequirementNode.requirement_node_id, RequirementNode.requirement_set_id)
+        .filter(RequirementNode.requirement_node_id.in_(node_ids))
+        .all()
+    )
+
+
+def _selected_programs_by_requirement_set(
+    db: Session, selected_program_ids: set[int]
+) -> dict[int, set[int]]:
+    """Map requirement sets to their selected academic-program owners."""
+    rows = db.query(
+        ProgramRequirementSet.requirement_set_id,
+        ProgramRequirementSet.academic_program_id,
+    ).filter(ProgramRequirementSet.academic_program_id.in_(selected_program_ids)).all()
+    result: dict[int, set[int]] = {}
+    for requirement_set_id, program_id in rows:
+        result.setdefault(requirement_set_id, set()).add(program_id)
+    return result
+
+
+def _exclusive_programs_for_allocations(
+    allocations: list[RequirementAllocation],
+    set_by_node: dict[int, int],
+    programs_by_set: dict[int, set[int]],
+) -> set[int]:
+    """Return exclusive program owners represented by one course's allocations."""
+    programs: set[int] = set()
+    for allocation in allocations:
+        requirement_set_id = set_by_node.get(allocation.requirement_node_id)
+        owners = programs_by_set.get(requirement_set_id, set())
+        if len(owners) == 1:
+            programs |= owners
+    return programs
 
 
 def _course_code_summary(db: Session, course_ids: set[int], limit: int = 6) -> str:

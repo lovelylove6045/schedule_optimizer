@@ -436,6 +436,7 @@ def _build_generated_plan(
     additional_credit_hours = (
         total_credit_hours - baseline_credit_hours if baseline_credit_hours is not None else None
     )
+    selected_course_ids = set(assignments)
     return GeneratedPlan(
         strategy_code=strategy_code,
         objective_type=objective_type,
@@ -448,10 +449,25 @@ def _build_generated_plan(
         node_satisfaction=node_satisfaction,
         node_satisfying_course_ids=optimizer_model.collect_leaf_satisfactions(ctx, solver),
         credit_requirement_node_ids=set(ctx.credit_requirement_node_ids),
-        unmodeled_prerequisite_course_ids=set(ctx.unmodeled_prerequisite_course_ids),
-        unmodeled_prerequisite_node_ids=set(ctx.unmodeled_prerequisite_node_ids),
+        unmodeled_prerequisite_course_ids=_selected_diagnostic_ids(
+            ctx.unmodeled_prerequisite_course_ids_by_target, selected_course_ids
+        ),
+        unmodeled_prerequisite_node_ids=_selected_diagnostic_ids(
+            ctx.unmodeled_prerequisite_node_ids_by_target, selected_course_ids
+        ),
         infeasibility_reason=None,
     )
+
+
+def _selected_diagnostic_ids(
+    ids_by_course: dict[int, set[int]], selected_course_ids: set[int]
+) -> set[int]:
+    """Return diagnostic ids associated with courses selected in the solved plan."""
+    return {
+        diagnostic_id
+        for course_id in selected_course_ids
+        for diagnostic_id in ids_by_course.get(course_id, set())
+    }
 
 
 def _latest_used_term_id(ctx: OptimizerModel, assignments: dict[int, int]) -> int | None:

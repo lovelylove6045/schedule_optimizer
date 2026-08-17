@@ -52,7 +52,8 @@ _CLOSURE_REQUISITE_TYPES = (
 # the requirement-node constraints. Only a MAJOR-level program's own published
 # total is a real graduation floor.
 _CREDIT_FLOOR_ROLES = (ScenarioProgramRole.PRIMARY_MAJOR, ScenarioProgramRole.SECOND_MAJOR)
-_STANDARD_COURSE_TYPE = "STANDARD"
+_DEFAULT_ALLOWED_COURSE_TYPES = {"STANDARD", "SEMINAR"}
+_CHOICE_OPERATORS = {"ANY", "N_OF", "CREDITS_FROM", "UNITS_FROM"}
 _EXPLICIT_COURSE_PREFERENCE_TYPES = (
     ScenarioPreferenceType.REQUIRE_COURSE,
     ScenarioPreferenceType.PREFER_COURSE,
@@ -125,6 +126,7 @@ def build_candidate_course_set(
     for course_ids in course_ids_by_requirement_set.values():
         direct_course_ids |= course_ids
     explicit_course_ids = _collect_explicit_course_ids(db, scenario.planning_scenario_id)
+    mandatory_course_ids = _collect_mandatory_course_ids(requirement_sets)
     equivalent_course_ids = _load_equivalent_course_ids(db, direct_course_ids | completed_course_ids)
     expanded_direct_ids = direct_course_ids | {
         equivalent_id for course_id in direct_course_ids for equivalent_id in equivalent_course_ids.get(course_id, set())
@@ -134,7 +136,7 @@ def build_candidate_course_set(
     )
     unfiltered_courses = load_courses_by_id(db, unfiltered_course_ids)
     courses_by_id, excluded_nonstandard_course_ids = _filter_optimization_courses(
-        unfiltered_courses, explicit_course_ids
+        unfiltered_courses, explicit_course_ids, mandatory_course_ids
     )
     assignable_course_ids = set(courses_by_id)
     eligible_requirement_ids = assignable_course_ids | completed_course_ids
@@ -192,15 +194,44 @@ def _collect_explicit_course_ids(db: Session, planning_scenario_id: int) -> set[
 
 
 def _filter_optimization_courses(
-    courses_by_id: dict[int, CourseOut], explicit_course_ids: set[int]
+    courses_by_id: dict[int, CourseOut],
+    explicit_course_ids: set[int],
+    mandatory_course_ids: set[int],
 ) -> tuple[dict[int, CourseOut], set[int]]:
-    """Keep standard and explicitly selected courses and return excluded non-standard ids."""
+    """Keep default, explicitly selected, and structurally mandatory courses."""
     included = {
         course_id: course
         for course_id, course in courses_by_id.items()
-        if course.course_type == _STANDARD_COURSE_TYPE or course_id in explicit_course_ids
+        if course.course_type in _DEFAULT_ALLOWED_COURSE_TYPES
+        or course_id in explicit_course_ids
+        or course_id in mandatory_course_ids
     }
     return included, set(courses_by_id) - included.keys()
+
+
+def _collect_mandatory_course_ids(
+    requirement_sets: list[RequirementSetOut],
+) -> set[int]:
+    """Return fixed course leaves that are not nested beneath a choice operator."""
+    mandatory_ids: set[int] = set()
+    for requirement_set in requirement_sets:
+        mandatory_ids |= _mandatory_course_ids_from_nodes(requirement_set.nodes, False)
+    return mandatory_ids
+
+
+def _mandatory_course_ids_from_nodes(
+    nodes: list[RequirementNodeOut], within_choice: bool
+) -> set[int]:
+    """Collect required course ids while excluding alternatives within choice branches."""
+    mandatory_ids: set[int] = set()
+    for node in nodes:
+        branch_within_choice = within_choice or node.node_operator in _CHOICE_OPERATORS
+        if node.required_course is not None and not branch_within_choice:
+            mandatory_ids.add(node.required_course.course_id)
+        mandatory_ids |= _mandatory_course_ids_from_nodes(
+            node.children, branch_within_choice
+        )
+    return mandatory_ids
 
 
 def _filter_course_id_sets(

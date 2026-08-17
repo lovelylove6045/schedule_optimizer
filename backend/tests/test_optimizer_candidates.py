@@ -2,6 +2,8 @@
 Aerospace BS/minor catalog data: a clean single-program case, prerequisite-closure
 growth capping, completed-course exclusion, and cross-program overlap detection."""
 
+from types import SimpleNamespace
+
 from app.models.academic_program import AcademicProgram
 from app.models.course import Course
 from app.models.enums import ScenarioPreferenceType, ScenarioProgramRole
@@ -52,13 +54,33 @@ def test_build_candidate_course_set_includes_direct_requirement_courses(db_sessi
     assert COMP_SCI_1972_COURSE_ID in result.courses_by_id
 
 
-def test_build_candidate_course_set_uses_only_standard_courses_by_default(db_session):
-    """Exclude every non-standard course type when the student did not select it."""
+def test_build_candidate_course_set_uses_only_default_or_mandatory_types(db_session):
+    """Exclude optional non-standard course types when the student did not select them."""
     scenario = _make_scenario(db_session, [AERO_BS_PROGRAM_ID])
     result = optimizer_candidates.build_candidate_course_set(db_session, scenario)
+    mandatory_ids = optimizer_candidates._collect_mandatory_course_ids(
+        result.requirement_sets
+    )
     assert result.courses_by_id
-    assert {course.course_type for course in result.courses_by_id.values()} == {"STANDARD"}
+    assert all(
+        course.course_type in {"STANDARD", "SEMINAR"} or course_id in mandatory_ids
+        for course_id, course in result.courses_by_id.items()
+    )
     assert result.excluded_nonstandard_course_ids
+
+
+def test_filter_keeps_seminars_and_mandatory_nonstandard_courses():
+    """Keep seminars by default and let mandatory leaves bypass the type filter."""
+    courses = {
+        1: SimpleNamespace(course_type="SEMINAR"),
+        2: SimpleNamespace(course_type="INTERNSHIP"),
+        3: SimpleNamespace(course_type="SPECIAL_TOPICS"),
+    }
+    included, excluded = optimizer_candidates._filter_optimization_courses(
+        courses, explicit_course_ids=set(), mandatory_course_ids={3}
+    )
+    assert set(included) == {1, 3}
+    assert excluded == {2}
 
 
 def test_build_candidate_course_set_includes_explicit_nonstandard_course(db_session):

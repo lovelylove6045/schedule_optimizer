@@ -55,16 +55,17 @@ function RequirementSetSection({ requirementSet }: { requirementSet: Requirement
 /** One requirement node's row (status, label, shared badge) plus its indented children. */
 function RequirementNodeRow({ node, depth }: { node: RequirementNodeOut; depth: number }) {
   const satisfyingCourses = node.satisfying_courses ?? []
+  const displayedSatisfaction = directCourseDisplayStatus(node, satisfyingCourses)
   const shouldShowCourseEvidence = node.required_course === null && satisfyingCourses.length > 0
   return (
     <li>
       <div className="flex items-start gap-2 px-4 py-2.5" style={{ paddingLeft: `${1 + depth * 1.25}rem` }}>
-        <StatusIcon isSatisfied={node.is_satisfied} />
+        <StatusIcon isSatisfied={displayedSatisfaction} />
         <div className="min-w-0 flex-1">
           <p className="text-sm">{requirementNodeLabel(node)}</p>
           {node.source_text ? <p className="text-xs text-muted-foreground">{node.source_text}</p> : null}
           {shouldShowCourseEvidence ? (
-            <SatisfyingCourseList courses={satisfyingCourses} isSatisfied={node.is_satisfied === true} />
+            <SatisfyingCourseList courses={satisfyingCourses} isSatisfied={displayedSatisfaction === true} />
           ) : null}
         </div>
         {node.is_shared ? (
@@ -80,6 +81,13 @@ function RequirementNodeRow({ node, depth }: { node: RequirementNodeOut; depth: 
       ) : null}
     </li>
   )
+}
+
+/** Show a direct course leaf as satisfied only when that leaf has an actual
+ * planned/completed allocation, avoiding duplicate checks for equivalent alternatives. */
+function directCourseDisplayStatus(node: RequirementNodeOut, satisfyingCourses: CourseOut[]): boolean | null {
+  if (node.required_course !== null) return satisfyingCourses.length > 0
+  return node.is_satisfied
 }
 
 /** Show the concrete courses allocated to an aggregate course-group requirement. */

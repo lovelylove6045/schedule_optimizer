@@ -78,6 +78,9 @@ class OptimizerModel:
     credit_requirement_node_ids: set[int] = field(default_factory=set)
     unmodeled_prerequisite_course_ids: set[int] = field(default_factory=set)
     unmodeled_prerequisite_node_ids: set[int] = field(default_factory=set)
+    unmodeled_prerequisite_course_ids_by_target: dict[int, set[int]] = field(default_factory=dict)
+    unmodeled_prerequisite_node_ids_by_target: dict[int, set[int]] = field(default_factory=dict)
+    active_prerequisite_target_course_id: int | None = None
     var_counter: int = 0
 
 
@@ -536,7 +539,9 @@ def _add_prerequisite_ordering_constraints(ctx: OptimizerModel) -> None:
         prerequisite_roots = catalog_service.get_prerequisite_tree(ctx.db, course_id)
         if not prerequisite_roots:
             continue
+        ctx.active_prerequisite_target_course_id = course_id
         _add_prerequisite_constraints_for_course(ctx, course_id, prerequisite_roots)
+        ctx.active_prerequisite_target_course_id = None
 
 
 def _add_prerequisite_constraints_for_course(
@@ -585,7 +590,7 @@ def _build_prerequisite_indicator(
     are handled -- the product spec already assumes these are pre-approved outside
     the tool (see PDS §12)."""
     if node.requisite_type == RequisiteType.RECOMMENDED:
-        ctx.unmodeled_prerequisite_node_ids.add(node.course_rule_node_id)
+        _record_unmodeled_prerequisite_node(ctx, node.course_rule_node_id)
         return _constant_bool(ctx, True)
     if node.node_type == "COURSE" and node.required_course is not None:
         return _course_satisfied_before(
@@ -603,8 +608,16 @@ def _build_prerequisite_indicator(
         )
     if node.children:
         return _aggregate_prerequisite_indicator(ctx, node, before_term, same_term_allowed)
-    ctx.unmodeled_prerequisite_node_ids.add(node.course_rule_node_id)
+    _record_unmodeled_prerequisite_node(ctx, node.course_rule_node_id)
     return _constant_bool(ctx, True)
+
+
+def _record_unmodeled_prerequisite_node(ctx: OptimizerModel, node_id: int) -> None:
+    """Record an unverifiable prerequisite node globally and for its target course."""
+    ctx.unmodeled_prerequisite_node_ids.add(node_id)
+    target_id = ctx.active_prerequisite_target_course_id
+    if target_id is not None:
+        ctx.unmodeled_prerequisite_node_ids_by_target.setdefault(target_id, set()).add(node_id)
 
 
 def _standing_satisfied_before(
@@ -704,7 +717,7 @@ def _course_satisfied_before(
     if course_id not in ctx.candidates.courses_by_id:
         if course_id in ctx.candidates.excluded_nonstandard_course_ids:
             return _constant_bool(ctx, False)
-        ctx.unmodeled_prerequisite_course_ids.add(course_id)
+        _record_unmodeled_prerequisite_course(ctx, course_id)
         return _constant_bool(ctx, True)
     eligible_vars = [
         var
@@ -717,6 +730,14 @@ def _course_satisfied_before(
     else:
         ctx.model.Add(result == 0)
     return result
+
+
+def _record_unmodeled_prerequisite_course(ctx: OptimizerModel, course_id: int) -> None:
+    """Record an unmodeled prerequisite course globally and for its target course."""
+    ctx.unmodeled_prerequisite_course_ids.add(course_id)
+    target_id = ctx.active_prerequisite_target_course_id
+    if target_id is not None:
+        ctx.unmodeled_prerequisite_course_ids_by_target.setdefault(target_id, set()).add(course_id)
 
 
 def _term_precedes(term: Term, before_term: Term, same_term_allowed: bool) -> bool:
