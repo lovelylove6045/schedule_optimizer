@@ -94,7 +94,7 @@ def load_json(name: str) -> list[dict]:
 
 
 def load_all_catalog_json() -> dict[str, list[dict]]:
-    """Read every catalog JSON file this loader needs, keyed by table name."""
+    """Read every canonical catalog JSON file into its table-ready row list."""
     return {name: load_json(name) for name in CATALOG_FILES}
 
 

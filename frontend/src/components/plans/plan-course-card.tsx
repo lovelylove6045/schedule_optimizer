@@ -3,12 +3,15 @@ import {
   BookMarked,
   Compass,
   GraduationCap,
+  GitBranch,
   Layers3,
   LockKeyhole,
+  Shuffle,
   Target,
   UsersRound,
   type LucideIcon,
 } from "lucide-react"
+import { Link } from "react-router-dom"
 import { MoveCourseButton } from "@/components/plans/move-course-button"
 import { SwapCourseButton } from "@/components/plans/swap-course-button"
 import { Badge } from "@/components/ui/badge"
@@ -24,6 +27,8 @@ interface PlanCourseCardProps {
   viewMode: PlanViewMode
   moveNeedsAttention?: boolean
   swapAlternatives: CourseOut[]
+  swapOptionsLoading?: boolean
+  courseDetailsDisabled?: boolean
   onSwapped: (updatedPlan: DegreePlanOut) => void
 }
 
@@ -55,17 +60,26 @@ export function PlanCourseCard(props: PlanCourseCardProps) {
 
 /** Render swap, move, and lock affordances without adding explanatory card text. */
 function CourseActions(props: PlanCourseCardProps) {
-  const { degreePlanId, planCourse, planCourses, moveNeedsAttention, swapAlternatives, onSwapped } = props
+  const { degreePlanId, planCourse, planCourses, moveNeedsAttention, swapAlternatives, swapOptionsLoading, courseDetailsDisabled, onSwapped } = props
   return (
-    <>
-      <SwapCourseButton degreePlanId={degreePlanId} planCourse={planCourse} alternatives={swapAlternatives} onSwapped={onSwapped} />
+    <span className="flex items-center gap-0.5" data-pdf-hide>
+      {courseDetailsDisabled ? (
+        <span title="Course rules unlock when comparison plans finish" aria-label="Course rules unavailable while comparison plans are generating" aria-disabled="true" className="inline-flex size-6 shrink-0 cursor-not-allowed items-center justify-center rounded-md text-muted-foreground/40">
+          <GitBranch className="size-3.5" aria-hidden="true" />
+        </span>
+      ) : (
+        <Link to="/courses" state={{ course: planCourse.course }} title="View prerequisites" aria-label={`View prerequisites for ${planCourse.course.subject_code} ${planCourse.course.course_number}`} className="inline-flex size-6 shrink-0 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-accent hover:text-foreground">
+          <GitBranch className="size-3.5" aria-hidden="true" />
+        </Link>
+      )}
+      <SwapCourseButton degreePlanId={degreePlanId} planCourse={planCourse} alternatives={swapAlternatives} loading={swapOptionsLoading} onSwapped={onSwapped} />
       <MoveCourseButton degreePlanId={degreePlanId} planCourse={planCourse} planCourses={planCourses} needsAttention={moveNeedsAttention} onMoved={onSwapped} />
       {!planCourse.is_removable ? (
         <span title="Required course — cannot be removed" aria-label="Required course — cannot be removed" className="inline-flex size-6 shrink-0 items-center justify-center rounded-md text-muted-foreground">
           <LockKeyhole className="size-3.5" aria-hidden="true" />
         </span>
       ) : null}
-    </>
+    </span>
   )
 }
 
@@ -76,6 +90,7 @@ function ProgramMarkers({ planCourse, detailed }: { planCourse: PlanCourseOut; d
   return (
     <>
       {planCourse.academic_role === "SHARED" ? <IconMarker icon={UsersRound} label="Shared" className="border-emerald-200 bg-emerald-50 text-emerald-800" detailed={detailed} /> : null}
+      {planCourse.academic_role === "PROGRAM_ELECTIVE" ? <IconMarker icon={Shuffle} label="Elective choice" className="border-amber-200 bg-amber-50 text-amber-800" detailed={detailed} /> : null}
       {programs.map((program) => <ProgramMarker key={`${program.program_code}-${program.program_role}`} program={program} detailed={detailed} />)}
     </>
   )
@@ -102,19 +117,21 @@ function IconMarker({ icon: Icon, label, title = label, className, detailed }: {
 /** Show a semantic marker for courses not owned by a particular program. */
 function FallbackRoleMarker({ role, detailed }: { role: string; detailed: boolean }) {
   if (role === "EXPLORATORY") return <IconMarker icon={Compass} label="Exploratory" className="border-slate-300 bg-slate-100 text-slate-700" detailed={detailed} />
-  return <IconMarker icon={Target} label="Degree credit" className="border-amber-200 bg-amber-50 text-amber-800" detailed={detailed} />
+  return <IconMarker icon={Target} label="Open degree credits" className="border-cyan-200 bg-cyan-50 text-cyan-800" detailed={detailed} />
 }
 
 /** Return the card edge color for actual program ownership or fallback role. */
 function courseBorder(planCourse: PlanCourseOut): string {
   if (planCourse.academic_role === "SHARED") return "border-l-emerald-500"
+  if (planCourse.academic_role === "PROGRAM_ELECTIVE") return "border-l-amber-500"
+  if (planCourse.academic_role === "CREDIT_FLOOR") return "border-l-cyan-500"
   const role = planCourse.programs?.[0]?.program_role
   if (role === "PRIMARY_MAJOR") return "border-l-blue-500"
   if (role === "SECOND_MAJOR") return "border-l-violet-500"
   if (role === "MINOR") return "border-l-rose-500"
   if (role === "EMPHASIS") return "border-l-cyan-500"
   if (planCourse.academic_role === "EXPLORATORY") return "border-l-slate-400"
-  return "border-l-amber-500"
+  return "border-l-cyan-500"
 }
 
 /** Return icon and color styling for one scenario program role. */
@@ -132,5 +149,5 @@ function programRoleLabel(role: string): string {
 
 /** Return the broad academic-purpose label retained in the detail view. */
 function roleLabel(role: string): string {
-  return ({ SHARED: "Shared requirement", ADDITIONAL_PROGRAM: "Additional program", PRIMARY_REQUIRED: "Primary requirement", EXPLORATORY: "Exploratory", CREDIT_FLOOR: "Degree-credit elective" } as Record<string, string>)[role] ?? "Degree course"
+  return ({ SHARED: "Shared requirement", ADDITIONAL_PROGRAM: "Additional program", PRIMARY_REQUIRED: "Primary requirement", PROGRAM_ELECTIVE: "Program elective choice", EXPLORATORY: "Exploratory", CREDIT_FLOOR: "Open degree credits" } as Record<string, string>)[role] ?? "Degree course"
 }

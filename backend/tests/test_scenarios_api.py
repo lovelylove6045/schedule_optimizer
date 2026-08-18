@@ -72,6 +72,24 @@ def test_generate_404_for_unknown_scenario(client):
     assert response.status_code == 404
 
 
+def test_generate_alternatives_requires_at_least_one_selected_strategy(client):
+    """Reject an on-demand alternative request that selects no strategy."""
+    response = client.post(
+        "/scenarios/999999/generate/alternatives",
+        json={"objective_types": []},
+    )
+    assert response.status_code == 422
+
+
+def test_generate_alternatives_404_for_unknown_scenario(client):
+    """Validate the selected-strategy payload before reporting a missing scenario."""
+    response = client.post(
+        "/scenarios/999999/generate/alternatives",
+        json={"objective_types": ["BALANCED_WORKLOAD"]},
+    )
+    assert response.status_code == 404
+
+
 def test_list_scenario_plans_reflects_generated_plans(client):
     start_term_id = _term_ids(client)[0]
     create_response = client.post(

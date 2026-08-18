@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react"
 import { Link, useLocation, useParams } from "react-router-dom"
-import { CalendarDays, CalendarSearch, GitCompareArrows, ListChecks, LoaderCircle, PencilLine, RefreshCcw, X } from "lucide-react"
+import { CalendarDays, CalendarSearch, GitCompareArrows, ListChecks, LoaderCircle, PencilLine, RefreshCcw, TriangleAlert, X } from "lucide-react"
 import { toast } from "sonner"
 import { Button } from "@/components/ui/button"
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { EmptyState } from "@/components/shared/empty-state"
@@ -13,7 +14,7 @@ import { PlanComparisonTable } from "@/components/plans/plan-comparison-table"
 import { PlanOverlapSuggestions } from "@/components/plans/plan-overlap-suggestions"
 import { RequirementCoverageTree } from "@/components/plans/requirement-coverage-tree"
 import { SelectedProgramsBar } from "@/components/plans/selected-programs-bar"
-import { useGenerateAlternativePlansMutation, useGeneratePlansMutation } from "@/hooks/use-scenario-mutations"
+import { useGenerateAlternativePlansMutation, useGenerateRecommendedPlanMutation } from "@/hooks/use-scenario-mutations"
 import { useScenarioPlansQuery } from "@/hooks/use-plan-queries"
 import { useScenarioProgramsQuery } from "@/hooks/use-scenario-queries"
 import { OBJECTIVE_LABELS } from "@/lib/objective-labels"
@@ -31,10 +32,25 @@ interface AlternativeProgress {
   planCount: number
 }
 
+const ALTERNATIVE_STRATEGIES: OptimizationObjectiveType[] = [
+  "EARLIEST_GRADUATION",
+  "MIN_ADDITIONAL_CREDITS",
+  "BALANCED_WORKLOAD",
+  "MAX_REQUIREMENT_OVERLAP",
+  "MIN_SUMMER_ENROLLMENT",
+]
+
 /** Return plans with the recommended strategy first while retaining alternative order. */
 function orderPlansForDisplay(plans: DegreePlanOut[]): DegreePlanOut[] {
-  const recommended = plans.filter((plan) => plan.plan_name === "RECOMMENDED")
-  const alternatives = plans.filter((plan) => plan.plan_name !== "RECOMMENDED")
+  const newestByStrategy = new Map<string, DegreePlanOut>()
+  for (const plan of plans) {
+    const strategy = plan.plan_name ?? `plan-${plan.degree_plan_id}`
+    const current = newestByStrategy.get(strategy)
+    if (!current || plan.degree_plan_id > current.degree_plan_id) newestByStrategy.set(strategy, plan)
+  }
+  const distinctPlans = [...newestByStrategy.values()]
+  const recommended = distinctPlans.filter((plan) => plan.plan_name === "RECOMMENDED")
+  const alternatives = distinctPlans.filter((plan) => plan.plan_name !== "RECOMMENDED")
   return [...recommended, ...alternatives]
 }
 
@@ -58,6 +74,36 @@ function useElapsedSeconds(startedAt: number, active: boolean): number {
   return elapsedSeconds
 }
 
+/** Run user-requested alternative strategies and retain their progress and results. */
+function useManualAlternativeGeneration(scenarioId: number, existingPlans: DegreePlanOut[]) {
+  const mutation = useGenerateAlternativePlansMutation()
+  const [progress, setProgress] = useState<AlternativeProgress | null>(null)
+  const [generatedPlans, setGeneratedPlans] = useState<DegreePlanOut[]>([])
+  useEffect(() => {
+    if (progress?.status !== "complete") return undefined
+    const timeoutId = window.setTimeout(() => setProgress(null), 6000)
+    return () => window.clearTimeout(timeoutId)
+  }, [progress?.status])
+  /** Generate the selected strategies and publish completion feedback. */
+  async function generate(objectiveTypes: OptimizationObjectiveType[]): Promise<void> {
+    const startedAt = Date.now()
+    const startingPlans = mergePlans(existingPlans, generatedPlans) ?? []
+    setProgress({ status: "running", startedAt, planCount: startingPlans.length })
+    try {
+      const alternatives = await mutation.mutateAsync({ scenarioId, objectiveTypes })
+      const mergedGeneratedPlans = mergePlans(generatedPlans, alternatives) ?? []
+      const completedPlans = mergePlans(existingPlans, mergedGeneratedPlans) ?? []
+      setGeneratedPlans(mergedGeneratedPlans)
+      setProgress({ status: "complete", startedAt, planCount: completedPlans.length })
+      if (alternatives.length === 0) toast.info("No new distinct plan was found for the selected strategies.")
+    } catch (error) {
+      setProgress(null)
+      toast.error("Couldn't generate alternatives", { description: error instanceof Error ? error.message : undefined })
+    }
+  }
+  return { generate, generatedPlans, progress, isPending: mutation.isPending }
+}
+
 /** Route entry point for "/plans/:scenarioId": tabbed results (plan board, comparison,
  * requirement coverage). */
 export function PlansPage() {
@@ -67,43 +113,17 @@ export function PlansPage() {
   const passedPlans = (location.state as LocationState | null)?.plans
   const scenarioPlansQuery = useScenarioPlansQuery(scenarioId)
   const scenarioProgramsQuery = useScenarioProgramsQuery(scenarioId)
-  const regenerate = useGeneratePlansMutation()
-  const generateAlternatives = useGenerateAlternativePlansMutation()
+  const regenerate = useGenerateRecommendedPlanMutation()
   const [regeneratedPlans, setRegeneratedPlans] = useState<DegreePlanOut[] | null>(null)
   const [swappedPlansById, setSwappedPlansById] = useState<Record<number, DegreePlanOut>>({})
-  const basePlans = regeneratedPlans ?? scenarioPlansQuery.data ?? passedPlans
+  const persistedPlans = regeneratedPlans ?? scenarioPlansQuery.data ?? passedPlans
+  const alternatives = useManualAlternativeGeneration(scenarioId, persistedPlans ?? [])
+  const basePlans = mergePlans(persistedPlans, alternatives.generatedPlans)
   const plans = basePlans
     ? orderPlansForDisplay(basePlans).map((plan) => swappedPlansById[plan.degree_plan_id] ?? plan)
     : undefined
   const [selectedPlanId, setSelectedPlanId] = useState<number | null>(null)
   const [compareBoardPlanId, setCompareBoardPlanId] = useState<number | null>(null)
-  const [alternativesAttempted, setAlternativesAttempted] = useState(false)
-  const [alternativeProgress, setAlternativeProgress] = useState<AlternativeProgress | null>(null)
-  useEffect(() => {
-    const persistedPlans = scenarioPlansQuery.data
-    if (!persistedPlans || persistedPlans.length !== 1 || alternativesAttempted || persistedPlans[0].status === "INFEASIBLE") return
-    setAlternativesAttempted(true)
-    setAlternativeProgress({ status: "running", startedAt: Date.now(), planCount: persistedPlans.length })
-    void generateAlternatives
-      .mutateAsync(scenarioId)
-      .then((alternatives) => {
-        const generatedPlans = orderPlansForDisplay([...persistedPlans, ...alternatives])
-        setRegeneratedPlans(generatedPlans)
-        setAlternativeProgress((progress) => progress ? { ...progress, status: "complete", planCount: generatedPlans.length } : null)
-        if (alternatives.length === 0) {
-          toast.info("No distinct alternatives were found within the solver time limit.")
-        }
-      })
-      .catch(() => {
-        setAlternativeProgress(null)
-        toast.info("The recommended plan is ready, but alternatives could not be generated.")
-      })
-  }, [alternativesAttempted, generateAlternatives, scenarioId, scenarioPlansQuery.data])
-  useEffect(() => {
-    if (alternativeProgress?.status !== "complete") return undefined
-    const timeoutId = window.setTimeout(() => setAlternativeProgress(null), 6000)
-    return () => window.clearTimeout(timeoutId)
-  }, [alternativeProgress?.status])
   /** Apply a plan-board swap's resulting plan to this page's displayed list,
    * whichever source (freshly generated, passed via navigation, or refetched)
    * that list currently came from. */
@@ -116,7 +136,8 @@ export function PlansPage() {
    * suggestions panel (accepting a suggestion also needs a regenerate) --
    * each does its own toast around this. */
   async function regenerateAndApply(): Promise<DegreePlanOut[]> {
-    const fresh = await regenerate.mutateAsync(scenarioId)
+    const recommended = await regenerate.mutateAsync({ scenarioId })
+    const fresh = [recommended]
     setRegeneratedPlans(fresh)
     setSwappedPlansById({})
     setCompareBoardPlanId(null)
@@ -165,11 +186,13 @@ export function PlansPage() {
       recommendedPlan={recommendedPlan}
       coveragePlan={coveragePlan}
       compareBoardPlan={compareBoardPlan}
-      alternativeProgress={alternativeProgress}
+      alternativeProgress={alternatives.progress}
+      alternativeGenerationPending={alternatives.isPending}
       optimizationProgramCount={scenarioProgramsQuery.data?.length ?? 1}
       regeneratePending={regenerate.isPending}
       onRegenerate={handleRegenerate}
       onRegenerateAndApply={regenerateAndApply}
+      onGenerateAlternatives={alternatives.generate}
       onPlanUpdated={handlePlanUpdated}
       onSelectCoveragePlan={setSelectedPlanId}
       onSelectComparePlan={setCompareBoardPlanId}
@@ -184,10 +207,12 @@ interface PlansContentProps {
   coveragePlan: DegreePlanOut
   compareBoardPlan: DegreePlanOut | null
   alternativeProgress: AlternativeProgress | null
+  alternativeGenerationPending: boolean
   optimizationProgramCount: number
   regeneratePending: boolean
   onRegenerate: () => void
   onRegenerateAndApply: () => Promise<DegreePlanOut[]>
+  onGenerateAlternatives: (objectiveTypes: OptimizationObjectiveType[]) => Promise<void>
   onPlanUpdated: (plan: DegreePlanOut) => void
   onSelectCoveragePlan: (planId: number) => void
   onSelectComparePlan: (planId: number | null) => void
@@ -196,6 +221,7 @@ interface PlansContentProps {
 /** Render the stable results chrome around the plan tabs. */
 function PlansContent(props: PlansContentProps) {
   const [activeTab, setActiveTab] = useState("recommended")
+  const [alternativeDialogOpen, setAlternativeDialogOpen] = useState(false)
   /** Open the comparison tab and bring its content into view. */
   function showAlternatives() {
     setActiveTab("compare")
@@ -207,7 +233,10 @@ function PlansContent(props: PlansContentProps) {
       <ResultsHeader
         planCount={props.plans.length}
         regeneratePending={props.regeneratePending}
+        actionsDisabled={props.regeneratePending || props.alternativeGenerationPending}
         onRegenerate={props.onRegenerate}
+        onGenerateAlternatives={() => setAlternativeDialogOpen(true)}
+        alternativesPending={props.alternativeGenerationPending}
       />
       {props.alternativeProgress ? <AlternativeGenerationBanner progress={props.alternativeProgress} programCount={props.optimizationProgramCount} onCompare={showAlternatives} /> : null}
       <CatalogSnapshotNotice />
@@ -217,16 +246,20 @@ function PlansContent(props: PlansContentProps) {
       </p>
       <SelectedProgramsBar scenarioId={props.scenarioId} />
       <PlanOverlapSuggestions scenarioId={props.scenarioId} onRegenerate={props.onRegenerateAndApply} />
-      <PlanResultTabs {...props} activeTab={activeTab} onTabChange={setActiveTab} />
+      <PlanResultTabs {...props} activeTab={activeTab} onTabChange={setActiveTab} onOpenAlternativeDialog={() => setAlternativeDialogOpen(true)} />
+      <AlternativePlanDialog open={alternativeDialogOpen} pending={props.alternativeGenerationPending} programCount={props.optimizationProgramCount} onOpenChange={setAlternativeDialogOpen} onGenerate={props.onGenerateAlternatives} />
     </div>
   )
 }
 
 /** Show result count, background-generation status, and top-level actions. */
-function ResultsHeader({ planCount, regeneratePending, onRegenerate }: {
+function ResultsHeader({ planCount, regeneratePending, alternativesPending, actionsDisabled, onRegenerate, onGenerateAlternatives }: {
   planCount: number
   regeneratePending: boolean
+  alternativesPending: boolean
+  actionsDisabled: boolean
   onRegenerate: () => void
+  onGenerateAlternatives: () => void
 }) {
   return (
     <div className="flex flex-wrap items-end justify-between gap-3">
@@ -238,7 +271,10 @@ function ResultsHeader({ planCount, regeneratePending, onRegenerate }: {
       </div>
       <div className="flex flex-wrap gap-2">
         <Button variant="outline" size="sm" asChild><Link to="/"><PencilLine className="size-4" />Start over</Link></Button>
-        <Button variant="outline" size="sm" onClick={onRegenerate} disabled={regeneratePending}>
+        <Button variant="outline" size="sm" onClick={onGenerateAlternatives} disabled={actionsDisabled}>
+          <GitCompareArrows className="size-4" />{alternativesPending ? "Generating alternatives…" : "Generate alternatives"}
+        </Button>
+        <Button variant="outline" size="sm" onClick={onRegenerate} disabled={actionsDisabled}>
           <RefreshCcw className="size-4" />{regeneratePending ? "Generating…" : "Regenerate"}
         </Button>
       </div>
@@ -265,7 +301,7 @@ function AlternativeGenerationBanner({ progress, programCount, onCompare }: { pr
               <h2 className="text-sm font-semibold">{isRunning ? "Generating comparison plans" : "Comparison plans ready"}</h2>
               <p className="mt-0.5 text-xs leading-relaxed text-muted-foreground">
                 {isRunning
-                  ? "Your recommended plan is ready. The optimizer is searching for the next distinct strategy."
+                  ? "Your recommended plan is ready. Course-rule links unlock when the optimizer finishes the comparison strategies."
                   : "The optimizer finished exploring distinct strategies. Your comparisons are ready to review."}
               </p>
             </div>
@@ -304,9 +340,61 @@ function AlternativeGenerationBanner({ progress, programCount, onCompare }: { pr
   )
 }
 
+/** Let the student request only the comparison strategies they care about. */
+function AlternativePlanDialog({ open, pending, programCount, onOpenChange, onGenerate }: {
+  open: boolean
+  pending: boolean
+  programCount: number
+  onOpenChange: (open: boolean) => void
+  onGenerate: (objectiveTypes: OptimizationObjectiveType[]) => Promise<void>
+}) {
+  const available = ALTERNATIVE_STRATEGIES.filter((objective) => objective !== "MAX_REQUIREMENT_OVERLAP" || programCount > 1)
+  const [selected, setSelected] = useState<OptimizationObjectiveType[]>(["BALANCED_WORKLOAD"])
+  /** Toggle one optimization strategy in the requested alternative set. */
+  function toggle(objective: OptimizationObjectiveType) {
+    setSelected((current) => current.includes(objective) ? current.filter((item) => item !== objective) : [...current, objective])
+  }
+  /** Close the picker and start generating the selected strategies. */
+  function submit() {
+    if (selected.length === 0 || pending) return
+    onOpenChange(false)
+    void onGenerate(selected)
+  }
+  return (
+    <Dialog open={open} onOpenChange={onOpenChange}>
+      <DialogContent className="sm:max-w-xl">
+        <DialogHeader>
+          <DialogTitle>Generate alternative plans</DialogTitle>
+          <DialogDescription>Select only the strategies you want to compare. Each selected strategy runs independently and may take additional time.</DialogDescription>
+        </DialogHeader>
+        <div className="space-y-2">
+          {available.map((objective) => {
+            const label = OBJECTIVE_LABELS[objective]
+            return (
+              <label key={objective} className="flex cursor-pointer items-start gap-3 rounded-xl border bg-background/55 p-3 hover:bg-accent/25">
+                <input type="checkbox" checked={selected.includes(objective)} onChange={() => toggle(objective)} className="mt-1 size-4 accent-primary" />
+                <span><span className="block text-sm font-semibold">{label.title}</span><span className="block text-xs leading-relaxed text-muted-foreground">{label.description}</span></span>
+              </label>
+            )
+          })}
+        </div>
+        <div className="flex items-start gap-2 rounded-lg border border-amber-200 bg-amber-50 p-3 text-xs text-amber-900">
+          <TriangleAlert className="mt-0.5 size-4 shrink-0" />
+          <p>Course prerequisite links are temporarily blocked while these alternatives run. Your recommended schedule remains visible and unchanged.</p>
+        </div>
+        <DialogFooter>
+          <Button type="button" variant="outline" onClick={() => onOpenChange(false)}>Cancel</Button>
+          <Button type="button" onClick={submit} disabled={selected.length === 0 || pending}><GitCompareArrows className="size-4" />Generate selected</Button>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+  )
+}
+
 interface PlanResultTabsProps extends PlansContentProps {
   activeTab: string
   onTabChange: (value: string) => void
+  onOpenAlternativeDialog: () => void
 }
 
 /** Render recommended, comparison, and requirement-coverage tabs. */
@@ -330,17 +418,21 @@ function PlanResultTabs(props: PlanResultTabsProps) {
         </TabsList>
       </div>
       <TabsContent value="recommended" className="pt-6">
-        <PlanBoard plan={props.recommendedPlan} onPlanUpdated={props.onPlanUpdated} />
+        <PlanBoard plan={props.recommendedPlan} courseDetailsDisabled={props.alternativeGenerationPending} onPlanUpdated={props.onPlanUpdated} />
       </TabsContent>
       <TabsContent value="compare" className="space-y-4 pt-6">
-        <PlanComparisonTable planIds={props.plans.map((plan) => plan.degree_plan_id)} onViewPlan={props.onSelectComparePlan} />
+        {props.plans.length > 1 ? (
+          <PlanComparisonTable planIds={props.plans.map((plan) => plan.degree_plan_id)} onViewPlan={props.onSelectComparePlan} />
+        ) : (
+          <EmptyState icon={GitCompareArrows} title="No alternative plans yet" description="Choose the strategy you want to explore. The recommended schedule stays available while that comparison plan is generated." action={<Button type="button" onClick={props.onOpenAlternativeDialog} disabled={props.alternativeGenerationPending}><GitCompareArrows className="size-4" />Generate an alternative</Button>} />
+        )}
         {props.compareBoardPlan ? (
           <div className="space-y-3">
             <div className="flex items-center justify-between gap-3">
               <h2 className="text-sm font-semibold text-muted-foreground">{planLabel(props.compareBoardPlan)} -- full schedule</h2>
               <Button variant="ghost" size="sm" onClick={() => props.onSelectComparePlan(null)}><X className="size-4" />Close</Button>
             </div>
-            <PlanBoard plan={props.compareBoardPlan} onPlanUpdated={props.onPlanUpdated} />
+            <PlanBoard plan={props.compareBoardPlan} courseDetailsDisabled={props.alternativeGenerationPending} onPlanUpdated={props.onPlanUpdated} />
           </div>
         ) : null}
       </TabsContent>
@@ -365,4 +457,12 @@ function PlanResultTabs(props: PlanResultTabsProps) {
 function planLabel(plan: DegreePlanOut): string {
   const label = OBJECTIVE_LABELS[plan.plan_name as OptimizationObjectiveType]
   return label?.title ?? plan.plan_name ?? `Plan #${plan.degree_plan_id}`
+}
+
+/** Combine persisted and newly generated plans without duplicating rows after refetches. */
+function mergePlans(persisted: DegreePlanOut[] | undefined, alternatives: DegreePlanOut[] | undefined): DegreePlanOut[] | undefined {
+  if (!persisted) return undefined
+  const plansById = new Map(persisted.map((plan) => [plan.degree_plan_id, plan]))
+  for (const plan of alternatives ?? []) plansById.set(plan.degree_plan_id, plan)
+  return orderPlansForDisplay([...plansById.values()])
 }

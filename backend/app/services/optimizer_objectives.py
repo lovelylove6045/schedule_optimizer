@@ -8,13 +8,14 @@ from __future__ import annotations
 from ortools.sat.python import cp_model
 from sqlalchemy import func
 
-from app.models.enums import OptimizationObjectiveType
-from app.models.enums import ScenarioPreferenceType, ScenarioProgramRole
 from app.models.academic_program import AcademicProgram
 from app.models.course_rule_node import CourseRuleNode
+from app.models.enums import OptimizationObjectiveType
+from app.models.enums import ScenarioPreferenceType, ScenarioProgramRole
 from app.models.scenario_preference import ScenarioPreference
 from app.models.scenario_program import ScenarioProgram
 from app.models.subject import Subject
+from app.schemas.requirement import RequirementNodeOut
 from app.services.optimizer_model import (
     OptimizerModel,
     course_satisfaction_indicator,
@@ -83,6 +84,18 @@ def total_assigned_course_count(ctx: OptimizerModel) -> cp_model.LinearExpr:
     """Return the number of distinct future courses selected by the plan."""
     indicators = [course_satisfaction_indicator(ctx, course_id) for course_id in ctx.candidates.assignable_course_ids]
     return sum(indicators) if indicators else 0
+
+
+def plan_composition_penalty(ctx: OptimizerModel) -> cp_model.LinearExpr:
+    """Encode catalog order, major open credits, then course count in strict order."""
+    catalog_penalty = catalog_choice_order_penalty(ctx)
+    open_credit_penalty = open_credit_profile_penalty(ctx)
+    course_count = total_assigned_course_count(ctx)
+    maximum_count = len(ctx.candidates.assignable_course_ids)
+    maximum_reward = _maximum_open_credit_profile_reward(ctx)
+    open_credit_weight = maximum_count + 1
+    catalog_weight = maximum_reward * open_credit_weight + maximum_count + 1
+    return catalog_weight * catalog_penalty + open_credit_weight * open_credit_penalty + course_count
 
 
 def _graduation_index(ctx: OptimizerModel) -> cp_model.IntVar:
@@ -169,11 +182,45 @@ def early_advanced_course_penalty(ctx: OptimizerModel) -> cp_model.LinearExpr:
 
 
 def academic_quality_tiebreaker(ctx: OptimizerModel) -> cp_model.LinearExpr:
-    """Prefer soft course choices, primary-department value, and bottleneck sequencing."""
+    """Prefer explicit choices, simple electives, and prerequisite sequencing."""
     preference_penalty = _soft_preference_penalty(ctx)
-    department_reward = _primary_department_reward(ctx)
+    elective_penalty = _elective_choice_penalty(ctx)
     sequencing_penalty = _bottleneck_sequencing_penalty(ctx)
-    return preference_penalty - department_reward + sequencing_penalty
+    return (
+        100_000_000 * preference_penalty
+        + 100_000 * elective_penalty
+        + sequencing_penalty
+    )
+
+
+def catalog_choice_order_penalty(ctx: OptimizerModel) -> cp_model.LinearExpr:
+    """Prefer earlier catalog-listed branches of explicit requirement choices."""
+    roots = [node for requirement_set in ctx.candidates.requirement_sets for node in requirement_set.nodes]
+    penalties = _catalog_choice_order_terms(ctx, roots)
+    return sum(penalties) if penalties else 0
+
+
+def _catalog_choice_order_terms(
+    ctx: OptimizerModel, nodes: list[RequirementNodeOut]
+) -> list[cp_model.LinearExpr]:
+    """Return ordered-choice penalties from a nested requirement subtree."""
+    penalties: list[cp_model.LinearExpr] = []
+    for node in nodes:
+        if node.node_operator in ("ANY", "N_OF"):
+            ordered = sorted(
+                node.children,
+                key=lambda child: (
+                    child.display_order is None,
+                    child.display_order or 0,
+                    child.requirement_node_id,
+                ),
+            )
+            penalties.extend(
+                rank * ctx.node_indicators[child.requirement_node_id]
+                for rank, child in enumerate(ordered)
+            )
+        penalties.extend(_catalog_choice_order_terms(ctx, node.children))
+    return penalties
 
 
 def _soft_preference_penalty(ctx: OptimizerModel) -> cp_model.LinearExpr:
@@ -193,29 +240,124 @@ def _soft_preference_penalty(ctx: OptimizerModel) -> cp_model.LinearExpr:
     return sum(terms) if terms else 0
 
 
-def _primary_department_reward(ctx: OptimizerModel) -> cp_model.LinearExpr:
-    """Reward needed elective choices from the primary major's department."""
-    department_id = (
-        ctx.db.query(AcademicProgram.department_id)
+def _elective_choice_penalty(ctx: OptimizerModel) -> cp_model.LinearExpr:
+    """Penalize prerequisite-heavy and then higher-level program elective choices."""
+    roots = [node for requirement_set in ctx.candidates.requirement_sets for node in requirement_set.nodes]
+    choice_node_ids = _elective_choice_node_ids(roots)
+    choice_course_ids = {
+        course_id
+        for (node_id, course_id) in ctx.node_course_usage_indicators
+        if node_id in choice_node_ids
+    }
+    prerequisite_counts = _prerequisite_rule_counts(ctx, choice_course_ids)
+    penalties = []
+    for (node_id, course_id), usage in ctx.node_course_usage_indicators.items():
+        if node_id not in choice_node_ids:
+            continue
+        rule_count = prerequisite_counts.get(course_id, 0)
+        level = min(ctx.candidates.course_level_by_course_id.get(course_id, 0) // 100, 50)
+        penalties.append((100 * int(rule_count > 0) + 3 * min(rule_count, 20) + level) * usage)
+    return sum(penalties) if penalties else 0
+
+
+def _elective_choice_node_ids(nodes: list[RequirementNodeOut]) -> set[int]:
+    """Return course-group and choose-one leaf ids that represent elective decisions."""
+    result: set[int] = set()
+    for node in nodes:
+        if node.node_type == "COURSE_GROUP":
+            result.add(node.requirement_node_id)
+        if node.node_operator in ("ANY", "N_OF"):
+            result.update(
+                child.requirement_node_id
+                for child in node.children
+                if child.node_type in ("COURSE", "COURSE_GROUP")
+            )
+        result |= _elective_choice_node_ids(node.children)
+    return result
+
+
+def _prerequisite_rule_counts(ctx: OptimizerModel, course_ids: set[int]) -> dict[int, int]:
+    """Return structured prerequisite-rule node counts for the requested courses."""
+    if not course_ids:
+        return {}
+    return dict(
+        ctx.db.query(CourseRuleNode.target_course_id, func.count(CourseRuleNode.course_rule_node_id))
+        .filter(CourseRuleNode.target_course_id.in_(course_ids))
+        .group_by(CourseRuleNode.target_course_id)
+        .all()
+    )
+
+
+def open_credit_profile_penalty(ctx: OptimizerModel) -> cp_model.LinearExpr:
+    """Prefer open credits from selected majors, then their higher-level courses."""
+    major_subject_ids = _selected_major_subject_ids(ctx)
+    rewards = []
+    for course_id in ctx.candidates.assignable_course_ids:
+        if ctx.candidates.subject_id_by_course_id.get(course_id) not in major_subject_ids:
+            continue
+        open_credit = _open_credit_indicator(ctx, course_id)
+        level = min(ctx.candidates.course_level_by_course_id.get(course_id, 0) // 1000, 5)
+        credits = scaled_credits(ctx.candidates.credit_hours_by_course_id.get(course_id, 0))
+        rewards.append((100 + 10 * level) * credits * open_credit)
+    return -sum(rewards) if rewards else 0
+
+
+def _maximum_open_credit_profile_reward(ctx: OptimizerModel) -> int:
+    """Return a safe upper bound for the major open-credit reward."""
+    major_subject_ids = _selected_major_subject_ids(ctx)
+    total = 0
+    for course_id in ctx.candidates.assignable_course_ids:
+        if ctx.candidates.subject_id_by_course_id.get(course_id) not in major_subject_ids:
+            continue
+        level = min(ctx.candidates.course_level_by_course_id.get(course_id, 0) // 1000, 5)
+        credits = scaled_credits(ctx.candidates.credit_hours_by_course_id.get(course_id, 0))
+        total += (100 + 10 * level) * credits
+    return total
+
+
+def _selected_major_subject_ids(ctx: OptimizerModel) -> set[int]:
+    """Return subject ids owned by the selected primary and second-major departments."""
+    department_ids = {
+        department_id
+        for (department_id,) in ctx.db.query(AcademicProgram.department_id)
         .join(ScenarioProgram, ScenarioProgram.academic_program_id == AcademicProgram.academic_program_id)
         .filter(
             ScenarioProgram.planning_scenario_id == ctx.scenario.planning_scenario_id,
-            ScenarioProgram.program_role == ScenarioProgramRole.PRIMARY_MAJOR,
+            ScenarioProgram.program_role.in_(
+                (ScenarioProgramRole.PRIMARY_MAJOR, ScenarioProgramRole.SECOND_MAJOR)
+            ),
         )
-        .scalar()
-    )
-    if department_id is None:
-        return 0
-    subject_ids = {
-        subject_id
-        for (subject_id,) in ctx.db.query(Subject.subject_id).filter(Subject.department_id == department_id).all()
+        .all()
     }
-    terms = [
-        var
-        for (course_id, _term_id), var in ctx.assign.items()
-        if ctx.candidates.subject_id_by_course_id.get(course_id) in subject_ids
+    return {
+        subject_id
+        for (subject_id,) in ctx.db.query(Subject.subject_id).filter(
+            Subject.department_id.in_(department_ids)
+        ).all()
+    }
+
+
+def _open_credit_indicator(ctx: OptimizerModel, course_id: int) -> cp_model.IntVar:
+    """Return whether a selected course is unused by every named requirement node."""
+    if course_id in ctx.open_credit_indicators:
+        return ctx.open_credit_indicators[course_id]
+    selected = course_satisfaction_indicator(ctx, course_id)
+    usages = [
+        usage
+        for (_node_id, used_course_id), usage in ctx.node_course_usage_indicators.items()
+        if used_course_id == course_id
     ]
-    return sum(terms) if terms else 0
+    if not usages:
+        ctx.open_credit_indicators[course_id] = selected
+        return selected
+    allocated = ctx.model.NewBoolVar(f"course_{course_id}_allocated_to_requirement")
+    open_credit = ctx.model.NewBoolVar(f"course_{course_id}_open_credit")
+    ctx.model.AddMaxEquality(allocated, usages)
+    ctx.model.Add(open_credit <= selected)
+    ctx.model.Add(open_credit + allocated <= 1)
+    ctx.model.Add(open_credit >= selected - allocated)
+    ctx.open_credit_indicators[course_id] = open_credit
+    return open_credit
 
 
 def _bottleneck_sequencing_penalty(ctx: OptimizerModel) -> cp_model.LinearExpr:

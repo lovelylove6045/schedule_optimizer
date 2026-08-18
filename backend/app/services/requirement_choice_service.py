@@ -20,14 +20,21 @@ already enforces."""
 
 from __future__ import annotations
 
+from sqlalchemy import func
 from sqlalchemy.orm import Session
 
 from app.models.academic_program import AcademicProgram
 from app.models.course import Course
 from app.models.course_group_member import CourseGroupMember
+from app.models.course_rule_node import CourseRuleNode
+from app.models.degree_plan import DegreePlan
+from app.models.enums import ScenarioProgramRole
 from app.models.plan_course import PlanCourse
 from app.models.requirement_allocation import RequirementAllocation
 from app.models.requirement_node import RequirementNode
+from app.models.scenario_program import ScenarioProgram
+from app.models.subject import Subject
+from app.models.term import Term
 from app.schemas.choice import RequirementChoiceKind, RequirementChoiceOut
 from app.schemas.course import CourseOut
 from app.schemas.requirement import RequirementNodeOut, RequirementSetOut
@@ -40,6 +47,12 @@ from app.services.common import load_courses_by_id
 # client can fetch the full list from `GET /course-groups/{id}/courses` on demand
 # instead of every choice paying for the largest pool in the payload.
 INLINE_OPTION_LIMIT = 40
+CHOICE_SWAP_OPTION_LIMIT = 12
+CHOICE_SWAP_SCAN_LIMIT = 48
+OPEN_CREDIT_OPTION_LIMIT = 12
+OPEN_CREDIT_SCAN_LIMIT = 48
+_OPEN_CREDIT_COURSE_TYPES = ("STANDARD", "SEMINAR")
+_TERM_OFFERING_FIELDS = {"FALL": "fall_offered", "SPRING": "spring_offered", "SUMMER": "summer_offered"}
 
 
 def list_requirement_choices(
@@ -248,22 +261,195 @@ def list_swap_options_for_plan(db: Session, degree_plan_id: int) -> dict[int, li
     alternative is simply absent here, so the plan board never offers a swap
     the backend would then reject."""
     allocations = _plan_course_allocations(db, degree_plan_id)
+    result = _choice_swap_options(db, degree_plan_id, allocations)
+    allocated_plan_course_ids = {allocation.plan_course_id for allocation in allocations}
+    result.update(
+        _open_credit_swap_options(db, degree_plan_id, allocated_plan_course_ids)
+    )
+    return result
+
+
+def _choice_swap_options(
+    db: Session, degree_plan_id: int, allocations: list[RequirementAllocation]
+) -> dict[int, list[CourseOut]]:
+    """Return validated alternatives for courses allocated to named choice requirements."""
     if not allocations:
         return {}
     nodes_by_id = _load_requirement_nodes(db, {a.requirement_node_id for a in allocations})
     alternatives_by_node_id = _group_alternatives(db, nodes_by_id) | _sibling_alternatives(db, nodes_by_id)
     plan_courses_by_id = _load_plan_courses(db, {a.plan_course_id for a in allocations})
     used_course_ids = _course_ids_in_plan(db, degree_plan_id)
+    prerequisite_counts = _course_prerequisite_counts(
+        db,
+        {
+            course.course_id
+            for alternatives in alternatives_by_node_id.values()
+            for course in alternatives
+        },
+    )
     result: dict[int, list[CourseOut]] = {}
     for allocation in allocations:
         candidates = alternatives_by_node_id.get(allocation.requirement_node_id)
         plan_course = plan_courses_by_id.get(allocation.plan_course_id)
         if not candidates or plan_course is None:
             continue
-        valid_options = _valid_swap_candidates(db, plan_course, candidates, used_course_ids)
+        ranked = _rank_choice_swap_candidates(candidates, plan_course, prerequisite_counts)
+        valid_options = _first_valid_swap_candidates(
+            db,
+            plan_course,
+            ranked[:CHOICE_SWAP_SCAN_LIMIT],
+            used_course_ids,
+            CHOICE_SWAP_OPTION_LIMIT,
+        )
         if valid_options:
             result[allocation.plan_course_id] = valid_options
     return result
+
+
+def _open_credit_swap_options(
+    db: Session, degree_plan_id: int, allocated_plan_course_ids: set[int | None]
+) -> dict[int, list[CourseOut]]:
+    """Return profile-oriented replacements for unallocated solver credit-floor courses."""
+    plan_courses = db.query(PlanCourse).filter(
+        PlanCourse.degree_plan_id == degree_plan_id,
+        ~PlanCourse.plan_course_id.in_({course_id for course_id in allocated_plan_course_ids if course_id}),
+        PlanCourse.placement_source != "STUDENT_ADDED",
+    ).all()
+    if not plan_courses:
+        return {}
+    used_course_ids = _course_ids_in_plan(db, degree_plan_id)
+    major_subject_ids = _selected_major_subject_ids(db, degree_plan_id)
+    candidate_pool = db.query(Course).filter(
+        Course.is_active.is_(True),
+        Course.course_type.in_(_OPEN_CREDIT_COURSE_TYPES),
+        ~Course.course_id.in_(used_course_ids),
+    ).all()
+    prerequisite_counts = _course_prerequisite_counts(
+        db, {course.course_id for course in candidate_pool}
+    )
+    result: dict[int, list[CourseOut]] = {}
+    for plan_course in plan_courses:
+        term = db.get(Term, plan_course.term_id)
+        ranked = _rank_open_credit_candidates(
+            candidate_pool, plan_course, term, major_subject_ids, prerequisite_counts
+        )[:OPEN_CREDIT_SCAN_LIMIT]
+        courses_by_id = load_courses_by_id(db, {course.course_id for course in ranked})
+        candidates = [courses_by_id[course.course_id] for course in ranked]
+        valid = _first_valid_swap_candidates(
+            db, plan_course, candidates, used_course_ids, OPEN_CREDIT_OPTION_LIMIT
+        )
+        if valid:
+            result[plan_course.plan_course_id] = valid
+    return result
+
+
+def _selected_major_subject_ids(db: Session, degree_plan_id: int) -> set[int]:
+    """Return subjects owned by the primary and second-major departments for a plan."""
+    plan = db.get(DegreePlan, degree_plan_id)
+    if plan is None:
+        return set()
+    department_ids = {
+        department_id
+        for (department_id,) in db.query(AcademicProgram.department_id)
+        .join(ScenarioProgram, ScenarioProgram.academic_program_id == AcademicProgram.academic_program_id)
+        .filter(
+            ScenarioProgram.planning_scenario_id == plan.planning_scenario_id,
+            ScenarioProgram.program_role.in_(
+                (ScenarioProgramRole.PRIMARY_MAJOR, ScenarioProgramRole.SECOND_MAJOR)
+            ),
+        )
+        .all()
+    }
+    return {
+        subject_id
+        for (subject_id,) in db.query(Subject.subject_id).filter(
+            Subject.department_id.in_(department_ids)
+        ).all()
+    }
+
+
+def _course_prerequisite_counts(db: Session, course_ids: set[int]) -> dict[int, int]:
+    """Return structured rule counts used to rank simpler open-credit replacements."""
+    if not course_ids:
+        return {}
+    rows = db.query(
+        CourseRuleNode.target_course_id,
+        func.count(CourseRuleNode.course_rule_node_id),
+    ).filter(
+        CourseRuleNode.target_course_id.in_(course_ids)
+    ).group_by(CourseRuleNode.target_course_id).all()
+    return dict(rows)
+
+
+def _rank_open_credit_candidates(
+    courses: list[Course],
+    plan_course: PlanCourse,
+    term: Term | None,
+    major_subject_ids: set[int],
+    prerequisite_counts: dict[int, int],
+) -> list[Course]:
+    """Rank credit-preserving replacements by major ownership, level, and simplicity."""
+    offering_field = _TERM_OFFERING_FIELDS.get(term.term_type) if term is not None else None
+    eligible = [
+        course
+        for course in courses
+        if float(course.credit_hours) >= float(plan_course.credit_hours)
+        and (offering_field is None or getattr(course, offering_field))
+    ]
+    return sorted(
+        eligible,
+        key=lambda course: (
+            course.subject_id not in major_subject_ids,
+            prerequisite_counts.get(course.course_id, 0) > 0,
+            prerequisite_counts.get(course.course_id, 0),
+            -course.course_level,
+            float(course.credit_hours) - float(plan_course.credit_hours),
+            course.course_id,
+        ),
+    )
+
+
+def _rank_choice_swap_candidates(
+    courses: list[CourseOut],
+    plan_course: PlanCourse,
+    prerequisite_counts: dict[int, int],
+) -> list[CourseOut]:
+    """Rank elective replacements by no prerequisites, lower level, and credit fit."""
+    return sorted(
+        courses,
+        key=lambda course: (
+            course.course_id != plan_course.course_id,
+            prerequisite_counts.get(course.course_id, 0) > 0,
+            prerequisite_counts.get(course.course_id, 0),
+            course.course_level,
+            abs(float(course.credit_hours) - float(plan_course.credit_hours)),
+            course.subject_code,
+            course.course_number,
+        ),
+    )
+
+
+def _first_valid_swap_candidates(
+    db: Session,
+    plan_course: PlanCourse,
+    candidates: list[CourseOut],
+    used_course_ids: set[int],
+    limit: int,
+) -> list[CourseOut]:
+    """Return at most `limit` validated candidates without scanning beyond necessity."""
+    valid: list[CourseOut] = []
+    for candidate in candidates:
+        if candidate.course_id == plan_course.course_id:
+            valid.append(candidate)
+            continue
+        if candidate.course_id in used_course_ids:
+            continue
+        course = db.get(Course, candidate.course_id)
+        if course is not None and _passes_swap_validation(db, plan_course, course):
+            valid.append(candidate)
+        if len(valid) >= limit:
+            break
+    return valid
 
 
 def _load_plan_courses(db: Session, plan_course_ids: set[int]) -> dict[int, PlanCourse]:

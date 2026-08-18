@@ -40,14 +40,19 @@ def generate_and_persist_recommended_plan(
 
 
 def generate_and_persist_alternative_plans(
-    db: Session, planning_scenario_id: int
+    db: Session,
+    planning_scenario_id: int,
+    objective_types: list[OptimizationObjectiveType] | None = None,
 ) -> list[DegreePlanOut]:
-    """Generate and persist alternatives independently of the recommended plan."""
+    """Generate and persist the requested alternatives independently of the recommendation."""
     scenario = _load_scenario(db, planning_scenario_id)
     existing = optimizer_persistence.list_degree_plans_for_scenario(db, planning_scenario_id)
     excluded = {frozenset((course.course.course_id, course.term_id) for course in plan.courses) for plan in existing}
     generated = optimizer_service.generate_alternative_plans(
-        db, planning_scenario_id, excluded_signatures=excluded
+        db,
+        planning_scenario_id,
+        excluded_signatures=excluded,
+        requested_objective_types=objective_types,
     )
     plan_ids = [
         optimizer_persistence.persist_plan(db, planning_scenario_id, scenario.student_id, plan).degree_plan_id

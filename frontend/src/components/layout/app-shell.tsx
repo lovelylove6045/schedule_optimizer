@@ -1,6 +1,7 @@
 import type { ReactNode } from "react"
-import { BookOpen, GraduationCap } from "lucide-react"
+import { BookOpen, GitBranch, GraduationCap } from "lucide-react"
 import { Link, useLocation } from "react-router-dom"
+import { useIsMutating } from "@tanstack/react-query"
 import { Badge } from "@/components/ui/badge"
 import { cn } from "@/lib/utils"
 
@@ -12,8 +13,10 @@ interface AppShellProps {
  * surfaces blur against, a glass header, and a centered content column. */
 export function AppShell({ children }: AppShellProps) {
   const { pathname } = useLocation()
+  const alternativesGenerating = useIsMutating({ mutationKey: ["generate-alternatives"] }) > 0
   const isResultsRoute = pathname.startsWith("/plans/")
   const isCatalogRoute = pathname.startsWith("/catalog")
+  const isCoursesRoute = pathname.startsWith("/courses")
   return (
     <div className="relative min-h-svh">
       <div className="app-aurora" aria-hidden="true" />
@@ -38,6 +41,23 @@ export function AppShell({ children }: AppShellProps) {
             <BookOpen className="size-4" aria-hidden="true" />
             <span className="hidden sm:inline">Catalog</span>
           </Link>
+          {alternativesGenerating ? (
+            <span title="Course prerequisites unlock when alternative generation finishes" aria-disabled="true" className="flex cursor-not-allowed items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-medium text-muted-foreground/45">
+              <GitBranch className="size-4" aria-hidden="true" />
+              <span className="hidden sm:inline">Courses</span>
+            </span>
+          ) : (
+            <Link
+              to="/courses"
+              className={cn(
+                "flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-medium transition-colors hover:bg-accent/40",
+                isCoursesRoute ? "bg-accent/60 text-foreground" : "text-muted-foreground",
+              )}
+            >
+              <GitBranch className="size-4" aria-hidden="true" />
+              <span className="hidden sm:inline">Courses</span>
+            </Link>
+          )}
           {isResultsRoute ? (
             <Badge variant="outline" className="hidden sm:inline-flex">
               Results

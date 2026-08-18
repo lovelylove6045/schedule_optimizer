@@ -7,6 +7,7 @@ import logging
 import threading
 import time
 from dataclasses import dataclass
+from typing import Callable
 
 from ortools.sat.python import cp_model
 from sqlalchemy.orm import Session
@@ -149,8 +150,9 @@ def generate_alternative_plans(
     planning_scenario_id: int,
     max_total_solve_seconds: float = DEFAULT_MAX_TOTAL_SOLVE_SECONDS,
     excluded_signatures: set[frozenset] | None = None,
+    requested_objective_types: list[OptimizationObjectiveType] | None = None,
 ) -> list[GeneratedPlan]:
-    """Generate independent strategy alternatives while honoring one hard shared deadline."""
+    """Generate requested independent strategies while honoring one shared deadline."""
     if max_total_solve_seconds <= 0:
         return []
     scenario = _load_scenario(db, planning_scenario_id)
@@ -160,7 +162,9 @@ def generate_alternative_plans(
     plans: list[GeneratedPlan] = []
     seen = set(excluded_signatures or set())
     semantic_seen = _persisted_semantic_signatures(db, planning_scenario_id)
-    objective_types = optimizer_objectives.applicable_objective_types(ctx)
+    applicable = optimizer_objectives.applicable_objective_types(ctx)
+    requested = set(applicable if requested_objective_types is None else requested_objective_types)
+    objective_types = tuple(objective for objective in applicable if objective in requested)
     for index, objective_type in enumerate(objective_types):
         if _remaining_seconds(deadline) <= 0:
             break
@@ -245,20 +249,26 @@ def _solve_lexicographic(
             return status, None, stage_results
         achieved_value = round(solver.Value(expression))
         ctx.model.Add(expression == achieved_value)
+        _replace_assignment_hints(ctx, solver)
         last_status = status if last_status == cp_model.OPTIMAL else last_status
         if last_solver is None or status == cp_model.FEASIBLE:
             last_status = status
         last_solver = solver
         if objective_type == OptimizationObjectiveType.MIN_ADDITIONAL_CREDITS:
-            count_result = _lock_minimum_course_count(ctx, deadline)
-            if count_result is not None:
-                count_status, count_solver, count_label = count_result
-                stage_results.append(count_label)
-                if count_status not in _FEASIBLE_STATUSES or count_solver is None:
+            composition_result = _lock_composition_stage(
+                ctx,
+                deadline,
+                "PLAN_COMPOSITION",
+                optimizer_objectives.plan_composition_penalty,
+            )
+            if composition_result is not None:
+                composition_status, composition_solver, composition_label = composition_result
+                stage_results.append(composition_label)
+                if composition_status not in _FEASIBLE_STATUSES or composition_solver is None:
                     return last_status, last_solver, stage_results
-                if count_status == cp_model.FEASIBLE:
-                    last_status = count_status
-                last_solver = count_solver
+                if composition_status == cp_model.FEASIBLE:
+                    last_status = composition_status
+                last_solver = composition_solver
     tie_breakers = (
         ("AVOID_EARLY_5000_LEVEL", optimizer_objectives.early_advanced_course_penalty),
         ("ACADEMIC_QUALITY", optimizer_objectives.academic_quality_tiebreaker),
@@ -275,6 +285,7 @@ def _solve_lexicographic(
         if status not in _FEASIBLE_STATUSES:
             break
         ctx.model.Add(expression == round(solver.Value(expression)))
+        _replace_assignment_hints(ctx, solver)
         if status == cp_model.FEASIBLE:
             last_status = status
         last_solver = solver
@@ -283,28 +294,40 @@ def _solve_lexicographic(
     return last_status, last_solver, stage_results
 
 
-def _lock_minimum_course_count(
-    ctx: OptimizerModel, deadline: float
+def _replace_assignment_hints(ctx: OptimizerModel, solver: cp_model.CpSolver) -> None:
+    """Warm-start the next optimization stage from the latest feasible schedule."""
+    ctx.model.ClearHints()
+    for variable in ctx.assign.values():
+        ctx.model.AddHint(variable, solver.Value(variable))
+
+
+def _lock_composition_stage(
+    ctx: OptimizerModel,
+    deadline: float,
+    stage_name: str,
+    expression_factory: Callable[[OptimizerModel], cp_model.LinearExpr],
 ) -> tuple[int, cp_model.CpSolver | None, str] | None:
-    """Minimize and lock course count after the minimum-credit value is fixed."""
+    """Optimize and lock one plan-composition expression within the shared deadline."""
     remaining = _remaining_seconds(deadline)
     if remaining <= 0:
         return None
-    expression = optimizer_objectives.total_assigned_course_count(ctx)
+    expression = expression_factory(ctx)
     ctx.model.Minimize(expression)
     solver = _new_solver(remaining)
     status = _solve_with_cancellation(solver, ctx.model, ctx.scenario.planning_scenario_id)
     logger.info(
-        "optimizer_stage scenario_id=%s stage=MIN_COURSE_COUNT status=%s wall_time=%.3f variables=%s",
+        "optimizer_stage scenario_id=%s stage=%s status=%s wall_time=%.3f variables=%s",
         ctx.scenario.planning_scenario_id,
+        stage_name,
         _status_name(status),
         solver.WallTime(),
         len(ctx.assign),
     )
-    label = f"MIN_COURSE_COUNT:{_status_name(status)}"
+    label = f"{stage_name}:{_status_name(status)}"
     if status not in _FEASIBLE_STATUSES:
         return status, None, label
     ctx.model.Add(expression == round(solver.Value(expression)))
+    _replace_assignment_hints(ctx, solver)
     return status, solver, label
 
 

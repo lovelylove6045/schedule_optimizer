@@ -33,6 +33,7 @@ def course_out(course: Course, subject_code: str) -> CourseOut:
         subject_code=subject_code,
         course_number=course.course_number,
         course_title=course.course_title,
+        course_description=course.course_description,
         credit_hours=float(course.credit_hours),
         course_level=course.course_level,
         fall_offered=course.fall_offered,

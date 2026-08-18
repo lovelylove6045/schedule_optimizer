@@ -119,6 +119,15 @@ uv run uvicorn app.main:app --reload
 
 Both loader scripts are **idempotent** — safe to re-run any time (e.g. after pulling an updated `schedule_optimizer_db/*.json`). The API is now served at `http://localhost:8000` (interactive docs at `http://localhost:8000/docs`, health check at `http://localhost:8000/health`).
 
+#### Catalog corrections
+
+Make reviewed source-data corrections in the canonical
+`schedule_optimizer_db/*.json` files so clean database builds receive them through
+`load_catalog.py`. When existing installations also need a correction, add a small
+Alembic data migration and have developers run `uv run alembic upgrade head` after
+pulling. Do not rely on a manual PostgreSQL `UPDATE`, because the next catalog load
+could overwrite it and other installations would never receive it.
+
 Run the backend test suite any time with `uv run pytest` (runs against the same local database, inside rolled-back transactions — see `backend/tests/conftest.py`).
 
 ### 6. Frontend: install deps, run
@@ -196,8 +205,14 @@ These checks live in `backend/app/services/plan_swap_validation.py` and `plan_va
 The recommended plan is solved first with ordered lexicographic stages. Each
 achieved higher-priority value is locked before the next selected priority is
 optimized; no weighted approximation is used. A minimum-coursework safeguard
-prevents overlap or department preferences from padding a plan. The API then
-generates semantically distinct alternatives separately.
+prevents overlap or department preferences from padding a plan. Alternative
+strategies are generated separately and only when the user requests them.
+
+Within the minimum-credit result, plan composition follows a strict catalog order:
+the first listed branch of an explicit requirement choice is preferred, remaining
+open degree credits favor higher-level courses from the selected major department,
+and course count breaks any remaining tie. The bounded composition expression
+preserves that ordering while requiring only one solver pass.
 
 The optimizer considers `STANDARD` and `SEMINAR` courses by default. Structurally
 mandatory course leaves always enter the candidate set regardless of course type, so
@@ -206,6 +221,11 @@ Internship, Special Problems, Special Topics, and future non-standard alternativ
 enter only when the student explicitly requires, prefers, or fixes one to a term.
 Filtering happens before model construction to keep recommendations consent-safe and
 reduce solve time.
+
+Structurally mandatory introductory seminars (1000-level `SEMINAR` courses) are
+placed in their first offered, non-excluded planning term. Higher-level and senior
+seminars retain normal prerequisite-driven placement, so a senior seminar is not
+incorrectly forced into the first year.
 
 The shared solver deadline is hard: no new stage or alternative solve starts after
 the budget expires. `OPTIMAL` and `FEASIBLE` are preserved and shown differently.

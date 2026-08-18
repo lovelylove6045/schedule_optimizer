@@ -15,7 +15,7 @@ from sqlalchemy.orm import Session
 
 from app.models.academic_program import AcademicProgram
 from app.models.degree_plan import DegreePlan
-from app.models.enums import ScenarioPreferenceType, ScenarioProgramRole
+from app.models.enums import RequirementNodeType, RuleOperator, ScenarioPreferenceType, ScenarioProgramRole
 from app.models.optimization_message import OptimizationMessage
 from app.models.plan_course import PlanCourse
 from app.models.planning_scenario import PlanningScenario
@@ -577,6 +577,7 @@ def _plan_course_metadata(
         allocations_by_course.setdefault(allocation.plan_course_id, []).append(allocation)
     node_ids = {allocation.requirement_node_id for allocation in allocations}
     nodes = {node.requirement_node_id: node for node in db.query(RequirementNode).filter(RequirementNode.requirement_node_id.in_(node_ids)).all()}
+    choice_node_ids = _choice_requirement_node_ids(db, nodes)
     links = db.query(ProgramRequirementSet).filter(
         ProgramRequirementSet.academic_program_id.in_(set(scenario_roles))
     ).all()
@@ -597,6 +598,7 @@ def _plan_course_metadata(
             program_ids_by_set,
             scenario_roles,
             programs_by_id,
+            choice_node_ids,
         )
         for course in plan_courses
     }
@@ -609,6 +611,7 @@ def _one_plan_course_metadata(
     program_ids_by_set: dict[int, set[int]],
     scenario_roles: dict[int, ScenarioProgramRole],
     programs_by_id: dict[int, AcademicProgram],
+    choice_node_ids: set[int],
 ) -> dict:
     """Classify and explain one plan course from its actual requirement allocations."""
     requirement_set_ids = {
@@ -628,9 +631,13 @@ def _one_plan_course_metadata(
     program_ids = exclusive_program_ids or all_program_ids
     roles = {scenario_roles[program_id] for program_id in program_ids if program_id in scenario_roles}
     shared = len(exclusive_program_ids) > 1
+    replaceable = any(allocation.requirement_node_id in choice_node_ids for allocation in allocations)
     if shared:
         academic_role = "SHARED"
         reasons = ["Satisfies requirements in multiple selected programs"]
+    elif replaceable:
+        academic_role = "PROGRAM_ELECTIVE"
+        reasons = ["Chosen from multiple courses that satisfy this requirement"]
     elif ScenarioProgramRole.PRIMARY_MAJOR in roles or allocations and not roles:
         academic_role = "PRIMARY_REQUIRED"
         reasons = ["Satisfies a selected program requirement"]
@@ -642,8 +649,7 @@ def _one_plan_course_metadata(
         reasons = ["Added by the student; not currently counted toward degree progress"]
     else:
         academic_role = "CREDIT_FLOOR"
-        reasons = ["Selected to reach the published degree credit minimum"]
-    replaceable = any(nodes[allocation.requirement_node_id].node_type == "COURSE_GROUP" for allocation in allocations)
+        reasons = ["Counts toward the published degree total but not a named requirement"]
     programs = [
         {
             "program_code": programs_by_id[program_id].program_code,
@@ -660,6 +666,37 @@ def _one_plan_course_metadata(
         "selection_reasons": reasons,
         "programs": programs,
     }
+
+
+def _choice_requirement_node_ids(
+    db: Session, nodes: dict[int, RequirementNode]
+) -> set[int]:
+    """Return allocated nodes representing a course-group or choose-one requirement."""
+    choice_ids = {
+        node_id
+        for node_id, node in nodes.items()
+        if node.node_type == RequirementNodeType.COURSE_GROUP
+    }
+    parent_ids = {
+        node.parent_requirement_node_id
+        for node in nodes.values()
+        if node.parent_requirement_node_id is not None
+    }
+    if not parent_ids:
+        return choice_ids
+    choice_parent_ids = {
+        node_id
+        for (node_id,) in db.query(RequirementNode.requirement_node_id).filter(
+            RequirementNode.requirement_node_id.in_(parent_ids),
+            RequirementNode.node_operator.in_((RuleOperator.ANY, RuleOperator.N_OF)),
+        ).all()
+    }
+    choice_ids.update(
+        node_id
+        for node_id, node in nodes.items()
+        if node.parent_requirement_node_id in choice_parent_ids
+    )
+    return choice_ids
 
 
 def _load_plan_messages(db: Session, degree_plan_id: int) -> list[OptimizationMessageOut]:

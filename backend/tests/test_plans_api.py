@@ -62,6 +62,7 @@ def _persist_one_plan(db_session) -> DegreePlan:
 
 
 def test_get_plan_returns_full_breakdown(client, db_session):
+    """Return unallocated solver courses as open credits rather than program electives."""
     plan = _persist_one_plan(db_session)
 
     response = client.get(f"/plans/{plan.degree_plan_id}")
@@ -70,12 +71,30 @@ def test_get_plan_returns_full_breakdown(client, db_session):
     body = response.json()
     assert body["degree_plan_id"] == plan.degree_plan_id
     assert len(body["courses"]) == 1
+    assert body["courses"][0]["academic_role"] == "CREDIT_FLOOR"
+    assert body["courses"][0]["selection_reasons"] == [
+        "Counts toward the published degree total but not a named requirement"
+    ]
 
 
 def test_get_plan_404_for_unknown_plan(client):
+    """Return not found for a plan id absent from the database."""
     response = client.get("/plans/999999")
 
     assert response.status_code == 404
+
+
+def test_open_degree_credit_course_has_credit_preserving_swap_options(client, db_session):
+    """Offer validated catalog replacements for an unallocated solver-selected course."""
+    plan = _persist_one_plan(db_session)
+    plan_course = db_session.query(PlanCourse).filter(
+        PlanCourse.degree_plan_id == plan.degree_plan_id
+    ).one()
+    response = client.get(f"/plans/{plan.degree_plan_id}/swap-options")
+    assert response.status_code == 200
+    options = response.json()[str(plan_course.plan_course_id)]
+    assert options
+    assert all(course["credit_hours"] >= float(plan_course.credit_hours) for course in options)
 
 
 def test_compare_plans_returns_metrics_for_each_id(client, db_session):
@@ -170,6 +189,7 @@ def _persist_plan_with_swappable_course(db_session) -> tuple[DegreePlan, PlanCou
 
 
 def test_get_plan_swap_options_returns_the_group_alternative(client, db_session):
+    """Expose a course-group allocation as a swappable program elective choice."""
     plan, plan_course, alternative_course_id = _persist_plan_with_swappable_course(db_session)
 
     response = client.get(f"/plans/{plan.degree_plan_id}/swap-options")
@@ -177,6 +197,10 @@ def test_get_plan_swap_options_returns_the_group_alternative(client, db_session)
     assert response.status_code == 200
     options = response.json()[str(plan_course.plan_course_id)]
     assert alternative_course_id in {course["course_id"] for course in options}
+    plan_response = client.get(f"/plans/{plan.degree_plan_id}")
+    planned_course = plan_response.json()["courses"][0]
+    assert planned_course["academic_role"] == "PROGRAM_ELECTIVE"
+    assert planned_course["is_replaceable"] is True
 
 
 def test_get_plan_swap_options_404_for_unknown_plan(client):

@@ -52,6 +52,16 @@ def test_search_courses(client):
     assert any(c["course_id"] == AERO_ENG_4780_COURSE_ID for c in body)
 
 
+def test_search_courses_returns_descriptions_and_respects_school_filters(client):
+    """Return audit detail while narrowing course matches to the requested school."""
+    matching = client.get("/courses", params={"search": "AERO ENG 4780", "college_id": 1, "department_id": 17})
+    excluded = client.get("/courses", params={"search": "AERO ENG 4780", "college_id": 999999})
+    assert matching.status_code == 200
+    assert matching.json()[0]["course_description"]
+    assert excluded.status_code == 200
+    assert excluded.json() == []
+
+
 def test_search_courses_requires_nonempty_query(client):
     response = client.get("/courses", params={"search": ""})
 

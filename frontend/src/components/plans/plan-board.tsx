@@ -1,23 +1,27 @@
-import { useState } from "react"
+import { useRef, useState } from "react"
 import {
   BadgePlus,
   BookMarked,
   CalendarRange,
   CalendarX,
   Compass,
+  Download,
   GraduationCap,
   Layers3,
   LayoutGrid,
   Leaf,
   ListTree,
+  LoaderCircle,
   Palette,
   Sprout,
+  Shuffle,
   Sun,
   Target,
   TriangleAlert,
   UsersRound,
   type LucideIcon,
 } from "lucide-react"
+import { toast } from "sonner"
 import { AddCourseButton } from "@/components/plans/add-course-button"
 import { PlanCourseCard, type PlanViewMode } from "@/components/plans/plan-course-card"
 import { PlanSummaryCard } from "@/components/plans/plan-summary-card"
@@ -28,10 +32,12 @@ import { Button } from "@/components/ui/button"
 import { usePlanSwapOptionsQuery } from "@/hooks/use-plan-queries"
 import { useTermsQuery } from "@/hooks/use-terms"
 import type { CourseOut, DegreePlanOut, OptimizationMessageOut, PlanCourseOut, PlanCourseProgramOut, TermOut } from "@/lib/types"
+import { downloadPlanPdf } from "@/lib/export-plan-pdf"
 import { cn } from "@/lib/utils"
 
 interface PlanBoardProps {
   plan: DegreePlanOut
+  courseDetailsDisabled?: boolean
   onPlanUpdated: (updatedPlan: DegreePlanOut) => void
 }
 
@@ -48,8 +54,10 @@ interface AcademicYearGroup {
 }
 
 /** Render a vertically stacked academic-year schedule with simple and detail views. */
-export function PlanBoard({ plan, onPlanUpdated }: PlanBoardProps) {
+export function PlanBoard({ plan, courseDetailsDisabled = false, onPlanUpdated }: PlanBoardProps) {
   const [viewMode, setViewMode] = useState<PlanViewMode>("simple")
+  const [pdfExporting, setPdfExporting] = useState(false)
+  const boardRef = useRef<HTMLDivElement>(null)
   const termsQuery = useTermsQuery()
   const swapOptionsQuery = usePlanSwapOptionsQuery(plan.degree_plan_id)
   if (termsQuery.isPending) return <LoadingState label="Loading terms…" />
@@ -60,10 +68,23 @@ export function PlanBoard({ plan, onPlanUpdated }: PlanBoardProps) {
   const swapOptionsByPlanCourseId: Record<number, CourseOut[]> = swapOptionsQuery.data ?? {}
   const existingCourseIds = new Set(plan.courses.map((planCourse) => planCourse.course.course_id))
   const termLoadWarnings = plan.messages.filter((message) => message.message_code?.startsWith("TERM_CREDIT_"))
+  /** Capture the visible plan board and download it as a paginated PDF. */
+  async function handleDownloadPdf(): Promise<void> {
+    if (!boardRef.current || pdfExporting) return
+    setPdfExporting(true)
+    try {
+      await downloadPlanPdf(boardRef.current, `${plan.plan_name ?? "recommended"}-degree-plan.pdf`)
+      toast.success("Schedule PDF downloaded")
+    } catch (error) {
+      toast.error("Couldn't create the schedule PDF", { description: error instanceof Error ? error.message : undefined })
+    } finally {
+      setPdfExporting(false)
+    }
+  }
   return (
-    <div className="space-y-5">
-      <PlanSummaryCard plan={plan} />
-      <BoardToolbar plan={plan} viewMode={viewMode} onViewModeChange={setViewMode} />
+    <div ref={boardRef} className="space-y-5">
+      <div data-pdf-section><PlanSummaryCard plan={plan} /></div>
+      <BoardToolbar plan={plan} viewMode={viewMode} pdfExporting={pdfExporting} onViewModeChange={setViewMode} onDownloadPdf={handleDownloadPdf} />
       <div className="space-y-5">
         {academicYears.map((academicYear) => (
           <AcademicYearSection
@@ -73,8 +94,10 @@ export function PlanBoard({ plan, onPlanUpdated }: PlanBoardProps) {
             planCourses={plan.courses}
             viewMode={viewMode}
             swapOptionsByPlanCourseId={swapOptionsByPlanCourseId}
+            swapOptionsLoading={swapOptionsQuery.isPending || swapOptionsQuery.isFetching}
             existingCourseIds={existingCourseIds}
             termLoadWarnings={termLoadWarnings}
+            courseDetailsDisabled={courseDetailsDisabled}
             onPlanUpdated={onPlanUpdated}
           />
         ))}
@@ -94,15 +117,21 @@ function EmptyPlan({ plan }: { plan: DegreePlanOut }) {
 }
 
 /** Combine the view switch and an ownership legend into one compact control surface. */
-function BoardToolbar({ plan, viewMode, onViewModeChange }: { plan: DegreePlanOut; viewMode: PlanViewMode; onViewModeChange: (mode: PlanViewMode) => void }) {
+function BoardToolbar({ plan, viewMode, pdfExporting, onViewModeChange, onDownloadPdf }: { plan: DegreePlanOut; viewMode: PlanViewMode; pdfExporting: boolean; onViewModeChange: (mode: PlanViewMode) => void; onDownloadPdf: () => void }) {
   return (
-    <section className="rounded-xl border border-primary/15 bg-gradient-to-r from-primary/7 via-background to-gold/10 p-3 shadow-sm">
+    <section className="rounded-xl border border-primary/15 bg-gradient-to-r from-primary/7 via-background to-gold/10 p-3 shadow-sm" data-pdf-section>
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-center gap-2">
           <span className="flex size-8 items-center justify-center rounded-lg bg-primary text-primary-foreground"><Palette className="size-4" aria-hidden="true" /></span>
           <div><h2 className="text-sm font-semibold">Schedule key</h2><p className="text-xs text-muted-foreground">Colors and icons show course ownership.</p></div>
         </div>
-        <ViewModeSwitch viewMode={viewMode} onChange={onViewModeChange} />
+        <div className="flex flex-wrap items-center gap-2" data-pdf-hide>
+          <Button type="button" size="sm" variant="outline" disabled={pdfExporting} onClick={onDownloadPdf}>
+            {pdfExporting ? <LoaderCircle className="size-4 animate-spin" /> : <Download className="size-4" />}
+            {pdfExporting ? "Preparing PDF…" : "Download PDF"}
+          </Button>
+          <ViewModeSwitch viewMode={viewMode} onChange={onViewModeChange} />
+        </div>
       </div>
       <CourseOwnershipLegend courses={plan.courses} detailed={viewMode === "detail"} />
     </section>
@@ -122,12 +151,14 @@ function ViewModeSwitch({ viewMode, onChange }: { viewMode: PlanViewMode; onChan
 /** Explain only the programs and fallback categories that occur in this plan. */
 function CourseOwnershipLegend({ courses, detailed }: { courses: PlanCourseOut[]; detailed: boolean }) {
   const programs = uniquePrograms(courses)
+  const roles = new Set(courses.map((course) => course.academic_role))
   return (
     <div className="mt-3 flex flex-wrap gap-1.5">
       {programs.map((program) => <LegendProgram key={`${program.program_code}-${program.program_role}`} program={program} detailed={detailed} />)}
-      <LegendChip icon={UsersRound} label="Shared" className="border-emerald-200 bg-emerald-50 text-emerald-800" />
-      <LegendChip icon={Target} label={detailed ? "Degree-credit elective" : "Elective"} className="border-amber-200 bg-amber-50 text-amber-800" />
-      <LegendChip icon={Compass} label="Exploratory" className="border-slate-300 bg-slate-100 text-slate-700" />
+      {roles.has("SHARED") ? <LegendChip icon={UsersRound} label="Shared" className="border-emerald-200 bg-emerald-50 text-emerald-800" /> : null}
+      {roles.has("PROGRAM_ELECTIVE") ? <LegendChip icon={Shuffle} label={detailed ? "Program elective choice" : "Elective choice"} className="border-amber-200 bg-amber-50 text-amber-800" /> : null}
+      {roles.has("CREDIT_FLOOR") ? <LegendChip icon={Target} label="Open degree credits" className="border-cyan-200 bg-cyan-50 text-cyan-800" /> : null}
+      {roles.has("EXPLORATORY") ? <LegendChip icon={Compass} label="Exploratory" className="border-slate-300 bg-slate-100 text-slate-700" /> : null}
     </div>
   )
 }
@@ -146,10 +177,10 @@ function LegendChip({ icon: Icon, label, title = label, className }: { icon: Luc
 }
 
 /** Render one academic year with Fall, Spring, and optional Summer side by side. */
-function AcademicYearSection(props: { academicYear: AcademicYearGroup; degreePlanId: number; planCourses: PlanCourseOut[]; viewMode: PlanViewMode; swapOptionsByPlanCourseId: Record<number, CourseOut[]>; existingCourseIds: Set<number>; termLoadWarnings: OptimizationMessageOut[]; onPlanUpdated: (plan: DegreePlanOut) => void }) {
+function AcademicYearSection(props: { academicYear: AcademicYearGroup; degreePlanId: number; planCourses: PlanCourseOut[]; viewMode: PlanViewMode; swapOptionsByPlanCourseId: Record<number, CourseOut[]>; swapOptionsLoading: boolean; existingCourseIds: Set<number>; termLoadWarnings: OptimizationMessageOut[]; courseDetailsDisabled: boolean; onPlanUpdated: (plan: DegreePlanOut) => void }) {
   const { academicYear } = props
   return (
-    <section className="glass-panel rounded-2xl p-3 sm:p-4">
+    <section className="glass-panel rounded-2xl p-3 sm:p-4" data-pdf-section>
       <header className="mb-3 flex items-center justify-between gap-3 border-b pb-3">
         <div className="flex items-center gap-2"><span className="flex size-8 items-center justify-center rounded-lg bg-primary/10 text-primary"><CalendarRange className="size-4" /></span><div><h2 className="font-semibold">Academic year {academicYearLabel(academicYear.startYear)}</h2><p className="text-xs text-muted-foreground">{academicYear.terms.length} terms</p></div></div>
         <span className="font-mono text-xs font-semibold text-muted-foreground">{academicYear.totalCredits} cr</span>
@@ -162,8 +193,8 @@ function AcademicYearSection(props: { academicYear: AcademicYearGroup; degreePla
 }
 
 /** Render one term column inside its academic-year row. */
-function TermPanel(props: { column: TermColumn; degreePlanId: number; planCourses: PlanCourseOut[]; viewMode: PlanViewMode; swapOptionsByPlanCourseId: Record<number, CourseOut[]>; existingCourseIds: Set<number>; termLoadWarnings: OptimizationMessageOut[]; onPlanUpdated: (plan: DegreePlanOut) => void }) {
-  const { column, degreePlanId, planCourses, viewMode, swapOptionsByPlanCourseId, existingCourseIds, termLoadWarnings, onPlanUpdated } = props
+function TermPanel(props: { column: TermColumn; degreePlanId: number; planCourses: PlanCourseOut[]; viewMode: PlanViewMode; swapOptionsByPlanCourseId: Record<number, CourseOut[]>; swapOptionsLoading: boolean; existingCourseIds: Set<number>; termLoadWarnings: OptimizationMessageOut[]; courseDetailsDisabled: boolean; onPlanUpdated: (plan: DegreePlanOut) => void }) {
+  const { column, degreePlanId, planCourses, viewMode, swapOptionsByPlanCourseId, swapOptionsLoading, existingCourseIds, termLoadWarnings, courseDetailsDisabled, onPlanUpdated } = props
   const warning = termLoadWarnings.find((message) => message.message_text.startsWith(column.term.term_code))
   const isOverloaded = warning?.message_code === "TERM_CREDIT_ABOVE_MAXIMUM"
   const TermIcon = termIcon(column.term.term_type)
@@ -172,9 +203,9 @@ function TermPanel(props: { column: TermColumn; degreePlanId: number; planCourse
       <div className="flex items-center justify-between gap-2 border-b pb-2"><div className="flex items-center gap-2"><TermIcon className="size-4 text-primary" /><h3 className="text-sm font-semibold">{termLabel(column.term)}</h3></div><span className={cn("font-mono text-xs text-muted-foreground", warning && "font-semibold text-amber-700")}>{column.totalCredits} cr</span></div>
       {warning ? <TermLoadNotice warning={warning} compact={viewMode === "simple"} /> : null}
       <div className="space-y-2">
-        {column.courses.map((planCourse) => <PlanCourseCard key={planCourse.plan_course_id} degreePlanId={degreePlanId} planCourse={planCourse} planCourses={planCourses} viewMode={viewMode} moveNeedsAttention={isOverloaded} swapAlternatives={swapOptionsByPlanCourseId[planCourse.plan_course_id] ?? []} onSwapped={onPlanUpdated} />)}
+        {column.courses.map((planCourse) => <PlanCourseCard key={planCourse.plan_course_id} degreePlanId={degreePlanId} planCourse={planCourse} planCourses={planCourses} viewMode={viewMode} moveNeedsAttention={isOverloaded} swapAlternatives={swapOptionsByPlanCourseId[planCourse.plan_course_id] ?? []} swapOptionsLoading={swapOptionsLoading} courseDetailsDisabled={courseDetailsDisabled} onSwapped={onPlanUpdated} />)}
       </div>
-      <AddCourseButton degreePlanId={degreePlanId} termId={column.term.term_id} termLabel={column.term.term_code} existingCourseIds={existingCourseIds} needsAttention={warning?.message_code === "TERM_CREDIT_BELOW_MINIMUM"} onAdded={onPlanUpdated} />
+      <div data-pdf-hide><AddCourseButton degreePlanId={degreePlanId} termId={column.term.term_id} termLabel={column.term.term_code} existingCourseIds={existingCourseIds} needsAttention={warning?.message_code === "TERM_CREDIT_BELOW_MINIMUM"} onAdded={onPlanUpdated} /></div>
     </div>
   )
 }

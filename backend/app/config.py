@@ -24,7 +24,11 @@ class Settings(BaseSettings):
 
     cors_allow_origins: str = Field(validation_alias="CORS_ALLOW_ORIGINS")
     cors_allow_origin_regex: str | None = Field(
-        default=None, validation_alias="CORS_ALLOW_ORIGIN_REGEX"
+        default=(
+            r"^https?://(?:localhost|127\.0\.0\.1|10(?:\.\d{1,3}){3}|"
+            r"192\.168(?:\.\d{1,3}){2}|172\.(?:1[6-9]|2\d|3[01])(?:\.\d{1,3}){2}):5173$"
+        ),
+        validation_alias="CORS_ALLOW_ORIGIN_REGEX",
     )
 
     @property

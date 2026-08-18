@@ -11,6 +11,7 @@ interface SwapCourseButtonProps {
   degreePlanId: number
   planCourse: PlanCourseOut
   alternatives: CourseOut[]
+  loading?: boolean
   onSwapped: (updatedPlan: DegreePlanOut) => void
 }
 
@@ -18,11 +19,20 @@ interface SwapCourseButtonProps {
  * a flexible requirement's solver-picked course with another valid option for
  * that exact term slot -- Stellic/DegreeWorks style -- without re-running the
  * optimizer. Renders nothing for a course with no real alternative. */
-export function SwapCourseButton({ degreePlanId, planCourse, alternatives, onSwapped }: SwapCourseButtonProps) {
+export function SwapCourseButton({ degreePlanId, planCourse, alternatives, loading = false, onSwapped }: SwapCourseButtonProps) {
   const [open, setOpen] = useState(false)
   const swap = useSwapPlanCourseMutation()
   const otherOptions = alternatives.filter((course) => course.course_id !== planCourse.course.course_id)
-  if (otherOptions.length === 0) return null
+  const flexible = planCourse.is_replaceable || planCourse.academic_role === "CREDIT_FLOOR"
+  if (!flexible) return null
+  if (loading || otherOptions.length === 0) {
+    const label = loading ? "Loading valid swap options" : "No valid swap is available in this term"
+    return (
+      <Button type="button" variant="ghost" size="icon-xs" aria-label={label} title={label} disabled className="shrink-0">
+        {loading ? <Loader2 className="size-3.5 animate-spin" aria-hidden="true" /> : <Repeat className="size-3.5" aria-hidden="true" />}
+      </Button>
+    )
+  }
   return (
     <Popover open={open} onOpenChange={setOpen}>
       <PopoverTrigger asChild>

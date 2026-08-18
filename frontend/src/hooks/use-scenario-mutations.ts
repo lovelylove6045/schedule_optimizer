@@ -6,7 +6,7 @@ import {
   generatePlans,
   generateRecommendedPlan,
 } from "@/lib/api/scenarios"
-import type { ScenarioCreate, ScenarioProgramIn } from "@/lib/types"
+import type { OptimizationObjectiveType, ScenarioCreate, ScenarioProgramIn } from "@/lib/types"
 
 interface CreateScenarioArgs {
   payload: ScenarioCreate
@@ -37,7 +37,14 @@ export function useGenerateRecommendedPlanMutation() {
 
 /** Generate comparison alternatives independently from the primary result. */
 export function useGenerateAlternativePlansMutation() {
-  return useMutation({ mutationFn: generateAlternativePlans })
+  const queryClient = useQueryClient()
+  return useMutation({
+    mutationKey: ["generate-alternatives"],
+    mutationFn: ({ scenarioId, objectiveTypes }: { scenarioId: number; objectiveTypes: OptimizationObjectiveType[] }) => generateAlternativePlans(scenarioId, objectiveTypes),
+    onSuccess: (_, { scenarioId }) => {
+      void queryClient.invalidateQueries({ queryKey: ["scenarios", scenarioId, "plans"] })
+    },
+  })
 }
 
 interface AddScenarioProgramArgs {

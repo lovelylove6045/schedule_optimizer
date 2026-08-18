@@ -29,6 +29,12 @@ class ScenarioProgramOut(BaseModel):
     program_name: str
 
 
+class AlternativePlansGenerateIn(BaseModel):
+    """Select the independent optimization strategies to generate on demand."""
+
+    objective_types: list[OptimizationObjectiveType] = Field(min_length=1)
+
+
 class StudentCreditIn(BaseModel):
     """One completed/in-progress/transfer course a student reports. `course_id` is
     used for institutional courses already in the catalog; `external_course_code`/

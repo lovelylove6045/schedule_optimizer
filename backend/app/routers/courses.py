@@ -12,12 +12,12 @@ router = APIRouter(tags=["courses"])
 @router.get("/courses", response_model=list[CourseOut])
 def search_courses(
     search: str = Query(..., min_length=1, description="Matches subject code, course number, or title"),
+    college_id: int | None = Query(None, gt=0),
+    department_id: int | None = Query(None, gt=0),
     db: Session = Depends(get_db),
 ) -> list[CourseOut]:
-    """Search the catalog for courses matching `search` (e.g. "CS 101" or
-    "calculus"), for pickers like the completed-coursework screen. There's no
-    unfiltered listing endpoint since the catalog has thousands of courses."""
-    return catalog_service.search_courses(db, search)
+    """Search courses by code/title with optional college and department filters."""
+    return catalog_service.search_courses(db, search, college_id, department_id)
 
 
 @router.get("/courses/{course_id}/prerequisites", response_model=list[PrerequisiteNodeOut])

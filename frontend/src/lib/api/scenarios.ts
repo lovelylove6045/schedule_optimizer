@@ -1,5 +1,5 @@
 import { apiFetch } from "@/lib/api/client"
-import type { DegreePlanOut, ScenarioCreate, ScenarioCreateOut, ScenarioProgramIn, ScenarioProgramOut } from "@/lib/types"
+import type { DegreePlanOut, OptimizationObjectiveType, ScenarioCreate, ScenarioCreateOut, ScenarioProgramIn, ScenarioProgramOut } from "@/lib/types"
 
 /** Submit a new planning scenario, returning its id. */
 export function createScenario(payload: ScenarioCreate, signal?: AbortSignal): Promise<ScenarioCreateOut> {
@@ -22,8 +22,11 @@ export function cancelPlanGeneration(scenarioId: number): Promise<{ cancelled: b
 }
 
 /** Generate independent alternatives after the recommended plan is usable. */
-export function generateAlternativePlans(scenarioId: number): Promise<DegreePlanOut[]> {
-  return apiFetch<DegreePlanOut[]>(`/scenarios/${scenarioId}/generate/alternatives`, { method: "POST" })
+export function generateAlternativePlans(scenarioId: number, objectiveTypes: OptimizationObjectiveType[]): Promise<DegreePlanOut[]> {
+  return apiFetch<DegreePlanOut[]>(`/scenarios/${scenarioId}/generate/alternatives`, {
+    method: "POST",
+    body: { objective_types: objectiveTypes },
+  })
 }
 
 /** Fetch every already-generated plan for a scenario. */

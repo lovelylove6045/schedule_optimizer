@@ -72,6 +72,7 @@ class CandidateCourseSet:
     assignable_course_ids: set[int]
     completed_course_ids: set[int]
     courses_by_id: dict[int, CourseOut]
+    required_early_seminar_course_ids: set[int]
     excluded_nonstandard_course_ids: set[int]
     group_members: dict[int, set[int]]
     course_ids_by_program: dict[int, set[int]]
@@ -138,6 +139,9 @@ def build_candidate_course_set(
     courses_by_id, excluded_nonstandard_course_ids = _filter_optimization_courses(
         unfiltered_courses, explicit_course_ids, mandatory_course_ids
     )
+    required_early_seminar_course_ids = _required_early_seminar_course_ids(
+        courses_by_id, mandatory_course_ids
+    )
     assignable_course_ids = set(courses_by_id)
     eligible_requirement_ids = assignable_course_ids | completed_course_ids
     group_members = _filter_course_id_sets(group_members, eligible_requirement_ids)
@@ -159,6 +163,7 @@ def build_candidate_course_set(
         assignable_course_ids=assignable_course_ids,
         completed_course_ids=completed_course_ids,
         courses_by_id=courses_by_id,
+        required_early_seminar_course_ids=required_early_seminar_course_ids,
         excluded_nonstandard_course_ids=excluded_nonstandard_course_ids,
         group_members=group_members,
         course_ids_by_program=course_ids_by_program,
@@ -181,6 +186,19 @@ def build_candidate_course_set(
             db, program_ids
         ),
     )
+
+
+def _required_early_seminar_course_ids(
+    courses_by_id: dict[int, CourseOut], mandatory_course_ids: set[int]
+) -> set[int]:
+    """Return mandatory introductory seminars that belong in their first offered term."""
+    return {
+        course_id
+        for course_id in mandatory_course_ids
+        if course_id in courses_by_id
+        and courses_by_id[course_id].course_type == "SEMINAR"
+        and courses_by_id[course_id].course_level < 2000
+    }
 
 
 def _collect_explicit_course_ids(db: Session, planning_scenario_id: int) -> set[int]:

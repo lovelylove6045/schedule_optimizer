@@ -147,6 +147,12 @@
     @apply bg-background text-foreground font-sans;
     min-height: 100svh;
   }
+  .pdf-exporting [data-pdf-hide] {
+    display: none !important;
+  }
+  .pdf-exporting .glass-interactive {
+    transform: none !important;
+  }
 }
 
 @layer components {

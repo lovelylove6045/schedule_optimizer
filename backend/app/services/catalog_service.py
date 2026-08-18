@@ -106,12 +106,10 @@ def get_course(db: Session, course_id: int) -> Course | None:
     return db.get(Course, course_id)
 
 
-def search_courses(db: Session, query: str) -> list[CourseOut]:
-    """Return up to `MAX_COURSE_SEARCH_RESULTS` courses whose subject code, course
-    number, title, or "SUBJ 101"-style combined code contains `query`
-    (case-insensitive). Used by the frontend's course picker (Screen 2); there's
-    no full `GET /courses` list endpoint since the catalog is too large to browse
-    unfiltered."""
+def search_courses(
+    db: Session, query: str, college_id: int | None = None, department_id: int | None = None
+) -> list[CourseOut]:
+    """Return matching courses, optionally restricted to a college or department."""
     trimmed = query.strip()
     if not trimmed:
         return []
@@ -120,6 +118,7 @@ def search_courses(db: Session, query: str) -> list[CourseOut]:
     rows = (
         db.query(Course, Subject.subject_code)
         .join(Subject, Subject.subject_id == Course.subject_id)
+        .join(Department, Department.department_id == Subject.department_id)
         .filter(
             or_(
                 Subject.subject_code.ilike(like_pattern),
@@ -128,11 +127,13 @@ def search_courses(db: Session, query: str) -> list[CourseOut]:
                 combined_code.ilike(like_pattern),
             )
         )
-        .order_by(Subject.subject_code.asc(), Course.course_number.asc())
-        .limit(MAX_COURSE_SEARCH_RESULTS)
-        .all()
     )
-    return [course_out(course, subject_code) for course, subject_code in rows]
+    if college_id is not None:
+        rows = rows.filter(Department.college_id == college_id)
+    if department_id is not None:
+        rows = rows.filter(Department.department_id == department_id)
+    matches = rows.order_by(Subject.subject_code.asc(), Course.course_number.asc()).limit(MAX_COURSE_SEARCH_RESULTS).all()
+    return [course_out(course, subject_code) for course, subject_code in matches]
 
 
 def get_prerequisite_tree(db: Session, course_id: int) -> list[PrerequisiteNodeOut]:

@@ -63,7 +63,7 @@ function WizardContent() {
     return () => window.removeEventListener("beforeunload", warnBeforeLeaving)
   }, [isSubmitting])
 
-  /** Create the scenario, generate its plans, and navigate to the results page. */
+  /** Create the scenario, generate its recommendation, and navigate to results. */
   async function handleSubmit() {
     if (isSubmitting || optimizationPhase !== null) return
     const abortController = new AbortController()
@@ -89,7 +89,7 @@ function WizardContent() {
         })
       } else {
         toast.success("Recommended plan ready", {
-          description: "You can use it now while alternatives generate separately.",
+          description: "Review it now, or generate only the alternatives you want from Results.",
         })
       }
       navigate(`/plans/${planning_scenario_id}`, { state: { plans } })

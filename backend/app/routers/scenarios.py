@@ -4,7 +4,7 @@ from sqlalchemy.orm import Session
 from app.database import get_db
 from app.models.planning_scenario import PlanningScenario
 from app.schemas.plan import DegreePlanOut
-from app.schemas.scenario import ScenarioCreate, ScenarioCreateOut, ScenarioProgramIn, ScenarioProgramOut
+from app.schemas.scenario import AlternativePlansGenerateIn, ScenarioCreate, ScenarioCreateOut, ScenarioProgramIn, ScenarioProgramOut
 from app.services import optimizer_persistence, optimizer_service, plan_generation_service, scenario_service
 from app.services.scenario_service import ScenarioReferenceNotFoundError, ScenarioValidationError
 
@@ -55,11 +55,15 @@ def cancel_plan_generation(planning_scenario_id: int) -> dict[str, bool]:
 
 @router.post("/scenarios/{planning_scenario_id}/generate/alternatives", response_model=list[DegreePlanOut])
 def generate_alternative_plans(
-    planning_scenario_id: int, db: Session = Depends(get_db)
+    planning_scenario_id: int,
+    payload: AlternativePlansGenerateIn,
+    db: Session = Depends(get_db),
 ) -> list[DegreePlanOut]:
-    """Generate strategy alternatives without replacing the usable recommended plan."""
+    """Generate only the explicitly requested alternatives to the recommended plan."""
     try:
-        return plan_generation_service.generate_and_persist_alternative_plans(db, planning_scenario_id)
+        return plan_generation_service.generate_and_persist_alternative_plans(
+            db, planning_scenario_id, payload.objective_types
+        )
     except ValueError as exc:
         raise HTTPException(status_code=404, detail=str(exc)) from exc
 

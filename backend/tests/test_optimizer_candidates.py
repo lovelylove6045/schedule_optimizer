@@ -18,6 +18,10 @@ AERO_BS_PROGRAM_ID = 1
 AERO_MINOR_PROGRAM_ID = 2  # heavy real overlap with Aero BS -- same department's minor
 COMP_SCI_1972_COURSE_ID = 1122  # a real Aero BS programming-requirement course
 AERO_ENG_4780_COURSE_ID = 1718  # has a 3-course PREREQUISITE tree (see test_catalog_service)
+STAT_3113_COURSE_ID = 708
+MATH_1215_COURSE_ID = 746
+MATH_1214_COURSE_ID = 745
+FR_ENG_1100_COURSE_ID = 2160
 
 
 def _make_scenario(db_session, program_ids: list[int], student_id: int | None = None) -> PlanningScenario:
@@ -67,6 +71,14 @@ def test_build_candidate_course_set_uses_only_default_or_mandatory_types(db_sess
         for course_id, course in result.courses_by_id.items()
     )
     assert result.excluded_nonstandard_course_ids
+
+
+def test_required_fr_eng_seminar_is_marked_for_early_placement(db_session):
+    """Identify required FR ENG 1100 as an introductory seminar to schedule early."""
+    scenario = _make_scenario(db_session, [AERO_BS_PROGRAM_ID])
+    result = optimizer_candidates.build_candidate_course_set(db_session, scenario)
+    assert result.courses_by_id[FR_ENG_1100_COURSE_ID].course_type == "SEMINAR"
+    assert FR_ENG_1100_COURSE_ID in result.required_early_seminar_course_ids
 
 
 def test_filter_keeps_seminars_and_mandatory_nonstandard_courses():
@@ -153,6 +165,14 @@ def test_expand_prerequisite_closure_caps_growth_and_is_deterministic(db_session
     assert first_capped is True and second_capped is True
     assert len(first - seed_course_ids) == 5
     assert first == second
+
+
+def test_prerequisite_closure_recurses_beyond_degree_requirements(db_session):
+    """Include prerequisite chains even when their courses are not degree leaves."""
+    expanded, capped = optimizer_candidates._expand_prerequisite_closure(db_session, {STAT_3113_COURSE_ID}, set())
+    assert capped is False
+    assert MATH_1215_COURSE_ID in expanded
+    assert MATH_1214_COURSE_ID in expanded
 
 
 def test_course_ids_by_program_detects_real_cross_program_overlap(db_session):

@@ -50,6 +50,7 @@ _CREDITS_PER_COURSE_LEVEL_YEAR = 30.0
 # Generous upper bound for a materialized cumulative-credit-hours IntVar's domain --
 # no real plan should ever reach this, it just needs to be safely above one.
 _MAX_PLAUSIBLE_CUMULATIVE_CREDITS = 400.0
+_MISSING_CATALOG_COURSE_PREFIX = "Referenced course not present in provided dataset:"
 
 
 @dataclass
@@ -68,6 +69,7 @@ class OptimizerModel:
     node_indicators: dict[int, cp_model.IntVar] = field(default_factory=dict)
     course_assigned_indicators: dict[int, cp_model.IntVar] = field(default_factory=dict)
     course_satisfaction_indicators: dict[int, cp_model.IntVar] = field(default_factory=dict)
+    open_credit_indicators: dict[int, cp_model.IntVar] = field(default_factory=dict)
     node_course_usage_indicators: dict[tuple[int, int], cp_model.IntVar] = field(default_factory=dict)
     prerequisite_indicators: dict[tuple[int, int, bool], cp_model.IntVar] = field(default_factory=dict)
     term_credit_totals: dict[int, cp_model.LinearExpr] = field(default_factory=dict)
@@ -99,11 +101,24 @@ def build_optimizer_model(
     # re-summing every assign variable per prerequisite node.
     _add_term_credit_constraints(ctx)
     _add_prerequisite_ordering_constraints(ctx)
+    _add_required_early_seminar_constraints(ctx)
     _add_requirement_coverage_constraints(ctx)
     _add_overlap_policy_constraints(ctx)
     _add_hard_preference_constraints(ctx)
     _add_program_credit_floor_constraint(ctx)
     return ctx
+
+
+def _add_required_early_seminar_constraints(ctx: OptimizerModel) -> None:
+    """Place each mandatory introductory seminar in its earliest offered horizon term."""
+    terms_by_id = {term.term_id: term for term in ctx.terms}
+    for course_id in ctx.candidates.required_early_seminar_course_ids:
+        assignments = sorted(
+            ((terms_by_id[term_id].sequence_index, var) for (cid, term_id), var in ctx.assign.items() if cid == course_id),
+            key=lambda item: item[0],
+        )
+        if assignments:
+            ctx.model.Add(assignments[0][1] == 1)
 
 
 def _next_name(ctx: OptimizerModel, prefix: str) -> str:
@@ -586,9 +601,10 @@ def _build_prerequisite_indicator(
     going first. STANDING and SUBJECT_LEVEL leaves are checked against a credit-hours
     class-standing proxy (see `_STANDING_MINIMUM_CREDIT_HOURS`); other leaf types the
     solver has no data to verify (EXAM/CONSENT/OTHER/COURSE_GROUP/etc.) are assumed
-    satisfiable and flagged, mirroring how CREDIT_REQUIREMENT requirement-tree leaves
-    are handled -- the product spec already assumes these are pre-approved outside
-    the tool (see PDS §12)."""
+    satisfiable and flagged, except an OTHER leaf explicitly representing a missing
+    catalog course. A missing course cannot satisfy an alternative and bypass the
+    available modeled prerequisite. External conditions remain advisor-verifiable,
+    matching how CREDIT_REQUIREMENT leaves are handled (see PDS §12)."""
     if node.requisite_type == RequisiteType.RECOMMENDED:
         _record_unmodeled_prerequisite_node(ctx, node.course_rule_node_id)
         return _constant_bool(ctx, True)
@@ -606,10 +622,20 @@ def _build_prerequisite_indicator(
         return _constant_bool(
             ctx, node.required_academic_program_id in ctx.candidates.selected_program_ids
         )
+    if _is_missing_catalog_course_node(node):
+        _record_unmodeled_prerequisite_node(ctx, node.course_rule_node_id)
+        return _constant_bool(ctx, False)
     if node.children:
         return _aggregate_prerequisite_indicator(ctx, node, before_term, same_term_allowed)
     _record_unmodeled_prerequisite_node(ctx, node.course_rule_node_id)
     return _constant_bool(ctx, True)
+
+
+def _is_missing_catalog_course_node(node: PrerequisiteNodeOut) -> bool:
+    """Return whether an OTHER leaf represents a course absent from the snapshot."""
+    return node.node_type == "OTHER" and bool(
+        node.text_value and node.text_value.startswith(_MISSING_CATALOG_COURSE_PREFIX)
+    )
 
 
 def _record_unmodeled_prerequisite_node(ctx: OptimizerModel, node_id: int) -> None:

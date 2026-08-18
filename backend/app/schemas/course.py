@@ -9,6 +9,7 @@ class CourseOut(BaseModel):
     subject_code: str
     course_number: str
     course_title: str
+    course_description: str | None = None
     credit_hours: float
     course_level: int
     fall_offered: bool

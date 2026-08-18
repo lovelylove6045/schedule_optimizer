@@ -32,6 +32,11 @@ CIRCUITS_LAB_COURSE_ID = 1206
 CREDIT_HOURS_PREREQUISITE_COURSE_ID = 1945
 PROGRAM_MEMBERSHIP_COURSE_ID = 1352
 PETROLEUM_ENGINEERING_PROGRAM_ID = 138
+APPLIED_ENGINEERING_STATISTICS_COURSE_ID = 708
+CALCULUS_TWO_COURSE_ID = 746
+CALCULUS_THREE_COURSE_ID = 748
+MECHANICAL_STATICS_DYNAMICS_COURSE_ID = 1573
+FR_ENG_1100_COURSE_ID = 2160
 MAX_SOLVE_SECONDS = 20.0
 
 
@@ -105,6 +110,11 @@ def test_scenario_a_primary_program_only_is_feasible(db_session):
     assert status in (cp_model.OPTIMAL, cp_model.FEASIBLE)
     assigned = [var for var in ctx.assign.values() if solver.Value(var) == 1]
     assert len(assigned) > 0
+    seminar_assignments = sorted(
+        ((term.sequence_index, ctx.assign[(FR_ENG_1100_COURSE_ID, term.term_id)]) for term in ctx.terms if (FR_ENG_1100_COURSE_ID, term.term_id) in ctx.assign),
+        key=lambda item: item[0],
+    )
+    assert solver.Value(seminar_assignments[0][1]) == 1
     for req_set in ctx.candidates.requirement_sets:
         for node in req_set.nodes:
             assert solver.Value(ctx.node_indicators[node.requirement_node_id]) == 1
@@ -290,6 +300,42 @@ def test_credit_hour_prerequisite_accepts_prior_completed_academic_credits(db_se
     ctx.model.Add(ctx.assign[(CREDIT_HOURS_PREREQUISITE_COURSE_ID, terms[0].term_id)] == 1)
     status, _ = _solve(ctx)
     assert status in (cp_model.OPTIMAL, cp_model.FEASIBLE)
+
+
+def test_missing_catalog_course_cannot_bypass_available_statistics_prerequisite(db_session):
+    """Require MATH 1215 before STAT 3113 when its MATH 1221 alternative is absent."""
+    scenario = _make_scenario(db_session, [AERO_BS_PROGRAM_ID])
+    candidates = optimizer_candidates.build_candidate_course_set(db_session, scenario)
+    candidates = _inject_course(db_session, candidates, APPLIED_ENGINEERING_STATISTICS_COURSE_ID)
+    candidates = _inject_course(db_session, candidates, CALCULUS_TWO_COURSE_ID)
+    terms = optimizer_terms.build_term_horizon(db_session, scenario)
+    ctx = optimizer_model.build_optimizer_model(db_session, scenario, candidates, terms)
+    ctx.model.Add(ctx.assign[(APPLIED_ENGINEERING_STATISTICS_COURSE_ID, terms[0].term_id)] == 1)
+    status, _ = _solve(ctx)
+    assert status == cp_model.INFEASIBLE
+
+
+def test_missing_physics_alternative_cannot_bypass_mechanical_course_prerequisite(db_session):
+    """Require Physics 1135 before MECH ENG 2340 when Physics 1111 is absent."""
+    scenario = _make_scenario(db_session, [AERO_BS_PROGRAM_ID])
+    db_session.add(
+        StudentCredit(
+            student_id=scenario.student_id,
+            course_id=CALCULUS_THREE_COURSE_ID,
+            source_type="INSTITUTION",
+            status="COMPLETED",
+            credits_earned=4,
+            grade="C",
+        )
+    )
+    db_session.flush()
+    candidates = optimizer_candidates.build_candidate_course_set(db_session, scenario)
+    candidates = _inject_course(db_session, candidates, MECHANICAL_STATICS_DYNAMICS_COURSE_ID)
+    terms = optimizer_terms.build_term_horizon(db_session, scenario)
+    ctx = optimizer_model.build_optimizer_model(db_session, scenario, candidates, terms)
+    ctx.model.Add(ctx.assign[(MECHANICAL_STATICS_DYNAMICS_COURSE_ID, terms[0].term_id)] == 1)
+    status, _ = _solve(ctx)
+    assert status == cp_model.INFEASIBLE
 
 
 def test_program_membership_prerequisite_uses_selected_scenario_programs(db_session):

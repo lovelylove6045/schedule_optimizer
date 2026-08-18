@@ -28,7 +28,7 @@ export type RuleOperator = "ALL" | "ANY" | "N_OF" | "CREDITS_FROM" | "UNITS_FROM
 
 export type RequisiteType = "PREREQUISITE" | "COREQUISITE" | "PRE_OR_COREQUISITE" | "RECOMMENDED"
 
-export type CourseRuleNodeType = "GROUP" | "COURSE" | "COURSE_GROUP" | "STANDING" | "EXAM" | "CONSENT"
+export type CourseRuleNodeType = "GROUP" | "COURSE" | "COURSE_GROUP" | "STANDING" | "EXAM" | "CONSENT" | "OTHER" | "PROGRAM_MEMBERSHIP" | "SUBJECT_LEVEL" | "CREDIT_HOURS"
 
 export interface CourseOut {
   course_id: number
@@ -36,6 +36,7 @@ export interface CourseOut {
   subject_code: string
   course_number: string
   course_title: string
+  course_description: string | null
   credit_hours: number
   course_level: number
   fall_offered: boolean
