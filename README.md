@@ -1,138 +1,157 @@
-# Schedule-Optimizer
-Stellic Pathfinder Challenge - Schedule Optimizer Project for Degree Audits
+# Schedule Optimizer
 
-This is the platform used for the degree optimization for normal degree audits.
+Schedule Optimizer is a degree-planning prototype that builds prerequisite-aware,
+multi-term course schedules from a student's selected major, additional programs,
+completed coursework, credit limits, and planning priorities.
 
-> **Prototype catalog scope:** Missouri S&T FA26 / 2026 only. Planning terms may
-> extend into later calendar years, but every academic rule is interpreted from
-> this single snapshot. This is a planning aid, not an official degree audit.
+> **Catalog scope:** The included data is the Missouri S&T FA26 / 2026 catalog
+> snapshot. Plans can extend into later calendar years, but their requirements and
+> course rules still come from that snapshot. This is a planning aid, not an official
+> degree audit; students should confirm substitutions, approvals, placement results,
+> and graduation requirements with an academic advisor.
 
-## Catalog data pipeline
+## What the application supports
+
+- One primary major plus optional second majors, minors, and emphases.
+- Completed/in-progress coursework, term exclusions, summer planning, and per-term
+  credit limits.
+- Prerequisite, co-requisite, term-offering, duplicate-credit, and degree-credit
+  validation.
+- A recommended plan generated first, without waiting for optional alternatives.
+- On-demand alternative plans for selected goals such as earliest graduation,
+  balanced workload, fewer extra credits, program overlap, or avoiding summer.
+- Simple and detailed schedule views grouped by Fall-start academic year.
+- Requirement coverage, plan comparison, course swapping/moving/adding/removing,
+  and a searchable Courses view for inspecting recognized prerequisites.
+- Direct PDF download of the current schedule view. The exported PDF retains the
+  summary, colors, icons, course cards, and academic-year layout while omitting edit
+  controls.
+
+## Architecture and catalog flow
 
 ```text
-schedule_optimizer_db/*.json
+schedule_optimizer_db/*.json (canonical catalog source)
         |
         v
 db/load_catalog.py
         |
         v
-PostgreSQL
+PostgreSQL 16
         |
         v
-FastAPI services / OR-Tools optimizer
+FastAPI + SQLAlchemy + OR-Tools CP-SAT
         |
         v
-React frontend
+React + TypeScript + Vite
 ```
 
-`schedule_optimizer_db/` is read-only source data. `catalog_scraper/` is a
-historical/offline preparation utility and is not imported, executed, or queried
-by the loader, API, optimizer, or frontend runtime.
+`catalog_scraper/` is a historical/offline preparation utility. The running loader,
+API, optimizer, and frontend do not import or query it.
 
-## Docs
+## Recommended local setup
 
-- [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) — tech stack and system design (local PostgreSQL in Docker + Alembic, FastAPI + OR-Tools backend, React frontend, future Azure container deployment).
-- [`docs/PROJECT_PLAN.md`](docs/PROJECT_PLAN.md) — phase overview and dependency graph against the competition submission deadline.
-- [`docs/PHASES.md`](docs/PHASES.md) — detailed, checkbox-level task breakdown per phase (the day-to-day working checklist).
-- [`db/SUMMARY.md`](db/SUMMARY.md) — what the data-loading pipeline does, in plain language, with examples.
+This option runs PostgreSQL in Docker and runs the backend/frontend directly on the
+host for fast reloads. It is the simplest development setup.
 
-## Setup, from a clean machine
+### Prerequisites
 
-Two supported ways to run this locally — pick whichever fits you (see [Option A](#option-a--natively-on-the-host) vs. [Option B](#option-b--docker-compose) below). Both hit the same code either way; each just reads its own `.env` file (see step 4).
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/) or Docker Engine
+  with the Compose plugin.
+- [Node.js 20+](https://nodejs.org/).
+- [uv](https://docs.astral.sh/uv/) for Python 3.12 and backend dependencies.
 
-This walkthrough is **Option A** (native), in the order you'd actually do it on a brand-new machine: Node.js → Python (via `uv`) → PostgreSQL → migrate → load data → run.
-
-### 1. Install Node.js
-
-Install **Node.js 20+** from [nodejs.org](https://nodejs.org/) (or a version manager like `nvm`/`fnm`). Verify:
+Install `uv` if needed:
 
 ```bash
-node --version   # v20.x or newer
+# macOS/Linux
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Windows PowerShell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+Verify the tools:
+
+```bash
+docker --version
+docker compose version
+node --version
 npm --version
-```
-
-### 2. Install Python (via uv)
-
-The backend uses [**uv**](https://docs.astral.sh/uv/) to manage both the Python interpreter and dependencies — you don't need to separately install Python 3.12 first; `uv sync` (step 5) will download it automatically if it's missing.
-
-- **Windows (PowerShell)**: `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`
-- **macOS / Linux**: `curl -LsSf https://astral.sh/uv/install.sh | sh`
-- **Already have Python + pip?** `pip install uv` (or `pipx install uv`) works too — the standalone installers above are only preferred because they don't require Python to already be installed.
-
-Verify:
-
-```bash
 uv --version
 ```
 
-### 3. Install PostgreSQL — natively, or via Docker
+### 1. Configure local environment files
 
-Pick **one** of these two; both end with a Postgres server reachable at `localhost:5432`.
-
-**3a. Native install** (simplest, no other tooling required):
-
-- **Windows**: [postgresql.org/download/windows](https://www.postgresql.org/download/windows/) (installer includes a service that starts automatically).
-- **macOS**: `brew install postgresql@16 && brew services start postgresql@16`.
-- **Linux**: `sudo apt install postgresql` (or your distro's equivalent), then `sudo systemctl enable --now postgresql`.
-
-Create the database the app expects (matches `POSTGRES_DB` below):
+From the repository root:
 
 ```bash
-psql -U postgres -c "CREATE DATABASE schedule_optimizer;"
-```
-
-**3b. Or install Docker instead** (no native Postgres install at all — a container serves the same role):
-
-1. Install [**Docker Desktop**](https://www.docker.com/products/docker-desktop/) (Windows/macOS) or Docker Engine + Compose plugin (Linux), and make sure it's running.
-2. Verify: `docker --version` and `docker compose version`.
-3. Start just the database container (do this instead of step 3a's `psql` command; the database itself — `schedule_optimizer` — is created automatically from `.env`'s `POSTGRES_DB`):
-
-   ```bash
-   docker compose up -d db
-   ```
-
-Either way, the rest of this walkthrough (steps 4-6) is identical — the backend and its loader scripts don't know or care whether Postgres is native or containerized, only that it's reachable at `localhost:5432`. See [Option B](#option-b--docker-compose) below if you'd rather run the backend itself in a container too, not just the database.
-
-### 4. Configure environment variables
-
-From the repo root:
-
-```bash
-cp .env.example .env                  # Windows: copy .env.example .env
-cp .env.example backend/.env          # Windows: copy .env.example backend\.env
+cp .env.example .env
+cp .env.example backend/.env
 cp frontend/.env.example frontend/.env
 ```
 
-Two separate `.env` files are needed even though their contents start out identical: the repo-root `.env` is what `docker-compose.yml` reads (for the containerized Postgres/backend), while `backend/app/config.py` only reads `backend/.env` (used whenever `uv run ...` is invoked from `backend/`, whether that's the app itself or a one-off script like `db/load_catalog.py`). Keep both in sync if you change a value. Open both and adjust `POSTGRES_USER`/`POSTGRES_PASSWORD` to match your local Postgres install if they differ from the defaults. Leave `frontend/.env` as-is unless the backend runs on a non-default port.
+Windows Command Prompt equivalents:
 
-### 5. Backend: install deps, migrate, load the catalog, run
+```bat
+copy .env.example .env
+copy .env.example backend\.env
+copy frontend\.env.example frontend\.env
+```
+
+The root `.env` is used by Docker Compose. `backend/.env` is used by backend commands
+run from `backend/`. Keep the PostgreSQL database, username, password, host, and port
+consistent between them. The defaults expect:
+
+```dotenv
+POSTGRES_DB=schedule_optimizer
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=changeme
+POSTGRES_HOST=localhost
+POSTGRES_PORT=5432
+```
+
+`frontend/.env` normally remains:
+
+```dotenv
+VITE_API_BASE_URL=http://localhost:8000
+```
+
+Do not commit real database credentials. The local `.env` files are intentionally
+separate from the checked-in examples.
+
+### 2. Start PostgreSQL
+
+```bash
+docker compose up -d db
+docker compose ps
+```
+
+Wait until the `db` service reports healthy before running migrations.
+
+### 3. Install and initialize the backend
 
 ```bash
 cd backend
-uv venv                              # creates the .venv (uv sync below also does this automatically if skipped)
-uv sync                              # installs Python 3.12 (if needed) + all dependencies
-uv run alembic upgrade head          # creates all 28 tables + enum types
-uv run python ../db/seed_terms.py    # generates 36 Fall/Spring/Summer terms through 2038
-uv run python ../db/load_catalog.py  # loads the full real catalog: 2,120 courses, 147 programs, every requirement/prerequisite tree
+uv sync
+uv run alembic upgrade head
+uv run python ../db/seed_terms.py
+uv run python ../db/load_catalog.py
 uv run uvicorn app.main:app --reload
 ```
 
-Both loader scripts are **idempotent** — safe to re-run any time (e.g. after pulling an updated `schedule_optimizer_db/*.json`). The API is now served at `http://localhost:8000` (interactive docs at `http://localhost:8000/docs`, health check at `http://localhost:8000/health`).
+The migration, term seed, and catalog loader must run before the first plan is
+generated. Both data loaders are idempotent and safe to run again after catalog
+updates.
 
-#### Catalog corrections
+The backend is available at:
 
-Make reviewed source-data corrections in the canonical
-`schedule_optimizer_db/*.json` files so clean database builds receive them through
-`load_catalog.py`. When existing installations also need a correction, add a small
-Alembic data migration and have developers run `uv run alembic upgrade head` after
-pulling. Do not rely on a manual PostgreSQL `UPDATE`, because the next catalog load
-could overwrite it and other installations would never receive it.
+- API: `http://localhost:8000`
+- Health check: `http://localhost:8000/health`
+- Interactive API documentation: `http://localhost:8000/docs`
 
-Run the backend test suite any time with `uv run pytest` (runs against the same local database, inside rolled-back transactions — see `backend/tests/conftest.py`).
+### 4. Install and run the frontend
 
-### 6. Frontend: install deps, run
-
-In a second terminal:
+Open a second terminal from the repository root:
 
 ```bash
 cd frontend
@@ -140,106 +159,253 @@ npm install
 npm run dev
 ```
 
-The app runs at `http://localhost:5173` and calls the backend via `VITE_API_BASE_URL` (see `frontend/.env`).
+Open `http://localhost:5173`.
 
-### 7. Verify
+### 5. Verify the installation
 
-- `http://localhost:8000/health` → `{"status": "ok"}`
-- `http://localhost:8000/docs` → full interactive API reference
-- `http://localhost:5173` → the wizard; pick a college, a primary major (e.g. Aerospace Engineering BS), step through to a generated plan.
+1. Confirm `http://localhost:8000/health` returns `{"status":"ok"}`.
+2. Open `http://localhost:5173` and select a college and primary major.
+3. Complete the wizard and generate the recommended plan.
+4. Open **Courses** to inspect a catalog course's recognized prerequisites.
+5. On the results page, use **Generate alternatives** only if comparison plans are
+   wanted, or use **Download PDF** from the Schedule key toolbar.
 
----
+## Day-to-day startup
 
-## Running locally — reference
-
-### Option A — Natively on the host
-
-Prerequisites: a local PostgreSQL server (any recent version) reachable on `localhost:5432`, [uv](https://docs.astral.sh/uv/), Node.js 20+. See the [step-by-step walkthrough above](#setup-from-a-clean-machine) the first time; day-to-day, it's just:
+After the first-time initialization, start these in separate terminals:
 
 ```bash
-cd backend && uv run uvicorn app.main:app --reload
-cd frontend && npm run dev
+# Terminal 1, from the repository root
+docker compose up -d db
+cd backend
+uv run uvicorn app.main:app --reload
 ```
 
-### Option B — Docker Compose
+```bash
+# Terminal 2, from the repository root
+cd frontend
+npm run dev
+```
 
-Prerequisites: [Docker Desktop](https://www.docker.com/products/docker-desktop/), plus `uv` on the host for the one-time migration/data-load step (the `db/` loader scripts aren't baked into the backend image, so they run from the host against the containerized Postgres, which is reachable at `localhost:5432` either way). Since these host-run commands execute from `backend/`, they still read `backend/.env` (see step 4) — `docker compose up -d db` itself reads the repo-root `.env`.
+Stop the database without deleting its data:
 
 ```bash
-docker compose up -d db               # Postgres 16 in a container
+docker compose down
+```
+
+`docker compose down -v` also deletes the PostgreSQL volume and all locally loaded
+data; use it only when a clean database rebuild is intended.
+
+## Alternative ways to run
+
+### Native PostgreSQL
+
+Install a recent PostgreSQL release, create a `schedule_optimizer` database, and put
+the matching credentials in both `.env` and `backend/.env`. The database must be
+reachable at the configured `POSTGRES_HOST` and `POSTGRES_PORT`.
+
+For example, when the local `postgres` role is already configured:
+
+```bash
+psql -U postgres -c "CREATE DATABASE schedule_optimizer;"
+```
+
+Then follow the backend and frontend steps above without running
+`docker compose up -d db`.
+
+### Full Docker Compose stack
+
+The optional frontend container is served at `http://localhost:4173`. Before starting
+the full stack, add that origin to the root `.env` so the containerized backend accepts
+browser requests from it:
+
+```dotenv
+CORS_ALLOW_ORIGINS=http://localhost:5173,http://localhost:4173
+```
+
+The catalog loader scripts are not baked into the backend image, so initialize the
+database once from the host:
+
+```bash
+docker compose up -d db
 cd backend
-uv run alembic upgrade head           # against the containerized Postgres, via localhost:5432
+uv sync
+uv run alembic upgrade head
 uv run python ../db/seed_terms.py
 uv run python ../db/load_catalog.py
 cd ..
-docker compose up -d backend          # backend API in a container, tables already migrated/loaded
-docker compose --profile full up -d   # also builds/serves the frontend container
-docker compose logs -f backend        # tail backend logs
-docker compose down                   # stop containers (keeps the pgdata volume)
-docker compose down -v                # stop containers and wipe the database volume
+docker compose --profile full up -d --build
 ```
 
-If you have a native Postgres service running too, stop one before starting the other — both bind to `localhost:5432` and only one can own the port at a time.
+Useful Docker commands:
 
-See [`docs/PHASES.md`](docs/PHASES.md) for the full build checklist (database schema/Alembic setup is Phase 1).
+```bash
+docker compose ps
+docker compose logs -f backend
+docker compose --profile full logs -f frontend
+docker compose down
+```
 
-## Plan-board edit limits
+## Using generated plans
 
-The plan board supports four validated edits on an already-generated plan, none of which re-run the full optimizer:
+### Recommended and alternative plans
 
-- **Swap** — replace one term's assigned course with an alternative (`POST /plans/{id}/courses/{plan_course_id}/swap`).
-- **Add** — place a brand-new course into a specific term as an extra elective, via the "Add course" search at the bottom of each term column (`POST /plans/{id}/courses`).
-- **Remove** — delete a course from the plan entirely, via the trash icon on its tile (`DELETE /plans/{id}/courses/{plan_course_id}`).
-- **Move** — place an existing course in another term (`POST /plans/{id}/courses/{plan_course_id}/move`).
+The initial run generates only the recommended plan. This keeps the usable result
+available as soon as its ordered optimization stages finish. Alternatives are never
+started automatically.
 
-Every edit triggers whole-plan revalidation and requirement-allocation rebuilding. The backend checks offerings, regular/summer caps, prerequisites and downstream dependents, requirement coverage, node-specific course levels, distinct-subject rules, duplicate credit, and the published degree-credit floor.
+Use **Generate alternatives** in the results header or Compare tab, select only the
+strategies you want, and start the additional solve. Course-prerequisite links are
+temporarily disabled while alternatives are using the optimizer; the recommended
+schedule remains visible. The Compare tab displays its empty-state action until at
+least one alternative exists.
 
-- **Prerequisites** — placing a course whose prerequisite hasn't been completed or already placed in an earlier term of *this same plan* is rejected (e.g. placing MATH 212 requires MATH 191 already sitting in an earlier semester, or on the student's completed-coursework list).
-- **Term credit cap** — every semester has a maximum credit-hour load (a per-term `scenario_terms` override if the scenario set one, otherwise the scenario's own default maximum). An edit that would push that semester over its cap is rejected.
-- **Term offering** — a course only offered in the fall can't be placed into a spring/summer slot.
+### Schedule views and PDF export
 
-These checks live in `backend/app/services/plan_swap_validation.py` and `plan_validation_service.py`. A mandatory course is locked in the UI and direct API attempts that would break validity return `422`.
+The Schedule tab groups Fall, Spring, and optional Summer terms by Fall-start academic
+year. Use **Simple** for compact cards or **Details** for selection explanations.
 
-## Optimization behavior
+**Download PDF** exports whichever view is currently selected. PDF generation happens
+in the browser and may take a few seconds for long schedules. Interactive actions are
+removed from the file, and page breaks prefer academic-year boundaries.
 
-The recommended plan is solved first with ordered lexicographic stages. Each
-achieved higher-priority value is locked before the next selected priority is
-optimized; no weighted approximation is used. A minimum-coursework safeguard
-prevents overlap or department preferences from padding a plan. Alternative
-strategies are generated separately and only when the user requests them.
+### Validated plan edits
 
-Within the minimum-credit result, plan composition follows a strict catalog order:
-the first listed branch of an explicit requirement choice is preferred, remaining
-open degree credits favor higher-level courses from the selected major department,
-and course count breaks any remaining tie. The bounded composition expression
-preserves that ordering while requiring only one solver pass.
+The generated plan supports these edits without re-running the full optimizer:
 
-The optimizer considers `STANDARD` and `SEMINAR` courses by default. Structurally
-mandatory course leaves always enter the candidate set regardless of course type, so
-catalog requirements cannot be blocked by the preference filter. Other Research,
-Internship, Special Problems, Special Topics, and future non-standard alternatives
-enter only when the student explicitly requires, prefers, or fixes one to a term.
-Filtering happens before model construction to keep recommendations consent-safe and
-reduce solve time.
+- **Swap:** replace a course with a valid option for the same requirement.
+- **Move:** move a course to another eligible term.
+- **Add:** add an extra course to a term.
+- **Remove:** remove an unlocked course when the plan remains valid.
 
-Structurally mandatory introductory seminars (1000-level `SEMINAR` courses) are
-placed in their first offered, non-excluded planning term. Higher-level and senior
-seminars retain normal prerequisite-driven placement, so a senior seminar is not
-incorrectly forced into the first year.
+Each edit revalidates term offerings, prerequisites and downstream dependents,
+co-requisites, credit limits, requirement coverage, duplicate credit, and the degree
+credit floor. The API returns `422` when an edit would invalidate the plan.
 
-The shared solver deadline is hard: no new stage or alternative solve starts after
-the budget expires. `OPTIMAL` and `FEASIBLE` are preserved and shown differently.
-Recorded real-catalog regression metrics are in
-[`docs/GOLDEN_SCENARIOS.md`](docs/GOLDEN_SCENARIOS.md).
+## Optimization behavior summary
 
-## Reaching your major's full credit total
+- `STANDARD` and `SEMINAR` courses are available by default.
+- A structurally required course remains eligible regardless of course type.
+- Research, Internship, Special Problems, Special Topics, and other non-standard
+  courses enter optimization only when explicitly required or selected.
+- Required introductory seminars are placed in their earliest available planning
+  term; later seminars follow normal prerequisite sequencing.
+- Explicit catalog choices prefer their listed order. For example, when a requirement
+  lists MATH 1214 before MATH 1211, the first branch is preferred when feasible.
+- Open degree credits prefer eligible higher-level courses from the selected major's
+  department before unrelated courses; course count breaks the remaining tie.
+- Multiple selected programs are solved together in one shared model so common
+  courses can satisfy compatible requirements across programs.
+- Primary objectives are solved and locked lexicographically. The optimizer preserves
+  whether each stage was proven `OPTIMAL` or only found `FEASIBLE` within the shared
+  time limit.
 
-A degree's requirement tree only lists *named* requirements (core courses, gen-ed groups, specific elective slots) — on their own, those can add up to a bit less than the program's officially published `total_credit_hours` (e.g. a real Aerospace BS catalog entry: 128 total, but its named requirements alone only guaranteed 126). Since Screen 6's credit-load step, every generated plan enforces a hard floor: total assigned credit hours (net of whatever the student already completed) must reach at least the highest published total among the scenario's major-level programs (`PRIMARY_MAJOR`/`SECOND_MAJOR` — a minor doesn't have its own separate graduation total). The solver satisfies this by picking a few extra electives from the same groups it was already choosing from, not by inventing new requirements.
+The program's published `total_credit_hours` is enforced by default. Named requirement
+nodes do not always add up to that published total, so the optimizer may add courses
+classified as **Open degree credits**. Disable `enforce_program_credit_minimum` in the
+scenario only when intentionally testing a plan without that floor.
 
-This is on by default (`enforce_program_credit_minimum`) and is a per-scenario toggle right alongside the min/max credits and "allow summer" switches, in case a scenario's candidate pool genuinely has no slack to pad the gap with — turning it off is also the first thing an infeasible-plan message suggests trying. See `backend/app/services/optimizer_model.py::_add_program_credit_floor_constraint` and `backend/app/services/optimizer_candidates.py::_resolve_credit_floor_remaining`.
+## Catalog updates and database migrations
 
-## Overlap suggestions after generating (and after swapping/adding/removing)
+Make reviewed catalog corrections in `schedule_optimizer_db/*.json`, which is the
+canonical source for clean installations. Then reload the catalog:
 
-Once a scenario has a generated plan, the results page shows a "More overlap with your major?" panel (same idea as the wizard's Screen 4 suggestions) listing minors/second majors that reuse most of the primary major's own courses, ranked by `program_overlap_service`'s `overlap_ratio`. It stays visible across every plan-board edit and tab, so it's just as available right after generating as it is after a swap, add, or remove. Accepting a suggestion calls `POST /scenarios/{id}/programs` to add it to the scenario, then re-runs the optimizer so the new program's requirements are actually reflected in the plan.
+```bash
+cd backend
+uv run python ../db/load_catalog.py
+```
 
-Link for Claude AI Usage Check: https://platform.claude.com/dashboard
+If an existing database also needs a data correction, include an Alembic data
+migration and run:
+
+```bash
+cd backend
+uv run alembic upgrade head
+```
+
+For example, the included FR ENG 1100 correction is stored in `courses.json` and an
+Alembic migration so both clean databases and previously loaded databases classify it
+as `SEMINAR`. Avoid relying on manual PostgreSQL `UPDATE` statements because other
+clones will not receive them and a later catalog reload can overwrite them.
+
+After pulling repository changes, the safe refresh sequence is:
+
+```bash
+cd backend
+uv sync
+uv run alembic upgrade head
+uv run python ../db/seed_terms.py
+uv run python ../db/load_catalog.py
+cd ../frontend
+npm install
+```
+
+## Tests and production checks
+
+The backend tests use the configured local PostgreSQL database and roll test changes
+back after each test:
+
+```bash
+cd backend
+uv run pytest
+```
+
+Frontend checks:
+
+```bash
+cd frontend
+npm run lint
+npm run build
+npm audit --omit=dev
+```
+
+## Troubleshooting
+
+### The frontend cannot reach the backend or reports CORS
+
+- Confirm `http://localhost:8000/health` works first.
+- Confirm `frontend/.env` points to the backend with
+  `VITE_API_BASE_URL=http://localhost:8000`.
+- Restart `npm run dev` after changing `frontend/.env`.
+- Add the exact frontend origin to `CORS_ALLOW_ORIGINS` in `backend/.env` for native
+  backend runs, or root `.env` for Docker backend runs.
+- Private-LAN addresses on port `5173` are accepted by the default regex. For access
+  from another device, run Uvicorn with `--host 0.0.0.0` and set
+  `VITE_API_BASE_URL` to the host computer's LAN address, not `localhost`.
+
+### PostgreSQL connection fails
+
+- Run `docker compose ps` and confirm the database is healthy.
+- Check that only one service owns port `5432`; native PostgreSQL and Docker cannot
+  both bind the same host port.
+- Confirm the credentials and port in `.env` and `backend/.env` match the database.
+
+### Colleges/programs/courses are empty
+
+Run the migration, term seed, and catalog loader again from `backend/`:
+
+```bash
+uv run alembic upgrade head
+uv run python ../db/seed_terms.py
+uv run python ../db/load_catalog.py
+```
+
+### Optimization takes longer for multiple programs
+
+Multiple majors/minors increase the shared candidate and constraint set. Leave the
+optimization dialog open; its stage indicator continues updating. Generate alternative
+strategies only when needed, and select only the strategies you intend to compare.
+
+### PDF generation appears paused
+
+Long detailed schedules require a larger browser capture. Keep the results tab open
+until **Preparing PDF...** finishes. If the browser blocks downloads, allow downloads
+for the local site and try again.
+
+## Additional documentation
+
+- [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) - system design and deployment direction.
+- [`docs/PROJECT_PLAN.md`](docs/PROJECT_PLAN.md) - project phases and dependencies.
+- [`docs/PHASES.md`](docs/PHASES.md) - detailed implementation checklist.
+- [`docs/GOLDEN_SCENARIOS.md`](docs/GOLDEN_SCENARIOS.md) - recorded optimizer regression scenarios.
+- [`db/SUMMARY.md`](db/SUMMARY.md) - catalog-loading behavior and examples.
