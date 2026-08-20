@@ -242,6 +242,483 @@
   .optimization-activity {
     animation: optimization-activity-pulse 2.2s ease-in-out infinite;
   }
+
+  .pathfinder-intro {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    min-height: 100svh;
+    overflow: hidden auto;
+    color: var(--foreground);
+    background: var(--background);
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0);
+    transition: opacity 420ms ease, transform 420ms ease, filter 420ms ease;
+    isolation: isolate;
+  }
+
+  .pathfinder-intro-exiting {
+    pointer-events: none;
+    opacity: 0;
+    transform: scale(1.012);
+    filter: blur(8px);
+  }
+
+  .pathfinder-intro-aurora {
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+    background:
+      radial-gradient(46rem 34rem at 8% 4%, color-mix(in oklch, var(--aurora-1) 72%, transparent), transparent 66%),
+      radial-gradient(42rem 30rem at 93% 7%, color-mix(in oklch, var(--aurora-2) 65%, transparent), transparent 65%),
+      radial-gradient(50rem 30rem at 50% 112%, color-mix(in oklch, var(--aurora-3) 62%, transparent), transparent 68%);
+    animation: pathfinder-intro-aurora-breathe 9s ease-in-out both;
+  }
+
+  .pathfinder-intro-grid {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    opacity: 0.38;
+    background-image:
+      linear-gradient(to right, color-mix(in oklch, var(--primary) 7%, transparent) 1px, transparent 1px),
+      linear-gradient(to bottom, color-mix(in oklch, var(--primary) 7%, transparent) 1px, transparent 1px);
+    background-size: 3.5rem 3.5rem;
+    mask-image: radial-gradient(ellipse 68% 68% at center, black 8%, transparent 76%);
+  }
+
+  .pathfinder-intro-brand {
+    position: fixed;
+    top: clamp(1.25rem, 3vw, 2.25rem);
+    left: clamp(1.25rem, 4vw, 4rem);
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    color: var(--muted-foreground);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    animation: pathfinder-intro-chrome-in 700ms 180ms ease both;
+  }
+
+  .pathfinder-intro-brand-mark {
+    display: inline-flex;
+    width: 2rem;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.65rem;
+    color: var(--primary-foreground);
+    background: var(--primary);
+    box-shadow: 0 8px 24px -12px color-mix(in oklch, var(--primary) 70%, transparent);
+  }
+
+  .pathfinder-intro-brand-mark svg {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .pathfinder-intro-stage-frame {
+    position: relative;
+    display: grid;
+    min-height: 100svh;
+    place-items: center;
+    padding: clamp(5.5rem, 10vh, 7rem) clamp(1.25rem, 5vw, 5rem) clamp(7rem, 14vh, 9rem);
+  }
+
+  .pathfinder-intro-stage {
+    grid-area: 1 / 1;
+    width: min(100%, 70rem);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(1.1rem) scale(0.99);
+    filter: blur(10px);
+    transition:
+      opacity 520ms ease,
+      transform 620ms cubic-bezier(0.22, 1, 0.36, 1),
+      filter 520ms ease,
+      visibility 0s linear 620ms;
+  }
+
+  .pathfinder-intro-stage-active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+    transition-delay: 90ms;
+  }
+
+  .pathfinder-intro-stage-past {
+    transform: translateY(-1rem) scale(1.008);
+  }
+
+  .pathfinder-intro-copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .pathfinder-intro-copy h1,
+  .pathfinder-intro-copy h2 {
+    max-width: 60rem;
+    text-wrap: balance;
+    font-weight: 800;
+    letter-spacing: -0.035em;
+    line-height: 1.04;
+  }
+
+  .pathfinder-intro-copy h1 {
+    font-size: clamp(3rem, 7vw, 5.8rem);
+  }
+
+  .pathfinder-intro-copy h2 {
+    font-size: clamp(2.15rem, 5vw, 4.3rem);
+  }
+
+  .pathfinder-intro-copy > p:not(.pathfinder-intro-eyebrow) {
+    max-width: 49rem;
+    margin-top: 1.15rem;
+    color: var(--muted-foreground);
+    font-size: clamp(1rem, 1.8vw, 1.35rem);
+    line-height: 1.55;
+    text-wrap: balance;
+  }
+
+  .pathfinder-intro-eyebrow {
+    margin-bottom: 1rem;
+    color: var(--primary);
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+
+  .pathfinder-intro-hero-mark {
+    display: inline-flex;
+    width: clamp(4.4rem, 7vw, 5.8rem);
+    height: clamp(4.4rem, 7vw, 5.8rem);
+    margin-bottom: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid color-mix(in oklch, var(--primary) 22%, transparent);
+    border-radius: 1.45rem;
+    color: var(--primary-foreground);
+    background: var(--primary);
+    box-shadow:
+      0 22px 50px -26px color-mix(in oklch, var(--primary) 80%, transparent),
+      0 0 0 0.65rem color-mix(in oklch, var(--primary) 6%, transparent);
+    opacity: 0;
+  }
+
+  .pathfinder-intro-stage-active .pathfinder-intro-hero-mark {
+    animation: pathfinder-intro-mark-arrive 850ms 120ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .pathfinder-intro-hero-mark svg {
+    width: 48%;
+    height: 48%;
+  }
+
+  .pathfinder-intro-prototype-note {
+    margin-top: 1.35rem;
+    color: var(--muted-foreground);
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .pathfinder-intro-flow-stage {
+    width: min(100%, 78rem);
+  }
+
+  .pathfinder-intro-flow {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pathfinder-intro-flow-heading {
+    text-align: center;
+  }
+
+  .pathfinder-intro-flow-heading h2 {
+    max-width: 55rem;
+    font-size: clamp(2.25rem, 4.6vw, 4rem);
+    font-weight: 800;
+    letter-spacing: -0.035em;
+    line-height: 1.04;
+    text-wrap: balance;
+  }
+
+  .pathfinder-intro-flow-heading > p:last-child {
+    margin-top: 0.8rem;
+    color: var(--muted-foreground);
+    font-size: clamp(1rem, 1.6vw, 1.2rem);
+  }
+
+  .pathfinder-intro-flow-track {
+    display: grid;
+    width: 100%;
+    margin-top: clamp(1.5rem, 4vh, 2.8rem);
+    grid-template-columns: minmax(12rem, 1fr) 3.5rem minmax(15rem, 1.2fr) 3.5rem minmax(12rem, 1fr);
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+
+  .pathfinder-intro-flow-card {
+    display: flex;
+    min-height: 13.25rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    border: 1px solid color-mix(in oklch, var(--primary) 15%, transparent);
+    border-radius: 1.25rem;
+    background: color-mix(in oklch, var(--background) 78%, transparent);
+    box-shadow: 0 22px 48px -36px color-mix(in oklch, var(--primary) 72%, transparent);
+    text-align: center;
+    backdrop-filter: blur(14px);
+  }
+
+  .pathfinder-intro-flow-label {
+    color: var(--primary);
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .pathfinder-intro-flow-input-grid {
+    display: grid;
+    width: 100%;
+    margin-top: 1rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.55rem;
+  }
+
+  .pathfinder-intro-flow-input-grid span {
+    display: flex;
+    min-height: 3.3rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    color: var(--muted-foreground);
+    background: color-mix(in oklch, var(--muted) 60%, transparent);
+    font-size: 0.7rem;
+    font-weight: 700;
+  }
+
+  .pathfinder-intro-flow-input-grid svg {
+    width: 1rem;
+    height: 1rem;
+    color: var(--primary);
+  }
+
+  .pathfinder-intro-flow-connector {
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transform: scaleX(0.6);
+    transition: opacity 500ms ease, transform 650ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .pathfinder-intro-flow-connector span {
+    height: 1px;
+    flex: 1;
+    background: linear-gradient(to right, color-mix(in oklch, var(--primary) 18%, transparent), var(--primary));
+  }
+
+  .pathfinder-intro-flow-connector svg {
+    width: 1rem;
+    height: 1rem;
+    color: var(--primary);
+  }
+
+  .pathfinder-intro-engine-card,
+  .pathfinder-intro-result-card,
+  .pathfinder-intro-constraint-row {
+    opacity: 0;
+    transform: translateY(0.75rem) scale(0.97);
+    filter: blur(8px);
+    transition:
+      opacity 600ms ease,
+      transform 700ms cubic-bezier(0.22, 1, 0.36, 1),
+      filter 600ms ease,
+      border-color 500ms ease,
+      box-shadow 500ms ease;
+  }
+
+  .pathfinder-intro-revealed {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+
+  .pathfinder-intro-engine-card {
+    border-color: color-mix(in oklch, var(--primary) 28%, transparent);
+    background: color-mix(in oklch, var(--primary) 5%, var(--background));
+  }
+
+  .pathfinder-intro-engine-expanded {
+    border-color: color-mix(in oklch, var(--primary) 46%, transparent);
+    box-shadow: 0 24px 52px -30px color-mix(in oklch, var(--primary) 58%, transparent);
+  }
+
+  .pathfinder-intro-engine-icon,
+  .pathfinder-intro-result-icon {
+    display: inline-flex;
+    width: 3.15rem;
+    height: 3.15rem;
+    margin-bottom: 0.9rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.95rem;
+    color: var(--primary-foreground);
+    background: var(--primary);
+    box-shadow: 0 14px 30px -20px color-mix(in oklch, var(--primary) 75%, transparent);
+  }
+
+  .pathfinder-intro-engine-icon svg,
+  .pathfinder-intro-result-icon svg {
+    width: 1.35rem;
+    height: 1.35rem;
+  }
+
+  .pathfinder-intro-engine-card h3,
+  .pathfinder-intro-result-card h3 {
+    margin-top: 0.55rem;
+    font-size: clamp(1.1rem, 1.8vw, 1.45rem);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    text-wrap: balance;
+  }
+
+  .pathfinder-intro-engine-card > p {
+    max-width: 18rem;
+    margin-top: 0.65rem;
+    color: var(--muted-foreground);
+    font-size: 0.78rem;
+    line-height: 1.45;
+  }
+
+  .pathfinder-intro-constraint-row {
+    display: grid;
+    width: min(100%, 55rem);
+    min-height: 3.6rem;
+    margin-top: 1rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.5rem;
+  }
+
+  .pathfinder-intro-constraint-row > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    padding: 0.65rem 0.55rem;
+    border: 1px solid color-mix(in oklch, var(--primary) 14%, transparent);
+    border-radius: 999px;
+    color: var(--primary);
+    background: color-mix(in oklch, var(--background) 76%, transparent);
+    font-size: 0.7rem;
+    font-weight: 750;
+    backdrop-filter: blur(12px);
+  }
+
+  .pathfinder-intro-constraint-row svg {
+    width: 0.95rem;
+    height: 0.95rem;
+    flex: 0 0 auto;
+  }
+
+  .pathfinder-intro-result-card {
+    border-color: color-mix(in oklch, var(--success) 30%, transparent);
+    background: color-mix(in oklch, var(--success) 6%, var(--background));
+  }
+
+  .pathfinder-intro-result-icon {
+    color: white;
+    background: var(--success);
+    box-shadow: 0 14px 30px -20px color-mix(in oklch, var(--success) 75%, transparent);
+  }
+
+  .pathfinder-intro-result-card .pathfinder-intro-flow-label {
+    color: var(--success);
+  }
+
+  .pathfinder-intro-result-card .pathfinder-intro-prototype-note {
+    display: flex;
+    margin-top: 0.9rem;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  .pathfinder-intro-result-card .pathfinder-intro-prototype-note svg {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+
+  .pathfinder-intro-progress {
+    position: fixed;
+    bottom: max(1.45rem, env(safe-area-inset-bottom));
+    left: 50%;
+    display: flex;
+    width: min(20rem, calc(100vw - 11rem));
+    flex-direction: column;
+    gap: 0.45rem;
+    color: var(--muted-foreground);
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.11em;
+    text-align: center;
+    text-transform: uppercase;
+    transform: translateX(-50%);
+    animation: pathfinder-intro-chrome-in 700ms 350ms ease both;
+  }
+
+  .pathfinder-intro-progress-track {
+    height: 2px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: color-mix(in oklch, var(--primary) 12%, transparent);
+  }
+
+  .pathfinder-intro-progress-track span {
+    display: block;
+    width: var(--intro-progress);
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(to right, var(--primary), var(--gold));
+    transition: width 450ms ease;
+  }
+
+  .pathfinder-intro-skip {
+    position: fixed;
+    right: clamp(1rem, 3vw, 2.25rem);
+    bottom: max(1rem, env(safe-area-inset-bottom));
+    z-index: 2;
+    min-height: 2.5rem;
+    padding-inline: 0.9rem;
+    color: var(--muted-foreground);
+    background: color-mix(in oklch, var(--background) 64%, transparent);
+    border: 1px solid color-mix(in oklch, var(--primary) 12%, transparent);
+    backdrop-filter: blur(14px);
+    animation: pathfinder-intro-chrome-in 700ms 350ms ease both;
+  }
+
+  .pathfinder-intro-skip:hover {
+    color: var(--foreground);
+    background: color-mix(in oklch, var(--background) 86%, transparent);
+  }
 }
 
 @keyframes optimization-pattern-drift {
@@ -273,6 +750,150 @@
   }
 }
 
+@keyframes pathfinder-intro-chrome-in {
+  from { opacity: 0; transform: translateY(-0.4rem); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pathfinder-intro-aurora-breathe {
+  0% { opacity: 0.7; transform: scale(1); }
+  55% { opacity: 1; transform: scale(1.025); }
+  100% { opacity: 0.82; transform: scale(1.01); }
+}
+
+@keyframes pathfinder-intro-mark-arrive {
+  from { opacity: 0; transform: translateY(0.8rem) scale(0.9); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@media (max-width: 720px) {
+  .pathfinder-intro-brand {
+    max-width: calc(100vw - 2.5rem);
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+  }
+  .pathfinder-intro-stage-frame {
+    padding-inline: 1rem;
+  }
+  .pathfinder-intro-copy h1 {
+    font-size: clamp(2.7rem, 14vw, 4rem);
+  }
+  .pathfinder-intro-copy h2 {
+    font-size: clamp(2rem, 9vw, 3rem);
+  }
+  .pathfinder-intro-flow-heading h2 {
+    font-size: clamp(1.9rem, 8.5vw, 2.7rem);
+  }
+  .pathfinder-intro-flow-track {
+    width: min(100%, 25rem);
+    margin-top: 1.25rem;
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+  }
+  .pathfinder-intro-flow-card {
+    min-height: 7.5rem;
+    padding: 0.9rem;
+  }
+  .pathfinder-intro-flow-input-grid {
+    margin-top: 0.65rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.3rem;
+  }
+  .pathfinder-intro-flow-input-grid span {
+    min-height: 2.8rem;
+    padding: 0.3rem;
+    font-size: 0.58rem;
+  }
+  .pathfinder-intro-flow-connector {
+    width: 100%;
+    height: 1.6rem;
+    flex-direction: column;
+    transform: translateY(-0.25rem) scaleY(0.6);
+  }
+  .pathfinder-intro-flow-connector.pathfinder-intro-revealed {
+    transform: none;
+  }
+  .pathfinder-intro-flow-connector span {
+    width: 1px;
+    background: linear-gradient(to bottom, color-mix(in oklch, var(--primary) 18%, transparent), var(--primary));
+  }
+  .pathfinder-intro-flow-connector svg {
+    transform: rotate(90deg);
+  }
+  .pathfinder-intro-engine-icon,
+  .pathfinder-intro-result-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-bottom: 0.45rem;
+  }
+  .pathfinder-intro-engine-card > p {
+    display: none;
+  }
+  .pathfinder-intro-constraint-row {
+    width: min(100%, 25rem);
+    margin-top: 0.65rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.35rem;
+  }
+  .pathfinder-intro-constraint-row > span {
+    padding: 0.45rem;
+    font-size: 0.62rem;
+  }
+  .pathfinder-intro-progress {
+    right: auto;
+    bottom: max(4.5rem, calc(env(safe-area-inset-bottom) + 3.5rem));
+    width: min(18rem, calc(100vw - 2rem));
+  }
+  .pathfinder-intro-skip {
+    right: 1rem;
+    bottom: max(0.85rem, env(safe-area-inset-bottom));
+  }
+}
+
+@media (max-height: 700px) {
+  .pathfinder-intro-stage-frame {
+    padding-top: 4.5rem;
+    padding-bottom: 6.5rem;
+  }
+  .pathfinder-intro-brand {
+    top: 0.8rem;
+  }
+  .pathfinder-intro-hero-mark {
+    width: 3.8rem;
+    height: 3.8rem;
+    margin-bottom: 1rem;
+  }
+  .pathfinder-intro-copy > p:not(.pathfinder-intro-eyebrow) {
+    margin-top: 0.7rem;
+  }
+  .pathfinder-intro-flow-heading h2 {
+    font-size: clamp(1.9rem, 5vw, 2.6rem);
+  }
+  .pathfinder-intro-flow-track {
+    margin-top: 1rem;
+  }
+  .pathfinder-intro-flow-card {
+    min-height: 10rem;
+  }
+  .pathfinder-intro-constraint-row {
+    min-height: 3rem;
+    margin-top: 0.55rem;
+  }
+}
+
+@media (max-width: 720px) and (max-height: 700px) {
+  .pathfinder-intro-stage-frame {
+    padding-top: 4.25rem;
+    padding-bottom: 6rem;
+  }
+  .pathfinder-intro-flow-heading > p:last-child {
+    display: none;
+  }
+  .pathfinder-intro-flow-card {
+    min-height: 7rem;
+  }
+}
+
 /* Respect a user's reduced-motion preference for the hover lift. */
 @media (prefers-reduced-motion: reduce) {
   .glass-interactive,
@@ -284,5 +905,34 @@
   .optimization-progress-sweep,
   .optimization-activity {
     animation: none;
+  }
+  .pathfinder-intro,
+  .pathfinder-intro-stage,
+  .pathfinder-intro-progress-track span,
+  .pathfinder-intro-flow-connector,
+  .pathfinder-intro-engine-card,
+  .pathfinder-intro-result-card,
+  .pathfinder-intro-constraint-row {
+    transition-duration: 120ms;
+  }
+  .pathfinder-intro-aurora,
+  .pathfinder-intro-brand,
+  .pathfinder-intro-hero-mark,
+  .pathfinder-intro-progress,
+  .pathfinder-intro-skip {
+    animation: none;
+  }
+  .pathfinder-intro-stage {
+    transform: none;
+    filter: none;
+  }
+  .pathfinder-intro-stage-active .pathfinder-intro-hero-mark {
+    opacity: 1;
+    transform: none;
+  }
+  .pathfinder-intro-brand,
+  .pathfinder-intro-progress,
+  .pathfinder-intro-skip {
+    opacity: 1;
   }
 }

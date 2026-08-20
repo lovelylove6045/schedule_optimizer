@@ -65,7 +65,7 @@ export function AppShell({ children }: AppShellProps) {
           ) : null}
         </div>
       </header>
-      <main className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-10">{children}</main>
+      <main data-app-main tabIndex={-1} className="mx-auto max-w-6xl px-4 py-6 outline-none sm:px-6 sm:py-10">{children}</main>
     </div>
   )
 }
